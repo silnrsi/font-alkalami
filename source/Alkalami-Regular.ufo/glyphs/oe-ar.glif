@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oe-ar" format="1">
+  <advance width="481"/>
+  <unicode hex="06C6"/>
+  <outline>
+    <component base="waw-ar"/>
+    <component base="vabove-ar" xOffset="12" yOffset="-54"/>
+    <contour>
+      <point x="329" y="-222" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="162" y="604" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

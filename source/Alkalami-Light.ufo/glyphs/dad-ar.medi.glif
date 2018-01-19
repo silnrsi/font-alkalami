@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dad-ar.medi" format="1">
+  <advance width="761"/>
+  <unicode hex="FEC0"/>
+  <outline>
+    <component base="sad-ar.medi"/>
+    <component base="dotabove-ar" xOffset="289" yOffset="96"/>
+    <contour>
+      <point x="380" y="-30" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="400" y="615" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

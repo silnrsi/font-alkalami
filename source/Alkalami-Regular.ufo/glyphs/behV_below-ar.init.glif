@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="behVbelow-ar.init" format="1">
+  <advance width="339"/>
+  <outline>
+    <component base="behDotless-ar.init"/>
+    <component base="vabove-ar" xOffset="22" yOffset="-709"/>
+    <contour>
+      <point x="171" y="-257" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="174" y="282" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>vabove-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

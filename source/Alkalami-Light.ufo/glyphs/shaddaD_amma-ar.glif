@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shaddaDamma-ar" format="1">
+  <advance width="279"/>
+  <outline>
+    <component base="shadda-ar" xOffset="16"/>
+    <component base="damma-ar" xOffset="4" yOffset="203"/>
+    <contour>
+      <point x="138" y="546" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="133" y="943" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

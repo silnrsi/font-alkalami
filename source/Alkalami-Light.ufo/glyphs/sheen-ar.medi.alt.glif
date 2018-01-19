@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sheen-ar.medi.alt" format="1">
+  <advance width="466"/>
+  <outline>
+    <component base="seen-ar.medi.alt"/>
+    <component base="threedotsupabove-ar" xOffset="56" yOffset="158"/>
+    <contour>
+      <point x="231" y="-30" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="216" y="778" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

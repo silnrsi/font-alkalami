@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehTwodotsbelowHamzaabove-ar.medi" format="1">
+  <advance width="289"/>
+  <outline>
+    <component base="yeh-ar.medi"/>
+    <component base="hamzaabove-ar" xOffset="35" yOffset="-211"/>
+    <contour>
+      <point x="109" y="-210" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="127" y="500" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

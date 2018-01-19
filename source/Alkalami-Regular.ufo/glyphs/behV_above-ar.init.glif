@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="behVabove-ar.init" format="1">
+  <advance width="339"/>
+  <outline>
+    <component base="behDotless-ar.init"/>
+    <component base="vabove-ar" xOffset="68" yOffset="-172"/>
+    <contour>
+      <point x="155" y="-50" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="176" y="492" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

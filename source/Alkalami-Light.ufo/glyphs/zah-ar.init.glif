@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zah-ar.init" format="1">
+  <advance width="759"/>
+  <unicode hex="FEC7"/>
+  <outline>
+    <component base="tah-ar.init"/>
+    <component base="dotabove-ar" xOffset="282" yOffset="86"/>
+    <contour>
+      <point x="408" y="-30" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="388" y="585" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehHamzaabove-ar.medi" format="1">
+  <advance width="289"/>
+  <unicode hex="FE8C"/>
+  <outline>
+    <component base="hamzaabove-ar" xOffset="52" yOffset="-194"/>
+    <component base="behDotless-ar.medi"/>
+    <contour>
+      <point x="177" y="-30" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="127" y="500" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

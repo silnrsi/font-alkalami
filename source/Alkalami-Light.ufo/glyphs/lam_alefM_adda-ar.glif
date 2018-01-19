@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lam_alefMadda-ar" format="1">
+  <advance width="445"/>
+  <unicode hex="FEF5"/>
+  <outline>
+    <component base="lam_alef-ar"/>
+    <component base="madda-ar" xOffset="-80"/>
+    <contour>
+      <point x="362" y="-30" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="99" y="-30" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="237" y="0" type="move" name="caret_1"/>
+    </contour>
+    <contour>
+      <point x="304" y="664" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="66" y="731" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>lam_alef-ar</string>
+    </dict>
+  </lib>
+</glyph>

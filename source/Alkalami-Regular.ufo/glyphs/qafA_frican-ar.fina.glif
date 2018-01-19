@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafAfrican-ar.fina" format="1">
+  <advance width="589"/>
+  <outline>
+    <component base="qafDotabove-ar.fina.ss01"/>
+    <contour>
+      <point x="514" y="-134" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="212" y="374" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noonTwodotsbelow-ar.alt" format="1">
+  <advance width="240"/>
+  <outline>
+    <component base="noonghunna-ar.alt"/>
+    <component base="dotabove-ar" xOffset="11" yOffset="15"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="-572" yOffset="-296"/>
+    <contour>
+      <point x="120" y="-218" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="122" y="299" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>twodotshorizontalbelow-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

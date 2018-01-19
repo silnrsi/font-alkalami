@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ain-ar.init" format="1">
+  <advance width="503"/>
+  <unicode hex="FECB"/>
+  <outline>
+    <contour>
+      <point x="-20" y="90" type="line"/>
+      <point x="-20" y="0" type="line"/>
+      <point x="39" y="0"/>
+      <point x="391" y="0"/>
+      <point x="458" y="0" type="curve"/>
+      <point x="456" y="51"/>
+      <point x="442" y="90"/>
+      <point x="426" y="90" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="235" y="250" type="curve" smooth="yes"/>
+      <point x="289" y="250"/>
+      <point x="351" y="247"/>
+      <point x="427" y="235" type="curve"/>
+      <point x="427" y="278"/>
+      <point x="406" y="330"/>
+      <point x="385" y="332" type="curve" smooth="yes"/>
+      <point x="329" y="338"/>
+      <point x="253" y="340"/>
+      <point x="195" y="337" type="curve" smooth="yes"/>
+      <point x="142" y="334"/>
+      <point x="98" y="324"/>
+      <point x="98" y="279" type="curve" smooth="yes"/>
+      <point x="98" y="243"/>
+      <point x="104" y="219"/>
+      <point x="130" y="121" type="curve" smooth="yes"/>
+      <point x="137" y="94"/>
+      <point x="139" y="90"/>
+      <point x="96" y="90" type="curve"/>
+      <point x="132" y="63" type="line"/>
+      <point x="173" y="53" type="line"/>
+      <point x="230" y="90" type="line"/>
+      <point x="207" y="90"/>
+      <point x="196" y="108"/>
+      <point x="188" y="168" type="curve" smooth="yes"/>
+      <point x="178" y="239"/>
+      <point x="187" y="250"/>
+    </contour>
+    <contour>
+      <point x="271" y="-30" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="261" y="359" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

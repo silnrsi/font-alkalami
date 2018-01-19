@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="twodotshorizontalbelow-ar" format="1">
+  <advance width="310"/>
+  <outline>
+    <component base="twodotshorizontalabove-ar" xOffset="20" yOffset="-470"/>
+    <contour>
+      <point x="181" y="-1" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="188" y="-185" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>twodotshorizontalabove-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

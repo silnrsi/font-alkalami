@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kirghizyu-ar.fina" format="1">
+  <advance width="529"/>
+  <unicode hex="FBE3"/>
+  <outline>
+    <component base="waw-ar.fina"/>
+    <component base="vinvertedabove-ar" xOffset="33" yOffset="-25"/>
+    <contour>
+      <point x="329" y="-222" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="211" y="660" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

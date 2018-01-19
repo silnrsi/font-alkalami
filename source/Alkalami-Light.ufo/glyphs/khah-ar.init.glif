@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="khah-ar.init" format="1">
+  <advance width="593"/>
+  <unicode hex="FEA7"/>
+  <outline>
+    <component base="hah-ar.init"/>
+    <component base="dotabove-ar" xOffset="163" yOffset="39"/>
+    <contour>
+      <point x="281" y="-30" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="269" y="553" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

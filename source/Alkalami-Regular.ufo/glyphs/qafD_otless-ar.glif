@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafDotless-ar" format="1">
+  <advance width="530"/>
+  <unicode hex="066F"/>
+  <outline>
+    <component base="fehDotless-ar"/>
+    <contour>
+      <point x="276" y="-40" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="195" y="578" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

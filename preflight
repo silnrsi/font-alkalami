@@ -1,0 +1,19 @@
+#!/bin/sh
+# Script for calling multiple routines on a project, typically prior to committing to a repository.
+
+psfnormalize -p checkfix=fix source/*-Regular.ufo
+psfnormalize -p checkfix=fix source/*-Light.ufo
+
+# Update glyph orders in Regular and Light:
+psfsetglyphorder --header sort_final,sort_designer --field public.glyphOrder,com.schriftgestaltung.glyphOrder -i source/glyph_data.csv source/*-Regular.ufo
+psfsetglyphorder --header sort_final,sort_designer --field public.glyphOrder,com.schriftgestaltung.glyphOrder -i source/glyph_data.csv source/*-Light.ufo
+
+# Update production names in Regular:
+psfsetpsnames -i source/glyph_data.csv source/*-Regular.ufo
+psfsetpsnames -i source/glyph_data.csv source/*-Light.ufo
+
+#  sync metadata to other UFOs, apply fixes and normalize again
+# psfsyncmeta source/*-Regular.ufo --normalize -p checkfix=fix
+
+# [re-]build woff metadata file
+psfmakewoffmetadata -n Alkalami -i org.sil.fonts source/*-Regular.ufo

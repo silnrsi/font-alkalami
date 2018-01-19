@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Udieresis" format="1">
+  <advance width="721"/>
+  <unicode hex="00DC"/>
+  <outline>
+    <component base="U"/>
+    <component base="dieresis" xOffset="224" yOffset="230"/>
+    <contour>
+      <point x="559" y="9" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="367" y="660" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

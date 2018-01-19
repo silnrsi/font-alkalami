@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Icircumflex" format="1">
+  <advance width="329"/>
+  <unicode hex="00CE"/>
+  <outline>
+    <component base="I"/>
+    <component base="circumflex" xOffset="6" yOffset="230"/>
+    <contour>
+      <point x="247" y="9" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="162" y="660" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafThreedotsabove-ar.fina.ss05" format="1">
+  <advance width="589"/>
+  <outline>
+    <component base="qafDotless-ar.fina"/>
+    <component base="threedots-ar" xOffset="22" yOffset="380"/>
+    <contour>
+      <point x="514" y="-134" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="199" y="630" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedots-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

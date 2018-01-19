@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noonAfrican-ar.fina.alt2" format="1">
+  <advance width="792"/>
+  <outline>
+    <component base="noonghunna-ar.fina"/>
+    <contour>
+      <point x="380" y="-260" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="377" y="297" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

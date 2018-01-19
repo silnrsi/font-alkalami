@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="teh-ar.init" format="1">
+  <advance width="339"/>
+  <unicode hex="FE97"/>
+  <outline>
+    <component base="behDotless-ar.init"/>
+    <component base="twodotshorizontalabove-ar" xOffset="38" yOffset="-13"/>
+    <contour>
+      <point x="142" y="-40" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="175" y="506" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

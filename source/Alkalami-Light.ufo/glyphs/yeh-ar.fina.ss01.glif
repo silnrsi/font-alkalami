@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yeh-ar.fina.ss01" format="1">
+  <advance width="793"/>
+  <outline>
+    <component base="alefMaksura-ar.fina"/>
+    <contour>
+      <point x="633" y="-110" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="440" y="297" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

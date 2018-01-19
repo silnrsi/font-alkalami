@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="threedotsdownbelow-ar" format="1">
+  <advance width="321"/>
+  <outline>
+    <component base="threedotsdownabove-ar" yOffset="-610"/>
+    <contour>
+      <point x="164" y="-10" type="move" name="_bottom"/>
+    </contour>
+  </outline>
+</glyph>

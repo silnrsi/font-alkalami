@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafDotabove-ar" format="1">
+  <advance width="491"/>
+  <unicode hex="06A7"/>
+  <outline>
+    <component base="fehDotless-ar"/>
+    <component base="dotabove-ar" xOffset="35" yOffset="181"/>
+    <contour>
+      <point x="268" y="-30" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="151" y="693" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

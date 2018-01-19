@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sad-ar.alt" format="1">
+  <advance width="1226"/>
+  <outline>
+    <component base="sad-ar"/>
+    <contour>
+      <point x="858" y="-30" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="867" y="424" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

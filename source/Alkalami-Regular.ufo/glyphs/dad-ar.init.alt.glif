@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dad-ar.init.alt" format="1">
+  <advance width="613"/>
+  <outline>
+    <component base="sad-ar.init.alt"/>
+    <component base="dotabove-ar" xOffset="177" yOffset="146"/>
+    <contour>
+      <point x="292" y="-40" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="286" y="670" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yeh-farsi.fina" format="1">
+  <advance width="793"/>
+  <unicode hex="FBFD"/>
+  <outline>
+    <component base="alefMaksura-ar.fina"/>
+    <contour>
+      <point x="633" y="-110" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="444" y="289" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

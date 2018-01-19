@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sheen-ar" format="1">
+  <advance width="1093"/>
+  <unicode hex="0634"/>
+  <outline>
+    <component base="seen-ar"/>
+    <component base="threedotsupabove-ar" xOffset="658" yOffset="14"/>
+    <contour>
+      <point x="858" y="-30" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="823" y="660" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

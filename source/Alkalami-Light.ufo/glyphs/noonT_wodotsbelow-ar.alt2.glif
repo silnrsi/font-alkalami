@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noonTwodotsbelow-ar.alt2" format="1">
+  <advance width="812"/>
+  <outline>
+    <component base="noonghunna-ar"/>
+    <component base="dotabove-ar" xOffset="268" yOffset="-122"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="192" yOffset="-269"/>
+    <contour>
+      <point x="380" y="-463" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="377" y="407" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

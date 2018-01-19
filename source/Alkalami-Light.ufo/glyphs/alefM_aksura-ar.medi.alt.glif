@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefMaksura-ar.medi.alt" format="1">
+  <advance width="207"/>
+  <outline>
+    <component base="behDotless-ar.medi.alt"/>
+    <contour>
+      <point x="89" y="-34" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="40" y="486" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

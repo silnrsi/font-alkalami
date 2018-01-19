@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehThreedotsbelow-ar.init" format="1">
+  <advance width="277"/>
+  <outline>
+    <component base="alefMaksura-ar.init"/>
+    <component base="threedotsdownbelow-ar" xOffset="-82" yOffset="-20"/>
+    <contour>
+      <point x="112" y="304" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

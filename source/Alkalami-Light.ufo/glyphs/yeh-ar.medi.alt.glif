@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yeh-ar.medi.alt" format="1">
+  <advance width="207"/>
+  <outline>
+    <component base="behDotless-ar.medi.alt"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="-92" yOffset="-33"/>
+    <contour>
+      <point x="84" y="-212" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="28" y="489" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

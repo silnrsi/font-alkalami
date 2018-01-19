@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafThreedotsabove-ar.ss05" format="1">
+  <advance width="491"/>
+  <outline>
+    <component base="fehDotless-ar"/>
+    <component base="threedots-ar.small" xOffset="35" yOffset="502"/>
+    <contour>
+      <point x="268" y="-30" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="154" y="740" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

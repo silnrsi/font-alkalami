@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fathatan-ar" format="1">
+  <advance width="297"/>
+  <unicode hex="064B"/>
+  <outline>
+    <component base="fatha-ar" xOffset="40"/>
+    <component base="fatha-ar" xOffset="-1" yOffset="90"/>
+    <contour>
+      <point x="169" y="536" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="125" y="714" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>fatha-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

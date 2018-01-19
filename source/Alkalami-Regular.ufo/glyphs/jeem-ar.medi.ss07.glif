@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jeem-ar.medi.ss07" format="1">
+  <advance width="403"/>
+  <outline>
+    <component base="hah-ar.medi"/>
+    <component base="dotbelow-ar" xOffset="86"/>
+    <contour>
+      <point x="196" y="-260" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="213" y="367" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotbelow-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

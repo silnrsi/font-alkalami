@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hamzabelow-ar" format="1">
+  <advance width="228"/>
+  <unicode hex="0655"/>
+  <outline>
+    <component base="hamzaabove-ar" yOffset="-766"/>
+    <contour>
+      <point x="111" y="-37" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="118" y="-254" type="move" name="bottom"/>
+    </contour>
+  </outline>
+</glyph>

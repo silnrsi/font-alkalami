@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hamzabelowKasratan-ar" format="1">
+  <advance width="229"/>
+  <outline>
+    <component base="hamzabelow-ar" xOffset="40"/>
+    <component base="kasratan-ar" xOffset="-44" yOffset="-120"/>
+    <contour>
+      <point x="118" y="-18" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="78" y="-318" type="move" name="bottom"/>
+    </contour>
+  </outline>
+</glyph>

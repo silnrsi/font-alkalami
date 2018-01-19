@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kasratan-ar" format="1">
+  <advance width="299"/>
+  <unicode hex="064D"/>
+  <outline>
+    <component base="kasra-ar" xOffset="40"/>
+    <component base="kasra-ar" xOffset="2" yOffset="-76"/>
+    <contour>
+      <point x="169" y="-59" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="171" y="-214" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>kasra-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

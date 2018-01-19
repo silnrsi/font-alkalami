@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kasra-ar" format="1">
+  <advance width="257"/>
+  <unicode hex="0650"/>
+  <outline>
+    <component base="fatha-ar" yOffset="-669"/>
+    <contour>
+      <point x="129" y="-50" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="131" y="-126" type="move" name="bottom"/>
+    </contour>
+  </outline>
+</glyph>

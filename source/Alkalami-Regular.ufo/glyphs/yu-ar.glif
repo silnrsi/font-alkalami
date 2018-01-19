@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yu-ar" format="1">
+  <advance width="481"/>
+  <unicode hex="06C8"/>
+  <outline>
+    <component base="waw-ar"/>
+    <component base="alefabove-ar" xOffset="113" yOffset="-122"/>
+    <contour>
+      <point x="329" y="-222" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="150" y="717" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

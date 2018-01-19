@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kafswash-ar.medi" format="1">
+  <advance width="1119"/>
+  <outline>
+    <contour>
+      <point x="-30" y="140" type="line"/>
+      <point x="-30" y="0" type="line"/>
+      <point x="1139" y="0" type="line"/>
+      <point x="1139" y="140" type="line"/>
+      <point x="1116" y="140"/>
+      <point x="1105" y="140"/>
+      <point x="1084" y="140" type="curve" smooth="yes"/>
+      <point x="1066" y="140"/>
+      <point x="1060" y="140"/>
+      <point x="1060" y="163" type="curve" smooth="yes"/>
+      <point x="1060" y="267"/>
+      <point x="1056" y="334"/>
+      <point x="1013" y="339" type="curve" smooth="yes"/>
+      <point x="969" y="344"/>
+      <point x="514" y="342"/>
+      <point x="353" y="342" type="curve" smooth="yes"/>
+      <point x="325" y="341"/>
+      <point x="323" y="345"/>
+      <point x="336" y="358" type="curve" smooth="yes"/>
+      <point x="410" y="435"/>
+      <point x="581" y="549"/>
+      <point x="671" y="614" type="curve"/>
+      <point x="668" y="627"/>
+      <point x="657" y="635"/>
+      <point x="645" y="637" type="curve"/>
+      <point x="497" y="567"/>
+      <point x="234" y="430"/>
+      <point x="127" y="340" type="curve"/>
+      <point x="130" y="265"/>
+      <point x="145" y="199"/>
+      <point x="175" y="200" type="curve" smooth="yes"/>
+      <point x="301" y="203"/>
+      <point x="863" y="205"/>
+      <point x="945" y="201" type="curve" smooth="yes"/>
+      <point x="986" y="199"/>
+      <point x="999" y="198"/>
+      <point x="999" y="153" type="curve" smooth="yes"/>
+      <point x="999" y="141"/>
+      <point x="996" y="140"/>
+      <point x="978" y="140" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="562" y="-40" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="234" y="490" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

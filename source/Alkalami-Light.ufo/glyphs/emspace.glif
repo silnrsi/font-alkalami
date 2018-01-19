@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="emspace" format="1">
+  <advance width="925"/>
+  <unicode hex="2003"/>
+  <outline>
+    <contour>
+      <point x="451" y="-60" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="448" y="305" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ainTwodotshorizontalabove-ar.medi.alt" format="1">
+  <advance width="382"/>
+  <outline>
+    <component base="ain-ar.medi.alt"/>
+    <component base="twodotshorizontalabove-ar" xOffset="-32" yOffset="527"/>
+    <contour>
+      <point x="161" y="-40" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="133" y="1032" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

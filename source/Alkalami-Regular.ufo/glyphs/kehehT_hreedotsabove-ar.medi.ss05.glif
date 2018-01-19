@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kehehThreedotsabove-ar.medi.ss05" format="1">
+  <advance width="799"/>
+  <outline>
+    <component base="kaf-ar.medi"/>
+    <component base="threedots-ar" xOffset="-12" yOffset="525"/>
+    <contour>
+      <point x="412" y="-40" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="171" y="760" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

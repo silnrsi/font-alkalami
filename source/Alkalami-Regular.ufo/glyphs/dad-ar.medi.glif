@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dad-ar.medi" format="1">
+  <advance width="736"/>
+  <unicode hex="FEC0"/>
+  <outline>
+    <component base="sad-ar.medi"/>
+    <component base="dotabove-ar" xOffset="262" yOffset="136"/>
+    <contour>
+      <point x="372" y="-40" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="374" y="650" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

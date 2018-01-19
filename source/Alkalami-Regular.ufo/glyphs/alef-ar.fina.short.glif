@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alef-ar.fina.short" format="1">
+  <advance width="224"/>
+  <outline>
+    <component base="alef-ar.fina"/>
+    <contour>
+      <point x="92" y="-220" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="92" y="598" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

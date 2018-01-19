@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kehehThreedotsabove-ar" format="1">
+  <advance width="805"/>
+  <unicode hex="0763"/>
+  <outline>
+    <component base="keheh-ar"/>
+    <component base="threedotsabovesmall-ar" xOffset="30" yOffset="97"/>
+    <contour>
+      <point x="397" y="-40" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="165" y="820" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedotsabovesmall-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

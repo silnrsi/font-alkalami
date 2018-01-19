@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ainThreedots-ar.fina.alt.ss05" format="1">
+  <advance width="536"/>
+  <outline>
+    <component base="ain-ar.fina.ss06"/>
+    <component base="threedots-ar.small" xOffset="68" yOffset="899"/>
+    <component base="dotabove-ar" xOffset="135" yOffset="366"/>
+    <contour>
+      <point x="234" y="-373" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="246" y="1146" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedots-ar.small</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

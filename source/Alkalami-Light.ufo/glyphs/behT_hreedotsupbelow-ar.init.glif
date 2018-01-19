@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="behThreedotsupbelow-ar.init" format="1">
+  <advance width="277"/>
+  <outline>
+    <component base="behDotless-ar.init"/>
+    <component base="threedotsupbelow-ar" xOffset="-70" yOffset="-30"/>
+    <contour>
+      <point x="86" y="-388" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="101" y="314" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

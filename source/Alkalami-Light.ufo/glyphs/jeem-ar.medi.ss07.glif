@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jeem-ar.medi.ss07" format="1">
+  <advance width="465"/>
+  <outline>
+    <component base="hah-ar.medi"/>
+    <component base="dotbelow-ar" xOffset="142" yOffset="-40"/>
+    <contour>
+      <point x="306" y="-240" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="272" y="358" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

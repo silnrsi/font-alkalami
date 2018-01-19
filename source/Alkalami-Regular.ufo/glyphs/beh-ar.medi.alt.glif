@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="beh-ar.medi.alt" format="1">
+  <advance width="197"/>
+  <outline>
+    <component base="behDotless-ar.medi.alt"/>
+    <component base="dotbelow-ar" xOffset="-5" yOffset="-1"/>
+    <contour>
+      <point x="98" y="-240" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="57" y="430" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotbelow-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

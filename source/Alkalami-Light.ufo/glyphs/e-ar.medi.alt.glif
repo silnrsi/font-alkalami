@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="e-ar.medi.alt" format="1">
+  <advance width="207"/>
+  <outline>
+    <component base="behDotless-ar.medi.alt"/>
+    <component base="twodotsverticalbelow-ar" yOffset="-34"/>
+    <contour>
+      <point x="94" y="-351" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="28" y="489" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

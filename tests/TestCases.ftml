@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='ftml.xsl'?>
+<ftml version='1.0'>
+  <testgroup label='ss08 ABS-1274'>
+  <test label='U+0627 U+064E' stylename='ss08_1'><string>\u0627\u064E\u0628 \u0628\u0627\u064E </string><comment>U+0627 U+064E </comment></test>
+  <test label='U+0627 U+0650' stylename='ss08_1'><string>\u0627\u0650\u0628 \u0628\u0627\u0650 </string><comment>U+0627 U+0650 </comment></test>
+  <test label='U+0627 U+064F' stylename='ss08_1'><string>\u0627\u064F\u0628 \u0628\u0627\u064F </string><comment>U+0627 U+064F </comment></test>
+  <test label='U+0627 U+064E' stylename='ss08_1'><string>\u0627\u064e\u0644\u0652\u062d\u064e\u0643\u0650\u0646\u0652</string><comment>(Light not working)</comment></test>
+  <test label='U+0627 U+064F' stylename='ss08_1'><string>\u0627\u064f\u0644\u0652\u062d\u064e\u0643\u0650\u0646\u0652</string><comment>(Light not working)</comment></test>
+  <test label='U+0627 U+0650' stylename='ss08_1'><string>\u0627\u0650\u0644\u0652\u062d\u064e\u0643\u0650\u0646\u0652</string><comment>(Light not working)</comment></test>
+  <test label='damma'><string>\u0627\u064f \u062a\u064e\u062c\u064f\u062c\u064f\u0651\u0648\u064a\u064e</string><comment>ABS-1208 (doesn't work in InDesign)</comment></test>
+  <test label='damma' stylename='ss08_1'><string>\u0627\u064f \u062a\u064e\u062c\u064f\u062c\u064f\u0651\u0648\u064a\u064e</string><comment>ABS-1208, ABS-1274</comment></test>
+  </testgroup>
+  <testgroup label='Alef/hamza ABS-1261'>
+  <test label='U+0622'><string>\u0622\u064E\u0628 \u0628\u0622 </string><comment>uni0622</comment></test>
+  <test label='U+0623'><string>\u0623\u064E\u0628 \u0628\u0623 </string><comment>uni0623</comment></test>
+  <test label='U+0625'><string>\u0625\u0650\u0628 \u0628\u0625\u0650 </string><comment>uni0625</comment></test>
+  <test label='U+0627'><string>\u0627\u0654\u064E \u0628\u0627\u0654 </string><comment>uni0627 uni0654</comment></test>
+  <test label='U+0627'><string>\u0627\u0655\u064E \u0628\u0627\u0655 </string><comment>uni0627 uni0655</comment></test>
+  </testgroup>
+  <testgroup label='Allah'>
+  <test label='U+FDF2'><string>\uFDF2</string></test>
+  <test label='Allah'><string>\u0627\u0644\u0644\u0651\u064E\u0647</string><comment>U+0627 U+0644 U+0644 U+0651 U+064E U+0647</comment></test>
+  </testgroup>
+  <testgroup label='LamAlef ligatures ABS-1261'>
+  <test label='U+0644+0627'><string>\u0644\u0627 \u200D\u0644\u0627 \u0644\u064e\u0627\u064e \u200D\u0644\u064e\u0627\u064e</string><comment>uni0644+uni0627</comment></test>
+  <test label='U+0644+0622'><string>\u0644\u0622 \u200D\u0644\u0622 \u0644\u064e\u0622\u064e \u200D\u0644\u064e\u0622\u064e</string><comment>uni0644+uni0622</comment></test>
+  <test label='U+0644+0623'><string>\u0644\u0623 \u200D\u0644\u0623 \u0644\u064e\u0623\u064e \u200D\u0644\u064e\u0623\u064e</string><comment>uni0644+uni0623</comment></test>
+  <test label='U+0644+0625'><string>\u0644\u0625 \u200D\u0644\u0625 \u0644\u064e\u0625\u0650 \u200D\u0644\u064e\u0625\u0650</string><comment>uni0644+uni0625</comment></test>
+  <test label='U+0644+0627+0654'><string>\u0644\u0627\u0654 \u200D\u0644\u0627\u0654 \u0644\u064e\u0627\u0654\u064e \u200D\u0644\u064e\u0627\u0654\u064e</string><comment>uni0644+uni0627+uni0654</comment></test>
+  <test label='U+0644+0627+0655'><string>\u0644\u0627\u0655 \u200D\u0644\u0627\u0655 \u0644\u064e\u0627\u0655\u0650 \u200D\u0644\u064e\u0627\u0655\u0650</string><comment>uni0644+uni0627+uni0655</comment></test>
+  </testgroup>
+<head>
+  <fontscale>300</fontscale>
+  <fontsrc>local(Scheherazade)</fontsrc>
+  <fontsrc>url(../build/Alkalami-Regular.ttf)</fontsrc>
+  <fontsrc>url(../build/Alkalami-Light.ttf)</fontsrc>
+  <styles>
+    <style name='lang' feats='"ss01" 1, "ss04" 1, "ss05" 1, "ss08" 1'/>
+    <style name='ss01_1' feats='"ss01" 1'/>
+    <style name='ss02_1' feats='"ss02" 1'/>
+    <style name='ss02_1_ss03_1' feats='"ss02" 1, "ss03" 1'/>
+    <style name='ss03_1' feats='"ss03" 1'/>
+    <style name='ss04_1' feats='"ss04" 1'/>
+    <style name='ss05_1' feats='"ss05" 1'/>
+    <style name='ss07_1' feats='"ss07" 1'/>
+    <style name='ss08_1' feats='"ss08" 1'/>
+  </styles>
+  <title>Test Cases</title>
+  </head>
+</ftml>

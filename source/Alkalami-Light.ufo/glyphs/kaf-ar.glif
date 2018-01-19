@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kaf-ar" format="1">
+  <advance width="757"/>
+  <unicode hex="0643"/>
+  <outline>
+    <component base="keheh-ar"/>
+    <contour>
+      <point x="375" y="-40" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="205" y="467" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

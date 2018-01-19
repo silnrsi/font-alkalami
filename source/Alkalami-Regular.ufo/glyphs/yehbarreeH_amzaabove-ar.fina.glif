@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehbarreeHamzaabove-ar.fina" format="1">
+  <advance width="402"/>
+  <unicode hex="FBB1"/>
+  <outline>
+    <component base="hamzaabove-ar" xOffset="36" yOffset="-262"/>
+    <component base="yehbarree-ar.fina"/>
+    <contour>
+      <point x="213" y="-267" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="154" y="485" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

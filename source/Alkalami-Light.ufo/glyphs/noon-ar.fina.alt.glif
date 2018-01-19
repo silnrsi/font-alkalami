@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noon-ar.fina.alt" format="1">
+  <advance width="792"/>
+  <outline>
+    <component base="noonghunna-ar.fina"/>
+    <component base="dotabove-ar" xOffset="267" yOffset="-118"/>
+    <contour>
+      <point x="380" y="-260" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="371" y="402" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

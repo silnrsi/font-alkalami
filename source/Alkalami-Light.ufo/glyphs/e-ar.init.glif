@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="e-ar.init" format="1">
+  <advance width="277"/>
+  <unicode hex="FBE6"/>
+  <outline>
+    <component base="beeh-ar.init"/>
+    <contour>
+      <point x="84" y="-362" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="124" y="301" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

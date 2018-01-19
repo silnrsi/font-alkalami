@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='ftml.xsl'?>
+<ftml version='1.0'>
+  <testgroup label='All Characters (USV order)'>
+  <test label='U+0020'><string>\uf130\u0020\uf131 \u0021 \u0022 \u0023 \u0024 \u0025 \u0026 \u0027</string></test>
+  <test label='U+0028'><string>\u0028 \u202A L2R: \u0028 R2L: \u202B\u0028\u202C\u202C</string><comment>parenleft</comment></test>
+  <test label='U+0029'><string>\u0029 \u202A L2R: \u0029 R2L: \u202B\u0029\u202C\u202C</string><comment>parenright</comment></test>
+  <test label='U+002A'><string>\u002A \u002B \u002C \u002D \u002E \u002F \u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039 \u003A \u003B</string></test>
+  <test label='U+003C'><string>\u003C \u202A L2R: \u003C R2L: \u202B\u003C\u202C\u202C</string><comment>less</comment></test>
+  <test label='U+003D'><string>\u003D</string></test>
+  <test label='U+003E'><string>\u003E \u202A L2R: \u003E R2L: \u202B\u003E\u202C\u202C</string><comment>greater</comment></test>
+  <test label='U+003F'><string>\u003F \u0040 \u0041 \u0042 \u0043 \u0044 \u0045 \u0046 \u0047 \u0048 \u0049 \u004A \u004B \u004C \u004D \u004E \u004F \u0050 \u0051 \u0052 \u0053 \u0054 \u0055 \u0056 \u0057 \u0058 \u0059 \u005A</string></test>
+  <test label='U+005B'><string>\u005B \u202A L2R: \u005B R2L: \u202B\u005B\u202C\u202C</string><comment>bracketleft</comment></test>
+  <test label='U+005C'><string>\u005C</string></test>
+  <test label='U+005D'><string>\u005D \u202A L2R: \u005D R2L: \u202B\u005D\u202C\u202C</string><comment>bracketright</comment></test>
+  <test label='U+005E'><string>\u005E \u005F \u0060 \u0061 \u0062 \u0063 \u0064 \u0065 \u0066 \u0067 \u0068 \u0069 \u006A \u006B \u006C \u006D \u006E \u006F \u0070 \u0071 \u0072 \u0073 \u0074 \u0075 \u0076 \u0077 \u0078 \u0079 \u007A</string></test>
+  <test label='U+007B'><string>\u007B \u202A L2R: \u007B R2L: \u202B\u007B\u202C\u202C</string><comment>braceleft</comment></test>
+  <test label='U+007C'><string>\u007C</string></test>
+  <test label='U+007D'><string>\u007D \u202A L2R: \u007D R2L: \u202B\u007D\u202C\u202C</string><comment>braceright</comment></test>
+  <test label='U+007E'><string>\u007E</string></test>
+  <test label='U+00A0'><string>\uf130\u00A0\uf131 \u00A1 \u00A2 \u00A3 \u00A4 \u00A5 \u00A6 \u00A7 \u00A8 \u00A9 \u00AA</string></test>
+  <test label='U+00AB'><string>\u00AB \u202A L2R: \u00AB R2L: \u202B\u00AB\u202C\u202C</string><comment>guillemotleft</comment></test>
+  <test label='U+00AC'><string>\u00AC \u00AD \u00AE \u00AF \u00B0 \u00B1 \u00B2 \u00B3 \u00B4 \u00B5 \u00B6 \u00B7 \u00B8 \u00B9 \u00BA</string></test>
+  <test label='U+00BB'><string>\u00BB \u202A L2R: \u00BB R2L: \u202B\u00BB\u202C\u202C</string><comment>guillemotright</comment></test>
+  <test label='U+00BC'><string>\u00BC \u00BD \u00BE \u00BF \u00C0 \u00C1 \u00C2 \u00C3 \u00C4 \u00C5 \u00C6 \u00C7 \u00C8 \u00C9 \u00CA \u00CB \u00CC \u00CD \u00CE \u00CF</string></test>
+  <test label='U+00D1'><string>\u00D1 \u00D2 \u00D3 \u00D4 \u00D5 \u00D6 \u00D7 \u00D8 \u00D9 \u00DA \u00DB \u00DC \u00DD \u00DE \u00DF \u00E0 \u00E1 \u00E2 \u00E3 \u00E4 \u00E5 \u00E6 \u00E7 \u00E8 \u00E9 \u00EA \u00EB \u00EC \u00ED \u00EE \u00EF</string></test>
+  <test label='U+00F1'><string>\u00F1 \u00F2 \u00F3 \u00F4 \u00F5 \u00F6 \u00F7 \u00F8 \u00F9 \u00FA \u00FB \u00FC \u00FD \u00FE \u00FF \u0100 \u0101 \u0102 \u0103 \u0104 \u0105 \u0106 \u0107</string></test>
+  <test label='U+010C'><string>\u010C \u010D</string></test>
+  <test label='U+010F'><string>\u010F \u0110 \u0111 \u0112 \u0113</string></test>
+  <test label='U+0116'><string>\u0116 \u0117 \u0118 \u0119 \u011A \u011B</string></test>
+  <test label='U+0122'><string>\u0122 \u0123</string></test>
+  <test label='U+012A'><string>\u012A \u012B</string></test>
+  <test label='U+012E'><string>\u012E \u012F</string></test>
+  <test label='U+0131'><string>\u0131 \u0132 \u0133</string></test>
+  <test label='U+0136'><string>\u0136 \u0137</string></test>
+  <test label='U+0139'><string>\u0139 \u013A \u013B \u013C</string></test>
+  <test label='U+013F'><string>\u013F \u0140</string></test>
+  <test label='U+0143'><string>\u0143 \u0144 \u0145 \u0146 \u0147 \u0148</string></test>
+  <test label='U+014C'><string>\u014C \u014D</string></test>
+  <test label='U+0150'><string>\u0150 \u0151 \u0152 \u0153 \u0154 \u0155 \u0156 \u0157 \u0158 \u0159 \u015A \u015B</string></test>
+  <test label='U+015E'><string>\u015E \u015F \u0160 \u0161 \u0162 \u0163 \u0164 \u0165 \u0166 \u0167</string></test>
+  <test label='U+016A'><string>\u016A \u016B</string></test>
+  <test label='U+016E'><string>\u016E \u016F \u0170 \u0171 \u0172 \u0173 \u0174 \u0175 \u0176 \u0177 \u0178 \u0179 \u017A \u017B \u017C \u017D \u017E</string></test>
+  <test label='U+0192'><string>\u0192</string></test>
+  <test label='U+0218'><string>\u0218 \u0219 \u021A \u021B</string></test>
+  <test label='U+02C6'><string>\u02C6 \u02C7</string></test>
+  <test label='U+02D0'><string>\u02D0</string></test>
+  <test label='U+02D8'><string>\u02D8 \u02D9 \u02DA \u02DB \u02DC \u02DD</string></test>
+  <test label='U+0300'><string>\u0300 \u0301 \u0302 \u0303 \u0304</string></test>
+  <test label='U+0306'><string>\u0306 \u0307 \u0308</string></test>
+  <test label='U+030A'><string>\u030A \u030B \u030C</string></test>
+  <test label='U+0311'><string>\u0311</string></test>
+  <test label='U+0316'><string>\u0316 \u0317</string></test>
+  <test label='U+0326'><string>\u0326 \u0327</string></test>
+  <test label='U+060C'><string>\u060C</string></test>
+  <test label='U+061B'><string>\u061B \u061C</string></test>
+  <test label='U+061E'><string>\u061E \u061F</string></test>
+  <test label='U+0621'><string>\u0621</string></test>
+  <test label='U+0622'><string>\u0622 \u200D\u0622</string><comment>uni0622</comment></test>
+  <test label='U+0623'><string>\u0623 \u200D\u0623</string><comment>uni0623</comment></test>
+  <test label='U+0624'><string>\u0624 \u200D\u0624</string><comment>uni0624</comment></test>
+  <test label='U+0625'><string>\u0625 \u200D\u0625</string><comment>uni0625</comment></test>
+  <test label='U+0626'><string>\u0626 \u0626\u200D \u200D\u0626\u200D \u200D\u0626 \u0626\u0626\u0626</string><comment>uni0626</comment></test>
+  <test label='U+0627'><string>\u0627 \u200D\u0627</string><comment>uni0627</comment></test>
+  <test label='U+0627 U+0654'><string>\u0627\u0654 \u200D\u0627\u0654 \u0628\u0627\u0654</string><comment>uni0627 uni0654</comment></test>
+  <test label='U+0627 U+0655'><string>\u0627\u0655 \u200D\u0627\u0655 \u0628\u0627\u0655</string><comment>uni0627 uni0654</comment></test>
+  <test label='U+0627 U+064E' stylename='ss08_1'><string>\u0627\u064E \u200D\u0627\u064E</string><comment>uni0627</comment></test>
+  <test label='U+0627 U+064F' stylename='ss08_1'><string>\u0627\u064F \u200D\u0627\u064F</string><comment>uni0627</comment></test>
+  <test label='U+0627 U+0650' stylename='ss08_1'><string>\u0627\u0650 \u200D\u0627\u0650</string><comment>uni0627</comment></test>
+  <test label='U+0628'><string>\u0628 \u0628\u200D \u200D\u0628\u200D \u200D\u0628 \u0628\u0628\u0628</string><comment>uni0628</comment></test>
+  <test label='U+0629'><string>\u0629 \u200D\u0629</string><comment>uni0629</comment></test>
+  <test label='U+062A'><string>\u062A \u062A\u200D \u200D\u062A\u200D \u200D\u062A \u062A\u062A\u062A</string><comment>uni062A</comment></test>
+  <test label='U+062B'><string>\u062B \u062B\u200D \u200D\u062B\u200D \u200D\u062B \u062B\u062B\u062B</string><comment>uni062B</comment></test>
+  <test label='U+062C'><string>\u062C \u062C\u200D \u200D\u062C\u200D \u200D\u062C \u062C\u062C\u062C</string><comment>uni062C</comment></test>
+  <test label='U+062C' stylename='ss07_1'><string>\u062C \u062C\u200D \u200D\u062C\u200D \u200D\u062C \u062C\u062C\u062C</string><comment>uni062C</comment></test>
+  <test label='U+062D'><string>\u062D \u062D\u200D \u200D\u062D\u200D \u200D\u062D \u062D\u062D\u062D</string><comment>uni062D</comment></test>
+  <test label='U+062D' stylename='ss07_1'><string>\u062D \u062D\u200D \u200D\u062D\u200D \u200D\u062D \u062D\u062D\u062D</string><comment>uni062D</comment></test>
+  <test label='U+062E'><string>\u062E \u062E\u200D \u200D\u062E\u200D \u200D\u062E \u062E\u062E\u062E</string><comment>uni062E</comment></test>
+  <test label='U+062E' stylename='ss07_1'><string>\u062E \u062E\u200D \u200D\u062E\u200D \u200D\u062E \u062E\u062E\u062E</string><comment>uni062E</comment></test>
+  <test label='U+062F'><string>\u062F \u200D\u062F</string><comment>uni062F</comment></test>
+  <test label='U+0630'><string>\u0630 \u200D\u0630</string><comment>uni0630</comment></test>
+  <test label='U+0631'><string>\u0631 \u200D\u0631</string><comment>uni0631</comment></test>
+  <test label='U+0632'><string>\u0632 \u200D\u0632</string><comment>uni0632</comment></test>
+  <test label='U+0633'><string>\u0633 \u0633\u200D \u200D\u0633\u200D \u200D\u0633 \u0633\u0633\u0633</string><comment>uni0633</comment></test>
+  <test label='U+0634'><string>\u0634 \u0634\u200D \u200D\u0634\u200D \u200D\u0634 \u0634\u0634\u0634</string><comment>uni0634</comment></test>
+  <test label='U+0635'><string>\u0635 \u0635\u200D \u200D\u0635\u200D \u200D\u0635 \u0635\u0635\u0635</string><comment>uni0635</comment></test>
+  <test label='U+0636'><string>\u0636 \u0636\u200D \u200D\u0636\u200D \u200D\u0636 \u0636\u0636\u0636</string><comment>uni0636</comment></test>
+  <test label='U+0637'><string>\u0637 \u0637\u200D \u200D\u0637\u200D \u200D\u0637 \u0637\u0637\u0637</string><comment>uni0637</comment></test>
+  <test label='U+0638'><string>\u0638 \u0638\u200D \u200D\u0638\u200D \u200D\u0638 \u0638\u0638\u0638</string><comment>uni0638</comment></test>
+  <test label='U+0639'><string>\u0639 \u0639\u200D \u200D\u0639\u200D \u200D\u0639 \u0639\u0639\u0639</string><comment>uni0639</comment></test>
+  <test label='U+063A'><string>\u063A \u063A\u200D \u200D\u063A\u200D \u200D\u063A \u063A\u063A\u063A</string><comment>uni063A</comment></test>
+  <test label='U+0640'><string>\u0640</string><comment>uni0640</comment></test>
+  <test label='U+0641'><string>\u0641 \u0641\u200D \u200D\u0641\u200D \u200D\u0641 \u0641\u0641\u0641</string><comment>uni0641</comment></test>
+  <test label='U+0642'><string>\u0642 \u0642\u200D \u200D\u0642\u200D \u200D\u0642 \u0642\u0642\u0642</string><comment>uni0642</comment></test>
+  <test label='U+0643'><string>\u0643 \u0643\u200D \u200D\u0643\u200D \u200D\u0643 \u0643\u0643\u0643</string><comment>uni0643</comment></test>
+  <test label='U+0644'><string>\u0644 \u0644\u200D \u200D\u0644\u200D \u200D\u0644 \u0644\u0644\u0644</string><comment>uni0644</comment></test>
+  <test label='U+0645'><string>\u0645 \u0645\u200D \u200D\u0645\u200D \u200D\u0645 \u0645\u0645\u0645</string><comment>uni0645</comment></test>
+  <test label='U+0646'><string>\u0646 \u0646\u200D \u200D\u0646\u200D \u200D\u0646 \u0646\u0646\u0646</string><comment>uni0646</comment></test>
+  <test label='U+0646' stylename='ss01_1'><string>\u0646 \u0646\u200D \u200D\u0646\u200D \u200D\u0646 \u0646\u0646\u0646</string><comment>uni0646</comment></test>
+  <test label='U+0647'><string>\u0647 \u0647\u200D \u200D\u0647\u200D \u200D\u0647 \u0647\u0647\u0647</string><comment>uni0647</comment></test>
+  <test label='U+0648'><string>\u0648 \u200D\u0648</string><comment>uni0648</comment></test>
+  <test label='U+0649'><string>\u0649 \u0649\u200D \u200D\u0649\u200D \u200D\u0649 \u0649\u0649\u0649</string><comment>uni0649</comment></test>
+  <test label='U+064A'><string>\u064A \u064A\u200D \u200D\u064A\u200D \u200D\u064A \u064A\u064A\u064A</string><comment>uni064A</comment></test>
+  <test label='U+064A' stylename='ss01_1'><string>\u064A \u064A\u200D \u200D\u064A\u200D \u200D\u064A \u064A\u064A\u064A</string><comment>uni064A</comment></test>
+  <test label='U+064B'><string>\u0628\u064B \u0628\u064C \u0628\u064D \u0628\u064E \u0628\u064F \u0628\u0650 \u0628\u0651 \u0628\u0652 \u0628\u0653 \u0628\u0654 \u0628\u0655 \u0628\u0656</string></test>
+  <test label='U+065A'><string>\u0628\u065A \u0628\u065B \u0628\u065C</string></test>
+  <test label='U+065C' stylename='ss04_1'><string>\u0628\u065C</string></test>
+  <test label='U+0660'><string>\u0660 \u0661 \u0662 \u0663 \u0664 \u0665 \u0666 \u0667 \u0668 \u0669 \u066A \u066B \u066C \u066D</string></test>
+  <test label='U+066E'><string>\u066E \u066E\u200D \u200D\u066E\u200D \u200D\u066E \u066E\u066E\u066E</string><comment>uni066E</comment></test>
+  <test label='U+066F'><string>\u066F \u066F\u200D \u200D\u066F\u200D \u200D\u066F \u066F\u066F\u066F</string><comment>uni066F</comment></test>
+  <test label='U+0670'><string>\u0628\u0670</string></test>
+  <test label='U+0674'><string>\u0674</string></test>
+  <test label='U+067B'><string>\u067B \u067B\u200D \u200D\u067B\u200D \u200D\u067B \u067B\u067B\u067B</string><comment>uni067B</comment></test>
+  <test label='U+067B' stylename='ss05_1'><string>\u067B \u067B\u200D \u200D\u067B\u200D \u200D\u067B \u067B\u067B\u067B</string><comment>uni067B</comment></test>
+  <test label='U+067E'><string>\u067E \u067E\u200D \u200D\u067E\u200D \u200D\u067E \u067E\u067E\u067E</string><comment>uni067E</comment></test>
+  <test label='U+0683'><string>\u0683 \u0683\u200D \u200D\u0683\u200D \u200D\u0683 \u0683\u0683\u0683</string><comment>uni0683</comment></test>
+  <test label='U+0683' stylename='ss07_1'><string>\u0683 \u0683\u200D \u200D\u0683\u200D \u200D\u0683 \u0683\u0683\u0683</string><comment>uni0683</comment></test>
+  <test label='U+0698'><string>\u0698 \u200D\u0698</string><comment>uni0698</comment></test>
+  <test label='U+069F'><string>\u069F \u069F\u200D \u200D\u069F\u200D \u200D\u069F \u069F\u069F\u069F</string><comment>uni069F</comment></test>
+  <test label='U+069F' stylename='ss05_1'><string>\u069F \u069F\u200D \u200D\u069F\u200D \u200D\u069F \u069F\u069F\u069F</string><comment>uni069F</comment></test>
+  <test label='U+06A0'><string>\u06A0 \u06A0\u200D \u200D\u06A0\u200D \u200D\u06A0 \u06A0\u06A0\u06A0</string><comment>uni06A0</comment></test>
+  <test label='U+06A0' stylename='ss05_1'><string>\u06A0 \u06A0\u200D \u200D\u06A0\u200D \u200D\u06A0 \u06A0\u06A0\u06A0</string><comment>uni06A0</comment></test>
+  <test label='U+06A1'><string>\u06A1 \u06A1\u200D \u200D\u06A1\u200D \u200D\u06A1 \u06A1\u06A1\u06A1</string><comment>uni06A1</comment></test>
+  <test label='U+06A2'><string>\u06A2 \u06A2\u200D \u200D\u06A2\u200D \u200D\u06A2 \u06A2\u06A2\u06A2</string><comment>uni06A2</comment></test>
+  <test label='U+06A2' stylename='ss01_1'><string>\u06A2 \u06A2\u200D \u200D\u06A2\u200D \u200D\u06A2 \u06A2\u06A2\u06A2</string><comment>uni06A2</comment></test>
+  <test label='U+06A4'><string>\u06A4 \u06A4\u200D \u200D\u06A4\u200D \u200D\u06A4 \u06A4\u06A4\u06A4</string><comment>uni06A4</comment></test>
+  <test label='U+06A7'><string>\u06A7 \u06A7\u200D \u200D\u06A7\u200D \u200D\u06A7 \u06A7\u06A7\u06A7</string><comment>uni06A7</comment></test>
+  <test label='U+06A7' stylename='ss01_1'><string>\u06A7 \u06A7\u200D \u200D\u06A7\u200D \u200D\u06A7 \u06A7\u06A7\u06A7</string><comment>uni06A7</comment></test>
+  <test label='U+06A8'><string>\u06A8 \u06A8\u200D \u200D\u06A8\u200D \u200D\u06A8 \u06A8\u06A8\u06A8</string><comment>uni06A8</comment></test>
+  <test label='U+06A8' stylename='ss05_1'><string>\u06A8 \u06A8\u200D \u200D\u06A8\u200D \u200D\u06A8 \u06A8\u06A8\u06A8</string><comment>uni06A8</comment></test>
+  <test label='U+06A9'><string>\u06A9 \u06A9\u200D \u200D\u06A9\u200D \u200D\u06A9 \u06A9\u06A9\u06A9</string><comment>uni06A9</comment></test>
+  <test label='U+06AA'><string>\u06AA \u06AA\u200D \u200D\u06AA\u200D \u200D\u06AA \u06AA\u06AA\u06AA</string><comment>uni06AA</comment></test>
+  <test label='U+06AD'><string>\u06AD \u06AD\u200D \u200D\u06AD\u200D \u200D\u06AD \u06AD\u06AD\u06AD</string><comment>uni06AD</comment></test>
+  <test label='U+06AF'><string>\u06AF \u06AF\u200D \u200D\u06AF\u200D \u200D\u06AF \u06AF\u06AF\u06AF</string><comment>uni06AF</comment></test>
+  <test label='U+06BA'><string>\u06BA \u06BA\u200D \u200D\u06BA\u200D \u200D\u06BA \u06BA\u06BA\u06BA</string><comment>uni06BA</comment></test>
+  <test label='U+06C6'><string>\u06C6 \u200D\u06C6</string><comment>uni06C6</comment></test>
+  <test label='U+06C8'><string>\u06C8 \u200D\u06C8</string><comment>uni06C8</comment></test>
+  <test label='U+06C9'><string>\u06C9 \u200D\u06C9</string><comment>uni06C9</comment></test>
+  <test label='U+06CC'><string>\u06CC \u06CC\u200D \u200D\u06CC\u200D \u200D\u06CC \u06CC\u06CC\u06CC</string><comment>uni06CC</comment></test>
+  <test label='U+06CC' stylename='ss05_1'><string>\u06CC \u06CC\u200D \u200D\u06CC\u200D \u200D\u06CC \u06CC\u06CC\u06CC</string><comment>uni06CC</comment></test>
+  <test label='U+06D0'><string>\u06D0 \u06D0\u200D \u200D\u06D0\u200D \u200D\u06D0 \u06D0\u06D0\u06D0</string><comment>uni06D0</comment></test>
+  <test label='U+06D1'><string>\u06D1 \u06D1\u200D \u200D\u06D1\u200D \u200D\u06D1 \u06D1\u06D1\u06D1</string><comment>uni06D1</comment></test>
+  <test label='U+06D2'><string>\u06D2 \u200D\u06D2</string><comment>uni06D2</comment></test>
+  <test label='U+06D3'><string>\u06D3 \u200D\u06D3</string><comment>uni06D3</comment></test>
+  <test label='U+06DD'><string>\u06DD</string></test>
+  <test label='U+06DD' stylename='ss03_1'><string>\u06DD</string></test>
+  <test label='U+06DD' stylename='ss02_1'><string>\u06DD</string></test>
+  <test label='U+06DD' stylename='ss02_1_ss03_1'><string>\u06DD</string></test>
+  <test label='U+06E7'><string>\u0628\u06E7</string></test>
+  <test label='U+0752'><string>\u0752 \u0752\u200D \u200D\u0752\u200D \u200D\u0752 \u0752\u0752\u0752</string><comment>uni0752</comment></test>
+  <test label='U+0755'><string>\u0755 \u0755\u200D \u200D\u0755\u200D \u200D\u0755 \u0755\u0755\u0755</string><comment>uni0755</comment></test>
+  <test label='U+0756'><string>\u0756 \u0756\u200D \u200D\u0756\u200D \u200D\u0756 \u0756\u0756\u0756</string><comment>uni0756</comment></test>
+  <test label='U+075D'><string>\u075D \u075D\u200D \u200D\u075D\u200D \u200D\u075D \u075D\u075D\u075D</string><comment>uni075D</comment></test>
+  <test label='U+0760'><string>\u0760 \u0760\u200D \u200D\u0760\u200D \u200D\u0760 \u0760\u0760\u0760</string><comment>uni0760</comment></test>
+  <test label='U+0763'><string>\u0763 \u0763\u200D \u200D\u0763\u200D \u200D\u0763 \u0763\u0763\u0763</string><comment>uni0763</comment></test>
+  <test label='U+0763' stylename='ss05_1'><string>\u0763 \u0763\u200D \u200D\u0763\u200D \u200D\u0763 \u0763\u0763\u0763</string><comment>uni0763</comment></test>
+  <test label='U+0767'><string>\u0767 \u0767\u200D \u200D\u0767\u200D \u200D\u0767 \u0767\u0767\u0767</string><comment>uni0767</comment></test>
+  <test label='U+08A0'><string>\u08A0 \u08A0\u200D \u200D\u08A0\u200D \u200D\u08A0 \u08A0\u08A0\u08A0</string><comment>uni08A0</comment></test>
+  <test label='U+08A1'><string>\u08A1 \u08A1\u200D \u200D\u08A1\u200D \u200D\u08A1 \u08A1\u08A1\u08A1</string><comment>uni08A1</comment></test>
+  <test label='U+08A8'><string>\u08A8 \u08A8\u200D \u200D\u08A8\u200D \u200D\u08A8 \u08A8\u08A8\u08A8</string><comment>uni08A8</comment></test>
+  <test label='U+08A9'><string>\u08A9 \u08A9\u200D \u200D\u08A9\u200D \u200D\u08A9 \u08A9\u08A9\u08A9</string><comment>uni08A9</comment></test>
+  <test label='U+08BB'><string>\u08BB \u08BB\u200D \u200D\u08BB\u200D \u200D\u08BB \u08BB\u08BB\u08BB</string><comment>uni08BB</comment></test>
+  <test label='U+08BC'><string>\u08BC \u08BC\u200D \u200D\u08BC\u200D \u200D\u08BC \u08BC\u08BC\u08BC</string><comment>qaf-african-ar</comment></test>
+  <test label='U+08BD'><string>\u08BD \u08BD\u200D \u200D\u08BD\u200D \u200D\u08BD \u08BD\u08BD\u08BD</string><comment>noon-african-ar</comment></test>
+  <test label='U+1E80'><string>\u1E80 \u1E81 \u1E82 \u1E83 \u1E84 \u1E85</string></test>
+  <test label='U+1EF2'><string>\u1EF2 \u1EF3</string></test>
+  <test label='U+2000'><string>\uf130\u2000\uf131 \uf130\u2001\uf131 \uf130\u2002\uf131 \uf130\u2003\uf131 \uf130\u2004\uf131 \uf130\u2005\uf131 \uf130\u2006\uf131 \uf130\u2007\uf131 \uf130\u2008\uf131 \uf130\u2009\uf131 \uf130\u200A\uf131 \u200B \u200C</string></test>
+  <test label='U+200D'><string>\u200D</string><comment>uni200D</comment></test>
+  <test label='U+200E'><string>\u200E \u200F \u2010 \u2011 \u2012 \u2013 \u2014 \u2015</string></test>
+  <test label='U+2018'><string>\u2018 \u2019 \u201A</string></test>
+  <test label='U+201C'><string>\u201C \u201D \u201E</string></test>
+  <test label='U+2020'><string>\u2020 \u2021 \u2022</string></test>
+  <test label='U+2026'><string>\u2026</string></test>
+  <test label='U+2030'><string>\u2030</string></test>
+  <test label='U+2039'><string>\u2039 \u202A L2R: \u2039 R2L: \u202B\u2039\u202C\u202C</string><comment>guilsinglleft</comment></test>
+  <test label='U+203A'><string>\u203A \u202A L2R: \u203A R2L: \u202B\u203A\u202C\u202C</string><comment>guilsinglright</comment></test>
+  <test label='U+2044'><string>\u2044</string></test>
+  <test label='U+2060'><string>\u2060</string></test>
+  <test label='U+2074'><string>\u2074</string></test>
+  <test label='U+20A6'><string>\u20A6</string></test>
+  <test label='U+20AC'><string>\u20AC</string></test>
+  <test label='U+2122'><string>\u2122</string></test>
+  <test label='U+25CC'><string>\u25CC</string></test>
+  <test label='U+FD3E'><string>\uFD3E \uFD3F</string></test>
+  <test label='U+FDF2'><string>\uFDF2</string></test>
+  </testgroup>
+<head>
+  <fontscale>300</fontscale>
+  <fontsrc>local(Scheherazade)</fontsrc>
+  <fontsrc>url(../build/Alkalami-Regular.ttf)</fontsrc>
+  <fontsrc>url(../build/Alkalami-Light.ttf)</fontsrc>
+  <styles>
+    <style name='ss01_1' feats='"ss01" 1'/>
+    <style name='ss02_1' feats='"ss02" 1'/>
+    <style name='ss02_1_ss03_1' feats='"ss02" 1, "ss03" 1'/>
+    <style name='ss03_1' feats='"ss03" 1'/>
+    <style name='ss04_1' feats='"ss04" 1'/>
+    <style name='ss05_1' feats='"ss05" 1'/>
+    <style name='ss07_1' feats='"ss07" 1'/>
+    <style name='ss08_1' feats='"ss08" 1'/>
+  </styles>
+  <title>AllChars test</title>
+  </head>
+</ftml>

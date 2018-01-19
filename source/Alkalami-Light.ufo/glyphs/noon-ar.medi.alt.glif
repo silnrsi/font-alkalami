@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noon-ar.medi.alt" format="1">
+  <advance width="207"/>
+  <outline>
+    <component base="behDotless-ar.medi.alt"/>
+    <component base="dotabove-ar" xOffset="-69" yOffset="167"/>
+    <contour>
+      <point x="95" y="-30" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="35" y="700" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

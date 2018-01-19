@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="six-ar" format="1">
+  <advance width="532"/>
+  <unicode hex="0666"/>
+  <outline>
+    <contour>
+      <point x="435" y="610" type="line"/>
+      <point x="445" y="600"/>
+      <point x="450" y="594"/>
+      <point x="460" y="594" type="curve" smooth="yes"/>
+      <point x="467" y="594"/>
+      <point x="475" y="596"/>
+      <point x="487" y="601" type="curve"/>
+      <point x="407" y="438"/>
+      <point x="361" y="246"/>
+      <point x="345" y="42" type="curve" smooth="yes"/>
+      <point x="344" y="32"/>
+      <point x="344" y="21"/>
+      <point x="343" y="11" type="curve"/>
+      <point x="333" y="-6"/>
+      <point x="316" y="-11"/>
+      <point x="296" y="-15" type="curve"/>
+      <point x="293" y="38"/>
+      <point x="291" y="98"/>
+      <point x="291" y="160" type="curve" smooth="yes"/>
+      <point x="291" y="281"/>
+      <point x="299" y="420"/>
+      <point x="321" y="531" type="curve"/>
+    </contour>
+    <contour>
+      <point x="91" y="664" type="line"/>
+      <point x="132" y="610"/>
+      <point x="220" y="575"/>
+      <point x="295" y="575" type="curve" smooth="yes"/>
+      <point x="355" y="575"/>
+      <point x="414" y="596"/>
+      <point x="456" y="647" type="curve"/>
+      <point x="472" y="647"/>
+      <point x="487" y="620"/>
+      <point x="487" y="601" type="curve"/>
+      <point x="365" y="496"/>
+      <point x="299" y="444"/>
+      <point x="203" y="444" type="curve" smooth="yes"/>
+      <point x="143" y="444"/>
+      <point x="88" y="464"/>
+      <point x="45" y="504" type="curve"/>
+      <point x="45" y="559"/>
+      <point x="57" y="618"/>
+      <point x="80" y="664" type="curve"/>
+    </contour>
+    <contour>
+      <point x="487" y="601" type="move"/>
+    </contour>
+    <contour>
+      <point x="456" y="647" type="move"/>
+    </contour>
+    <contour>
+      <point x="487" y="601" type="move"/>
+    </contour>
+    <contour>
+      <point x="456" y="647" type="move"/>
+    </contour>
+  </outline>
+</glyph>

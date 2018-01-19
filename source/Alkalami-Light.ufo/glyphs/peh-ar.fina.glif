@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="peh-ar.fina" format="1">
+  <advance width="425"/>
+  <unicode hex="FB57"/>
+  <outline>
+    <component base="behDotless-ar.fina"/>
+    <component base="threedotsdownbelow-ar" xOffset="87" yOffset="-20"/>
+    <contour>
+      <point x="244" y="-367" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="235" y="300" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fehDotmovedbelow-ar.fina.ss01" format="1">
+  <advance width="504"/>
+  <outline>
+    <component base="fehDotless-ar.fina"/>
+    <contour>
+      <point x="258" y="-30" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="124" y="500" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

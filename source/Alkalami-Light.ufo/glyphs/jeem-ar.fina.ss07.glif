@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jeem-ar.fina.ss07" format="1">
+  <advance width="537"/>
+  <outline>
+    <component base="hah-ar.fina"/>
+    <component base="dotbelow-ar" xOffset="218" yOffset="-272"/>
+    <contour>
+      <point x="325" y="-464" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="336" y="130" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

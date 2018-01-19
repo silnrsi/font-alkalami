@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ainThreedots-ar.fina" format="1">
+  <advance width="584"/>
+  <outline>
+    <component base="ain-ar.fina"/>
+    <component base="threedotsupabove-ar" xOffset="133" yOffset="240"/>
+    <contour>
+      <point x="288" y="-58" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="298" y="864" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

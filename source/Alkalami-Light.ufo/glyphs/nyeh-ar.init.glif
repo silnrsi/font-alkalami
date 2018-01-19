@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nyeh-ar.init" format="1">
+  <advance width="593"/>
+  <unicode hex="FB78"/>
+  <outline>
+    <component base="hah-ar.init"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="100" yOffset="-29"/>
+    <contour>
+      <point x="281" y="-214" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="272" y="358" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

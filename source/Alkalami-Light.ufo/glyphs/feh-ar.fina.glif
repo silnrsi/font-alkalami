@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="feh-ar.fina" format="1">
+  <advance width="504"/>
+  <unicode hex="FED2"/>
+  <outline>
+    <component base="fehDotless-ar.fina"/>
+    <component base="dotabove-ar" xOffset="45" yOffset="181"/>
+    <contour>
+      <point x="282" y="-30" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="153" y="709" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

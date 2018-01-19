@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noon-ar.ss01" format="1">
+  <advance width="253"/>
+  <outline>
+    <component base="noonghunna-ar"/>
+    <contour>
+      <point x="100" y="-268" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="116" y="299" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seen-ar.fina.alt" format="1">
+  <advance width="1078"/>
+  <outline>
+    <component base="seen-ar.fina"/>
+    <contour>
+      <point x="858" y="-30" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="823" y="309" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

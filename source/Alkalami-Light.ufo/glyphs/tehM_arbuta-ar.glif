@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tehMarbuta-ar" format="1">
+  <advance width="474"/>
+  <unicode hex="0629"/>
+  <outline>
+    <component base="heh-ar"/>
+    <component base="twodotshorizontalabove-ar" xOffset="106" yOffset="133"/>
+    <contour>
+      <point x="273" y="-30" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="271" y="598" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

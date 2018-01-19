@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="beeh-ar.medi" format="1">
+  <advance width="289"/>
+  <unicode hex="FB55"/>
+  <outline>
+    <component base="behDotless-ar.medi"/>
+    <component base="twodotsverticalbelow-ar" xOffset="34" yOffset="-30"/>
+    <contour>
+      <point x="112" y="-376" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="105" y="310" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

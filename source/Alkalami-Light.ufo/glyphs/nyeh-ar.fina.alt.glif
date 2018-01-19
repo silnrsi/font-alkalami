@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nyeh-ar.fina.alt" format="1">
+  <advance width="537"/>
+  <outline>
+    <component base="hah-ar.fina.alt"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="159" yOffset="-51"/>
+    <contour>
+      <point x="341" y="-214" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="332" y="358" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

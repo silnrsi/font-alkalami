@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tahThreedots-ar.fina" format="1">
+  <advance width="772"/>
+  <outline>
+    <component base="tah-ar.fina"/>
+    <component base="threedotsupabove-ar" xOffset="253" yOffset="110"/>
+    <contour>
+      <point x="428" y="-30" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="408" y="745" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

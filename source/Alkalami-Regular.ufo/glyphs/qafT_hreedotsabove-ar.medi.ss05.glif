@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafThreedotsabove-ar.medi.ss05" format="1">
+  <advance width="538"/>
+  <outline>
+    <component base="fehDotless-ar.medi"/>
+    <component base="threedots-ar" xOffset="-8" yOffset="803"/>
+    <component base="dotabove-ar" xOffset="54" yOffset="254"/>
+    <contour>
+      <point x="282" y="-40" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="168" y="1050" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedots-ar</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

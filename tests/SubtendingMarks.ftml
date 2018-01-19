@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='ftml.xsl'?>
+<ftml version='1.0'>
+  <testgroup label='Subtending Marks'>
+  <test label='U+06DD'><string>\u0628\u06DD\u0645 \u06DD\u0031 \u06DD\u0032\u0033 \u06DD\u0031\u0037\u0036 \u06DD\u0034\u0035</string><comment>uni06DD+two</comment></test>
+  <test label='U+06DD' stylename='ss03_1'><string>\u0628\u06DD\u0645 \u06DD\u0031 \u06DD\u0032\u0033 \u06DD\u0031\u0037\u0036 \u06DD\u0034\u0035</string><comment>uni06DD+two</comment></test>
+  <test label='U+06DD' stylename='ss02_1'><string>\u0628\u06DD\u0645 \u06DD\u0031 \u06DD\u0032\u0033 \u06DD\u0031\u0037\u0036 \u06DD\u0034\u0035</string><comment>uni06DD+two</comment></test>
+  <test label='U+06DD'><string>\u0628\u06DD\u0645 \u06DD\u0661 \u06DD\u0662\u0663 \u06DD\u0661\u0667\u0666 \u06DD\u0664\u0665</string><comment>uni06DD+uni0668</comment></test>
+  <test label='U+06DD' stylename='ss03_1'><string>\u0628\u06DD\u0645 \u06DD\u0661 \u06DD\u0662\u0663 \u06DD\u0661\u0667\u0666 \u06DD\u0664\u0665</string><comment>uni06DD+uni0668</comment></test>
+  <test label='U+06DD' stylename='ss02_1'><string>\u0628\u06DD\u0645 \u06DD\u0661 \u06DD\u0662\u0663 \u06DD\u0661\u0667\u0666 \u06DD\u0664\u0665</string><comment>uni06DD+uni0668</comment></test>
+  </testgroup>
+<head>
+  <fontscale>300</fontscale>
+  <fontsrc>local(Scheherazade)</fontsrc>
+  <fontsrc>url(../build/Alkalami-Regular.ttf)</fontsrc>
+  <fontsrc>url(../build/Alkalami-Light.ttf)</fontsrc>
+  <styles>
+    <style name='ss02_1' feats='"ss02" 1'/>
+    <style name='ss03_1' feats='"ss03" 1'/>
+  </styles>
+  <title>SubtendingMarks test</title>
+  </head>
+</ftml>

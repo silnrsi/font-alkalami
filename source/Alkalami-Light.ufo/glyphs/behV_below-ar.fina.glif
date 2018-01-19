@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="behVbelow-ar.fina" format="1">
+  <advance width="425"/>
+  <outline>
+    <component base="behDotless-ar.fina"/>
+    <component base="vinvertedabove-ar" yScale="-1" xOffset="118" yOffset="474"/>
+    <contour>
+      <point x="222" y="-226" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="255" y="310" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>vinvertedabove-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

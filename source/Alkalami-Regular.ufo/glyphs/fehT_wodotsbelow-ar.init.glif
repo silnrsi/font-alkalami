@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fehTwodotsbelow-ar.init" format="1">
+  <advance width="520"/>
+  <outline>
+    <component base="fehDotless-ar.init"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="43" yOffset="-40"/>
+    <contour>
+      <point x="226" y="-290" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="175" y="578" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

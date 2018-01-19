@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="behhamzaabove-ar" format="1">
+  <advance width="542"/>
+  <unicode hex="08A1"/>
+  <outline>
+    <component base="behDotless-ar"/>
+    <component base="dotbelow-ar" xOffset="175" yOffset="-30"/>
+    <component base="hamzaabove-ar" xOffset="196" yOffset="-215"/>
+    <contour>
+      <point x="284" y="-247" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="272" y="503" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

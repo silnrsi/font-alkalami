@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tahThreedots-ar.medi.ss05" format="1">
+  <advance width="789"/>
+  <outline>
+    <component base="tah-ar.medi"/>
+    <component base="threedots-ar" xOffset="240" yOffset="431"/>
+    <contour>
+      <point x="412" y="-40" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="414" y="672" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedots-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

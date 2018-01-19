@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dal-ar.fina.alt" format="1">
+  <advance width="434"/>
+  <outline>
+    <component base="dal-ar.fina"/>
+    <contour>
+      <point x="306" y="-60" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="269" y="300" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

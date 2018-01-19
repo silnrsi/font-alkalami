@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="meem-ar" format="1">
+  <advance width="477"/>
+  <unicode hex="0645"/>
+  <outline>
+    <contour>
+      <point x="264" y="0"/>
+      <point x="396" y="0" type="curve" smooth="yes"/>
+      <point x="433" y="0"/>
+      <point x="435" y="87"/>
+      <point x="435" y="196" type="curve" smooth="yes"/>
+      <point x="435" y="248"/>
+      <point x="431" y="340"/>
+      <point x="420" y="421" type="curve" smooth="yes"/>
+      <point x="419" y="431"/>
+      <point x="385" y="449"/>
+      <point x="371" y="449" type="curve"/>
+      <point x="248" y="379"/>
+      <point x="60" y="199"/>
+      <point x="60" y="185" type="curve" smooth="yes"/>
+      <point x="60" y="144"/>
+      <point x="99" y="-231"/>
+      <point x="113" y="-390" type="curve"/>
+      <point x="127" y="-390"/>
+      <point x="149" y="-384"/>
+      <point x="150" y="-371" type="curve" smooth="yes"/>
+      <point x="162" y="-183"/>
+      <point x="175" y="0"/>
+      <point x="194" y="0" type="curve" smooth="yes"/>
+      <point x="289" y="0"/>
+    </contour>
+    <contour>
+      <point x="370" y="154" type="curve" smooth="yes"/>
+      <point x="370" y="142"/>
+      <point x="361" y="140"/>
+      <point x="330" y="140" type="curve" smooth="yes"/>
+      <point x="283" y="140"/>
+      <point x="202" y="140"/>
+      <point x="202" y="144" type="curve" smooth="yes"/>
+      <point x="202" y="161"/>
+      <point x="336" y="263"/>
+      <point x="350" y="263" type="curve" smooth="yes"/>
+      <point x="359" y="263"/>
+      <point x="370" y="192"/>
+    </contour>
+    <contour>
+      <point x="321" y="-44" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="211" y="440" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

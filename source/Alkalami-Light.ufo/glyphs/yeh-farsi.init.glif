@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yeh-farsi.init" format="1">
+  <advance width="277"/>
+  <unicode hex="FBFE"/>
+  <outline>
+    <component base="behDotless-ar.init"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="-99" yOffset="-29"/>
+    <contour>
+      <point x="84" y="-212" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="124" y="301" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

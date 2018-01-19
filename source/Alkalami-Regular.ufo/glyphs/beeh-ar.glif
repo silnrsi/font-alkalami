@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="beeh-ar" format="1">
+  <advance width="441"/>
+  <unicode hex="067B"/>
+  <outline>
+    <component base="behDotless-ar"/>
+    <component base="twodotsverticalbelow-ar" xOffset="129" yOffset="-10"/>
+    <contour>
+      <point x="225" y="-430" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="225" y="297" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotsverticalbelow-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

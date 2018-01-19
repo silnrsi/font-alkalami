@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="space-ar" format="1">
+  <advance width="70"/>
+  <outline>
+    <contour>
+      <point x="37" y="-60" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="34" y="305" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

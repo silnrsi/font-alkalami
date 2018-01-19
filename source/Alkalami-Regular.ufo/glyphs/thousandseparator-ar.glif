@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="thousandseparator-ar" format="1">
+  <advance width="244"/>
+  <unicode hex="066C"/>
+  <outline>
+    <component base="comma" xOffset="12" yOffset="360"/>
+  </outline>
+</glyph>

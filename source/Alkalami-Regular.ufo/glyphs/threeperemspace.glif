@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="threeperemspace" format="1">
+  <advance width="150"/>
+  <unicode hex="2004"/>
+  <outline>
+    <contour>
+      <point x="71" y="-60" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="68" y="305" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

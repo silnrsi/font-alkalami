@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yeh-farsi.fina.ss05" format="1">
+  <advance width="562"/>
+  <outline>
+    <component base="alefMaksura-ar.fina"/>
+    <component base="threedots-ar" xOffset="-26" yOffset="317"/>
+    <contour>
+      <point x="391" y="-139" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="133" y="567" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedots-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fehAfrican-ar.init" format="1">
+  <advance width="453"/>
+  <outline>
+    <component base="fehDotless-ar.init"/>
+    <component base="dotbelow-ar" xOffset="139" yOffset="-30"/>
+    <contour>
+      <point x="248" y="-240" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="114" y="500" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

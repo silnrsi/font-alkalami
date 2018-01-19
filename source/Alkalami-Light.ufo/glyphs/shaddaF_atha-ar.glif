@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shaddaFatha-ar" format="1">
+  <advance width="265"/>
+  <outline>
+    <component base="shadda-ar"/>
+    <component base="fatha-ar" xOffset="-7" yOffset="196"/>
+    <contour>
+      <point x="127" y="546" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="105" y="813" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

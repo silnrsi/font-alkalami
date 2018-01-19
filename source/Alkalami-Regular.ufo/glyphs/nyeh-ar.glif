@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nyeh-ar" format="1">
+  <advance width="526"/>
+  <unicode hex="0683"/>
+  <outline>
+    <component base="hah-ar"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="97" yOffset="-24"/>
+    <contour>
+      <point x="276" y="-267" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="276" y="415" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalbelow-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefMaksura-ar.init" format="1">
+  <advance width="277"/>
+  <outline>
+    <component base="behDotless-ar.init"/>
+    <contour>
+      <point x="82" y="-30" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="105" y="310" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

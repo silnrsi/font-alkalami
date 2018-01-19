@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ghain-ar.fina" format="1">
+  <advance width="536"/>
+  <unicode hex="FECE"/>
+  <outline>
+    <component base="ain-ar.fina"/>
+    <component base="dotabove-ar" xOffset="128" yOffset="356"/>
+    <contour>
+      <point x="242" y="-40" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="239" y="870" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

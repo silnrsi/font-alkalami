@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noonTwodotsbelow-ar.medi.alt" format="1">
+  <advance width="197"/>
+  <outline>
+    <component base="noon-ar.medi.alt"/>
+    <component base="twodotsnarrow-ar" xOffset="-92" yOffset="-212"/>
+    <contour>
+      <point x="66" y="-247" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="51" y="675" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotsnarrow-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

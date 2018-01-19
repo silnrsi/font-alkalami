@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ainThreedots-ar.medi.alt" format="1">
+  <advance width="382"/>
+  <outline>
+    <component base="ain-ar.medi.alt"/>
+    <component base="threedotsupabove-ar" xOffset="-36" yOffset="519"/>
+    <contour>
+      <point x="142" y="-40" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="147" y="1225" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

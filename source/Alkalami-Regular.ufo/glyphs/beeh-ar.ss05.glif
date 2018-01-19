@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="beeh-ar.ss05" format="1">
+  <advance width="441"/>
+  <outline>
+    <component base="behDotless-ar"/>
+    <component base="dotbelow-ar" xOffset="109"/>
+    <component base="threedots-ar" xOffset="121" yOffset="319"/>
+    <contour>
+      <point x="225" y="-258" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="295" y="568" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotbelow-ar</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

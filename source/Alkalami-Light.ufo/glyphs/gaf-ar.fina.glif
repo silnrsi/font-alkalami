@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gaf-ar.fina" format="1">
+  <advance width="785"/>
+  <unicode hex="FB93"/>
+  <outline>
+    <component base="keheh-ar.fina"/>
+    <component base="gafbar" xOffset="40" yOffset="-208"/>
+    <contour>
+      <point x="375" y="-40" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="205" y="535" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

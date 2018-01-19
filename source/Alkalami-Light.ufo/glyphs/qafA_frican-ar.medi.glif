@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafAfrican-ar.medi" format="1">
+  <advance width="479"/>
+  <outline>
+    <component base="fehDotless-ar.medi"/>
+    <component base="dotabove-ar" xOffset="25" yOffset="179"/>
+    <contour>
+      <point x="258" y="-30" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="124" y="700" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jeh-ar.fina" format="1">
+  <advance width="363"/>
+  <unicode hex="FB8B"/>
+  <outline>
+    <component base="reh-ar.fina"/>
+    <component base="threedotsupabove-ar" xOffset="23" yOffset="-9"/>
+    <contour>
+      <point x="231" y="-196" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="177" y="708" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>
