@@ -94,15 +94,15 @@
 	</interactions>
 -->
 	<aliases>
-	    <alias name="WarshDots" value="41"/>      <!-- ss01 Warsh Hack alternate has no dots on isolate and final-->
-	    <alias name="EndOfAyah2" value="42"/>     <!-- End of Ayah ss02 -->
-	    <alias name="EndOfAyah3" value="43"/>     <!-- End of Ayah ss03 -->
-	    <alias name="ImalaE" value="44"/>         <!-- ss04 Large Imala e -->
-	    <alias name="WagafHack" value="45"/>      <!-- ss05 Wagaf hack -->
-<!--	    <alias name="MonkeyTail" value="46"/> -->     <!-- ss06 "monkey" tail -->
-	    <alias name="FlatJeem" value="46"/>       <!-- ss07 non stacking -->
-	    <alias name="AlefDiac" value="47"/>       <!-- ss08 Alef fatha/kasra touching -->
-	    <alias name="calt_arab" value="calt _0"/>
+	    <alias name="WarshDots" value=50"/>      <!-- ss01 Warsh Hack alternate has no dots on isolate and final-->
+	    <alias name="EndOfAyah2" value="51"/>     <!-- End of Ayah ss02 -->
+	    <alias name="EndOfAyah3" value="52"/>     <!-- End of Ayah ss03 -->
+	    <alias name="ImalaE" value="53"/>         <!-- ss04 Large Imala e -->
+	    <alias name="WagafHack" value="54"/>      <!-- ss05 Wagaf hack -->
+<!--	    <alias name="MonkeyTail" value="55"/> -->     <!-- ss06 "monkey" tail -->
+	    <alias name="FlatJeem" value="56"/>       <!-- ss07 non stacking -->
+	    <alias name="AlefDiac" value="57"/>       <!-- ss08 Alef fatha/kasra touching -->
+	    <alias name="calt_arab" value="calt"/>
 	</aliases>
 
 </all_features>
