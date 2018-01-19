@@ -5,7 +5,9 @@ Alkalami is the local word for the Arabic "qalam", a type of sharpened stick use
 For more details about this project, including changelog and acknowledgements see [FONTLOG.txt](FONTLOG.txt).
 
 The source/Alkalami-master.glyphs file contains all the designed glyphs as well as fea files, etc.
-The UFOs sources are used for testing, building and releasing the fonts. 
+The UFOs sources are used for testing, building and releasing the fonts.
+
+## Project status [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Alkalami/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Alkalami&guest=1)
 
 ## About ftml tests
 
