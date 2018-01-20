@@ -54,18 +54,18 @@ ChangeLog
 - Changed positioning of dagger alef above fatha and alef maksura
 2016-10-06 (Becca Spalinger) Alkalami 0.919 
 - Updated OpenType code to handle hah/jeem/khah/nyeh positioning
-2016-04-04 (Becca (Hirsbrunner) Spalinger) Alkalami 0.910
+2016-04-04 (Becca Hirsbrunner Spalinger) Alkalami 0.910
 - Added anchor points to U+FDF2
 - Removed U+064A to ss05 and added U+06CC to ss05 with wagaf above
-2016-02-04 (Becca (Hirsbrunner) Spalinger) Alkalami 0.909
+2016-02-04 (Becca Hirsbrunner Spalinger) Alkalami 0.909
 - Fixed medial alternate form of peh
-2016-01-12 (Becca (Hirsbrunner) Spalinger) Alkalami 0.908
+2016-01-12 (Becca Hirsbrunner Spalinger) Alkalami 0.908
 - Fixed OpenType code for "Allah"
-2015-12-11 (Becca (Hirsbrunner) Spalinger) Alkalami 0.906 Preliminary design and smart behaviours
+2015-12-11 (Becca Hirsbrunner Spalinger) Alkalami 0.906 Preliminary design and smart behaviours
 - Smart behaviours for wagaf and Warsh implemented in OpenType
 - TypeTuner code added to support features
 - Space character changed to be bigger for use Latin script and smaller for Arabic script
-2015-11-05 (Becca (Hirsbrunner) Spalinger) Alkalami 0.1-alpha Preliminary design and smart behaviours
+2015-11-05 (Becca Hirsbrunner Spalinger) Alkalami 0.1-alpha Preliminary design and smart behaviours
 - Preliminary design of isolate characters
 - Smart behaviours implemented in OpenType
 
@@ -75,7 +75,7 @@ Acknowledgements
 be sure to add your name (N), email (E), web-address (W) and description
 (D). This list is sorted by last name in alphabetical order.)
 
-N: Becca (Hirsbrunner) Spalinger
+N: Becca Hirsbrunner Spalinger
 W: http://software.sil.org/alkalami/
 D: Lead Designer
 
