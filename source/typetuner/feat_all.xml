@@ -94,7 +94,7 @@
 	</interactions>
 -->
 	<aliases>
-	    <alias name="WarshDots" value=50"/>      <!-- ss01 Warsh Hack alternate has no dots on isolate and final-->
+	    <alias name="WarshDots" value="50"/>      <!-- ss01 Warsh Hack alternate has no dots on isolate and final-->
 	    <alias name="EndOfAyah2" value="51"/>     <!-- End of Ayah ss02 -->
 	    <alias name="EndOfAyah3" value="52"/>     <!-- End of Ayah ss03 -->
 	    <alias name="ImalaE" value="53"/>         <!-- ss04 Large Imala e -->
