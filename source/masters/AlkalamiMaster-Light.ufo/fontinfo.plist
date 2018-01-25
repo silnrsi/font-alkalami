@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Alkalami</string>
   <key>openTypeHeadCreated</key>
-  <string>2018/01/19 16:10:08</string>
+  <string>2018/01/25 09:55:38</string>
   <key>openTypeHheaAscender</key>
   <integer>1035</integer>
   <key>openTypeHheaDescender</key>
@@ -204,8 +204,6 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
     <integer>91</integer>
     <integer>87</integer>
   </array>
-  <key>styleMapFamilyName</key>
-  <string>Alkalami Light</string>
   <key>styleMapStyleName</key>
   <string>regular</string>
   <key>styleName</key>
