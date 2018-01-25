@@ -45,7 +45,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Alkalami Light" filename="instances/Alkalami-Light.ufo" name="Alkalami Light" stylemapfamilyname="Alkalami Light" stylemapstylename="regular" stylename="Regular">
+        <instance familyname="Alkalami Light" filename="instances/AlkalamiLight-Regular.ufo" name="Alkalami Light" stylemapfamilyname="Alkalami Light" stylemapstylename="regular" stylename="Regular">
             <location>
                 <dimension name="weight" xvalue="300.000000" />
                 <dimension name="width" xvalue="100.000000" />
