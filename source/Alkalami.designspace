@@ -16,7 +16,7 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Alkalami" filename="masters/AlkalamiMaster-Regular.ufo" name="Alkalami Regular" stylename="Regular">
+        <source familyname="Alkalami" filename="Alkalami-Regular.ufo" name="Alkalami Regular" stylename="Regular">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />
@@ -27,7 +27,7 @@
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source familyname="Alkalami" filename="masters/AlkalamiMaster-Light.ufo" name="Alkalami Light" stylename="Light">
+        <source familyname="Alkalami" filename="Alkalami-Light.ufo" name="Alkalami Light" stylename="Light">
             <location>
                 <dimension name="weight" xvalue="300.000000" />
                 <dimension name="width" xvalue="100.000000" />
