@@ -45,14 +45,14 @@ Font sources are published and a open workflow is used for building, testing and
 # set the build and test parameters
 for style in ('-Regular', '-Light'):
     font(target = process(APPNAME + style + '.ttf',
-            cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/masters/' + APPNAME + 'Master' + style + '.ufo']),
+            cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/' + APPNAME + style + '.ufo']),
             cmd('${TYPETUNER} -o ${TGT} add ${SRC} ${DEP}', 'source/typetuner/feat_all.xml'),
             cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
         ),
-        source = 'source/masters/' + APPNAME + 'Master' + style + '.ufo' ,
+        source = 'source/' + APPNAME + style + '.ufo' ,
         ap = APPNAME + style + '-ap.xml',
 
-       opentype = fea('source/masters/' + APPNAME + 'Master' + style + '.ufo/' + 'features.fea', no_make = 1),
+       opentype = fea('source/' + APPNAME + style + '.ufo/' + 'features.fea', no_make = 1),
 
         license = ofl('Alkalami', 'SIL'),
         script = ['arab'],
