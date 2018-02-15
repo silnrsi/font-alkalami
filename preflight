@@ -1,19 +1,19 @@
 #!/bin/sh
 # Script for calling multiple routines on a project, typically prior to committing to a repository.
 
-psfnormalize -p checkfix=fix source/masters/AlkalamiMaster-Regular.ufo
-psfnormalize -p checkfix=fix source/masters/AlkalamiMaster-Light.ufo
+psfnormalize -p checkfix=fix source/Alkalami-Regular.ufo
+psfnormalize -p checkfix=fix source/Alkalami-Light.ufo
 
 # Update glyph orders in Regular and Light:
-psfsetglyphorder --header sort_final,sort_designer --field public.glyphOrder,com.schriftgestaltung.glyphOrder -i source/glyph_data.csv source/masters/AlkalamiMaster-Regular.ufo
-psfsetglyphorder --header sort_final,sort_designer --field public.glyphOrder,com.schriftgestaltung.glyphOrder -i source/glyph_data.csv source/masters/AlkalamiMaster-Light.ufo
+psfsetglyphorder --header sort_final,sort_designer --field public.glyphOrder,com.schriftgestaltung.glyphOrder -i source/glyph_data.csv source/Alkalami-Regular.ufo
+psfsetglyphorder --header sort_final,sort_designer --field public.glyphOrder,com.schriftgestaltung.glyphOrder -i source/glyph_data.csv source/Alkalami-Light.ufo
 
 # Update production names in Regular:
-psfsetpsnames -i source/glyph_data.csv source/masters/AlkalamiMaster-Regular.ufo
-psfsetpsnames -i source/glyph_data.csv source/masters/AlkalamiMaster-Light.ufo
+psfsetpsnames -i source/glyph_data.csv source/Alkalami-Regular.ufo
+psfsetpsnames -i source/glyph_data.csv source/Alkalami-Light.ufo
 
 #  sync metadata to other UFOs
 psfsyncmasters source/Alkalami.designspace
 
 # [re-]build woff metadata file
-psfmakewoffmetadata -n Alkalami -i org.sil.fonts source/masters/AlkalamiMaster-Regular.ufo
+psfmakewoffmetadata -n Alkalami -i org.sil.fonts source/Alkalami-Regular.ufo
