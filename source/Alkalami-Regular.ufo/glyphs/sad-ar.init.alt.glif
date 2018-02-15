@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sad-ar.init.alt" format="2">
+  <advance width="613"/>
+  <anchor x="282" y="-40" name="bottom"/>
+  <anchor x="288" y="430" name="top"/>
+  <outline>
+    <contour>
+      <point x="-20" y="347" type="curve"/>
+      <point x="-20" y="207" type="line"/>
+      <point x="-13" y="207"/>
+      <point x="9" y="207"/>
+      <point x="18" y="207" type="curve" smooth="yes"/>
+      <point x="51" y="207"/>
+      <point x="51" y="205"/>
+      <point x="52" y="145" type="curve" smooth="yes"/>
+      <point x="54" y="22"/>
+      <point x="72" y="0"/>
+      <point x="95" y="0" type="curve" smooth="yes"/>
+      <point x="496" y="0" type="line" smooth="yes"/>
+      <point x="534" y="0"/>
+      <point x="543" y="95"/>
+      <point x="543" y="223" type="curve" smooth="yes"/>
+      <point x="543" y="344"/>
+      <point x="532" y="398"/>
+      <point x="486" y="403" type="curve" smooth="yes"/>
+      <point x="435" y="408"/>
+      <point x="151" y="410"/>
+      <point x="108" y="404" type="curve" smooth="yes"/>
+      <point x="73" y="399"/>
+      <point x="63" y="361"/>
+      <point x="56" y="347" type="curve"/>
+      <point x="30" y="347"/>
+      <point x="3" y="347"/>
+    </contour>
+    <contour>
+      <point x="114" y="196" type="curve" smooth="yes"/>
+      <point x="114" y="245"/>
+      <point x="115" y="267"/>
+      <point x="150" y="268" type="curve" smooth="yes"/>
+      <point x="232" y="271"/>
+      <point x="376" y="270"/>
+      <point x="448" y="266" type="curve" smooth="yes"/>
+      <point x="476" y="265"/>
+      <point x="478" y="239"/>
+      <point x="478" y="193" type="curve" smooth="yes"/>
+      <point x="478" y="141"/>
+      <point x="460" y="140"/>
+      <point x="442" y="140" type="curve" smooth="yes"/>
+      <point x="171" y="140" type="line" smooth="yes"/>
+      <point x="119" y="140"/>
+      <point x="114" y="148"/>
+    </contour>
+  </outline>
+</glyph>

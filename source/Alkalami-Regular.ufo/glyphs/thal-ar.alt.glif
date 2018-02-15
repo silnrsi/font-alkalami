@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="thal-ar.alt" format="2">
+  <advance width="418"/>
+  <anchor x="275" y="-40" name="bottom"/>
+  <anchor x="271" y="540" name="top"/>
+  <outline>
+    <component base="dotabove-ar" xOffset="168" yOffset="2"/>
+    <component base="dal-ar.alt"/>
+  </outline>
+</glyph>

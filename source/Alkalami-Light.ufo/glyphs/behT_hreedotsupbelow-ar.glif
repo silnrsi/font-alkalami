@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="behThreedotsupbelow-ar" format="2">
+  <advance width="542"/>
+  <unicode hex="0752"/>
+  <anchor x="267" y="-355" name="bottom"/>
+  <anchor x="271" y="283" name="top"/>
+  <outline>
+    <component base="behDotless-ar"/>
+    <component base="threedotsupbelow-ar" xOffset="108" yOffset="-20"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

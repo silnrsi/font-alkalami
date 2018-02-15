@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="beeh-ar.fina.ss05" format="2">
+  <advance width="425"/>
+  <anchor x="215" y="-227" name="bottom"/>
+  <anchor x="237" y="550" name="top"/>
+  <outline>
+    <component base="behDotless-ar.fina"/>
+    <component base="dotbelow-ar" xOffset="109" yOffset="-30"/>
+    <component base="threedots-ar.small" xOffset="133" yOffset="312"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

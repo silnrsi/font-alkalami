@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="behVinvertedbelow-ar.medi" format="2">
+  <advance width="289"/>
+  <anchor x="132" y="-196" name="bottom"/>
+  <anchor x="105" y="310" name="top"/>
+  <outline>
+    <component base="behDotless-ar.medi"/>
+    <component base="vinvertedabove-ar" xOffset="8" yOffset="-686"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

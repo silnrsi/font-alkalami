@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="behThreedotsupbelow-ar.init" format="2">
+  <advance width="339"/>
+  <anchor x="131" y="-455" name="bottom"/>
+  <anchor x="181" y="283" name="top"/>
+  <outline>
+    <component base="behDotless-ar.init"/>
+    <component base="threedotsupbelow-ar" xOffset="-27" yOffset="-50"/>
+  </outline>
+</glyph>

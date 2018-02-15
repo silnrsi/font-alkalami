@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yu-ar" format="2">
+  <advance width="481"/>
+  <unicode hex="06C8"/>
+  <anchor x="329" y="-222" name="bottom"/>
+  <anchor x="150" y="717" name="top"/>
+  <outline>
+    <component base="waw-ar"/>
+    <component base="alefabove-ar" xOffset="113" yOffset="-122"/>
+  </outline>
+</glyph>

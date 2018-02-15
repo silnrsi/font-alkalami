@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="space-ar" format="2">
+  <advance width="70"/>
+  <anchor x="37" y="-60" name="bottom"/>
+  <anchor x="34" y="305" name="top"/>
+  <outline/>
+</glyph>

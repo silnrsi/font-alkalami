@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehTwodotsbelowHamzaabove-ar" format="2">
+  <advance width="524"/>
+  <unicode hex="08A8"/>
+  <anchor x="391" y="-139" name="bottom"/>
+  <anchor x="217" y="567" name="top"/>
+  <outline>
+    <component base="yeh-ar.ss01"/>
+    <component base="hamzaabove-ar" xOffset="106" yOffset="-184"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="-574" yOffset="-429"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

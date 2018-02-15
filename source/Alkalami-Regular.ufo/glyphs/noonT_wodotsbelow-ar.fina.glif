@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noonTwodotsbelow-ar.fina" format="2">
+  <advance width="252"/>
+  <anchor x="100" y="-268" name="bottom"/>
+  <anchor x="66" y="547" name="top"/>
+  <outline>
+    <component base="noon-ar.fina.ss01"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="-799" yOffset="-493"/>
+    <component base="dotabove-ar" xOffset="-9" yOffset="15"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

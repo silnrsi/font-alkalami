@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fehTwodotsbelow-ar" format="2">
+  <advance width="491"/>
+  <unicode hex="0760"/>
+  <anchor x="278" y="-210" name="bottom"/>
+  <anchor x="144" y="500" name="top"/>
+  <outline>
+    <component base="fehDotless-ar"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="97" yOffset="-29"/>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shaddaFathatan-ar" format="2">
+  <advance width="263"/>
+  <anchor x="128" y="546" name="_top"/>
+  <anchor x="87" y="881" name="top"/>
+  <outline>
+    <component base="shadda-ar"/>
+    <component base="fathatan-ar" xOffset="-51" yOffset="174"/>
+  </outline>
+</glyph>

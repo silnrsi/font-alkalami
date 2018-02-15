@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lam_alefHamzabelow-ar.fina" format="2">
+  <advance width="517"/>
+  <unicode hex="FEFA"/>
+  <anchor x="309" y="0" name="caret_1"/>
+  <outline>
+    <component base="hamzabelow-ar" xOffset="40" yOffset="-20"/>
+    <component base="lam_alef-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>lam_alef-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>lam_alef-ar.fina</string>
+    </dict>
+  </lib>
+</glyph>

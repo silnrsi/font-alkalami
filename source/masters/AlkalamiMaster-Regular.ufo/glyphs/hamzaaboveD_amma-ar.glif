@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hamzaaboveDamma-ar" format="1">
-  <advance width="522"/>
-  <outline>
-    <component base="hamzaabove-ar"/>
-    <component base="damma-ar" xOffset="-20" yOffset="200"/>
-  </outline>
-</glyph>

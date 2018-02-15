@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehHamzaabove-ar" format="2">
+  <advance width="524"/>
+  <unicode hex="0626"/>
+  <anchor x="391" y="-139" name="bottom"/>
+  <anchor x="217" y="551" name="top"/>
+  <outline>
+    <component base="alefMaksura-ar"/>
+    <component base="hamzaabove-ar" xOffset="86" yOffset="-184"/>
+  </outline>
+</glyph>

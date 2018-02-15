@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sad-ar.alt" format="2">
+  <advance width="1226"/>
+  <anchor x="858" y="-30" name="bottom"/>
+  <anchor x="867" y="424" name="top"/>
+  <outline>
+    <component base="sad-ar"/>
+  </outline>
+</glyph>

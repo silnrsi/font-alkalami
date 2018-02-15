@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehThreedotsbelow-ar.init" format="2">
+  <advance width="277"/>
+  <anchor x="112" y="304" name="top"/>
+  <outline>
+    <component base="alefMaksura-ar.init"/>
+    <component base="threedotsdownbelow-ar" xOffset="-82" yOffset="-20"/>
+  </outline>
+</glyph>

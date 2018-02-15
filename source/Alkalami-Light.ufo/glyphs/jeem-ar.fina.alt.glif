@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jeem-ar.fina.alt" format="2">
+  <advance width="537"/>
+  <anchor x="336" y="-245" name="bottom"/>
+  <anchor x="337" y="344" name="top"/>
+  <outline>
+    <component base="hah-ar.fina.alt"/>
+    <component base="dotbelow-ar" xOffset="231" yOffset="-52"/>
+  </outline>
+</glyph>

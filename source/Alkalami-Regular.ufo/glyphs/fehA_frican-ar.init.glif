@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fehAfrican-ar.init" format="2">
+  <advance width="520"/>
+  <anchor x="246" y="-257" name="bottom"/>
+  <anchor x="166" y="578" name="top"/>
+  <outline>
+    <component base="fehDotless-ar.init"/>
+    <component base="dotbelow-ar" xOffset="143" yOffset="-10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

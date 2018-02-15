@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="threedotsdownabove-ar" format="2">
+  <anchor x="185" y="303" name="_top"/>
+  <outline>
+    <component base="twodotshorizontalabove-ar" xOffset="3" yOffset="217"/>
+    <component base="dotabove-ar" xOffset="73" yOffset="20"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>358</integer>
+    </dict>
+  </lib>
+</glyph>

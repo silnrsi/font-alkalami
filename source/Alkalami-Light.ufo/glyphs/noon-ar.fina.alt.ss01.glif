@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noon-ar.fina.alt.ss01" format="2">
+  <advance width="792"/>
+  <anchor x="380" y="-260" name="bottom"/>
+  <anchor x="377" y="297" name="top"/>
+  <outline>
+    <component base="noonghunna-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

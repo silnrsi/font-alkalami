@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafDotless-ar" format="2">
+  <advance width="491"/>
+  <unicode hex="066F"/>
+  <anchor x="268" y="-30" name="bottom"/>
+  <anchor x="144" y="500" name="top"/>
+  <outline>
+    <component base="fehDotless-ar"/>
+  </outline>
+</glyph>

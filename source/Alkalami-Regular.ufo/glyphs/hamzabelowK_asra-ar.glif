@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hamzabelowKasra-ar" format="2">
+  <advance width="228"/>
+  <anchor x="111" y="-37" name="_bottom"/>
+  <anchor x="116" y="-340" name="bottom"/>
+  <outline>
+    <component base="hamzabelow-ar"/>
+    <component base="kasra-ar" xOffset="-11" yOffset="-204"/>
+  </outline>
+</glyph>

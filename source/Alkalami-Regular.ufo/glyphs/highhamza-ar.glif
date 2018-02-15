@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="highhamza-ar" format="2">
+  <advance width="228"/>
+  <unicode hex="0674"/>
+  <anchor x="111" y="485" name="_top"/>
+  <anchor x="111" y="735" name="top"/>
+  <outline>
+    <component base="hamzaabove-ar"/>
+  </outline>
+</glyph>

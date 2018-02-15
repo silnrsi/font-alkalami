@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="threeperemspace" format="2">
+  <advance width="150"/>
+  <unicode hex="2004"/>
+  <anchor x="71" y="-60" name="bottom"/>
+  <anchor x="68" y="305" name="top"/>
+  <outline/>
+</glyph>

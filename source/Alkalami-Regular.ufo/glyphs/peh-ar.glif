@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="peh-ar" format="2">
+  <advance width="441"/>
+  <unicode hex="067E"/>
+  <anchor x="215" y="-434" name="bottom"/>
+  <anchor x="225" y="297" name="top"/>
+  <outline>
+    <component base="behDotless-ar"/>
+    <component base="threedotsdownbelow-ar" xOffset="36" yOffset="10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

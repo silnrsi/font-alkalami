@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="khah-ar" format="2">
+  <advance width="526"/>
+  <unicode hex="062E"/>
+  <anchor x="263" y="-40" name="bottom"/>
+  <anchor x="274" y="608" name="top"/>
+  <outline>
+    <component base="hah-ar"/>
+    <component base="dotabove-ar" xOffset="162" yOffset="87"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yeh-farsi.fina" format="2">
+  <advance width="793"/>
+  <unicode hex="FBFD"/>
+  <anchor x="633" y="-110" name="bottom"/>
+  <anchor x="444" y="289" name="top"/>
+  <outline>
+    <component base="alefMaksura-ar.fina"/>
+  </outline>
+</glyph>

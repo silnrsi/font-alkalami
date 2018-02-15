@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ghain-ar.medi.alt" format="2">
+  <advance width="382"/>
+  <anchor x="142" y="-40" name="bottom"/>
+  <anchor x="147" y="1046" name="top"/>
+  <outline>
+    <component base="ain-ar.medi.alt"/>
+    <component base="dotabove-ar" xOffset="36" yOffset="538"/>
+  </outline>
+</glyph>

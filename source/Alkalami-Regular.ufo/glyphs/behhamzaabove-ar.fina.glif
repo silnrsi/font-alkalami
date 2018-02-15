@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="behhamzaabove-ar.fina" format="2">
+  <advance width="444"/>
+  <anchor x="217" y="-267" name="bottom"/>
+  <anchor x="225" y="577" name="top"/>
+  <outline>
+    <component base="beh-ar.fina"/>
+    <component base="hamzaabove-ar" xOffset="144" yOffset="-188"/>
+  </outline>
+</glyph>

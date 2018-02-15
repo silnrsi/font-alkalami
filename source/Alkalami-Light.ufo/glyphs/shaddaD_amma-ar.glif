@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shaddaDamma-ar" format="2">
+  <advance width="279"/>
+  <anchor x="138" y="546" name="_top"/>
+  <anchor x="133" y="943" name="top"/>
+  <outline>
+    <component base="shadda-ar" xOffset="16"/>
+    <component base="damma-ar" xOffset="4" yOffset="203"/>
+  </outline>
+</glyph>

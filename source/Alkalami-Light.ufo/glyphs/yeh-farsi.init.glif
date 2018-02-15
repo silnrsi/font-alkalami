@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yeh-farsi.init" format="2">
+  <advance width="277"/>
+  <unicode hex="FBFE"/>
+  <anchor x="84" y="-212" name="bottom"/>
+  <anchor x="124" y="301" name="top"/>
+  <outline>
+    <component base="behDotless-ar.init"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="-99" yOffset="-29"/>
+  </outline>
+</glyph>

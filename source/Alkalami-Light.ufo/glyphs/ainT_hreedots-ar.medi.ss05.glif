@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ainThreedots-ar.medi.ss05" format="2">
+  <advance width="522"/>
+  <anchor x="271" y="-30" name="bottom"/>
+  <anchor x="294" y="945" name="top"/>
+  <outline>
+    <component base="ain-ar.medi"/>
+    <component base="threedots-ar.small" xOffset="172" yOffset="716"/>
+    <component base="dotabove-ar" xOffset="171" yOffset="230"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

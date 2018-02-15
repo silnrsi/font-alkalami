@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefbelow-ar" format="2">
+  <unicode hex="0656"/>
+  <anchor x="47" y="-23" name="_bottom"/>
+  <anchor x="49" y="-343" name="bottom"/>
+  <outline>
+    <component base="alefabove-ar" yOffset="-870"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>95</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="question-ar" format="1">
-  <advance width="508"/>
-  <unicode hex="061F"/>
-  <outline>
-    <component base="question" xScale="-1" xOffset="468"/>
-  </outline>
-</glyph>

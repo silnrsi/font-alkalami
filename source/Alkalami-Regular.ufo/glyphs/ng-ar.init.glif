@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ng-ar.init" format="2">
+  <advance width="800"/>
+  <unicode hex="FBD5"/>
+  <anchor x="402" y="-40" name="bottom"/>
+  <anchor x="185" y="820" name="top"/>
+  <outline>
+    <component base="kaf-ar.init"/>
+    <component base="threedotsabovesmall-ar" xOffset="50" yOffset="97"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

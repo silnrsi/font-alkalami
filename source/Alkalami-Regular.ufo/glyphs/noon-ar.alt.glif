@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noon-ar.alt" format="2">
+  <advance width="240"/>
+  <anchor x="120" y="-218" name="bottom"/>
+  <anchor x="122" y="299" name="top"/>
+  <outline>
+    <component base="noonghunna-ar.alt"/>
+    <component base="dotabove-ar" xOffset="11" yOffset="15"/>
+  </outline>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nyeh-ar" format="2">
+  <advance width="526"/>
+  <unicode hex="0683"/>
+  <anchor x="276" y="-267" name="bottom"/>
+  <anchor x="276" y="415" name="top"/>
+  <outline>
+    <component base="hah-ar"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="97" yOffset="-24"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

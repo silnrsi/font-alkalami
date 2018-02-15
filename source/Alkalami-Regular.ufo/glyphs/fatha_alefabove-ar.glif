@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fatha_alefabove-ar" format="2">
+  <advance width="287"/>
+  <anchor x="126" y="527" name="_top"/>
+  <anchor x="-62" y="876" name="top"/>
+  <outline>
+    <component base="fatha-ar"/>
+    <component base="alefabove-ar" xOffset="-108" yOffset="13"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

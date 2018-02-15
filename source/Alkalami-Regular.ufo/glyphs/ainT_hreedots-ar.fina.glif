@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ainThreedots-ar.fina" format="2">
+  <advance width="536"/>
+  <anchor x="242" y="-40" name="bottom"/>
+  <anchor x="239" y="979" name="top"/>
+  <outline>
+    <component base="ain-ar.fina"/>
+    <component base="threedotsabovesmall-ar" xOffset="100" yOffset="257"/>
+  </outline>
+</glyph>

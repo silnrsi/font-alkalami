@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alef-ar.wide" format="2">
+  <advance width="275"/>
+  <outline>
+    <contour>
+      <point x="146" y="368" type="line"/>
+      <point x="146" y="325" type="line"/>
+      <point x="275" y="325" type="line"/>
+      <point x="275" y="338"/>
+      <point x="274" y="368"/>
+      <point x="267" y="368" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="146" y="442" type="line"/>
+      <point x="146" y="398" type="line"/>
+      <point x="275" y="398" type="line"/>
+      <point x="275" y="411"/>
+      <point x="274" y="442"/>
+      <point x="267" y="442" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

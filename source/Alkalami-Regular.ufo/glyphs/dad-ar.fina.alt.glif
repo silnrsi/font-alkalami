@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dad-ar.fina.alt" format="2">
+  <advance width="751"/>
+  <anchor x="379" y="-44" name="bottom"/>
+  <anchor x="366" y="670" name="top"/>
+  <outline>
+    <component base="sad-ar.fina.alt"/>
+    <component base="dotabove-ar" xOffset="255" yOffset="146"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

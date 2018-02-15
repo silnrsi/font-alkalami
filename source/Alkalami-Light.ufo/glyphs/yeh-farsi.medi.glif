@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yeh-farsi.medi" format="2">
+  <advance width="289"/>
+  <unicode hex="FBFF"/>
+  <anchor x="146" y="-210" name="bottom"/>
+  <anchor x="170" y="344" name="top"/>
+  <outline>
+    <component base="yeh-ar.medi"/>
+  </outline>
+</glyph>

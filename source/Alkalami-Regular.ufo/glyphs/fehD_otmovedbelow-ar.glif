@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fehDotmovedbelow-ar" format="2">
+  <advance width="530"/>
+  <unicode hex="06A2"/>
+  <anchor x="296" y="-247" name="bottom"/>
+  <anchor x="195" y="578" name="top"/>
+  <outline>
+    <component base="fehDotless-ar"/>
+    <component base="dotbelow-ar" xOffset="184"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

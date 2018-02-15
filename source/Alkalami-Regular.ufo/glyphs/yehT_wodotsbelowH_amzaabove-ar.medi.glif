@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehTwodotsbelowHamzaabove-ar.medi" format="2">
+  <advance width="329"/>
+  <anchor x="169" y="-240" name="bottom"/>
+  <anchor x="166" y="570" name="top"/>
+  <outline>
+    <component base="yeh-ar.medi"/>
+    <component base="hamzaabove-ar" xOffset="81" yOffset="-188"/>
+  </outline>
+</glyph>

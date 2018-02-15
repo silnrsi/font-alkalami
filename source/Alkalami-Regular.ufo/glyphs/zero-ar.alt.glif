@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zero-ar.alt" format="2">
+  <advance width="250"/>
+  <outline>
+    <contour>
+      <point x="123" y="171" type="curve"/>
+      <point x="151" y="188"/>
+      <point x="194" y="228"/>
+      <point x="194" y="254" type="curve"/>
+      <point x="178" y="285"/>
+      <point x="156" y="309"/>
+      <point x="127" y="330" type="curve"/>
+      <point x="93" y="318"/>
+      <point x="56" y="267"/>
+      <point x="56" y="241" type="curve"/>
+      <point x="80" y="220"/>
+      <point x="98" y="199"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kaf-ar.medi" format="2">
+  <advance width="785"/>
+  <unicode hex="FEDC"/>
+  <anchor x="404" y="-30" name="bottom"/>
+  <anchor x="205" y="467" name="top"/>
+  <outline>
+    <component base="keheh-ar.medi"/>
+  </outline>
+</glyph>

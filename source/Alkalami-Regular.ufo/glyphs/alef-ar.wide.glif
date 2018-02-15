@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alef-ar.wide" format="2">
+  <advance width="275"/>
+  <anchor x="99" y="-120" name="bottom"/>
+  <anchor x="197" y="312" name="top"/>
+  <outline>
+    <component base="alef-ar" xOffset="10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

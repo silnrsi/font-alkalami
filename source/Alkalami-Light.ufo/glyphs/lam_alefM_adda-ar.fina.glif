@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lam_alefMadda-ar.fina" format="2">
+  <advance width="517"/>
+  <unicode hex="FEF6"/>
+  <anchor x="477" y="-30" name="bottom_1"/>
+  <anchor x="90" y="-30" name="bottom_2"/>
+  <anchor x="309" y="0" name="caret_1"/>
+  <anchor x="407" y="659" name="top_1"/>
+  <anchor x="98" y="710" name="top_2"/>
+  <outline>
+    <component base="lam_alef-ar.fina"/>
+    <component base="madda-ar" xOffset="-75"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>lam_alef-ar.fina</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="twodotsverticalbelow-ar" format="2">
+  <anchor x="89" y="0" name="_bottom"/>
+  <outline>
+    <component base="twodotsverticalabove-ar" yOffset="-700"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>171</integer>
+    </dict>
+  </lib>
+</glyph>

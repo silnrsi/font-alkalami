@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kasra-ar" format="2">
+  <unicode hex="0650"/>
+  <anchor x="129" y="-50" name="_bottom"/>
+  <anchor x="101" y="-136" name="bottom"/>
+  <outline>
+    <component base="fatha-ar" yOffset="-669"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>257</integer>
+    </dict>
+  </lib>
+</glyph>

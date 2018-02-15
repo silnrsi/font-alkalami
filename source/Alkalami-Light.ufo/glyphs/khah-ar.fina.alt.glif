@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="khah-ar.fina.alt" format="2">
+  <advance width="537"/>
+  <anchor x="340" y="-52" name="bottom"/>
+  <anchor x="336" y="504" name="top"/>
+  <outline>
+    <component base="hah-ar.fina.alt"/>
+    <component base="dotabove-ar" xOffset="228" yOffset="25"/>
+  </outline>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fathatan-ar" format="2">
+  <unicode hex="064B"/>
+  <anchor x="169" y="536" name="_top"/>
+  <anchor x="125" y="714" name="top"/>
+  <outline>
+    <component base="fatha-ar" xOffset="40"/>
+    <component base="fatha-ar" xOffset="-1" yOffset="90"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>297</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

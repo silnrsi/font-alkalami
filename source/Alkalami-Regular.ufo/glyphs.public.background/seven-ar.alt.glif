@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven-ar.alt" format="2">
+  <advance width="350"/>
+  <outline>
+    <contour>
+      <point x="98" y="575" type="curve"/>
+      <point x="154" y="577"/>
+      <point x="204" y="577"/>
+      <point x="250" y="577" type="curve"/>
+      <point x="297" y="577"/>
+      <point x="339" y="577"/>
+      <point x="378" y="575" type="curve"/>
+      <point x="269" y="383"/>
+      <point x="201" y="186"/>
+      <point x="159" y="0" type="curve"/>
+      <point x="258" y="0" type="line"/>
+      <point x="278" y="167"/>
+      <point x="322" y="381"/>
+      <point x="467" y="632" type="curve"/>
+      <point x="446" y="660" type="line"/>
+      <point x="382" y="658"/>
+      <point x="311" y="657"/>
+      <point x="241" y="657" type="curve"/>
+      <point x="171" y="657"/>
+      <point x="102" y="658"/>
+      <point x="41" y="660" type="curve"/>
+      <point x="41" y="609"/>
+      <point x="37" y="548"/>
+      <point x="33" y="470" type="curve"/>
+      <point x="63" y="470" type="line"/>
+      <point x="74" y="503"/>
+      <point x="85" y="542"/>
+    </contour>
+  </outline>
+</glyph>

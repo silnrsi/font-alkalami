@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jeem-ar.fina.alt" format="2">
+  <advance width="585"/>
+  <anchor x="383" y="-260" name="bottom"/>
+  <anchor x="421" y="384" name="top"/>
+  <outline>
+    <component base="hah-ar.fina.alt"/>
+    <component base="dotbelow-ar" xOffset="293"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

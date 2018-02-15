@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="behVabove-ar.init" format="2">
+  <advance width="339"/>
+  <anchor x="155" y="-50" name="bottom"/>
+  <anchor x="176" y="492" name="top"/>
+  <outline>
+    <component base="behDotless-ar.init"/>
+    <component base="vabove-ar" xOffset="68" yOffset="-172"/>
+  </outline>
+</glyph>

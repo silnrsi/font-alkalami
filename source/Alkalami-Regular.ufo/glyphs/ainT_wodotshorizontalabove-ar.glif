@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ainTwodotshorizontalabove-ar" format="2">
+  <advance width="511"/>
+  <unicode hex="075D"/>
+  <anchor x="281" y="-40" name="bottom"/>
+  <anchor x="283" y="622" name="top"/>
+  <outline>
+    <component base="ain-ar"/>
+    <component base="twodotshorizontalabove-ar" xOffset="104" yOffset="97"/>
+  </outline>
+</glyph>

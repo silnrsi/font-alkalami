@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oe-ar" format="2">
+  <advance width="481"/>
+  <unicode hex="06C6"/>
+  <anchor x="329" y="-222" name="bottom"/>
+  <anchor x="162" y="604" name="top"/>
+  <outline>
+    <component base="waw-ar"/>
+    <component base="vabove-ar" xOffset="12" yOffset="-54"/>
+  </outline>
+</glyph>

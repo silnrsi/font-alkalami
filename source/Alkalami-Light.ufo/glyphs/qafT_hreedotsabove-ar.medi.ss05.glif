@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafThreedotsabove-ar.medi.ss05" format="2">
+  <advance width="479"/>
+  <anchor x="258" y="-30" name="bottom"/>
+  <anchor x="124" y="890" name="top"/>
+  <outline>
+    <component base="fehDotless-ar.medi"/>
+    <component base="dotabove-ar" xOffset="14" yOffset="164"/>
+    <component base="threedots-ar.small" xOffset="5" yOffset="670"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

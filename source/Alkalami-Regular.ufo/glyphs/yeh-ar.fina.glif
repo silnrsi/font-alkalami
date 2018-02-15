@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yeh-ar.fina" format="2">
+  <advance width="562"/>
+  <unicode hex="FEF2"/>
+  <anchor x="391" y="-139" name="bottom"/>
+  <anchor x="217" y="301" name="top"/>
+  <outline>
+    <component base="alefMaksura-ar.fina"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="-481" yOffset="-425"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

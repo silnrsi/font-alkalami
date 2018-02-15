@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gaf-ar" format="2">
+  <advance width="805"/>
+  <unicode hex="06AF"/>
+  <anchor x="397" y="-40" name="bottom"/>
+  <anchor x="195" y="630" name="top"/>
+  <outline>
+    <component base="kaf-ar"/>
+    <component base="gafbar" xOffset="34" yOffset="-156"/>
+  </outline>
+</glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
   <uniqueid id="org.sil.fonts.Alkalami.1.004" />
-  <vendor name="SIL International" url="www.sil.org" />
+  <vendor name="SIL International" url="http://www.sil.org" />
   <credits>
     <credit
       name="Becca Hirsbrunner Spalinger"
@@ -10,18 +10,15 @@
     />
     <credit
       name="Lorna Evans"
-      url="http://software.sil.org/alkalami/"
       role="Project Manager"
     />
     <credit
       name="Bob Hallissy"
-      url="http://software.sil.org/alkalami/"
-      role="Script Engineer"
+      url="Script engineer"
     />
     <credit
       name="Nicolas Spalinger"
-      url="http://software.sil.org/alkalami/"
-      role="Script Engineer"
+      url="Script engineer"
     />
   </credits>
   <description>

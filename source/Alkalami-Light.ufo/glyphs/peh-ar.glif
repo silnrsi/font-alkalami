@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="peh-ar" format="2">
+  <advance width="542"/>
+  <unicode hex="067E"/>
+  <anchor x="284" y="-367" name="bottom"/>
+  <anchor x="292" y="297" name="top"/>
+  <outline>
+    <component base="behDotless-ar"/>
+    <component base="threedotsdownbelow-ar" xOffset="120" yOffset="-20"/>
+  </outline>
+</glyph>

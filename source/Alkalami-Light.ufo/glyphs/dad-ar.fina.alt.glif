@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dad-ar.fina.alt" format="2">
+  <advance width="1209"/>
+  <anchor x="858" y="-30" name="bottom"/>
+  <anchor x="867" y="614" name="top"/>
+  <outline>
+    <component base="dad-ar.fina"/>
+  </outline>
+</glyph>

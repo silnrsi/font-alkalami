@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kehehThreedotsabove-ar.init" format="2">
+  <advance width="800"/>
+  <anchor x="402" y="-40" name="bottom"/>
+  <anchor x="185" y="820" name="top"/>
+  <outline>
+    <component base="ng-ar.init"/>
+  </outline>
+</glyph>

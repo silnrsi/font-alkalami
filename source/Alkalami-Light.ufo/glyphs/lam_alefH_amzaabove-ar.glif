@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lam_alefHamzaabove-ar" format="2">
+  <advance width="473"/>
+  <unicode hex="FEF7"/>
+  <anchor x="385" y="-30" name="bottom_1"/>
+  <anchor x="92" y="-30" name="bottom_2"/>
+  <anchor x="259" y="0" name="caret_1"/>
+  <anchor x="332" y="674" name="top_1"/>
+  <anchor x="85" y="805" name="top_2"/>
+  <outline>
+    <component base="hamzaabove-ar" xOffset="12" yOffset="110"/>
+    <component base="lam_alef-ar"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>lam_alef-ar</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>lam_alef-ar</string>
+    </dict>
+  </lib>
+</glyph>

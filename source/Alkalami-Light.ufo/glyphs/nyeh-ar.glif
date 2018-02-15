@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nyeh-ar" format="2">
+  <advance width="586"/>
+  <unicode hex="0683"/>
+  <anchor x="326" y="-231" name="bottom"/>
+  <anchor x="273" y="347" name="top"/>
+  <outline>
+    <component base="hah-ar"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="135" yOffset="-88"/>
+  </outline>
+</glyph>

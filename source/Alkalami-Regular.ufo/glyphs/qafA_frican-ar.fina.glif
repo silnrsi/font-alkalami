@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafAfrican-ar.fina" format="2">
+  <advance width="589"/>
+  <anchor x="514" y="-134" name="bottom"/>
+  <anchor x="212" y="374" name="top"/>
+  <outline>
+    <component base="qafDotabove-ar.fina.ss01"/>
+  </outline>
+</glyph>

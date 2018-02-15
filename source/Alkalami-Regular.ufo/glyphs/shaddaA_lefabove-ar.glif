@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shaddaAlefabove-ar" format="2">
+  <advance width="263"/>
+  <anchor x="134" y="536" name="_top"/>
+  <anchor x="128" y="1040" name="top"/>
+  <outline>
+    <component base="shadda-ar"/>
+    <component base="alefabove-ar" xOffset="80" yOffset="229"/>
+  </outline>
+</glyph>

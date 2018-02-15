@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafDotabove-ar.fina" format="2">
+  <advance width="589"/>
+  <anchor x="514" y="-134" name="bottom"/>
+  <anchor x="172" y="571" name="top"/>
+  <outline>
+    <component base="qafDotless-ar.fina"/>
+    <component base="dotabove-ar" xOffset="64" yOffset="34"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

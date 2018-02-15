@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dal-ar.fina.alt" format="2">
+  <advance width="434"/>
+  <anchor x="306" y="-60" name="bottom"/>
+  <anchor x="269" y="300" name="top"/>
+  <outline>
+    <component base="dal-ar.fina"/>
+  </outline>
+</glyph>

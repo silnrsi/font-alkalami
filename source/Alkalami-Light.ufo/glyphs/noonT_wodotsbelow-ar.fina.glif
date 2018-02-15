@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noonTwodotsbelow-ar.fina" format="2">
+  <advance width="792"/>
+  <anchor x="332" y="-457" name="bottom"/>
+  <anchor x="377" y="297" name="top"/>
+  <outline>
+    <component base="noon-ar.fina.ss01"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="149" yOffset="-269"/>
+  </outline>
+</glyph>

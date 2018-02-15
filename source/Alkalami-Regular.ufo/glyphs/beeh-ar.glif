@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="beeh-ar" format="2">
+  <advance width="441"/>
+  <unicode hex="067B"/>
+  <anchor x="225" y="-430" name="bottom"/>
+  <anchor x="225" y="297" name="top"/>
+  <outline>
+    <component base="behDotless-ar"/>
+    <component base="twodotsverticalbelow-ar" xOffset="129" yOffset="-10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

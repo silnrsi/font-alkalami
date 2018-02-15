@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehTwodotsbelowHamzaabove-ar.fina" format="2">
+  <advance width="793"/>
+  <anchor x="159" y="-512" name="bottom"/>
+  <anchor x="442" y="486" name="top"/>
+  <outline>
+    <component base="alefMaksura-ar.fina"/>
+    <component base="hamzaabove-ar" xOffset="367" yOffset="-226"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="-2" yOffset="-323"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

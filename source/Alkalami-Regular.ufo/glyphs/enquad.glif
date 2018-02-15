@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="enquad" format="2">
+  <advance width="623"/>
+  <unicode hex="2000"/>
+  <anchor x="311" y="-60" name="bottom"/>
+  <anchor x="308" y="305" name="top"/>
+  <outline/>
+</glyph>

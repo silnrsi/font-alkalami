@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="waw-ar.alt" format="2">
+  <advance width="515"/>
+  <anchor x="336" y="-211" name="bottom"/>
+  <anchor x="171" y="370" name="top"/>
+  <outline>
+    <component base="waw-ar"/>
+  </outline>
+</glyph>
