@@ -150,8 +150,8 @@ value = "1.004";
 {
 name = openTypeOS2CodePageRanges;
 value = (
-1252,
-864
+0,
+6
 );
 },
 {
