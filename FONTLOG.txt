@@ -80,15 +80,12 @@ W: http://software.sil.org/alkalami/
 D: Lead Designer
 
 N: Lorna Evans
-W: http://software.sil.org/alkalami/
 D: Project Manager
 
 N: Bob Hallissy
-W: http://software.sil.org/alkalami/
 W: Script engineer
 
 N: Nicolas Spalinger
-W: http://software.sil.org/alkalami/
 W: Script engineer
 
 The Alkalami font project is maintained by SIL International.
