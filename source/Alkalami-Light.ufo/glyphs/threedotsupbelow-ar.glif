@@ -4,10 +4,4 @@
   <outline>
     <component base="threedotsupabove-ar" yOffset="-630"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>321</integer>
-    </dict>
-  </lib>
 </glyph>

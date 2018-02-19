@@ -7,15 +7,4 @@
     <component base="fatha-ar" xOffset="40"/>
     <component base="fatha-ar" xOffset="-1" yOffset="90"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>297</integer>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

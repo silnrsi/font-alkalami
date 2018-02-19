@@ -4,10 +4,4 @@
   <outline>
     <component base="twodotsverticalabove-ar" yOffset="-700"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>171</integer>
-    </dict>
-  </lib>
 </glyph>

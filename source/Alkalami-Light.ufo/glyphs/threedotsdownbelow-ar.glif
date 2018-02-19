@@ -4,10 +4,4 @@
   <outline>
     <component base="threedotsdownabove-ar" yOffset="-610"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>321</integer>
-    </dict>
-  </lib>
 </glyph>

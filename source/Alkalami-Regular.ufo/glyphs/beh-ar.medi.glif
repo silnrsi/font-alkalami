@@ -6,15 +6,6 @@
   <anchor x="159" y="298" name="top"/>
   <outline>
     <component base="behDotless-ar.medi"/>
-    <component base="dotbelow-ar" xOffset="52"/>
+    <component base="dotbelow-ar" xOffset="53" yOffset="-40"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

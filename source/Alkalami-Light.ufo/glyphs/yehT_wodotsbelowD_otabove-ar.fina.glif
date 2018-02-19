@@ -8,14 +8,4 @@
     <component base="dotabove-ar" xOffset="331" yOffset="-22"/>
     <component base="twodotshorizontalbelow-ar" yOffset="-302"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

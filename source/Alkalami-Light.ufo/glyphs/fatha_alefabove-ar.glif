@@ -5,6 +5,6 @@
   <anchor x="-22" y="827" name="top"/>
   <outline>
     <component base="fatha-ar"/>
-    <component base="alefabove-ar" xOffset="-67" yOffset="21"/>
+    <component base="alefabove-ar" xOffset="78" yOffset="75"/>
   </outline>
 </glyph>

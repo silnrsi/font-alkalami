@@ -7,13 +7,4 @@
     <component base="sad-ar.medi.alt"/>
     <component base="dotabove-ar" xOffset="213" yOffset="146"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsLocked</key>
-      <array>
-        <true/>
-        <false/>
-      </array>
-    </dict>
-  </lib>
 </glyph>

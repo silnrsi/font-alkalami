@@ -24,10 +24,4 @@
       <point x="174" y="692"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>244</integer>
-    </dict>
-  </lib>
 </glyph>

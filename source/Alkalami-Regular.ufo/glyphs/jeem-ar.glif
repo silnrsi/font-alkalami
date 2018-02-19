@@ -8,13 +8,4 @@
     <component base="hah-ar"/>
     <component base="dotcenter-ar" xOffset="142" yOffset="-529"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

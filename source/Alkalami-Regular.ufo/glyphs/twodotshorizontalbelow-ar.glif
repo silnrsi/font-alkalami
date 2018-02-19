@@ -4,10 +4,4 @@
   <outline>
     <component base="twodotshorizontalabove-ar" yOffset="-520"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>358</integer>
-    </dict>
-  </lib>
 </glyph>

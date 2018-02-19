@@ -60,7 +60,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>=n</string>
+      <string>=n-5</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>=n</string>
     </dict>

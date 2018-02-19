@@ -6,10 +6,4 @@
   <outline>
     <component base="hamzaabove-ar" yOffset="-766"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>228</integer>
-    </dict>
-  </lib>
 </glyph>

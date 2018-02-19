@@ -6,10 +6,4 @@
   <outline>
     <component base="alefabove-ar" yOffset="-870"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>95</integer>
-    </dict>
-  </lib>
 </glyph>

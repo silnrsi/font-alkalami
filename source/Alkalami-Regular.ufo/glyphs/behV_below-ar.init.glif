@@ -7,13 +7,4 @@
     <component base="behDotless-ar.init"/>
     <component base="vabove-ar" xOffset="22" yOffset="-709"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

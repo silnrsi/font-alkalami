@@ -5,15 +5,6 @@
   <anchor x="-62" y="876" name="top"/>
   <outline>
     <component base="fatha-ar"/>
-    <component base="alefabove-ar" xOffset="-108" yOffset="13"/>
+    <component base="alefabove-ar" xOffset="66" yOffset="102"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

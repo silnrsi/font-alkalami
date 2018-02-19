@@ -51,7 +51,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>=o+5</string>
+      <string>=o</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>=o</string>
     </dict>

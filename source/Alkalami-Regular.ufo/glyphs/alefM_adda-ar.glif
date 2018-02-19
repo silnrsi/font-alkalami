@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefMadda-ar" format="2">
-  <advance width="311"/>
+  <advance width="178"/>
   <unicode hex="0622"/>
   <anchor x="199" y="-120" name="bottom"/>
   <anchor x="183" y="731" name="top"/>
   <outline>
-    <component base="alef-ar" xOffset="113"/>
-    <component base="madda-ar" xOffset="15" yOffset="6"/>
+    <component base="alef-ar"/>
+    <component base="madda-ar" xOffset="-80" yOffset="43"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

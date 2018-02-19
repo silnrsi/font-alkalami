@@ -8,13 +8,4 @@
     <component base="keheh-ar"/>
     <component base="threedotsabovesmall-ar" xOffset="30" yOffset="97"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

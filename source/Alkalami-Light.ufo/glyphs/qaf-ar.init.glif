@@ -8,13 +8,4 @@
     <component base="fehDotless-ar.init"/>
     <component base="twodotshorizontalabove-ar" xOffset="-17" yOffset="215"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

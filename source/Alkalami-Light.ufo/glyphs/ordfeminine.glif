@@ -15,12 +15,4 @@
     </contour>
     <component base="a" xScale="0.751" yScale="0.751" xOffset="-15" yOffset="352"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

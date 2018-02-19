@@ -22,10 +22,4 @@
       <point x="121" y="601"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>335</integer>
-    </dict>
-  </lib>
 </glyph>

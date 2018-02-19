@@ -6,10 +6,4 @@
   <outline>
     <component base="noonghunna-ar.fina"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string/>
-    </dict>
-  </lib>
 </glyph>

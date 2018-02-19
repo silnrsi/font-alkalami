@@ -2,115 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>GSDimensionPlugin.Dimensions</key>
-  <dict>
-    <key>58341CC4-38BF-46EA-900B-121666CF10F1</key>
-    <dict>
-      <key>HH</key>
-      <integer>61</integer>
-      <key>HV</key>
-      <integer>150</integer>
-      <key>OH</key>
-      <integer>60</integer>
-      <key>OV</key>
-      <integer>154</integer>
-      <key>arAlef</key>
-      <integer>65</integer>
-      <key>arBar</key>
-      <integer>140</integer>
-      <key>nV</key>
-      <integer>140</integer>
-      <key>nd</key>
-      <integer>54</integer>
-      <key>oH</key>
-      <integer>51</integer>
-      <key>oV</key>
-      <integer>140</integer>
-      <key>tH</key>
-      <integer>64</integer>
-    </dict>
-    <key>6821D34A-3473-4FA5-8589-11D66232EEBE</key>
-    <dict>
-      <key>HH</key>
-      <integer>50</integer>
-      <key>HV</key>
-      <integer>91</integer>
-      <key>OH</key>
-      <integer>49</integer>
-      <key>OV</key>
-      <integer>100</integer>
-      <key>arAlef</key>
-      <integer>65</integer>
-      <key>arBar</key>
-      <integer>90</integer>
-      <key>arRoundThick</key>
-      <integer>68</integer>
-      <key>nV</key>
-      <integer>87</integer>
-      <key>nd</key>
-      <integer>40</integer>
-      <key>oH</key>
-      <integer>42</integer>
-      <key>oV</key>
-      <integer>96</integer>
-      <key>tH</key>
-      <integer>39</integer>
-    </dict>
-    <key>9E423C3E-8DDF-4F4B-9D40-2D6F127C0C2A</key>
-    <dict>
-      <key>HH</key>
-      <integer>66</integer>
-      <key>HV</key>
-      <integer>112</integer>
-      <key>OH</key>
-      <integer>47</integer>
-      <key>OV</key>
-      <integer>98</integer>
-      <key>nV</key>
-      <integer>82</integer>
-      <key>nd</key>
-      <integer>34</integer>
-      <key>oH</key>
-      <integer>35</integer>
-      <key>oV</key>
-      <integer>86</integer>
-      <key>tH</key>
-      <integer>39</integer>
-    </dict>
-    <key>B1DED753-7395-405E-941B-FC35CE6E0B1A</key>
-    <dict/>
-  </dict>
   <key>com.schriftgestaltung.DisplayStrings</key>
   <array>
-    <string>/lam_alef-ar/lam_alef-ar.fina/lam_alefHamzaabove-ar/lam_alefHamzaabove-ar.fina/lam_alefHamzabelow-ar/lam_alefHamzabelow-ar.fina/lam_alefMadda-ar/lam_alefMadda-ar.fina/allah-ar</string>
-    <string>/three.alt/two.alt/one.alt 
-/zero.alt/one.alt/two.alt/three.alt/four.alt/five.alt/six.alt/seven.alt/eight.alt/nine.alt/zero-ar.alt/one-ar.alt/two-ar.alt/three-ar.alt/four-ar.alt/five-ar.alt/six-ar.alt/seven-ar.alt/eight-ar.alt/nine-ar.alt</string>
-    <string>/hamza-ar/highhamza-ar/alef-ar/alef-ar.wide/alef-ar.wideshort/alef-ar.fina/alef-ar.wide.fina/alef-ar.wideshort.fina/alefHamzaabove-ar/alefHamzaabove-ar.fina/alefHamzabelow-ar/alefHamzabelow-ar.fina</string>
-    <string>/endofayah-ar/endofayah-ar.alt2/endofayah-ar.alt2.ss02/endofayah-ar.alt2.ss03/endofayah-ar.alt3/endofayah-ar.alt3.ss02/endofayah-ar.alt3.ss03/endofayah-ar.ss02/endofayah-ar.ss03</string>
-    <string>/alefabove-ar/alefbelow-ar/hamzaabove-ar/hamzaabove-ar.nostem/hamzabelow-ar/hamzabelow-ar.nostem/hamzacenter-ar/hamzaaboveDamma-ar/hamzaaboveDammatan-ar/hamzaaboveFatha-ar/hamzaaboveFathatan-ar/hamzaaboveSukun-ar/hamzabelowKasra-ar/hamzabelowKasratan-ar/fathatan-ar/dammatan-ar/kasratan-ar/fatha-ar/alefabove-ar/fatha_alefabove-ar/damma-ar/kasra-ar/shadda-ar/sukun-ar/madda-ar/shaddaAlefabove-ar/shaddaDamma-ar/shaddaDammatan-ar/shaddaFatha-ar/shaddaFathatan-ar/vabove-ar/vinvertedabove-ar/dotvowelbelow-ar/dotvowelbelow-ar.ss04</string>
-    <string>/noonAfrican-ar.fina     /noonAfrican-ar.fina.alt    /qafDotabove-ar.fina.ss01/qafAfrican-ar.fina    /noonAfrican-ar     /noonAfrican-ar.alt     /noonAfrican-ar.fina.alt2   /kasra-ar  /noonAfrican-ar.alt2   </string>
-    <string>/kasra-ar/noon-ar       /noon-ar.alt     /noon-ar.alt.ss01     /noon-ar.alt2    /noon-ar.alt2.ss01    /noon-ar.ss01 
- /noon-ar.fina       /noon-ar.fina.alt     /noon-ar.fina.alt.ss01      /noon-ar.fina.alt2    /noon-ar.fina.alt2.ss01     /noon-ar.fina.ss01 
-/noonghunna-ar       /noonghunna-ar.alt      /noonghunna-ar.alt2     /noonghunna-ar.fina      /noonghunna-ar.fina.alt     /noonghunna-ar.fina.alt2 
-/noonTwodotsbelow-ar      /noonTwodotsbelow-ar.fina      /noonTwodotsbelow-ar.fina.alt     /noonTwodotsbelow-ar.fina.alt2     /noonTwodotsbelow-ar.alt      /noonTwodotsbelow-ar.alt2</string>
-    <string>/kasra-ar/meem-ar  /seen-ar/seen-ar.alt/seen-ar.alt2/seen-ar.fina/seen-ar.fina.alt/seen-ar.fina.alt2 
-/sheen-ar/sheen-ar.alt/sheen-ar.alt2/sheen-ar.fina/sheen-ar.fina.alt/sheen-ar.fina.alt2 
-/sad-ar/sad-ar.alt/sad-ar.fina/sad-ar.fina.alt 
-/dad-ar/dad-ar.alt/dad-ar.fina/dad-ar.fina.alt 
-/qafAfrican-ar.fina   /qaf-ar.fina   /qafDotabove-ar.fina   /qafDotabove-ar.fina.ss01   /qafThreedotsabove-ar.fina   /qafThreedotsabove-ar.fina.ss05   /qafDotless-ar.fina</string>
-    <string> /kasra-ar/alefMaksura-ar     /alefMaksura-ar.alt    /alefMaksura-ar.alt2   /alefMaksura-ar.fina    /alefMaksura-ar.fina.alt    /alefMaksura-ar.fina.alt2  
-/yeh-ar    /yeh-ar.alt   /yeh-ar.alt.ss01    /yeh-ar.alt2   /yeh-ar.alt2.ss01   /yeh-ar.ss01  
- /yeh-ar.fina   /yeh-ar.fina.alt   /yeh-ar.fina.alt.ss01    /yeh-ar.fina.alt2   /yeh-ar.fina.alt2.ss01   /yeh-ar.fina.ss01 
-/yehHamzaabove-ar     /yehHamzaabove-ar.fina    /yehTwodotsbelowHamzaabove-ar    /yehTwodotsbelowHamzaabove-ar.fina 
-/yehTwodotsbelowDotabove-ar     /yehTwodotsbelowDotabove-ar.fina    /yeh-farsi     /yeh-farsi.ss05    /yeh-farsi.fina    /yeh-farsi.fina.ss05 
-  /e-ar     /e-ar.fina    /yehThreedotsbelow-ar    /yehThreedotsbelow-ar.fina</string>
-    <string>/alef-ar.high/alef-ar.high.ss08/alef-ar.ss08/damma-ar.ss08/fatha-ar  /alef-ar/lam-ar/hah-ar/meem-ar  /alef-ar/lam-ar/jeem-ar 
-/lam-ar/theh-ar/sheen-ar/jeem-ar  /yeh-ar/ain-ar/tehMarbuta-ar   /sad-ar/yeh-ar/seen-ar  /heh-ar/sheen-ar 
-/kaf-ar/seen-ar/yeh-ar/sheen-ar/alef-ar/noon-ar/yeh-ar/beh-ar/feh-ar/noon-ar  /sad-ar/reh-ar/yeh-ar 
- </string>
-    <string>/ainThreedots-ar.medi.ss05/ainThreedots-ar.init.ss05</string>
-    <string>/threedots-ar/qafThreedotsabove-ar.init.ss05</string>
-    <string>/foursuperior</string>
+    <string>/six-ar</string>
+    <string>/six-ar.alt</string>
+    <string>g</string>
+    <string>/alef-ar.wide</string>
   </array>
   <key>com.schriftgestaltung.customValue</key>
   <integer>0</integer>
@@ -949,11 +846,13 @@
   <key>com.schriftgestaltung.weight</key>
   <string>Light</string>
   <key>com.schriftgestaltung.weightValue</key>
-  <integer>45</integer>
+  <integer>300</integer>
   <key>com.schriftgestaltung.width</key>
   <string>Regular</string>
   <key>com.schriftgestaltung.widthValue</key>
   <integer>100</integer>
+  <key>org.sil.glyphsappversion</key>
+  <string>1116</string>
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>

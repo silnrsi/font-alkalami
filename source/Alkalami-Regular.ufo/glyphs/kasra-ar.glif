@@ -6,10 +6,4 @@
   <outline>
     <component base="fatha-ar" yOffset="-669"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>257</integer>
-    </dict>
-  </lib>
 </glyph>

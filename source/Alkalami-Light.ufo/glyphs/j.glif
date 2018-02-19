@@ -47,7 +47,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>-=n</string>
+      <string>=n</string>
     </dict>
   </lib>
 </glyph>

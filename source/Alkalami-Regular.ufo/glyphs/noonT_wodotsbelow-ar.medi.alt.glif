@@ -7,13 +7,4 @@
     <component base="noon-ar.medi.alt"/>
     <component base="twodotsnarrow-ar" xOffset="-92" yOffset="-212"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

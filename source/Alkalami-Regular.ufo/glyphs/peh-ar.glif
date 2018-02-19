@@ -8,13 +8,4 @@
     <component base="behDotless-ar"/>
     <component base="threedotsdownbelow-ar" xOffset="36" yOffset="10"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

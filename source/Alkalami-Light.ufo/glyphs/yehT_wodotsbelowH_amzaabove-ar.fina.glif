@@ -8,14 +8,4 @@
     <component base="hamzaabove-ar" xOffset="367" yOffset="-226"/>
     <component base="twodotshorizontalbelow-ar" xOffset="-2" yOffset="-323"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

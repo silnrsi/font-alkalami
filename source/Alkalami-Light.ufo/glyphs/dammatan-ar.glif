@@ -31,10 +31,4 @@
     </contour>
     <component base="damma-ar"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>244</integer>
-    </dict>
-  </lib>
 </glyph>

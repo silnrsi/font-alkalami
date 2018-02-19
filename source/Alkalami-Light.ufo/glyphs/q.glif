@@ -66,7 +66,7 @@
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>=o</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>=n-25</string>
+      <string>=n-15</string>
     </dict>
   </lib>
 </glyph>

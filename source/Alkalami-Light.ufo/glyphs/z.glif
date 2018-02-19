@@ -60,7 +60,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>=s</string>
+      <string>=s-10</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>=s-10</string>
     </dict>
