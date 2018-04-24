@@ -43,23 +43,21 @@ Font sources are published and a open workflow is used for building, testing and
 """
 
 # set the build and test parameters
-for style in ('-Regular', '-Light'):
-    font(target = process(APPNAME + style + '.ttf',
-            cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/' + APPNAME + style + '.ufo']),
-            cmd('${TYPETUNER} -o ${TGT} add ${SRC} ${DEP}', 'source/typetuner/feat_all.xml'),
-            cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
-        ),
-        source = 'source/' + APPNAME + style + '.ufo' ,
-        ap = APPNAME + style + '-ap.xml',
-
-       opentype = fea('source/' + APPNAME + style + '.ufo/' + 'features.fea', no_make = 1),
-
-        license = ofl('Alkalami', 'SIL'),
-        script = ['arab'],
-        version = VERSION,
-        fret = fret(params='-r -oi'),
-        woff = woff('web/' + APPNAME + style + '.woff', params='-v ' + VERSION + ' -m ../source/Alkalami-WOFF-metadata.xml'),
-        typetuner='source/typetuner/feat_all.xml')
+#for style in ('-Regular', '-Light'):
+designspace('source/Alkalami.designspace',
+    target = process(APPNAME+'-${STYLE}.ttf',
+        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/'+APPNAME+'-${STYLE}.ufo']),
+        cmd('${TYPETUNER} -o ${TGT} add ${SRC} ${DEP}', 'source/typetuner/feat_all.xml'),
+        cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
+    ),
+    ap = APPNAME + '-${STYLE}ap.xml',
+    opentype = fea('source/'+APPNAME+'-${STYLE}.ufo/features.fea', no_make = 1),
+    license = ofl('Alkalami', 'SIL'),
+    script = ['arab'],
+    version = VERSION,
+    fret = fret(params='-r -oi'),
+    woff = woff('web/'+APPNAME+'-${STYLE}.woff', params='-v '+VERSION +' -m ../source/Alkalami-WOFF-metadata.xml'),
+    typetuner='source/typetuner/feat_all.xml')
 
 
 def configure(ctx):
