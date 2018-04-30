@@ -186,9 +186,9 @@
   </testgroup>
 <head>
   <fontscale>300</fontscale>
-  <fontsrc>local(Scheherazade)</fontsrc>
-  <fontsrc>url(../build/Alkalami-Regular.ttf)</fontsrc>
-  <fontsrc>url(../build/Alkalami-Light.ttf)</fontsrc>
+  <fontsrc>local(Alkalami Regular)</fontsrc>
+  <fontsrc>url(../results/Alkalami-Regular.ttf)</fontsrc>
+  <fontsrc>url(../results/Alkalami-Light.ttf)</fontsrc>
   <styles>
     <style name='ss01_1' feats='"ss01" 1'/>
     <style name='ss02_1' feats='"ss02" 1'/>
