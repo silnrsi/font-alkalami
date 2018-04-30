@@ -45,6 +45,7 @@ Font sources are published and a open workflow is used for building, testing and
 # set the build and test parameters
 #for style in ('-Regular', '-Light'):
 designspace('source/Alkalami.designspace',
+    params = '-c',
     target = process(APPNAME+'-${STYLE}.ttf',
         cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/'+APPNAME+'-${STYLE}.ufo']),
         cmd('${TYPETUNER} -o ${TGT} add ${SRC} ${DEP}', 'source/typetuner/feat_all.xml'),

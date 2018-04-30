@@ -16,17 +16,6 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Alkalami" filename="Alkalami-Regular.ufo" name="Alkalami Regular" stylename="Regular">
-            <lib copy="1" />
-            <groups copy="1" />
-            <features copy="1" />
-            <info copy="1" />
-            <location>
-                <dimension name="weight" xvalue="400.000000" />
-                <dimension name="width" xvalue="100.000000" />
-                <dimension name="custom" xvalue="0.000000" />
-            </location>
-        </source>
         <source familyname="Alkalami" filename="Alkalami-Light.ufo" name="Alkalami Light" stylename="Light">
             <location>
                 <dimension name="weight" xvalue="300.000000" />
@@ -36,16 +25,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Alkalami" stylename="Regular" filename="instances/Alkalami-Regular.ufo" name="Alkalami Regular" postscriptfontname="Alkalami-Regular" stylemapfamilyname="Alkalami" stylemapstylename="regular">
-            <location>
-                <dimension name="weight" xvalue="400.000000" />
-                <dimension name="width" xvalue="100.000000" />
-                <dimension name="custom" xvalue="0.000000" />
-            </location>
-            <info />
-            <kerning />
-        </instance>
-        <instance familyname="Alkalami" stylename="Light" filename="instances/Alkalami-Light.ufo" name="Alkalami Light" postscriptfontname="Alkalami-Light" stylemapfamilyname="Alkalami Light" stylemapstylename="regular">
+        <instance familyname="Alkalami Light" stylename="Regular" filename="instances/Alkalami-Light.ufo" name="Alkalami Light" postscriptfontname="Alkalami-Light" stylemapfamilyname="Alkalami Light" stylemapstylename="regular">
             <location>
                 <dimension name="weight" xvalue="300.000000" />
                 <dimension name="width" xvalue="100.000000" />
