@@ -45,7 +45,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Alkalami" stylename="Light" filename="instances/Alkalami-Light.ufo" name="Alkalami Light" postscriptfontname="Alkalami-Light" stylemapfamilyname="Alkalami Light" stylemapstylename="regular">
+        <instance familyname="Alkalami" stylename="Light" filename="instances/Alkalami-Light.ufo" name="Alkalami Light" postscriptfontname="AlkalamiLight-Regular" stylemapfamilyname="Alkalami Light" stylemapstylename="regular">
             <location>
                 <dimension name="weight" xvalue="300.000000" />
                 <dimension name="width" xvalue="100.000000" />

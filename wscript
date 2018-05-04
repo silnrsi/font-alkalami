@@ -14,10 +14,10 @@ STANDARDS = "tests/previous"
 # set the version control system
 VCS = 'git'
 
-# set the font name, version, licensing and description
+# set the product name
 APPNAME = "Alkalami"
-VERSION = "1.004"
-BUILDLABEL = 'alpha'
+
+# set licensing and description
 
 COPYRIGHT = "Copyright (c) 2015-2018, SIL International (http://www.sil.org) with Reserved Font Names Alkalami and SIL."
 LICENSE = 'OFL.txt'
@@ -42,21 +42,24 @@ See http://software.sil.org/alkalami
 Font sources are published and a open workflow is used for building, testing and releasing.
 """
 
+# Get version info from Regular UFO; must be first function call:
+getufoinfo('source/Alkalami-Regular.ufo')
+
 # set the build and test parameters
 #for style in ('-Regular', '-Light'):
 designspace('source/Alkalami.designspace',
-    target = process(APPNAME+'-${STYLE}.ttf',
-        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/'+APPNAME+'-${STYLE}.ufo']),
+    target = process('${DS:FILENAME_BASE}.ttf',
+        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
         cmd('${TYPETUNER} -o ${TGT} add ${SRC} ${DEP}', 'source/typetuner/feat_all.xml'),
         cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
-    ap = APPNAME + '-${STYLE}ap.xml',
-    opentype = fea('source/'+APPNAME+'-${STYLE}.ufo/features.fea', no_make = 1),
+    ap = '${DS:FILENAME_BASE}.xml',
+    opentype = fea('source/${DS:FILENAME_BASE}.ufo/features.fea', no_make = 1),
     license = ofl('Alkalami', 'SIL'),
     script = ['arab'],
     version = VERSION,
     fret = fret(params='-r -oi'),
-    woff = woff('web/'+APPNAME+'-${STYLE}.woff', params='-v '+VERSION +' -m ../source/Alkalami-WOFF-metadata.xml'),
+    woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v '+VERSION +' -m ../source/Alkalami-WOFF-metadata.xml'),
     typetuner='source/typetuner/feat_all.xml')
 
 
