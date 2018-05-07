@@ -55,6 +55,7 @@ getufoinfo('source/Alkalami-Regular.ufo')
 #   thus the phrase 'source/${DS:FILENAME_BASE}.ufo' references the master UFO
 #   corresponding to the instance being built.
 designspace('source/Alkalami.designspace',
+    params = '-l ${DS:FILENAME_BASE}_createintance.log',
     target = process('${DS:FILENAME_BASE}.ttf',
         cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
         cmd('${TYPETUNER} -o ${TGT} add ${SRC} ${DEP}', 'source/typetuner/feat_all.xml'),
