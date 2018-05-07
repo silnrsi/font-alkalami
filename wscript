@@ -46,7 +46,14 @@ Font sources are published and a open workflow is used for building, testing and
 getufoinfo('source/Alkalami-Regular.ufo')
 
 # set the build and test parameters
-#for style in ('-Regular', '-Light'):
+
+# Notes about DS variables:
+#   The phrase '${DS:FILENAME_BASE}' references the instance UFO filename (from the
+#   designspace file), i.e., "Alkalami-Light" or "Alkalami-Regular".
+#   At present it isn't possible to reference the instance UFOs or anything in them. 
+#   This code assumes the filenames of the master and instances UFOs are the same,
+#   thus the phrase 'source/${DS:FILENAME_BASE}.ufo' references the master UFO
+#   corresponding to the instance being built.
 designspace('source/Alkalami.designspace',
     target = process('${DS:FILENAME_BASE}.ttf',
         cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
