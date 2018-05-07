@@ -54,7 +54,7 @@ designspace('source/Alkalami.designspace',
         cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
     ap = '${DS:FILENAME_BASE}.xml',
-    opentype = fea('${DS:FILE}/features.fea', no_make = 1, deps=["${DS:FILE}"]),
+    opentype = fea('source/${DS:FILENAME_BASE}.ufo/features.fea', no_make = 1),
     license = ofl('Alkalami', 'SIL'),
     script = ['arab'],
     version = VERSION,
