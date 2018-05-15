@@ -36,7 +36,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Alkalami" stylename="Regular" filename="instances/Alkalami-Regular.ufo" name="Alkalami Regular" postscriptfontname="Alkalami-Regular" stylemapfamilyname="Alkalami" stylemapstylename="regular">
+        <instance familyname="Alkalami" stylename="Regular" filename="instances/Alkalami-Regular.ufo" name="Alkalami-Regular" postscriptfontname="Alkalami-Regular" stylemapfamilyname="Alkalami" stylemapstylename="regular">
             <location>
                 <dimension name="weight" xvalue="400.000000" />
                 <dimension name="width" xvalue="100.000000" />
@@ -45,7 +45,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Alkalami" stylename="Light" filename="instances/Alkalami-Light.ufo" name="Alkalami Light" postscriptfontname="AlkalamiLight-Regular" stylemapfamilyname="Alkalami Light" stylemapstylename="regular">
+        <instance familyname="Alkalami Light" stylename="Regular" filename="instances/Alkalami-Light.ufo" name="Alkalami-Light" postscriptfontname="AlkalamiLight-Regular" stylemapfamilyname="Alkalami Light" stylemapstylename="regular">
             <location>
                 <dimension name="weight" xvalue="300.000000" />
                 <dimension name="width" xvalue="100.000000" />

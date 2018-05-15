@@ -48,26 +48,23 @@ getufoinfo('source/Alkalami-Regular.ufo')
 # set the build and test parameters
 
 # Notes about DS variables:
-#   The phrase '${DS:FILENAME_BASE}' references the instance UFO filename (from the
-#   designspace file), i.e., "Alkalami-Light" or "Alkalami-Regular".
-#   At present it isn't possible to reference the instance UFOs or anything in them. 
-#   This code assumes the filenames of the master and instances UFOs are the same,
-#   thus the phrase 'source/${DS:FILENAME_BASE}.ufo' references the master UFO
-#   corresponding to the instance being built.
+#   The phrase '${DS:NAME}' references the 'name' attribute from the instance as defined 
+#   in the designspace file, i.e. either "Alkalami-Light" or "Alkalami-Regular" -- 
+#   and we use that to construct all the filenames.
 designspace('source/Alkalami.designspace',
-    params = '-l ${DS:FILENAME_BASE}_createintance.log',
-    target = process('${DS:FILENAME_BASE}.ttf',
-        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
+    params = '-l ${DS:NAME}_createintance.log',
+    target = process('${DS:NAME}.ttf',
+        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:NAME}.ufo']),
         cmd('${TYPETUNER} -o ${TGT} add ${SRC} ${DEP}', 'source/typetuner/feat_all.xml'),
         cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
-    ap = '${DS:FILENAME_BASE}.xml',
-    opentype = fea('source/${DS:FILENAME_BASE}.ufo/features.fea', no_make = 1),
+    ap = '${DS:NAME}.xml',
+    opentype = fea('source/${DS:NAME}.ufo/features.fea', no_make = 1),
     license = ofl('Alkalami', 'SIL'),
     script = ['arab'],
     version = VERSION,
     fret = fret(params='-r -oi'),
-    woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v '+VERSION +' -m ../source/Alkalami-WOFF-metadata.xml'),
+    woff = woff('web/${DS:NAME}.woff', params='-v '+VERSION +' -m ../source/Alkalami-WOFF-metadata.xml'),
     typetuner='source/typetuner/feat_all.xml')
 
 
