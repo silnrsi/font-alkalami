@@ -55,7 +55,7 @@ designspace('source/Alkalami.designspace',
     params = '-l ${DS:NAME}_createintance.log',
     target = process('${DS:NAME}.ttf',
         cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:NAME}.ufo']),
-        cmd('${TYPETUNER} -o ${TGT} add ${SRC} ${DEP}', 'source/typetuner/feat_all.xml'),
+#        cmd('${TYPETUNER} -o ${TGT} add ${SRC} ${DEP}', ['source/typetuner/feat_all.xml']),
         cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
     ap = '${DS:NAME}.xml',
@@ -65,10 +65,11 @@ designspace('source/Alkalami.designspace',
     version = VERSION,
     fret = fret(params='-r -oi'),
     woff = woff('web/${DS:NAME}.woff', params='-v '+VERSION +' -m ../source/Alkalami-WOFF-metadata.xml'),
-    typetuner='source/typetuner/feat_all.xml')
+    # typetuner='source/typetuner/feat_all.xml'
+    )
 
 
 def configure(ctx):
     ctx.find_program('ttfautohint')
-    ctx.find_program('typetuner')
+#    ctx.find_program('typetuner')
     ctx.find_program('psfchangettfglyphnames')
