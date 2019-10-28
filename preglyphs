@@ -1,4 +1,14 @@
 #!/bin/sh
 # script to convert UFOs to glyphs file for editing
 
-psfufo2glyphs source/Alkalami.designspace source/Alkalami-master.glyphs -l source/logs/ufo2g.log
+# Create UFO from Glyphs file
+echo
+echo "Converting UFO3 to .glyphs..."
+if psfufo2glyphs source/Alkalami.designspace source/Alkalami-master.glyphs -l source/logs/ufo2g.log
+  echo "Done!"
+else
+  # Something went wrong... abort
+  echo ""
+  echo "psfufo2glyphs failed ... aborting preglyphs"
+  echo ""
+fi
