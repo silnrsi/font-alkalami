@@ -4,14 +4,6 @@
 <dict>
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict>
-    <key>cm.schriftgestaltung.DisplayStrings</key>
-    <array>
-      <string>/six-ar</string>
-      <string>/six-ar.alt</string>
-      <string>g</string>
-      <string>/alef-ar.wide</string>
-    </array>
-    <key>com.schriftgestaltung.customValue</key>
     <key>com.schriftgestaltung.Glyphs.groupsNotInFeature</key>
     <array/>
     <key>com.schriftgestaltung.Glyphs.originalKerningGroups</key>
