@@ -109,9 +109,9 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
       <string>=heh-ar.fina</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
       <string>=alef-ar</string>
     </dict>
   </lib>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata version="1.0">
+  <uniqueid id="org.sil.fonts.Alkalami Light.1.004" />
+  <vendor name="SIL International" url="http://www.sil.org" />
+  <credits>
+    <credit
+      name="Becca Hirsbrunner Spalinger"
+      url="http://software.sil.org/alkalami/"
+      role="Lead Designer"
+    />
+    <credit
+      name="Lorna Evans"
+      role="Project Manager"
+    />
+    <credit
+      name="Bob Hallissy"
+      url="Script engineer"
+    />
+    <credit
+      name="Nicolas Spalinger"
+      url="Script engineer"
+    />
+  </credits>
+  <description>
+    <text lang="en">
+      Alkalami is the local word for the Arabic "qalam", a type of sharpened stick used
+      for writing on wooden boards in the Kano region of Nigeria and in Niger, and what
+      gives the style its distinct appearance. The baseline stroke is very thick and
+      solid. The ascenders and other vertical strokes including the teeth are very
+      narrow when compared to the baseline. A generous line height is necessary to
+      allow for deep swashes and descenders, and the overall look of the page is a very
+      black, solid rectangle. Diacritics are much smaller in scale, with very little
+      distance from the main letters.
+      
+      This font supports the characters known to be used by languages written with the
+      Kano style of Arabic script, but may not have the characters needed for other
+      languages.
+      
+      This font utilizes state-of-the-art font technologies to support complex
+      typographic issues. Font smarts are implemented using OpenType only. We have
+      no current plans to support Graphite.
+      
+      Two fonts are included in this release:
+      * Alkalami Regular
+      * Alkalami Light Regular
+      
+      ChangeLog
+      ---------
+      (This should list both major and minor changes, most recent first.)
+      
+      2017-05-23 (Becca Spalinger) Alkalami 1.000
+      - Fixed issues related to lam/alef/hamza shaping
+      - Fixed issue with jeem/hah combinations not shaping properly
+      - Added larger left sidebearing on U+0622 (isolate and final forms)
+      - Repositioned below attachment points on isolate and final forms of noon,
+      lam, seen, sad, qaf and yeh
+      - Added Stylistic set (ss08) to make fatha, kasra and damma touch the
+      isolate alef
+      - Decomposed U+0623 and U+0625 in order to allow the hamza part of the
+      character to be colored
+      - Changed position of dagger alef when with fatha
+      2016-12-15 (Becca Spalinger) Alkalami 0.924
+      - Repositioned below attachment points on reh and waw
+      - Changed depth of swash on the sad/dad, seen/sheen, and lam isolate
+      - Digits reduced in size
+      - Width of U+0640 reduced by 50%
+      - Left sidebearing on U+0621 reduced
+      - Changed positioning of dagger alef above fatha and alef maksura
+      2016-10-06 (Becca Spalinger) Alkalami 0.919
+      - Updated OpenType code to handle hah/jeem/khah/nyeh positioning
+      2016-04-04 (Becca Hirsbrunner Spalinger) Alkalami 0.910
+      - Added anchor points to U+FDF2
+      - Removed U+064A to ss05 and added U+06CC to ss05 with wagaf above
+      2016-02-04 (Becca Hirsbrunner Spalinger) Alkalami 0.909
+      - Fixed medial alternate form of peh
+      2016-01-12 (Becca Hirsbrunner Spalinger) Alkalami 0.908
+      - Fixed OpenType code for "Allah"
+      2015-12-11 (Becca Hirsbrunner Spalinger) Alkalami 0.906 Preliminary design and smart behaviours
+      - Smart behaviours for wagaf and Warsh implemented in OpenType
+      - TypeTuner code added to support features
+      - Space character changed to be bigger for use Latin script and smaller for Arabic script
+      2015-11-05 (Becca Hirsbrunner Spalinger) Alkalami 0.1-alpha Preliminary design and smart behaviours
+      - Preliminary design of isolate characters
+      - Smart behaviours implemented in OpenType
+    </text>
+  </description>
+  <license url="http://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
+    <text lang="en">
+      Copyright (c) 2015-2018, SIL International (http://www.sil.org/),
+      with Reserved Font Names "Alkalami" and SIL.
+      
+      This Font Software is licensed under the SIL Open Font License, Version 1.1.
+      
+      This license is copied below, and is also available with an FAQ at:
+      http://scripts.sil.org/OFL
+      
+      ----------------------------------------------------
+      SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+      ----------------------------------------------------
+      
+      PREAMBLE
+      The goals of the Open Font License (OFL) are to stimulate worldwide
+      development of collaborative font projects, to support the font creation
+      efforts of academic and linguistic communities, and to provide a free and
+      open framework in which fonts may be shared and improved in partnership
+      with others.
+      
+      The OFL allows the licensed fonts to be used, studied, modified and
+      redistributed freely as long as they are not sold by themselves. The
+      fonts, including any derivative works, can be bundled, embedded, 
+      redistributed and/or sold with any software provided that any reserved
+      names are not used by derivative works. The fonts and derivatives,
+      however, cannot be released under any other type of license. The
+      requirement for fonts to remain under this license does not apply
+      to any document created using the fonts or their derivatives.
+      
+      DEFINITIONS
+      Font Software refers to the set of files released by the Copyright
+      Holder(s) under this license and clearly marked as such. This may
+      include source files, build scripts and documentation.
+      
+      Reserved Font Name refers to any names specified as such after the
+      copyright statement(s).
+      
+      Original Version refers to the collection of Font Software components as
+      distributed by the Copyright Holder(s).
+      
+      Modified Version refers to any derivative made by adding to, deleting,
+      or substituting -- in part or in whole -- any of the components of the
+      Original Version, by changing formats or by porting the Font Software to a
+      new environment.
+      
+      Author refers to any designer, engineer, programmer, technical
+      writer or other person who contributed to the Font Software.
+      
+      PERMISSION &amp; CONDITIONS
+      Permission is hereby granted, free of charge, to any person obtaining
+      a copy of the Font Software, to use, study, copy, merge, embed, modify,
+      redistribute, and sell modified and unmodified copies of the Font
+      Software, subject to the following conditions:
+      
+      1) Neither the Font Software nor any of its individual components,
+      in Original or Modified Versions, may be sold by itself.
+      
+      2) Original or Modified Versions of the Font Software may be bundled,
+      redistributed and/or sold with any software, provided that each copy
+      contains the above copyright notice and this license. These can be
+      included either as stand-alone text files, human-readable headers or
+      in the appropriate machine-readable metadata fields within text or
+      binary files as long as those fields can be easily viewed by the user.
+      
+      3) No Modified Version of the Font Software may use the Reserved Font
+      Name(s) unless explicit written permission is granted by the corresponding
+      Copyright Holder. This restriction only applies to the primary font name as
+      presented to the users.
+      
+      4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+      Software shall not be used to promote, endorse or advertise any
+      Modified Version, except to acknowledge the contribution(s) of the
+      Copyright Holder(s) and the Author(s) or with their explicit written
+      permission.
+      
+      5) The Font Software, modified or unmodified, in part or in whole,
+      must be distributed entirely under this license, and must not be
+      distributed under any other license. The requirement for fonts to
+      remain under this license does not apply to any document created
+      using the Font Software.
+      
+      TERMINATION
+      This license becomes null and void if any of the above conditions are
+      not met.
+      
+      DISCLAIMER
+      THE FONT SOFTWARE IS PROVIDED AAS IS,, WITHOUT WARRANTY OF ANY KIND,
+      EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+      MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+      OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+      COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+      INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+      DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+      FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+      OTHER DEALINGS IN THE FONT SOFTWARE.
+    </text>
+  </license>
+  <copyright>
+    <text lang="en">
+      Copyright (c) SIL International, 2015-2018
+    </text>
+  </copyright>
+  <trademark>
+    <text lang="en">Alkalami is a trademark of SIL International. </text>
+  </trademark>
+</metadata>

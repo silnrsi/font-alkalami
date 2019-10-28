@@ -68,9 +68,9 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
       <string>=I</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
       <string>=s-15</string>
     </dict>
   </lib>

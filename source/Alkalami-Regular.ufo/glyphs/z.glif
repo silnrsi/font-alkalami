@@ -60,9 +60,9 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
       <string>=s-10</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
       <string>=s-10</string>
     </dict>
   </lib>

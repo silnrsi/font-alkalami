@@ -2,9 +2,14 @@
 # Extract UFOs from .glyphs file, then do normal preflight.
 
 # Create UFO from Glyphs file
-echo
+
+echo ""
 echo "Converting .glyphs to UFO3..."
 if psfglyphs2ufo source/Alkalami-master.glyphs source
+then
+  # Fix up the advance width of damma-ar.ss0
+  psfremovegliflibkeys source/Alkalami-Regular.ufo com.schriftgestaltung.Glyphs.originalWidth
+  psfremovegliflibkeys source/Alkalami-Light.ufo   com.schriftgestaltung.Glyphs.originalWidth
   ./preflight
 else
   # Something went wrong... abort

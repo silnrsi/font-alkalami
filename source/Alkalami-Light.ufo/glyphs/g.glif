@@ -89,7 +89,7 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
       <string>=o-10</string>
     </dict>
   </lib>

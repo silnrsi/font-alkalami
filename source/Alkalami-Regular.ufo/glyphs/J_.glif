@@ -32,7 +32,7 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
       <string>=H+10</string>
     </dict>
   </lib>

@@ -62,9 +62,9 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
       <string>=H</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
       <string>=O+10</string>
     </dict>
   </lib>

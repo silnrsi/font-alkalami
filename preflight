@@ -22,4 +22,4 @@ psfsyncmasters -q source/*.designspace
 echo "Updating woff metadata file..."
 psfmakewoffmetadata -q -n  Alkalami        -i org.sil.fonts source/*-Regular.ufo
 # This line is probably not going to work right:
-psfmakewoffmetadata -q -n "Alkalami Light" -i org.sil.fonts source/*-Light.ufo
+psfmakewoffmetadata -q -n "Alkalami Light" -i org.sil.fonts source/*-Light.ufo -o "AlkalamiLight-WOFF-metadata.xml"
