@@ -8,4 +8,10 @@
     <component base="noon-ar.ss01"/>
     <component base="twodotshorizontalbelow-ar" xOffset="195" yOffset="-259"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/29 17:15:24</string>
+    </dict>
+  </lib>
 </glyph>

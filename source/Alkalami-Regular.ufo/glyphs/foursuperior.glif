@@ -37,9 +37,9 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>four</string>
+      <string>=four</string>
       <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>four</string>
+      <string>=four</string>
     </dict>
   </lib>
 </glyph>

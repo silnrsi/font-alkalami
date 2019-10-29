@@ -14,9 +14,9 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>lam_alef-ar.fina</string>
+      <string>=lam_alef-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>lam_alef-ar.fina</string>
+      <string>=lam_alef-ar.fina</string>
     </dict>
   </lib>
 </glyph>

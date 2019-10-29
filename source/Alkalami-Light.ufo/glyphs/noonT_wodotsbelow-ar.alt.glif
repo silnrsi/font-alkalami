@@ -8,4 +8,10 @@
     <component base="dotabove-ar" xOffset="268" yOffset="-122"/>
     <component base="twodotshorizontalbelow-ar" xOffset="192" yOffset="-269"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/29 17:15:24</string>
+    </dict>
+  </lib>
 </glyph>

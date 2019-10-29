@@ -7,4 +7,10 @@
     <component base="behDotless-ar.medi.alt"/>
     <component base="twodotshorizontalabove-ar" xOffset="-115" yOffset="191"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/29 17:15:24</string>
+    </dict>
+  </lib>
 </glyph>

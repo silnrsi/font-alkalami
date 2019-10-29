@@ -42,9 +42,9 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>two</string>
+      <string>=two</string>
       <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>two</string>
+      <string>=two</string>
     </dict>
   </lib>
 </glyph>

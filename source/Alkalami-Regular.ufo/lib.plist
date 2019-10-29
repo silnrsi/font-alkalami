@@ -405,11 +405,11 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>895</string>
+  <string>1161</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <string/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
-  <false/>
+  <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
   <integer>1</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>

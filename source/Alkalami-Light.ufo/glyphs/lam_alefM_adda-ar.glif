@@ -14,7 +14,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>lam_alef-ar</string>
+      <string>=lam_alef-ar</string>
     </dict>
   </lib>
 </glyph>

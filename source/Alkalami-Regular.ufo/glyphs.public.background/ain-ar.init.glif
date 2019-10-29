@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ain-ar.init" format="2">
-  <advance width="483"/>
   <outline>
     <contour>
       <point x="239" y="218" type="curve" smooth="yes"/>

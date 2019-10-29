@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="one.latn" format="2">
-  <advance width="461"/>
   <outline>
     <contour>
       <point x="237" y="462" type="curve"/>

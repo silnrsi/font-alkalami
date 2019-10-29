@@ -58,9 +58,9 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>three</string>
+      <string>=three</string>
       <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>three</string>
+      <string>=three</string>
     </dict>
   </lib>
 </glyph>

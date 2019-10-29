@@ -7,4 +7,15 @@
     <component base="behDotless-ar.medi.alt"/>
     <component base="vinvertedabove-ar" xOffset="-32" yOffset="-686"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/29 17:15:24</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
 </glyph>

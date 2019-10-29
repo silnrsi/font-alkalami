@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="reh-ar.fina" format="2">
-  <advance width="363"/>
   <anchor x="146" y="-220" name="bottom"/>
   <anchor x="206" y="256" name="top"/>
   <outline>
