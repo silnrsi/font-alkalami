@@ -48,12 +48,4 @@
       <point x="467" y="621" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=O+15</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=O+15</string>
-    </dict>
-  </lib>
 </glyph>

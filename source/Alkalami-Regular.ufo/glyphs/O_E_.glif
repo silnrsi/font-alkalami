@@ -113,12 +113,4 @@
       <point x="491" y="122"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=O</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=E</string>
-    </dict>
-  </lib>
 </glyph>

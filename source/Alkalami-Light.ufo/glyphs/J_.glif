@@ -29,10 +29,4 @@
       <point x="30" y="-172" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=H+10</string>
-    </dict>
-  </lib>
 </glyph>

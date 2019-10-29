@@ -55,12 +55,4 @@
       <point x="121" y="247"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=three</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=three</string>
-    </dict>
-  </lib>
 </glyph>

@@ -107,12 +107,4 @@
       <point x="868" y="-32"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=heh-ar.fina</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=alef-ar</string>
-    </dict>
-  </lib>
 </glyph>

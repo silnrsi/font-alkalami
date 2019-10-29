@@ -29,12 +29,4 @@
     </contour>
     <component base="O"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=O</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=O-25</string>
-    </dict>
-  </lib>
 </glyph>

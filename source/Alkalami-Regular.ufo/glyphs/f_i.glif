@@ -77,12 +77,4 @@
       <point x="534" y="420" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=f</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=i</string>
-    </dict>
-  </lib>
 </glyph>

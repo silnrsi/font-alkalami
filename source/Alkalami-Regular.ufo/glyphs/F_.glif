@@ -75,12 +75,4 @@
       <point x="110" y="59" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=H</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=H</string>
-    </dict>
-  </lib>
 </glyph>

@@ -47,12 +47,4 @@
       <point x="352" y="26"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=A+5</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=A+5</string>
-    </dict>
-  </lib>
 </glyph>

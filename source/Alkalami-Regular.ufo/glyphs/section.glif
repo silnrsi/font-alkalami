@@ -65,12 +65,4 @@
       <point x="329" y="78"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=S</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=S</string>
-    </dict>
-  </lib>
 </glyph>

@@ -106,12 +106,4 @@
     </contour>
     <component base="hamzaabove-ar" xOffset="5" yOffset="57"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=lam_alef-ar.fina</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=lam_alef-ar.fina</string>
-    </dict>
-  </lib>
 </glyph>

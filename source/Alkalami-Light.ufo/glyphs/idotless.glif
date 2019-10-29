@@ -34,12 +34,4 @@
       <point x="183" y="357"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=n</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=n</string>
-    </dict>
-  </lib>
 </glyph>

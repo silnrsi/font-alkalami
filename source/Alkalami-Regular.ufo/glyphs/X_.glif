@@ -72,12 +72,4 @@
       <point x="412" y="472"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=H</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=H</string>
-    </dict>
-  </lib>
 </glyph>

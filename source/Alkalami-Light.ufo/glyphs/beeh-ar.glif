@@ -8,10 +8,4 @@
     <component base="behDotless-ar"/>
     <component base="twodotsverticalbelow-ar" xOffset="195" yOffset="-30"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/10/29 17:15:24</string>
-    </dict>
-  </lib>
 </glyph>

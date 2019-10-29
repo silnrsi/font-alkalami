@@ -7,10 +7,4 @@
     <component base="tah-ar.medi"/>
     <component base="threedots-ar.small" xOffset="272" yOffset="407"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/10/29 17:15:24</string>
-    </dict>
-  </lib>
 </glyph>

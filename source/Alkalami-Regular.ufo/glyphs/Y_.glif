@@ -62,12 +62,4 @@
       <point x="651" y="621" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=H</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=H</string>
-    </dict>
-  </lib>
 </glyph>

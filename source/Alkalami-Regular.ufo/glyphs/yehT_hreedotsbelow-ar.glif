@@ -8,10 +8,4 @@
     <component base="threedotsdownbelow-ar" xOffset="-345" yOffset="-291"/>
     <component base="alefMaksura-ar.alt" xOffset="-56"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/10/29 17:15:24</string>
-    </dict>
-  </lib>
 </glyph>

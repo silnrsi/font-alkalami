@@ -44,10 +44,4 @@
       <point x="103" y="539"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=n</string>
-    </dict>
-  </lib>
 </glyph>

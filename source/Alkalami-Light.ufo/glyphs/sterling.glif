@@ -66,10 +66,4 @@
       <point x="35" y="361" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=L</string>
-    </dict>
-  </lib>
 </glyph>

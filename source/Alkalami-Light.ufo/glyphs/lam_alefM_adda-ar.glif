@@ -11,10 +11,4 @@
     <component base="lam_alef-ar"/>
     <component base="madda-ar" xOffset="-80"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=lam_alef-ar</string>
-    </dict>
-  </lib>
 </glyph>

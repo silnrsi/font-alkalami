@@ -52,12 +52,4 @@
       <point x="399" y="436"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=n+10</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=n+10</string>
-    </dict>
-  </lib>
 </glyph>

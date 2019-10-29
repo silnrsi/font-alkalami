@@ -28,12 +28,4 @@
       <point x="278" y="477"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=four</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=four</string>
-    </dict>
-  </lib>
 </glyph>

@@ -77,12 +77,4 @@
       <point x="929" y="619" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=A</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=A+10</string>
-    </dict>
-  </lib>
 </glyph>

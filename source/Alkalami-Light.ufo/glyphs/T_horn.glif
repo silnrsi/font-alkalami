@@ -30,12 +30,4 @@
     </contour>
     <component base="I" xOffset="-10"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=P</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=P</string>
-    </dict>
-  </lib>
 </glyph>

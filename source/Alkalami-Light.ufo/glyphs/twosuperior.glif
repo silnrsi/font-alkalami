@@ -39,12 +39,4 @@
       <point x="81" y="641"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=two</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=two</string>
-    </dict>
-  </lib>
 </glyph>

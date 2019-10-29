@@ -59,12 +59,4 @@
       <point x="422" y="436"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=n-5</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=o</string>
-    </dict>
-  </lib>
 </glyph>

@@ -38,10 +38,4 @@
       <point x="370" y="28"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=o-18</string>
-    </dict>
-  </lib>
 </glyph>

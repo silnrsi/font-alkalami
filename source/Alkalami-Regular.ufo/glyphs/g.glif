@@ -85,10 +85,4 @@
       <point x="459" y="423"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=o-10</string>
-    </dict>
-  </lib>
 </glyph>

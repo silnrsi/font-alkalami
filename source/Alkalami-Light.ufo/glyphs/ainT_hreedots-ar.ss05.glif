@@ -8,16 +8,4 @@
     <component base="threedots-ar.small" xOffset="308" yOffset="569"/>
     <component base="dotabove-ar" xOffset="308" yOffset="78"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/10/29 17:15:24</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

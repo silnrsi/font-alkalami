@@ -36,10 +36,4 @@
       <point x="185" y="92"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=yehbarree-ar.fina</string>
-    </dict>
-  </lib>
 </glyph>

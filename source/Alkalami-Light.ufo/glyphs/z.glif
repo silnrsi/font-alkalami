@@ -57,12 +57,4 @@
       <point x="49" y="9"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=s-10</string>
-      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
-      <string>=s-10</string>
-    </dict>
-  </lib>
 </glyph>

@@ -103,10 +103,4 @@
       <point x="118" y="116"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.layer.leftMetricsKey</key>
-      <string>=ain-ar.fina.init</string>
-    </dict>
-  </lib>
 </glyph>
