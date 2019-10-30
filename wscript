@@ -4,6 +4,7 @@
 
 # set the default output folders
 out = "results"
+genout = "generated/"
 DOCDIR = ["documentation", "web"]
 OUTDIR = "installers"
 ZIPDIR = "releases"
@@ -19,13 +20,13 @@ APPNAME = "Alkalami"
 
 # set licensing and description
 
-COPYRIGHT = "Copyright (c) 2015-2018, SIL International (http://www.sil.org) with Reserved Font Names Alkalami and SIL."
-LICENSE = 'OFL.txt'
-RESERVEDOFL = 'Alkalami, SIL'
+#COPYRIGHT = "Copyright (c) 2015-2018, SIL International (http://www.sil.org) with Reserved Font Names Alkalami and SIL."
+#LICENSE = 'OFL.txt'
+#RESERVEDOFL = 'Alkalami, SIL'
 
 DESC_NAME = "Alkalami"
 DESC_SHORT = "Font for Arabic-based writing systems in the Kano region."
-DESC_LONG = """
+"""DESC_LONG = ' ' '
 Alkalami is a Unicode font for the variant of the Arabic script used in the Kano region (Niger and Nigeria).
 
 Alkalami is the local word for the Arabic "qalam", a type of sharpened stick used
@@ -52,18 +53,18 @@ getufoinfo('source/Alkalami-Regular.ufo')
 #   in the designspace file, i.e. either "Alkalami-Light" or "Alkalami-Regular" -- 
 #   and we use that to construct all the filenames.
 designspace('source/Alkalami.designspace',
-    params = '-l ${DS:NAME}_createintance.log',
+    instanceparams = '-l ' + genout + ${DS:NAME}_createintance.log',
     target = process('${DS:NAME}.ttf',
         cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:NAME}.ufo']),
 #        cmd('${TYPETUNER} -o ${TGT} add ${SRC} ${DEP}', ['source/typetuner/feat_all.xml']),
         cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
-    ap = '${DS:NAME}.xml',
+    ap = genout + '${DS:NAME}.xml',
     opentype = fea('source/${DS:NAME}.ufo/features.fea', no_make = 1),
-    license = ofl('Alkalami', 'SIL'),
+    #license = ofl('Alkalami', 'SIL'),
     script = ['arab'],
     version = VERSION,
-    fret = fret(params='-r -oi'),
+    fret = fret(genout + '${DS:FILENAME_BASE}-fret.pdf', params='-r -oi'),
     woff = woff('web/${DS:NAME}.woff', params='-v '+VERSION +' -m ../source/Alkalami-WOFF-metadata.xml'),
     # typetuner='source/typetuner/feat_all.xml'
     )
