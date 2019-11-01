@@ -46,6 +46,9 @@ Font sources are published and a open workflow is used for building, testing and
 # Get version info from Regular UFO; must be first function call:
 getufoinfo('source/Alkalami-Regular.ufo')
 
+# APs to omit:
+OMITAPS = '--omitaps "topright, ogonek, caret_1, caret_2, caret_3, top_1, top_2, top_3, top_4, top_alef, bottom_1, bottom_2"'
+
 # set the build and test parameters
 
 # Notes about DS variables:
@@ -53,21 +56,25 @@ getufoinfo('source/Alkalami-Regular.ufo')
 #   in the designspace file, i.e. either "Alkalami-Light" or "Alkalami-Regular" -- 
 #   and we use that to construct all the filenames.
 designspace('source/Alkalami.designspace',
-    instanceparams = '-l ' + genout + ${DS:NAME}_createintance.log',
+    instanceparams = '-l ' + genout + '${DS:NAME}_createintance.log',
     target = process('${DS:NAME}.ttf',
         cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:NAME}.ufo']),
 #        cmd('${TYPETUNER} -o ${TGT} add ${SRC} ${DEP}', ['source/typetuner/feat_all.xml']),
         cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
     ap = genout + '${DS:NAME}.xml',
-    opentype = fea('source/${DS:NAME}.ufo/features.fea', no_make = 1),
+    opentype = fea(genout + '${DS:FILENAME_BASE}.fea',
+        mapfile = genout + "${DS:FILENAME_BASE}.map",
+        master = 'source/opentype/master.feax',
+        make_params = OMITAPS
+    ),
     #license = ofl('Alkalami', 'SIL'),
     script = ['arab'],
     version = VERSION,
     fret = fret(genout + '${DS:FILENAME_BASE}-fret.pdf', params='-r -oi'),
     woff = woff('web/${DS:NAME}.woff', params='-v '+VERSION +' -m ../source/Alkalami-WOFF-metadata.xml'),
     # typetuner='source/typetuner/feat_all.xml'
-    )
+)
 
 
 def configure(ctx):
