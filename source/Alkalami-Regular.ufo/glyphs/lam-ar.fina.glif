@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lam-ar.fina" format="2">
   <advance width="277"/>
-  <unicode hex="FEDE"/>
   <anchor x="131" y="-217" name="bottom"/>
   <anchor x="82" y="576" name="top"/>
   <outline>

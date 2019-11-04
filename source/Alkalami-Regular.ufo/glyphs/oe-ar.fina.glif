@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oe-ar.fina" format="2">
   <advance width="529"/>
-  <unicode hex="FBDA"/>
   <anchor x="329" y="-222" name="bottom"/>
   <anchor x="202" y="614" name="top"/>
   <outline>

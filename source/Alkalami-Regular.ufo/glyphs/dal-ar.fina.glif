@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dal-ar.fina" format="2">
   <advance width="475"/>
-  <unicode hex="FEAA"/>
   <anchor x="312" y="-50" name="bottom"/>
   <anchor x="274" y="295" name="top"/>
   <outline>

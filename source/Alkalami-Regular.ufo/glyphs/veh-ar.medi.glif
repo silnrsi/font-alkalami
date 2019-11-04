@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="veh-ar.medi" format="2">
   <advance width="538"/>
-  <unicode hex="FB6D"/>
   <anchor x="272" y="-40" name="bottom"/>
   <anchor x="157" y="895" name="top"/>
   <outline>

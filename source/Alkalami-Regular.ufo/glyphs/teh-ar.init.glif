@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="teh-ar.init" format="2">
   <advance width="339"/>
-  <unicode hex="FE97"/>
   <anchor x="142" y="-40" name="bottom"/>
   <anchor x="175" y="506" name="top"/>
   <outline>

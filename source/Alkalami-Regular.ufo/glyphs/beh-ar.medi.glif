@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="beh-ar.medi" format="2">
   <advance width="329"/>
-  <unicode hex="FE92"/>
   <anchor x="163" y="-253" name="bottom"/>
   <anchor x="159" y="298" name="top"/>
   <outline>

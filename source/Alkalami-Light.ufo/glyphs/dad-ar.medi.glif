@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dad-ar.medi" format="2">
   <advance width="761"/>
-  <unicode hex="FEC0"/>
   <anchor x="380" y="-30" name="bottom"/>
   <anchor x="400" y="615" name="top"/>
   <outline>

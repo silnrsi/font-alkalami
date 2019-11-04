@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="meem-ar.init" format="2">
   <advance width="428"/>
-  <unicode hex="FEE3"/>
   <anchor x="224" y="-30" name="bottom"/>
   <anchor x="232" y="440" name="top"/>
   <outline>

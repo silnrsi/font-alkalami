@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehHamzaabove-ar.init" format="2">
   <advance width="277"/>
-  <unicode hex="FE8B"/>
   <anchor x="175" y="-30" name="bottom"/>
   <anchor x="115" y="500" name="top"/>
   <outline>

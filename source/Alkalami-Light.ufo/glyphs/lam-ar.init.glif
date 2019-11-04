@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lam-ar.init" format="2">
   <advance width="221"/>
-  <unicode hex="FEDF"/>
   <anchor x="126" y="-30" name="bottom"/>
   <anchor x="91" y="633" name="top"/>
   <outline>

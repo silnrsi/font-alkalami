@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="e-ar.medi" format="2">
   <advance width="329"/>
-  <unicode hex="FBE7"/>
   <anchor x="161" y="-447" name="bottom"/>
   <anchor x="174" y="282" name="top"/>
   <outline>

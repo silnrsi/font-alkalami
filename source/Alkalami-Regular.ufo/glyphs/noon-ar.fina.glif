@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="noon-ar.fina" format="2">
   <advance width="252"/>
-  <unicode hex="FEE6"/>
   <anchor x="100" y="-268" name="bottom"/>
   <anchor x="88" y="549" name="top"/>
   <outline>

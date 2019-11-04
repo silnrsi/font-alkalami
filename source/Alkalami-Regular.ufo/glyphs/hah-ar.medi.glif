@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hah-ar.medi" format="2">
   <advance width="403"/>
-  <unicode hex="FEA4"/>
   <anchor x="202" y="-40" name="bottom"/>
   <anchor x="194" y="376" name="top"/>
   <outline>

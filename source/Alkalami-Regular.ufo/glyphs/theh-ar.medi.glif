@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="theh-ar.medi" format="2">
   <advance width="329"/>
-  <unicode hex="FE9C"/>
   <anchor x="162" y="-40" name="bottom"/>
   <anchor x="163" y="685" name="top"/>
   <outline>

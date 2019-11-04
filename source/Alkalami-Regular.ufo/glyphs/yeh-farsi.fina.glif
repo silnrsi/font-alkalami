@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yeh-farsi.fina" format="2">
   <advance width="562"/>
-  <unicode hex="FBFD"/>
   <anchor x="391" y="-139" name="bottom"/>
   <anchor x="227" y="301" name="top"/>
   <outline>
