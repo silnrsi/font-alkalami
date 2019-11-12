@@ -2,7 +2,6 @@
 <glyph name="threedots-ar" format="2">
   <advance width="343"/>
   <unicode hex="061E"/>
-  <anchor x="166" y="-36" name="_top"/>
   <outline>
     <contour>
       <point x="140" y="208" type="curve" smooth="yes"/>
