@@ -6,6 +6,6 @@
   <outline>
     <component base="behDotless-ar.medi.alt"/>
     <component base="dotbelow-ar" xOffset="-7"/>
-    <component base="threedots-ar" xOffset="-116" yOffset="443"/>
+    <component base="threedots-ar.small" xOffset="-116" yOffset="443"/>
   </outline>
 </glyph>
