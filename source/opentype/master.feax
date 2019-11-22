@@ -1381,20 +1381,25 @@ feature kern {
 	lookup kern_end_of_ayah;
 } kern;
 
+
 # Attach marks last, so they get positioned correctly on glyphs that have been shifted up.
+
+ifinfo(familyName, "Alkalami") {
+
 feature mark {
-
-
-
-	ifinfo(familyName, "Alkalami") {
-		lookup attachLigMarkReg;
-	}
-
-	ifinfo(familyName, "Alkalami Light") {
-		lookup attachLigMarkLight;
-	}
-
+	lookup attachLigMarkReg;
 	lookup attachBaseMark;
 	lookup attachMarkMark;
 } mark;
 
+}
+
+ifinfo(familyName, "Alkalami Light") {
+
+feature mark {
+	lookup attachLigMarkLight;
+	lookup attachBaseMark;
+	lookup attachMarkMark;
+} mark;
+
+}
