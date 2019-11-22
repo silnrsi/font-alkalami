@@ -58,8 +58,7 @@ OMITAPS = '--omitaps "topright, ogonek, caret_1, caret_2, caret_3, top_1, top_2,
 designspace('source/Alkalami.designspace',
     instanceparams = '-l ' + genout + '${DS:NAME}_createintance.log',
     target = process('${DS:NAME}.ttf',
-        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:NAME}.ufo']),
-#        cmd('${TYPETUNER} -o ${TGT} add ${SRC} ${DEP}', ['source/typetuner/feat_all.xml']),
+#        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:NAME}.ufo']),
         cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
     ap = genout + '${DS:NAME}.xml',
@@ -68,16 +67,15 @@ designspace('source/Alkalami.designspace',
         master = 'source/opentype/master.feax',
         make_params = OMITAPS
     ),
-    #license = ofl('Alkalami', 'SIL'),
+    #license = ofl('Alkalami', 'SIL'),  -- taken from UFO
     script = ['arab'],
     version = VERSION,
     fret = fret(genout + '${DS:FILENAME_BASE}-fret.pdf', params='-r -oi'),
     woff = woff('web/${DS:NAME}.woff', params='-v '+VERSION +' -m ../source/Alkalami-WOFF-metadata.xml'),
-    # typetuner='source/typetuner/feat_all.xml'
+    typetuner = typetuner("source/typetuner/feat_all.xml"),
 )
 
 
 def configure(ctx):
     ctx.find_program('ttfautohint')
-#    ctx.find_program('typetuner')
-    ctx.find_program('psfchangettfglyphnames')
+#    ctx.find_program('psfchangettfglyphnames')

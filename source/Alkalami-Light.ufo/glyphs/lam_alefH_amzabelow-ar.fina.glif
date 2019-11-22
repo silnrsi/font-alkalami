@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lam_alefHamzabelow-ar.fina" format="2">
   <advance width="517"/>
+  <anchor x="474" y="-30" name="bottom_1"/>
+  <anchor x="127" y="-270" name="bottom_2"/>
   <anchor x="309" y="0" name="caret_1"/>
+  <anchor x="400" y="670" name="top_1"/>
+  <anchor x="87" y="620" name="top_2"/>
   <outline>
     <component base="hamzabelow-ar" xOffset="40" yOffset="-20"/>
     <component base="lam_alef-ar.fina"/>

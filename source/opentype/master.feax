@@ -397,21 +397,18 @@ lookup hamza2nostem {
 	#sub hamzabelow-ar by hamzabelow-ar.nostem;
 } hamza2nostem;
 
-# make only ss08 effect only fatha, kasra, and damma.ss08
-lookup lkup_ss08 { 
+# Make only ss08 effect only fatha, kasra, and damma.ss08.
+# (No special forms are needed for fatha and kasra.)
+lookup ss08_aux { 
 	sub [ alef-ar alef-ar.high damma-ar ] by [ alef-ar.ss08 alef-ar.high.ss08 damma-ar.ss08 ]; 
 	#sub alef-ar.high by alef-ar.high.ss08; 
 	#sub damma-ar by damma-ar.ss08; 
-} lkup_ss08;
-
-
+} ss08_aux;
 
 
 lookup shift_pre_hah {
 	lookupflag IgnoreMarks RightToLeft;
-	#pos @pre_hah_shift_up_init' <0 414 0 0>  @mark_on_IM <0 414 0 0> @hahMedials' <0 207 0 0> @mark_on_IM <0 207 0 0> @hahMedials;
-	#pos @pre_hah_shift_up_init' <0 414 0 0>  @mark_on_IM <0 414 0 0> @hahMedials' <0 207 0 0>                         @hahMedials;
-	#pos @pre_hah_shift_up_init' <0 414 0 0>                          @hahMedials' <0 207 0 0> @mark_on_IM <0 207 0 0> @hahMedials;
+	
 	# Rule 1:
 	pos @pre_hah_shift_up_init' <0 414 0 0>   @hahMedials' <0 207 0 0>  @hahMedials;
 	
@@ -447,12 +444,57 @@ lookup kern_end_of_ayah {
 } kern_end_of_ayah;
 
 
+# Attachment needs to happen after stacking hah forms.
+
+lookup attachLigMarkReg {
+	pos ligature lam_alef-ar <anchor 361 700> mark @_top   <anchor 356 -40> mark @_bottom
+	            ligComponent <anchor 76 655>  mark @_top   <anchor 73 -40>  mark @_bottom;
+	pos ligature lam_alef-ar.fina <anchor 352 684> mark @_top   <anchor 474 -50> mark @_bottom
+	                 ligComponent <anchor 115 676> mark @_top   <anchor 67 -46>  mark @_bottom;
+	pos ligature lam_alefHamzabelow-ar <anchor 361 680> mark @_top   <anchor 356 -40> mark @_bottom
+	                      ligComponent <anchor 66 645>  mark @_top   <anchor 73 -40>  mark @_bottom;
+	pos ligature lam_alefHamzabelow-ar.fina <anchor 352 684> mark @_top   <anchor 474 -50> mark @_bottom
+	                           ligComponent <anchor 115 646>  mark @_top   <anchor 67 -336>  mark @_bottom;
+	pos ligature lam_alefHamzaabove-ar <anchor 361 680> mark @_top   <anchor 356 -40> mark @_bottom
+	                      ligComponent <anchor 109 866> mark @_top   <anchor 73 -40>  mark @_bottom;
+	pos ligature lam_alefHamzaabove-ar.fina <anchor 352 684> mark @_top   <anchor 474 -50> mark @_bottom
+	                           ligComponent <anchor 105 866>  mark @_top   <anchor 67 -46>  mark @_bottom;
+	pos ligature lam_alefMadda-ar <anchor 361 680> mark @_top   <anchor 356 -40> mark @_bottom
+	            ligComponent <anchor 86 765>  mark @_top   <anchor 73 -40>  mark @_bottom;     
+	pos ligature lam_alefMadda-ar.fina <anchor 373 689> mark @_top   <anchor 514 -50> mark @_bottom
+	                      ligComponent <anchor 100 761> mark @_top   <anchor 107 -46>  mark @_bottom;	                      
+	                   
+} attachLigMarkReg;
+
+
+lookup attachLigMarkLight {
+	pos ligature lam_alef-ar <anchor 304 664> mark @_top   <anchor 362 -30> mark @_bottom
+	            ligComponent <anchor 62 605>  mark @_top   <anchor 99 -30>  mark @_bottom;
+	pos ligature lam_alef-ar.fina <anchor 407 659> mark @_top   <anchor 477 -30> mark @_bottom
+	                 ligComponent <anchor 98 600> mark @_top    <anchor 90 -30>  mark @_bottom;
+	pos ligature lam_alefHamzabelow-ar <anchor 317 664> mark @_top   <anchor 375 -30> mark @_bottom
+	                      ligComponent <anchor 75 605>  mark @_top   <anchor 142 -230>  mark @_bottom;
+	pos ligature lam_alefHamzabelow-ar.fina <anchor 400 670> mark @_top   <anchor 474 -30> mark @_bottom
+	                           ligComponent <anchor 87 620>  mark @_top  <anchor 127 -270>  mark @_bottom;
+	pos ligature lam_alefHamzaabove-ar <anchor 332 674> mark @_top  <anchor 385 -30> mark @_bottom
+	                      ligComponent <anchor 85 805> mark @_top   <anchor 92 -30>  mark @_bottom;
+	pos ligature lam_alefHamzaabove-ar.fina <anchor 407 659> mark @_top   <anchor 477 -30> mark @_bottom
+	                           ligComponent <anchor 68 750>  mark @_top   <anchor 90 -30>  mark @_bottom;
+	pos ligature lam_alefMadda-ar <anchor 407 659> mark @_top   <anchor 477 -30> mark @_bottom
+	                 ligComponent <anchor 68 750>  mark @_top   <anchor 90 -30>  mark @_bottom;
+	pos ligature lam_alefMadda-ar <anchor 304 664> mark @_top  <anchor 362 -30> mark @_bottom
+	                 ligComponent <anchor 66 731> mark @_top   <anchor 99 -30>  mark @_bottom;	    
+	pos ligature lam_alefMadda-ar.fina <anchor 407 659> mark @_top  <anchor 477 -30> mark @_bottom
+	                      ligComponent <anchor 98 710> mark @_top   <anchor 90 -30>  mark @_bottom;	    
+} attachLigMarkLight;
+
+
 lookup attachBaseMark {
 	lookupflag 0;	
 	
-	pos base @top             mark @_top;
-	pos base @bottom          mark @_bottom;
-	pos base @center          mark @_center;
+	pos base @top       mark @_top;
+	pos base @bottom    mark @_bottom;
+	pos base @center    mark @_center;
 	
 #	pos base @topright  mark @_topright;
 #	pos base @ogonek    mark @_ogonek;
@@ -973,10 +1015,12 @@ feature liga {
 } liga;
 
 feature rlig {
-	lookupflag IgnoreMarks RightToLeft;
 	
 	lookup rlig_lkp {
+		lookupflag IgnoreMarks RightToLeft;
+		
 		sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;
+		
 		sub lam-ar.init alef-ar.fina by lam_alef-ar;
 		sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
 		sub lam-ar.init alefHamzaabove-ar.fina by lam_alefHamzaabove-ar;
@@ -1091,11 +1135,12 @@ feature salt {
 } salt;
 
 feature calt {
-	lookupflag IgnoreMarks RightToLeft;
 
 	# No stacking, rule 1:
 	# Use the alternate form for chars that do not stack above hah medials.
 	lookup calt_lkp1 {
+		lookupflag IgnoreMarks RightToLeft;
+		
 		sub @pre_hah_non_alt'  @hahMedials  by  @pre_hah_alt;
 		
 		# Slightly shorter tail for yeh-barree before beh/yeh/noon forms:
@@ -1104,16 +1149,22 @@ feature calt {
 
 	# No stacking, rule 2:
 	# Use the alternate form for chars that do not stack above hah finals.
-	lookup firstSub {
+	lookup prehah_alt {
+		lookupflag IgnoreMarks RightToLeft;
+
 		sub @pre_hah_non_alt'  @hahFinals  by  @pre_hah_alt;
-	} firstSub;
+	} prehah_alt;
 
 	# No stacking, rule 3:
-	lookup secondSub {
+	lookup hahfinal_alt {
+		lookupflag IgnoreMarks RightToLeft;
+
 		sub @pre_hah_alt  @hahFinals'  by  @hahFinals_alt;
-	} secondSub;
+	} hahfinal_alt;
 
 	lookup calt_lkp2 {
+		lookupflag IgnoreMarks RightToLeft;
+
 		# subs to avoid collisions in strings with dal-ar
 		sub seen-ar space-ar dal-ar' by dal-ar.alt;
 		sub seen-ar space-ar thal-ar' by thal-ar.alt;
@@ -1208,8 +1259,8 @@ feature calt {
 	
 } calt;
 
+# Warsh Hack alternate - has no dots on isolate and final
 feature ss01 {
-	# automatic
 	lookup ss01_lkp {
 		sub fehDotmovedbelow-ar.fina by fehDotmovedbelow-ar.fina.ss01;
 		sub fehDotmovedbelow-ar by fehDotmovedbelow-ar.ss01;
@@ -1230,8 +1281,8 @@ feature ss01 {
 	} ss01_lkp;
 } ss01;
 
+# End-of-ayah - double circles
 feature ss02 {
-	# automatic
 	lookup ss02_lkp {
 		sub endofayah-ar.alt2 by endofayah-ar.alt2.ss02;
 		sub endofayah-ar.alt3 by endofayah-ar.alt3.ss02;
@@ -1239,8 +1290,8 @@ feature ss02 {
 	} ss02_lkp;
 } ss02;
 
+# End-of-ayah - circle + square
 feature ss03 {
-	# automatic
 	lookup ss03_lkp {
 		sub endofayah-ar.alt2 by endofayah-ar.alt2.ss03;
 		sub endofayah-ar.alt3 by endofayah-ar.alt3.ss03;
@@ -1248,15 +1299,17 @@ feature ss03 {
 	} ss03_lkp;
 } ss03;
 
+# Large Imala e
 feature ss04 {
-	lookupflag RightToLeft;
 	lookup ss04_lkp {
+		lookupflag RightToLeft;
+		
 		sub dotvowelbelow-ar by dotvowelbelow-ar.ss04;
 	} ss04_lkp;
 } ss04;
 
+# Wagaf hack
 feature ss05 {
-	# automatic
 	lookup ss05_lkp {
 		sub beeh-ar by beeh-ar.ss05;
 		sub beeh-ar.fina by beeh-ar.fina.ss05;
@@ -1287,6 +1340,8 @@ feature ss05 {
 	} ss05_lkp;
 } ss05;
 
+
+# Monkey-tail alternates
 feature ss06 {
 	lookup ss06_lkp {
 		sub ain-ar.fina by ain-ar.fina.ss06;
@@ -1296,8 +1351,8 @@ feature ss06 {
 	} ss06_lkp;
 } ss06;
 
+# No stacking jeem/hah
 feature ss07 {
-	# automatic
 	lookup ss07_lkp {
 		sub jeem-ar.fina by jeem-ar.fina.ss07;
 		sub jeem-ar.medi by jeem-ar.medi.ss07;
@@ -1309,9 +1364,10 @@ feature ss07 {
 	} ss07_lkp;
 } ss07;
 
+# Alef + fatha/kasra/damma alternates
 feature ss08 {
 	lookup ss08_lkp {
-		sub [alef-ar alef-ar.high]' lookup lkup_ss08 [fatha-ar kasra-ar damma-ar]' lookup lkup_ss08;
+		sub [alef-ar alef-ar.high]' lookup ss08_aux [fatha-ar kasra-ar damma-ar]' lookup ss08_aux;
 	} ss08_lkp;
 } ss08;
 
@@ -1327,8 +1383,18 @@ feature kern {
 
 # Attach marks last, so they get positioned correctly on glyphs that have been shifted up.
 feature mark {
+
+
+
+	ifinfo(familyName, "Alkalami") {
+		lookup attachLigMarkReg;
+	}
+
+	ifinfo(familyName, "Alkalami Light") {
+		lookup attachLigMarkLight;
+	}
+
 	lookup attachBaseMark;
 	lookup attachMarkMark;
 } mark;
-
 
