@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.Alkalami Light.1.004" />
-  <vendor name="SIL International" url="http://www.sil.org" />
+  <uniqueid id="org.sil.fonts.Alkalami Light.1.100" />
+  <vendor name="SIL International" url="www.sil.org" />
   <credits>
     <credit
       name="Becca Hirsbrunner Spalinger"
@@ -86,8 +86,8 @@
   </description>
   <license url="http://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
     <text lang="en">
-      Copyright (c) 2015-2019, SIL International (http://www.sil.org/),
-      with Reserved Font Names "Alkalami" and "SIL".
+      Copyright (c) 2015-2018, SIL International (http://www.sil.org/),
+      with Reserved Font Names “Alkalami” and SIL.
       
       This Font Software is licensed under the SIL Open Font License, Version 1.1.
       
@@ -115,22 +115,22 @@
       to any document created using the fonts or their derivatives.
       
       DEFINITIONS
-      Font Software refers to the set of files released by the Copyright
+      FFont Software  refers to the set of files released by the Copyright
       Holder(s) under this license and clearly marked as such. This may
       include source files, build scripts and documentation.
       
-      Reserved Font Name refers to any names specified as such after the
+      RReserved Font Name  refers to any names specified as such after the
       copyright statement(s).
       
-      Original Version refers to the collection of Font Software components as
+      OOriginal Version  refers to the collection of Font Software components as
       distributed by the Copyright Holder(s).
       
-      Modified Version refers to any derivative made by adding to, deleting,
+      MModified Version  refers to any derivative made by adding to, deleting,
       or substituting -- in part or in whole -- any of the components of the
       Original Version, by changing formats or by porting the Font Software to a
       new environment.
       
-      Author refers to any designer, engineer, programmer, technical
+      AAuthor  refers to any designer, engineer, programmer, technical
       writer or other person who contributed to the Font Software.
       
       PERMISSION &amp; CONDITIONS
@@ -184,7 +184,7 @@
   </license>
   <copyright>
     <text lang="en">
-      Copyright (c) SIL International, 2015-2019
+      Copyright (c) SIL International, 2015-2018
     </text>
   </copyright>
   <trademark>
