@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yu-ar.fina" format="2">
   <advance width="506"/>
+  <unicode hex="FBDC"/>
   <anchor x="326" y="-211" name="bottom"/>
   <anchor x="170" y="640" name="top"/>
   <outline>

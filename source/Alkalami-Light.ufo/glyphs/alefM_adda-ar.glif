@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefMadda-ar" format="2">
-  <advance width="205"/>
+  <advance width="269"/>
   <unicode hex="0622"/>
   <anchor x="163" y="-56" name="bottom"/>
   <anchor x="157" y="731" name="top"/>
   <outline>
-    <component base="alef-ar.short"/>
-    <component base="madda-ar" xOffset="-77" yOffset="14"/>
+    <component base="alef-ar.short" xOffset="64"/>
+    <component base="madda-ar" xOffset="-13" yOffset="14"/>
   </outline>
 </glyph>

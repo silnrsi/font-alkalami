@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qaf-african-ar" format="2">
+  <advance width="510"/>
+  <unicode hex="08BC"/>
+  <anchor x="-225" y="-444" name="bottom"/>
+  <anchor x="195" y="578" name="top"/>
+  <outline>
+    <component base="dotlessqaf-ar"/>
+  </outline>
+</glyph>

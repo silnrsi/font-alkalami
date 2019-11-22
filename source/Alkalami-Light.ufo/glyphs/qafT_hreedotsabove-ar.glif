@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qafThreedotsabove-ar" format="2">
-  <advance width="491"/>
+  <advance width="704"/>
   <unicode hex="06A8"/>
-  <anchor x="268" y="-30" name="bottom"/>
-  <anchor x="136" y="830" name="top"/>
+  <anchor x="469" y="-311" name="bottom"/>
+  <anchor x="346" y="660" name="top"/>
   <outline>
-    <component base="fehDotless-ar"/>
-    <component base="threedotsupabove-ar" xOffset="-21" yOffset="205"/>
+    <component base="dotlessqaf-ar"/>
+    <component base="threedotsupabove-ar" xOffset="188" yOffset="9"/>
   </outline>
 </glyph>

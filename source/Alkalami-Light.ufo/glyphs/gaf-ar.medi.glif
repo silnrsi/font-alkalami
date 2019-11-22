@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gaf-ar.medi" format="2">
   <advance width="785"/>
+  <unicode hex="FB95"/>
   <anchor x="375" y="-40" name="bottom"/>
   <anchor x="205" y="535" name="top"/>
   <outline>

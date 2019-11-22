@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seen-ar.fina.alt2" format="2">
   <advance width="475"/>
+  <image fileName="../../../../Desktop/Screen Shot 2015-03-12 at 11.40.12 AM.png" xScale="4" yScale="4" xOffset="-1319" yOffset="-513"/>
   <anchor x="309" y="-44" name="bottom"/>
   <anchor x="243" y="403" name="top"/>
   <outline>

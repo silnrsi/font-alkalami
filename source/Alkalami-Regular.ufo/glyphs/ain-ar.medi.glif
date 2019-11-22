@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ain-ar.medi" format="2">
   <advance width="572"/>
+  <unicode hex="FECC"/>
+  <image fileName="../../../../Desktop/Screen Shot 2015-03-13 at 2.10.39 PM.png" xScale="3.35" yScale="3.35" xOffset="25" yOffset="-163"/>
   <anchor x="294" y="-40" name="bottom"/>
   <anchor x="295" y="665" name="top"/>
   <outline>

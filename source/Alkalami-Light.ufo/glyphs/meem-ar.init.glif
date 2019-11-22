@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="meem-ar.init" format="2">
   <advance width="428"/>
+  <unicode hex="FEE3"/>
+  <image fileName="../../../Reading/glyphs fonts/Etincelle/Etincelle arabic regular scans/meem-ar.jpeg" xScale="1.4" yScale="1.4" xOffset="-46" yOffset="-143"/>
   <anchor x="224" y="-30" name="bottom"/>
   <anchor x="232" y="440" name="top"/>
   <outline>

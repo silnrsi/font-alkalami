@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tah-ar.init" format="2">
   <advance width="759"/>
+  <unicode hex="FEC3"/>
   <anchor x="411" y="-30" name="bottom"/>
   <anchor x="391" y="405" name="top"/>
   <outline>

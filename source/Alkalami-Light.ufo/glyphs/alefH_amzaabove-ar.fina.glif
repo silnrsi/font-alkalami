@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefHamzaabove-ar.fina" format="2">
   <advance width="227"/>
+  <unicode hex="FE84"/>
   <anchor x="107" y="-140" name="bottom"/>
   <anchor x="83" y="631" name="top"/>
   <outline>

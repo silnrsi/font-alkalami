@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alef-ar.ss08" format="2">
   <advance width="205"/>
+  <image fileName="../../../Reading/glyphs fonts/Etincelle/Etincelle arabic regular scans/alef-ar.jpeg" xScale="1.4" yScale="1.4" xOffset="-56" yOffset="-75"/>
   <anchor x="105" y="7" name="bottom"/>
   <anchor x="168" y="275" name="center"/>
   <anchor x="94" y="550" name="top"/>

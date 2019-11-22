@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="feh-african-ar" format="2">
+  <advance width="530"/>
+  <unicode hex="08BB"/>
+  <anchor x="276" y="-40" name="bottom"/>
+  <anchor x="195" y="578" name="top"/>
+  <outline>
+    <component base="dotlessfeh-ar"/>
+  </outline>
+</glyph>

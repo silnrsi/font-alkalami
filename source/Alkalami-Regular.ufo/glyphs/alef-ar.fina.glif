@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alef-ar.fina" format="2">
   <advance width="224"/>
+  <unicode hex="FE8E"/>
+  <image fileName="../../../Reading/glyphs fonts/frenchie/frenchie letter scans/arabic scans/alef-ar-fini.jpeg" xScale="1.1" yScale="1.1" xOffset="-14" yOffset="-288"/>
   <anchor x="92" y="-220" name="bottom"/>
   <anchor x="92" y="598" name="top"/>
   <outline>

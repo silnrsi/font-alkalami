@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hamzabelow-ar.nostem" format="2">
-  <advance width="230"/>
   <anchor x="110" y="1" name="_bottom"/>
   <anchor x="24" y="-248" name="bottom"/>
   <outline>

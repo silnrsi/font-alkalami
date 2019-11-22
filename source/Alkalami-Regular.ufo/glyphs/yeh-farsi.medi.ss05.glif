@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yeh-farsi.medi.ss05" format="2">
   <advance width="329"/>
+  <image fileName="../../../Reading/glyphs fonts/frenchie/frenchie letter scans/arabic scans/yeh-ar-medi.jpg" xScale="1.1" yScale="1.1" xOffset="-49" yOffset="-333"/>
   <anchor x="158" y="-240" name="bottom"/>
   <anchor x="123" y="567" name="top"/>
   <outline>
-    <component base="behDotless-ar.medi"/>
+    <component base="dotlessbeh-ar.medi"/>
     <component base="twodotshorizontalbelow-ar" xOffset="-17"/>
-    <component base="threedots-ar.small" xOffset="-36" yOffset="317"/>
+    <component base="threedotsup-ar" xOffset="-36" yOffset="317"/>
   </outline>
 </glyph>

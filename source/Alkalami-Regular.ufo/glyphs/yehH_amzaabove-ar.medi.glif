@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehHamzaabove-ar.medi" format="2">
   <advance width="329"/>
+  <unicode hex="FE8C"/>
   <anchor x="162" y="-40" name="bottom"/>
   <anchor x="150" y="530" name="top"/>
   <outline>
-    <component base="behDotless-ar.medi"/>
+    <component base="dotlessbeh-ar.medi"/>
     <component base="hamzaabove-ar" xOffset="79" yOffset="-201"/>
   </outline>
 </glyph>

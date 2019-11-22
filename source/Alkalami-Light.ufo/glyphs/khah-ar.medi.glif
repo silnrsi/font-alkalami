@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="khah-ar.medi" format="2">
   <advance width="465"/>
+  <unicode hex="FEA8"/>
   <anchor x="291" y="-30" name="bottom"/>
   <anchor x="269" y="553" name="top"/>
   <outline>

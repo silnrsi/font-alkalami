@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ng-ar.init" format="2">
   <advance width="757"/>
+  <unicode hex="FBD5"/>
   <anchor x="375" y="-40" name="bottom"/>
   <anchor x="199" y="809" name="top"/>
   <outline>

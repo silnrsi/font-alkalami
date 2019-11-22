@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qaf-african-ar.medi" format="2">
+  <advance width="538"/>
+  <anchor x="282" y="-40" name="bottom"/>
+  <anchor x="151" y="761" name="top"/>
+  <outline>
+    <component base="dotlessfeh-ar.medi"/>
+    <component base="dotabove-ar" xOffset="43" yOffset="244"/>
+  </outline>
+</glyph>

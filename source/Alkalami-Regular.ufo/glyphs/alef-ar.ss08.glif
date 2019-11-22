@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alef-ar.ss08" format="2">
   <advance width="178"/>
+  <image fileName="../../../Reading/glyphs fonts/frenchie/frenchie letter scans/arabic scans/alef-ar.jpeg" xOffset="-36" yOffset="-299"/>
   <anchor x="89" y="-75" name="bottom"/>
   <anchor x="158" y="245" name="center"/>
   <anchor x="90" y="528" name="top"/>

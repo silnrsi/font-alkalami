@@ -2,6 +2,7 @@
 <glyph name="three-ar" format="2">
   <advance width="586"/>
   <unicode hex="0663"/>
+  <image fileName="../../../../Desktop/arabic-3.jpeg" xScale="0.7" yScale="0.7" xOffset="-44" yOffset="-89"/>
   <outline>
     <contour>
       <point x="122" y="516" type="line"/>

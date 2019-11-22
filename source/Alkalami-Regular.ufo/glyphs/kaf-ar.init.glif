@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kaf-ar.init" format="2">
   <advance width="800"/>
+  <unicode hex="FEDB"/>
+  <image fileName="../../../Reading/glyphs fonts/frenchie/frenchie letter scans/arabic scans/kaf-ar-init.jpeg" yOffset="-156"/>
   <anchor x="402" y="-40" name="bottom"/>
   <anchor x="185" y="490" name="top"/>
   <outline>

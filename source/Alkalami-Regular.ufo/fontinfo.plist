@@ -7,28 +7,24 @@
   <key>capHeight</key>
   <integer>660</integer>
   <key>copyright</key>
-  <string>Copyright (c) SIL International, 2015-2019</string>
+  <string>Copyright (c) SIL International, 2015-2018</string>
   <key>descender</key>
   <integer>-857</integer>
   <key>familyName</key>
   <string>Alkalami</string>
   <key>openTypeHeadCreated</key>
-  <string>2019/11/12 10:28:52</string>
+  <string>2019/11/22 16:23:56</string>
   <key>openTypeHheaAscender</key>
   <integer>1035</integer>
   <key>openTypeHheaDescender</key>
   <integer>-857</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
-  <key>openTypeNameDescription</key>
-  <string>Copyright (c) SIL International, 2015-2019</string>
   <key>openTypeNameDesigner</key>
   <string>Becca Hirsbrunner Spalinger</string>
-  <key>openTypeNameDesignerURL</key>
-  <string>http://software.sil.org/alkalami</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 2015-2019, SIL International (http://www.sil.org/),
-with Reserved Font Names "Alkalami" and "SIL".
+  <string>Copyright (c) 2015-2018, SIL International (http://www.sil.org/),
+with Reserved Font Names “Alkalami” and SIL.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 
@@ -48,7 +44,7 @@ with others.
 
 The OFL allows the licensed fonts to be used, studied, modified and
 redistributed freely as long as they are not sold by themselves. The
-fonts, including any derivative works, can be bundled, embedded,
+fonts, including any derivative works, can be bundled, embedded, 
 redistributed and/or sold with any software provided that any reserved
 names are not used by derivative works. The fonts and derivatives,
 however, cannot be released under any other type of license. The
@@ -56,22 +52,22 @@ requirement for fonts to remain under this license does not apply
 to any document created using the fonts or their derivatives.
 
 DEFINITIONS
-Font Software refers to the set of files released by the Copyright
+FFont Software  refers to the set of files released by the Copyright
 Holder(s) under this license and clearly marked as such. This may
 include source files, build scripts and documentation.
 
-Reserved Font Name refers to any names specified as such after the
+RReserved Font Name  refers to any names specified as such after the
 copyright statement(s).
 
-Original Version refers to the collection of Font Software components as
+OOriginal Version  refers to the collection of Font Software components as
 distributed by the Copyright Holder(s).
 
-Modified Version refers to any derivative made by adding to, deleting,
+MModified Version  refers to any derivative made by adding to, deleting,
 or substituting -- in part or in whole -- any of the components of the
 Original Version, by changing formats or by porting the Font Software to a
 new environment.
 
-Author refers to any designer, engineer, programmer, technical
+AAuthor  refers to any designer, engineer, programmer, technical
 writer or other person who contributed to the Font Software.
 
 PERMISSION &amp; CONDITIONS
@@ -120,13 +116,14 @@ COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
 DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
-OTHER DEALINGS IN THE FONT SOFTWARE.</string>
+OTHER DEALINGS IN THE FONT SOFTWARE.
+</string>
   <key>openTypeNameLicenseURL</key>
   <string>http://scripts.sil.org/OFL</string>
   <key>openTypeNameManufacturer</key>
   <string>SIL International</string>
   <key>openTypeNameManufacturerURL</key>
-  <string>http://www.sil.org</string>
+  <string>www.sil.org</string>
   <key>openTypeNamePreferredFamilyName</key>
   <string>Alkalami</string>
   <key>openTypeNamePreferredSubfamilyName</key>
@@ -134,12 +131,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Alkalami Regular: 2019</string>
   <key>openTypeNameVersion</key>
-  <string>1.004</string>
-  <key>openTypeOS2CodePageRanges</key>
-  <array>
-    <integer>0</integer>
-    <integer>6</integer>
-  </array>
+  <string>Version 1.100</string>
   <key>openTypeOS2Type</key>
   <array/>
   <key>openTypeOS2TypoAscender</key>
@@ -153,7 +145,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
     <integer>0</integer>
     <integer>1</integer>
     <integer>2</integer>
+    <integer>3</integer>
     <integer>5</integer>
+    <integer>6</integer>
     <integer>13</integer>
     <integer>29</integer>
     <integer>31</integer>
@@ -212,7 +206,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>4</integer>
+  <integer>100</integer>
   <key>xHeight</key>
   <integer>430</integer>
 </dict>

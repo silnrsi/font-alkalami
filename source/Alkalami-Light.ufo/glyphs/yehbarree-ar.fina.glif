@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehbarree-ar.fina" format="2">
   <advance width="423"/>
+  <unicode hex="FBAF"/>
   <anchor x="223" y="-227" name="bottom"/>
   <anchor x="165" y="254" name="top"/>
   <outline>

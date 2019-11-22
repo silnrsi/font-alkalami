@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nyeh-ar.fina" format="2">
   <advance width="558"/>
+  <unicode hex="FB77"/>
   <anchor x="369" y="-450" name="bottom"/>
   <anchor x="386" y="185" name="top"/>
   <outline>

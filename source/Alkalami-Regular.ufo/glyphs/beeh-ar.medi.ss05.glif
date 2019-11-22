@@ -4,8 +4,8 @@
   <anchor x="165" y="-258" name="bottom"/>
   <anchor x="125" y="547" name="top"/>
   <outline>
-    <component base="behDotless-ar.medi"/>
+    <component base="dotlessbeh-ar.medi"/>
     <component base="dotbelow-ar" xOffset="53"/>
-    <component base="threedots-ar.small" xOffset="-44" yOffset="299"/>
+    <component base="threedotsup-ar" xOffset="-44" yOffset="299"/>
   </outline>
 </glyph>

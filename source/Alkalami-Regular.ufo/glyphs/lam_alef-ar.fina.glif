@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lam_alef-ar.fina" format="2">
   <advance width="494"/>
+  <unicode hex="FEFC"/>
+  <image fileName="../../../../Desktop/Screen Shot 2015-03-13 at 2.05.06 PM.png" xScale="4" yScale="4" xOffset="-59" yOffset="-271"/>
   <anchor x="474" y="-50" name="bottom_1"/>
   <anchor x="67" y="-46" name="bottom_2"/>
   <anchor x="287" y="0" name="caret_1"/>

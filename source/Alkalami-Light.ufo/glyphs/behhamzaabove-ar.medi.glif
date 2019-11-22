@@ -4,7 +4,7 @@
   <anchor x="151" y="-227" name="bottom"/>
   <anchor x="111" y="500" name="top"/>
   <outline>
-    <component base="behDotless-ar.medi"/>
+    <component base="dotlessbeh-ar.medi"/>
     <component base="dotbelow-ar" xOffset="14" yOffset="-30"/>
     <component base="hamzaabove-ar" xOffset="28" yOffset="-205"/>
   </outline>

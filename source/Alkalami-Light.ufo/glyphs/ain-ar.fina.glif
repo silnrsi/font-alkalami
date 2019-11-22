@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ain-ar.fina" format="2">
   <advance width="584"/>
+  <unicode hex="FECA"/>
   <anchor x="288" y="-58" name="bottom"/>
   <anchor x="298" y="535" name="top"/>
   <outline>

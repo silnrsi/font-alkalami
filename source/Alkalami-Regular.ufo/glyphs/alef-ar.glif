@@ -2,6 +2,7 @@
 <glyph name="alef-ar" format="2">
   <advance width="178"/>
   <unicode hex="0627"/>
+  <image fileName="../../../Reading/glyphs fonts/frenchie/frenchie letter scans/arabic scans/alef-ar.jpeg" xOffset="-36" yOffset="-299"/>
   <anchor x="89" y="-120" name="bottom"/>
   <anchor x="92" y="588" name="top"/>
   <outline>

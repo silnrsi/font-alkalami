@@ -5,6 +5,6 @@
   <anchor x="289" y="999" name="top"/>
   <outline>
     <component base="ain-ar.medi"/>
-    <component base="threedotsabovesmall-ar" xOffset="160" yOffset="272"/>
+    <component base="threedotsupabovesmall-ar" xOffset="160" yOffset="272"/>
   </outline>
 </glyph>

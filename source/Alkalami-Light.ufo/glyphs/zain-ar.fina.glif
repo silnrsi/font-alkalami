@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zain-ar.fina" format="2">
   <advance width="328"/>
+  <unicode hex="FEB0"/>
   <anchor x="156" y="-191" name="bottom"/>
   <anchor x="105" y="495" name="top"/>
   <outline>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zah-ar.fina" format="2">
   <advance width="798"/>
+  <unicode hex="FEC6"/>
   <anchor x="402" y="-40" name="bottom"/>
   <anchor x="432" y="670" name="top"/>
   <outline>

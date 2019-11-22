@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ain-ar.fina.ss06" format="2">
   <advance width="536"/>
+  <image fileName="../../../../Desktop/Screen Shot 2015-03-13 at 2.04.47 PM.png" xScale="3.8" yScale="3.8" xOffset="-105" yOffset="-522"/>
   <anchor x="234" y="-373" name="bottom"/>
   <anchor x="246" y="650" name="top"/>
   <outline>

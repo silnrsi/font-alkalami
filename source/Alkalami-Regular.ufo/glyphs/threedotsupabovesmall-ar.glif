@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="threedotsupabovesmall-ar" format="2">
+  <advance width="271"/>
+  <anchor x="135" y="393" name="_top"/>
+  <outline>
+    <component base="threedotsupabove-ar" xScale="0.826" yScale="0.826" xOffset="-14" yOffset="133"/>
+  </outline>
+</glyph>

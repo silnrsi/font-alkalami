@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kaf-ar.medi" format="2">
   <advance width="799"/>
+  <unicode hex="FEDC"/>
   <anchor x="412" y="-40" name="bottom"/>
   <anchor x="158" y="490" name="top"/>
   <outline>

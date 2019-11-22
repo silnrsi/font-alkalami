@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefMadda-ar.fina" format="2">
   <advance width="344"/>
+  <unicode hex="FE82"/>
   <anchor x="142" y="-220" name="bottom"/>
   <anchor x="149" y="730" name="top"/>
   <outline>

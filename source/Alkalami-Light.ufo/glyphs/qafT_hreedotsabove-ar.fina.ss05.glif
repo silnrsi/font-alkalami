@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qafThreedotsabove-ar.fina.ss05" format="2">
-  <advance width="723"/>
-  <anchor x="641" y="-123" name="bottom"/>
+  <advance width="725"/>
+  <anchor x="469" y="-311" name="bottom"/>
   <anchor x="363" y="557" name="top"/>
   <outline>
-    <component base="qafDotless-ar.fina"/>
-    <component base="threedots-ar.small" xOffset="244" yOffset="306"/>
+    <component base="dotlessqaf-ar.fina"/>
+    <component base="threedotsup-ar.small" xOffset="244" yOffset="306"/>
   </outline>
 </glyph>

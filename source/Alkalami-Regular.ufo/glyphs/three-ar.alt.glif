@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="three-ar.alt" format="2">
   <advance width="390"/>
+  <image fileName="../../../../Desktop/arabic-3.jpeg" xScale="0.7" yScale="0.7" xOffset="-4" yOffset="-89"/>
   <outline>
     <contour>
       <point x="58" y="374" type="line"/>

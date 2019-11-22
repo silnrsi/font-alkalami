@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qafDotabove-ar" format="2">
-  <advance width="530"/>
+  <advance width="510"/>
   <unicode hex="06A7"/>
-  <anchor x="276" y="-40" name="bottom"/>
-  <anchor x="172" y="761" name="top"/>
+  <anchor x="-225" y="-444" name="bottom"/>
+  <anchor x="172" y="571" name="top"/>
   <outline>
-    <component base="qafDotless-ar"/>
-    <component base="dotabove-ar" xOffset="64" yOffset="244"/>
+    <component base="dotlessqaf-ar"/>
+    <component base="dotabove-ar" xOffset="64" yOffset="34"/>
   </outline>
 </glyph>

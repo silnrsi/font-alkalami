@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefMaksura-ar.fina" format="2">
   <advance width="793"/>
+  <unicode hex="FEF0"/>
   <anchor x="633" y="-110" name="bottom"/>
   <anchor x="444" y="289" name="top"/>
   <outline>

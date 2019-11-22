@@ -2,10 +2,9 @@
 <glyph name="ainThreedots-ar.ss05" format="2">
   <advance width="590"/>
   <anchor x="344" y="-111" name="bottom"/>
-  <anchor x="426" y="790" name="top"/>
+  <anchor x="406" y="610" name="top"/>
   <outline>
     <component base="ain-ar"/>
-    <component base="threedots-ar.small" xOffset="308" yOffset="569"/>
-    <component base="dotabove-ar" xOffset="308" yOffset="78"/>
+    <component base="threedotsup-ar.small" xOffset="288" yOffset="389"/>
   </outline>
 </glyph>

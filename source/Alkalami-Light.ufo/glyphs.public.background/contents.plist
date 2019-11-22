@@ -26,12 +26,6 @@
   <string>asterisk.glif</string>
   <key>beh-ar.init.alt</key>
   <string>beh-ar.init.alt.glif</string>
-  <key>behDotless-ar.fina</key>
-  <string>behD_otless-ar.fina.glif</string>
-  <key>behDotless-ar.init</key>
-  <string>behD_otless-ar.init.glif</string>
-  <key>behDotless-ar.medi</key>
-  <string>behD_otless-ar.medi.glif</string>
   <key>dal-ar</key>
   <string>dal-ar.glif</string>
   <key>dal-ar.fina</key>
@@ -40,6 +34,22 @@
   <string>damma-ar.glif</string>
   <key>dammatan-ar</key>
   <string>dammatan-ar.glif</string>
+  <key>dotlessbeh-ar.fina</key>
+  <string>dotlessbeh-ar.fina.glif</string>
+  <key>dotlessbeh-ar.init</key>
+  <string>dotlessbeh-ar.init.glif</string>
+  <key>dotlessbeh-ar.medi</key>
+  <string>dotlessbeh-ar.medi.glif</string>
+  <key>dotlessfeh-ar</key>
+  <string>dotlessfeh-ar.glif</string>
+  <key>dotlessfeh-ar.fina</key>
+  <string>dotlessfeh-ar.fina.glif</string>
+  <key>dotlessfeh-ar.init</key>
+  <string>dotlessfeh-ar.init.glif</string>
+  <key>dotlessfeh-ar.medi</key>
+  <string>dotlessfeh-ar.medi.glif</string>
+  <key>dotlessqaf-ar.fina</key>
+  <string>dotlessqaf-ar.fina.glif</string>
   <key>endofayah-ar</key>
   <string>endofayah-ar.glif</string>
   <key>endofayah-ar.alt2</key>
@@ -48,16 +58,8 @@
   <string>endofayah-ar.alt3.glif</string>
   <key>euro</key>
   <string>euro.glif</string>
-  <key>fehAfrican-ar.fina</key>
-  <string>fehA_frican-ar.fina.glif</string>
-  <key>fehDotless-ar</key>
-  <string>fehD_otless-ar.glif</string>
-  <key>fehDotless-ar.fina</key>
-  <string>fehD_otless-ar.fina.glif</string>
-  <key>fehDotless-ar.init</key>
-  <string>fehD_otless-ar.init.glif</string>
-  <key>fehDotless-ar.medi</key>
-  <string>fehD_otless-ar.medi.glif</string>
+  <key>feh-african-ar.fina</key>
+  <string>feh-african-ar.fina.glif</string>
   <key>five</key>
   <string>five.glif</string>
   <key>five.alt</key>
@@ -102,8 +104,8 @@
   <string>meem-ar.init.glif</string>
   <key>meem-ar.medi</key>
   <string>meem-ar.medi.glif</string>
-  <key>noonAfrican-ar</key>
-  <string>noonA_frican-ar.glif</string>
+  <key>noon-african-ar</key>
+  <string>noon-african-ar.glif</string>
   <key>noonghunna-ar</key>
   <string>noonghunna-ar.glif</string>
   <key>noonghunna-ar.fina</key>

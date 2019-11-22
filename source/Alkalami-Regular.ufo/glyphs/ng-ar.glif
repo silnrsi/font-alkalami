@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ng-ar" format="2">
-  <advance width="805"/>
+  <advance width="780"/>
   <unicode hex="06AD"/>
   <anchor x="397" y="-40" name="bottom"/>
   <anchor x="185" y="819" name="top"/>
   <outline>
     <component base="kaf-ar"/>
-    <component base="threedotsabovesmall-ar" xOffset="25" yOffset="97"/>
+    <component base="threedotsupabovesmall-ar" xOffset="50" yOffset="97"/>
   </outline>
 </glyph>
