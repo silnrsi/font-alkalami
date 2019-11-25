@@ -5,6 +5,6 @@
   <anchor x="171" y="760" name="top"/>
   <outline>
     <component base="kaf-ar.medi"/>
-    <component base="threedotsup-ar" xOffset="-12" yOffset="525"/>
+    <component base="threedots-ar" xOffset="-12" yOffset="525"/>
   </outline>
 </glyph>

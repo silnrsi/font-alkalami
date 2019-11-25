@@ -460,10 +460,14 @@ lookup attachLigMarkReg {
 	pos ligature lam_alefHamzaabove-ar.fina <anchor 352 684> mark @_top   <anchor 474 -50> mark @_bottom
 	                           ligComponent <anchor 105 866>  mark @_top   <anchor 67 -46>  mark @_bottom;
 	pos ligature lam_alefMadda-ar <anchor 361 680> mark @_top   <anchor 356 -40> mark @_bottom
-	            ligComponent <anchor 86 765>  mark @_top   <anchor 73 -40>  mark @_bottom;     
+	            ligComponent <anchor 86 765>  mark @_top   <anchor 73 -40>  mark @_bottom;
 	pos ligature lam_alefMadda-ar.fina <anchor 373 689> mark @_top   <anchor 514 -50> mark @_bottom
-	                      ligComponent <anchor 100 761> mark @_top   <anchor 107 -46>  mark @_bottom;	                      
-	                   
+	                      ligComponent <anchor 100 761> mark @_top   <anchor 107 -46>  mark @_bottom;
+
+	pos ligature allah-ar			<anchor 841 587> mark @_top
+							ligComponent	<anchor 670 547> mark @_top
+  						ligComponent	<anchor 498 523> mark @_top
+							ligComponent	<anchor 233 405> mark @_top;
 } attachLigMarkReg;
 
 
@@ -483,11 +487,15 @@ lookup attachLigMarkLight {
 	pos ligature lam_alefMadda-ar <anchor 407 659> mark @_top   <anchor 477 -30> mark @_bottom
 	                 ligComponent <anchor 68 750>  mark @_top   <anchor 90 -30>  mark @_bottom;
 	pos ligature lam_alefMadda-ar <anchor 304 664> mark @_top  <anchor 362 -30> mark @_bottom
-	                 ligComponent <anchor 66 731> mark @_top   <anchor 99 -30>  mark @_bottom;	    
+	                 ligComponent <anchor 66 731> mark @_top   <anchor 99 -30>  mark @_bottom;
 	pos ligature lam_alefMadda-ar.fina <anchor 407 659> mark @_top  <anchor 477 -30> mark @_bottom
-	                      ligComponent <anchor 98 710> mark @_top   <anchor 90 -30>  mark @_bottom;	    
+	                      ligComponent <anchor 98 710> mark @_top   <anchor 90 -30>  mark @_bottom;
+	                      
+	pos ligature allah-ar			<anchor 811 614> mark @_top
+							ligComponent	<anchor 635 562> mark @_top
+  						ligComponent	<anchor 465 493> mark @_top
+							ligComponent	<anchor 232 359> mark @_top;
 } attachLigMarkLight;
-
 
 lookup attachBaseMark {
 	lookupflag 0;	
