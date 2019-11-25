@@ -4,6 +4,6 @@
   <anchor x="258" y="-30" name="bottom"/>
   <anchor x="124" y="500" name="top"/>
   <outline>
-    <component base="dotlessfeh-ar.fina"/>
+    <component base="fehDotless-ar.fina"/>
   </outline>
 </glyph>

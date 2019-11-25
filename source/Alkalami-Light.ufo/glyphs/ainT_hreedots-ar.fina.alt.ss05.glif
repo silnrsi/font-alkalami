@@ -5,6 +5,6 @@
   <anchor x="303" y="754" name="top"/>
   <outline>
     <component base="ain-ar.fina.ss06"/>
-    <component base="threedotsup-ar.small" xOffset="181" yOffset="525"/>
+    <component base="threedots-ar.small" xOffset="181" yOffset="525"/>
   </outline>
 </glyph>

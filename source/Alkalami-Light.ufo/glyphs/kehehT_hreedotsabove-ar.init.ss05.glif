@@ -5,6 +5,6 @@
   <anchor x="216" y="690" name="top"/>
   <outline>
     <component base="keheh-ar.init"/>
-    <component base="threedotsup-ar.small" xOffset="96" yOffset="469"/>
+    <component base="threedots-ar.small" xOffset="96" yOffset="469"/>
   </outline>
 </glyph>

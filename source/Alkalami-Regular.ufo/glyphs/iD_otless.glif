@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iDotless" format="2">
+  <advance width="336"/>
+  <unicode hex="0131"/>
+  <anchor x="184" y="10" name="ogonek"/>
+  <anchor x="169" y="434" name="top"/>
+  <outline>
+    <contour>
+      <point x="240" y="445" type="curve"/>
+      <point x="154" y="433"/>
+      <point x="62" y="428"/>
+      <point x="16" y="426" type="curve"/>
+      <point x="30" y="381" type="line"/>
+      <point x="97" y="368" type="line"/>
+      <point x="102" y="297"/>
+      <point x="102" y="272"/>
+      <point x="103" y="226" type="curve" smooth="yes"/>
+      <point x="104" y="167"/>
+      <point x="103" y="124"/>
+      <point x="100" y="58" type="curve"/>
+      <point x="21" y="37" type="line"/>
+      <point x="37" y="0" type="line"/>
+      <point x="77" y="1"/>
+      <point x="105" y="3"/>
+      <point x="171" y="3" type="curve" smooth="yes"/>
+      <point x="242" y="3"/>
+      <point x="268" y="2"/>
+      <point x="304" y="0" type="curve"/>
+      <point x="320" y="37" type="line"/>
+      <point x="240" y="58" type="line"/>
+      <point x="238" y="107"/>
+      <point x="237" y="179"/>
+      <point x="237" y="228" type="curve" smooth="yes"/>
+      <point x="237" y="296"/>
+      <point x="238" y="369"/>
+    </contour>
+  </outline>
+</glyph>

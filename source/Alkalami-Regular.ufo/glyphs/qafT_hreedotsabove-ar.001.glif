@@ -5,6 +5,6 @@
   <anchor x="175" y="885" name="top"/>
   <outline>
     <component base="threedotsupabove-ar" xScale="0.826" yScale="0.826" xOffset="30" yOffset="303"/>
-    <component base="dotlessfeh-ar"/>
+    <component base="fehDotless-ar"/>
   </outline>
 </glyph>

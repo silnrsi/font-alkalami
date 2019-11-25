@@ -4,6 +4,6 @@
   <anchor x="469" y="-311" name="bottom"/>
   <anchor x="353" y="304" name="top"/>
   <outline>
-    <component base="dotlessqaf-ar"/>
+    <component base="qafDotless-ar"/>
   </outline>
 </glyph>

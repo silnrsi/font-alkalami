@@ -5,7 +5,7 @@
   <anchor x="238" y="-30" name="bottom"/>
   <anchor x="118" y="830" name="top"/>
   <outline>
-    <component base="dotlessfeh-ar.medi"/>
+    <component base="fehDotless-ar.medi"/>
     <component base="threedotsupabove-ar" xOffset="-31" yOffset="203"/>
   </outline>
 </glyph>

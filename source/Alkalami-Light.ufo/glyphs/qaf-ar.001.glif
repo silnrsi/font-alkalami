@@ -4,7 +4,7 @@
   <anchor x="248" y="-30" name="bottom"/>
   <anchor x="144" y="678" name="top"/>
   <outline>
-    <component base="dotlessqaf-ar"/>
+    <component base="qafDotless-ar"/>
     <component base="twodotshorizontalabove-ar" xOffset="-11" yOffset="205"/>
   </outline>
 </glyph>

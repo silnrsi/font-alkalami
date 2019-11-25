@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noonAfrican-ar.init" format="2">
+  <advance width="277"/>
+  <anchor x="115" y="-40" name="bottom"/>
+  <anchor x="65" y="500" name="top"/>
+  <outline>
+    <component base="behDotless-ar.init"/>
+    <component base="dotabove-ar" xOffset="-10" yOffset="-9"/>
+  </outline>
+</glyph>

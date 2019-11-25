@@ -406,6 +406,16 @@
   <string>beh-ar.medi.glif</string>
   <key>beh-ar.medi.alt</key>
   <string>beh-ar.medi.alt.glif</string>
+  <key>behDotless-ar</key>
+  <string>behD_otless-ar.glif</string>
+  <key>behDotless-ar.fina</key>
+  <string>behD_otless-ar.fina.glif</string>
+  <key>behDotless-ar.init</key>
+  <string>behD_otless-ar.init.glif</string>
+  <key>behDotless-ar.medi</key>
+  <string>behD_otless-ar.medi.glif</string>
+  <key>behDotless-ar.medi.alt</key>
+  <string>behD_otless-ar.medi.alt.glif</string>
   <key>behThreedotsupbelow-ar</key>
   <string>behT_hreedotsupbelow-ar.glif</string>
   <key>behThreedotsupbelow-ar.fina</key>
@@ -578,36 +588,6 @@
   <string>dotbelow-ar.glif</string>
   <key>dotcenter-ar</key>
   <string>dotcenter-ar.glif</string>
-  <key>dotlessbeh-ar</key>
-  <string>dotlessbeh-ar.glif</string>
-  <key>dotlessbeh-ar.fina</key>
-  <string>dotlessbeh-ar.fina.glif</string>
-  <key>dotlessbeh-ar.init</key>
-  <string>dotlessbeh-ar.init.glif</string>
-  <key>dotlessbeh-ar.medi</key>
-  <string>dotlessbeh-ar.medi.glif</string>
-  <key>dotlessbeh-ar.medi.alt</key>
-  <string>dotlessbeh-ar.medi.alt.glif</string>
-  <key>dotlessfeh-ar</key>
-  <string>dotlessfeh-ar.glif</string>
-  <key>dotlessfeh-ar.fina</key>
-  <string>dotlessfeh-ar.fina.glif</string>
-  <key>dotlessfeh-ar.init</key>
-  <string>dotlessfeh-ar.init.glif</string>
-  <key>dotlessfeh-ar.medi</key>
-  <string>dotlessfeh-ar.medi.glif</string>
-  <key>dotlessi</key>
-  <string>dotlessi.glif</string>
-  <key>dotlessqaf-ar</key>
-  <string>dotlessqaf-ar.glif</string>
-  <key>dotlessqaf-ar.001</key>
-  <string>dotlessqaf-ar.001.glif</string>
-  <key>dotlessqaf-ar.fina</key>
-  <string>dotlessqaf-ar.fina.glif</string>
-  <key>dotlessqaf-ar.init</key>
-  <string>dotlessqaf-ar.init.glif</string>
-  <key>dotlessqaf-ar.medi</key>
-  <string>dotlessqaf-ar.medi.glif</string>
   <key>dottedCircle</key>
   <string>dottedC_ircle.glif</string>
   <key>dotvowelbelow-ar</key>
@@ -716,14 +696,6 @@
   <string>fatha_alefabove-ar.glif</string>
   <key>fathatan-ar</key>
   <string>fathatan-ar.glif</string>
-  <key>feh-african-ar</key>
-  <string>feh-african-ar.glif</string>
-  <key>feh-african-ar.fina</key>
-  <string>feh-african-ar.fina.glif</string>
-  <key>feh-african-ar.init</key>
-  <string>feh-african-ar.init.glif</string>
-  <key>feh-african-ar.medi</key>
-  <string>feh-african-ar.medi.glif</string>
   <key>feh-ar</key>
   <string>feh-ar.glif</string>
   <key>feh-ar.fina</key>
@@ -732,6 +704,22 @@
   <string>feh-ar.init.glif</string>
   <key>feh-ar.medi</key>
   <string>feh-ar.medi.glif</string>
+  <key>fehAfrican-ar</key>
+  <string>fehA_frican-ar.glif</string>
+  <key>fehAfrican-ar.fina</key>
+  <string>fehA_frican-ar.fina.glif</string>
+  <key>fehAfrican-ar.init</key>
+  <string>fehA_frican-ar.init.glif</string>
+  <key>fehAfrican-ar.medi</key>
+  <string>fehA_frican-ar.medi.glif</string>
+  <key>fehDotless-ar</key>
+  <string>fehD_otless-ar.glif</string>
+  <key>fehDotless-ar.fina</key>
+  <string>fehD_otless-ar.fina.glif</string>
+  <key>fehDotless-ar.init</key>
+  <string>fehD_otless-ar.init.glif</string>
+  <key>fehDotless-ar.medi</key>
+  <string>fehD_otless-ar.medi.glif</string>
   <key>fehDotmovedbelow-ar</key>
   <string>fehD_otmovedbelow-ar.glif</string>
   <key>fehDotmovedbelow-ar.fina</key>
@@ -912,6 +900,8 @@
   <string>i.glif</string>
   <key>i.sc</key>
   <string>i.sc.glif</string>
+  <key>iDotless</key>
+  <string>iD_otless.glif</string>
   <key>iacute</key>
   <string>iacute.glif</string>
   <key>icircumflex</key>
@@ -1130,24 +1120,6 @@
   <string>nine.tf.glif</string>
   <key>nonbreakinghyphen</key>
   <string>nonbreakinghyphen.glif</string>
-  <key>noon-african-ar</key>
-  <string>noon-african-ar.glif</string>
-  <key>noon-african-ar.alt</key>
-  <string>noon-african-ar.alt.glif</string>
-  <key>noon-african-ar.alt2</key>
-  <string>noon-african-ar.alt2.glif</string>
-  <key>noon-african-ar.fina</key>
-  <string>noon-african-ar.fina.glif</string>
-  <key>noon-african-ar.fina.alt</key>
-  <string>noon-african-ar.fina.alt.glif</string>
-  <key>noon-african-ar.fina.alt2</key>
-  <string>noon-african-ar.fina.alt2.glif</string>
-  <key>noon-african-ar.init</key>
-  <string>noon-african-ar.init.glif</string>
-  <key>noon-african-ar.medi</key>
-  <string>noon-african-ar.medi.glif</string>
-  <key>noon-african-ar.medi.alt</key>
-  <string>noon-african-ar.medi.alt.glif</string>
   <key>noon-ar</key>
   <string>noon-ar.glif</string>
   <key>noon-ar.alt</key>
@@ -1178,6 +1150,24 @@
   <string>noon-ar.medi.alt.glif</string>
   <key>noon-ar.ss01</key>
   <string>noon-ar.ss01.glif</string>
+  <key>noonAfrican-ar</key>
+  <string>noonA_frican-ar.glif</string>
+  <key>noonAfrican-ar.alt</key>
+  <string>noonA_frican-ar.alt.glif</string>
+  <key>noonAfrican-ar.alt2</key>
+  <string>noonA_frican-ar.alt2.glif</string>
+  <key>noonAfrican-ar.fina</key>
+  <string>noonA_frican-ar.fina.glif</string>
+  <key>noonAfrican-ar.fina.alt</key>
+  <string>noonA_frican-ar.fina.alt.glif</string>
+  <key>noonAfrican-ar.fina.alt2</key>
+  <string>noonA_frican-ar.fina.alt2.glif</string>
+  <key>noonAfrican-ar.init</key>
+  <string>noonA_frican-ar.init.glif</string>
+  <key>noonAfrican-ar.medi</key>
+  <string>noonA_frican-ar.medi.glif</string>
+  <key>noonAfrican-ar.medi.alt</key>
+  <string>noonA_frican-ar.medi.alt.glif</string>
   <key>noonTwodotsbelow-ar</key>
   <string>noonT_wodotsbelow-ar.glif</string>
   <key>noonTwodotsbelow-ar.alt</key>
@@ -1326,16 +1316,6 @@
   <string>q.glif</string>
   <key>q.sc</key>
   <string>q.sc.glif</string>
-  <key>qaf-african-ar</key>
-  <string>qaf-african-ar.glif</string>
-  <key>qaf-african-ar.001</key>
-  <string>qaf-african-ar.001.glif</string>
-  <key>qaf-african-ar.fina</key>
-  <string>qaf-african-ar.fina.glif</string>
-  <key>qaf-african-ar.init</key>
-  <string>qaf-african-ar.init.glif</string>
-  <key>qaf-african-ar.medi</key>
-  <string>qaf-african-ar.medi.glif</string>
   <key>qaf-ar</key>
   <string>qaf-ar.glif</string>
   <key>qaf-ar.001</key>
@@ -1346,6 +1326,16 @@
   <string>qaf-ar.init.glif</string>
   <key>qaf-ar.medi</key>
   <string>qaf-ar.medi.glif</string>
+  <key>qafAfrican-ar</key>
+  <string>qafA_frican-ar.glif</string>
+  <key>qafAfrican-ar.001</key>
+  <string>qafA_frican-ar.001.glif</string>
+  <key>qafAfrican-ar.fina</key>
+  <string>qafA_frican-ar.fina.glif</string>
+  <key>qafAfrican-ar.init</key>
+  <string>qafA_frican-ar.init.glif</string>
+  <key>qafAfrican-ar.medi</key>
+  <string>qafA_frican-ar.medi.glif</string>
   <key>qafDotabove-ar</key>
   <string>qafD_otabove-ar.glif</string>
   <key>qafDotabove-ar.001</key>
@@ -1362,6 +1352,16 @@
   <string>qafD_otabove-ar.ss01.glif</string>
   <key>qafDotabove-ar.ss01.001</key>
   <string>qafD_otabove-ar.ss01.001.glif</string>
+  <key>qafDotless-ar</key>
+  <string>qafD_otless-ar.glif</string>
+  <key>qafDotless-ar.001</key>
+  <string>qafD_otless-ar.001.glif</string>
+  <key>qafDotless-ar.fina</key>
+  <string>qafD_otless-ar.fina.glif</string>
+  <key>qafDotless-ar.init</key>
+  <string>qafD_otless-ar.init.glif</string>
+  <key>qafDotless-ar.medi</key>
+  <string>qafD_otless-ar.medi.glif</string>
   <key>qafThreedotsabove-ar</key>
   <string>qafT_hreedotsabove-ar.glif</string>
   <key>qafThreedotsabove-ar.001</key>
@@ -1644,20 +1644,20 @@
   <string>three.osf.glif</string>
   <key>three.tf</key>
   <string>three.tf.glif</string>
+  <key>threedots-ar</key>
+  <string>threedots-ar.glif</string>
+  <key>threedots-ar.small</key>
+  <string>threedots-ar.small.glif</string>
+  <key>threedotsabovesmall-ar</key>
+  <string>threedotsabovesmall-ar.glif</string>
   <key>threedotsdownabove-ar</key>
   <string>threedotsdownabove-ar.glif</string>
   <key>threedotsdownbelow-ar</key>
   <string>threedotsdownbelow-ar.glif</string>
   <key>threedotsdownbelow-ar.narrow</key>
   <string>threedotsdownbelow-ar.narrow.glif</string>
-  <key>threedotsup-ar</key>
-  <string>threedotsup-ar.glif</string>
-  <key>threedotsup-ar.small</key>
-  <string>threedotsup-ar.small.glif</string>
   <key>threedotsupabove-ar</key>
   <string>threedotsupabove-ar.glif</string>
-  <key>threedotsupabovesmall-ar</key>
-  <string>threedotsupabovesmall-ar.glif</string>
   <key>threedotsupbelow-ar</key>
   <string>threedotsupbelow-ar.glif</string>
   <key>threeperemspace</key>
