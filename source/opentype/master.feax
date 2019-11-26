@@ -446,56 +446,38 @@ lookup kern_end_of_ayah {
 
 # Attachment needs to happen after stacking hah forms.
 
-lookup attachLigMarkReg {
-	pos ligature lam_alef-ar <anchor 361 700> mark @_top   <anchor 356 -40> mark @_bottom
-	            ligComponent <anchor 76 655>  mark @_top   <anchor 73 -40>  mark @_bottom;
-	pos ligature lam_alef-ar.fina <anchor 352 684> mark @_top   <anchor 474 -50> mark @_bottom
-	                 ligComponent <anchor 115 676> mark @_top   <anchor 67 -46>  mark @_bottom;
-	pos ligature lam_alefHamzabelow-ar <anchor 361 680> mark @_top   <anchor 356 -40> mark @_bottom
-	                      ligComponent <anchor 66 645>  mark @_top   <anchor 73 -40>  mark @_bottom;
-	pos ligature lam_alefHamzabelow-ar.fina <anchor 352 684> mark @_top   <anchor 474 -50> mark @_bottom
-	                           ligComponent <anchor 115 646>  mark @_top   <anchor 67 -336>  mark @_bottom;
-	pos ligature lam_alefHamzaabove-ar <anchor 361 680> mark @_top   <anchor 356 -40> mark @_bottom
-	                      ligComponent <anchor 109 866> mark @_top   <anchor 73 -40>  mark @_bottom;
-	pos ligature lam_alefHamzaabove-ar.fina <anchor 352 684> mark @_top   <anchor 474 -50> mark @_bottom
-	                           ligComponent <anchor 105 866>  mark @_top   <anchor 67 -46>  mark @_bottom;
-	pos ligature lam_alefMadda-ar <anchor 361 680> mark @_top   <anchor 356 -40> mark @_bottom
-	            ligComponent <anchor 86 765>  mark @_top   <anchor 73 -40>  mark @_bottom;
-	pos ligature lam_alefMadda-ar.fina <anchor 373 689> mark @_top   <anchor 514 -50> mark @_bottom
-	                      ligComponent <anchor 100 761> mark @_top   <anchor 107 -46>  mark @_bottom;
+@ligs = [lam_alef-ar lam_alef-ar.fina lam_alefHamzabelow-ar lam_alefHamzabelow-ar.fina
+         lam_alefHamzaabove-ar lam_alefHamzaabove-ar.fina lam_alefMadda-ar lam_alefMadda-ar.fina];
 
-	pos ligature allah-ar			<anchor 841 587> mark @_top
-							ligComponent	<anchor 670 547> mark @_top
-  						ligComponent	<anchor 498 523> mark @_top
-							ligComponent	<anchor 233 405> mark @_top;
-} attachLigMarkReg;
-
-
-lookup attachLigMarkLight {
-	pos ligature lam_alef-ar <anchor 304 664> mark @_top   <anchor 362 -30> mark @_bottom
-	            ligComponent <anchor 62 605>  mark @_top   <anchor 99 -30>  mark @_bottom;
-	pos ligature lam_alef-ar.fina <anchor 407 659> mark @_top   <anchor 477 -30> mark @_bottom
-	                 ligComponent <anchor 98 600> mark @_top    <anchor 90 -30>  mark @_bottom;
-	pos ligature lam_alefHamzabelow-ar <anchor 317 664> mark @_top   <anchor 375 -30> mark @_bottom
-	                      ligComponent <anchor 75 605>  mark @_top   <anchor 142 -230>  mark @_bottom;
-	pos ligature lam_alefHamzabelow-ar.fina <anchor 400 670> mark @_top   <anchor 474 -30> mark @_bottom
-	                           ligComponent <anchor 87 620>  mark @_top  <anchor 127 -270>  mark @_bottom;
-	pos ligature lam_alefHamzaabove-ar <anchor 332 674> mark @_top  <anchor 385 -30> mark @_bottom
-	                      ligComponent <anchor 85 805> mark @_top   <anchor 92 -30>  mark @_bottom;
-	pos ligature lam_alefHamzaabove-ar.fina <anchor 407 659> mark @_top   <anchor 477 -30> mark @_bottom
-	                           ligComponent <anchor 68 750>  mark @_top   <anchor 90 -30>  mark @_bottom;
-	pos ligature lam_alefMadda-ar <anchor 407 659> mark @_top   <anchor 477 -30> mark @_bottom
-	                 ligComponent <anchor 68 750>  mark @_top   <anchor 90 -30>  mark @_bottom;
-	pos ligature lam_alefMadda-ar <anchor 304 664> mark @_top  <anchor 362 -30> mark @_bottom
-	                 ligComponent <anchor 66 731> mark @_top   <anchor 99 -30>  mark @_bottom;
-	pos ligature lam_alefMadda-ar.fina <anchor 407 659> mark @_top  <anchor 477 -30> mark @_bottom
-	                      ligComponent <anchor 98 710> mark @_top   <anchor 90 -30>  mark @_bottom;
-	                      
-	pos ligature allah-ar			<anchor 811 614> mark @_top
-							ligComponent	<anchor 635 562> mark @_top
-  						ligComponent	<anchor 465 493> mark @_top
-							ligComponent	<anchor 232 359> mark @_top;
-} attachLigMarkLight;
+lookup attachLigMark {
+    pos ligature @ligs @top_1 mark @_top @bottom_1 mark @_bottom
+        ligComponent @top_2 mark @_top @bottom_2 mark @_bottom;
+    pos ligature allah-ar @top_1 mark @_top
+        ligComponent @top_2 mark @_top
+        ligComponent @top_3 mark @_top
+        ligComponent @top_4 mark @_top;
+#	pos ligature lam_alef-ar <anchor 361 700> mark @_top   <anchor 356 -40> mark @_bottom
+#	            ligComponent <anchor 76 655>  mark @_top   <anchor 73 -40>  mark @_bottom;
+#	pos ligature lam_alef-ar.fina <anchor 352 684> mark @_top   <anchor 474 -50> mark @_bottom
+#	                 ligComponent <anchor 115 676> mark @_top   <anchor 67 -46>  mark @_bottom;
+#	pos ligature lam_alefHamzabelow-ar <anchor 361 680> mark @_top   <anchor 356 -40> mark @_bottom
+#	                      ligComponent <anchor 66 645>  mark @_top   <anchor 73 -40>  mark @_bottom;
+#	pos ligature lam_alefHamzabelow-ar.fina <anchor 352 684> mark @_top   <anchor 474 -50> mark @_bottom
+#	                           ligComponent <anchor 115 646>  mark @_top   <anchor 67 -336>  mark @_bottom;
+#	pos ligature lam_alefHamzaabove-ar <anchor 361 680> mark @_top   <anchor 356 -40> mark @_bottom
+#	                      ligComponent <anchor 109 866> mark @_top   <anchor 73 -40>  mark @_bottom;
+#	pos ligature lam_alefHamzaabove-ar.fina <anchor 352 684> mark @_top   <anchor 474 -50> mark @_bottom
+#	                           ligComponent <anchor 105 866>  mark @_top   <anchor 67 -46>  mark @_bottom;
+#	pos ligature lam_alefMadda-ar <anchor 361 680> mark @_top   <anchor 356 -40> mark @_bottom
+#	            ligComponent <anchor 86 765>  mark @_top   <anchor 73 -40>  mark @_bottom;
+#	pos ligature lam_alefMadda-ar.fina <anchor 373 689> mark @_top   <anchor 514 -50> mark @_bottom
+#	                      ligComponent <anchor 100 761> mark @_top   <anchor 107 -46>  mark @_bottom;
+#
+#	pos ligature allah-ar			<anchor 841 587> mark @_top
+#							ligComponent	<anchor 670 547> mark @_top
+#  						ligComponent	<anchor 498 523> mark @_top
+#							ligComponent	<anchor 233 405> mark @_top;
+} attachLigMark;
 
 lookup attachBaseMark {
 	lookupflag 0;	
@@ -1392,22 +1374,9 @@ feature kern {
 
 # Attach marks last, so they get positioned correctly on glyphs that have been shifted up.
 
-ifinfo(familyName, "Alkalami") {
-
 feature mark {
-	lookup attachLigMarkReg;
+	lookup attachLigMark;
 	lookup attachBaseMark;
 	lookup attachMarkMark;
 } mark;
 
-}
-
-ifinfo(familyName, "Alkalami Light") {
-
-feature mark {
-	lookup attachLigMarkLight;
-	lookup attachBaseMark;
-	lookup attachMarkMark;
-} mark;
-
-}

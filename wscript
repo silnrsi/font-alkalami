@@ -47,7 +47,7 @@ Font sources are published and a open workflow is used for building, testing and
 getufoinfo('source/Alkalami-Regular.ufo')
 
 # APs to omit:
-OMITAPS = '--omitaps "topright, ogonek, caret_1, caret_2, caret_3, top_1, top_2, top_3, top_4, top_alef, bottom_1, bottom_2"'
+OMITAPS = '--omitaps "topright, ogonek, caret_1, caret_2, caret_3, top_alef"'
 
 # set the build and test parameters
 
