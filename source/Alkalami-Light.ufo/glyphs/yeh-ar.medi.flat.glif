@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yeh-ar.medi.flat" format="2">
+  <advance width="207"/>
+  <anchor x="84" y="-212" name="bottom"/>
+  <anchor x="28" y="489" name="top"/>
+  <outline>
+    <component base="behDotless-ar.medi.alt"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="-92" yOffset="-33"/>
+  </outline>
+</glyph>

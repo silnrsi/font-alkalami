@@ -122,8 +122,8 @@
   <string>sad-ar.fina.glif</string>
   <key>sad-ar.init</key>
   <string>sad-ar.init.glif</string>
-  <key>sad-ar.init.alt</key>
-  <string>sad-ar.init.alt.glif</string>
+  <key>sad-ar.init.flat</key>
+  <string>sad-ar.init.flat.glif</string>
   <key>sad-ar.medi</key>
   <string>sad-ar.medi.glif</string>
   <key>seen-ar</key>
@@ -132,8 +132,8 @@
   <string>seen-ar.fina.glif</string>
   <key>seen-ar.init</key>
   <string>seen-ar.init.glif</string>
-  <key>seen-ar.medi.alt</key>
-  <string>seen-ar.medi.alt.glif</string>
+  <key>seen-ar.medi.flat</key>
+  <string>seen-ar.medi.flat.glif</string>
   <key>seven-ar</key>
   <string>seven-ar.glif</string>
   <key>seven-ar.alt</key>

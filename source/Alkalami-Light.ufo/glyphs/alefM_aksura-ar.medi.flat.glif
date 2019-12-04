@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefMaksura-ar.medi.flat" format="2">
+  <advance width="207"/>
+  <anchor x="89" y="-34" name="bottom"/>
+  <anchor x="40" y="486" name="top"/>
+  <outline>
+    <component base="behDotless-ar.medi.alt"/>
+  </outline>
+</glyph>

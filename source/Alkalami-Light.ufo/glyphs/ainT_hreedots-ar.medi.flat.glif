@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ainThreedots-ar.medi.flat" format="2">
+  <advance width="368"/>
+  <anchor x="151" y="-30" name="bottom"/>
+  <anchor x="146" y="1093" name="top"/>
+  <outline>
+    <component base="ain-ar.medi.flat"/>
+    <component base="threedotsupabove-ar" xOffset="-14" yOffset="465"/>
+  </outline>
+</glyph>

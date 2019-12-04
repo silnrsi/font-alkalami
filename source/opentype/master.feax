@@ -56,140 +56,142 @@ languagesystem latn dflt;
 ];
 
 @pre_hah_non_alt = [
-	behDotless-ar.medi 
+	behDotless-ar.medi
 	beh-ar.medi
 	peh-ar.medi
 	beeh-ar.medi
 	beeh-ar.medi.ss05
-	alefMaksura-ar.medi 
+	alefMaksura-ar.medi
 	teh-ar.medi
 	theh-ar.medi
-	behVinvertedbelow-ar.medi 
-	behVabove-ar.medi 
-	behVbelow-ar.medi 
-	behhamzaabove-ar.medi  
-	seen-ar.medi 
-	sheen-ar.medi 
-	sad-ar.medi 
-	dad-ar.medi 
-	ain-ar.medi 
+	behVinvertedbelow-ar.medi
+	behVabove-ar.medi
+	behVbelow-ar.medi
+	behhamzaabove-ar.medi
+	seen-ar.medi
+	sheen-ar.medi
+	sad-ar.medi
+	dad-ar.medi
+	ain-ar.medi
 	ainThreedots-ar.medi
 	ainThreedots-ar.medi.ss05
-	ghain-ar.medi 
-	lam-ar.medi 
+	ghain-ar.medi
+	lam-ar.medi
 	meem-ar.medi
 	noon-ar.medi
-	noonAfrican-ar.medi 
-	yeh-ar.medi 
+	noonAfrican-ar.medi
+	yeh-ar.medi
 	yehTwodotsbelowHamzaabove-ar.medi
 	yehTwodotsbelowDotabove-ar.medi
 	yeh-farsi.medi
 	e-ar.medi
-	ainTwodotshorizontalabove-ar.medi 
+	ainTwodotshorizontalabove-ar.medi
 	noonTwodotsbelow-ar.medi
+	behThreedotsupbelow-ar.medi
 
-	sad-ar.init.alt 
-	dad-ar.init.alt
-	meem-ar.init.alt
+	sad-ar.init.flat
+	dad-ar.init.flat
+	meem-ar.init.flat
 ];
 
 # This creates an altnerate form that does NOT get shifted up to the same level as the medial hah.
 # The forms that are NOT in this class are medial tah/zah, feh/qaf, and kaf/gaf and most initials.
-@pre_hah_alt = [ 
-	behDotless-ar.medi.alt 
-	beh-ar.medi.alt
-	peh-ar.medi.alt
-	beeh-ar.medi.alt
-	beeh-ar.medi.alt.ss05
-	alefMaksura-ar.medi.alt 
-	teh-ar.medi.alt
-	theh-ar.medi.alt
-	behVinvertedbelow-ar.medi.alt 
-	behVabove-ar.medi.alt 
-	behVbelow-ar.medi.alt 
-	behhamzaabove-ar.medi.alt  
-	seen-ar.medi.alt 
-	sheen-ar.medi.alt 
-	sad-ar.medi.alt 
-	dad-ar.medi.alt 
-	ain-ar.medi.alt 
-	ainThreedots-ar.medi.alt
-	ainThreedots-ar.medi.alt.ss05
-	ghain-ar.medi.alt 
-	lam-ar.medi.alt 
-	meem-ar.medi.alt
-	noon-ar.medi.alt
-	noonAfrican-ar.medi.alt  
-	yeh-ar.medi.alt 
-	yehTwodotsbelowHamzaabove-ar.medi.alt
-	yehTwodotsbelowDotabove-ar.medi.alt
-	yeh-farsi.medi.alt
-	e-ar.medi.alt
-	ainTwodotshorizontalabove-ar.medi.alt 
-	noonTwodotsbelow-ar.medi.alt
+@pre_hah_alt = [
+	behDotless-ar.medi.flat
+	beh-ar.medi.flat
+	peh-ar.medi.flat
+	beeh-ar.medi.flat
+	beeh-ar.medi.flat.ss05
+	alefMaksura-ar.medi.flat
+	teh-ar.medi.flat
+	theh-ar.medi.flat
+	behVinvertedbelow-ar.medi.flat
+	behVabove-ar.medi.flat
+	behVbelow-ar.medi.flat
+	behhamzaabove-ar.medi.flat
+	seen-ar.medi.flat
+	sheen-ar.medi.flat
+	sad-ar.medi.flat
+	dad-ar.medi.flat
+	ain-ar.medi.flat
+	ainThreedots-ar.medi.flat
+	ainThreedots-ar.medi.flat.ss05
+	ghain-ar.medi.flat
+	lam-ar.medi.flat
+	meem-ar.medi.flat
+	noon-ar.medi.flat
+	noonAfrican-ar.medi.flat
+	yeh-ar.medi.flat
+	yehTwodotsbelowHamzaabove-ar.medi.flat
+	yehTwodotsbelowDotabove-ar.medi.flat
+	yeh-farsi.medi.flat
+	e-ar.medi.flat
+	ainTwodotshorizontalabove-ar.medi.flat
+	noonTwodotsbelow-ar.medi.flat
+	behThreedotsupbelow-ar.medi.flat
 
-	sad-ar.init.alt 
-	dad-ar.init.alt
-	meem-ar.init.alt
+	sad-ar.init.flat
+	dad-ar.init.flat
+	meem-ar.init.flat
 ];
 
 @pre_hah_shift_up_init = [
-	behDotless-ar.init 
-	beh-ar.init 
-	peh-ar.init 
-	beeh-ar.init 
+	behDotless-ar.init
+	beh-ar.init
+	peh-ar.init
+	beeh-ar.init
 	beeh-ar.init.ss05
-	behThreedotsupbelow-ar.init 
-	alefMaksura-ar.init 
-	teh-ar.init 
-	theh-ar.init 
-	behVinvertedbelow-ar.init 
-	behVabove-ar.init 
-	behVbelow-ar.init 
-	behhamzaabove-ar.init 
-	jeem-ar.init 
-	nyeh-ar.init 
-	hah-ar.init 
-	khah-ar.init 
-	seen-ar.init 
-	sheen-ar.init 
-	sad-ar.init 
-	dad-ar.init 
-	tah-ar.init 
-	tahThreedots-ar.init 
-	tahThreedots-ar.init.ss05 
-	zah-ar.init 
-	ain-ar.init 
-	ainThreedots-ar.init 
-	ainThreedots-ar.init.ss05 
-	ghain-ar.init 
-	feh-ar.init 
+	behThreedotsupbelow-ar.init
+	alefMaksura-ar.init
+	teh-ar.init
+	theh-ar.init
+	behVinvertedbelow-ar.init
+	behVabove-ar.init
+	behVbelow-ar.init
+	behhamzaabove-ar.init
+	jeem-ar.init
+	nyeh-ar.init
+	hah-ar.init
+	khah-ar.init
+	seen-ar.init
+	sheen-ar.init
+	sad-ar.init
+	dad-ar.init
+	tah-ar.init
+	tahThreedots-ar.init
+	tahThreedots-ar.init.ss05
+	zah-ar.init
+	ain-ar.init
+	ainThreedots-ar.init
+	ainThreedots-ar.init.ss05
+	ghain-ar.init
+	feh-ar.init
 	fehAfrican-ar.init
-	veh-ar.init 
-	fehDotless-ar.init 
-	fehDotmovedbelow-ar.init 
-	qafDotless-ar.init 
-	qaf-ar.init 
+	veh-ar.init
+	fehDotless-ar.init
+	fehDotmovedbelow-ar.init
+	qafDotless-ar.init
+	qaf-ar.init
 	qafAfrican-ar.init
-	qafDotabove-ar.init 
-	qafThreedotsabove-ar.init 
-	qafThreedotsabove-ar.init.ss05 
-	kaf-ar.init 
-	keheh-ar.init 
-	kehehThreedotsabove-ar.init 
-	kehehThreedotsabove-ar.init.ss05 
-	gaf-ar.init 
-	kafswash-ar.init 
+	qafDotabove-ar.init
+	qafThreedotsabove-ar.init
+	qafThreedotsabove-ar.init.ss05
+	kaf-ar.init
+	keheh-ar.init
+	kehehThreedotsabove-ar.init
+	kehehThreedotsabove-ar.init.ss05
+	gaf-ar.init
+	kafswash-ar.init
 	ng-ar.init
-	lam-ar.init 
-	meem-ar.init 
+	lam-ar.init
+	meem-ar.init
 	noon-ar.init
-	noonAfrican-ar.init 
-	noonghunna-ar.init 
-	heh-ar.init 
-	yehHamzaabove-ar.init 
-	yehTwodotsbelowHamzaabove-ar.init 
-	yehTwodotsbelowDotabove-ar.init 
+	noonAfrican-ar.init
+	noonghunna-ar.init
+	heh-ar.init
+	yehHamzaabove-ar.init
+	yehTwodotsbelowHamzaabove-ar.init
+	yehTwodotsbelowDotabove-ar.init
 	yeh-ar.init
 	yeh-farsi.init
 	yeh-farsi.init.ss05
@@ -201,62 +203,62 @@ languagesystem latn dflt;
 ];
 
 @pre_hah_shift_up_medi = [
-	behDotless-ar.medi 
-	beh-ar.medi 
-	peh-ar.medi 
-	beeh-ar.medi 
+	behDotless-ar.medi
+	beh-ar.medi
+	peh-ar.medi
+	beeh-ar.medi
 	beeh-ar.medi.ss05
-	behThreedotsupbelow-ar.medi 
-	alefMaksura-ar.medi 
-	teh-ar.medi 
-	theh-ar.medi 
-	behVinvertedbelow-ar.medi 
-	behVabove-ar.medi 
-	behVbelow-ar.medi 
-	behhamzaabove-ar.medi 
-	jeem-ar.medi 
-	nyeh-ar.medi 
-	hah-ar.medi 
-	khah-ar.medi 
-	seen-ar.medi 
-	sheen-ar.medi 
-	sad-ar.medi 
-	dad-ar.medi 
-	tah-ar.medi 
-	tahThreedots-ar.medi 
-	tahThreedots-ar.medi.ss05 
-	zah-ar.medi 
-	ain-ar.medi 
-	ainThreedots-ar.medi 
-	ainThreedots-ar.medi.ss05 
-	ghain-ar.medi 
-	feh-ar.medi 
+	behThreedotsupbelow-ar.medi
+	alefMaksura-ar.medi
+	teh-ar.medi
+	theh-ar.medi
+	behVinvertedbelow-ar.medi
+	behVabove-ar.medi
+	behVbelow-ar.medi
+	behhamzaabove-ar.medi
+	jeem-ar.medi
+	nyeh-ar.medi
+	hah-ar.medi
+	khah-ar.medi
+	seen-ar.medi
+	sheen-ar.medi
+	sad-ar.medi
+	dad-ar.medi
+	tah-ar.medi
+	tahThreedots-ar.medi
+	tahThreedots-ar.medi.ss05
+	zah-ar.medi
+	ain-ar.medi
+	ainThreedots-ar.medi
+	ainThreedots-ar.medi.ss05
+	ghain-ar.medi
+	feh-ar.medi
 	fehAfrican-ar.medi
-	veh-ar.medi 
-	fehDotless-ar.medi 
-	fehDotmovedbelow-ar.medi 
-	qafDotless-ar.medi 
-	qaf-ar.medi 
+	veh-ar.medi
+	fehDotless-ar.medi
+	fehDotmovedbelow-ar.medi
+	qafDotless-ar.medi
+	qaf-ar.medi
 	qafAfrican-ar.medi
-	qafDotabove-ar.medi 
-	qafThreedotsabove-ar.medi 
-	qafThreedotsabove-ar.medi.ss05 
-	kaf-ar.medi 
-	keheh-ar.medi 
-	kehehThreedotsabove-ar.medi 
-	kehehThreedotsabove-ar.medi.ss05 
-	gaf-ar.medi 
-	kafswash-ar.medi 
+	qafDotabove-ar.medi
+	qafThreedotsabove-ar.medi
+	qafThreedotsabove-ar.medi.ss05
+	kaf-ar.medi
+	keheh-ar.medi
+	kehehThreedotsabove-ar.medi
+	kehehThreedotsabove-ar.medi.ss05
+	gaf-ar.medi
+	kafswash-ar.medi
 	ng-ar.medi
-	lam-ar.medi 
-	meem-ar.medi 
+	lam-ar.medi
+	meem-ar.medi
 	noon-ar.medi
-	noonAfrican-ar.medi 
-	noonghunna-ar.medi 
-	heh-ar.medi 
-	yehHamzaabove-ar.medi 
-	yehTwodotsbelowHamzaabove-ar.medi 
-	yehTwodotsbelowDotabove-ar.medi 
+	noonAfrican-ar.medi
+	noonghunna-ar.medi
+	heh-ar.medi
+	yehHamzaabove-ar.medi
+	yehTwodotsbelowHamzaabove-ar.medi
+	yehTwodotsbelowDotabove-ar.medi
 	yeh-ar.medi
 	yeh-farsi.medi
 	yeh-farsi.medi.ss05
@@ -278,71 +280,71 @@ languagesystem latn dflt;
 ];
 
 @pre_yb_need_alt = [
-	yeh-ar.medi 
-	yeh-ar.init 
-	lam-ar.medi 
-	lam-ar.init 
-	beh-ar.medi 
-	beh-ar.init 
-	teh-ar.medi 
-	teh-ar.init 
-	theh-ar.medi 
-	theh-ar.init 
-	noon-ar.medi 
+	yeh-ar.medi
+	yeh-ar.init
+	lam-ar.medi
+	lam-ar.init
+	beh-ar.medi
+	beh-ar.init
+	teh-ar.medi
+	teh-ar.init
+	theh-ar.medi
+	theh-ar.init
+	noon-ar.medi
 	noon-ar.init
 	noonAfrican-ar.medi
-	noonAfrican-ar.init 
-	behDotless-ar.medi 
-	behDotless-ar.init 
-	alefMaksura-ar.medi 
+	noonAfrican-ar.init
+	behDotless-ar.medi
+	behDotless-ar.init
+	alefMaksura-ar.medi
 	alefMaksura-ar.init
 ];
 
 @hamzas = [ hamzaabove-ar  hamzabelow-ar  ];
 
 @Digits = [
-	zero 
-	one 
-	two 
-	three 
-	four 
-	five 
-	six 
-	seven 
-	eight 
-	nine 
-	zero-ar 
-	one-ar 
-	two-ar 
-	three-ar 
-	four-ar 
-	five-ar 
-	six-ar 
-	seven-ar 
-	eight-ar 
+	zero
+	one
+	two
+	three
+	four
+	five
+	six
+	seven
+	eight
+	nine
+	zero-ar
+	one-ar
+	two-ar
+	three-ar
+	four-ar
+	five-ar
+	six-ar
+	seven-ar
+	eight-ar
 	nine-ar
 ];
 
 @Digits.small = [
-	zero.alt 
-	one.alt 
-	two.alt 
+	zero.alt
+	one.alt
+	two.alt
 	three.alt
-	four.alt 
-	five.alt 
-	six.alt 
-	seven.alt 
-	eight.alt 
-	nine.alt 
-	zero-ar.alt 
-	one-ar.alt 
-	two-ar.alt 
-	three-ar.alt 
-	four-ar.alt 
-	five-ar.alt 
-	six-ar.alt 
-	seven-ar.alt 
-	eight-ar.alt 
+	four.alt
+	five.alt
+	six.alt
+	seven.alt
+	eight.alt
+	nine.alt
+	zero-ar.alt
+	one-ar.alt
+	two-ar.alt
+	three-ar.alt
+	four-ar.alt
+	five-ar.alt
+	six-ar.alt
+	seven-ar.alt
+	eight-ar.alt
 	nine-ar.alt
 ];
 
@@ -372,7 +374,7 @@ lookup Ayah_alt2 {
 #replace single digit Ayah with triple digit Ayah - calt
 lookup Ayah_alt3 {
 	sub endofayah-ar by endofayah-ar.alt3;
-} Ayah_alt3; 
+} Ayah_alt3;
 
 # make the lam-alef ligature have colored hamzas if wanted
 # not used??
@@ -399,44 +401,44 @@ lookup hamza2nostem {
 
 # Make only ss08 effect only fatha, kasra, and damma.ss08.
 # (No special forms are needed for fatha and kasra.)
-lookup ss08_aux { 
-	sub [ alef-ar alef-ar.high damma-ar ] by [ alef-ar.ss08 alef-ar.high.ss08 damma-ar.ss08 ]; 
-	#sub alef-ar.high by alef-ar.high.ss08; 
-	#sub damma-ar by damma-ar.ss08; 
+lookup ss08_aux {
+	sub [ alef-ar alef-ar.high damma-ar ] by [ alef-ar.ss08 alef-ar.high.ss08 damma-ar.ss08 ];
+	#sub alef-ar.high by alef-ar.high.ss08;
+	#sub damma-ar by damma-ar.ss08;
 } ss08_aux;
 
 
 lookup shift_pre_hah {
 	lookupflag IgnoreMarks RightToLeft;
-	
+
 	# Rule 1:
 	pos @pre_hah_shift_up_init' <0 414 0 0>   @hahMedials' <0 207 0 0>  @hahMedials;
-	
+
 	# Rule 2:
 	pos @pre_hah_shift_up_init' <0 207 0 0>  @pre_hah_shift_up_medi' <0 207 0 0>  @hahMedials;
-	
+
 	# Rule 3:
 	pos @pre_hah_shift_up_init' <0 207 0 0>  @pre_hah_shift_up_medi' <0 207 0 0>  @pre_hah_shift_up_medi' <0 207 0 0>  @hahMedials;
-	
+
 	# Rule 4:
 	pos @pre_hah_shift_up_init' <0 207 0 0>  @hahMedials;
-	
+
 	ignore pos @pre_hah_shift_up_init  @hahMedials  @hahMedials'               @post_hah_shift_down';
-	pos                                @hahMedials  @hahMedials' <0 -207 0 0>  @post_hah_shift_down' <0 -207 0 0>; 
-	
+	pos                                @hahMedials  @hahMedials' <0 -207 0 0>  @post_hah_shift_down' <0 -207 0 0>;
+
 	ignore pos @pre_hah_shift_up_init  @pre_hah_shift_up_medi  @hahMedials'               @post_hah_shift_down';
-	pos                                @pre_hah_shift_up_medi  @hahMedials' <0 -207 0 0>  @post_hah_shift_down' <0 -207 0 0>; 
+	pos                                @pre_hah_shift_up_medi  @hahMedials' <0 -207 0 0>  @post_hah_shift_down' <0 -207 0 0>;
 } shift_pre_hah;
 
 
 lookup kern_end_of_ayah {
-	# contextually kern the sign with digits so they are enclosed 
+	# contextually kern the sign with digits so they are enclosed
 
 	# Uniscribe or HarfBuzz 'latn'
 	pos @EndofAyah3 @Digits.small' <-1375 0 -275 0> @Digits.small' <-1100 0 -300 0> @Digits.small' <-800 0 -350 0>;
 	pos @EndofAyah2 @Digits.small' <-1100 0 -300 0> @Digits.small' <-800 0 -350 0>;
 	pos @EndofAyah @Digits.small' <-800 0 -350 0>;
-		
+
 	# HarfBuzz 'arab'
 	pos @Digits.small' <-800 0 -350 0> @Digits.small' <-1100 0 -300 0> @Digits.small' <-1375 0 -275 0> @EndofAyah3;
 	pos @Digits.small' <-800 0 -350 0> @Digits.small' <-1100 0 -300 0> @EndofAyah2;
@@ -490,7 +492,7 @@ lookup attachLigMarkLight {
 	                 ligComponent <anchor 66 731> mark @_top   <anchor 99 -30>  mark @_bottom;
 	pos ligature lam_alefMadda-ar.fina <anchor 407 659> mark @_top  <anchor 477 -30> mark @_bottom
 	                      ligComponent <anchor 98 710> mark @_top   <anchor 90 -30>  mark @_bottom;
-	                      
+
 	pos ligature allah-ar			<anchor 811 614> mark @_top
 							ligComponent	<anchor 635 562> mark @_top
   						ligComponent	<anchor 465 493> mark @_top
@@ -498,12 +500,12 @@ lookup attachLigMarkLight {
 } attachLigMarkLight;
 
 lookup attachBaseMark {
-	lookupflag 0;	
-	
+	lookupflag 0;
+
 	pos base @top       mark @_top;
 	pos base @bottom    mark @_bottom;
 	pos base @center    mark @_center;
-	
+
 #	pos base @topright  mark @_topright;
 #	pos base @ogonek    mark @_ogonek;
 
@@ -517,19 +519,19 @@ lookup attachBaseMark {
 #	pos base @top_4     mark @_top_4;
 
 #	pos base @top_alef  mark @_top_alef;
-	
+
 #	pos base @bottom_1  mark @_bottom_1;
 #	pos base @bottom_2  mark @_bottom_2;
 
 } attachBaseMark;
 
 lookup attachMarkMark {
-	
+
 	pos mark @top_MarkBase    mark @_top;
 	pos mark @bottom_MarkBase mark @_bottom;
 
-} attachMarkMark;	
-	
+} attachMarkMark;
+
 
 #************************************************************
 # GSUB features                                             *
@@ -561,33 +563,33 @@ feature aalt {
 
 @takes_shadda = [ alefabove-ar  damma-ar   dammatan-ar  fatha-ar  fathatan-ar ];
 @with_shadda = [ shaddaAlefabove-ar  shaddaDamma-ar  shaddaDammatan-ar  shaddaFatha-ar ];
-		
+
 feature ccmp {
 
-	# Always split alefhamza (0623, 0625) so the hamza can be colored: 
-	lookup ccmp_arab_1 { 
-		script arab; 
-			sub alefHamzaabove-ar by alef-ar hamzaabove-ar; 
-			sub alefHamzabelow-ar by alef-ar hamzabelow-ar; 
-	} ccmp_arab_1; 
+	# Always split alefhamza (0623, 0625) so the hamza can be colored:
+	lookup ccmp_arab_1 {
+		script arab;
+			sub alefHamzaabove-ar by alef-ar hamzaabove-ar;
+			sub alefHamzabelow-ar by alef-ar hamzabelow-ar;
+	} ccmp_arab_1;
 
-	# change alef and hamza to connecting versions unless after lam 
-	lookup ccmp_arab_3 { 
-		# Ignore all marks except the combining hamzas 
+	# change alef and hamza to connecting versions unless after lam
+	lookup ccmp_arab_3 {
+		# Ignore all marks except the combining hamzas
 		lookupflag UseMarkFilteringSet @hamzas;
-		
-		# Ignore cases where alef is preceded by lam 
-		ignore sub lam-ar alef-ar'; 
-		
-		# but otherwise change alef and hamza to connecting version: 
-		sub alef-ar' lookup alef2wide hamzaabove-ar' lookup hamza2nostem; 
-		sub alef-ar' lookup alef2wideshort hamzabelow-ar' lookup hamza2nostem; 
-	} ccmp_arab_3; 
+
+		# Ignore cases where alef is preceded by lam
+		ignore sub lam-ar alef-ar';
+
+		# but otherwise change alef and hamza to connecting version:
+		sub alef-ar' lookup alef2wide hamzaabove-ar' lookup hamza2nostem;
+		sub alef-ar' lookup alef2wideshort hamzabelow-ar' lookup hamza2nostem;
+	} ccmp_arab_3;
 
 	# ligate pairs of marks to handle multiple orders
 	lookup ccmp_arab_4 {
 		lookupflag 0;
-		
+
 		sub hamzaabove-ar  @takes_hamzaAbove  by  @with_hamzaAbove;
 		sub @takes_hamzaAbove hamzaabove-ar   by  @with_hamzaAbove;
 
@@ -596,7 +598,7 @@ feature ccmp {
 
 		sub shadda-ar @takes_shadda  by @with_shadda;
 		sub @takes_shadda shadda-ar  by @with_shadda;
-		
+
 		sub fatha-ar alefabove-ar by fatha_alefabove-ar;
 		sub alefabove-ar fatha-ar by fatha_alefabove-ar;
 	} ccmp_arab_4;
@@ -627,10 +629,10 @@ feature frac {
 #} ordn;
 
 
-@arIsol = [ behDotless-ar  beh-ar  peh-ar  beeh-ar  teh-ar  theh-ar  
+@arIsol = [ behDotless-ar  beh-ar  peh-ar  beeh-ar  teh-ar  theh-ar
 							behThreedotsupbelow-ar  behVinvertedbelow-ar  behVabove-ar  behVbelow-ar  behhamzaabove-ar
 							jeem-ar  nyeh-ar  hah-ar  khah-ar  seen-ar  sheen-ar  sad-ar  dad-ar  tah-ar  tahThreedots-ar  zah-ar
-							ain-ar  ainThreedots-ar  ainTwodotshorizontalabove-ar  ghain-ar  
+							ain-ar  ainThreedots-ar  ainTwodotshorizontalabove-ar  ghain-ar
 							feh-ar  veh-ar  fehDotless-ar  fehDotmovedbelow-ar  fehTwodotsbelow-ar  fehAfrican-ar
 							qafDotless-ar  qaf-ar  qafDotabove-ar  qafThreedotsabove-ar  qafAfrican-ar
 							kaf-ar  keheh-ar  kehehThreedotsabove-ar  gaf-ar  kafswash-ar  ng-ar
@@ -641,7 +643,7 @@ feature frac {
 @arInit = [ behDotless-ar.init  beh-ar.init  peh-ar.init  beeh-ar.init  teh-ar.init  theh-ar.init
 							behThreedotsupbelow-ar.init  behVinvertedbelow-ar.init  behVabove-ar.init  behVbelow-ar.init  behhamzaabove-ar.init
 							jeem-ar.init  nyeh-ar.init  hah-ar.init  khah-ar.init  seen-ar.init  sheen-ar.init  sad-ar.init  dad-ar.init  tah-ar.init  tahThreedots-ar.init  zah-ar.init
-							ain-ar.init  ainThreedots-ar.init  ainTwodotshorizontalabove-ar.init  ghain-ar.init  
+							ain-ar.init  ainThreedots-ar.init  ainTwodotshorizontalabove-ar.init  ghain-ar.init
 							feh-ar.init  veh-ar.init  fehDotless-ar.init  fehDotmovedbelow-ar.init  fehTwodotsbelow-ar.init  fehAfrican-ar.init
 							qafDotless-ar.init  qaf-ar.init  qafDotabove-ar.init  qafThreedotsabove-ar.init  qafAfrican-ar.init
 							kaf-ar.init  keheh-ar.init  kehehThreedotsabove-ar.init  gaf-ar.init  kafswash-ar.init  ng-ar.init
@@ -652,7 +654,7 @@ feature frac {
 @arMedi = [ behDotless-ar.medi  beh-ar.medi  peh-ar.medi  beeh-ar.medi  teh-ar.medi  theh-ar.medi
 							behThreedotsupbelow-ar.medi  behVinvertedbelow-ar.medi  behVabove-ar.medi  behVbelow-ar.medi  behhamzaabove-ar.medi
 							jeem-ar.medi  nyeh-ar.medi  hah-ar.medi  khah-ar.medi  seen-ar.medi  sheen-ar.medi  sad-ar.medi  dad-ar.medi  tah-ar.medi  tahThreedots-ar.medi  zah-ar.medi
-							ain-ar.medi  ainThreedots-ar.medi  ainTwodotshorizontalabove-ar.medi  ghain-ar.medi  
+							ain-ar.medi  ainThreedots-ar.medi  ainTwodotshorizontalabove-ar.medi  ghain-ar.medi
 							feh-ar.medi  veh-ar.medi  fehDotless-ar.medi  fehDotmovedbelow-ar.medi  fehTwodotsbelow-ar.medi  fehAfrican-ar.medi
 							qafDotless-ar.medi  qaf-ar.medi  qafDotabove-ar.medi  qafThreedotsabove-ar.medi  qafAfrican-ar.medi
 							kaf-ar.medi  keheh-ar.medi  kehehThreedotsabove-ar.medi  gaf-ar.medi  kafswash-ar.medi  ng-ar.medi
@@ -662,7 +664,7 @@ feature frac {
 @arFina = [ behDotless-ar.fina  beh-ar.fina  peh-ar.fina  beeh-ar.fina  teh-ar.fina  theh-ar.fina
 							behThreedotsupbelow-ar.fina  behVinvertedbelow-ar.fina  behVabove-ar.fina  behVbelow-ar.fina  behhamzaabove-ar.fina
 							jeem-ar.fina  nyeh-ar.fina  hah-ar.fina  khah-ar.fina  seen-ar.fina  sheen-ar.fina  sad-ar.fina  dad-ar.fina  tah-ar.fina  tahThreedots-ar.fina  zah-ar.fina
-							ain-ar.fina  ainThreedots-ar.fina  ainTwodotshorizontalabove-ar.fina  ghain-ar.fina  
+							ain-ar.fina  ainThreedots-ar.fina  ainTwodotshorizontalabove-ar.fina  ghain-ar.fina
 							feh-ar.fina  veh-ar.fina  fehDotless-ar.fina  fehDotmovedbelow-ar.fina  fehTwodotsbelow-ar.fina  fehAfrican-ar.fina
 							qafDotless-ar.fina  qaf-ar.fina  qafDotabove-ar.fina  qafThreedotsabove-ar.fina  qafAfrican-ar.fina
 							kaf-ar.fina  keheh-ar.fina  kehehThreedotsabove-ar.fina  gaf-ar.fina  kafswash-ar.fina  ng-ar.fina
@@ -714,16 +716,16 @@ feature liga {
 
 
 #@alef_takes_lamLig_init = [ alef-ar.fina  alef-ar.fina  alefHamzaabove-ar.fina  alefHamzaabove-ar.fina  alefHamzabelow-ar.fina  alefMadda-ar.fina  alefMadda-ar.fina ];
-#@alef_takes_lamLig_medi = 
+#@alef_takes_lamLig_medi =
 #@alef_lamLig = [ lam_alef-ar   ];
 
 feature rlig {
-	
+
 	lookup rlig_lkp {
 		lookupflag IgnoreMarks RightToLeft;
-		
+
 		sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;
-		
+
 		sub lam-ar.init alef-ar.fina by lam_alef-ar;
 		sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
 		sub lam-ar.init alefHamzaabove-ar.fina by lam_alefHamzaabove-ar;
@@ -775,11 +777,11 @@ feature salt {
 		sub sad-ar by sad-ar.alt;
 		sub sad-ar.fina by sad-ar.fina.alt;
 		sub sad-ar.medi by sad-ar.medi.alt;
-		sub sad-ar.init by sad-ar.init.alt;
+		sub sad-ar.init by sad-ar.init.flat;
 		sub dad-ar by dad-ar.alt;
 		sub dad-ar.fina by dad-ar.fina.alt;
 		sub dad-ar.medi by dad-ar.medi.alt;
-		sub dad-ar.init by dad-ar.init.alt;
+		sub dad-ar.init by dad-ar.init.flat;
 		sub ainThreedots-ar.medi by ainThreedots-ar.medi.alt;
 		sub ainThreedots-ar.medi.ss05 by ainThreedots-ar.medi.alt.ss05;
 		sub ainThreedots-ar.fina.ss05 by ainThreedots-ar.fina.alt.ss05;
@@ -822,7 +824,7 @@ feature salt {
 		sub eight-ar by eight-ar.alt;
 		sub nine-ar by nine-ar.alt;
 	} salt_lkp;
-	
+
 	# multiple tail swashes
 	lookup salt_lkp2 {
 		sub seen-ar from [seen-ar.alt seen-ar.alt2];
@@ -855,9 +857,9 @@ feature calt {
 	# Use the alternate form for chars that do not stack above hah medials.
 	lookup calt_lkp1 {
 		lookupflag IgnoreMarks RightToLeft;
-		
+
 		sub @pre_hah_non_alt'  @hahMedials  by  @pre_hah_alt;
-		
+
 		# Slightly shorter tail for yeh-barree before beh/yeh/noon forms:
 		sub @pre_yb_need_alt  yehbarree-ar.fina'  by  yehbarree-ar.fina.alt;
 	} calt_lkp1;
@@ -971,7 +973,7 @@ feature calt {
 		sub @EndofAyah' @Digits.small @Digits.small @Digits.small by @EndofAyah3;
 		sub @EndofAyah' @Digits.small @Digits.small by @EndofAyah2;
 	} UniscribeFix;
-	
+
 } calt;
 
 
@@ -1007,7 +1009,7 @@ feature ss03 {
 feature ss04 {
 	lookup ss04_lkp {
 		lookupflag RightToLeft;
-		
+
 		sub @cno_ss04 by @c_ss04;
 	} ss04_lkp;
 } ss04;

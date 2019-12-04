@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="beh-ar.medi.flat" format="2">
+  <advance width="207"/>
+  <anchor x="134" y="-227" name="bottom"/>
+  <anchor x="40" y="486" name="top"/>
+  <outline>
+    <component base="behDotless-ar.medi.flat"/>
+    <component base="dotbelow-ar" xOffset="-20" yOffset="-34"/>
+  </outline>
+</glyph>

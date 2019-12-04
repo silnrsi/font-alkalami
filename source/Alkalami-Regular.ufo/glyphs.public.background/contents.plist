@@ -74,8 +74,8 @@
   <string>ain-ar.init.glif</string>
   <key>ain-ar.medi</key>
   <string>ain-ar.medi.glif</string>
-  <key>ain-ar.medi.alt</key>
-  <string>ain-ar.medi.alt.glif</string>
+  <key>ain-ar.medi.flat</key>
+  <string>ain-ar.medi.flat.glif</string>
   <key>alef-ar</key>
   <string>alef-ar.glif</string>
   <key>alef-ar.fina</key>
@@ -258,8 +258,8 @@
   <string>g.sc.glif</string>
   <key>ghain-ar.fina.ss06</key>
   <string>ghain-ar.fina.ss06.glif</string>
-  <key>ghain-ar.medi.alt</key>
-  <string>ghain-ar.medi.alt.glif</string>
+  <key>ghain-ar.medi.flat</key>
+  <string>ghain-ar.medi.flat.glif</string>
   <key>grave</key>
   <string>grave.glif</string>
   <key>guilsinglleft</key>
@@ -348,8 +348,8 @@
   <string>meem-ar.glif</string>
   <key>meem-ar.fina</key>
   <string>meem-ar.fina.glif</string>
-  <key>meem-ar.init.alt</key>
-  <string>meem-ar.init.alt.glif</string>
+  <key>meem-ar.init.flat</key>
+  <string>meem-ar.init.flat.glif</string>
   <key>meem-ar.medi</key>
   <string>meem-ar.medi.glif</string>
   <key>micro</key>
