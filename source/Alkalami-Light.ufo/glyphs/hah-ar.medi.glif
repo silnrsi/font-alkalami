@@ -2,7 +2,6 @@
 <glyph name="hah-ar.medi" format="2">
   <advance width="465"/>
   <unicode hex="FEA4"/>
-  <image fileName="../../../Reading/glyphs fonts/Etincelle/Etincelle arabic regular scans/hah-ar.jpeg" xScale="1.4" yScale="1.4" xOffset="-213" yOffset="-383"/>
   <anchor x="251" y="-40" name="bottom"/>
   <anchor x="272" y="338" name="top"/>
   <outline>

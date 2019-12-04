@@ -2,7 +2,6 @@
 <glyph name="five-ar" format="2">
   <advance width="474"/>
   <unicode hex="0665"/>
-  <image fileName="../../../../Desktop/arabic-5.jpeg" xScale="0.7" yScale="0.7" xOffset="-40" yOffset="-50"/>
   <outline>
     <contour>
       <point x="182" y="554"/>

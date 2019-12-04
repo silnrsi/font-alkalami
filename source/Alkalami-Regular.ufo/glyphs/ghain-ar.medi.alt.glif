@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ghain-ar.medi.alt" format="2">
   <advance width="382"/>
-  <image fileName="../../../../Desktop/Screen Shot 2015-03-13 at 2.10.39 PM.png" xScale="3.35" yScale="3.35" xOffset="25" yOffset="-163"/>
   <anchor x="142" y="-40" name="bottom"/>
   <anchor x="147" y="1046" name="top"/>
   <outline>

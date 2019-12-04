@@ -2,7 +2,6 @@
 <glyph name="ain-ar.init" format="2">
   <advance width="503"/>
   <unicode hex="FECB"/>
-  <image fileName="../../../Reading/glyphs fonts/Etincelle/Etincelle arabic regular scans/ain-ar.jpeg" xScale="1.4" yScale="1.4" xOffset="-105" yOffset="-102"/>
   <anchor x="271" y="-30" name="bottom"/>
   <anchor x="261" y="359" name="top"/>
   <outline>

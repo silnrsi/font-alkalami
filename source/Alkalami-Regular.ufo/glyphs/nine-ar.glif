@@ -2,7 +2,6 @@
 <glyph name="nine-ar" format="2">
   <advance width="458"/>
   <unicode hex="0669"/>
-  <image fileName="../../../../Desktop/arabic-9.jpeg" xScale="0.7" yScale="0.7" xOffset="-22" yOffset="-122"/>
   <outline>
     <contour>
       <point x="310" y="532" type="line"/>

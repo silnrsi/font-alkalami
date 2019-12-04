@@ -2,7 +2,6 @@
 <glyph name="sheen-ar.medi" format="2">
   <advance width="472"/>
   <unicode hex="FEB8"/>
-  <image fileName="../../../Reading/glyphs fonts/frenchie/frenchie letter scans/arabic scans/sheen-ar-medi.jpeg" xOffset="-6" yOffset="-115"/>
   <anchor x="232" y="-40" name="bottom"/>
   <anchor x="240" y="793" name="top"/>
   <outline>

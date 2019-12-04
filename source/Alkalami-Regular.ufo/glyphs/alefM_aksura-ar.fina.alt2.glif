@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefMaksura-ar.fina.alt2" format="2">
   <advance width="562"/>
-  <image fileName="../../../../Desktop/Screen Shot 2015-03-12 at 11.42.41 AM.png" xScale="3.3" yScale="3.3" xOffset="-1018" yOffset="-638"/>
   <anchor x="411" y="-139" name="bottom"/>
   <anchor x="217" y="301" name="top"/>
   <outline>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yeh-farsi.ss05" format="2">
   <advance width="766"/>
-  <image fileName="../../../Reading/glyphs fonts/Etincelle/Etincelle arabic regular scans/yeh-ar.jpeg" xOffset="-185" yOffset="-501"/>
   <anchor x="596" y="-164" name="bottom"/>
   <anchor x="487" y="500" name="top"/>
   <outline>

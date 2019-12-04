@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fehDotless-ar.init" format="2">
   <advance width="453"/>
-  <image fileName="../../../Reading/glyphs fonts/Etincelle/Etincelle arabic regular scans/feh-ar.jpg" xScale="1.4" yScale="1.4" xOffset="-63" yOffset="-64"/>
   <anchor x="248" y="-30" name="bottom"/>
   <anchor x="114" y="500" name="top"/>
   <outline>

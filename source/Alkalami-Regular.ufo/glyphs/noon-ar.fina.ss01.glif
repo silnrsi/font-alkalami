@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="noon-ar.fina.ss01" format="2">
   <advance width="252"/>
-  <image fileName="../../../../Desktop/Screen Shot 2015-03-12 at 11.40.56 AM.png" xScale="4" yScale="4" xOffset="-1698" yOffset="-599"/>
   <anchor x="100" y="-268" name="bottom"/>
   <anchor x="102" y="299" name="top"/>
   <outline>

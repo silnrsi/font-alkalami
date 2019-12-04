@@ -2,7 +2,6 @@
 <glyph name="tehMarbuta-ar" format="2">
   <advance width="487"/>
   <unicode hex="0629"/>
-  <image fileName="../../../Reading/glyphs fonts/frenchie/frenchie letter scans/arabic scans/tehMarbuta-ar.jpg" yOffset="-73"/>
   <anchor x="268" y="-40" name="bottom"/>
   <anchor x="249" y="640" name="top"/>
   <outline>

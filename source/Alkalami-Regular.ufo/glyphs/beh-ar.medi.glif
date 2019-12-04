@@ -2,7 +2,6 @@
 <glyph name="beh-ar.medi" format="2">
   <advance width="329"/>
   <unicode hex="FE92"/>
-  <image fileName="../../../Reading/glyphs fonts/frenchie/frenchie letter scans/arabic scans/beh-ar-medi.jpg" xScale="1.1" yScale="1.1" xOffset="-16" yOffset="-371"/>
   <anchor x="163" y="-253" name="bottom"/>
   <anchor x="159" y="298" name="top"/>
   <outline>

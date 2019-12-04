@@ -2,7 +2,6 @@
 <glyph name="jeem-ar" format="2">
   <advance width="526"/>
   <unicode hex="062C"/>
-  <image fileName="../../../Reading/glyphs fonts/frenchie/frenchie letter scans/arabic scans/jeem-ar.jpeg" xScale="1.1" yScale="1.1" xOffset="-192" yOffset="-360"/>
   <anchor x="254" y="-237" name="bottom"/>
   <anchor x="273" y="401" name="top"/>
   <outline>

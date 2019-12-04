@@ -2,7 +2,6 @@
 <glyph name="ain-ar" format="2">
   <advance width="511"/>
   <unicode hex="0639"/>
-  <image fileName="../../../../Desktop/Screen Shot 2015-03-13 at 2.15.29 PM.png" xScale="3.6" yScale="3.6" xOffset="-322" yOffset="-815"/>
   <anchor x="281" y="-40" name="bottom"/>
   <anchor x="283" y="392" name="top"/>
   <outline>

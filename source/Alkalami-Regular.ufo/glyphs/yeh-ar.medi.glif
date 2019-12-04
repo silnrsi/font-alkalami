@@ -2,7 +2,6 @@
 <glyph name="yeh-ar.medi" format="2">
   <advance width="329"/>
   <unicode hex="FEF4"/>
-  <image fileName="../../../Reading/glyphs fonts/frenchie/frenchie letter scans/arabic scans/yeh-ar-medi.jpg" xScale="1.1" yScale="1.1" xOffset="-49" yOffset="-333"/>
   <anchor x="158" y="-240" name="bottom"/>
   <anchor x="192" y="297" name="top"/>
   <outline>

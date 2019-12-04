@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="twodotsnarrow-ar" format="2">
   <advance width="294"/>
-
   <anchor x="137" y="-19" name="_top"/>
   <outline>
     <component base="twodotshorizontalbelow-ar" xScale="0.88" xOffset="-12" yOffset="200"/>

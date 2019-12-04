@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fehDotless-ar.init" format="2">
   <advance width="520"/>
-  <image fileName="../../../Reading/glyphs fonts/frenchie/frenchie letter scans/arabic scans/feh-ar-init.jpeg" xOffset="6" yOffset="-130"/>
   <anchor x="222" y="-40" name="bottom"/>
   <anchor x="165" y="578" name="top"/>
   <outline>

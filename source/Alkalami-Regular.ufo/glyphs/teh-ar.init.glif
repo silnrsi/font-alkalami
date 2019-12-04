@@ -2,7 +2,6 @@
 <glyph name="teh-ar.init" format="2">
   <advance width="339"/>
   <unicode hex="FE97"/>
-  <image fileName="../../../Reading/glyphs fonts/frenchie/frenchie letter scans/arabic scans/teh-ar-init.jpeg" xOffset="-100" yOffset="-187"/>
   <anchor x="142" y="-40" name="bottom"/>
   <anchor x="175" y="506" name="top"/>
   <outline>

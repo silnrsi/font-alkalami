@@ -2,7 +2,6 @@
 <glyph name="noon-ar.medi" format="2">
   <advance width="329"/>
   <unicode hex="FEE8"/>
-  <image fileName="../../../Reading/glyphs fonts/frenchie/frenchie letter scans/arabic scans/noon-ar-medi.jpeg" xScale="1.1" yScale="1.1" yOffset="-240"/>
   <anchor x="162" y="-40" name="bottom"/>
   <anchor x="156" y="520" name="top"/>
   <outline>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nine-ar.alt" format="2">
   <advance width="350"/>
-  <image fileName="../../../Reading/glyphs fonts/Etincelle/Etincelle arabic regular scans/feh-ar.jpg" xScale="0.7" yScale="0.7" xOffset="15" yOffset="-122"/>
   <outline>
     <contour>
       <point x="234" y="373" type="line"/>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="waw-ar.alt" format="2">
   <advance width="481"/>
-  <image fileName="../../../Reading/glyphs fonts/frenchie/frenchie letter scans/arabic scans/waw-ar-fini.jpg" xScale="1.1" yScale="1.1" xOffset="-222" yOffset="-402"/>
   <anchor x="329" y="-222" name="bottom"/>
   <anchor x="201" y="430" name="top"/>
   <outline>

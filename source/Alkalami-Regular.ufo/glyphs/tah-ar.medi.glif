@@ -2,7 +2,6 @@
 <glyph name="tah-ar.medi" format="2">
   <advance width="789"/>
   <unicode hex="FEC4"/>
-  <image fileName="../../../Reading/glyphs fonts/frenchie/frenchie letter scans/arabic scans/tah-ar-medi.jpg" xOffset="30" yOffset="-260"/>
   <anchor x="432" y="-40" name="bottom"/>
   <anchor x="431" y="416" name="top"/>
   <outline>
