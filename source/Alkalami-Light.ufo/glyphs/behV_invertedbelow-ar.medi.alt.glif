@@ -4,7 +4,7 @@
   <anchor x="92" y="-196" name="bottom"/>
   <anchor x="40" y="486" name="top"/>
   <outline>
-    <component base="behDotless-ar.medi.alt"/>
+    <component base="behDotless-ar.medi.flat"/>
     <component base="vinvertedabove-ar" xOffset="-32" yOffset="-686"/>
   </outline>
 </glyph>

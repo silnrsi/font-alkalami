@@ -404,8 +404,8 @@
   <string>beh-ar.init.alt.glif</string>
   <key>beh-ar.medi</key>
   <string>beh-ar.medi.glif</string>
-  <key>beh-ar.medi.alt</key>
-  <string>beh-ar.medi.alt.glif</string>
+  <key>beh-ar.medi.flat</key>
+  <string>beh-ar.medi.flat.glif</string>
   <key>behDotless-ar</key>
   <string>behD_otless-ar.glif</string>
   <key>behDotless-ar.fina</key>
@@ -414,8 +414,8 @@
   <string>behD_otless-ar.init.glif</string>
   <key>behDotless-ar.medi</key>
   <string>behD_otless-ar.medi.glif</string>
-  <key>behDotless-ar.medi.alt</key>
-  <string>behD_otless-ar.medi.alt.glif</string>
+  <key>behDotless-ar.medi.flat</key>
+  <string>behD_otless-ar.medi.flat.glif</string>
   <key>behThreedotsupbelow-ar</key>
   <string>behT_hreedotsupbelow-ar.glif</string>
   <key>behThreedotsupbelow-ar.fina</key>
@@ -1294,8 +1294,8 @@
   <string>peh-ar.init.glif</string>
   <key>peh-ar.medi</key>
   <string>peh-ar.medi.glif</string>
-  <key>peh-ar.medi.alt</key>
-  <string>peh-ar.medi.alt.glif</string>
+  <key>peh-ar.medi.flat</key>
+  <string>peh-ar.medi.flat.glif</string>
   <key>percent</key>
   <string>percent.glif</string>
   <key>percent-ar</key>

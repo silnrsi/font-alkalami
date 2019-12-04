@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="peh-ar.medi.alt" format="2">
+<glyph name="peh-ar.medi.flat" format="2">
   <advance width="207"/>
   <anchor x="84" y="-367" name="bottom"/>
   <anchor x="40" y="486" name="top"/>
   <outline>
-    <component base="behDotless-ar.medi.alt"/>
+    <component base="behDotless-ar.medi.flat"/>
     <component base="threedotsdownbelow-ar" xOffset="-75" yOffset="-24"/>
   </outline>
 </glyph>
