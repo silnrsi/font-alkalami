@@ -4,6 +4,6 @@
   <anchor x="89" y="-34" name="bottom"/>
   <anchor x="40" y="486" name="top"/>
   <outline>
-    <component base="behDotless-ar.medi.alt"/>
+    <component base="behDotless-ar.medi.flat"/>
   </outline>
 </glyph>
