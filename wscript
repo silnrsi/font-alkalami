@@ -71,7 +71,7 @@ designspace('source/Alkalami.designspace',
     script = ['arab'],
     version = VERSION,
     fret = fret(genout + '${DS:FILENAME_BASE}-fret.pdf', params='-r -oi'),
-    woff = woff('web/${DS:NAME}.woff', params='-v '+VERSION +' -m ../source/Alkalami-WOFF-metadata.xml'),
+    woff = woff('web/${DS:NAME}.woff', params='-v '+VERSION +' -m ../source/${DS:FAMILYNAME_DASH}-WOFF-metadata.xml'),
     typetuner = typetuner("source/typetuner/feat_all.xml"),
 )
 
