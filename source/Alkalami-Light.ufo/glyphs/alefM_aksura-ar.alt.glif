@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="alefMaksura-ar.alt" format="2">
-  <advance width="766"/>
-  <anchor x="596" y="-164" name="bottom"/>
-  <anchor x="475" y="261" name="top"/>
-  <outline>
-    <component base="alefMaksura-ar"/>
-  </outline>
-</glyph>

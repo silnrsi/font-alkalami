@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noonAfrican-ar.shrtail" format="2">
+  <advance width="240"/>
+  <anchor x="120" y="-218" name="bottom"/>
+  <anchor x="122" y="299" name="top"/>
+  <outline>
+    <component base="noonghunna-ar.shrtail"/>
+  </outline>
+</glyph>

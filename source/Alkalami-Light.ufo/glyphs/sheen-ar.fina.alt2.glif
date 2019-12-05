@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="sheen-ar.fina.alt2" format="2">
-  <advance width="1078"/>
-  <anchor x="858" y="-30" name="bottom"/>
-  <anchor x="823" y="309" name="top"/>
-  <outline>
-    <component base="seen-ar.fina"/>
-  </outline>
-</glyph>

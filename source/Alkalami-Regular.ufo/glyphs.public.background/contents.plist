@@ -100,14 +100,14 @@
   <string>alefH_amzabelow-ar.fina.glif</string>
   <key>alefMaksura-ar</key>
   <string>alefM_aksura-ar.glif</string>
-  <key>alefMaksura-ar.alt</key>
-  <string>alefM_aksura-ar.alt.glif</string>
-  <key>alefMaksura-ar.alt2</key>
-  <string>alefM_aksura-ar.alt2.glif</string>
   <key>alefMaksura-ar.fina</key>
   <string>alefM_aksura-ar.fina.glif</string>
-  <key>alefMaksura-ar.fina.alt2</key>
-  <string>alefM_aksura-ar.fina.alt2.glif</string>
+  <key>alefMaksura-ar.fina.longtail</key>
+  <string>alefM_aksura-ar.fina.longtail.glif</string>
+  <key>alefMaksura-ar.longtail</key>
+  <string>alefM_aksura-ar.longtail.glif</string>
+  <key>alefMaksura-ar.shrtail</key>
+  <string>alefM_aksura-ar.shrtail.glif</string>
   <key>alefabove-ar</key>
   <string>alefabove-ar.glif</string>
   <key>at</key>
@@ -370,42 +370,42 @@
   <string>nine.latn.glif</string>
   <key>nine.lf</key>
   <string>nine.lf.glif</string>
-  <key>noon-ar.alt</key>
-  <string>noon-ar.alt.glif</string>
-  <key>noon-ar.alt.ss01</key>
-  <string>noon-ar.alt.ss01.glif</string>
-  <key>noon-ar.fina.alt</key>
-  <string>noon-ar.fina.alt.glif</string>
-  <key>noon-ar.fina.alt.ss01</key>
-  <string>noon-ar.fina.alt.ss01.glif</string>
-  <key>noon-ar.fina.alt2</key>
-  <string>noon-ar.fina.alt2.glif</string>
-  <key>noon-ar.fina.alt2.ss01</key>
-  <string>noon-ar.fina.alt2.ss01.glif</string>
+  <key>noon-ar.fina.longtail</key>
+  <string>noon-ar.fina.longtail.glif</string>
+  <key>noon-ar.fina.longtail.ss01</key>
+  <string>noon-ar.fina.longtail.ss01.glif</string>
+  <key>noon-ar.fina.shrtail</key>
+  <string>noon-ar.fina.shrtail.glif</string>
+  <key>noon-ar.fina.shrtail.ss01</key>
+  <string>noon-ar.fina.shrtail.ss01.glif</string>
+  <key>noon-ar.shrtail</key>
+  <string>noon-ar.shrtail.glif</string>
+  <key>noon-ar.shrtail.ss01</key>
+  <string>noon-ar.shrtail.ss01.glif</string>
   <key>noonAfrican-ar</key>
   <string>noonA_frican-ar.glif</string>
-  <key>noonAfrican-ar.alt</key>
-  <string>noonA_frican-ar.alt.glif</string>
-  <key>noonAfrican-ar.fina.alt</key>
-  <string>noonA_frican-ar.fina.alt.glif</string>
-  <key>noonAfrican-ar.fina.alt2</key>
-  <string>noonA_frican-ar.fina.alt2.glif</string>
-  <key>noonTwodotsbelow-ar.alt</key>
-  <string>noonT_wodotsbelow-ar.alt.glif</string>
-  <key>noonTwodotsbelow-ar.fina.alt</key>
-  <string>noonT_wodotsbelow-ar.fina.alt.glif</string>
-  <key>noonTwodotsbelow-ar.fina.alt2</key>
-  <string>noonT_wodotsbelow-ar.fina.alt2.glif</string>
+  <key>noonAfrican-ar.fina.longtail</key>
+  <string>noonA_frican-ar.fina.longtail.glif</string>
+  <key>noonAfrican-ar.fina.shrtail</key>
+  <string>noonA_frican-ar.fina.shrtail.glif</string>
+  <key>noonAfrican-ar.shrtail</key>
+  <string>noonA_frican-ar.shrtail.glif</string>
+  <key>noonTwodotsbelow-ar.fina.longtail</key>
+  <string>noonT_wodotsbelow-ar.fina.longtail.glif</string>
+  <key>noonTwodotsbelow-ar.fina.shrtail</key>
+  <string>noonT_wodotsbelow-ar.fina.shrtail.glif</string>
+  <key>noonTwodotsbelow-ar.shrtail</key>
+  <string>noonT_wodotsbelow-ar.shrtail.glif</string>
   <key>noonghunna-ar</key>
   <string>noonghunna-ar.glif</string>
-  <key>noonghunna-ar.alt</key>
-  <string>noonghunna-ar.alt.glif</string>
   <key>noonghunna-ar.fina</key>
   <string>noonghunna-ar.fina.glif</string>
-  <key>noonghunna-ar.fina.alt</key>
-  <string>noonghunna-ar.fina.alt.glif</string>
-  <key>noonghunna-ar.fina.alt2</key>
-  <string>noonghunna-ar.fina.alt2.glif</string>
+  <key>noonghunna-ar.fina.longtail</key>
+  <string>noonghunna-ar.fina.longtail.glif</string>
+  <key>noonghunna-ar.fina.shrtail</key>
+  <string>noonghunna-ar.fina.shrtail.glif</string>
+  <key>noonghunna-ar.shrtail</key>
+  <string>noonghunna-ar.shrtail.glif</string>
   <key>numbersign</key>
   <string>numbersign.glif</string>
   <key>o</key>
@@ -474,18 +474,18 @@
   <string>sad-ar.fina.glif</string>
   <key>seen-ar</key>
   <string>seen-ar.glif</string>
-  <key>seen-ar.alt</key>
-  <string>seen-ar.alt.glif</string>
-  <key>seen-ar.alt2</key>
-  <string>seen-ar.alt2.glif</string>
   <key>seen-ar.fina</key>
   <string>seen-ar.fina.glif</string>
-  <key>seen-ar.fina.alt2</key>
-  <string>seen-ar.fina.alt2.glif</string>
+  <key>seen-ar.fina.longtail</key>
+  <string>seen-ar.fina.longtail.glif</string>
   <key>seen-ar.init</key>
   <string>seen-ar.init.glif</string>
+  <key>seen-ar.longtail</key>
+  <string>seen-ar.longtail.glif</string>
   <key>seen-ar.medi</key>
   <string>seen-ar.medi.glif</string>
+  <key>seen-ar.shrtail</key>
+  <string>seen-ar.shrtail.glif</string>
   <key>semicolon</key>
   <string>semicolon.glif</string>
   <key>seven</key>
@@ -502,10 +502,10 @@
   <string>seven.lf.glif</string>
   <key>shadda-ar</key>
   <string>shadda-ar.glif</string>
-  <key>sheen-ar.alt2</key>
-  <string>sheen-ar.alt2.glif</string>
-  <key>sheen-ar.fina.alt2</key>
-  <string>sheen-ar.fina.alt2.glif</string>
+  <key>sheen-ar.fina.longtail</key>
+  <string>sheen-ar.fina.longtail.glif</string>
+  <key>sheen-ar.longtail</key>
+  <string>sheen-ar.longtail.glif</string>
   <key>six</key>
   <string>six.glif</string>
   <key>six-ar</key>
@@ -614,18 +614,18 @@
   <string>y.sc.glif</string>
   <key>yeh-ar</key>
   <string>yeh-ar.glif</string>
-  <key>yeh-ar.alt2</key>
-  <string>yeh-ar.alt2.glif</string>
-  <key>yeh-ar.alt2.ss01</key>
-  <string>yeh-ar.alt2.ss01.glif</string>
   <key>yeh-ar.fina</key>
   <string>yeh-ar.fina.glif</string>
-  <key>yeh-ar.fina.alt2</key>
-  <string>yeh-ar.fina.alt2.glif</string>
-  <key>yeh-ar.fina.alt2.ss01</key>
-  <string>yeh-ar.fina.alt2.ss01.glif</string>
+  <key>yeh-ar.fina.longtail</key>
+  <string>yeh-ar.fina.longtail.glif</string>
+  <key>yeh-ar.fina.longtail.ss01</key>
+  <string>yeh-ar.fina.longtail.ss01.glif</string>
   <key>yeh-ar.fina.ss01</key>
   <string>yeh-ar.fina.ss01.glif</string>
+  <key>yeh-ar.longtail</key>
+  <string>yeh-ar.longtail.glif</string>
+  <key>yeh-ar.longtail.ss01</key>
+  <string>yeh-ar.longtail.ss01.glif</string>
   <key>yeh-ar.ss01</key>
   <string>yeh-ar.ss01.glif</string>
   <key>yeh-farsi.fina.ss05</key>

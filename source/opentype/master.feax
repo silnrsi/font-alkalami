@@ -827,26 +827,26 @@ feature salt {
 
 	# multiple tail swashes
 	lookup salt_lkp2 {
-		sub seen-ar from [seen-ar.alt seen-ar.alt2];
-		sub seen-ar.fina from [seen-ar.fina.alt seen-ar.fina.alt2];
-		sub sheen-ar from [sheen-ar.alt sheen-ar.alt2];
-		sub sheen-ar.fina from [sheen-ar.fina.alt sheen-ar.fina.alt2];
-		sub noon-ar from [noon-ar.alt noon-ar.alt2];
-		sub noon-ar.fina from [noon-ar.fina.alt noon-ar.fina.alt2];
-		sub noonghunna-ar from [noonghunna-ar.alt noonghunna-ar.alt2];
-		sub noonghunna-ar.fina from [noonghunna-ar.fina.alt noonghunna-ar.fina.alt2];
-		sub noonTwodotsbelow-ar from [noonTwodotsbelow-ar.alt noonTwodotsbelow-ar.alt2];
-		sub noonTwodotsbelow-ar.fina from [noonTwodotsbelow-ar.fina.alt noonTwodotsbelow-ar.fina.alt2];
-		sub noonAfrican-ar from [noonAfrican-ar.alt noonAfrican-ar.alt2];
-		sub noonAfrican-ar.fina from [noonAfrican-ar.fina.alt noonAfrican-ar.fina.alt2];
-		sub alefMaksura-ar from [alefMaksura-ar.alt alefMaksura-ar.alt2];
-		sub alefMaksura-ar.fina from [alefMaksura-ar.fina.alt alefMaksura-ar.fina.alt2];
-		sub yeh-ar from [yeh-ar.alt yeh-ar.alt2];
-		sub yeh-ar.fina from [yeh-ar.fina.alt yeh-ar.fina.alt2];
-		sub noon-ar.ss01 from [noon-ar.alt.ss01 noon-ar.alt2.ss01];
-		sub noon-ar.fina.ss01 from [noon-ar.alt.ss01 noon-ar.alt2.ss01];
-		sub yeh-ar.ss01 from [yeh-ar.alt.ss01 yeh-ar.alt2.ss01];
-		sub yeh-ar.fina.ss01 from [yeh-ar.fina.alt.ss01 yeh-ar.fina.alt2.ss01];
+		sub seen-ar from [seen-ar.shrtail seen-ar.longtail];
+		sub seen-ar.fina from [seen-ar.fina.shrtail seen-ar.fina.longtail];
+		sub sheen-ar from [sheen-ar.shrtail sheen-ar.longtail];
+		sub sheen-ar.fina from [sheen-ar.fina.shrtail sheen-ar.fina.longtail];
+		sub noon-ar from [noon-ar.shrtail noon-ar.longtail];
+		sub noon-ar.fina from [noon-ar.fina.shrtail noon-ar.fina.longtail];
+		sub noonghunna-ar from [noonghunna-ar.shrtail noonghunna-ar.longtail];
+		sub noonghunna-ar.fina from [noonghunna-ar.fina.shrtail noonghunna-ar.fina.longtail];
+		sub noonTwodotsbelow-ar from [noonTwodotsbelow-ar.shrtail noonTwodotsbelow-ar.longtail];
+		sub noonTwodotsbelow-ar.fina from [noonTwodotsbelow-ar.fina.shrtail noonTwodotsbelow-ar.fina.longtail];
+		sub noonAfrican-ar from [noonAfrican-ar.shrtail noonAfrican-ar.longtail];
+		sub noonAfrican-ar.fina from [noonAfrican-ar.fina.shrtail noonAfrican-ar.fina.longtail];
+		sub alefMaksura-ar from [alefMaksura-ar.shrtail alefMaksura-ar.longtail];
+		sub alefMaksura-ar.fina from [alefMaksura-ar.fina.shrtail alefMaksura-ar.fina.longtail];
+		sub yeh-ar from [yeh-ar.shrtail yeh-ar.longtail];
+		sub yeh-ar.fina from [yeh-ar.fina.shrtail yeh-ar.fina.longtail];
+		sub noon-ar.ss01 from [noon-ar.shrtail.ss01 noon-ar.longtail.ss01];
+		sub noon-ar.fina.ss01 from [noon-ar.shrtail.ss01 noon-ar.longtail.ss01];
+		sub yeh-ar.ss01 from [yeh-ar.shrtail.ss01 yeh-ar.longtail.ss01];
+		sub yeh-ar.fina.ss01 from [yeh-ar.fina.shrtail.ss01 yeh-ar.fina.longtail.ss01];
 	} salt_lkp2;
 
 } salt;
