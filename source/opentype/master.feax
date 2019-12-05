@@ -94,7 +94,7 @@ languagesystem latn dflt;
 	meem-ar.init.flat
 ];
 
-# This creates an altnerate form that does NOT get shifted up to the same level as the medial hah.
+# This creates an alternate form that does NOT get shifted up to the same level as the medial hah.
 # The forms that are NOT in this class are medial tah/zah, feh/qaf, and kaf/gaf and most initials.
 @pre_hah_alt = [
 	behDotless-ar.medi.flat
@@ -796,41 +796,37 @@ feature salt {
 		sub e-ar.medi by e-ar.medi.flat;
 		
 
-		# alternate stacking; do we need this?
+		# alternate stacking; handled by calt
 		sub jeem-ar.fina by jeem-ar.fina.alt;  
 		sub nyeh-ar.fina by nyeh-ar.fina.alt;
 		sub hah-ar.fina by hah-ar.fina.alt;
 		sub khah-ar.fina by khah-ar.fina.alt;
 		
-		# taller initial stroke
+		# taller initial stroke - not used
 		sub beh-ar.init by beh-ar.init.alt;
 
-		# slightly shorter downstroke
+		# shorter tails - handled by calt
 		sub dal-ar by dal-ar.alt;
-		sub dal-ar.fina by dal-ar.fina.alt;
+		sub dal-ar.fina by dal-ar.fina.alt;   # currently not used
 		sub thal-ar by thal-ar.alt;
-		sub thal-ar.fina by thal-ar.fina.alt;
-
-		# shorter tails
-		sub sad-ar by sad-ar.alt;
-		sub sad-ar.fina by sad-ar.fina.alt;
-		sub dad-ar by dad-ar.alt;
-		sub dad-ar.fina by dad-ar.fina.alt;
+		sub thal-ar.fina by thal-ar.fina.alt; # currently not used
+		sub sad-ar by sad-ar.alt;             # currently not used
+		sub sad-ar.fina by sad-ar.fina.alt;   # currently not used
+		sub dad-ar by dad-ar.alt;             # currently not used
+		sub dad-ar.fina by dad-ar.fina.alt;   # currently not used
 		sub waw-ar by waw-ar.alt;
 		sub waw-ar.fina by waw-ar.fina.alt;
-
-		# shorter tail
 		sub yehbarree-ar.fina by yehbarree-ar.fina.alt;
 
-		# alternate tail
+		# alternate tail - not used
 		sub ainThreedots-ar.fina.ss05 by ainThreedots-ar.fina.alt.ss05;
 
-		# small latin and arabic digits for end of ayah
+		# small latin and arabic digits for end of ayah - handled by calt
 		sub @cno_numAlt by @c_numAlt;
 		sub @cno_numArAlt by @c_numArAlt;
 	} salt_lkp;
 
-	# multiple tail swashes
+	# multiple tail swashes - handled by calt
 	lookup salt_lkp2 {
 		sub @c_tailStd  from  [@c_tailShort  @c_tailLong];
 	} salt_lkp2;
