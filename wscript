@@ -20,7 +20,7 @@ APPNAME = "Alkalami"
 
 # set licensing and description
 
-#COPYRIGHT = "Copyright (c) 2015-2018, SIL International (http://www.sil.org) with Reserved Font Names Alkalami and SIL."
+#COPYRIGHT = "Copyright (c) 2015-2020, SIL International (http://www.sil.org) with Reserved Font Names Alkalami and SIL."
 #LICENSE = 'OFL.txt'
 #RESERVEDOFL = 'Alkalami, SIL'
 
