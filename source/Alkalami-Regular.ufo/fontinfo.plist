@@ -168,7 +168,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     <integer>67</integer>
   </array>
   <key>openTypeOS2VendorID</key>
-  <string>SIL</string>
+  <string>SIL </string>
   <key>openTypeOS2WeightClass</key>
   <integer>400</integer>
   <key>openTypeOS2WidthClass</key>
