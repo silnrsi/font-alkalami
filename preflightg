@@ -5,7 +5,7 @@
 
 echo ""
 echo "Converting .glyphs to UFO3..."
-if psfglyphs2ufo source/Alkalami-master.glyphs source/masters
+if psfglyphs2ufo source/masters/Alkalami-master.glyphs source/masters
 then
   # Fix up the advance width of damma-ar.ss0
   psfremovegliflibkeys source/masters/Alkalami-Regular.ufo com.schriftgestaltung.Glyphs.originalWidth
