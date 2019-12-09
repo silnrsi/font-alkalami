@@ -362,33 +362,33 @@
     <string>yehbarreeHamzaabove-ar.fina</string>
     <string>yehHamzaabove-ar</string>
     <string>yeh-ar</string>
-    <string>yeh-ar.alt</string>
-    <string>yeh-ar.alt2</string>
-    <string>yeh-ar.alt.ss01</string>
-    <string>yeh-ar.alt2.ss01</string>
+    <string>yeh-ar.shrtail</string>
+    <string>yeh-ar.longtail</string>
+    <string>yeh-ar.shrtail.ss01</string>
+    <string>yeh-ar.longtail.ss01</string>
     <string>yeh-farsi</string>
     <string>yeh-farsi.ss05</string>
     <string>e-ar</string>
     <string>yehThreedotsbelow-ar</string>
     <string>alefMaksura-ar</string>
-    <string>alefMaksura-ar.alt</string>
-    <string>alefMaksura-ar.alt2</string>
+    <string>alefMaksura-ar.shrtail</string>
+    <string>alefMaksura-ar.longtail</string>
     <string>yehTwodotsbelowHamzaabove-ar</string>
     <string>yehTwodotsbelowDotabove-ar</string>
     <string>yehHamzaabove-ar.fina</string>
     <string>yeh-ar.fina</string>
-    <string>yeh-ar.fina.alt</string>
-    <string>yeh-ar.fina.alt2</string>
+    <string>yeh-ar.fina.shrtail</string>
+    <string>yeh-ar.fina.longtail</string>
     <string>yeh-ar.fina.ss01</string>
-    <string>yeh-ar.fina.alt.ss01</string>
-    <string>yeh-ar.fina.alt2.ss01</string>
+    <string>yeh-ar.fina.shrtail.ss01</string>
+    <string>yeh-ar.fina.longtail.ss01</string>
     <string>yeh-farsi.fina</string>
     <string>yeh-farsi.fina.ss05</string>
     <string>e-ar.fina</string>
     <string>yehThreedotsbelow-ar.fina</string>
     <string>alefMaksura-ar.fina</string>
-    <string>alefMaksura-ar.fina.alt</string>
-    <string>alefMaksura-ar.fina.alt2</string>
+    <string>alefMaksura-ar.fina.shrtail</string>
+    <string>alefMaksura-ar.fina.longtail</string>
     <string>yehTwodotsbelowHamzaabove-ar.fina</string>
     <string>yehTwodotsbelowDotabove-ar.fina</string>
     <string>behDotless-ar</string>
@@ -442,23 +442,23 @@
     <string>nyeh-ar.medi</string>
     <string>nyeh-ar.medi.ss07</string>
     <string>seen-ar</string>
-    <string>seen-ar.alt</string>
-    <string>seen-ar.alt2</string>
+    <string>seen-ar.shrtail</string>
+    <string>seen-ar.longtail</string>
     <string>sheen-ar</string>
-    <string>sheen-ar.alt</string>
-    <string>sheen-ar.alt2</string>
+    <string>sheen-ar.shrtail</string>
+    <string>sheen-ar.longtail</string>
     <string>seen-ar.fina</string>
-    <string>seen-ar.fina.alt</string>
-    <string>seen-ar.fina.alt2</string>
+    <string>seen-ar.fina.shrtail</string>
+    <string>seen-ar.fina.longtail</string>
     <string>sheen-ar.fina</string>
-    <string>sheen-ar.fina.alt</string>
-    <string>sheen-ar.fina.alt2</string>
+    <string>sheen-ar.fina.shrtail</string>
+    <string>sheen-ar.fina.longtail</string>
     <string>seen-ar.init</string>
     <string>sheen-ar.init</string>
     <string>seen-ar.medi</string>
-    <string>seen-ar.medi.alt</string>
+    <string>seen-ar.medi.flat</string>
     <string>sheen-ar.medi</string>
-    <string>sheen-ar.medi.alt</string>
+    <string>sheen-ar.medi.flat</string>
     <string>sad-ar</string>
     <string>sad-ar.alt</string>
     <string>dad-ar</string>
@@ -468,13 +468,13 @@
     <string>dad-ar.fina</string>
     <string>dad-ar.fina.alt</string>
     <string>sad-ar.init</string>
-    <string>sad-ar.init.alt</string>
+    <string>sad-ar.init.flat</string>
     <string>dad-ar.init</string>
-    <string>dad-ar.init.alt</string>
+    <string>dad-ar.init.flat</string>
     <string>sad-ar.medi</string>
-    <string>sad-ar.medi.alt</string>
+    <string>sad-ar.medi.flat</string>
     <string>dad-ar.medi</string>
-    <string>dad-ar.medi.alt</string>
+    <string>dad-ar.medi.flat</string>
     <string>tah-ar</string>
     <string>zah-ar</string>
     <string>tahThreedots-ar</string>
@@ -512,15 +512,15 @@
     <string>ainThreedots-ar.init.ss05</string>
     <string>ainTwodotshorizontalabove-ar.init</string>
     <string>ain-ar.medi</string>
-    <string>ain-ar.medi.alt</string>
+    <string>ain-ar.medi.flat</string>
     <string>ghain-ar.medi</string>
-    <string>ghain-ar.medi.alt</string>
+    <string>ghain-ar.medi.flat</string>
     <string>ainThreedots-ar.medi</string>
-    <string>ainThreedots-ar.medi.alt</string>
-    <string>ainThreedots-ar.medi.alt.ss05</string>
+    <string>ainThreedots-ar.medi.flat</string>
+    <string>ainThreedots-ar.medi.flat.ss05</string>
     <string>ainThreedots-ar.medi.ss05</string>
     <string>ainTwodotshorizontalabove-ar.medi</string>
-    <string>ainTwodotshorizontalabove-ar.medi.alt</string>
+    <string>ainTwodotshorizontalabove-ar.medi.flat</string>
     <string>fehDotless-ar</string>
     <string>fehAfrican-ar</string>
     <string>feh-ar</string>
@@ -614,41 +614,41 @@
     <string>lam_alef-ar</string>
     <string>lam_alef-ar.fina</string>
     <string>lam-ar.medi</string>
-    <string>lam-ar.medi.alt</string>
+    <string>lam-ar.medi.flat</string>
     <string>meem-ar</string>
     <string>meem-ar.fina</string>
     <string>meem-ar.init</string>
-    <string>meem-ar.init.alt</string>
+    <string>meem-ar.init.flat</string>
     <string>meem-ar.medi</string>
-    <string>meem-ar.medi.alt</string>
+    <string>meem-ar.medi.flat</string>
     <string>noonghunna-ar</string>
-    <string>noonghunna-ar.alt</string>
-    <string>noonghunna-ar.alt2</string>
+    <string>noonghunna-ar.shrtail</string>
+    <string>noonghunna-ar.longtail</string>
     <string>noonAfrican-ar</string>
-    <string>noonAfrican-ar.alt</string>
-    <string>noonAfrican-ar.alt2</string>
+    <string>noonAfrican-ar.shrtail</string>
+    <string>noonAfrican-ar.longtail</string>
     <string>noon-ar</string>
     <string>noon-ar.ss01</string>
-    <string>noon-ar.alt.ss01</string>
-    <string>noon-ar.alt2.ss01</string>
-    <string>noon-ar.alt</string>
-    <string>noon-ar.alt2</string>
+    <string>noon-ar.shrtail.ss01</string>
+    <string>noon-ar.longtail.ss01</string>
+    <string>noon-ar.shrtail</string>
+    <string>noon-ar.longtail</string>
     <string>noonTwodotsbelow-ar</string>
-    <string>noonTwodotsbelow-ar.alt</string>
-    <string>noonTwodotsbelow-ar.alt2</string>
+    <string>noonTwodotsbelow-ar.shrtail</string>
+    <string>noonTwodotsbelow-ar.longtail</string>
     <string>noonghunna-ar.fina</string>
-    <string>noonghunna-ar.fina.alt</string>
-    <string>noonghunna-ar.fina.alt2</string>
+    <string>noonghunna-ar.fina.shrtail</string>
+    <string>noonghunna-ar.fina.longtail</string>
     <string>noonAfrican-ar.fina</string>
     <string>noon-ar.fina</string>
     <string>noon-ar.fina.ss01</string>
-    <string>noon-ar.fina.alt.ss01</string>
-    <string>noon-ar.fina.alt2.ss01</string>
-    <string>noon-ar.fina.alt</string>
-    <string>noon-ar.fina.alt2</string>
+    <string>noon-ar.fina.shrtail.ss01</string>
+    <string>noon-ar.fina.longtail.ss01</string>
+    <string>noon-ar.fina.shrtail</string>
+    <string>noon-ar.fina.longtail</string>
     <string>noonTwodotsbelow-ar.fina</string>
-    <string>noonTwodotsbelow-ar.fina.alt</string>
-    <string>noonTwodotsbelow-ar.fina.alt2</string>
+    <string>noonTwodotsbelow-ar.fina.shrtail</string>
+    <string>noonTwodotsbelow-ar.fina.longtail</string>
     <string>heh-ar</string>
     <string>tehMarbuta-ar</string>
     <string>heh-ar.fina</string>
@@ -660,8 +660,8 @@
     <string>alefMaksura-ar.init</string>
     <string>noon-ar.init</string>
     <string>noonAfrican-ar.init</string>
-    <string>noonAfrican-ar.fina.alt</string>
-    <string>noonAfrican-ar.fina.alt2</string>
+    <string>noonAfrican-ar.fina.shrtail</string>
+    <string>noonAfrican-ar.fina.longtail</string>
     <string>noonghunna-ar.init</string>
     <string>noonTwodotsbelow-ar.init</string>
     <string>yehHamzaabove-ar.init</string>
@@ -674,7 +674,7 @@
     <string>yehTwodotsbelowDotabove-ar.init</string>
     <string>beh-ar.init</string>
     <string>teh-ar.init</string>
-    <string>beh-ar.medi.alt</string>
+    <string>beh-ar.medi.flat</string>
     <string>beh-ar.init.alt</string>
     <string>theh-ar.init</string>
     <string>beeh-ar.init</string>
@@ -686,52 +686,52 @@
     <string>behVbelow-ar.init</string>
     <string>behhamzaabove-ar.init</string>
     <string>behDotless-ar.medi</string>
-    <string>behDotless-ar.medi.alt</string>
+    <string>behDotless-ar.medi.flat</string>
     <string>alefMaksura-ar.medi</string>
-    <string>alefMaksura-ar.medi.alt</string>
+    <string>alefMaksura-ar.medi.flat</string>
     <string>noon-ar.medi</string>
-    <string>noon-ar.medi.alt</string>
+    <string>noon-ar.medi.flat</string>
     <string>noonAfrican-ar.medi</string>
-    <string>noonAfrican-ar.medi.alt</string>
+    <string>noonAfrican-ar.medi.flat</string>
     <string>noonghunna-ar.medi</string>
     <string>noonTwodotsbelow-ar.medi</string>
-    <string>noonTwodotsbelow-ar.medi.alt</string>
+    <string>noonTwodotsbelow-ar.medi.flat</string>
     <string>yehHamzaabove-ar.medi</string>
     <string>yeh-ar.medi</string>
-    <string>yeh-ar.medi.alt</string>
+    <string>yeh-ar.medi.flat</string>
     <string>yeh-ar.ss01</string>
     <string>yeh-farsi.medi</string>
-    <string>yeh-farsi.medi.alt</string>
+    <string>yeh-farsi.medi.flat</string>
     <string>yeh-farsi.medi.ss05</string>
     <string>e-ar.medi</string>
-    <string>e-ar.medi.alt</string>
+    <string>e-ar.medi.flat</string>
     <string>yehThreedotsbelow-ar.medi</string>
     <string>yehTwodotsbelowHamzaabove-ar.medi</string>
-    <string>yehTwodotsbelowHamzaabove-ar.medi.alt</string>
+    <string>yehTwodotsbelowHamzaabove-ar.medi.flat</string>
     <string>yehTwodotsbelowDotabove-ar.medi</string>
-    <string>yehTwodotsbelowDotabove-ar.medi.alt</string>
+    <string>yehTwodotsbelowDotabove-ar.medi.flat</string>
     <string>beh-ar.medi</string>
     <string>teh-ar.medi</string>
-    <string>teh-ar.medi.alt</string>
+    <string>teh-ar.medi.flat</string>
     <string>theh-ar.medi</string>
-    <string>theh-ar.medi.alt</string>
+    <string>theh-ar.medi.flat</string>
     <string>beeh-ar.medi</string>
-    <string>beeh-ar.medi.alt</string>
-    <string>beeh-ar.medi.alt.ss05</string>
+    <string>beeh-ar.medi.flat</string>
+    <string>beeh-ar.medi.flat.ss05</string>
     <string>beeh-ar.medi.ss05</string>
     <string>beeh-ar.ss05</string>
     <string>peh-ar.medi</string>
-    <string>peh-ar.medi.alt</string>
+    <string>peh-ar.medi.flat</string>
     <string>behThreedotsupbelow-ar.medi</string>
-    <string>behThreedotsupbelow-ar.medi.alt</string>
+    <string>behThreedotsupbelow-ar.medi.flat</string>
     <string>behVinvertedbelow-ar.medi</string>
-    <string>behVinvertedbelow-ar.medi.alt</string>
+    <string>behVinvertedbelow-ar.medi.flat</string>
     <string>behVabove-ar.medi</string>
-    <string>behVabove-ar.medi.alt</string>
+    <string>behVabove-ar.medi.flat</string>
     <string>behVbelow-ar.medi</string>
-    <string>behVbelow-ar.medi.alt</string>
+    <string>behVbelow-ar.medi.flat</string>
     <string>behhamzaabove-ar.medi</string>
-    <string>behhamzaabove-ar.medi.alt</string>
+    <string>behhamzaabove-ar.medi.flat</string>
     <string>kashida-ar</string>
     <string>highhamza-ar</string>
     <string>fathatan-ar</string>
@@ -1174,63 +1174,63 @@
     <string>behDotless-ar</string>
     <string>behDotless-ar.fina</string>
     <string>behDotless-ar.medi</string>
-    <string>behDotless-ar.medi.alt</string>
+    <string>behDotless-ar.medi.flat</string>
     <string>behDotless-ar.init</string>
     <string>beh-ar</string>
     <string>beh-ar.fina</string>
     <string>beh-ar.medi</string>
     <string>beh-ar.init</string>
     <string>peh-ar</string>
-    <string>beh-ar.medi.alt</string>
+    <string>beh-ar.medi.flat</string>
     <string>beh-ar.init.alt</string>
     <string>peh-ar.fina</string>
     <string>peh-ar.medi</string>
-    <string>peh-ar.medi.alt</string>
+    <string>peh-ar.medi.flat</string>
     <string>peh-ar.init</string>
     <string>beeh-ar</string>
     <string>beeh-ar.fina</string>
     <string>beeh-ar.medi</string>
-    <string>beeh-ar.medi.alt</string>
+    <string>beeh-ar.medi.flat</string>
     <string>beeh-ar.init</string>
     <string>beeh-ar.ss05</string>
     <string>beeh-ar.fina.ss05</string>
-    <string>beeh-ar.medi.alt.ss05</string>
+    <string>beeh-ar.medi.flat.ss05</string>
     <string>beeh-ar.medi.ss05</string>
     <string>beeh-ar.init.ss05</string>
     <string>teh-ar</string>
     <string>teh-ar.fina</string>
     <string>teh-ar.medi</string>
-    <string>teh-ar.medi.alt</string>
+    <string>teh-ar.medi.flat</string>
     <string>teh-ar.init</string>
     <string>theh-ar</string>
     <string>theh-ar.fina</string>
     <string>theh-ar.medi</string>
-    <string>theh-ar.medi.alt</string>
+    <string>theh-ar.medi.flat</string>
     <string>theh-ar.init</string>
     <string>behThreedotsupbelow-ar</string>
     <string>behThreedotsupbelow-ar.fina</string>
     <string>behThreedotsupbelow-ar.medi</string>
-    <string>behThreedotsupbelow-ar.medi.alt</string>
+    <string>behThreedotsupbelow-ar.medi.flat</string>
     <string>behThreedotsupbelow-ar.init</string>
     <string>behVinvertedbelow-ar</string>
     <string>behVinvertedbelow-ar.fina</string>
     <string>behVinvertedbelow-ar.medi</string>
-    <string>behVinvertedbelow-ar.medi.alt</string>
+    <string>behVinvertedbelow-ar.medi.flat</string>
     <string>behVinvertedbelow-ar.init</string>
     <string>behVabove-ar</string>
     <string>behVabove-ar.fina</string>
     <string>behVabove-ar.medi</string>
-    <string>behVabove-ar.medi.alt</string>
+    <string>behVabove-ar.medi.flat</string>
     <string>behVabove-ar.init</string>
     <string>behVbelow-ar</string>
     <string>behVbelow-ar.fina</string>
     <string>behVbelow-ar.medi</string>
-    <string>behVbelow-ar.medi.alt</string>
+    <string>behVbelow-ar.medi.flat</string>
     <string>behVbelow-ar.init</string>
     <string>behhamzaabove-ar</string>
     <string>behhamzaabove-ar.fina</string>
     <string>behhamzaabove-ar.medi</string>
-    <string>behhamzaabove-ar.medi.alt</string>
+    <string>behhamzaabove-ar.medi.flat</string>
     <string>behhamzaabove-ar.init</string>
     <string>jeem-ar</string>
     <string>jeem-ar.fina</string>
@@ -1274,39 +1274,39 @@
     <string>jeh-ar</string>
     <string>jeh-ar.fina</string>
     <string>seen-ar</string>
-    <string>seen-ar.alt</string>
-    <string>seen-ar.alt2</string>
+    <string>seen-ar.shrtail</string>
+    <string>seen-ar.longtail</string>
     <string>seen-ar.fina</string>
-    <string>seen-ar.fina.alt</string>
-    <string>seen-ar.fina.alt2</string>
+    <string>seen-ar.fina.shrtail</string>
+    <string>seen-ar.fina.longtail</string>
     <string>seen-ar.medi</string>
-    <string>seen-ar.medi.alt</string>
+    <string>seen-ar.medi.flat</string>
     <string>seen-ar.init</string>
     <string>sheen-ar</string>
-    <string>sheen-ar.alt</string>
-    <string>sheen-ar.alt2</string>
+    <string>sheen-ar.shrtail</string>
+    <string>sheen-ar.longtail</string>
     <string>sheen-ar.fina</string>
-    <string>sheen-ar.fina.alt</string>
-    <string>sheen-ar.fina.alt2</string>
+    <string>sheen-ar.fina.shrtail</string>
+    <string>sheen-ar.fina.longtail</string>
     <string>sheen-ar.medi</string>
-    <string>sheen-ar.medi.alt</string>
+    <string>sheen-ar.medi.flat</string>
     <string>sheen-ar.init</string>
     <string>sad-ar</string>
     <string>sad-ar.alt</string>
     <string>sad-ar.fina</string>
     <string>sad-ar.fina.alt</string>
     <string>sad-ar.medi</string>
-    <string>sad-ar.medi.alt</string>
+    <string>sad-ar.medi.flat</string>
     <string>sad-ar.init</string>
-    <string>sad-ar.init.alt</string>
+    <string>sad-ar.init.flat</string>
     <string>dad-ar</string>
     <string>dad-ar.alt</string>
     <string>dad-ar.fina</string>
     <string>dad-ar.fina.alt</string>
     <string>dad-ar.medi</string>
-    <string>dad-ar.medi.alt</string>
+    <string>dad-ar.medi.flat</string>
     <string>dad-ar.init</string>
-    <string>dad-ar.init.alt</string>
+    <string>dad-ar.init.flat</string>
     <string>tah-ar</string>
     <string>tah-ar.fina</string>
     <string>tah-ar.medi</string>
@@ -1326,31 +1326,31 @@
     <string>ain-ar</string>
     <string>ain-ar.fina</string>
     <string>ain-ar.medi</string>
-    <string>ain-ar.medi.alt</string>
+    <string>ain-ar.medi.flat</string>
     <string>ain-ar.init</string>
     <string>ain-ar.fina.ss06</string>
     <string>ainThreedots-ar</string>
     <string>ainThreedots-ar.fina</string>
     <string>ainThreedots-ar.medi</string>
-    <string>ainThreedots-ar.medi.alt</string>
+    <string>ainThreedots-ar.medi.flat</string>
     <string>ainThreedots-ar.init</string>
     <string>ainThreedots-ar.fina.ss06</string>
     <string>ainTwodotshorizontalabove-ar</string>
     <string>ainTwodotshorizontalabove-ar.fina</string>
     <string>ainTwodotshorizontalabove-ar.medi</string>
-    <string>ainTwodotshorizontalabove-ar.medi.alt</string>
+    <string>ainTwodotshorizontalabove-ar.medi.flat</string>
     <string>ainTwodotshorizontalabove-ar.init</string>
     <string>ainTwodotshorizontalabove-ar.fina.ss06</string>
     <string>ainThreedots-ar.ss05</string>
     <string>ainThreedots-ar.fina.alt.ss05</string>
     <string>ainThreedots-ar.fina.ss05</string>
-    <string>ainThreedots-ar.medi.alt.ss05</string>
+    <string>ainThreedots-ar.medi.flat.ss05</string>
     <string>ainThreedots-ar.medi.ss05</string>
     <string>ainThreedots-ar.init.ss05</string>
     <string>ghain-ar</string>
     <string>ghain-ar.fina</string>
     <string>ghain-ar.medi</string>
-    <string>ghain-ar.medi.alt</string>
+    <string>ghain-ar.medi.flat</string>
     <string>ghain-ar.init</string>
     <string>ghain-ar.fina.ss06</string>
     <string>feh-ar</string>
@@ -1436,7 +1436,7 @@
     <string>lam-ar</string>
     <string>lam-ar.fina</string>
     <string>lam-ar.medi</string>
-    <string>lam-ar.medi.alt</string>
+    <string>lam-ar.medi.flat</string>
     <string>lam-ar.init</string>
     <string>lam-ar.init.high</string>
     <string>lam_alefMadda-ar</string>
@@ -1450,50 +1450,50 @@
     <string>meem-ar</string>
     <string>meem-ar.fina</string>
     <string>meem-ar.medi</string>
-    <string>meem-ar.medi.alt</string>
+    <string>meem-ar.medi.flat</string>
     <string>meem-ar.init</string>
-    <string>meem-ar.init.alt</string>
+    <string>meem-ar.init.flat</string>
     <string>noon-ar</string>
-    <string>noon-ar.alt</string>
-    <string>noon-ar.alt2</string>
+    <string>noon-ar.shrtail</string>
+    <string>noon-ar.longtail</string>
     <string>noon-ar.fina</string>
-    <string>noon-ar.fina.alt</string>
-    <string>noon-ar.fina.alt2</string>
+    <string>noon-ar.fina.shrtail</string>
+    <string>noon-ar.fina.longtail</string>
     <string>noon-ar.medi</string>
-    <string>noon-ar.medi.alt</string>
+    <string>noon-ar.medi.flat</string>
     <string>noon-ar.init</string>
     <string>noon-ar.ss01</string>
-    <string>noon-ar.alt.ss01</string>
-    <string>noon-ar.alt2.ss01</string>
+    <string>noon-ar.shrtail.ss01</string>
+    <string>noon-ar.longtail.ss01</string>
     <string>noon-ar.fina.ss01</string>
-    <string>noon-ar.fina.alt.ss01</string>
-    <string>noon-ar.fina.alt2.ss01</string>
+    <string>noon-ar.fina.shrtail.ss01</string>
+    <string>noon-ar.fina.longtail.ss01</string>
     <string>noonghunna-ar</string>
-    <string>noonghunna-ar.alt</string>
-    <string>noonghunna-ar.alt2</string>
+    <string>noonghunna-ar.shrtail</string>
+    <string>noonghunna-ar.longtail</string>
     <string>noonghunna-ar.fina</string>
-    <string>noonghunna-ar.fina.alt</string>
-    <string>noonghunna-ar.fina.alt2</string>
+    <string>noonghunna-ar.fina.shrtail</string>
+    <string>noonghunna-ar.fina.longtail</string>
     <string>noonghunna-ar.medi</string>
     <string>noonghunna-ar.init</string>
     <string>noonTwodotsbelow-ar</string>
-    <string>noonTwodotsbelow-ar.alt</string>
-    <string>noonTwodotsbelow-ar.alt2</string>
+    <string>noonTwodotsbelow-ar.shrtail</string>
+    <string>noonTwodotsbelow-ar.longtail</string>
     <string>noonTwodotsbelow-ar.fina</string>
-    <string>noonTwodotsbelow-ar.fina.alt</string>
-    <string>noonTwodotsbelow-ar.fina.alt2</string>
+    <string>noonTwodotsbelow-ar.fina.shrtail</string>
+    <string>noonTwodotsbelow-ar.fina.longtail</string>
     <string>noonTwodotsbelow-ar.medi</string>
-    <string>noonTwodotsbelow-ar.medi.alt</string>
+    <string>noonTwodotsbelow-ar.medi.flat</string>
     <string>noonTwodotsbelow-ar.init</string>
     <string>noonAfrican-ar</string>
-    <string>noonAfrican-ar.alt</string>
-    <string>noonAfrican-ar.alt2</string>
+    <string>noonAfrican-ar.shrtail</string>
+    <string>noonAfrican-ar.longtail</string>
     <string>noonAfrican-ar.fina</string>
     <string>noonAfrican-ar.medi</string>
-    <string>noonAfrican-ar.medi.alt</string>
+    <string>noonAfrican-ar.medi.flat</string>
     <string>noonAfrican-ar.init</string>
-    <string>noonAfrican-ar.fina.alt</string>
-    <string>noonAfrican-ar.fina.alt2</string>
+    <string>noonAfrican-ar.fina.shrtail</string>
+    <string>noonAfrican-ar.fina.longtail</string>
     <string>heh-ar</string>
     <string>heh-ar.fina</string>
     <string>heh-ar.medi</string>
@@ -1513,29 +1513,29 @@
     <string>kirghizyu-ar</string>
     <string>kirghizyu-ar.fina</string>
     <string>alefMaksura-ar</string>
-    <string>alefMaksura-ar.alt</string>
-    <string>alefMaksura-ar.alt2</string>
+    <string>alefMaksura-ar.shrtail</string>
+    <string>alefMaksura-ar.longtail</string>
     <string>alefMaksura-ar.fina</string>
-    <string>alefMaksura-ar.fina.alt</string>
-    <string>alefMaksura-ar.fina.alt2</string>
+    <string>alefMaksura-ar.fina.shrtail</string>
+    <string>alefMaksura-ar.fina.longtail</string>
     <string>alefMaksura-ar.medi</string>
-    <string>alefMaksura-ar.medi.alt</string>
+    <string>alefMaksura-ar.medi.flat</string>
     <string>alefMaksura-ar.init</string>
     <string>yeh-ar</string>
-    <string>yeh-ar.alt</string>
-    <string>yeh-ar.alt2</string>
+    <string>yeh-ar.shrtail</string>
+    <string>yeh-ar.longtail</string>
     <string>yeh-ar.fina</string>
-    <string>yeh-ar.fina.alt</string>
-    <string>yeh-ar.fina.alt2</string>
+    <string>yeh-ar.fina.shrtail</string>
+    <string>yeh-ar.fina.longtail</string>
     <string>yeh-ar.medi</string>
-    <string>yeh-ar.medi.alt</string>
+    <string>yeh-ar.medi.flat</string>
     <string>yeh-ar.init</string>
     <string>yeh-ar.ss01</string>
-    <string>yeh-ar.alt.ss01</string>
-    <string>yeh-ar.alt2.ss01</string>
+    <string>yeh-ar.shrtail.ss01</string>
+    <string>yeh-ar.longtail.ss01</string>
     <string>yeh-ar.fina.ss01</string>
-    <string>yeh-ar.fina.alt.ss01</string>
-    <string>yeh-ar.fina.alt2.ss01</string>
+    <string>yeh-ar.fina.shrtail.ss01</string>
+    <string>yeh-ar.fina.longtail.ss01</string>
     <string>yehHamzaabove-ar</string>
     <string>yehHamzaabove-ar.fina</string>
     <string>yehHamzaabove-ar.medi</string>
@@ -1543,17 +1543,17 @@
     <string>yehTwodotsbelowHamzaabove-ar</string>
     <string>yehTwodotsbelowHamzaabove-ar.fina</string>
     <string>yehTwodotsbelowHamzaabove-ar.medi</string>
-    <string>yehTwodotsbelowHamzaabove-ar.medi.alt</string>
+    <string>yehTwodotsbelowHamzaabove-ar.medi.flat</string>
     <string>yehTwodotsbelowHamzaabove-ar.init</string>
     <string>yehTwodotsbelowDotabove-ar</string>
     <string>yehTwodotsbelowDotabove-ar.fina</string>
     <string>yehTwodotsbelowDotabove-ar.medi</string>
-    <string>yehTwodotsbelowDotabove-ar.medi.alt</string>
+    <string>yehTwodotsbelowDotabove-ar.medi.flat</string>
     <string>yehTwodotsbelowDotabove-ar.init</string>
     <string>yeh-farsi</string>
     <string>yeh-farsi.fina</string>
     <string>yeh-farsi.medi</string>
-    <string>yeh-farsi.medi.alt</string>
+    <string>yeh-farsi.medi.flat</string>
     <string>yeh-farsi.init</string>
     <string>yeh-farsi.ss05</string>
     <string>yeh-farsi.fina.ss05</string>
@@ -1562,7 +1562,7 @@
     <string>e-ar</string>
     <string>e-ar.fina</string>
     <string>e-ar.medi</string>
-    <string>e-ar.medi.alt</string>
+    <string>e-ar.medi.flat</string>
     <string>e-ar.init</string>
     <string>yehThreedotsbelow-ar</string>
     <string>yehThreedotsbelow-ar.fina</string>
@@ -1723,8 +1723,8 @@
     <string>uni0639.init</string>
     <key>ain-ar.medi</key>
     <string>uni0639.medi</string>
-    <key>ain-ar.medi.alt</key>
-    <string>uni0639.medi.alt</string>
+    <key>ain-ar.medi.flat</key>
+    <string>uni0639.medi.flat</string>
     <key>ainThreedots-ar</key>
     <string>uni06A0</string>
     <key>ainThreedots-ar.fina</key>
@@ -1741,10 +1741,10 @@
     <string>uni06A0.init.ss05</string>
     <key>ainThreedots-ar.medi</key>
     <string>uni06A0.medi</string>
-    <key>ainThreedots-ar.medi.alt</key>
-    <string>uni06A0.medi.alt</string>
-    <key>ainThreedots-ar.medi.alt.ss05</key>
-    <string>uni06A0.medi.alt.ss05</string>
+    <key>ainThreedots-ar.medi.flat</key>
+    <string>uni06A0.medi.flat</string>
+    <key>ainThreedots-ar.medi.flat.ss05</key>
+    <string>uni06A0.medi.flat.ss05</string>
     <key>ainThreedots-ar.medi.ss05</key>
     <string>uni06A0.medi.ss05</string>
     <key>ainThreedots-ar.ss05</key>
@@ -1759,8 +1759,8 @@
     <string>uni075D.init</string>
     <key>ainTwodotshorizontalabove-ar.medi</key>
     <string>uni075D.medi</string>
-    <key>ainTwodotshorizontalabove-ar.medi.alt</key>
-    <string>uni075D.medi.alt</string>
+    <key>ainTwodotshorizontalabove-ar.medi.flat</key>
+    <string>uni075D.medi.flat</string>
     <key>alef-ar</key>
     <string>uni0627</string>
     <key>alef-ar.fina</key>
@@ -1797,22 +1797,22 @@
     <string>uni0622.fina</string>
     <key>alefMaksura-ar</key>
     <string>uni0649</string>
-    <key>alefMaksura-ar.alt</key>
-    <string>uni0649.alt</string>
-    <key>alefMaksura-ar.alt2</key>
-    <string>uni0649.alt2</string>
     <key>alefMaksura-ar.fina</key>
     <string>uni0649.fina</string>
-    <key>alefMaksura-ar.fina.alt</key>
-    <string>uni0649.fina.alt</string>
-    <key>alefMaksura-ar.fina.alt2</key>
-    <string>uni0649.fina.alt2</string>
+    <key>alefMaksura-ar.fina.longtail</key>
+    <string>uni0649.fina.longtail</string>
+    <key>alefMaksura-ar.fina.shrtail</key>
+    <string>uni0649.fina.shrtail</string>
     <key>alefMaksura-ar.init</key>
     <string>uni0649.init</string>
+    <key>alefMaksura-ar.longtail</key>
+    <string>uni0649.longtail</string>
     <key>alefMaksura-ar.medi</key>
     <string>uni0649.medi</string>
-    <key>alefMaksura-ar.medi.alt</key>
-    <string>uni0649.medi.alt</string>
+    <key>alefMaksura-ar.medi.flat</key>
+    <string>uni0649.medi.flat</string>
+    <key>alefMaksura-ar.shrtail</key>
+    <string>uni0649.shrtail</string>
     <key>alefabove-ar</key>
     <string>uni0670</string>
     <key>alefbelow-ar</key>
@@ -1833,10 +1833,10 @@
     <string>uni067B.init.ss05</string>
     <key>beeh-ar.medi</key>
     <string>uni067B.medi</string>
-    <key>beeh-ar.medi.alt</key>
-    <string>uni067B.medi.alt</string>
-    <key>beeh-ar.medi.alt.ss05</key>
-    <string>uni067B.medi.alt.ss05</string>
+    <key>beeh-ar.medi.flat</key>
+    <string>uni067B.medi.flat</string>
+    <key>beeh-ar.medi.flat.ss05</key>
+    <string>uni067B.medi.flat.ss05</string>
     <key>beeh-ar.medi.ss05</key>
     <string>uni067B.medi.ss05</string>
     <key>beeh-ar.ss05</key>
@@ -1851,8 +1851,8 @@
     <string>uni0628.init.alt</string>
     <key>beh-ar.medi</key>
     <string>uni0628.medi</string>
-    <key>beh-ar.medi.alt</key>
-    <string>uni0628.medi.alt</string>
+    <key>beh-ar.medi.flat</key>
+    <string>uni0628.medi.flat</string>
     <key>behDotless-ar</key>
     <string>uni066E</string>
     <key>behDotless-ar.fina</key>
@@ -1861,8 +1861,8 @@
     <string>uni066E.init</string>
     <key>behDotless-ar.medi</key>
     <string>uni066E.medi</string>
-    <key>behDotless-ar.medi.alt</key>
-    <string>uni066E.medi.alt</string>
+    <key>behDotless-ar.medi.flat</key>
+    <string>uni066E.medi.flat</string>
     <key>behThreedotsupbelow-ar</key>
     <string>uni0752</string>
     <key>behThreedotsupbelow-ar.fina</key>
@@ -1871,8 +1871,8 @@
     <string>uni0752.init</string>
     <key>behThreedotsupbelow-ar.medi</key>
     <string>uni0752.medi</string>
-    <key>behThreedotsupbelow-ar.medi.alt</key>
-    <string>uni0752.medi.alt</string>
+    <key>behThreedotsupbelow-ar.medi.flat</key>
+    <string>uni0752.medi.flat</string>
     <key>behVabove-ar</key>
     <string>uni0756</string>
     <key>behVabove-ar.fina</key>
@@ -1881,8 +1881,8 @@
     <string>uni0756.init</string>
     <key>behVabove-ar.medi</key>
     <string>uni0756.medi</string>
-    <key>behVabove-ar.medi.alt</key>
-    <string>uni0756.medi.alt</string>
+    <key>behVabove-ar.medi.flat</key>
+    <string>uni0756.medi.flat</string>
     <key>behVbelow-ar</key>
     <string>uni08A0</string>
     <key>behVbelow-ar.fina</key>
@@ -1891,8 +1891,8 @@
     <string>uni08A0.init</string>
     <key>behVbelow-ar.medi</key>
     <string>uni08A0.medi</string>
-    <key>behVbelow-ar.medi.alt</key>
-    <string>uni08A0.medi.alt</string>
+    <key>behVbelow-ar.medi.flat</key>
+    <string>uni08A0.medi.flat</string>
     <key>behVinvertedbelow-ar</key>
     <string>uni0755</string>
     <key>behVinvertedbelow-ar.fina</key>
@@ -1901,8 +1901,8 @@
     <string>uni0755.init</string>
     <key>behVinvertedbelow-ar.medi</key>
     <string>uni0755.medi</string>
-    <key>behVinvertedbelow-ar.medi.alt</key>
-    <string>uni0755.medi.alt</string>
+    <key>behVinvertedbelow-ar.medi.flat</key>
+    <string>uni0755.medi.flat</string>
     <key>behhamzaabove-ar</key>
     <string>uni08A1</string>
     <key>behhamzaabove-ar.fina</key>
@@ -1911,8 +1911,8 @@
     <string>uni08A1.init</string>
     <key>behhamzaabove-ar.medi</key>
     <string>uni08A1.medi</string>
-    <key>behhamzaabove-ar.medi.alt</key>
-    <string>uni08A1.medi.alt</string>
+    <key>behhamzaabove-ar.medi.flat</key>
+    <string>uni08A1.medi.flat</string>
     <key>comma-ar</key>
     <string>uni060C</string>
     <key>dad-ar</key>
@@ -1925,12 +1925,12 @@
     <string>uni0636.fina.alt</string>
     <key>dad-ar.init</key>
     <string>uni0636.init</string>
-    <key>dad-ar.init.alt</key>
-    <string>uni0636.init.alt</string>
+    <key>dad-ar.init.flat</key>
+    <string>uni0636.init.flat</string>
     <key>dad-ar.medi</key>
     <string>uni0636.medi</string>
-    <key>dad-ar.medi.alt</key>
-    <string>uni0636.medi.alt</string>
+    <key>dad-ar.medi.flat</key>
+    <string>uni0636.medi.flat</string>
     <key>dal-ar</key>
     <string>uni062F</string>
     <key>dal-ar.alt</key>
@@ -1967,8 +1967,8 @@
     <string>uni06D0.init</string>
     <key>e-ar.medi</key>
     <string>uni06D0.medi</string>
-    <key>e-ar.medi.alt</key>
-    <string>uni06D0.medi.alt</string>
+    <key>e-ar.medi.flat</key>
+    <string>uni06D0.medi.flat</string>
     <key>eight-ar</key>
     <string>uni0668</string>
     <key>eight-ar.alt</key>
@@ -2081,8 +2081,8 @@
     <string>uni063A.init</string>
     <key>ghain-ar.medi</key>
     <string>uni063A.medi</string>
-    <key>ghain-ar.medi.alt</key>
-    <string>uni063A.medi.alt</string>
+    <key>ghain-ar.medi.flat</key>
+    <string>uni063A.medi.flat</string>
     <key>guillemetleft</key>
     <string>guillemotleft</string>
     <key>guillemetright</key>
@@ -2235,8 +2235,8 @@
     <string>uni0644.init.high</string>
     <key>lam-ar.medi</key>
     <string>uni0644.medi</string>
-    <key>lam-ar.medi.alt</key>
-    <string>uni0644.medi.alt</string>
+    <key>lam-ar.medi.flat</key>
+    <string>uni0644.medi.flat</string>
     <key>lam_alef-ar</key>
     <string>uni0644_uni0627</string>
     <key>lam_alef-ar.fina</key>
@@ -2265,12 +2265,12 @@
     <string>uni0645.fina</string>
     <key>meem-ar.init</key>
     <string>uni0645.init</string>
-    <key>meem-ar.init.alt</key>
-    <string>uni0645.init.alt</string>
+    <key>meem-ar.init.flat</key>
+    <string>uni0645.init.flat</string>
     <key>meem-ar.medi</key>
     <string>uni0645.medi</string>
-    <key>meem-ar.medi.alt</key>
-    <string>uni0645.medi.alt</string>
+    <key>meem-ar.medi.flat</key>
+    <string>uni0645.medi.flat</string>
     <key>micro</key>
     <string>uni00B5</string>
     <key>naira</key>
@@ -2295,86 +2295,86 @@
     <string>uni2011</string>
     <key>noon-ar</key>
     <string>uni0646</string>
-    <key>noon-ar.alt</key>
-    <string>uni0646.alt</string>
-    <key>noon-ar.alt.ss01</key>
-    <string>uni0646.alt.ss01</string>
-    <key>noon-ar.alt2</key>
-    <string>uni0646.alt2</string>
-    <key>noon-ar.alt2.ss01</key>
-    <string>uni0646.alt2.ss01</string>
     <key>noon-ar.fina</key>
     <string>uni0646.fina</string>
-    <key>noon-ar.fina.alt</key>
-    <string>uni0646.fina.alt</string>
-    <key>noon-ar.fina.alt.ss01</key>
-    <string>uni0646.fina.alt.ss01</string>
-    <key>noon-ar.fina.alt2</key>
-    <string>uni0646.fina.alt2</string>
-    <key>noon-ar.fina.alt2.ss01</key>
-    <string>uni0646.fina.alt2.ss01</string>
+    <key>noon-ar.fina.longtail</key>
+    <string>uni0646.fina.longtail</string>
+    <key>noon-ar.fina.longtail.ss01</key>
+    <string>uni0646.fina.longtail.ss01</string>
+    <key>noon-ar.fina.shrtail</key>
+    <string>uni0646.fina.shrtail</string>
+    <key>noon-ar.fina.shrtail.ss01</key>
+    <string>uni0646.fina.shrtail.ss01</string>
     <key>noon-ar.fina.ss01</key>
     <string>uni0646.fina.ss01</string>
     <key>noon-ar.init</key>
     <string>uni0646.init</string>
+    <key>noon-ar.longtail</key>
+    <string>uni0646.longtail</string>
+    <key>noon-ar.longtail.ss01</key>
+    <string>uni0646.longtail.ss01</string>
     <key>noon-ar.medi</key>
     <string>uni0646.medi</string>
-    <key>noon-ar.medi.alt</key>
-    <string>uni0646.medi.alt</string>
+    <key>noon-ar.medi.flat</key>
+    <string>uni0646.medi.flat</string>
+    <key>noon-ar.shrtail</key>
+    <string>uni0646.shrtail</string>
+    <key>noon-ar.shrtail.ss01</key>
+    <string>uni0646.shrtail.ss01</string>
     <key>noon-ar.ss01</key>
     <string>uni0646.ss01</string>
     <key>noonAfrican-ar</key>
     <string>uni08BD</string>
-    <key>noonAfrican-ar.alt</key>
-    <string>uni08BD.alt</string>
-    <key>noonAfrican-ar.alt2</key>
-    <string>uni08BD.alt2</string>
     <key>noonAfrican-ar.fina</key>
     <string>uni08BD.fina</string>
-    <key>noonAfrican-ar.fina.alt</key>
-    <string>uni08BD.fina.alt</string>
-    <key>noonAfrican-ar.fina.alt2</key>
-    <string>uni08BD.fina.alt2</string>
+    <key>noonAfrican-ar.fina.longtail</key>
+    <string>uni08BD.fina.longtail</string>
+    <key>noonAfrican-ar.fina.shrtail</key>
+    <string>uni08BD.fina.shrtail</string>
     <key>noonAfrican-ar.init</key>
     <string>uni08BD.init</string>
+    <key>noonAfrican-ar.longtail</key>
+    <string>uni08BD.longtail</string>
     <key>noonAfrican-ar.medi</key>
     <string>uni08BD.medi</string>
-    <key>noonAfrican-ar.medi.alt</key>
-    <string>uni08BD.medi.alt</string>
+    <key>noonAfrican-ar.medi.flat</key>
+    <string>uni08BD.medi.flat</string>
+    <key>noonAfrican-ar.shrtail</key>
+    <string>uni08BD.shrtail</string>
     <key>noonTwodotsbelow-ar</key>
     <string>uni0767</string>
-    <key>noonTwodotsbelow-ar.alt</key>
-    <string>uni0767.alt</string>
-    <key>noonTwodotsbelow-ar.alt2</key>
-    <string>uni0767.alt2</string>
     <key>noonTwodotsbelow-ar.fina</key>
     <string>uni0767.fina</string>
-    <key>noonTwodotsbelow-ar.fina.alt</key>
-    <string>uni0767.fina.alt</string>
-    <key>noonTwodotsbelow-ar.fina.alt2</key>
-    <string>uni0767.fina.alt2</string>
+    <key>noonTwodotsbelow-ar.fina.longtail</key>
+    <string>uni0767.fina.longtail</string>
+    <key>noonTwodotsbelow-ar.fina.shrtail</key>
+    <string>uni0767.fina.shrtail</string>
     <key>noonTwodotsbelow-ar.init</key>
     <string>uni0767.init</string>
+    <key>noonTwodotsbelow-ar.longtail</key>
+    <string>uni0767.longtail</string>
     <key>noonTwodotsbelow-ar.medi</key>
     <string>uni0767.medi</string>
-    <key>noonTwodotsbelow-ar.medi.alt</key>
-    <string>uni0767.medi.alt</string>
+    <key>noonTwodotsbelow-ar.medi.flat</key>
+    <string>uni0767.medi.flat</string>
+    <key>noonTwodotsbelow-ar.shrtail</key>
+    <string>uni0767.shrtail</string>
     <key>noonghunna-ar</key>
     <string>uni06BA</string>
-    <key>noonghunna-ar.alt</key>
-    <string>uni06BA.alt</string>
-    <key>noonghunna-ar.alt2</key>
-    <string>uni06BA.alt2</string>
     <key>noonghunna-ar.fina</key>
     <string>uni06BA.fina</string>
-    <key>noonghunna-ar.fina.alt</key>
-    <string>uni06BA.fina.alt</string>
-    <key>noonghunna-ar.fina.alt2</key>
-    <string>uni06BA.fina.alt2</string>
+    <key>noonghunna-ar.fina.longtail</key>
+    <string>uni06BA.fina.longtail</string>
+    <key>noonghunna-ar.fina.shrtail</key>
+    <string>uni06BA.fina.shrtail</string>
     <key>noonghunna-ar.init</key>
     <string>uni06BA.init</string>
+    <key>noonghunna-ar.longtail</key>
+    <string>uni06BA.longtail</string>
     <key>noonghunna-ar.medi</key>
     <string>uni06BA.medi</string>
+    <key>noonghunna-ar.shrtail</key>
+    <string>uni06BA.shrtail</string>
     <key>nyeh-ar</key>
     <string>uni0683</string>
     <key>nyeh-ar.fina</key>
@@ -2409,8 +2409,8 @@
     <string>uni067E.init</string>
     <key>peh-ar.medi</key>
     <string>uni067E.medi</string>
-    <key>peh-ar.medi.alt</key>
-    <string>uni067E.medi.alt</string>
+    <key>peh-ar.medi.flat</key>
+    <string>uni067E.medi.flat</string>
     <key>percent-ar</key>
     <string>uni066A</string>
     <key>punctuationspace</key>
@@ -2485,30 +2485,30 @@
     <string>uni0635.fina.alt</string>
     <key>sad-ar.init</key>
     <string>uni0635.init</string>
-    <key>sad-ar.init.alt</key>
-    <string>uni0635.init.alt</string>
+    <key>sad-ar.init.flat</key>
+    <string>uni0635.init.flat</string>
     <key>sad-ar.medi</key>
     <string>uni0635.medi</string>
-    <key>sad-ar.medi.alt</key>
-    <string>uni0635.medi.alt</string>
+    <key>sad-ar.medi.flat</key>
+    <string>uni0635.medi.flat</string>
     <key>seen-ar</key>
     <string>uni0633</string>
-    <key>seen-ar.alt</key>
-    <string>uni0633.alt</string>
-    <key>seen-ar.alt2</key>
-    <string>uni0633.alt2</string>
     <key>seen-ar.fina</key>
     <string>uni0633.fina</string>
-    <key>seen-ar.fina.alt</key>
-    <string>uni0633.fina.alt</string>
-    <key>seen-ar.fina.alt2</key>
-    <string>uni0633.fina.alt2</string>
+    <key>seen-ar.fina.longtail</key>
+    <string>uni0633.fina.longtail</string>
+    <key>seen-ar.fina.shrtail</key>
+    <string>uni0633.fina.shrtail</string>
     <key>seen-ar.init</key>
     <string>uni0633.init</string>
+    <key>seen-ar.longtail</key>
+    <string>uni0633.longtail</string>
     <key>seen-ar.medi</key>
     <string>uni0633.medi</string>
-    <key>seen-ar.medi.alt</key>
-    <string>uni0633.medi.alt</string>
+    <key>seen-ar.medi.flat</key>
+    <string>uni0633.medi.flat</string>
+    <key>seen-ar.shrtail</key>
+    <string>uni0633.shrtail</string>
     <key>semicolon-ar</key>
     <string>uni061B</string>
     <key>seven-ar</key>
@@ -2529,22 +2529,22 @@
     <string>uni0651064B</string>
     <key>sheen-ar</key>
     <string>uni0634</string>
-    <key>sheen-ar.alt</key>
-    <string>uni0634.alt</string>
-    <key>sheen-ar.alt2</key>
-    <string>uni0634.alt2</string>
     <key>sheen-ar.fina</key>
     <string>uni0634.fina</string>
-    <key>sheen-ar.fina.alt</key>
-    <string>uni0634.fina.alt</string>
-    <key>sheen-ar.fina.alt2</key>
-    <string>uni0634.fina.alt2</string>
+    <key>sheen-ar.fina.longtail</key>
+    <string>uni0634.fina.longtail</string>
+    <key>sheen-ar.fina.shrtail</key>
+    <string>uni0634.fina.shrtail</string>
     <key>sheen-ar.init</key>
     <string>uni0634.init</string>
+    <key>sheen-ar.longtail</key>
+    <string>uni0634.longtail</string>
     <key>sheen-ar.medi</key>
     <string>uni0634.medi</string>
-    <key>sheen-ar.medi.alt</key>
-    <string>uni0634.medi.alt</string>
+    <key>sheen-ar.medi.flat</key>
+    <string>uni0634.medi.flat</string>
+    <key>sheen-ar.shrtail</key>
+    <string>uni0634.shrtail</string>
     <key>six-ar</key>
     <string>uni0666</string>
     <key>six-ar.alt</key>
@@ -2589,8 +2589,8 @@
     <string>uni062A.init</string>
     <key>teh-ar.medi</key>
     <string>uni062A.medi</string>
-    <key>teh-ar.medi.alt</key>
-    <string>uni062A.medi.alt</string>
+    <key>teh-ar.medi.flat</key>
+    <string>uni062A.medi.flat</string>
     <key>tehMarbuta-ar</key>
     <string>uni0629</string>
     <key>tehMarbuta-ar.fina</key>
@@ -2611,8 +2611,8 @@
     <string>uni062B.init</string>
     <key>theh-ar.medi</key>
     <string>uni062B.medi</string>
-    <key>theh-ar.medi.alt</key>
-    <string>uni062B.medi.alt</string>
+    <key>theh-ar.medi.flat</key>
+    <string>uni062B.medi.flat</string>
     <key>thinspace</key>
     <string>uni2009</string>
     <key>thousandseparator-ar</key>
@@ -2685,32 +2685,32 @@
     <string>uni2060</string>
     <key>yeh-ar</key>
     <string>uni064A</string>
-    <key>yeh-ar.alt</key>
-    <string>uni064A.alt</string>
-    <key>yeh-ar.alt.ss01</key>
-    <string>uni064A.alt.ss01</string>
-    <key>yeh-ar.alt2</key>
-    <string>uni064A.alt2</string>
-    <key>yeh-ar.alt2.ss01</key>
-    <string>uni064A.alt2.ss01</string>
     <key>yeh-ar.fina</key>
     <string>uni064A.fina</string>
-    <key>yeh-ar.fina.alt</key>
-    <string>uni064A.fina.alt</string>
-    <key>yeh-ar.fina.alt.ss01</key>
-    <string>uni064A.fina.alt.ss01</string>
-    <key>yeh-ar.fina.alt2</key>
-    <string>uni064A.fina.alt2</string>
-    <key>yeh-ar.fina.alt2.ss01</key>
-    <string>uni064A.fina.alt2.ss01</string>
+    <key>yeh-ar.fina.longtail</key>
+    <string>uni064A.fina.longtail</string>
+    <key>yeh-ar.fina.longtail.ss01</key>
+    <string>uni064A.fina.longtail.ss01</string>
+    <key>yeh-ar.fina.shrtail</key>
+    <string>uni064A.fina.shrtail</string>
+    <key>yeh-ar.fina.shrtail.ss01</key>
+    <string>uni064A.fina.shrtail.ss01</string>
     <key>yeh-ar.fina.ss01</key>
     <string>uni064A.fina.ss01</string>
     <key>yeh-ar.init</key>
     <string>uni064A.init</string>
+    <key>yeh-ar.longtail</key>
+    <string>uni064A.longtail</string>
+    <key>yeh-ar.longtail.ss01</key>
+    <string>uni064A.longtail.ss01</string>
     <key>yeh-ar.medi</key>
     <string>uni064A.medi</string>
-    <key>yeh-ar.medi.alt</key>
-    <string>uni064A.medi.alt</string>
+    <key>yeh-ar.medi.flat</key>
+    <string>uni064A.medi.flat</string>
+    <key>yeh-ar.shrtail</key>
+    <string>uni064A.shrtail</string>
+    <key>yeh-ar.shrtail.ss01</key>
+    <string>uni064A.shrtail.ss01</string>
     <key>yeh-ar.ss01</key>
     <string>uni064A.ss01</string>
     <key>yeh-farsi</key>
@@ -2725,8 +2725,8 @@
     <string>uni06CC.init.ss05</string>
     <key>yeh-farsi.medi</key>
     <string>uni06CC.medi</string>
-    <key>yeh-farsi.medi.alt</key>
-    <string>uni06CC.medi.alt</string>
+    <key>yeh-farsi.medi.flat</key>
+    <string>uni06CC.medi.flat</string>
     <key>yeh-farsi.medi.ss05</key>
     <string>uni06CC.medi.ss05</string>
     <key>yeh-farsi.ss05</key>
@@ -2755,8 +2755,8 @@
     <string>uni08A9.init</string>
     <key>yehTwodotsbelowDotabove-ar.medi</key>
     <string>uni08A9.medi</string>
-    <key>yehTwodotsbelowDotabove-ar.medi.alt</key>
-    <string>uni08A9.medi.alt</string>
+    <key>yehTwodotsbelowDotabove-ar.medi.flat</key>
+    <string>uni08A9.medi.flat</string>
     <key>yehTwodotsbelowHamzaabove-ar</key>
     <string>uni08A8</string>
     <key>yehTwodotsbelowHamzaabove-ar.fina</key>
@@ -2765,8 +2765,8 @@
     <string>uni08A8.init</string>
     <key>yehTwodotsbelowHamzaabove-ar.medi</key>
     <string>uni08A8.medi</string>
-    <key>yehTwodotsbelowHamzaabove-ar.medi.alt</key>
-    <string>uni08A8.medi.alt</string>
+    <key>yehTwodotsbelowHamzaabove-ar.medi.flat</key>
+    <string>uni08A8.medi.flat</string>
     <key>yehabove-ar</key>
     <string>uni06E7</string>
     <key>yehbarree-ar</key>
