@@ -962,6 +962,9 @@ feature calt {
 # Warsh Hack alternate - has no dots on isolate and final
 
 feature ss01 {
+	featureNames {
+		name 3 1 0x409 "Warsh hack";
+	};
 	lookup ss01_lkp {
 		sub @cno_ss01 by @c_ss01;
 	} ss01_lkp;
@@ -971,6 +974,9 @@ feature ss01 {
 # End-of-ayah - double circles
 
 feature ss02 {
+	featureNames {
+		name 3 1 0x409 "End of ayah A";
+	};
 	lookup ss02_lkp {
 		sub @cno_ss02 by @c_ss02;
 	} ss02_lkp;
@@ -980,6 +986,9 @@ feature ss02 {
 # End-of-ayah - circle + square
 
 feature ss03 {
+	featureNames {
+		name 3 1 0x409 "End of ayah B";
+	};
 	lookup ss03_lkp {
 		sub @cno_ss03 by @c_ss03;
 	} ss03_lkp;
@@ -989,6 +998,9 @@ feature ss03 {
 # Large Imala e - dot vowel below
 
 feature ss04 {
+	featureNames {
+		name 3 1 0x409 "Imala e";
+	};
 	lookup ss04_lkp {
 		lookupflag RightToLeft;
 
@@ -1000,6 +1012,9 @@ feature ss04 {
 # Wagaf hack
 
 feature ss05 {
+	featureNames {
+		name 3 1 0x409 "Wagaf hack";
+	};
 	lookup ss05_lkp {
 		sub @cno_ss05 by @c_ss05;
 	} ss05_lkp;
@@ -1018,6 +1033,9 @@ feature ss06 {
 # No stacking jeem/hah
 
 feature ss07 {
+	featureNames {
+		name 3 1 0x409 "Jeem/hah stacking";
+	};
 	lookup ss07_lkp {
 		sub @cno_ss07 by @c_ss07;
 	} ss07_lkp;
@@ -1027,6 +1045,9 @@ feature ss07 {
 # Alef + fatha/kasra/damma alternates
 
 feature ss08 {
+	featureNames {
+		name 3 1 0x409 "Alef diacritic placement";
+	};
 	lookup ss08_lkp {
 		sub [alef-ar alef-ar.high]' lookup ss08_aux [fatha-ar kasra-ar damma-ar]' lookup ss08_aux;
 	} ss08_lkp;
