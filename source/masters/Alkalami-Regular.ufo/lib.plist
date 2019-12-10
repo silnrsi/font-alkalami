@@ -36,7 +36,7 @@
 /dal-ar/yeh-ar/alef-ar/qaf-ar/zerowidthnonjoiner/yeh-ar/teh-ar/alef-ar/sheen-ar/zerowidthnonjoiner/beh-ar/alef-ar/beh-ar  /dal-ar/feh-ar/noonghunna-ar.longtail/zeroWidthNoBreakSpace/qaf-ar  /yeh-ar/theh-ar/yeh-ar 
 /dal-ar/feh-ar/reh-ar/qaf-ar  /seen-ar/meem-ar/waw-ar/alef-ar/waw-ar/qafAfrican-ar           
 </string>
-    <string>abc/uni2027 def</string>
+    <string>Aa?bc/uniFFFD defs</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
