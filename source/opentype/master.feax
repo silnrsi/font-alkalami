@@ -582,7 +582,7 @@ feature ccmp {
 		ignore sub lam-ar alef-ar';
 
 		# but otherwise change alef and hamza to connecting version:
-		sub alef-ar' lookup alef2wide hamzaabove-ar' lookup hamza2nostem;
+		sub alef-ar' lookup alef2wide      hamzaabove-ar' lookup hamza2nostem;
 		sub alef-ar' lookup alef2wideshort hamzabelow-ar' lookup hamza2nostem;
 	} ccmp_arab_3;
 
@@ -794,7 +794,6 @@ feature salt {
 		sub yehTwodotsbelowDotabove-ar.medi by yehTwodotsbelowDotabove-ar.medi.flat;
 		sub yeh-farsi.medi by yeh-farsi.medi.flat;
 		sub e-ar.medi by e-ar.medi.flat;
-		
 
 		# alternate stacking; handled by calt
 		sub jeem-ar.fina by jeem-ar.fina.alt;  
