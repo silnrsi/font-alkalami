@@ -1718,6 +1718,24 @@
   <string>umacron.glif</string>
   <key>underscore</key>
   <string>underscore.glif</string>
+  <key>uni2027</key>
+  <string>uni2027.glif</string>
+  <key>uni2028</key>
+  <string>uni2028.glif</string>
+  <key>uni2029</key>
+  <string>uni2029.glif</string>
+  <key>uni202A</key>
+  <string>uni202A_.glif</string>
+  <key>uni202B</key>
+  <string>uni202B_.glif</string>
+  <key>uni202C</key>
+  <string>uni202C_.glif</string>
+  <key>uni202D</key>
+  <string>uni202D_.glif</string>
+  <key>uni202E</key>
+  <string>uni202E_.glif</string>
+  <key>uni202F</key>
+  <string>uni202F_.glif</string>
   <key>uniFE00</key>
   <string>uniF_E_00.glif</string>
   <key>uniFE01</key>
