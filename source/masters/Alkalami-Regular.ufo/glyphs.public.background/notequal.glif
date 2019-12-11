@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="notequal" format="2">
+  <outline>
+    <contour>
+      <point x="412" y="763" type="line"/>
+      <point x="326" y="763" type="line"/>
+      <point x="26" y="-138" type="line"/>
+      <point x="111" y="-138" type="line"/>
+    </contour>
+  </outline>
+</glyph>

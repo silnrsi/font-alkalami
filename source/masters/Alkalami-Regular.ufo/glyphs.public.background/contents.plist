@@ -110,6 +110,8 @@
   <string>alefM_aksura-ar.shrtail.glif</string>
   <key>alefabove-ar</key>
   <string>alefabove-ar.glif</string>
+  <key>approxequal</key>
+  <string>approxequal.glif</string>
   <key>at</key>
   <string>at.glif</string>
   <key>b</key>
@@ -410,6 +412,8 @@
   <string>noonghunna-ar.fina.shrtail.glif</string>
   <key>noonghunna-ar.shrtail</key>
   <string>noonghunna-ar.shrtail.glif</string>
+  <key>notequal</key>
+  <string>notequal.glif</string>
   <key>numbersign</key>
   <string>numbersign.glif</string>
   <key>o</key>
@@ -592,6 +596,8 @@
   <string>u.sc.glif</string>
   <key>underscore</key>
   <string>underscore.glif</string>
+  <key>uni2219</key>
+  <string>uni2219.glif</string>
   <key>uniFFFD</key>
   <string>uniF_F_F_D_.glif</string>
   <key>v</key>

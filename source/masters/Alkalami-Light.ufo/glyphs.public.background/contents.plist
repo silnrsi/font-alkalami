@@ -22,6 +22,8 @@
   <string>alefM_aksura-ar.fina.glif</string>
   <key>allah-ar</key>
   <string>allah-ar.glif</string>
+  <key>approxequal</key>
+  <string>approxequal.glif</string>
   <key>asterisk</key>
   <string>asterisk.glif</string>
   <key>beh-ar.init.alt</key>
@@ -112,6 +114,8 @@
   <string>noonghunna-ar.glif</string>
   <key>noonghunna-ar.fina</key>
   <string>noonghunna-ar.fina.glif</string>
+  <key>notequal</key>
+  <string>notequal.glif</string>
   <key>paragraph</key>
   <string>paragraph.glif</string>
   <key>qafDotless-ar.fina</key>

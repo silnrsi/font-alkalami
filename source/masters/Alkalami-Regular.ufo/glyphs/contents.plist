@@ -352,6 +352,8 @@
   <string>ampersand.glif</string>
   <key>aogonek</key>
   <string>aogonek.glif</string>
+  <key>approxequal</key>
+  <string>approxequal.glif</string>
   <key>aring</key>
   <string>aring.glif</string>
   <key>asciicircum</key>
@@ -1208,6 +1210,8 @@
   <string>noonghunna-ar.medi.glif</string>
   <key>noonghunna-ar.shrtail</key>
   <string>noonghunna-ar.shrtail.glif</string>
+  <key>notequal</key>
+  <string>notequal.glif</string>
   <key>ntilde</key>
   <string>ntilde.glif</string>
   <key>numbersign</key>
@@ -1744,6 +1748,8 @@
   <string>uni202E_.glif</string>
   <key>uni202F</key>
   <string>uni202F_.glif</string>
+  <key>uni2219</key>
+  <string>uni2219.glif</string>
   <key>uniFE00</key>
   <string>uniF_E_00.glif</string>
   <key>uniFE01</key>
