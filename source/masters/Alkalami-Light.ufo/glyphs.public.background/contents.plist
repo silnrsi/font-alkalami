@@ -62,6 +62,8 @@
   <string>five.glif</string>
   <key>five.alt</key>
   <string>five.alt.glif</string>
+  <key>greaterequal</key>
+  <string>greaterequal.glif</string>
   <key>hah-ar.fina</key>
   <string>hah-ar.fina.glif</string>
   <key>hah-ar.medi</key>
@@ -96,6 +98,8 @@
   <string>lam_alefH_amzaabove-ar.glif</string>
   <key>lam_alefHamzaabove-ar.fina</key>
   <string>lam_alefH_amzaabove-ar.fina.glif</string>
+  <key>lessequal</key>
+  <string>lessequal.glif</string>
   <key>madda-ar</key>
   <string>madda-ar.glif</string>
   <key>meem-ar.init</key>

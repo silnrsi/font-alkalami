@@ -24,8 +24,7 @@
   <array>
     <string>Aa?gc/uniFFFD defs</string>
     <string>DE//F/lozenge Eabc </string>
-    <string>¦</string>
-    <string>×</string>
+    <string>  /greaterequal 1=5/lessequal &lt;</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
