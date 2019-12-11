@@ -22,21 +22,10 @@
   <string>1268</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/alefabove-ar/alefbelow-ar/hamzaabove-ar/hamzaabove-ar.nostem/hamzabelow-ar/hamzabelow-ar.nostem/hamzacenter-ar/hamzaaboveDamma-ar/hamzaaboveDammatan-ar/hamzaaboveFatha-ar/hamzaaboveFathatan-ar/hamzaaboveSukun-ar/hamzabelowKasra-ar/hamzabelowKasratan-ar/fathatan-ar/dammatan-ar/kasratan-ar/fatha-ar/alefabove-ar/fatha_alefabove-ar/damma-ar/kasra-ar/shadda-ar/sukun-ar/madda-ar/shaddaAlefabove-ar/shaddaDamma-ar/shaddaDammatan-ar/shaddaFatha-ar/shaddaFathatan-ar/vabove-ar/vinvertedabove-ar/dotvowelbelow-ar/dotvowelbelow-ar.ss04</string>
-    <string>/alef-ar.high/alef-ar.high.ss08/alef-ar.ss08/damma-ar.ss08/fatha-ar  /alef-ar/lam-ar/hah-ar/meem-ar  /alef-ar/lam-ar/jeem-ar 
-/lam-ar/theh-ar/sheen-ar/jeem-ar  /yeh-ar/ain-ar/tehMarbuta-ar   /sad-ar/yeh-ar/seen-ar  /heh-ar/sheen-ar 
-/kaf-ar/seen-ar/yeh-ar/sheen-ar/alef-ar/noon-ar/yeh-ar/beh-ar/feh-ar/noon-ar  /sad-ar/reh-ar/yeh-ar 
- </string>
-    <string>/teh-ar/seen-ar/qafDotless-ar  /yeh-ar/alef-ar/lam-ar/noon-ar/noon-ar  /qafDotless-ar  /kaf-ar/lam-ar/meem-ar/meem-ar/zain-ar/qafDotless-ar 
-/qafAfrican-ar   /qafAfrican-ar.fina   /qafDotless-ar   /qafDotless-ar.fina   /qaf-ar   /qaf-ar.fina   /qafDotabove-ar   /qafDotabove-ar.fina 
-/qafDotabove-ar.ss01   /qafDotabove-ar.fina.ss01   /qafThreedotsabove-ar   /qafThreedotsabove-ar.fina   /qafThreedotsabove-ar.ss05   /qafThreedotsabove-ar.fina.ss05  
-/dal-ar/qafDotabove-ar/reh-ar/qafDotless-ar  /yeh-ar/theh-ar/alefMaksura-ar   /sad-ar.alt    /lam-ar  /yeh-ar/dal-ar/qafDotabove-ar/reh-ar/qafDotless-ar  
-/beh-ar/teh-ar/reh-ar/waw-ar/alef-ar/qaf-ar/kaf-ar/waw-ar/alef-ar/meem-ar/noon-ar/beh-ar  /dal-ar/yeh-ar/alef-ar/qaf-ar/threedots-ar 
-/dal-ar/yeh-ar/alef-ar/qaf-ar  /alef-ar/reh-ar/alef-ar/noon-ar/teh-ar/beh-ar/yeh-ar  /dal-ar/yeh-ar/alef-ar/qaf-ar/question-ar 
-/dal-ar/yeh-ar/alef-ar/qaf-ar/zerowidthnonjoiner/yeh-ar/teh-ar/alef-ar/sheen-ar/zerowidthnonjoiner/beh-ar/alef-ar/beh-ar  /dal-ar/feh-ar/noonghunna-ar.longtail/zeroWidthNoBreakSpace/qaf-ar  /yeh-ar/theh-ar/yeh-ar 
-/dal-ar/feh-ar/reh-ar/qaf-ar  /seen-ar/meem-ar/waw-ar/alef-ar/waw-ar/qafAfrican-ar           
-</string>
-    <string>Aa?bc/uniFFFD defs</string>
+    <string>Aa?gc/uniFFFD defs</string>
+    <string>DE//F/lozenge Eabc </string>
+    <string>¦</string>
+    <string>×</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

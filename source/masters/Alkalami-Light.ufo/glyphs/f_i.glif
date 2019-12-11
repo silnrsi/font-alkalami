@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_i" format="2">
   <advance width="548"/>
+  <unicode hex="FB01"/>
   <anchor x="411" y="0" name="bottom"/>
   <anchor x="431" y="19" name="ogonek"/>
   <anchor x="413" y="490" name="top"/>
