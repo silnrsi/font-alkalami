@@ -918,6 +918,12 @@
   <string>ij.glif</string>
   <key>imacron</key>
   <string>imacron.glif</string>
+  <key>infinity</key>
+  <string>infinity.glif</string>
+  <key>integral</key>
+  <string>integral.glif</string>
+  <key>integral.rtl</key>
+  <string>integral.rtl.glif</string>
   <key>iogonek</key>
   <string>iogonek.glif</string>
   <key>j</key>
@@ -1212,6 +1218,8 @@
   <string>noonghunna-ar.shrtail.glif</string>
   <key>notequal</key>
   <string>notequal.glif</string>
+  <key>notequal.rtl</key>
+  <string>notequal.rtl.glif</string>
   <key>ntilde</key>
   <string>ntilde.glif</string>
   <key>numbersign</key>

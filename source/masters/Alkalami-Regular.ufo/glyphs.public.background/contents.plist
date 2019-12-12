@@ -298,6 +298,12 @@
   <string>i.glif</string>
   <key>i.sc</key>
   <string>i.sc.glif</string>
+  <key>infinity</key>
+  <string>infinity.glif</string>
+  <key>integral</key>
+  <string>integral.glif</string>
+  <key>integral.rtl</key>
+  <string>integral.rtl.glif</string>
   <key>j</key>
   <string>j.glif</string>
   <key>j.sc</key>
@@ -414,6 +420,8 @@
   <string>noonghunna-ar.shrtail.glif</string>
   <key>notequal</key>
   <string>notequal.glif</string>
+  <key>notequal.rtl</key>
+  <string>notequal.rtl.glif</string>
   <key>numbersign</key>
   <string>numbersign.glif</string>
   <key>o</key>

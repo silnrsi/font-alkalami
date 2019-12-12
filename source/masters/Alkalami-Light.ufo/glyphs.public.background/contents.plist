@@ -82,6 +82,12 @@
   <string>heh-ar.fina.glif</string>
   <key>heh-ar.init</key>
   <string>heh-ar.init.glif</string>
+  <key>infinity</key>
+  <string>infinity.glif</string>
+  <key>integral</key>
+  <string>integral.glif</string>
+  <key>integral.rtl</key>
+  <string>integral.rtl.glif</string>
   <key>kaf-ar</key>
   <string>kaf-ar.glif</string>
   <key>kaf-ar.fina</key>
@@ -116,6 +122,8 @@
   <string>noonghunna-ar.fina.glif</string>
   <key>notequal</key>
   <string>notequal.glif</string>
+  <key>notequal.rtl</key>
+  <string>notequal.rtl.glif</string>
   <key>paragraph</key>
   <string>paragraph.glif</string>
   <key>qafDotless-ar.fina</key>

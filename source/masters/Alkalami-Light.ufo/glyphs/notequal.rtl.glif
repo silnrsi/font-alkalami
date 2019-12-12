@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="notequal" format="2">
+<glyph name="notequal.rtl" format="2">
   <advance width="521"/>
-  <unicode hex="2260"/>
   <outline>
     <contour>
       <point x="496" y="301" type="line"/>
@@ -24,10 +23,10 @@
       <point x="496" y="388" type="curve"/>
     </contour>
     <contour>
-      <point x="382" y="607" type="line"/>
-      <point x="316" y="607" type="line"/>
-      <point x="139" y="82" type="line"/>
-      <point x="204" y="82" type="line"/>
+      <point x="205" y="607" type="line"/>
+      <point x="139" y="607" type="line"/>
+      <point x="317" y="82" type="line"/>
+      <point x="382" y="82" type="line"/>
     </contour>
   </outline>
   <lib>
