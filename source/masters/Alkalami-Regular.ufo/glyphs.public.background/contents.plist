@@ -212,6 +212,8 @@
   <string>endofayah-ar.alt3.ss03.glif</string>
   <key>endofayah-ar.ss03</key>
   <string>endofayah-ar.ss03.glif</string>
+  <key>eth</key>
+  <string>eth.glif</string>
   <key>exclam</key>
   <string>exclam.glif</string>
   <key>f</key>

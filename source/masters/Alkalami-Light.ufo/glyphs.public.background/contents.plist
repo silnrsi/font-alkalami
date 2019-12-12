@@ -48,6 +48,8 @@
   <string>endofayah-ar.alt2.glif</string>
   <key>endofayah-ar.alt3</key>
   <string>endofayah-ar.alt3.glif</string>
+  <key>eth</key>
+  <string>eth.glif</string>
   <key>euro</key>
   <string>euro.glif</string>
   <key>fehAfrican-ar.fina</key>

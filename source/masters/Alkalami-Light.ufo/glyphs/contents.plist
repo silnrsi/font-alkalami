@@ -62,6 +62,8 @@
   <string>E_macron.glif</string>
   <key>Eogonek</key>
   <string>E_ogonek.glif</string>
+  <key>Eth</key>
+  <string>E_th.glif</string>
   <key>F</key>
   <string>F_.glif</string>
   <key>G</key>
@@ -676,6 +678,8 @@
   <string>eogonek.glif</string>
   <key>equal</key>
   <string>equal.glif</string>
+  <key>eth</key>
+  <string>eth.glif</string>
   <key>euro</key>
   <string>euro.glif</string>
   <key>exclam</key>
