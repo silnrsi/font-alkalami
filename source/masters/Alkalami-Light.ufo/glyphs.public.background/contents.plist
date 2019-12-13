@@ -128,6 +128,10 @@
   <string>notequal.rtl.glif</string>
   <key>paragraph</key>
   <string>paragraph.glif</string>
+  <key>partialdiff</key>
+  <string>partialdiff.glif</string>
+  <key>pi</key>
+  <string>pi.glif</string>
   <key>qafDotless-ar.fina</key>
   <string>qafD_otless-ar.fina.glif</string>
   <key>reh-ar</key>

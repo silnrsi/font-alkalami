@@ -1308,6 +1308,8 @@
   <string>parenright.glif</string>
   <key>parenright-ar</key>
   <string>parenright-ar.glif</string>
+  <key>partialdiff</key>
+  <string>partialdiff.glif</string>
   <key>peh-ar</key>
   <string>peh-ar.glif</string>
   <key>peh-ar.fina</key>
@@ -1328,10 +1330,14 @@
   <string>periodcentered.glif</string>
   <key>perthousand</key>
   <string>perthousand.glif</string>
+  <key>pi</key>
+  <string>pi.glif</string>
   <key>plus</key>
   <string>plus.glif</string>
   <key>plusminus</key>
   <string>plusminus.glif</string>
+  <key>product</key>
+  <string>product.glif</string>
   <key>punctuationspace</key>
   <string>punctuationspace.glif</string>
   <key>q</key>

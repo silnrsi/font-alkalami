@@ -452,10 +452,14 @@
   <string>parenleft.glif</string>
   <key>parenleft-ar</key>
   <string>parenleft-ar.glif</string>
+  <key>partialdiff</key>
+  <string>partialdiff.glif</string>
   <key>period</key>
   <string>period.glif</string>
   <key>periodcentered</key>
   <string>periodcentered.glif</string>
+  <key>product</key>
+  <string>product.glif</string>
   <key>q</key>
   <string>q.glif</string>
   <key>q.sc</key>
