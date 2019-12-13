@@ -480,6 +480,10 @@
   <string>r.glif</string>
   <key>r.sc</key>
   <string>r.sc.glif</string>
+  <key>radical</key>
+  <string>radical.glif</string>
+  <key>radical.rtl</key>
+  <string>radical.rtl.glif</string>
   <key>reh-ar</key>
   <string>reh-ar.glif</string>
   <key>reh-ar.fina</key>
@@ -546,6 +550,8 @@
   <string>sterling.glif</string>
   <key>sukun-ar</key>
   <string>sukun-ar.glif</string>
+  <key>summation</key>
+  <string>summation.glif</string>
   <key>t</key>
   <string>t.glif</string>
   <key>t.sc</key>

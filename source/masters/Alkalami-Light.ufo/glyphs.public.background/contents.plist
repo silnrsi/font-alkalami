@@ -134,6 +134,10 @@
   <string>pi.glif</string>
   <key>qafDotless-ar.fina</key>
   <string>qafD_otless-ar.fina.glif</string>
+  <key>radical</key>
+  <string>radical.glif</string>
+  <key>radical.rtl</key>
+  <string>radical.rtl.glif</string>
   <key>reh-ar</key>
   <string>reh-ar.glif</string>
   <key>reh-ar.fina</key>
@@ -164,6 +168,8 @@
   <string>six.glif</string>
   <key>sterling</key>
   <string>sterling.glif</string>
+  <key>summation</key>
+  <string>summation.glif</string>
   <key>tah-ar.init</key>
   <string>tah-ar.init.glif</string>
   <key>three.alt</key>
