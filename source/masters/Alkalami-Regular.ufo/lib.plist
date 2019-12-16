@@ -32,7 +32,7 @@
     <string> 8828/radical 
 /radical.rtl/nine-ar/nine-ar/nine-ar</string>
     <string>/Omega T/Delta/summation.rtl/product RK/summation E </string>
-    <string>/partialdiff</string>
+    <string> /partialdiff/partialdiff.rtl 6 </string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

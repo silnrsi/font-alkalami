@@ -458,6 +458,8 @@
   <string>parenleft-ar.glif</string>
   <key>partialdiff</key>
   <string>partialdiff.glif</string>
+  <key>partialdiff.rtl</key>
+  <string>partialdiff.rtl.glif</string>
   <key>period</key>
   <string>period.glif</string>
   <key>periodcentered</key>

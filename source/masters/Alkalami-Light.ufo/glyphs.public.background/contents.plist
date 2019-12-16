@@ -132,6 +132,8 @@
   <string>paragraph.glif</string>
   <key>partialdiff</key>
   <string>partialdiff.glif</string>
+  <key>partialdiff.rtl</key>
+  <string>partialdiff.rtl.glif</string>
   <key>pi</key>
   <string>pi.glif</string>
   <key>qafDotless-ar.fina</key>
