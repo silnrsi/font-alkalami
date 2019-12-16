@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>Delta</key>
+  <string>D_elta.glif</string>
   <key>ain-ar</key>
   <string>ain-ar.glif</string>
   <key>ain-ar.fina</key>
@@ -170,6 +172,8 @@
   <string>sterling.glif</string>
   <key>summation</key>
   <string>summation.glif</string>
+  <key>summation.rtl</key>
+  <string>summation.rtl.glif</string>
   <key>tah-ar.init</key>
   <string>tah-ar.init.glif</string>
   <key>three.alt</key>

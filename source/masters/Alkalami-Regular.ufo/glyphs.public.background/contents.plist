@@ -10,6 +10,8 @@
   <string>B_.glif</string>
   <key>D</key>
   <string>D_.glif</string>
+  <key>Delta</key>
+  <string>D_elta.glif</string>
   <key>E</key>
   <string>E_.glif</string>
   <key>F</key>
@@ -34,6 +36,8 @@
   <string>O_.glif</string>
   <key>OE</key>
   <string>O_E_.glif</string>
+  <key>Omega</key>
+  <string>O_mega.glif</string>
   <key>Oslash</key>
   <string>O_slash.glif</string>
   <key>P</key>
@@ -552,6 +556,8 @@
   <string>sukun-ar.glif</string>
   <key>summation</key>
   <string>summation.glif</string>
+  <key>summation.rtl</key>
+  <string>summation.rtl.glif</string>
   <key>t</key>
   <string>t.glif</string>
   <key>t.sc</key>
