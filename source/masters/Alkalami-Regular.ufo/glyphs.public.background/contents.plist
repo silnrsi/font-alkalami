@@ -64,8 +64,6 @@
   <string>Z_.glif</string>
   <key>a</key>
   <string>a.glif</string>
-  <key>a.sc</key>
-  <string>a.sc.glif</string>
   <key>acute</key>
   <string>acute.glif</string>
   <key>ain-ar</key>
@@ -120,8 +118,6 @@
   <string>at.glif</string>
   <key>b</key>
   <string>b.glif</string>
-  <key>b.sc</key>
-  <string>b.sc.glif</string>
   <key>backslash</key>
   <string>backslash.glif</string>
   <key>beh-ar.init.alt</key>
@@ -144,8 +140,6 @@
   <string>bullet.glif</string>
   <key>c</key>
   <string>c.glif</string>
-  <key>c.sc</key>
-  <string>c.sc.glif</string>
   <key>caron</key>
   <string>caron.glif</string>
   <key>cedilla</key>
@@ -160,8 +154,6 @@
   <string>commaaccent.glif</string>
   <key>d</key>
   <string>d.glif</string>
-  <key>d.sc</key>
-  <string>d.sc.glif</string>
   <key>dal-ar</key>
   <string>dal-ar.glif</string>
   <key>dal-ar.fina</key>
@@ -184,8 +176,6 @@
   <string>dotvowelbelow-ar.ss04.glif</string>
   <key>e</key>
   <string>e.glif</string>
-  <key>e.sc</key>
-  <string>e.sc.glif</string>
   <key>eight</key>
   <string>eight.glif</string>
   <key>eight-ar</key>
@@ -194,10 +184,6 @@
   <string>eight-ar.alt.glif</string>
   <key>eight.alt</key>
   <string>eight.alt.glif</string>
-  <key>eight.latn</key>
-  <string>eight.latn.glif</string>
-  <key>eight.lf</key>
-  <string>eight.lf.glif</string>
   <key>emdash</key>
   <string>emdash.glif</string>
   <key>endash</key>
@@ -222,8 +208,6 @@
   <string>exclam.glif</string>
   <key>f</key>
   <string>f.glif</string>
-  <key>f.sc</key>
-  <string>f.sc.glif</string>
   <key>fatha-ar</key>
   <string>fatha-ar.glif</string>
   <key>fehAfrican-ar.fina</key>
@@ -244,10 +228,6 @@
   <string>five-ar.alt.glif</string>
   <key>five.alt</key>
   <string>five.alt.glif</string>
-  <key>five.latn</key>
-  <string>five.latn.glif</string>
-  <key>five.lf</key>
-  <string>five.lf.glif</string>
   <key>florin</key>
   <string>florin.glif</string>
   <key>four</key>
@@ -258,12 +238,6 @@
   <string>four-ar.alt.glif</string>
   <key>four.alt</key>
   <string>four.alt.glif</string>
-  <key>four.latn</key>
-  <string>four.latn.glif</string>
-  <key>four.lf</key>
-  <string>four.lf.glif</string>
-  <key>g.sc</key>
-  <string>g.sc.glif</string>
   <key>ghain-ar.fina.ss06</key>
   <string>ghain-ar.fina.ss06.glif</string>
   <key>ghain-ar.medi.flat</key>
@@ -276,8 +250,6 @@
   <string>guilsinglleft.glif</string>
   <key>h</key>
   <string>h.glif</string>
-  <key>h.sc</key>
-  <string>h.sc.glif</string>
   <key>hah-ar</key>
   <string>hah-ar.glif</string>
   <key>hah-ar.fina</key>
@@ -302,8 +274,6 @@
   <string>hyphen.glif</string>
   <key>i</key>
   <string>i.glif</string>
-  <key>i.sc</key>
-  <string>i.sc.glif</string>
   <key>infinity</key>
   <string>infinity.glif</string>
   <key>integral</key>
@@ -312,12 +282,8 @@
   <string>integral.rtl.glif</string>
   <key>j</key>
   <string>j.glif</string>
-  <key>j.sc</key>
-  <string>j.sc.glif</string>
   <key>k</key>
   <string>k.glif</string>
-  <key>k.sc</key>
-  <string>k.sc.glif</string>
   <key>kaf-ar</key>
   <string>kaf-ar.glif</string>
   <key>kaf-ar.fina</key>
@@ -336,8 +302,6 @@
   <string>kasra-ar.glif</string>
   <key>l</key>
   <string>l.glif</string>
-  <key>l.sc</key>
-  <string>l.sc.glif</string>
   <key>lam-ar</key>
   <string>lam-ar.glif</string>
   <key>lam-ar.fina</key>
@@ -354,8 +318,6 @@
   <string>lessequal.glif</string>
   <key>m</key>
   <string>m.glif</string>
-  <key>m.sc</key>
-  <string>m.sc.glif</string>
   <key>macron</key>
   <string>macron.glif</string>
   <key>macroncomb</key>
@@ -374,8 +336,6 @@
   <string>micro.glif</string>
   <key>n</key>
   <string>n.glif</string>
-  <key>n.sc</key>
-  <string>n.sc.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
   <key>nine-ar</key>
@@ -384,10 +344,6 @@
   <string>nine-ar.alt.glif</string>
   <key>nine.alt</key>
   <string>nine.alt.glif</string>
-  <key>nine.latn</key>
-  <string>nine.latn.glif</string>
-  <key>nine.lf</key>
-  <string>nine.lf.glif</string>
   <key>noon-ar.fina.longtail</key>
   <string>noon-ar.fina.longtail.glif</string>
   <key>noon-ar.fina.longtail.ss01</key>
@@ -432,8 +388,6 @@
   <string>numbersign.glif</string>
   <key>o</key>
   <string>o.glif</string>
-  <key>o.sc</key>
-  <string>o.sc.glif</string>
   <key>one</key>
   <string>one.glif</string>
   <key>one-ar</key>
@@ -442,16 +396,10 @@
   <string>one-ar.alt.glif</string>
   <key>one.alt</key>
   <string>one.alt.glif</string>
-  <key>one.latn</key>
-  <string>one.latn.glif</string>
-  <key>one.lf</key>
-  <string>one.lf.glif</string>
   <key>oslash</key>
   <string>oslash.glif</string>
   <key>p</key>
   <string>p.glif</string>
-  <key>p.sc</key>
-  <string>p.sc.glif</string>
   <key>parenleft</key>
   <string>parenleft.glif</string>
   <key>parenleft-ar</key>
@@ -468,8 +416,6 @@
   <string>product.glif</string>
   <key>q</key>
   <string>q.glif</string>
-  <key>q.sc</key>
-  <string>q.sc.glif</string>
   <key>qafAfrican-ar.fina</key>
   <string>qafA_frican-ar.fina.glif</string>
   <key>qafDotless-ar</key>
@@ -484,8 +430,6 @@
   <string>quotesingle.glif</string>
   <key>r</key>
   <string>r.glif</string>
-  <key>r.sc</key>
-  <string>r.sc.glif</string>
   <key>radical</key>
   <string>radical.glif</string>
   <key>radical.rtl</key>
@@ -498,8 +442,6 @@
   <string>ring.glif</string>
   <key>s</key>
   <string>s.glif</string>
-  <key>s.sc</key>
-  <string>s.sc.glif</string>
   <key>sad-ar</key>
   <string>sad-ar.glif</string>
   <key>sad-ar.fina</key>
@@ -528,10 +470,6 @@
   <string>seven-ar.alt.glif</string>
   <key>seven.alt</key>
   <string>seven.alt.glif</string>
-  <key>seven.latn</key>
-  <string>seven.latn.glif</string>
-  <key>seven.lf</key>
-  <string>seven.lf.glif</string>
   <key>shadda-ar</key>
   <string>shadda-ar.glif</string>
   <key>sheen-ar.fina.longtail</key>
@@ -546,10 +484,6 @@
   <string>six-ar.alt.glif</string>
   <key>six.alt</key>
   <string>six.alt.glif</string>
-  <key>six.latn</key>
-  <string>six.latn.glif</string>
-  <key>six.lf</key>
-  <string>six.lf.glif</string>
   <key>slash</key>
   <string>slash.glif</string>
   <key>sterling</key>
@@ -562,8 +496,6 @@
   <string>summation.rtl.glif</string>
   <key>t</key>
   <string>t.glif</string>
-  <key>t.sc</key>
-  <string>t.sc.glif</string>
   <key>tah-ar.fina</key>
   <string>tah-ar.fina.glif</string>
   <key>tah-ar.medi</key>
@@ -576,10 +508,6 @@
   <string>three-ar.alt.glif</string>
   <key>three.alt</key>
   <string>three.alt.glif</string>
-  <key>three.latn</key>
-  <string>three.latn.glif</string>
-  <key>three.lf</key>
-  <string>three.lf.glif</string>
   <key>threedots-ar</key>
   <string>threedots-ar.glif</string>
   <key>threedots-ar.small</key>
@@ -606,10 +534,6 @@
   <string>two-ar.alt.glif</string>
   <key>two.alt</key>
   <string>two.alt.glif</string>
-  <key>two.latn</key>
-  <string>two.latn.glif</string>
-  <key>two.lf</key>
-  <string>two.lf.glif</string>
   <key>twodotshorizontalabove-ar</key>
   <string>twodotshorizontalabove-ar.glif</string>
   <key>twodotshorizontalbelow-ar</key>
@@ -620,8 +544,6 @@
   <string>twodotsverticalabove-ar.glif</string>
   <key>u</key>
   <string>u.glif</string>
-  <key>u.sc</key>
-  <string>u.sc.glif</string>
   <key>underscore</key>
   <string>underscore.glif</string>
   <key>uni2219</key>
@@ -630,12 +552,8 @@
   <string>uniF_F_F_D_.glif</string>
   <key>v</key>
   <string>v.glif</string>
-  <key>v.sc</key>
-  <string>v.sc.glif</string>
   <key>w</key>
   <string>w.glif</string>
-  <key>w.sc</key>
-  <string>w.sc.glif</string>
   <key>waw-ar</key>
   <string>waw-ar.glif</string>
   <key>waw-ar.alt</key>
@@ -646,12 +564,8 @@
   <string>waw-ar.fina.alt.glif</string>
   <key>x</key>
   <string>x.glif</string>
-  <key>x.sc</key>
-  <string>x.sc.glif</string>
   <key>y</key>
   <string>y.glif</string>
-  <key>y.sc</key>
-  <string>y.sc.glif</string>
   <key>yeh-ar</key>
   <string>yeh-ar.glif</string>
   <key>yeh-ar.fina</key>
@@ -676,8 +590,6 @@
   <string>yehT_hreedotsbelow-ar.fina.glif</string>
   <key>z</key>
   <string>z.glif</string>
-  <key>z.sc</key>
-  <string>z.sc.glif</string>
   <key>zero</key>
   <string>zero.glif</string>
   <key>zero-ar</key>
@@ -686,9 +598,5 @@
   <string>zero-ar.alt.glif</string>
   <key>zero.alt</key>
   <string>zero.alt.glif</string>
-  <key>zero.latn</key>
-  <string>zero.latn.glif</string>
-  <key>zero.lf</key>
-  <string>zero.lf.glif</string>
 </dict>
 </plist>
