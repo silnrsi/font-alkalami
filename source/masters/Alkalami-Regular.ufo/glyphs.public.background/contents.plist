@@ -180,10 +180,10 @@
   <string>eight.glif</string>
   <key>eight-ar</key>
   <string>eight-ar.glif</string>
-  <key>eight-ar.alt</key>
-  <string>eight-ar.alt.glif</string>
-  <key>eight.alt</key>
-  <string>eight.alt.glif</string>
+  <key>eight-ar.small</key>
+  <string>eight-ar.small.glif</string>
+  <key>eight.small</key>
+  <string>eight.small.glif</string>
   <key>emdash</key>
   <string>emdash.glif</string>
   <key>endash</key>
@@ -224,20 +224,20 @@
   <string>five.glif</string>
   <key>five-ar</key>
   <string>five-ar.glif</string>
-  <key>five-ar.alt</key>
-  <string>five-ar.alt.glif</string>
-  <key>five.alt</key>
-  <string>five.alt.glif</string>
+  <key>five-ar.small</key>
+  <string>five-ar.small.glif</string>
+  <key>five.small</key>
+  <string>five.small.glif</string>
   <key>florin</key>
   <string>florin.glif</string>
   <key>four</key>
   <string>four.glif</string>
   <key>four-ar</key>
   <string>four-ar.glif</string>
-  <key>four-ar.alt</key>
-  <string>four-ar.alt.glif</string>
-  <key>four.alt</key>
-  <string>four.alt.glif</string>
+  <key>four-ar.small</key>
+  <string>four-ar.small.glif</string>
+  <key>four.small</key>
+  <string>four.small.glif</string>
   <key>ghain-ar.fina.ss06</key>
   <string>ghain-ar.fina.ss06.glif</string>
   <key>ghain-ar.medi.flat</key>
@@ -340,10 +340,10 @@
   <string>nine.glif</string>
   <key>nine-ar</key>
   <string>nine-ar.glif</string>
-  <key>nine-ar.alt</key>
-  <string>nine-ar.alt.glif</string>
-  <key>nine.alt</key>
-  <string>nine.alt.glif</string>
+  <key>nine-ar.small</key>
+  <string>nine-ar.small.glif</string>
+  <key>nine.small</key>
+  <string>nine.small.glif</string>
   <key>noon-ar.fina.longtail</key>
   <string>noon-ar.fina.longtail.glif</string>
   <key>noon-ar.fina.longtail.ss01</key>
@@ -392,10 +392,10 @@
   <string>one.glif</string>
   <key>one-ar</key>
   <string>one-ar.glif</string>
-  <key>one-ar.alt</key>
-  <string>one-ar.alt.glif</string>
-  <key>one.alt</key>
-  <string>one.alt.glif</string>
+  <key>one-ar.small</key>
+  <string>one-ar.small.glif</string>
+  <key>one.small</key>
+  <string>one.small.glif</string>
   <key>oslash</key>
   <string>oslash.glif</string>
   <key>p</key>
@@ -466,10 +466,10 @@
   <string>seven.glif</string>
   <key>seven-ar</key>
   <string>seven-ar.glif</string>
-  <key>seven-ar.alt</key>
-  <string>seven-ar.alt.glif</string>
-  <key>seven.alt</key>
-  <string>seven.alt.glif</string>
+  <key>seven-ar.small</key>
+  <string>seven-ar.small.glif</string>
+  <key>seven.small</key>
+  <string>seven.small.glif</string>
   <key>shadda-ar</key>
   <string>shadda-ar.glif</string>
   <key>sheen-ar.fina.longtail</key>
@@ -480,10 +480,10 @@
   <string>six.glif</string>
   <key>six-ar</key>
   <string>six-ar.glif</string>
-  <key>six-ar.alt</key>
-  <string>six-ar.alt.glif</string>
-  <key>six.alt</key>
-  <string>six.alt.glif</string>
+  <key>six-ar.small</key>
+  <string>six-ar.small.glif</string>
+  <key>six.small</key>
+  <string>six.small.glif</string>
   <key>slash</key>
   <string>slash.glif</string>
   <key>sterling</key>
@@ -504,10 +504,10 @@
   <string>three.glif</string>
   <key>three-ar</key>
   <string>three-ar.glif</string>
-  <key>three-ar.alt</key>
-  <string>three-ar.alt.glif</string>
-  <key>three.alt</key>
-  <string>three.alt.glif</string>
+  <key>three-ar.small</key>
+  <string>three-ar.small.glif</string>
+  <key>three.small</key>
+  <string>three.small.glif</string>
   <key>threedots-ar</key>
   <string>threedots-ar.glif</string>
   <key>threedots-ar.small</key>
@@ -530,10 +530,10 @@
   <string>two.glif</string>
   <key>two-ar</key>
   <string>two-ar.glif</string>
-  <key>two-ar.alt</key>
-  <string>two-ar.alt.glif</string>
-  <key>two.alt</key>
-  <string>two.alt.glif</string>
+  <key>two-ar.small</key>
+  <string>two-ar.small.glif</string>
+  <key>two.small</key>
+  <string>two.small.glif</string>
   <key>twodotshorizontalabove-ar</key>
   <string>twodotshorizontalabove-ar.glif</string>
   <key>twodotshorizontalbelow-ar</key>
@@ -594,9 +594,9 @@
   <string>zero.glif</string>
   <key>zero-ar</key>
   <string>zero-ar.glif</string>
-  <key>zero-ar.alt</key>
-  <string>zero-ar.alt.glif</string>
-  <key>zero.alt</key>
-  <string>zero.alt.glif</string>
+  <key>zero-ar.small</key>
+  <string>zero-ar.small.glif</string>
+  <key>zero.small</key>
+  <string>zero.small.glif</string>
 </dict>
 </plist>

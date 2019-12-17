@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nine.small" format="2">
+  <outline>
+    <contour>
+      <point x="290" y="96" type="curve"/>
+      <point x="299" y="145" type="line"/>
+      <point x="284" y="132"/>
+      <point x="258" y="113"/>
+      <point x="207" y="113" type="curve"/>
+      <point x="118" y="113"/>
+      <point x="70" y="201"/>
+      <point x="70" y="283" type="curve"/>
+      <point x="70" y="364"/>
+      <point x="107" y="422"/>
+      <point x="170" y="422" type="curve"/>
+      <point x="232" y="422"/>
+      <point x="299" y="358"/>
+      <point x="299" y="225" type="curve"/>
+      <point x="299" y="103"/>
+      <point x="226" y="-71"/>
+      <point x="-1" y="-136" type="curve"/>
+      <point x="20" y="-166" type="line"/>
+      <point x="303" y="-90"/>
+      <point x="394" y="83"/>
+      <point x="394" y="236" type="curve"/>
+      <point x="394" y="363"/>
+      <point x="319" y="466"/>
+      <point x="182" y="466" type="curve"/>
+      <point x="51" y="466"/>
+      <point x="-23" y="362"/>
+      <point x="-23" y="258" type="curve"/>
+      <point x="-23" y="161"/>
+      <point x="41" y="57"/>
+      <point x="163" y="57" type="curve"/>
+      <point x="221" y="57"/>
+      <point x="258" y="77"/>
+    </contour>
+  </outline>
+</glyph>

@@ -66,8 +66,8 @@
   <string>fehD_otless-ar.medi.glif</string>
   <key>five</key>
   <string>five.glif</string>
-  <key>five.alt</key>
-  <string>five.alt.glif</string>
+  <key>five.small</key>
+  <string>five.small.glif</string>
   <key>greaterequal</key>
   <string>greaterequal.glif</string>
   <key>hah-ar.fina</key>
@@ -166,8 +166,8 @@
   <string>seen-ar.medi.flat.glif</string>
   <key>seven-ar</key>
   <string>seven-ar.glif</string>
-  <key>seven-ar.alt</key>
-  <string>seven-ar.alt.glif</string>
+  <key>seven-ar.small</key>
+  <string>seven-ar.small.glif</string>
   <key>six</key>
   <string>six.glif</string>
   <key>sterling</key>
@@ -178,8 +178,8 @@
   <string>summation.rtl.glif</string>
   <key>tah-ar.init</key>
   <string>tah-ar.init.glif</string>
-  <key>three.alt</key>
-  <string>three.alt.glif</string>
+  <key>three.small</key>
+  <string>three.small.glif</string>
   <key>threequarters</key>
   <string>threequarters.glif</string>
   <key>threesuperior</key>

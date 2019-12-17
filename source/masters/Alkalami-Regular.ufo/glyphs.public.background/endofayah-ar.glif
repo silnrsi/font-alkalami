@@ -195,6 +195,6 @@
       <point x="459" y="-70" type="move"/>
       <point x="459" y="-220" type="line"/>
     </contour>
-    <component base="eight.alt" xOffset="450"/>
+    <component base="eight.small" xOffset="450"/>
   </outline>
 </glyph>
