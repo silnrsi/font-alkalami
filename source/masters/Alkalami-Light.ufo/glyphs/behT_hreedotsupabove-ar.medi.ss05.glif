@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="behThreedotsupabove-ar.medi.ss05" format="2">
+  <advance width="289"/>
+  <anchor x="115" y="-227" name="bottom"/>
+  <anchor x="97" y="550" name="top"/>
+  <outline>
+    <component base="behDotless-ar.medi"/>
+    <component base="dotbelow-ar" xOffset="19" yOffset="-30"/>
+    <component base="threedots-ar.small" xOffset="-4" yOffset="312"/>
+  </outline>
+</glyph>

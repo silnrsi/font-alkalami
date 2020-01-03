@@ -456,12 +456,22 @@
   <string>behT_hreedotsupabove-ar.glif</string>
   <key>behThreedotsupabove-ar.fina</key>
   <string>behT_hreedotsupabove-ar.fina.glif</string>
+  <key>behThreedotsupabove-ar.fina.ss05</key>
+  <string>behT_hreedotsupabove-ar.fina.ss05.glif</string>
   <key>behThreedotsupabove-ar.init</key>
   <string>behT_hreedotsupabove-ar.init.glif</string>
+  <key>behThreedotsupabove-ar.init.ss05</key>
+  <string>behT_hreedotsupabove-ar.init.ss05.glif</string>
   <key>behThreedotsupabove-ar.medi</key>
   <string>behT_hreedotsupabove-ar.medi.glif</string>
   <key>behThreedotsupabove-ar.medi.flat</key>
   <string>behT_hreedotsupabove-ar.medi.flat.glif</string>
+  <key>behThreedotsupabove-ar.medi.flat.ss05</key>
+  <string>behT_hreedotsupabove-ar.medi.flat.ss05.glif</string>
+  <key>behThreedotsupabove-ar.medi.ss05</key>
+  <string>behT_hreedotsupabove-ar.medi.ss05.glif</string>
+  <key>behThreedotsupabove-ar.ss05</key>
+  <string>behT_hreedotsupabove-ar.ss05.glif</string>
   <key>behThreedotsupbelow-ar</key>
   <string>behT_hreedotsupbelow-ar.glif</string>
   <key>behThreedotsupbelow-ar.fina</key>
@@ -1810,6 +1820,8 @@
   <string>yeh-farsi.medi.glif</string>
   <key>yeh-farsi.medi.flat</key>
   <string>yeh-farsi.medi.flat.glif</string>
+  <key>yeh-farsi.medi.flat.ss05</key>
+  <string>yeh-farsi.medi.flat.ss05.glif</string>
   <key>yeh-farsi.medi.ss05</key>
   <string>yeh-farsi.medi.ss05.glif</string>
   <key>yeh-farsi.ss05</key>
@@ -1838,6 +1850,8 @@
   <string>yehT_hreedotsabove-farsi.medi.ss05.glif</string>
   <key>yehThreedotsabove-farsi.ss05</key>
   <string>yehT_hreedotsabove-farsi.ss05.glif</string>
+  <key>yehThreedotsabove.medi.flat</key>
+  <string>yehT_hreedotsabove.medi.flat.glif</string>
   <key>yehThreedotsabove.medi.flat.ss05</key>
   <string>yehT_hreedotsabove.medi.flat.ss05.glif</string>
   <key>yehThreedotsbelow-ar</key>
