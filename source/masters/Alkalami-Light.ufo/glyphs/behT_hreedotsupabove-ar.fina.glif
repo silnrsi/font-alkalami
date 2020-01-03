@@ -2,9 +2,10 @@
 <glyph name="behThreedotsupabove-ar.fina" format="2">
   <advance width="425"/>
   <anchor x="294" y="-227" name="bottom"/>
-  <anchor x="235" y="300" name="top"/>
+  <anchor x="211" y="646" name="top"/>
   <outline>
     <component base="behDotless-ar.fina"/>
     <component base="dotbelow-ar" xOffset="142" yOffset="-30"/>
+    <component base="threedotsupabove-ar" xOffset="77" yOffset="15"/>
   </outline>
 </glyph>

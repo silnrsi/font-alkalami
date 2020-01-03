@@ -3,9 +3,10 @@
   <advance width="441"/>
   <unicode hex="0751"/>
   <anchor x="217" y="-267" name="bottom"/>
-  <anchor x="225" y="297" name="top"/>
+  <anchor x="291" y="689" name="top"/>
   <outline>
     <component base="behDotless-ar"/>
     <component base="dotbelow-ar" xOffset="109"/>
+    <component base="threedotsupabove-ar" xOffset="108" yOffset="-19"/>
   </outline>
 </glyph>
