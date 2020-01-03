@@ -326,26 +326,26 @@ languagesystem latn dflt;
 ];
 
 @Digits.small = [
-	zero.alt
-	one.alt
-	two.alt
-	three.alt
-	four.alt
-	five.alt
-	six.alt
-	seven.alt
-	eight.alt
-	nine.alt
-	zero-ar.alt
-	one-ar.alt
-	two-ar.alt
-	three-ar.alt
-	four-ar.alt
-	five-ar.alt
-	six-ar.alt
-	seven-ar.alt
-	eight-ar.alt
-	nine-ar.alt
+	zero.small
+	one.small
+	two.small
+	three.small
+	four.small
+	five.small
+	six.small
+	seven.small
+	eight.small
+	nine.small
+	zero-ar.small
+	one-ar.small
+	two-ar.small
+	three-ar.small
+	four-ar.small
+	five-ar.small
+	six-ar.small
+	seven-ar.small
+	eight-ar.small
+	nine-ar.small
 ];
 
 
@@ -753,10 +753,10 @@ feature rlig {
 @c_tailShort = [ @c_shrtail  noon-ar.shrtail.ss01   noon-ar.shrtail.ss01   yeh-ar.shrtail.ss01   yeh-ar.fina.shrtail.ss01];
 @c_tailLong = [ @c_longtail  noon-ar.longtail.ss01  noon-ar.longtail.ss01  yeh-ar.longtail.ss01  yeh-ar.fina.longtail.ss01];
 
-@cno_numAlt = [zero   one     two     three     four     five     six     seven     eight     nine];
-@c_numAlt = [zero.alt one.alt two.alt three.alt four.alt five.alt six.alt seven.alt eight.alt nine.alt];
-@cno_numArAlt = [zero-ar   one-ar     two-ar     three-ar     four-ar     five-ar     six-ar     seven-ar     eight-ar     nine-ar];
-@c_numArAlt = [zero-ar.alt one-ar.alt two-ar.alt three-ar.alt four-ar.alt five-ar.alt six-ar.alt seven-ar.alt eight-ar.alt nine-ar.alt];
+#@cno_numAlt = [zero   one     two     three     four     five     six     seven     eight     nine];
+#@c_numAlt = [zero.small one.alt two.small three.small four.small five.small six.small seven.small eight.small nine.small];
+#@cno_numArAlt = [zero-ar   one-ar     two-ar     three-ar     four-ar     five-ar     six-ar     seven-ar     eight-ar     nine-ar];
+#@c_numArAlt = [zero-ar.small one-ar.small two-ar.small three-ar.small four-ar.small five-ar.small six-ar.small seven-ar.small eight-ar.small nine-ar.small];
 
 feature salt {
 	lookup salt_lkp {
@@ -796,11 +796,11 @@ feature salt {
 		sub e-ar.medi by e-ar.medi.flat;
 
 		# alternate stacking; handled by calt
-		sub jeem-ar.fina by jeem-ar.fina.alt;  
+		sub jeem-ar.fina by jeem-ar.fina.alt;
 		sub nyeh-ar.fina by nyeh-ar.fina.alt;
 		sub hah-ar.fina by hah-ar.fina.alt;
 		sub khah-ar.fina by khah-ar.fina.alt;
-		
+
 		# taller initial stroke - not used
 		sub beh-ar.init by beh-ar.init.alt;
 
@@ -821,8 +821,8 @@ feature salt {
 		sub ainThreedots-ar.fina.ss05 by ainThreedots-ar.fina.alt.ss05;
 
 		# small latin and arabic digits for end of ayah - handled by calt
-		sub @cno_numAlt by @c_numAlt;
-		sub @cno_numArAlt by @c_numArAlt;
+		#sub @cno_numAlt by @c_numAlt;
+		#sub @cno_numArAlt by @c_numArAlt;
 	} salt_lkp;
 
 	# multiple tail swashes - handled by calt
