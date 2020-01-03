@@ -22,20 +22,20 @@
   <string>1268</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>Aa?gc/replacementCharacter defs</string>
-    <string>DE//F/lozenge Eabc </string>
+    <string>Aa?gc/replacementCharacter defs
+DE//F/lozenge Eabc</string>
     <string>7/notequal 4=8/approxequal 3/greaterequal 1=5/lessequal &lt;</string>
-    <string>1/bulletoperator 6/bulletoperator 4/bulletoperator 2</string>
-    <string> 21x3 /infinity  8a58b9</string>
+    <string> 21x3 /infinity  8a58b9
+1/bulletoperator 6/bulletoperator 4/bulletoperator 2</string>
     <string>/partialdiff dpoðoc</string>
     <string>Hti/pi hT</string>
     <string> 8828/radical 
 /radical.rtl/nine-ar/nine-ar/nine-ar</string>
-    <string>/Ohm T/Delta/summation.rtl/product RK/summation E </string>
+    <string>/Ohm T/Delta/summation.rtl/product ORK/summation E </string>
     <string> /partialdiff/partialdiff.rtl 6 </string>
     <string>/yehThreedotsabove.medi.flat.ss05  /yehThreedotsabove-farsi/yehThreedotsabove-farsi.medi/yehThreedotsabove-farsi.fina/yehThreedotsabove-farsi   /theh-ar.medi.flat  /theh-ar/theh-ar.medi/theh-ar.fina/theh-ar   /behThreedotsupabove-ar.medi.flat  /behThreedotsupabove-ar.init/behThreedotsupabove-ar.medi/behThreedotsupabove-ar.fina/behThreedotsupabove-ar  
 /beh-ar.medi.flat  /beh-ar.init/beh-ar.medi/beh-ar.fina/beh-ar</string>
-    <string>/yeh-farsi.medi.flat  /yeh-farsi.medi.flat.ss05  /beeh-ar.medi.flat.ss05  /yehThreedotsabove.medi.flat.ss05  /yehThreedotsabove.medi.flat  /theh-ar.medi.flat</string>
+    <string>/ainThreedots-ar.ss05/ainThreedots-ar.fina.ss05/ainThreedots-ar.medi.ss05/ainThreedots-ar.init.ss05/ainThreedots-ar.medi.flat.ss05/ainThreedots-ar.fina.alt.ss05</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
