@@ -707,12 +707,12 @@ feature fina {
 } fina;
 
 feature dlig {
-	sub f [i  l] by [f_i  f_l];
+	sub f [i  l] by [fi  fl];
 } dlig;
 
-feature liga {
-	sub f f by f_f;
-} liga;
+#feature liga {
+#	sub f f by f_f;
+#} liga;
 
 
 #@alef_takes_lamLig_init = [ alef-ar.fina  alef-ar.fina  alefHamzaabove-ar.fina  alefHamzaabove-ar.fina  alefHamzabelow-ar.fina  alefMadda-ar.fina  alefMadda-ar.fina ];
