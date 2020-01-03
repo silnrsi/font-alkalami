@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehThreedotsabove-farsi" format="2">
+  <advance width="524"/>
+  <unicode hex="063F"/>
+  <anchor x="391" y="-139" name="bottom"/>
+  <anchor x="132" y="687" name="top"/>
+  <outline>
+    <component base="alefMaksura-ar"/>
+    <component base="threedotsupabove-ar" xOffset="-37" yOffset="-18"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

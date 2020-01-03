@@ -1812,6 +1812,22 @@
   <string>yehH_amzaabove-ar.init.glif</string>
   <key>yehHamzaabove-ar.medi</key>
   <string>yehH_amzaabove-ar.medi.glif</string>
+  <key>yehThreedotsabove-farsi</key>
+  <string>yehT_hreedotsabove-farsi.glif</string>
+  <key>yehThreedotsabove-farsi.fina</key>
+  <string>yehT_hreedotsabove-farsi.fina.glif</string>
+  <key>yehThreedotsabove-farsi.fina.ss05</key>
+  <string>yehT_hreedotsabove-farsi.fina.ss05.glif</string>
+  <key>yehThreedotsabove-farsi.init</key>
+  <string>yehT_hreedotsabove-farsi.init.glif</string>
+  <key>yehThreedotsabove-farsi.init.ss05</key>
+  <string>yehT_hreedotsabove-farsi.init.ss05.glif</string>
+  <key>yehThreedotsabove-farsi.medi</key>
+  <string>yehT_hreedotsabove-farsi.medi.glif</string>
+  <key>yehThreedotsabove-farsi.medi.ss05</key>
+  <string>yehT_hreedotsabove-farsi.medi.ss05.glif</string>
+  <key>yehThreedotsabove-farsi.ss05</key>
+  <string>yehT_hreedotsabove-farsi.ss05.glif</string>
   <key>yehThreedotsbelow-ar</key>
   <string>yehT_hreedotsbelow-ar.glif</string>
   <key>yehThreedotsbelow-ar.fina</key>

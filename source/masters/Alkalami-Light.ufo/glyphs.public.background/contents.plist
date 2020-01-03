@@ -198,6 +198,14 @@
   <string>yeh-farsi.fina.ss05.glif</string>
   <key>yeh-farsi.ss05</key>
   <string>yeh-farsi.ss05.glif</string>
+  <key>yehThreedotsabove-farsi</key>
+  <string>yehT_hreedotsabove-farsi.glif</string>
+  <key>yehThreedotsabove-farsi.fina</key>
+  <string>yehT_hreedotsabove-farsi.fina.glif</string>
+  <key>yehThreedotsabove-farsi.fina.ss05</key>
+  <string>yehT_hreedotsabove-farsi.fina.ss05.glif</string>
+  <key>yehThreedotsabove-farsi.ss05</key>
+  <string>yehT_hreedotsabove-farsi.ss05.glif</string>
   <key>yehbarree-ar</key>
   <string>yehbarree-ar.glif</string>
 </dict>
