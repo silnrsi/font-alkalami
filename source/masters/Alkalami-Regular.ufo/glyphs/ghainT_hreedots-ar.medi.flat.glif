@@ -2,10 +2,10 @@
 <glyph name="ghainThreedots-ar.medi.flat" format="2">
   <advance width="382"/>
   <anchor x="142" y="-40" name="bottom"/>
-  <anchor x="142" y="1484" name="top"/>
+  <anchor x="142" y="1412" name="top"/>
   <outline>
     <component base="ain-ar.medi.flat"/>
     <component base="dotabove-ar" xOffset="47" yOffset="538"/>
-    <component base="threedotsupabove-ar" xOffset="-38" yOffset="758"/>
+    <component base="threedotsupabove-ar" xScale="0.826" yScale="0.826" xOffset="-3" yOffset="808"/>
   </outline>
 </glyph>

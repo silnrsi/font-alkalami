@@ -1378,14 +1378,28 @@
   <string>qaf-ar.medi.glif</string>
   <key>qafAfrican-ar</key>
   <string>qafA_frican-ar.glif</string>
-  <key>qafAfrican-ar.001</key>
-  <string>qafA_frican-ar.001.glif</string>
   <key>qafAfrican-ar.fina</key>
   <string>qafA_frican-ar.fina.glif</string>
   <key>qafAfrican-ar.init</key>
   <string>qafA_frican-ar.init.glif</string>
   <key>qafAfrican-ar.medi</key>
   <string>qafA_frican-ar.medi.glif</string>
+  <key>qafAfricanThreedotsabove-ar</key>
+  <string>qafA_fricanT_hreedotsabove-ar.glif</string>
+  <key>qafAfricanThreedotsabove-ar.fina</key>
+  <string>qafA_fricanT_hreedotsabove-ar.fina.glif</string>
+  <key>qafAfricanThreedotsabove-ar.fina.ss05</key>
+  <string>qafA_fricanT_hreedotsabove-ar.fina.ss05.glif</string>
+  <key>qafAfricanThreedotsabove-ar.init</key>
+  <string>qafA_fricanT_hreedotsabove-ar.init.glif</string>
+  <key>qafAfricanThreedotsabove-ar.init.ss05</key>
+  <string>qafA_fricanT_hreedotsabove-ar.init.ss05.glif</string>
+  <key>qafAfricanThreedotsabove-ar.medi</key>
+  <string>qafA_fricanT_hreedotsabove-ar.medi.glif</string>
+  <key>qafAfricanThreedotsabove-ar.medi.ss05</key>
+  <string>qafA_fricanT_hreedotsabove-ar.medi.ss05.glif</string>
+  <key>qafAfricanThreedotsabove-ar.ss05</key>
+  <string>qafA_fricanT_hreedotsabove-ar.ss05.glif</string>
   <key>qafDotabove-ar</key>
   <string>qafD_otabove-ar.glif</string>
   <key>qafDotabove-ar.001</key>
@@ -1414,8 +1428,6 @@
   <string>qafD_otless-ar.medi.glif</string>
   <key>qafThreedotsabove-ar</key>
   <string>qafT_hreedotsabove-ar.glif</string>
-  <key>qafThreedotsabove-ar.001</key>
-  <string>qafT_hreedotsabove-ar.001.glif</string>
   <key>qafThreedotsabove-ar.fina</key>
   <string>qafT_hreedotsabove-ar.fina.glif</string>
   <key>qafThreedotsabove-ar.fina.ss05</key>
@@ -1430,8 +1442,6 @@
   <string>qafT_hreedotsabove-ar.medi.ss05.glif</string>
   <key>qafThreedotsabove-ar.ss05</key>
   <string>qafT_hreedotsabove-ar.ss05.glif</string>
-  <key>qafThreedotsabove-ar.ss05.001</key>
-  <string>qafT_hreedotsabove-ar.ss05.001.glif</string>
   <key>question</key>
   <string>question.glif</string>
   <key>question-ar</key>
