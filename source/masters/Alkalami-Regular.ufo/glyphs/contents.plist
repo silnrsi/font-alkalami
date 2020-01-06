@@ -42,8 +42,6 @@
   <string>C_cedilla.glif</string>
   <key>D</key>
   <string>D_.glif</string>
-  <key>Dcroat</key>
-  <string>D_croat.glif</string>
   <key>Delta</key>
   <string>D_elta.glif</string>
   <key>E</key>
@@ -618,8 +616,6 @@
   <string>dammatan-ar.glif</string>
   <key>dcaron</key>
   <string>dcaron.glif</string>
-  <key>dcroat</key>
-  <string>dcroat.glif</string>
   <key>decimalseparator-ar</key>
   <string>decimalseparator-ar.glif</string>
   <key>degree</key>
@@ -808,8 +804,6 @@
   <string>four.small.glif</string>
   <key>fourperemspace</key>
   <string>fourperemspace.glif</string>
-  <key>foursuperior</key>
-  <string>foursuperior.glif</string>
   <key>fraction</key>
   <string>fraction.glif</string>
   <key>g</key>
@@ -1368,8 +1362,6 @@
   <string>q.glif</string>
   <key>qaf-ar</key>
   <string>qaf-ar.glif</string>
-  <key>qaf-ar.001</key>
-  <string>qaf-ar.001.glif</string>
   <key>qaf-ar.fina</key>
   <string>qaf-ar.fina.glif</string>
   <key>qaf-ar.init</key>
@@ -1402,8 +1394,6 @@
   <string>qafA_fricanT_hreedotsabove-ar.ss05.glif</string>
   <key>qafDotabove-ar</key>
   <string>qafD_otabove-ar.glif</string>
-  <key>qafDotabove-ar.001</key>
-  <string>qafD_otabove-ar.001.glif</string>
   <key>qafDotabove-ar.fina</key>
   <string>qafD_otabove-ar.fina.glif</string>
   <key>qafDotabove-ar.fina.ss01</key>
@@ -1414,12 +1404,8 @@
   <string>qafD_otabove-ar.medi.glif</string>
   <key>qafDotabove-ar.ss01</key>
   <string>qafD_otabove-ar.ss01.glif</string>
-  <key>qafDotabove-ar.ss01.001</key>
-  <string>qafD_otabove-ar.ss01.001.glif</string>
   <key>qafDotless-ar</key>
   <string>qafD_otless-ar.glif</string>
-  <key>qafDotless-ar.001</key>
-  <string>qafD_otless-ar.001.glif</string>
   <key>qafDotless-ar.fina</key>
   <string>qafD_otless-ar.fina.glif</string>
   <key>qafDotless-ar.init</key>
@@ -1876,14 +1862,14 @@
   <string>yehT_hreedotsabove-farsi.init.ss05.glif</string>
   <key>yehThreedotsabove-farsi.medi</key>
   <string>yehT_hreedotsabove-farsi.medi.glif</string>
+  <key>yehThreedotsabove-farsi.medi.flat</key>
+  <string>yehT_hreedotsabove-farsi.medi.flat.glif</string>
+  <key>yehThreedotsabove-farsi.medi.flat.ss05</key>
+  <string>yehT_hreedotsabove-farsi.medi.flat.ss05.glif</string>
   <key>yehThreedotsabove-farsi.medi.ss05</key>
   <string>yehT_hreedotsabove-farsi.medi.ss05.glif</string>
   <key>yehThreedotsabove-farsi.ss05</key>
   <string>yehT_hreedotsabove-farsi.ss05.glif</string>
-  <key>yehThreedotsabove.medi.flat</key>
-  <string>yehT_hreedotsabove.medi.flat.glif</string>
-  <key>yehThreedotsabove.medi.flat.ss05</key>
-  <string>yehT_hreedotsabove.medi.flat.ss05.glif</string>
   <key>yehThreedotsbelow-ar</key>
   <string>yehT_hreedotsbelow-ar.glif</string>
   <key>yehThreedotsbelow-ar.fina</key>
