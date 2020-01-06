@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ghainThreedots-ar.init.ss05" format="2">
+  <advance width="503"/>
+  <anchor x="271" y="-30" name="bottom"/>
+  <anchor x="274" y="747" name="top"/>
+  <outline>
+    <component base="ain-ar.init"/>
+    <component base="threedots-ar.small" xOffset="152" yOffset="528"/>
+    <component base="dotabove-ar" xOffset="158" yOffset="38"/>
+  </outline>
+</glyph>

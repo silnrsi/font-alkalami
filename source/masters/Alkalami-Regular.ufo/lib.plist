@@ -35,7 +35,8 @@ DE//F/lozenge Eabc</string>
     <string> /partialdiff/partialdiff.rtl 6 </string>
     <string>/yehThreedotsabove.medi.flat.ss05  /yehThreedotsabove-farsi/yehThreedotsabove-farsi.medi/yehThreedotsabove-farsi.fina/yehThreedotsabove-farsi   /theh-ar.medi.flat  /theh-ar/theh-ar.medi/theh-ar.fina/theh-ar   /behThreedotsupabove-ar.medi.flat  /behThreedotsupabove-ar.init/behThreedotsupabove-ar.medi/behThreedotsupabove-ar.fina/behThreedotsupabove-ar  
 /beh-ar.medi.flat  /beh-ar.init/beh-ar.medi/beh-ar.fina/beh-ar</string>
-    <string>/ainThreedots-ar.ss05/ainThreedots-ar.fina.ss05/ainThreedots-ar.medi.ss05/ainThreedots-ar.init.ss05/ainThreedots-ar.medi.flat.ss05/ainThreedots-ar.fina.alt.ss05</string>
+    <string>/ainThreedots-ar.ss05/ainThreedots-ar.fina.ss05/ainThreedots-ar.medi.ss05/ainThreedots-ar.init.ss05/ainThreedots-ar.medi.flat.ss05/ainThreedots-ar.fina.alt.ss05   /ghainThreedots-ar/ghainThreedots-ar.init/ghainThreedots-ar.medi/ghainThreedots-ar.medi.flat/ghainThreedots-ar.fina</string>
+    <string>/threedots-ar  /threedots-ar.small   /threedotsupabove-ar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

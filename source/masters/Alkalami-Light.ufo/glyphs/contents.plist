@@ -840,6 +840,26 @@
   <string>ghain-ar.medi.glif</string>
   <key>ghain-ar.medi.flat</key>
   <string>ghain-ar.medi.flat.glif</string>
+  <key>ghainThreedots-ar</key>
+  <string>ghainT_hreedots-ar.glif</string>
+  <key>ghainThreedots-ar.fina</key>
+  <string>ghainT_hreedots-ar.fina.glif</string>
+  <key>ghainThreedots-ar.fina.ss05</key>
+  <string>ghainT_hreedots-ar.fina.ss05.glif</string>
+  <key>ghainThreedots-ar.init</key>
+  <string>ghainT_hreedots-ar.init.glif</string>
+  <key>ghainThreedots-ar.init.ss05</key>
+  <string>ghainT_hreedots-ar.init.ss05.glif</string>
+  <key>ghainThreedots-ar.medi</key>
+  <string>ghainT_hreedots-ar.medi.glif</string>
+  <key>ghainThreedots-ar.medi.flat</key>
+  <string>ghainT_hreedots-ar.medi.flat.glif</string>
+  <key>ghainThreedots-ar.medi.flat.ss05</key>
+  <string>ghainT_hreedots-ar.medi.flat.ss05.glif</string>
+  <key>ghainThreedots-ar.medi.ss05</key>
+  <string>ghainT_hreedots-ar.medi.ss05.glif</string>
+  <key>ghainThreedots-ar.ss05</key>
+  <string>ghainT_hreedots-ar.ss05.glif</string>
   <key>grave</key>
   <string>grave.glif</string>
   <key>gravebelowcomb</key>
