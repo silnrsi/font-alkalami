@@ -354,10 +354,12 @@ DE//F/lozenge Eabc</string>
     <string>behThreedotsupabove-ar.fina</string>
     <string>behThreedotsupabove-ar.medi</string>
     <string>behThreedotsupabove-ar.init</string>
+    <string>behThreedotsupabove-ar.medi.flat</string>
     <string>behThreedotsupabove-ar.ss05</string>
     <string>behThreedotsupabove-ar.fina.ss05</string>
     <string>behThreedotsupabove-ar.medi.ss05</string>
     <string>behThreedotsupabove-ar.init.ss05</string>
+    <string>behThreedotsupabove-ar.medi.flat.ss05</string>
     <string>behThreedotsupbelow-ar</string>
     <string>behThreedotsupbelow-ar.fina</string>
     <string>behThreedotsupbelow-ar.medi</string>
@@ -509,10 +511,12 @@ DE//F/lozenge Eabc</string>
     <string>ghainThreedots-ar.fina</string>
     <string>ghainThreedots-ar.medi</string>
     <string>ghainThreedots-ar.init</string>
+    <string>ghainThreedots-ar.medi.flat</string>
     <string>ghainThreedots-ar.ss05</string>
     <string>ghainThreedots-ar.fina.ss05</string>
     <string>ghainThreedots-ar.medi.ss05</string>
     <string>ghainThreedots-ar.init.ss05</string>
+    <string>ghainThreedots-ar.medi.flat.ss05</string>
     <string>feh-ar</string>
     <string>feh-ar.fina</string>
     <string>feh-ar.medi</string>
@@ -727,14 +731,17 @@ DE//F/lozenge Eabc</string>
     <string>yeh-farsi.fina.ss05</string>
     <string>yeh-farsi.medi.ss05</string>
     <string>yeh-farsi.init.ss05</string>
+    <string>yeh-farsi.medi.flat.ss05</string>
     <string>yehThreedotsabove-farsi</string>
     <string>yehThreedotsabove-farsi.fina</string>
     <string>yehThreedotsabove-farsi.medi</string>
     <string>yehThreedotsabove-farsi.init</string>
+    <string>yehThreedotsabove-farsi.medi.flat</string>
     <string>yehThreedotsabove-farsi.ss05</string>
     <string>yehThreedotsabove-farsi.fina.ss05</string>
     <string>yehThreedotsabove-farsi.medi.ss05</string>
     <string>yehThreedotsabove-farsi.init.ss05</string>
+    <string>yehThreedotsabove-farsi.medi.flat.ss05</string>
     <string>e-ar</string>
     <string>e-ar.fina</string>
     <string>e-ar.medi</string>
@@ -773,6 +780,7 @@ DE//F/lozenge Eabc</string>
     <string>dotvowelbelow-ar</string>
     <string>dotvowelbelow-ar.ss04</string>
     <string>yehabove-ar</string>
+    <string>tatweel-ar</string>
     <string>zero-ar</string>
     <string>zero-ar.small</string>
     <string>one-ar</string>
@@ -1244,10 +1252,12 @@ DE//F/lozenge Eabc</string>
     <string>behThreedotsupabove-ar.fina</string>
     <string>behThreedotsupabove-ar.medi</string>
     <string>behThreedotsupabove-ar.init</string>
+    <string>behThreedotsupabove-ar.medi.flat</string>
     <string>behThreedotsupabove-ar.ss05</string>
     <string>behThreedotsupabove-ar.fina.ss05</string>
     <string>behThreedotsupabove-ar.medi.ss05</string>
     <string>behThreedotsupabove-ar.init.ss05</string>
+    <string>behThreedotsupabove-ar.medi.flat.ss05</string>
     <string>behThreedotsupbelow-ar</string>
     <string>behThreedotsupbelow-ar.fina</string>
     <string>behThreedotsupbelow-ar.medi</string>
@@ -1399,10 +1409,12 @@ DE//F/lozenge Eabc</string>
     <string>ghainThreedots-ar.fina</string>
     <string>ghainThreedots-ar.medi</string>
     <string>ghainThreedots-ar.init</string>
+    <string>ghainThreedots-ar.medi.flat</string>
     <string>ghainThreedots-ar.ss05</string>
     <string>ghainThreedots-ar.fina.ss05</string>
     <string>ghainThreedots-ar.medi.ss05</string>
     <string>ghainThreedots-ar.init.ss05</string>
+    <string>ghainThreedots-ar.medi.flat.ss05</string>
     <string>feh-ar</string>
     <string>feh-ar.fina</string>
     <string>feh-ar.medi</string>
@@ -1617,14 +1629,17 @@ DE//F/lozenge Eabc</string>
     <string>yeh-farsi.fina.ss05</string>
     <string>yeh-farsi.medi.ss05</string>
     <string>yeh-farsi.init.ss05</string>
+    <string>yeh-farsi.medi.flat.ss05</string>
     <string>yehThreedotsabove-farsi</string>
     <string>yehThreedotsabove-farsi.fina</string>
     <string>yehThreedotsabove-farsi.medi</string>
     <string>yehThreedotsabove-farsi.init</string>
+    <string>yehThreedotsabove-farsi.medi.flat</string>
     <string>yehThreedotsabove-farsi.ss05</string>
     <string>yehThreedotsabove-farsi.fina.ss05</string>
     <string>yehThreedotsabove-farsi.medi.ss05</string>
     <string>yehThreedotsabove-farsi.init.ss05</string>
+    <string>yehThreedotsabove-farsi.medi.flat.ss05</string>
     <string>e-ar</string>
     <string>e-ar.fina</string>
     <string>e-ar.medi</string>
@@ -1663,6 +1678,7 @@ DE//F/lozenge Eabc</string>
     <string>dotvowelbelow-ar</string>
     <string>dotvowelbelow-ar.ss04</string>
     <string>yehabove-ar</string>
+    <string>tatweel-ar</string>
     <string>zero-ar</string>
     <string>zero-ar.small</string>
     <string>one-ar</string>
@@ -2038,6 +2054,10 @@ DE//F/lozenge Eabc</string>
     <string>uni0751.init.ss05</string>
     <key>behThreedotsupabove-ar.medi</key>
     <string>uni0751.medi</string>
+    <key>behThreedotsupabove-ar.medi.flat</key>
+    <string>uni0751.medi.flat</string>
+    <key>behThreedotsupabove-ar.medi.flat.ss05</key>
+    <string>uni0751.medi.flat.ss05</string>
     <key>behThreedotsupabove-ar.medi.ss05</key>
     <string>uni0751.medi.ss05</string>
     <key>behThreedotsupabove-ar.ss05</key>
@@ -2282,6 +2302,10 @@ DE//F/lozenge Eabc</string>
     <string>uni08C3.init.ss05</string>
     <key>ghainThreedots-ar.medi</key>
     <string>uni08C3.medi</string>
+    <key>ghainThreedots-ar.medi.flat</key>
+    <string>uni08C3.medi.flat</string>
+    <key>ghainThreedots-ar.medi.flat.ss05</key>
+    <string>uni08C3.medi.flat.ss05</string>
     <key>ghainThreedots-ar.medi.ss05</key>
     <string>uni08C3.medi.ss05</string>
     <key>ghainThreedots-ar.ss05</key>
@@ -2836,6 +2860,8 @@ DE//F/lozenge Eabc</string>
     <string>uni069F.medi.ss05</string>
     <key>tahThreedots-ar.ss05</key>
     <string>uni069F.ss05</string>
+    <key>tatweel-ar</key>
+    <string>uni640</string>
     <key>teh-ar</key>
     <string>uni062A</string>
     <key>teh-ar.fina</key>
@@ -2978,6 +3004,8 @@ DE//F/lozenge Eabc</string>
     <string>uni06CC.medi</string>
     <key>yeh-farsi.medi.flat</key>
     <string>uni06CC.medi.flat</string>
+    <key>yeh-farsi.medi.flat.ss05</key>
+    <string>uni06CC.medi.flat.ss05</string>
     <key>yeh-farsi.medi.ss05</key>
     <string>uni06CC.medi.ss05</string>
     <key>yeh-farsi.ss05</key>
@@ -3002,6 +3030,10 @@ DE//F/lozenge Eabc</string>
     <string>uni063F.init.ss05</string>
     <key>yehThreedotsabove-farsi.medi</key>
     <string>uni063F.medi</string>
+    <key>yehThreedotsabove-farsi.medi.flat</key>
+    <string>uni063F.medi.flat</string>
+    <key>yehThreedotsabove-farsi.medi.flat.ss05</key>
+    <string>uni063F.medi.flat.ss05</string>
     <key>yehThreedotsabove-farsi.medi.ss05</key>
     <string>uni063F.medi.ss05</string>
     <key>yehThreedotsabove-farsi.ss05</key>
