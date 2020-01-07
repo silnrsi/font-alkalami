@@ -958,6 +958,19 @@ feature calt {
 } calt;
 
 
+# Mirroring
+
+feature rtlm {
+	#script arab;
+		sub @cno_rtl by @c_rtl;
+} rtlm;
+
+feature ltrm {
+	#script latn;
+		sub @c_rtl by @cno_rtl;
+} ltrm;
+
+
 # Warsh Hack alternate - has no dots on isolate and final
 
 feature ss01 {
