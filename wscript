@@ -59,7 +59,8 @@ designspace('source/Alkalami.designspace',
     instanceparams = '-l ' + genout + '${DS:NAME}_createintance.log',
     target = process('${DS:NAME}.ttf',
 #        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/masters/${DS:NAME}.ufo']),
-        cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
+#        Note: ttfautohint-generated hints don't maintain stroke thickness at joins (nor hamza), so we're not hinting these fonts
+#        cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
     ap = genout + '${DS:NAME}.xml',
     opentype = fea(genout + '${DS:FILENAME_BASE}.fea',
