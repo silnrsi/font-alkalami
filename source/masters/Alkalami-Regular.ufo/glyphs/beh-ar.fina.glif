@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="beh-ar.fina" format="2">
   <advance width="444"/>
-  <unicode hex="FE90"/>
   <anchor x="207" y="-267" name="bottom"/>
   <anchor x="255" y="297" name="top"/>
   <outline>

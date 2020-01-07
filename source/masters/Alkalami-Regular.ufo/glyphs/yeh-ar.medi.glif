@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yeh-ar.medi" format="2">
   <advance width="329"/>
-  <unicode hex="FEF4"/>
   <anchor x="158" y="-240" name="bottom"/>
   <anchor x="192" y="297" name="top"/>
   <outline>

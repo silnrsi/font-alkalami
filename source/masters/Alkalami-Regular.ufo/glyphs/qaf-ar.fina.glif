@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qaf-ar.fina" format="2">
   <advance width="536"/>
-  <unicode hex="FED6"/>
   <anchor x="-225" y="-444" name="bottom"/>
   <anchor x="188" y="670" name="top"/>
   <outline>

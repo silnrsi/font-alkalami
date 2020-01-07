@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="waw-ar.fina" format="2">
   <advance width="506"/>
-  <unicode hex="FEEE"/>
   <anchor x="326" y="-211" name="bottom"/>
   <anchor x="171" y="370" name="top"/>
   <outline>

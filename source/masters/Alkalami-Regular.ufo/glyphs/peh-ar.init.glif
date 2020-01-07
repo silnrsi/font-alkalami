@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="peh-ar.init" format="2">
   <advance width="450"/>
-  <unicode hex="FB58"/>
   <anchor x="175" y="-444" name="bottom"/>
   <anchor x="155" y="297" name="top"/>
   <outline>

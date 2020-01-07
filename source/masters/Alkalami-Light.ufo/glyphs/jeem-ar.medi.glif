@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jeem-ar.medi" format="2">
   <advance width="465"/>
-  <unicode hex="FEA0"/>
   <anchor x="246" y="-240" name="bottom"/>
   <anchor x="272" y="358" name="top"/>
   <outline>

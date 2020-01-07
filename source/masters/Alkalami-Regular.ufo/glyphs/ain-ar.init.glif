@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ain-ar.init" format="2">
   <advance width="483"/>
-  <unicode hex="FECB"/>
   <anchor x="262" y="-40" name="bottom"/>
   <anchor x="271" y="390" name="top"/>
   <outline>

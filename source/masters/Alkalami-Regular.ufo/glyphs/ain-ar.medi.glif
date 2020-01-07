@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ain-ar.medi" format="2">
   <advance width="572"/>
-  <unicode hex="FECC"/>
   <anchor x="294" y="-40" name="bottom"/>
   <anchor x="295" y="665" name="top"/>
   <outline>

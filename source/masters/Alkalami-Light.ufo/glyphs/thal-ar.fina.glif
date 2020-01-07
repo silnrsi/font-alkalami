@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="thal-ar.fina" format="2">
   <advance width="434"/>
-  <unicode hex="FEAC"/>
   <anchor x="306" y="-60" name="bottom"/>
   <anchor x="259" y="484" name="top"/>
   <outline>

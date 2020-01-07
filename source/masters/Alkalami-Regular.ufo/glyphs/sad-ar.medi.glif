@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sad-ar.medi" format="2">
   <advance width="736"/>
-  <unicode hex="FEBC"/>
   <anchor x="362" y="-40" name="bottom"/>
   <anchor x="374" y="430" name="top"/>
   <outline>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lam_alefHamzabelow-ar.fina" format="2">
   <advance width="517"/>
-  <unicode hex="FEFA"/>
   <anchor x="309" y="0" name="caret_1"/>
   <outline>
     <component base="hamzabelow-ar" xOffset="40" yOffset="-20"/>

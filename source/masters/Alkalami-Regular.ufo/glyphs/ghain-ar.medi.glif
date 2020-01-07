@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ghain-ar.medi" format="2">
   <advance width="572"/>
-  <unicode hex="FED0"/>
   <anchor x="282" y="-40" name="bottom"/>
   <anchor x="295" y="880" name="top"/>
   <outline>

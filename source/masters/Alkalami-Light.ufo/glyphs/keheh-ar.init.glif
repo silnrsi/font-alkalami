@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="keheh-ar.init" format="2">
   <advance width="757"/>
-  <unicode hex="FB90"/>
   <anchor x="400" y="-30" name="bottom"/>
   <anchor x="205" y="467" name="top"/>
   <outline>

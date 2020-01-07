@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="feh-ar.init" format="2">
   <advance width="520"/>
-  <unicode hex="FED3"/>
   <anchor x="262" y="-40" name="bottom"/>
   <anchor x="172" y="818" name="top"/>
   <outline>

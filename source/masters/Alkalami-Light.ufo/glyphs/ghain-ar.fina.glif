@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ghain-ar.fina" format="2">
   <advance width="584"/>
-  <unicode hex="FECE"/>
   <anchor x="310" y="-58" name="bottom"/>
   <anchor x="290" y="732" name="top"/>
   <outline>

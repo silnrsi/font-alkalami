@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heh-ar.fina" format="2">
   <advance width="514"/>
-  <unicode hex="FEEA"/>
   <anchor x="282" y="-40" name="bottom"/>
   <anchor x="264" y="426" name="top"/>
   <outline>

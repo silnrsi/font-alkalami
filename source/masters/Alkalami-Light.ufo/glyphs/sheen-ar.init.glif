@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sheen-ar.init" format="2">
   <advance width="551"/>
-  <unicode hex="FEB7"/>
   <anchor x="343" y="-30" name="bottom"/>
   <anchor x="315" y="660" name="top"/>
   <outline>

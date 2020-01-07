@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sad-ar.init" format="2">
   <advance width="747"/>
-  <unicode hex="FEBB"/>
   <anchor x="362" y="-40" name="bottom"/>
   <anchor x="374" y="430" name="top"/>
   <outline>
