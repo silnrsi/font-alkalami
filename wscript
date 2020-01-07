@@ -78,5 +78,5 @@ designspace('source/Alkalami.designspace',
 
 
 def configure(ctx):
-    ctx.find_program('ttfautohint')
-#    ctx.find_program('psfchangettfglyphnames')
+   ctx.find_program('psfchangettfglyphnames')
+#    ctx.find_program('ttfautohint')
