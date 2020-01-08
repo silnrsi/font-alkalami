@@ -33,8 +33,8 @@ DE//F/lozenge Eabc</string>
 /radical.rtl/nine-ar/nine-ar/nine-ar</string>
     <string>O/Ohm T/Delta/summation.rtl/product ORK/summation E  </string>
     <string> /partialdiff/partialdiff.rtl 6 </string>
-    <string>/ainThreedots-ar.ss05/ainThreedots-ar.fina.ss05/ainThreedots-ar.medi.ss05/ainThreedots-ar.init.ss05/ainThreedots-ar.medi.flat.ss05/ainThreedots-ar.fina.alt.ss05   /ghainThreedots-ar/ghainThreedots-ar.init/ghainThreedots-ar.medi/ghainThreedots-ar.medi.flat  /ghainThreedots-ar.fina</string>
-    <string>/qafAfricanThreedotsabove-ar/qafAfricanThreedotsabove-ar.fina/qafAfricanThreedotsabove-ar.medi/qafAfricanThreedotsabove-ar.init  /qafAfricanThreedotsabove-ar.ss05/qafAfricanThreedotsabove-ar.init.ss05</string>
+    <string>¼</string>
+    <string>¾</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
