@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qafAfricanThreedotsabove-ar" format="2">
   <advance width="510"/>
+  <unicode hex="08C4"/>
   <anchor x="-225" y="-444" name="bottom"/>
   <anchor x="117" y="705" name="top"/>
   <outline>
