@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qafDotless-ar.fina" format="2">
   <advance width="536"/>
-  <anchor x="336" y="-204" name="bottom"/>
+  <anchor x="355" y="-248" name="bottom"/>
   <anchor x="159" y="374" name="top"/>
   <outline>
     <contour>
