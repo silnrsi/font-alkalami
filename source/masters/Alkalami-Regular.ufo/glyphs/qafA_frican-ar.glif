@@ -2,7 +2,7 @@
 <glyph name="qafAfrican-ar" format="2">
   <advance width="510"/>
   <unicode hex="08BC"/>
-  <anchor x="-225" y="-444" name="bottom"/>
+  <anchor x="355" y="-248" name="bottom"/>
   <anchor x="195" y="578" name="top"/>
   <outline>
     <component base="qafDotless-ar"/>

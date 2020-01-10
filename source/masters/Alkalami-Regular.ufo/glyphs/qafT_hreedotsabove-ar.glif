@@ -2,7 +2,7 @@
 <glyph name="qafThreedotsabove-ar" format="2">
   <advance width="510"/>
   <unicode hex="06A8"/>
-  <anchor x="-225" y="-444" name="bottom"/>
+  <anchor x="355" y="-248" name="bottom"/>
   <anchor x="117" y="705" name="top"/>
   <outline>
     <component base="qafDotless-ar"/>
