@@ -34,8 +34,6 @@ DE//F/lozenge Eabc</string>
     <string>O/Ohm T/Delta/summation.rtl/product ORK/summation E  </string>
     <string> /partialdiff/partialdiff.rtl 6 </string>
     <string>/nyeh-ar.fina/nyeh-ar.fina.alt/nyeh-ar.fina.ss07  /jeem-ar.fina.ss07/jeem-ar.fina.alt/jeem-ar.fina  /hah-ar.fina.ss07/hah-ar.fina.alt/hah-ar.fina</string>
-    <string>/blank</string>
-    <string>/lozenge</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

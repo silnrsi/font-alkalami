@@ -46,10 +46,10 @@
   <string>E_th.glif</string>
   <key>F</key>
   <string>F_.glif</string>
-  <key>FontBsInSideBrngMrkrLft</key>
-  <string>F_ontB_sI_nS_ideB_rngM_rkrL_ft.glif</string>
-  <key>FontBsInSideBrngMrkrRt</key>
-  <string>F_ontB_sI_nS_ideB_rngM_rkrR_t.glif</string>
+  <key>FontBslnSideBrngMrkrLft</key>
+  <string>F_ontB_slnS_ideB_rngM_rkrL_ft.glif</string>
+  <key>FontBslnSideBrngMrkrRt</key>
+  <string>F_ontB_slnS_ideB_rngM_rkrR_t.glif</string>
   <key>G</key>
   <string>G_.glif</string>
   <key>H</key>
