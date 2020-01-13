@@ -46,6 +46,10 @@
   <string>E_th.glif</string>
   <key>F</key>
   <string>F_.glif</string>
+  <key>FontBsInSideBrngMrkrLft</key>
+  <string>F_ontB_sI_nS_ideB_rngM_rkrL_ft.glif</string>
+  <key>FontBsInSideBrngMrkrRt</key>
+  <string>F_ontB_sI_nS_ideB_rngM_rkrR_t.glif</string>
   <key>G</key>
   <string>G_.glif</string>
   <key>H</key>
@@ -168,6 +172,8 @@
   <string>aacute.glif</string>
   <key>acircumflex</key>
   <string>acircumflex.glif</string>
+  <key>activateformshaping-ar</key>
+  <string>activateformshaping-ar.glif</string>
   <key>acute</key>
   <string>acute.glif</string>
   <key>acutebelowcomb</key>
@@ -422,6 +428,8 @@
   <string>behhamzaabove-ar.medi.glif</string>
   <key>behhamzaabove-ar.medi.flat</key>
   <string>behhamzaabove-ar.medi.flat.glif</string>
+  <key>blank</key>
+  <string>blank.glif</string>
   <key>braceleft</key>
   <string>braceleft.glif</string>
   <key>braceright</key>
@@ -670,6 +678,10 @@
   <string>figuredash.glif</string>
   <key>figurespace</key>
   <string>figurespace.glif</string>
+  <key>firststrongisolate</key>
+  <string>firststrongisolate.glif</string>
+  <key>firsttonechinese</key>
+  <string>firsttonechinese.glif</string>
   <key>five</key>
   <string>five.glif</string>
   <key>five-ar</key>
@@ -840,6 +852,8 @@
   <string>igrave.glif</string>
   <key>infinity</key>
   <string>infinity.glif</string>
+  <key>inhibitformshaping-ar</key>
+  <string>inhibitformshaping-ar.glif</string>
   <key>integral</key>
   <string>integral.glif</string>
   <key>integral.rtl</key>
@@ -962,6 +976,8 @@
   <string>lam_alefM_adda-ar.fina.glif</string>
   <key>lefttorightembedding</key>
   <string>lefttorightembedding.glif</string>
+  <key>lefttorightisolate</key>
+  <string>lefttorightisolate.glif</string>
   <key>lefttorightmark</key>
   <string>lefttorightmark.glif</string>
   <key>lefttorightoverride</key>
@@ -1224,6 +1240,8 @@
   <string>plusminus.glif</string>
   <key>popdirectionalformatting</key>
   <string>popdirectionalformatting.glif</string>
+  <key>popdirectionalisolate</key>
+  <string>popdirectionalisolate.glif</string>
   <key>product</key>
   <string>product.glif</string>
   <key>punctuationspace</key>
@@ -1336,6 +1354,8 @@
   <string>replacementC_haracter.glif</string>
   <key>righttoleftembedding</key>
   <string>righttoleftembedding.glif</string>
+  <key>righttoleftisolate</key>
+  <string>righttoleftisolate.glif</string>
   <key>righttoleftmark</key>
   <string>righttoleftmark.glif</string>
   <key>righttoleftoverride</key>
@@ -1454,6 +1474,8 @@
   <string>summation.rtl.glif</string>
   <key>t</key>
   <string>t.glif</string>
+  <key>tab</key>
+  <string>tab.glif</string>
   <key>tah-ar</key>
   <string>tah-ar.glif</string>
   <key>tah-ar.fina</key>
