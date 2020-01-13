@@ -26,8 +26,6 @@
   <string>B_.glif</string>
   <key>C</key>
   <string>C_.glif</string>
-  <key>CR</key>
-  <string>C_R_.glif</string>
   <key>Ccedilla</key>
   <string>C_cedilla.glif</string>
   <key>D</key>
@@ -98,8 +96,6 @@
   <string>Q_.glif</string>
   <key>R</key>
   <string>R_.glif</string>
-  <key>RTL</key>
-  <string>R_T_L_.glif</string>
   <key>S</key>
   <string>S_.glif</string>
   <key>Scaron</key>
@@ -744,6 +740,8 @@
   <string>ghainT_hreedots-ar.medi.ss05.glif</string>
   <key>ghainThreedots-ar.ss05</key>
   <string>ghainT_hreedots-ar.ss05.glif</string>
+  <key>graphemejoinercomb</key>
+  <string>graphemejoinercomb.glif</string>
   <key>grave</key>
   <string>grave.glif</string>
   <key>gravebelowcomb</key>
@@ -830,14 +828,14 @@
   <string>hyphentwo.glif</string>
   <key>i</key>
   <string>i.glif</string>
-  <key>iDotless</key>
-  <string>iD_otless.glif</string>
   <key>iacute</key>
   <string>iacute.glif</string>
   <key>icircumflex</key>
   <string>icircumflex.glif</string>
   <key>idieresis</key>
   <string>idieresis.glif</string>
+  <key>idotless</key>
+  <string>idotless.glif</string>
   <key>igrave</key>
   <string>igrave.glif</string>
   <key>infinity</key>
@@ -884,6 +882,8 @@
   <string>kafswash-ar.init.glif</string>
   <key>kafswash-ar.medi</key>
   <string>kafswash-ar.medi.glif</string>
+  <key>kashida-ar</key>
+  <string>kashida-ar.glif</string>
   <key>kasra-ar</key>
   <string>kasra-ar.glif</string>
   <key>kasratan-ar</key>
@@ -1030,6 +1030,8 @@
   <string>nine.small.glif</string>
   <key>nonbreakinghyphen</key>
   <string>nonbreakinghyphen.glif</string>
+  <key>nonmarkingreturn</key>
+  <string>nonmarkingreturn.glif</string>
   <key>noon-ar</key>
   <string>noon-ar.glif</string>
   <key>noon-ar.fina</key>
@@ -1126,6 +1128,8 @@
   <string>nyeh-ar.fina.glif</string>
   <key>nyeh-ar.fina.alt</key>
   <string>nyeh-ar.fina.alt.glif</string>
+  <key>nyeh-ar.fina.ss07</key>
+  <string>nyeh-ar.fina.ss07.glif</string>
   <key>nyeh-ar.init</key>
   <string>nyeh-ar.init.glif</string>
   <key>nyeh-ar.medi</key>
@@ -1332,6 +1336,8 @@
   <string>replacementC_haracter.glif</string>
   <key>righttoleftembedding</key>
   <string>righttoleftembedding.glif</string>
+  <key>righttoleftmark</key>
+  <string>righttoleftmark.glif</string>
   <key>righttoleftoverride</key>
   <string>righttoleftoverride.glif</string>
   <key>ring</key>
@@ -1472,8 +1478,6 @@
   <string>tahT_hreedots-ar.medi.ss05.glif</string>
   <key>tahThreedots-ar.ss05</key>
   <string>tahT_hreedots-ar.ss05.glif</string>
-  <key>tatweel-ar</key>
-  <string>tatweel-ar.glif</string>
   <key>teh-ar</key>
   <string>teh-ar.glif</string>
   <key>teh-ar.fina</key>
@@ -1580,8 +1584,6 @@
   <string>ugrave.glif</string>
   <key>underscore</key>
   <string>underscore.glif</string>
-  <key>uni034F</key>
-  <string>uni034F_.glif</string>
   <key>v</key>
   <string>v.glif</string>
   <key>vabove-ar</key>

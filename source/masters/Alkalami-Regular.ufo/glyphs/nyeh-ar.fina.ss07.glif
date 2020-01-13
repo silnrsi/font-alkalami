@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nyeh-ar.fina.ss07" format="2">
+  <advance width="558"/>
+  <anchor x="369" y="-450" name="bottom"/>
+  <anchor x="386" y="185" name="top"/>
+  <outline>
+    <component base="hah-ar.fina"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="190" yOffset="-217"/>
+  </outline>
+</glyph>
