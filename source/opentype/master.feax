@@ -532,6 +532,12 @@ lookup attachMarkMark {
 
 } attachMarkMark;
 
+# ignore intervening top marks
+lookup attachMarkXxxMark {  
+	lookupflag UseMarkFilteringSet @bottom_MarkBase;
+	pos mark @bottom_MarkBase mark @_bottom;
+} attachMarkXxxMark;
+
 
 #************************************************************
 # GSUB features                                             *
@@ -642,7 +648,8 @@ feature frac {
 							];
 @arInit = [ behDotless-ar.init  beh-ar.init  peh-ar.init  beeh-ar.init  teh-ar.init  theh-ar.init
 							behThreedotsupbelow-ar.init  behVinvertedbelow-ar.init  behVabove-ar.init  behVbelow-ar.init  behhamzaabove-ar.init
-							jeem-ar.init  nyeh-ar.init  hah-ar.init  khah-ar.init  seen-ar.init  sheen-ar.init  sad-ar.init  dad-ar.init  tah-ar.init  tahThreedots-ar.init  zah-ar.init
+							jeem-ar.init  nyeh-ar.init  hah-ar.init  khah-ar.init  seen-ar.init  sheen-ar.init  sad-ar.init  dad-ar.init  tah-ar.init  
+							tahThreedots-ar.init  zah-ar.init
 							ain-ar.init  ainThreedots-ar.init  ainTwodotshorizontalabove-ar.init  ghain-ar.init
 							feh-ar.init  veh-ar.init  fehDotless-ar.init  fehDotmovedbelow-ar.init  fehTwodotsbelow-ar.init  fehAfrican-ar.init
 							qafDotless-ar.init  qaf-ar.init  qafDotabove-ar.init  qafThreedotsabove-ar.init  qafAfrican-ar.init
@@ -651,6 +658,7 @@ feature frac {
 							heh-ar.init  alefMaksura-ar.init  yeh-ar.init  yehHamzaabove-ar.init  yehTwodotsbelowHamzaabove-ar.init
 							yehTwodotsbelowDotabove-ar.init  yeh-farsi.init  e-ar.init  yehThreedotsbelow-ar.init
 							];
+
 @arMedi = [ behDotless-ar.medi  beh-ar.medi  peh-ar.medi  beeh-ar.medi  teh-ar.medi  theh-ar.medi
 							behThreedotsupbelow-ar.medi  behVinvertedbelow-ar.medi  behVabove-ar.medi  behVbelow-ar.medi  behhamzaabove-ar.medi
 							jeem-ar.medi  nyeh-ar.medi  hah-ar.medi  khah-ar.medi  seen-ar.medi  sheen-ar.medi  sad-ar.medi  dad-ar.medi  tah-ar.medi  tahThreedots-ar.medi  zah-ar.medi
@@ -677,32 +685,32 @@ feature frac {
 								lam_alefMadda-ar  lam_alefHamzaabove-ar  lam_alefHamzabelow-ar  lam_alef-ar
 								tehMarbuta-ar  waw-ar  wawHamzaabove-ar  oe-ar  yu-ar  kirghizyu-ar
 								yehbarree-ar  yehbarreeHamzaabove-ar
-								@arIsol ];
+								];
 @arFinaRt = [ alef-ar.fina  alef-ar.wide.fina  alef-ar.wideshort.fina  alefHamzaabove-ar.fina  alefHamzabelow-ar.fina  alefMadda-ar.fina
 								dal-ar.fina  thal-ar.fina  reh-ar.fina  zain-ar.fina  jeh-ar.fina
 								lam_alefMadda-ar.fina  lam_alefHamzaabove-ar.fina  lam_alefHamzabelow-ar.fina  lam_alef-ar.fina
 								tehMarbuta-ar.fina  waw-ar.fina  wawHamzaabove-ar.fina  oe-ar.fina  yu-ar.fina  kirghizyu-ar.fina
 								yehbarree-ar.fina  yehbarreeHamzaabove-ar.fina
-								@arFina ];
-
+								];
+								
 feature init {
 	# automatic
 	lookup init_lkp {
-		sub @arIsol  by  @arInit;
+		sub @cno_init  by  @c_init;
 	} init_lkp;
 } init;
 
 feature medi {
 	# automatic
 	lookup medi_lkp {
-		sub @arIsol  by  @arMedi;
+		sub @cno_medi  by  @c_medi;
 	} medi_lkp;
 } medi;
 
 feature fina {
 	# automatic
 	lookup fina_lkp {
-		sub @arIsolRt  by  @arFinaRt;
+		sub @cno_fina  by  @c_fina;
 	} fina_lkp;
 } fina;
 
@@ -1084,6 +1092,7 @@ feature mark {
 	lookup attachLigMarkReg;
 	lookup attachBaseMark;
 	lookup attachMarkMark;
+	lookup attachMarkXxxMark;
 } mark;
 
 }
@@ -1094,6 +1103,7 @@ feature mark {
 	lookup attachLigMarkLight;
 	lookup attachBaseMark;
 	lookup attachMarkMark;
+	lookup attachMarkXxxMark;
 } mark;
 
 }
