@@ -564,8 +564,8 @@ feature aalt {
 @takes_hamzaAbove = [ damma-ar  dammatan-ar  fatha-ar  fathatan-ar  sukun-ar ];
 @with_hamzaAbove = [ hamzaaboveDamma-ar  hamzaaboveDammatan-ar  hamzaaboveFatha-ar  hamzaaboveFathatan-ar  hamzaaboveSukun-ar  ];
 
-@takes_hamzaAbove = [ kasra-ar  kasratan-ar ];
-@with_hamzaAbove = [ hamzabelowKasra-ar  hamzabelowKasratan-ar ];
+@takes_hamzaBelow = [ kasra-ar  kasratan-ar ];
+@with_hamzaBelow = [ hamzabelowKasra-ar  hamzabelowKasratan-ar ];
 
 @takes_shadda = [ alefabove-ar  damma-ar   dammatan-ar  fatha-ar  fathatan-ar ];
 @with_shadda = [ shaddaAlefabove-ar  shaddaDamma-ar  shaddaDammatan-ar  shaddaFatha-ar ];
@@ -599,8 +599,8 @@ feature ccmp {
 		sub hamzaabove-ar  @takes_hamzaAbove  by  @with_hamzaAbove;
 		sub @takes_hamzaAbove hamzaabove-ar   by  @with_hamzaAbove;
 
-		sub hamzabelow-ar @takes_hamzaAbove  by hamzabelowKasra-ar;
-		sub @takes_hamzaAbove hamzabelow-ar  by hamzabelowKasra-ar;
+		sub hamzabelow-ar @takes_hamzaBelow  by  @with_hamzaBelow;
+		sub @takes_hamzaBelow hamzabelow-ar  by  @with_hamzaBelow;
 
 		sub shadda-ar @takes_shadda  by @with_shadda;
 		sub @takes_shadda shadda-ar  by @with_shadda;
