@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hamzaaboveFathatan-ar" format="2">
   <advance width="233"/>
-  <anchor x="123" y="505" name="_top"/>
+  <anchor x="115" y="505" name="_top"/>
   <anchor x="53" y="925" name="top"/>
   <outline>
     <component base="hamzaabove-ar"/>
