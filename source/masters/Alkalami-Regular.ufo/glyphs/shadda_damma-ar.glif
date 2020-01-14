@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="shaddaDammatan-ar" format="2">
+<glyph name="shadda_damma-ar" format="2">
   <advance width="279"/>
+  <unicode hex="FC61"/>
   <anchor x="150" y="536" name="_top"/>
-  <anchor x="133" y="1013" name="top"/>
+  <anchor x="129" y="963" name="top"/>
   <outline>
     <component base="shadda-ar" xOffset="16"/>
-    <component base="dammatan-ar" xOffset="16" yOffset="245"/>
+    <component base="damma-ar" xOffset="13" yOffset="216"/>
   </outline>
 </glyph>

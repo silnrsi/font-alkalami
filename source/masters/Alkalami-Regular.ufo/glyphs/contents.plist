@@ -1418,16 +1418,16 @@
   <string>seven.small.glif</string>
   <key>shadda-ar</key>
   <string>shadda-ar.glif</string>
-  <key>shaddaAlefabove-ar</key>
-  <string>shaddaA_lefabove-ar.glif</string>
-  <key>shaddaDamma-ar</key>
-  <string>shaddaD_amma-ar.glif</string>
-  <key>shaddaDammatan-ar</key>
-  <string>shaddaD_ammatan-ar.glif</string>
-  <key>shaddaFatha-ar</key>
-  <string>shaddaF_atha-ar.glif</string>
-  <key>shaddaFathatan-ar</key>
-  <string>shaddaF_athatan-ar.glif</string>
+  <key>shadda_alef-ar</key>
+  <string>shadda_alef-ar.glif</string>
+  <key>shadda_damma-ar</key>
+  <string>shadda_damma-ar.glif</string>
+  <key>shadda_dammatan-ar</key>
+  <string>shadda_dammatan-ar.glif</string>
+  <key>shadda_fatha-ar</key>
+  <string>shadda_fatha-ar.glif</string>
+  <key>shadda_fathatan-ar</key>
+  <string>shadda_fathatan-ar.glif</string>
   <key>sheen-ar</key>
   <string>sheen-ar.glif</string>
   <key>sheen-ar.fina</key>
