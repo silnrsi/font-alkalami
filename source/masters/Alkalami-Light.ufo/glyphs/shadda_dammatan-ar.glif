@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shadda_dammatan-ar" format="2">
   <advance width="279"/>
-  <unicode hex="FC5E"/>
   <anchor x="141" y="546" name="_top"/>
   <anchor x="133" y="943" name="top"/>
   <outline>
