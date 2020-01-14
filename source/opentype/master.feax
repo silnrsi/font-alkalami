@@ -26,10 +26,9 @@ languagesystem latn dflt;
 	hamzaaboveSukun-ar
 	madda-ar
 	shadda-ar
-	shaddaAlefabove-ar
-	shaddaDamma-ar shaddaDammatan-ar
-	shaddaFatha-ar
-	shaddaFathatan-ar
+	shadda_alef-ar
+	shadda_damma-ar shadda_dammatan-ar
+	shadda_fatha-ar	shadda_fathatan-ar
 	sukun-ar
 	threedots-ar threedots-ar.small
 	threedotsabovesmall-ar
@@ -568,7 +567,7 @@ feature aalt {
 @with_hamzaBelow = [ hamzabelowKasra-ar  hamzabelowKasratan-ar ];
 
 @takes_shadda = [ alefabove-ar  damma-ar   dammatan-ar  fatha-ar  fathatan-ar ];
-@with_shadda = [ shaddaAlefabove-ar  shaddaDamma-ar  shaddaDammatan-ar  shaddaFatha-ar ];
+@with_shadda = [ shadda_alef-ar  shadda_damma-ar  shadda_dammatan-ar  shadda_fatha-ar ];
 
 feature ccmp {
 
