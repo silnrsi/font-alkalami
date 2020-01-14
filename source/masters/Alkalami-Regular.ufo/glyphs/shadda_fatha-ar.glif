@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="shaddaFatha-ar" format="2">
+<glyph name="shadda_fatha-ar" format="2">
   <advance width="265"/>
+  <unicode hex="FC60"/>
   <anchor x="133" y="536" name="_top"/>
   <anchor x="122" y="843" name="top"/>
   <outline>
