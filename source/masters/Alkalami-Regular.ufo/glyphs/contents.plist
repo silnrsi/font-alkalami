@@ -724,6 +724,8 @@
   <string>ghain-ar.glif</string>
   <key>ghain-ar.fina</key>
   <string>ghain-ar.fina.glif</string>
+  <key>ghain-ar.fina.low</key>
+  <string>ghain-ar.fina.low.glif</string>
   <key>ghain-ar.fina.ss06</key>
   <string>ghain-ar.fina.ss06.glif</string>
   <key>ghain-ar.init</key>
@@ -786,6 +788,8 @@
   <string>hah-ar.init.glif</string>
   <key>hah-ar.medi</key>
   <string>hah-ar.medi.glif</string>
+  <key>hah-ar.medi.low</key>
+  <string>hah-ar.medi.low.glif</string>
   <key>hah-ar.medi.ss07</key>
   <string>hah-ar.medi.ss07.glif</string>
   <key>hairspace</key>
@@ -872,6 +876,8 @@
   <string>jeem-ar.init.glif</string>
   <key>jeem-ar.medi</key>
   <string>jeem-ar.medi.glif</string>
+  <key>jeem-ar.medi.low</key>
+  <string>jeem-ar.medi.low.glif</string>
   <key>jeem-ar.medi.ss07</key>
   <string>jeem-ar.medi.ss07.glif</string>
   <key>jeh-ar</key>
@@ -938,6 +944,8 @@
   <string>khah-ar.init.glif</string>
   <key>khah-ar.medi</key>
   <string>khah-ar.medi.glif</string>
+  <key>khah-ar.medi.low</key>
+  <string>khah-ar.medi.low.glif</string>
   <key>khah-ar.medi.ss07</key>
   <string>khah-ar.medi.ss07.glif</string>
   <key>kirghizyu-ar</key>
@@ -1150,6 +1158,8 @@
   <string>nyeh-ar.init.glif</string>
   <key>nyeh-ar.medi</key>
   <string>nyeh-ar.medi.glif</string>
+  <key>nyeh-ar.medi.low</key>
+  <string>nyeh-ar.medi.low.glif</string>
   <key>nyeh-ar.medi.ss07</key>
   <string>nyeh-ar.medi.ss07.glif</string>
   <key>o</key>

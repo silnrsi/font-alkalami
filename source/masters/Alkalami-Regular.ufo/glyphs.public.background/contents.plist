@@ -262,6 +262,8 @@
   <string>hah-ar.init.glif</string>
   <key>hah-ar.medi</key>
   <string>hah-ar.medi.glif</string>
+  <key>hah-ar.medi.low</key>
+  <string>hah-ar.medi.low.glif</string>
   <key>hah-ar.medi.ss07</key>
   <string>hah-ar.medi.ss07.glif</string>
   <key>hamzaabove-ar</key>
