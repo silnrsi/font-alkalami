@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--
 	This file is part of Alkalami font family (http://software.sil.org/alkalami/)
-	and is Copyright (c) 2015-2017 SIL International (http://www.sil.org/).
+	and is Copyright (c) 2015-2020 SIL International (http://www.sil.org/).
 	with Reserved Font Names "Alkalami" and "SIL". 
 
 	This Font Software is licensed under the SIL Open Font License, Version 1.1. 
@@ -18,7 +18,7 @@
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Touching" tag="To">
-			<cmd name="lookup_add" args="GSUB {calt_arab} {AlefDiac}"/>
+			<cmd name="lookup_add" args="GSUB {calt_arab} {ss08_lkp}"/>
 		</value>
 	</feature>
 
@@ -27,7 +27,7 @@
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Flat style" tag="Flt">
-			<cmd name="lookup_add" args="GSUB {calt_arab} {FlatJeem}"/>	
+			<cmd name="lookup_add" args="GSUB {calt_arab} {ss07_lkp}"/>	
 		</value>
 	</feature>
 
@@ -68,7 +68,7 @@
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Wagaf modifier" tag="Mod">
-			<cmd name="lookup_add" args="GSUB {calt_arab} {WagafHack}"/>
+			<cmd name="lookup_add" args="GSUB {calt_arab} {ss05_lkp}"/>
 		</value>
 	</feature>
 
@@ -77,7 +77,7 @@
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="No Dots" tag="Nd">
-			<cmd name="lookup_add" args="GSUB {calt_arab} {WarshDots}"/>
+			<cmd name="lookup_add" args="GSUB {calt_arab} {ss01_lkp}"/>
 		</value>
 	</feature>
 
@@ -93,17 +93,7 @@
 	    </test>
 	</interactions>
 -->
-	<aliases>
-	    <alias name="WarshDots" value="50"/>      <!-- ss01 Warsh Hack alternate has no dots on isolate and final-->
-	    <alias name="EndOfAyah2" value="51"/>     <!-- End of Ayah ss02 -->
-	    <alias name="EndOfAyah3" value="52"/>     <!-- End of Ayah ss03 -->
-	    <alias name="ImalaE" value="53"/>         <!-- ss04 Large Imala e -->
-	    <alias name="WagafHack" value="54"/>      <!-- ss05 Wagaf hack -->
-<!--	    <alias name="MonkeyTail" value="55"/> -->     <!-- ss06 "monkey" tail -->
-	    <alias name="FlatJeem" value="56"/>       <!-- ss07 non stacking -->
-	    <alias name="AlefDiac" value="57"/>       <!-- ss08 Alef fatha/kasra touching -->
-	    <alias name="calt_arab" value="calt"/>
-	</aliases>
+	<aliases/>
 
 </all_features>
 
