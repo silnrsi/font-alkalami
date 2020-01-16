@@ -1,29 +1,29 @@
-FONTLOG 
+FONTLOG
 Alkalami font
 =================
 
-This file provides detailed information on the Alkalami font software. 
-This information should be distributed along with the Alkalami font 
+This file provides detailed information on the Alkalami font software.
+This information should be distributed along with the Alkalami font
 and any derivative works.
 
 Basic Font Information
 ----------------------
 
-Alkalami is the local word for the Arabic "qalam", a type of sharpened stick used 
-for writing on wooden boards in the Kano region of Nigeria and in Niger, and what 
-gives the style its distinct appearance. The baseline stroke is very thick and 
-solid. The ascenders and other vertical strokes including the teeth are very 
-narrow when compared to the baseline. A generous line height is necessary to 
-allow for deep swashes and descenders, and the overall look of the page is a very 
-black, solid rectangle. Diacritics are much smaller in scale, with very little 
+Alkalami is the local word for the Arabic "qalam", a type of sharpened stick used
+for writing on wooden boards in the Kano region of Nigeria and in Niger, and what
+gives the style its distinct appearance. The baseline stroke is very thick and
+solid. The ascenders and other vertical strokes including the teeth are very
+narrow when compared to the baseline. A generous line height is necessary to
+allow for deep swashes and descenders, and the overall look of the page is a very
+black, solid rectangle. Diacritics are much smaller in scale, with very little
 distance from the main letters.
 
-This font supports the characters known to be used by languages written with the 
-Kano style of Arabic script, but may not have the characters needed for other 
+This font supports the characters known to be used by languages written with the
+Kano style of Arabic script, but may not have the characters needed for other
 languages.
 
-This font utilizes state-of-the-art font technologies to support complex 
-typographic issues. Font smarts are implemented using OpenType only. We have 
+This font utilizes state-of-the-art font technologies to support complex
+typographic issues. Font smarts are implemented using OpenType only. We have
 no current plans to support Graphite.
 
 Two fonts are included in this release:
@@ -34,21 +34,21 @@ A Note Regarding the Open Font License and TypeTuner
 ----------------------------------------------------
 
 The OFL prohibits the use of Reserved Font Names "Alkalami" and "SIL" in
-the name of any font that is derived from the Original Version of Alkalami. 
+the name of any font that is derived from the Original Version of Alkalami.
 However, SIL International (the Copyright Holder) grants through
 this separate written agreement the right to use the Reserved Font Names
 in any Modified Version of this font created by using TypeTuner as long
-as the feature information contained in the Original Version is used, 
-unmodified, as the source for TypeTuner feature information, and 
+as the feature information contained in the Original Version is used,
+unmodified, as the source for TypeTuner feature information, and
 "Alkalami" is not the resulting font family name.
 
 TypeTuner-produced fonts created in this manner are still bound by the
 terms of the OFL. Specifically, the use of Reserved Font Names is
 prohibited when making derivatives of a TypeTuner-produced font. Anyone
 making a derivative of a TypeTuner font will need to find a different
-name. For example a TypeTuner-produced font may be named 
-"Alkalami Warsh" but a derivative of that font made 
-with other tools would not be allowed to use the "Alkalami" and "SIL" 
+name. For example a TypeTuner-produced font may be named
+"Alkalami Warsh" but a derivative of that font made
+with other tools would not be allowed to use the "Alkalami" and "SIL"
 Reserved Font Names and would have to be named something like "Calamus Foo".
 
 ChangeLog
@@ -56,41 +56,41 @@ ChangeLog
 (This should list both major and minor changes, most recent first.)
 
 %ISODATE% (SIL TypeTuner) Tuned version of Alkalami 1.200
-- Tuned and delivered by SIL TypeTuner 
+- Tuned and delivered by SIL TypeTuner
 (http://scripts.sil.org/ttw/fonts2go.cgi).
 - See included xml file for details of feature changes.
 
 2020-01-15 (Sharon Correll) Alkalami Version 1.200 (production release)
 - Added many characters required for codepage 1252 and macRoman
 - Deleted many Latin characters not required for codepage 1252 and macRoman
-- Added Arabic script characters: U+063F, U+0751, U+08C3 (pipelined for Unicode 13.0), 
+- Added Arabic script characters: U+063F, U+0751, U+08C3 (pipelined for Unicode 13.0),
   U+08C4 (pipelined for Unicode 13.0)
 - Added UI name strings for OpenType features
 - Repositioned below attachment points on qaf-based isolate and final forms
 - Changed hah medial and final forms to match jeem medial and final forms
 - Added mirrored versions of some glyphs such as radical and summation
 2018-07-11 (Becca Spalinger) Alkalami 1.100
-- Changed qaf-based characters: isolate now has tail; tail on final flattened 
+- Changed qaf-based characters: isolate now has tail; tail on final flattened
   to match isolate
 2017-05-23 (Becca Spalinger) Alkalami 1.000
 - Fixed issues related to lam/alef/hamza shaping
 - Fixed issue with jeem/hah combinations not shaping properly
 - Added larger left sidebearing on U+0622 (isolate and final forms)
-- Repositioned below attachment points on isolate and final forms of noon, 
+- Repositioned below attachment points on isolate and final forms of noon,
   lam, seen, sad, qaf and yeh
-- Added Stylistic set (ss08) to make fatha, kasra and damma touch the 
+- Added Stylistic set (ss08) to make fatha, kasra and damma touch the
   isolate alef
 - Decomposed U+0623 and U+0625 in order to allow the hamza part of the
   character to be colored
 - Changed position of dagger alef when with fatha
-2016-12-15 (Becca Spalinger) Alkalami 0.924 
+2016-12-15 (Becca Spalinger) Alkalami 0.924
 - Repositioned below attachment points on reh and waw
-- Changed depth of swash on the sad/dad, seen/sheen, and lam isolate 
+- Changed depth of swash on the sad/dad, seen/sheen, and lam isolate
 - Digits reduced in size
 - Width of U+0640 reduced by 50%
 - Left sidebearing on U+0621 reduced
 - Changed positioning of dagger alef above fatha and alef maksura
-2016-10-06 (Becca Spalinger) Alkalami 0.919 
+2016-10-06 (Becca Spalinger) Alkalami 0.919
 - Updated OpenType code to handle hah/jeem/khah/nyeh positioning
 2016-04-04 (Becca Hirsbrunner Spalinger) Alkalami 0.910
 - Added anchor points to U+FDF2
@@ -113,18 +113,18 @@ Acknowledgements
 be sure to add your name (N), email (E), web-address (W) and description
 (D). This list is sorted by last name in alphabetical order.)
 
-N: Sharon Correl
-D: Type Designer and Script engineer
+N: Sharon Correll
+D: Type designer and script engineer
 
 N: Lorna Evans
-D: Project Manager
+D: Project manager
 
 N: Bob Hallissy
 W: Script engineer
 
 N: Becca Hirsbrunner Spalinger
 W: http://software.sil.org/alkalami/
-D: Lead Designer
+D: Lead designer
 
 N: Nicolas Spalinger
 W: Script engineer
@@ -133,4 +133,3 @@ The Alkalami font project is maintained by SIL International.
 
 For more information see the Alkalami website:
 http://software.sil.org/alkalami/support/
-
