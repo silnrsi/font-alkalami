@@ -163,12 +163,14 @@ languagesystem latn dflt;
 	ain-ar.init
 	ainThreedots-ar.init
 	ainThreedots-ar.init.ss05
+	ainTwodotshorizontalabove-ar.init
 	ghain-ar.init
 	feh-ar.init
 	fehAfrican-ar.init
 	veh-ar.init
 	fehDotless-ar.init
 	fehDotmovedbelow-ar.init
+	fehTwodotsbelow-ar.init
 	qafDotless-ar.init
 	qaf-ar.init
 	qafAfrican-ar.init
@@ -187,6 +189,7 @@ languagesystem latn dflt;
 	noon-ar.init
 	noonAfrican-ar.init
 	noonghunna-ar.init
+	noonTwodotsbelow-ar.init
 	heh-ar.init
 	yehHamzaabove-ar.init
 	yehTwodotsbelowHamzaabove-ar.init
@@ -196,9 +199,6 @@ languagesystem latn dflt;
 	yeh-farsi.init.ss05
 	e-ar.init
 	yehThreedotsbelow-ar.init
-	ainTwodotshorizontalabove-ar.init
-	fehTwodotsbelow-ar.init
-	noonTwodotsbelow-ar.init
 ];
 
 @pre_hah_shift_up_medi = [
@@ -230,12 +230,14 @@ languagesystem latn dflt;
 	ain-ar.medi
 	ainThreedots-ar.medi
 	ainThreedots-ar.medi.ss05
+	ainTwodotshorizontalabove-ar.medi
 	ghain-ar.medi
 	feh-ar.medi
 	fehAfrican-ar.medi
 	veh-ar.medi
 	fehDotless-ar.medi
 	fehDotmovedbelow-ar.medi
+	fehTwodotsbelow-ar.medi
 	qafDotless-ar.medi
 	qaf-ar.medi
 	qafAfrican-ar.medi
@@ -254,6 +256,7 @@ languagesystem latn dflt;
 	noon-ar.medi
 	noonAfrican-ar.medi
 	noonghunna-ar.medi
+	noonTwodotsbelow-ar.medi
 	heh-ar.medi
 	yehHamzaabove-ar.medi
 	yehTwodotsbelowHamzaabove-ar.medi
@@ -263,9 +266,6 @@ languagesystem latn dflt;
 	yeh-farsi.medi.ss05
 	e-ar.medi
 	yehThreedotsbelow-ar.medi
-	ainTwodotshorizontalabove-ar.medi
-	fehTwodotsbelow-ar.medi
-	noonTwodotsbelow-ar.medi
 ];
 
 @post_hah_shift_down = [
@@ -421,10 +421,10 @@ lookup shift_pre_hah {
 
 	# Rule 4:
 	pos @pre_hah_shift_up_init' <0 207 0 0>  @hahMedials;
-
+	
 	ignore pos @pre_hah_shift_up_init  @hahMedials  @hahMedials'               @post_hah_shift_down';
 	pos                                @hahMedials  @hahMedials' <0 -207 0 0>  @post_hah_shift_down' <0 -207 0 0>;
-
+	
 	ignore pos @pre_hah_shift_up_init  @pre_hah_shift_up_medi  @hahMedials'               @post_hah_shift_down';
 	pos                                @pre_hah_shift_up_medi  @hahMedials' <0 -207 0 0>  @post_hah_shift_down' <0 -207 0 0>;
 } shift_pre_hah;
