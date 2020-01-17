@@ -46,6 +46,9 @@ Font sources are published and a open workflow is used for building, testing and
 # Get version info from Regular UFO; must be first function call:
 getufoinfo('source/masters/Alkalami-Regular.ufo')
 
+# Debian packages:
+DEBPKG = 'fonts-sil-alkalami'
+
 # APs to omit:
 OMITAPS = '--omitaps "topright, ogonek, caret_1, caret_2, caret_3, top_1, top_2, top_3, top_4, top_alef, bottom_1, bottom_2"'
 
@@ -58,7 +61,7 @@ OMITAPS = '--omitaps "topright, ogonek, caret_1, caret_2, caret_3, top_1, top_2,
 designspace('source/Alkalami.designspace',
     instanceparams = '-l ' + genout + '${DS:NAME}_createintance.log',
     target = process('${DS:NAME}.ttf',
-#        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/masters/${DS:NAME}.ufo']),
+        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/masters/${DS:NAME}.ufo']),
 #        Note: ttfautohint-generated hints don't maintain stroke thickness at joins (nor hamza), so we're not hinting these fonts
 #        cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),

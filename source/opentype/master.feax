@@ -524,18 +524,21 @@ lookup attachBaseMark {
 
 } attachBaseMark;
 
-lookup attachMarkMark {
 
+@allBottomMarks = [ @_bottom  @bottom_MarkBase ];
+@allTopMarks    = [ @top      @top_MarkBase ];
+
+lookup attachTopMarkMark {
+	lookupflag UseMarkFilteringSet @allTopMarks;
+	
 	pos mark @top_MarkBase    mark @_top;
-	pos mark @bottom_MarkBase mark @_bottom;
+} attachTopMarkMark;
 
-} attachMarkMark;
-
-# ignore intervening top marks
-lookup attachMarkXxxMark {  
-	lookupflag UseMarkFilteringSet @bottom_MarkBase;
+lookup attachBottomMarkMark {
+	lookupflag UseMarkFilteringSet @allBottomMarks;
+	
 	pos mark @bottom_MarkBase mark @_bottom;
-} attachMarkXxxMark;
+} attachBottomMarkMark;
 
 
 #************************************************************
@@ -1040,13 +1043,13 @@ feature ss05 {
 } ss05;
 
 
-# Monkey-tail alternates
+# Monkey-tail alternates - not supported
 
-feature ss06 {
-	lookup ss06_lkp {
-		sub @cno_ss06 by @c_ss06;
-	} ss06_lkp;
-} ss06;
+#feature ss06 {
+#	lookup ss06_lkp {
+#		sub @cno_ss06 by @c_ss06;
+#	} ss06_lkp;
+#} ss06;
 
 
 # No stacking jeem/hah
@@ -1090,19 +1093,19 @@ ifinfo(familyName, "Alkalami") {
 feature mark {
 	lookup attachLigMarkReg;
 	lookup attachBaseMark;
-	lookup attachMarkMark;
-	lookup attachMarkXxxMark;
+	lookup attachTopMarkMark;
+	lookup attachBottomMarkMark;
 } mark;
 
-}
+} # end ifinfo
 
 ifinfo(familyName, "AlkalamiLight") {
 
 feature mark {
 	lookup attachLigMarkLight;
 	lookup attachBaseMark;
-	lookup attachMarkMark;
-	lookup attachMarkXxxMark;
+	lookup attachTopMarkMark;
+	lookup attachBottomMarkMark;
 } mark;
 
-}
+} # end ifinfo
