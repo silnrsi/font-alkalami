@@ -5,7 +5,7 @@ Alkalami
 Thank you for your interest in the Alkalami font.
 We hope you find it useful!
 
-Alkalami supports a subset of the Unicode 9.0 Arabic character 
+Alkalami supports a subset of the Unicode 13.0 Arabic character 
 repertoire. It only includes characters known to be used in
 Modern Standard Arabic and characters known to be necessary 
 in a few West African languages.
@@ -43,8 +43,7 @@ TIPS
 As this font is distributed at no cost, we are unable to provide a 
 commercial level of personal technical support. The font has, however, 
 been through some testing on various platforms to be sure it works in most
-situations. In particular, it has been tested and shown to work on Windows 7 
-and Windows 8. 
+situations. In particular, it has been tested and shown to work on Windows 10. 
 
 If you do find a problem, please do report it through 
 http://software.sil.org/alkalami/support/. We can't guarantee any direct response, but 
@@ -67,15 +66,11 @@ built-in keyboards of the operating system. You may also need to install an
 appropriate keyboard and input method for the characters of the language you
 wish to use. If you want to enter characters that are not supported by any
 system keyboard, the Keyman program (www.keyman.com) can be helpful
-on Windows systems. Also available for Windows is MSKLC 
-(http://www.microsoft.com/globaldev/tools/msklc.mspx). 
-For other platforms, KMFL (http://kmfl.sourceforge.net/), 
-XKB (http://www.x.org/wiki/XKB) or Ukelele (http://scripts.sil.org/ukelele) 
-can be helpful.
+on Windows, macOS, and Linux systems. 
 
 If you want to enter characters that are not supported by any system
 keyboard, and to access the full Unicode range, you might try charmap.exe
-on Windows or, on Ubuntu or similar software,  gucharmap or kcharselect.
+on Windows or, on Ubuntu or similar software, gucharmap or kcharselect.
 
 Another method of entering some symbols is provided by a few applications such
 as Adobe InDesign or LibreOffice.org. They can display a glyph palette or input

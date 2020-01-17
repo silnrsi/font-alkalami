@@ -42,6 +42,8 @@ ChangeLog
 - Added UI name strings for OpenType features
 - Repositioned below attachment points on qaf-based isolate and final forms
 - Changed hah medial and final forms to match jeem medial and final forms
+- Changed ss05 (Wagaf Hack) version of U+06A0 to include single large nukta 
+  (bug in previous version of the font)
 - Added mirrored versions of some glyphs such as radical and summation
 2018-07-11 (Becca Spalinger) Alkalami 1.100
 - Changed qaf-based characters: isolate now has tail; tail on final flattened
