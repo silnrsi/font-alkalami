@@ -46,6 +46,9 @@ Font sources are published and a open workflow is used for building, testing and
 # Get version info from Regular UFO; must be first function call:
 getufoinfo('source/masters/Alkalami-Regular.ufo')
 
+# Debian packages:
+DEBPKG = 'fonts-sil-alkalami'
+
 # APs to omit:
 OMITAPS = '--omitaps "topright, ogonek, caret_1, caret_2, caret_3, top_1, top_2, top_3, top_4, top_alef, bottom_1, bottom_2"'
 
