@@ -1043,13 +1043,13 @@ feature ss05 {
 } ss05;
 
 
-# Monkey-tail alternates
+# Monkey-tail alternates - not supported
 
-feature ss06 {
-	lookup ss06_lkp {
-		sub @cno_ss06 by @c_ss06;
-	} ss06_lkp;
-} ss06;
+#feature ss06 {
+#	lookup ss06_lkp {
+#		sub @cno_ss06 by @c_ss06;
+#	} ss06_lkp;
+#} ss06;
 
 
 # No stacking jeem/hah
