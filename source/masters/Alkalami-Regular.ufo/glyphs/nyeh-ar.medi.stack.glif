@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nyeh-ar.medi.stack" format="2">
   <advance width="403"/>
-  <anchor x="196" y="-454" name="bottom"/>
+  <anchor x="196" y="-247" name="bottom"/>
   <anchor x="403" y="207" name="entry"/>
   <anchor x="0" y="0" name="exit"/>
-  <anchor x="214" y="169" name="top"/>
+  <anchor x="214" y="376" name="top"/>
   <outline>
-    <component base="hah-ar.medi" yOffset="-207"/>
-    <component base="twodotshorizontalbelow-ar" xOffset="23" yOffset="-217"/>
+    <component base="hah-ar.medi"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="23" yOffset="-10"/>
   </outline>
   <lib>
     <dict>

@@ -25,6 +25,7 @@
     <string>/jeem-ar.medi.low/nyeh-ar.medi.low/hah-ar.medi.low/khah-ar.medi.low/ghain-ar.fina.low/seen-ar.fina.low/yeh-ar.fina.low/alefMaksura-ar.fina.low/alef-ar.fina.low/alef-ar.wide.fina.low/alef-ar.wideshort.fina.low</string>
     <string>/jeem-ar.medi.stack/nyeh-ar.medi.stack/hah-ar.medi.stack/khah-ar.medi.stack</string>
     <string>/jeem-ar.medi/jeem-ar.medi.low/seen-ar.fina.low</string>
+    <string>/nyeh-ar.medi.stack  /jeem-ar.medi.stack  /hah-ar.medi.stack  /khah-ar.medi.stack</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
