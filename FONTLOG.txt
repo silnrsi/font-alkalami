@@ -41,7 +41,7 @@ ChangeLog
   U+08C4 (pipelined for Unicode 13.0)
 - Added UI name strings for OpenType features
 - Repositioned below attachment points on qaf-based isolate and final forms
-- Changed hah medial and final forms to match jeem medial and final forms
+- Changed ss07 hah medial and final forms to match jeem medial and final forms (Light only)
 - Changed ss05 (Wagaf Hack) version of U+06A0 to include single large nukta 
   (bug in previous version of the font)
 - Added mirrored versions of some glyphs such as radical and summation
