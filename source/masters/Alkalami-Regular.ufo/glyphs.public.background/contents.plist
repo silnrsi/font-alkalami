@@ -82,6 +82,8 @@
   <string>alef-ar.glif</string>
   <key>alef-ar.fina</key>
   <string>alef-ar.fina.glif</string>
+  <key>alef-ar.fina.low</key>
+  <string>alef-ar.fina.low.glif</string>
   <key>alef-ar.high</key>
   <string>alef-ar.high.glif</string>
   <key>alef-ar.ss08</key>
@@ -90,10 +92,14 @@
   <string>alef-ar.wide.glif</string>
   <key>alef-ar.wide.fina</key>
   <string>alef-ar.wide.fina.glif</string>
+  <key>alef-ar.wide.fina.low</key>
+  <string>alef-ar.wide.fina.low.glif</string>
   <key>alef-ar.wideshort</key>
   <string>alef-ar.wideshort.glif</string>
   <key>alef-ar.wideshort.fina</key>
   <string>alef-ar.wideshort.fina.glif</string>
+  <key>alef-ar.wideshort.fina.low</key>
+  <string>alef-ar.wideshort.fina.low.glif</string>
   <key>alefHamzaabove-ar.fina</key>
   <string>alefH_amzaabove-ar.fina.glif</string>
   <key>alefHamzabelow-ar</key>
@@ -106,6 +112,8 @@
   <string>alefM_aksura-ar.fina.glif</string>
   <key>alefMaksura-ar.fina.longtail</key>
   <string>alefM_aksura-ar.fina.longtail.glif</string>
+  <key>alefMaksura-ar.fina.low</key>
+  <string>alefM_aksura-ar.fina.low.glif</string>
   <key>alefMaksura-ar.longtail</key>
   <string>alefM_aksura-ar.longtail.glif</string>
   <key>alefMaksura-ar.shrtail</key>
@@ -458,6 +466,8 @@
   <string>seen-ar.fina.glif</string>
   <key>seen-ar.fina.longtail</key>
   <string>seen-ar.fina.longtail.glif</string>
+  <key>seen-ar.fina.low</key>
+  <string>seen-ar.fina.low.glif</string>
   <key>seen-ar.init</key>
   <string>seen-ar.init.glif</string>
   <key>seen-ar.longtail</key>
@@ -576,6 +586,8 @@
   <string>yeh-ar.fina.longtail.glif</string>
   <key>yeh-ar.fina.longtail.ss01</key>
   <string>yeh-ar.fina.longtail.ss01.glif</string>
+  <key>yeh-ar.fina.low</key>
+  <string>yeh-ar.fina.low.glif</string>
   <key>yeh-ar.fina.ss01</key>
   <string>yeh-ar.fina.ss01.glif</string>
   <key>yeh-ar.longtail</key>

@@ -4,9 +4,8 @@
   <vendor name="SIL International" url="www.sil.org" />
   <credits>
     <credit
-      name="Becca Hirsbrunner Spalinger"
-      url="http://software.sil.org/alkalami/"
-      role="Lead Designer"
+      name="Sharon Correl"
+      role="Type Designer and Script engineer"
     />
     <credit
       name="Lorna Evans"
@@ -15,6 +14,11 @@
     <credit
       name="Bob Hallissy"
       url="Script engineer"
+    />
+    <credit
+      name="Becca Hirsbrunner Spalinger"
+      url="http://software.sil.org/alkalami/"
+      role="Lead Designer"
     />
     <credit
       name="Nicolas Spalinger"
@@ -48,6 +52,18 @@
       ---------
       (This should list both major and minor changes, most recent first.)
       
+      2020-01-15 (Sharon Correll) Alkalami Version 1.200 (production release)
+      - Added many characters required for codepage 1252 and macRoman
+      - Deleted many Latin characters not required for codepage 1252 and macRoman
+      - Added Arabic script characters: U+063F, U+0751, U+08C3 (pipelined for Unicode 13.0),
+      U+08C4 (pipelined for Unicode 13.0)
+      - Added UI name strings for OpenType features
+      - Repositioned below attachment points on qaf-based isolate and final forms
+      - Changed hah medial and final forms to match jeem medial and final forms
+      - Added mirrored versions of some glyphs such as radical and summation
+      2018-07-11 (Becca Spalinger) Alkalami 1.100
+      - Changed qaf-based characters: isolate now has tail; tail on final flattened
+      to match isolate
       2017-05-23 (Becca Spalinger) Alkalami 1.000
       - Fixed issues related to lam/alef/hamza shaping
       - Fixed issue with jeem/hah combinations not shaping properly

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alef-ar.wide.fina.low" format="2">
+  <advance width="227"/>
+  <anchor x="107" y="-347" name="bottom"/>
+  <anchor x="182" y="188" name="top"/>
+  <outline>
+    <component base="alef-ar.fina" yOffset="-207"/>
+  </outline>
+</glyph>

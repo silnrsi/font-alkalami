@@ -22,7 +22,7 @@
   <string>1268</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/jeem-ar.medi/jeem-ar.medi.low/nyeh-ar.medi.low/hah-ar.medi.low/khah-ar.medi.low/ghain-ar.fina.low</string>
+    <string>/jeem-ar.medi.low/nyeh-ar.medi.low/hah-ar.medi.low/khah-ar.medi.low/ghain-ar.fina.low/seen-ar.fina.low/yeh-ar.fina.low/alefMaksura-ar.fina.low/alef-ar.fina.low/alef-ar.wide.fina.low/alef-ar.wideshort.fina.low</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
