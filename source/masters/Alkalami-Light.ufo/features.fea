@@ -717,14 +717,17 @@ markClass damma-ar.ss08 <anchor 126 251> @_center;
 markClass dotcenter-ar <anchor 109 406> @_center;
 
 # AP: entry
-@entry = [ghain-ar.fina.low hah-ar.medi.stack jeem-ar.medi.stack khah-ar.medi.stack nyeh-ar.medi.stack khah-ar.medi.low];
+@entry = [ghain-ar.fina.low hah-ar.medi.stack jeem-ar.medi.low jeem-ar.medi.stack khah-ar.medi.stack nyeh-ar.medi.stack khah-ar.medi.low lam-ar.fina reh-ar.fina seen-ar.fina.low];
 # baseClass ghain-ar.fina.low <anchor 584 -107> @entry;
-# baseClass [hah-ar.medi.stack jeem-ar.medi.stack khah-ar.medi.stack nyeh-ar.medi.stack] <anchor 465 207> @entry;
+# baseClass [hah-ar.medi.stack jeem-ar.medi.low jeem-ar.medi.stack khah-ar.medi.stack nyeh-ar.medi.stack] <anchor 465 207> @entry;
 # baseClass khah-ar.medi.low <anchor 465 100> @entry;
+# baseClass lam-ar.fina <anchor 566 0> @entry;
+# baseClass reh-ar.fina <anchor 328 0> @entry;
+# baseClass seen-ar.fina.low <anchor 1078 0> @entry;
 
 # AP: exit
-@exit = [hah-ar.medi.stack jeem-ar.medi.stack khah-ar.medi.stack nyeh-ar.medi.stack];
-# baseClass [hah-ar.medi.stack jeem-ar.medi.stack khah-ar.medi.stack nyeh-ar.medi.stack] <anchor 0 0> @exit;
+@exit = [hah-ar.medi.stack jeem-ar.init jeem-ar.medi.low jeem-ar.medi.stack khah-ar.medi.stack nyeh-ar.medi.stack yeh-ar.init];
+# baseClass [hah-ar.medi.stack jeem-ar.init jeem-ar.medi.low jeem-ar.medi.stack khah-ar.medi.stack nyeh-ar.medi.stack yeh-ar.init] <anchor 0 0> @exit;
 # Prefix: Languagesystems
 languagesystem DFLT dflt;
 languagesystem arab dflt;

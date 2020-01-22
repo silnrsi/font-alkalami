@@ -2,6 +2,8 @@
 <glyph name="jeem-ar.medi.low" format="2">
   <advance width="465"/>
   <anchor x="246" y="-447" name="bottom"/>
+  <anchor x="465" y="207" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="272" y="151" name="top"/>
   <outline>
     <component base="hah-ar.medi" yOffset="-207"/>
