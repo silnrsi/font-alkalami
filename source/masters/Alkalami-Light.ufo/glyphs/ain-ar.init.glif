@@ -2,6 +2,7 @@
 <glyph name="ain-ar.init" format="2">
   <advance width="503"/>
   <anchor x="271" y="-30" name="bottom"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="261" y="359" name="top"/>
   <outline>
     <contour>
@@ -44,4 +45,10 @@
       <point x="187" y="250"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

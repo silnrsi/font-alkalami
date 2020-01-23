@@ -2,9 +2,16 @@
 <glyph name="teh-ar.init" format="2">
   <advance width="312"/>
   <anchor x="82" y="-30" name="bottom"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="106" y="474" name="top"/>
   <outline>
     <component base="twodotshorizontalabove-ar" xOffset="-42" yOffset="15"/>
     <component base="behDotless-ar.init"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

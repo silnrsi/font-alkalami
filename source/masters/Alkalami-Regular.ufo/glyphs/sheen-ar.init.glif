@@ -2,9 +2,16 @@
 <glyph name="sheen-ar.init" format="2">
   <advance width="486"/>
   <anchor x="232" y="-40" name="bottom"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="233" y="793" name="top"/>
   <outline>
     <component base="seen-ar.init"/>
     <component base="threedotsupabove-ar" xOffset="52" yOffset="77"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

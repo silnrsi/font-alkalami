@@ -2,8 +2,15 @@
 <glyph name="e-ar.init" format="2">
   <advance width="314"/>
   <anchor x="141" y="-447" name="bottom"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="174" y="282" name="top"/>
   <outline>
     <component base="beeh-ar.init"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

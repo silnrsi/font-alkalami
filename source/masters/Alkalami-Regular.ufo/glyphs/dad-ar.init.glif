@@ -2,9 +2,16 @@
 <glyph name="dad-ar.init" format="2">
   <advance width="747"/>
   <anchor x="362" y="-40" name="bottom"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="374" y="660" name="top"/>
   <outline>
     <component base="sad-ar.init"/>
     <component base="dotabove-ar" xOffset="263" yOffset="136"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

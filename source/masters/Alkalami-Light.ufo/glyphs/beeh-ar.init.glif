@@ -2,9 +2,16 @@
 <glyph name="beeh-ar.init" format="2">
   <advance width="277"/>
   <anchor x="72" y="-376" name="bottom"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="95" y="310" name="top"/>
   <outline>
     <component base="behDotless-ar.init"/>
     <component base="twodotsverticalbelow-ar" xOffset="-7" yOffset="-30"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

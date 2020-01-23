@@ -2,10 +2,17 @@
 <glyph name="ghainThreedots-ar.init" format="2">
   <advance width="483"/>
   <anchor x="262" y="-40" name="bottom"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="255" y="952" name="top"/>
   <outline>
     <component base="ain-ar.init"/>
     <component base="dotabove-ar" xOffset="165" yOffset="82"/>
     <component base="threedotsupabove-ar" xScale="0.826" yScale="0.826" xOffset="114" yOffset="352"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

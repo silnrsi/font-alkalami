@@ -2,6 +2,7 @@
 <glyph name="meem-ar.init.flat" format="2">
   <advance width="408"/>
   <anchor x="192" y="-40" name="bottom"/>
+  <anchor x="0" y="207" name="exit"/>
   <anchor x="207" y="480" name="top"/>
   <outline>
     <contour>
@@ -47,4 +48,10 @@
       <point x="90" y="0"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.65,0.48,0.2,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -2,9 +2,16 @@
 <glyph name="nyeh-ar.init" format="2">
   <advance width="593"/>
   <anchor x="281" y="-214" name="bottom"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="272" y="358" name="top"/>
   <outline>
     <component base="hah-ar.init"/>
     <component base="twodotshorizontalbelow-ar" xOffset="100" yOffset="-29"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -2,10 +2,17 @@
 <glyph name="yehTwodotsbelowHamzaabove-ar.init" format="2">
   <advance width="277"/>
   <anchor x="84" y="-212" name="bottom"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="115" y="500" name="top"/>
   <outline>
     <component base="behDotless-ar.init"/>
     <component base="twodotshorizontalbelow-ar" xOffset="-99" yOffset="-29"/>
     <component base="hamzaabove-ar" xOffset="22" yOffset="-205"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>
