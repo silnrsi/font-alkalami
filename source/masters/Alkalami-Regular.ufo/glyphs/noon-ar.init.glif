@@ -3,6 +3,7 @@
   <advance width="339"/>
   <anchor x="112" y="-40" name="bottom"/>
   <anchor x="151" y="505" name="top"/>
+  <anchor x="0" y="0" name="exit"/>
   <outline>
     <component base="behDotless-ar.init"/>
     <component base="dotabove-ar" xOffset="43" yOffset="-12"/>

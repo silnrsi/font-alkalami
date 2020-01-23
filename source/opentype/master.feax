@@ -12,6 +12,11 @@ languagesystem latn dflt;
 
 @hahFinals_alt = [ hah-ar.fina.alt jeem-ar.fina.alt khah-ar.fina.alt nyeh-ar.fina.alt  ];
 
+@hahMedials_low = [ hah-ar.medi.low jeem-ar.medi.low khah-ar.medi.low nyeh-ar.medi.low ];
+
+# With alternate attachment points for stacking:
+@hahMedials_stack = [ hah-ar.medi.stack jeem-ar.medi.stack khah-ar.medi.stack nyeh-ar.medi.stack ];
+
 # marks that can go on initials and medials:
 @mark_on_IM = [
 	#alefabove-ar  fatha_alefabove-ar  highhamza-ar  hamzaabove-ar.nostem  hamzabelow-ar.nostem
@@ -278,6 +283,16 @@ languagesystem latn dflt;
 	alef-ar.wideshort.fina
 ];
 
+@post_hah_shift_down_low = [
+	ghain-ar.fina.low
+	seen-ar.fina.low
+	yeh-ar.fina.low
+	alefMaksura-ar.fina.low
+	alef-ar.fina.low
+	alef-ar.wide.fina.low
+	alef-ar.wideshort.fina.low
+];
+
 @pre_yb_need_alt = [
 	yeh-ar.medi
 	yeh-ar.init
@@ -407,27 +422,66 @@ lookup ss08_aux {
 } ss08_aux;
 
 
-lookup shift_pre_hah {
-	lookupflag IgnoreMarks RightToLeft;
 
-	# Rule 1:
-	pos @pre_hah_shift_up_init' <0 414 0 0>   @hahMedials' <0 207 0 0>  @hahMedials;
+
+lookup shift_pre_hah {
+	lookupflag IgnoreMarks;
+
+	# Rule 1 - two steps:
+	sub  @pre_hah_shift_up_init  @hahMedials  @hahMedials'  by  @hahMedials_stack;
+	
+	sub  @pre_hah_shift_up_init  @hahMedials'  @hahMedials_stack  by  @hahMedials_stack;
 
 	# Rule 2:
-	pos @pre_hah_shift_up_init' <0 207 0 0>  @pre_hah_shift_up_medi' <0 207 0 0>  @hahMedials;
+	sub  @pre_hah_shift_up_init  @pre_hah_shift_up_medi  @hahMedials'  by  @hahMedials_stack;
 
 	# Rule 3:
-	pos @pre_hah_shift_up_init' <0 207 0 0>  @pre_hah_shift_up_medi' <0 207 0 0>  @pre_hah_shift_up_medi' <0 207 0 0>  @hahMedials;
+	sub  @pre_hah_shift_up_init  @pre_hah_shift_up_medi  @pre_hah_shift_up_medi  @hahMedials'  by  @hahMedials_stack;
 
 	# Rule 4:
-	pos @pre_hah_shift_up_init' <0 207 0 0>  @hahMedials;
+	sub  @pre_hah_shift_up_init  @hahMedials'  by  @hahMedials_stack;
 	
-	ignore pos @pre_hah_shift_up_init  @hahMedials  @hahMedials'               @post_hah_shift_down';
-	pos                                @hahMedials  @hahMedials' <0 -207 0 0>  @post_hah_shift_down' <0 -207 0 0>;
+	# Rule 5: shift final down:
+	ignore sub @pre_hah_shift_up_init  @hahMedials  @hahMedials' @post_hah_shift_down;
+	sub                                @hahMedials  @hahMedials' @post_hah_shift_down  by  @hahMedials_low ;
 	
-	ignore pos @pre_hah_shift_up_init  @pre_hah_shift_up_medi  @hahMedials'               @post_hah_shift_down';
-	pos                                @pre_hah_shift_up_medi  @hahMedials' <0 -207 0 0>  @post_hah_shift_down' <0 -207 0 0>;
+	# Rule 6: shift final down
+	ignore sub @pre_hah_shift_up_init  @pre_hah_shift_up_medi  @hahMedials' @post_hah_shift_down;
+	sub                                @pre_hah_shift_up_medi  @hahMedials' @post_hah_shift_down  by  @hahMedials_low;
+
+	sub @hahMedials_low  @post_hah_shift_down'  by  @post_hah_shift_down_low;
+
 } shift_pre_hah;
+
+
+lookup cursive_exit_entry {
+  lookupflag IgnoreMarks RightToLeft;
+  pos cursive @entry @exit;
+} cursive_exit_entry;
+
+
+# OBSOLETE:
+#lookup shift_pre_hah {
+#	lookupflag IgnoreMarks RightToLeft;
+#
+#	# Rule 1:
+#	pos @pre_hah_shift_up_init' <0 414 0 0>   @hahMedials' <0 207 0 0>  @hahMedials;
+#
+#	# Rule 2:
+#	pos @pre_hah_shift_up_init' <0 207 0 0>  @pre_hah_shift_up_medi' <0 207 0 0>  @hahMedials;
+#
+#	# Rule 3:
+#	pos @pre_hah_shift_up_init' <0 207 0 0>  @pre_hah_shift_up_medi' <0 207 0 0>  @pre_hah_shift_up_medi' <0 207 0 0>  @hahMedials;
+#
+#	# Rule 4:
+#	pos @pre_hah_shift_up_init' <0 207 0 0>  @hahMedials;
+#	
+#	ignore pos @pre_hah_shift_up_init  @hahMedials  @hahMedials'               @post_hah_shift_down';
+#	pos                                @hahMedials  @hahMedials' <0 -207 0 0>  @post_hah_shift_down' <0 -207 0 0>;
+#	
+#	ignore pos @pre_hah_shift_up_init  @pre_hah_shift_up_medi  @hahMedials'               @post_hah_shift_down';
+#	pos                                @pre_hah_shift_up_medi  @hahMedials' <0 -207 0 0>  @post_hah_shift_down' <0 -207 0 0>;
+#} shift_pre_hah;
 
 
 lookup kern_end_of_ayah {
@@ -961,6 +1015,9 @@ feature calt {
 		sub @EndofAyah' @Digits.small @Digits.small @Digits.small by @EndofAyah3;
 		sub @EndofAyah' @Digits.small @Digits.small by @EndofAyah2;
 	} UniscribeFix;
+	
+	# Create stacking jeem/hah behavior
+	lookup shift_pre_hah;
 
 } calt;
 
@@ -1077,8 +1134,13 @@ feature ss08 {
 # GPOS features                                             *
 #************************************************************
 
+feature curs {
+	lookup cursive_exit_entry;
+} curs;
+
+
 feature kern {
-	lookup shift_pre_hah;
+	###lookup shift_pre_hah;
 	lookup kern_end_of_ayah;
 } kern;
 
