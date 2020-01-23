@@ -2,9 +2,17 @@
 <glyph name="gaf-ar.medi" format="2">
   <advance width="785"/>
   <anchor x="375" y="-40" name="bottom"/>
+  <anchor x="785" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="205" y="535" name="top"/>
   <outline>
     <component base="kaf-ar.medi"/>
     <component base="gafbar" xOffset="40" yOffset="-208"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

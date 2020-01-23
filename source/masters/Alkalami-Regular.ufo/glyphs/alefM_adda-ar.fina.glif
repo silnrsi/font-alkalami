@@ -2,6 +2,7 @@
 <glyph name="alefMadda-ar.fina" format="2">
   <advance width="344"/>
   <anchor x="142" y="-220" name="bottom"/>
+  <anchor x="344" y="0" name="entry"/>
   <anchor x="149" y="730" name="top"/>
   <outline>
     <contour>

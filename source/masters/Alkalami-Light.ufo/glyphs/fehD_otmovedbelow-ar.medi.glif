@@ -2,9 +2,17 @@
 <glyph name="fehDotmovedbelow-ar.medi" format="2">
   <advance width="479"/>
   <anchor x="257" y="-240" name="bottom"/>
+  <anchor x="479" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="123" y="500" name="top"/>
   <outline>
     <component base="fehDotless-ar.medi"/>
     <component base="dotbelow-ar" xOffset="149" yOffset="-30"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

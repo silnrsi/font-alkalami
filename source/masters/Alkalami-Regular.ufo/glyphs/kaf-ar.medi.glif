@@ -2,6 +2,8 @@
 <glyph name="kaf-ar.medi" format="2">
   <advance width="799"/>
   <anchor x="412" y="-40" name="bottom"/>
+  <anchor x="799" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="158" y="490" name="top"/>
   <outline>
     <contour>
@@ -47,4 +49,10 @@
       <point x="273" y="345"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

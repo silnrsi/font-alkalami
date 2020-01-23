@@ -2,9 +2,17 @@
 <glyph name="behhamzaabove-ar.medi" format="2">
   <advance width="329"/>
   <anchor x="167" y="-267" name="bottom"/>
+  <anchor x="329" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="175" y="577" name="top"/>
   <outline>
     <component base="beh-ar.medi"/>
     <component base="hamzaabove-ar" xOffset="48" yOffset="-187"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -2,6 +2,8 @@
 <glyph name="yehThreedotsabove-farsi.medi" format="2">
   <advance width="289"/>
   <anchor x="146" y="-210" name="bottom"/>
+  <anchor x="289" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="97" y="644" name="top"/>
   <outline>
     <component base="behDotless-ar.medi"/>
@@ -11,7 +13,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

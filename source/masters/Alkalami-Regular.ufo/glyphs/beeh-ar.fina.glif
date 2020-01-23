@@ -2,6 +2,7 @@
 <glyph name="beeh-ar.fina" format="2">
   <advance width="448"/>
   <anchor x="215" y="-410" name="bottom"/>
+  <anchor x="444" y="0" name="entry"/>
   <anchor x="225" y="297" name="top"/>
   <outline>
     <component base="twodotsverticalbelow-ar" xOffset="134"/>

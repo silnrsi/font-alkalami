@@ -2,7 +2,7 @@
 <glyph name="ghain-ar.fina.low" format="2">
   <advance width="584"/>
   <anchor x="310" y="-265" name="bottom"/>
-  <anchor x="584" y="-107" name="entry"/>
+  <anchor x="584" y="207" name="entry"/>
   <anchor x="290" y="525" name="top"/>
   <outline>
     <component base="ain-ar.fina" yOffset="-207"/>

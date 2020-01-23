@@ -2,9 +2,17 @@
 <glyph name="behThreedotsupbelow-ar.medi" format="2">
   <advance width="289"/>
   <anchor x="131" y="-365" name="bottom"/>
+  <anchor x="289" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="111" y="314" name="top"/>
   <outline>
     <component base="behDotless-ar.medi"/>
     <component base="threedotsupbelow-ar" xOffset="-29" yOffset="-30"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

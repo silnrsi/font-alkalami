@@ -757,21 +757,43 @@ markClass threedotsdownbelow-ar.narrow <anchor 151 0> @_bottom;
 markClass twodotshorizontalbelow-ar <anchor 179 0> @_bottom;
 markClass twodotsverticalbelow-ar <anchor 89 0> @_bottom;
 
+# AP: entry
+@entry = [ain-ar.medi ainThreedots-ar.medi ainThreedots-ar.medi.ss05 ainTwodotshorizontalabove-ar.medi ghain-ar.medi ghainThreedots-ar.medi ghainThreedots-ar.medi.ss05 alef-ar.fina alef-ar.fina.short alef-ar.wide.fina alef-ar.wideshort.fina alefHamzaabove-ar.fina alefHamzabelow-ar.fina alefMadda-ar.fina alefMaksura-ar.medi beeh-ar.medi beeh-ar.medi.ss05 beh-ar.medi behDotless-ar.medi behThreedotsupabove-ar.medi behThreedotsupabove-ar.medi.ss05 behThreedotsupbelow-ar.medi behVabove-ar.medi behVbelow-ar.medi behVinvertedbelow-ar.medi behhamzaabove-ar.medi e-ar.medi noon-ar.medi noonAfrican-ar.medi noonTwodotsbelow-ar.medi noonghunna-ar.medi teh-ar.medi theh-ar.medi yeh-ar.medi yeh-farsi.medi yeh-farsi.medi.ss05 yehHamzaabove-ar.medi yehThreedotsabove-farsi.medi yehThreedotsabove-farsi.medi.ss05 yehThreedotsbelow-ar.medi yehTwodotsbelowDotabove-ar.medi yehTwodotsbelowHamzaabove-ar.medi beeh-ar.fina beeh-ar.fina.ss05 beh-ar.fina behDotless-ar.fina behThreedotsupabove-ar.fina behThreedotsupabove-ar.fina.ss05 behThreedotsupbelow-ar.fina behVabove-ar.fina behVbelow-ar.fina behVinvertedbelow-ar.fina behhamzaabove-ar.fina peh-ar.fina teh-ar.fina theh-ar.fina beh-ar.medi.flat behDotless-ar.medi.flat dad-ar.medi sad-ar.medi feh-ar.medi fehAfrican-ar.medi fehDotless-ar.medi fehDotmovedbelow-ar.medi fehTwodotsbelow-ar.medi qaf-ar.medi qafAfrican-ar.medi qafAfricanThreedotsabove-ar.medi qafAfricanThreedotsabove-ar.medi.ss05 qafDotabove-ar.medi qafDotless-ar.medi qafThreedotsabove-ar.medi qafThreedotsabove-ar.medi.ss05 veh-ar.medi gaf-ar.medi kaf-ar.medi keheh-ar.medi kehehThreedotsabove-ar.medi kehehThreedotsabove-ar.medi.ss05 ng-ar.medi hah-ar.fina hah-ar.fina.ss07 jeem-ar.fina jeem-ar.fina.ss07 khah-ar.fina khah-ar.fina.ss07 nyeh-ar.fina nyeh-ar.fina.ss07 hah-ar.fina.alt nyeh-ar.fina.alt hah-ar.medi.stack jeem-ar.medi.low jeem-ar.medi.stack khah-ar.medi.stack nyeh-ar.medi.stack heh-ar.medi jeem-ar.fina.alt khah-ar.fina.alt kafswash-ar.medi lam-ar.fina lam-ar.medi meem-ar.fina meem-ar.medi peh-ar.medi reh-ar.fina seen-ar.fina.low seen-ar.medi sheen-ar.medi tah-ar.medi tahThreedots-ar.medi tahThreedots-ar.medi.ss05 zah-ar.medi];
+# baseClass [ain-ar.medi ainThreedots-ar.medi ainThreedots-ar.medi.ss05 ainTwodotshorizontalabove-ar.medi ghain-ar.medi ghainThreedots-ar.medi ghainThreedots-ar.medi.ss05] <anchor 572 0> @entry;
+# baseClass [alef-ar.fina alef-ar.fina.short] <anchor 224 0> @entry;
+# baseClass [alef-ar.wide.fina alef-ar.wideshort.fina alefHamzaabove-ar.fina alefHamzabelow-ar.fina] <anchor 314 0> @entry;
+# baseClass alefMadda-ar.fina <anchor 344 0> @entry;
+# baseClass [alefMaksura-ar.medi beeh-ar.medi beeh-ar.medi.ss05 beh-ar.medi behDotless-ar.medi behThreedotsupabove-ar.medi behThreedotsupabove-ar.medi.ss05 behThreedotsupbelow-ar.medi behVabove-ar.medi behVbelow-ar.medi behVinvertedbelow-ar.medi behhamzaabove-ar.medi e-ar.medi noon-ar.medi noonAfrican-ar.medi noonTwodotsbelow-ar.medi noonghunna-ar.medi teh-ar.medi theh-ar.medi yeh-ar.medi yeh-farsi.medi yeh-farsi.medi.ss05 yehHamzaabove-ar.medi yehThreedotsabove-farsi.medi yehThreedotsabove-farsi.medi.ss05 yehThreedotsbelow-ar.medi yehTwodotsbelowDotabove-ar.medi yehTwodotsbelowHamzaabove-ar.medi] <anchor 329 0> @entry;
+# baseClass [beeh-ar.fina beeh-ar.fina.ss05 beh-ar.fina behDotless-ar.fina behThreedotsupabove-ar.fina behThreedotsupabove-ar.fina.ss05 behThreedotsupbelow-ar.fina behVabove-ar.fina behVbelow-ar.fina behVinvertedbelow-ar.fina behhamzaabove-ar.fina peh-ar.fina teh-ar.fina theh-ar.fina] <anchor 444 0> @entry;
+# baseClass [beh-ar.medi.flat behDotless-ar.medi.flat] <anchor 197 0> @entry;
+# baseClass [dad-ar.medi sad-ar.medi] <anchor 736 0> @entry;
+# baseClass [feh-ar.medi fehAfrican-ar.medi fehDotless-ar.medi fehDotmovedbelow-ar.medi fehTwodotsbelow-ar.medi qaf-ar.medi qafAfrican-ar.medi qafAfricanThreedotsabove-ar.medi qafAfricanThreedotsabove-ar.medi.ss05 qafDotabove-ar.medi qafDotless-ar.medi qafThreedotsabove-ar.medi qafThreedotsabove-ar.medi.ss05 veh-ar.medi] <anchor 538 0> @entry;
+# baseClass [gaf-ar.medi kaf-ar.medi keheh-ar.medi kehehThreedotsabove-ar.medi kehehThreedotsabove-ar.medi.ss05 ng-ar.medi] <anchor 799 0> @entry;
+# baseClass [hah-ar.fina hah-ar.fina.ss07 jeem-ar.fina jeem-ar.fina.ss07 khah-ar.fina khah-ar.fina.ss07 nyeh-ar.fina nyeh-ar.fina.ss07] <anchor 558 0> @entry;
+# baseClass [hah-ar.fina.alt nyeh-ar.fina.alt] <anchor 558 207> @entry;
+# baseClass [hah-ar.medi.stack jeem-ar.medi.low jeem-ar.medi.stack khah-ar.medi.stack nyeh-ar.medi.stack] <anchor 403 207> @entry;
+# baseClass heh-ar.medi <anchor 501 0> @entry;
+# baseClass [jeem-ar.fina.alt khah-ar.fina.alt] <anchor 585 207> @entry;
+# baseClass kafswash-ar.medi <anchor 1119 0> @entry;
+# baseClass lam-ar.fina <anchor 277 0> @entry;
+# baseClass lam-ar.medi <anchor 289 0> @entry;
+# baseClass meem-ar.fina <anchor 489 0> @entry;
+# baseClass meem-ar.medi <anchor 458 0> @entry;
+# baseClass peh-ar.medi <anchor 389 0> @entry;
+# baseClass reh-ar.fina <anchor 363 0> @entry;
+# baseClass seen-ar.fina.low <anchor 475 0> @entry;
+# baseClass [seen-ar.medi sheen-ar.medi] <anchor 472 0> @entry;
+# baseClass [tah-ar.medi tahThreedots-ar.medi tahThreedots-ar.medi.ss05 zah-ar.medi] <anchor 789 0> @entry;
+
+# AP: exit
+@exit = [ain-ar.medi ainThreedots-ar.medi ainThreedots-ar.medi.ss05 ainTwodotshorizontalabove-ar.medi alefMaksura-ar.medi beeh-ar.medi beeh-ar.medi.ss05 beh-ar.medi behDotless-ar.medi behThreedotsupabove-ar.medi behThreedotsupabove-ar.medi.ss05 behThreedotsupbelow-ar.medi behVabove-ar.medi behVbelow-ar.medi behVinvertedbelow-ar.medi behhamzaabove-ar.medi dad-ar.medi e-ar.medi feh-ar.medi fehAfrican-ar.medi fehDotless-ar.medi fehDotmovedbelow-ar.medi fehTwodotsbelow-ar.medi gaf-ar.medi ghain-ar.init ghain-ar.medi ghainThreedots-ar.medi ghainThreedots-ar.medi.ss05 hah-ar.medi.stack heh-ar.medi jeem-ar.init jeem-ar.medi.low jeem-ar.medi.stack kaf-ar.medi kafswash-ar.medi keheh-ar.medi kehehThreedotsabove-ar.medi kehehThreedotsabove-ar.medi.ss05 khah-ar.medi.stack lam-ar.medi meem-ar.init meem-ar.medi ng-ar.medi noon-ar.init noon-ar.medi noonAfrican-ar.medi noonTwodotsbelow-ar.medi noonghunna-ar.medi nyeh-ar.medi.stack peh-ar.medi qaf-ar.medi qafAfrican-ar.medi qafAfricanThreedotsabove-ar.medi qafAfricanThreedotsabove-ar.medi.ss05 qafDotabove-ar.medi qafDotless-ar.medi qafThreedotsabove-ar.medi qafThreedotsabove-ar.medi.ss05 sad-ar.medi seen-ar.medi sheen-ar.medi tah-ar.medi tahThreedots-ar.medi tahThreedots-ar.medi.ss05 teh-ar.medi theh-ar.medi veh-ar.medi yeh-ar.init yeh-ar.medi yeh-farsi.medi yeh-farsi.medi.ss05 yehHamzaabove-ar.medi yehThreedotsabove-farsi.medi yehThreedotsabove-farsi.medi.ss05 yehThreedotsbelow-ar.medi yehTwodotsbelowDotabove-ar.medi yehTwodotsbelowHamzaabove-ar.medi zah-ar.medi beh-ar.medi.flat behDotless-ar.medi.flat];
+# baseClass [ain-ar.medi ainThreedots-ar.medi ainThreedots-ar.medi.ss05 ainTwodotshorizontalabove-ar.medi alefMaksura-ar.medi beeh-ar.medi beeh-ar.medi.ss05 beh-ar.medi behDotless-ar.medi behThreedotsupabove-ar.medi behThreedotsupabove-ar.medi.ss05 behThreedotsupbelow-ar.medi behVabove-ar.medi behVbelow-ar.medi behVinvertedbelow-ar.medi behhamzaabove-ar.medi dad-ar.medi e-ar.medi feh-ar.medi fehAfrican-ar.medi fehDotless-ar.medi fehDotmovedbelow-ar.medi fehTwodotsbelow-ar.medi gaf-ar.medi ghain-ar.init ghain-ar.medi ghainThreedots-ar.medi ghainThreedots-ar.medi.ss05 hah-ar.medi.stack heh-ar.medi jeem-ar.init jeem-ar.medi.low jeem-ar.medi.stack kaf-ar.medi kafswash-ar.medi keheh-ar.medi kehehThreedotsabove-ar.medi kehehThreedotsabove-ar.medi.ss05 khah-ar.medi.stack lam-ar.medi meem-ar.init meem-ar.medi ng-ar.medi noon-ar.init noon-ar.medi noonAfrican-ar.medi noonTwodotsbelow-ar.medi noonghunna-ar.medi nyeh-ar.medi.stack peh-ar.medi qaf-ar.medi qafAfrican-ar.medi qafAfricanThreedotsabove-ar.medi qafAfricanThreedotsabove-ar.medi.ss05 qafDotabove-ar.medi qafDotless-ar.medi qafThreedotsabove-ar.medi qafThreedotsabove-ar.medi.ss05 sad-ar.medi seen-ar.medi sheen-ar.medi tah-ar.medi tahThreedots-ar.medi tahThreedots-ar.medi.ss05 teh-ar.medi theh-ar.medi veh-ar.medi yeh-ar.init yeh-ar.medi yeh-farsi.medi yeh-farsi.medi.ss05 yehHamzaabove-ar.medi yehThreedotsabove-farsi.medi yehThreedotsabove-farsi.medi.ss05 yehThreedotsbelow-ar.medi yehTwodotsbelowDotabove-ar.medi yehTwodotsbelowHamzaabove-ar.medi zah-ar.medi] <anchor 0 0> @exit;
+# baseClass [beh-ar.medi.flat behDotless-ar.medi.flat] <anchor 0 207> @exit;
+
 # AP: _center
 markClass damma-ar.ss08 <anchor 126 248> @_center;
 markClass dotcenter-ar <anchor 109 406> @_center;
 markClass hamzacenter-ar <anchor 111 284> @_center;
-
-# AP: entry
-@entry = [hah-ar.medi.stack jeem-ar.medi.low jeem-ar.medi.stack khah-ar.medi.stack nyeh-ar.medi.stack lam-ar.fina reh-ar.fina seen-ar.fina.low];
-# baseClass [hah-ar.medi.stack jeem-ar.medi.low jeem-ar.medi.stack khah-ar.medi.stack nyeh-ar.medi.stack] <anchor 403 207> @entry;
-# baseClass lam-ar.fina <anchor 277 0> @entry;
-# baseClass reh-ar.fina <anchor 363 0> @entry;
-# baseClass seen-ar.fina.low <anchor 475 0> @entry;
-
-# AP: exit
-@exit = [hah-ar.medi.stack jeem-ar.init jeem-ar.medi.low jeem-ar.medi.stack khah-ar.medi.stack nyeh-ar.medi.stack yeh-ar.init];
-# baseClass [hah-ar.medi.stack jeem-ar.init jeem-ar.medi.low jeem-ar.medi.stack khah-ar.medi.stack nyeh-ar.medi.stack yeh-ar.init] <anchor 0 0> @exit;
 # Prefix: Languagesystems
 languagesystem DFLT dflt;
 languagesystem arab dflt;
@@ -781,6 +803,9 @@ languagesystem latn dflt;
 @hahMedials = [hah-ar.medi jeem-ar.medi khah-ar.medi nyeh-ar.medi];
 @hahFinals = [hah-ar.fina jeem-ar.fina khah-ar.fina nyeh-ar.fina];
 @hahFinals_alt = [hah-ar.fina.alt jeem-ar.fina.alt khah-ar.fina.alt nyeh-ar.fina.alt];
+@hahMedials_low = [hah-ar.medi.low jeem-ar.medi.low khah-ar.medi.low nyeh-ar.medi.low];
+# With alternate attachment points for stacking:
+@hahMedials_stack = [hah-ar.medi.stack jeem-ar.medi.stack khah-ar.medi.stack nyeh-ar.medi.stack];
 # marks that can go on initials and medials:
 @mark_on_IM = [damma-ar dammatan-ar dotabove-ar fatha-ar fathatan-ar gafbar hamzaabove-ar hamzaaboveFathatan-ar hamzaaboveSukun-ar madda-ar shadda-ar shadda_alef-ar shadda_damma-ar shadda_dammatan-ar shadda_fatha-ar shadda_fathatan-ar sukun-ar threedots-ar threedots-ar.small threedotsabovesmall-ar threedotsdownabove-ar threedotsupabove-ar twodotshorizontalabove-ar twodotsverticalabove-ar vabove-ar vinvertedabove-ar yehabove-ar alefbelow-ar dotbelow-ar dotvowelbelow-ar dotvowelbelow-ar.ss04 hamzabelow-ar hamzabelowKasra-ar hamzabelowKasratan-ar kasra-ar kasratan-ar threedotsdownbelow-ar threedotsupbelow-ar threedotsdownbelow-ar.narrow twodotshorizontalbelow-ar twodotsnarrow-ar twodotsverticalbelow-ar];
 #alefabove-ar  fatha_alefabove-ar  highhamza-ar  hamzaabove-ar.nostem  hamzabelow-ar.nostem
@@ -791,6 +816,7 @@ languagesystem latn dflt;
 @pre_hah_shift_up_init = [behDotless-ar.init beh-ar.init peh-ar.init beeh-ar.init beeh-ar.init.ss05 behThreedotsupbelow-ar.init alefMaksura-ar.init teh-ar.init theh-ar.init behVinvertedbelow-ar.init behVabove-ar.init behVbelow-ar.init behhamzaabove-ar.init jeem-ar.init nyeh-ar.init hah-ar.init khah-ar.init seen-ar.init sheen-ar.init sad-ar.init dad-ar.init tah-ar.init tahThreedots-ar.init tahThreedots-ar.init.ss05 zah-ar.init ain-ar.init ainThreedots-ar.init ainThreedots-ar.init.ss05 ainTwodotshorizontalabove-ar.init ghain-ar.init feh-ar.init fehAfrican-ar.init veh-ar.init fehDotless-ar.init fehDotmovedbelow-ar.init fehTwodotsbelow-ar.init qafDotless-ar.init qaf-ar.init qafAfrican-ar.init qafDotabove-ar.init qafThreedotsabove-ar.init qafThreedotsabove-ar.init.ss05 kaf-ar.init keheh-ar.init kehehThreedotsabove-ar.init kehehThreedotsabove-ar.init.ss05 gaf-ar.init kafswash-ar.init ng-ar.init lam-ar.init meem-ar.init noon-ar.init noonAfrican-ar.init noonghunna-ar.init noonTwodotsbelow-ar.init heh-ar.init yehHamzaabove-ar.init yehTwodotsbelowHamzaabove-ar.init yehTwodotsbelowDotabove-ar.init yeh-ar.init yeh-farsi.init yeh-farsi.init.ss05 e-ar.init yehThreedotsbelow-ar.init];
 @pre_hah_shift_up_medi = [behDotless-ar.medi beh-ar.medi peh-ar.medi beeh-ar.medi beeh-ar.medi.ss05 behThreedotsupbelow-ar.medi alefMaksura-ar.medi teh-ar.medi theh-ar.medi behVinvertedbelow-ar.medi behVabove-ar.medi behVbelow-ar.medi behhamzaabove-ar.medi jeem-ar.medi nyeh-ar.medi hah-ar.medi khah-ar.medi seen-ar.medi sheen-ar.medi sad-ar.medi dad-ar.medi tah-ar.medi tahThreedots-ar.medi tahThreedots-ar.medi.ss05 zah-ar.medi ain-ar.medi ainThreedots-ar.medi ainThreedots-ar.medi.ss05 ainTwodotshorizontalabove-ar.medi ghain-ar.medi feh-ar.medi fehAfrican-ar.medi veh-ar.medi fehDotless-ar.medi fehDotmovedbelow-ar.medi fehTwodotsbelow-ar.medi qafDotless-ar.medi qaf-ar.medi qafAfrican-ar.medi qafDotabove-ar.medi qafThreedotsabove-ar.medi qafThreedotsabove-ar.medi.ss05 kaf-ar.medi keheh-ar.medi kehehThreedotsabove-ar.medi kehehThreedotsabove-ar.medi.ss05 gaf-ar.medi kafswash-ar.medi ng-ar.medi lam-ar.medi meem-ar.medi noon-ar.medi noonAfrican-ar.medi noonghunna-ar.medi noonTwodotsbelow-ar.medi heh-ar.medi yehHamzaabove-ar.medi yehTwodotsbelowHamzaabove-ar.medi yehTwodotsbelowDotabove-ar.medi yeh-ar.medi yeh-farsi.medi yeh-farsi.medi.ss05 e-ar.medi yehThreedotsbelow-ar.medi];
 @post_hah_shift_down = [ghain-ar.fina seen-ar.fina yeh-ar.fina alefMaksura-ar.fina alef-ar.fina alef-ar.wide.fina alef-ar.wideshort.fina];
+@post_hah_shift_down_low = [ghain-ar.fina.low seen-ar.fina.low yeh-ar.fina.low alefMaksura-ar.fina.low alef-ar.fina.low alef-ar.wide.fina.low alef-ar.wideshort.fina.low];
 @pre_yb_need_alt = [yeh-ar.medi yeh-ar.init lam-ar.medi lam-ar.init beh-ar.medi beh-ar.init teh-ar.medi teh-ar.init theh-ar.medi theh-ar.init noon-ar.medi noon-ar.init noonAfrican-ar.medi noonAfrican-ar.init behDotless-ar.medi behDotless-ar.init alefMaksura-ar.medi alefMaksura-ar.init];
 @hamzas = [hamzaabove-ar hamzabelow-ar];
 @Digits = [zero one two three four five six seven eight nine zero-ar one-ar two-ar three-ar four-ar five-ar six-ar seven-ar eight-ar nine-ar];
@@ -849,21 +875,168 @@ lookup ss08_aux {
 } ss08_aux;
 
 lookup shift_pre_hah {
-    lookupflag RightToLeft IgnoreMarks;
-    # Rule 1:
-    pos @pre_hah_shift_up_init' <0 414 0 0> @hahMedials' <0 207 0 0> @hahMedials;
+    lookupflag IgnoreMarks;
+    # Rule 1 - two steps:
+    sub @pre_hah_shift_up_init @hahMedials @hahMedials' by @hahMedials_stack;
+    sub @pre_hah_shift_up_init @hahMedials' @hahMedials_stack by @hahMedials_stack;
     # Rule 2:
-    pos @pre_hah_shift_up_init' <0 207 0 0> @pre_hah_shift_up_medi' <0 207 0 0> @hahMedials;
+    sub @pre_hah_shift_up_init @pre_hah_shift_up_medi @hahMedials' by @hahMedials_stack;
     # Rule 3:
-    pos @pre_hah_shift_up_init' <0 207 0 0> @pre_hah_shift_up_medi' <0 207 0 0> @pre_hah_shift_up_medi' <0 207 0 0> @hahMedials;
+    sub @pre_hah_shift_up_init @pre_hah_shift_up_medi @pre_hah_shift_up_medi @hahMedials' by @hahMedials_stack;
     # Rule 4:
-    pos @pre_hah_shift_up_init' <0 207 0 0> @hahMedials;
-    ignore pos @pre_hah_shift_up_init @hahMedials @hahMedials' @post_hah_shift_down';
-    pos @hahMedials @hahMedials' <0 -207 0 0> @post_hah_shift_down' <0 -207 0 0>;
-    ignore pos @pre_hah_shift_up_init @pre_hah_shift_up_medi @hahMedials' @post_hah_shift_down';
-    pos @pre_hah_shift_up_medi @hahMedials' <0 -207 0 0> @post_hah_shift_down' <0 -207 0 0>;
+    sub @pre_hah_shift_up_init @hahMedials' by @hahMedials_stack;
+    # Rule 5: shift final down:
+    ignore sub @pre_hah_shift_up_init @hahMedials @hahMedials' @post_hah_shift_down;
+    sub @hahMedials @hahMedials' @post_hah_shift_down by @hahMedials_low;
+    # Rule 6: shift final down
+    ignore sub @pre_hah_shift_up_init @pre_hah_shift_up_medi @hahMedials' @post_hah_shift_down;
+    sub @pre_hah_shift_up_medi @hahMedials' @post_hah_shift_down by @hahMedials_low;
+    sub @hahMedials_low @post_hah_shift_down' by @post_hah_shift_down_low;
 } shift_pre_hah;
 
+lookup cursive_exit_entry {
+    lookupflag RightToLeft IgnoreMarks;
+    pos cursive ain-ar.medi <anchor 572 0> <anchor 0 0>;
+    pos cursive ainThreedots-ar.medi <anchor 572 0> <anchor 0 0>;
+    pos cursive ainThreedots-ar.medi.ss05 <anchor 572 0> <anchor 0 0>;
+    pos cursive ainTwodotshorizontalabove-ar.medi <anchor 572 0> <anchor 0 0>;
+    pos cursive alef-ar.fina <anchor 224 0> <anchor NULL>;
+    pos cursive alef-ar.fina.short <anchor 224 0> <anchor NULL>;
+    pos cursive alef-ar.wide.fina <anchor 314 0> <anchor NULL>;
+    pos cursive alef-ar.wideshort.fina <anchor 314 0> <anchor NULL>;
+    pos cursive alefHamzaabove-ar.fina <anchor 314 0> <anchor NULL>;
+    pos cursive alefHamzabelow-ar.fina <anchor 314 0> <anchor NULL>;
+    pos cursive alefMadda-ar.fina <anchor 344 0> <anchor NULL>;
+    pos cursive alefMaksura-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive beeh-ar.fina <anchor 444 0> <anchor NULL>;
+    pos cursive beeh-ar.fina.ss05 <anchor 444 0> <anchor NULL>;
+    pos cursive beeh-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive beeh-ar.medi.ss05 <anchor 329 0> <anchor 0 0>;
+    pos cursive beh-ar.fina <anchor 444 0> <anchor NULL>;
+    pos cursive beh-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive beh-ar.medi.flat <anchor 197 0> <anchor 0 207>;
+    pos cursive behDotless-ar.fina <anchor 444 0> <anchor NULL>;
+    pos cursive behDotless-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive behDotless-ar.medi.flat <anchor 197 0> <anchor 0 207>;
+    pos cursive behThreedotsupabove-ar.fina <anchor 444 0> <anchor NULL>;
+    pos cursive behThreedotsupabove-ar.fina.ss05 <anchor 444 0> <anchor NULL>;
+    pos cursive behThreedotsupabove-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive behThreedotsupabove-ar.medi.ss05 <anchor 329 0> <anchor 0 0>;
+    pos cursive behThreedotsupbelow-ar.fina <anchor 444 0> <anchor NULL>;
+    pos cursive behThreedotsupbelow-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive behVabove-ar.fina <anchor 444 0> <anchor NULL>;
+    pos cursive behVabove-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive behVbelow-ar.fina <anchor 444 0> <anchor NULL>;
+    pos cursive behVbelow-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive behVinvertedbelow-ar.fina <anchor 444 0> <anchor NULL>;
+    pos cursive behVinvertedbelow-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive behhamzaabove-ar.fina <anchor 444 0> <anchor NULL>;
+    pos cursive behhamzaabove-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive dad-ar.medi <anchor 736 0> <anchor 0 0>;
+    pos cursive e-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive feh-ar.medi <anchor 538 0> <anchor 0 0>;
+    pos cursive fehAfrican-ar.medi <anchor 538 0> <anchor 0 0>;
+    pos cursive fehDotless-ar.medi <anchor 538 0> <anchor 0 0>;
+    pos cursive fehDotmovedbelow-ar.medi <anchor 538 0> <anchor 0 0>;
+    pos cursive fehTwodotsbelow-ar.medi <anchor 538 0> <anchor 0 0>;
+    pos cursive gaf-ar.medi <anchor 799 0> <anchor 0 0>;
+    pos cursive ghain-ar.init <anchor NULL> <anchor 0 0>;
+    pos cursive ghain-ar.medi <anchor 572 0> <anchor 0 0>;
+    pos cursive ghainThreedots-ar.medi <anchor 572 0> <anchor 0 0>;
+    pos cursive ghainThreedots-ar.medi.ss05 <anchor 572 0> <anchor 0 0>;
+    pos cursive hah-ar.fina <anchor 558 0> <anchor NULL>;
+    pos cursive hah-ar.fina.alt <anchor 558 207> <anchor NULL>;
+    pos cursive hah-ar.fina.ss07 <anchor 558 0> <anchor NULL>;
+    pos cursive hah-ar.medi.stack <anchor 403 207> <anchor 0 0>;
+    pos cursive heh-ar.medi <anchor 501 0> <anchor 0 0>;
+    pos cursive jeem-ar.fina <anchor 558 0> <anchor NULL>;
+    pos cursive jeem-ar.fina.alt <anchor 585 207> <anchor NULL>;
+    pos cursive jeem-ar.fina.ss07 <anchor 558 0> <anchor NULL>;
+    pos cursive jeem-ar.init <anchor NULL> <anchor 0 0>;
+    pos cursive jeem-ar.medi.low <anchor 403 207> <anchor 0 0>;
+    pos cursive jeem-ar.medi.stack <anchor 403 207> <anchor 0 0>;
+    pos cursive kaf-ar.medi <anchor 799 0> <anchor 0 0>;
+    pos cursive kafswash-ar.medi <anchor 1119 0> <anchor 0 0>;
+    pos cursive keheh-ar.medi <anchor 799 0> <anchor 0 0>;
+    pos cursive kehehThreedotsabove-ar.medi <anchor 799 0> <anchor 0 0>;
+    pos cursive kehehThreedotsabove-ar.medi.ss05 <anchor 799 0> <anchor 0 0>;
+    pos cursive khah-ar.fina <anchor 558 0> <anchor NULL>;
+    pos cursive khah-ar.fina.alt <anchor 585 207> <anchor NULL>;
+    pos cursive khah-ar.fina.ss07 <anchor 558 0> <anchor NULL>;
+    pos cursive khah-ar.medi.stack <anchor 403 207> <anchor 0 0>;
+    pos cursive lam-ar.fina <anchor 277 0> <anchor NULL>;
+    pos cursive lam-ar.medi <anchor 289 0> <anchor 0 0>;
+    pos cursive meem-ar.fina <anchor 489 0> <anchor NULL>;
+    pos cursive meem-ar.init <anchor NULL> <anchor 0 0>;
+    pos cursive meem-ar.medi <anchor 458 0> <anchor 0 0>;
+    pos cursive ng-ar.medi <anchor 799 0> <anchor 0 0>;
+    pos cursive noon-ar.init <anchor NULL> <anchor 0 0>;
+    pos cursive noon-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive noonAfrican-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive noonTwodotsbelow-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive noonghunna-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive nyeh-ar.fina <anchor 558 0> <anchor NULL>;
+    pos cursive nyeh-ar.fina.alt <anchor 558 207> <anchor NULL>;
+    pos cursive nyeh-ar.fina.ss07 <anchor 558 0> <anchor NULL>;
+    pos cursive nyeh-ar.medi.stack <anchor 403 207> <anchor 0 0>;
+    pos cursive peh-ar.fina <anchor 444 0> <anchor NULL>;
+    pos cursive peh-ar.medi <anchor 389 0> <anchor 0 0>;
+    pos cursive qaf-ar.medi <anchor 538 0> <anchor 0 0>;
+    pos cursive qafAfrican-ar.medi <anchor 538 0> <anchor 0 0>;
+    pos cursive qafAfricanThreedotsabove-ar.medi <anchor 538 0> <anchor 0 0>;
+    pos cursive qafAfricanThreedotsabove-ar.medi.ss05 <anchor 538 0> <anchor 0 0>;
+    pos cursive qafDotabove-ar.medi <anchor 538 0> <anchor 0 0>;
+    pos cursive qafDotless-ar.medi <anchor 538 0> <anchor 0 0>;
+    pos cursive qafThreedotsabove-ar.medi <anchor 538 0> <anchor 0 0>;
+    pos cursive qafThreedotsabove-ar.medi.ss05 <anchor 538 0> <anchor 0 0>;
+    pos cursive reh-ar.fina <anchor 363 0> <anchor NULL>;
+    pos cursive sad-ar.medi <anchor 736 0> <anchor 0 0>;
+    pos cursive seen-ar.fina.low <anchor 475 0> <anchor NULL>;
+    pos cursive seen-ar.medi <anchor 472 0> <anchor 0 0>;
+    pos cursive sheen-ar.medi <anchor 472 0> <anchor 0 0>;
+    pos cursive tah-ar.medi <anchor 789 0> <anchor 0 0>;
+    pos cursive tahThreedots-ar.medi <anchor 789 0> <anchor 0 0>;
+    pos cursive tahThreedots-ar.medi.ss05 <anchor 789 0> <anchor 0 0>;
+    pos cursive teh-ar.fina <anchor 444 0> <anchor NULL>;
+    pos cursive teh-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive theh-ar.fina <anchor 444 0> <anchor NULL>;
+    pos cursive theh-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive veh-ar.medi <anchor 538 0> <anchor 0 0>;
+    pos cursive yeh-ar.init <anchor NULL> <anchor 0 0>;
+    pos cursive yeh-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive yeh-farsi.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive yeh-farsi.medi.ss05 <anchor 329 0> <anchor 0 0>;
+    pos cursive yehHamzaabove-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive yehThreedotsabove-farsi.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive yehThreedotsabove-farsi.medi.ss05 <anchor 329 0> <anchor 0 0>;
+    pos cursive yehThreedotsbelow-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive yehTwodotsbelowDotabove-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive yehTwodotsbelowHamzaabove-ar.medi <anchor 329 0> <anchor 0 0>;
+    pos cursive zah-ar.medi <anchor 789 0> <anchor 0 0>;
+} cursive_exit_entry;
+
+# OBSOLETE:
+#lookup shift_pre_hah {
+#	lookupflag IgnoreMarks RightToLeft;
+#
+#	# Rule 1:
+#	pos @pre_hah_shift_up_init' <0 414 0 0>   @hahMedials' <0 207 0 0>  @hahMedials;
+#
+#	# Rule 2:
+#	pos @pre_hah_shift_up_init' <0 207 0 0>  @pre_hah_shift_up_medi' <0 207 0 0>  @hahMedials;
+#
+#	# Rule 3:
+#	pos @pre_hah_shift_up_init' <0 207 0 0>  @pre_hah_shift_up_medi' <0 207 0 0>  @pre_hah_shift_up_medi' <0 207 0 0>  @hahMedials;
+#
+#	# Rule 4:
+#	pos @pre_hah_shift_up_init' <0 207 0 0>  @hahMedials;
+#	
+#	ignore pos @pre_hah_shift_up_init  @hahMedials  @hahMedials'               @post_hah_shift_down';
+#	pos                                @hahMedials  @hahMedials' <0 -207 0 0>  @post_hah_shift_down' <0 -207 0 0>;
+#	
+#	ignore pos @pre_hah_shift_up_init  @pre_hah_shift_up_medi  @hahMedials'               @post_hah_shift_down';
+#	pos                                @pre_hah_shift_up_medi  @hahMedials' <0 -207 0 0>  @post_hah_shift_down' <0 -207 0 0>;
+#} shift_pre_hah;
 lookup kern_end_of_ayah {
     # contextually kern the sign with digits so they are enclosed
     # Uniscribe or HarfBuzz 'latn'
@@ -1948,6 +2121,8 @@ feature calt {
         sub @EndofAyah' @Digits.small @Digits.small by @EndofAyah2;
     } UniscribeFix;
 
+    # Create stacking jeem/hah behavior
+    lookup shift_pre_hah;
 } calt;
 
 # Mirroring
@@ -2057,8 +2232,12 @@ feature ss08 {
 #************************************************************
 # GPOS features                                             *
 #************************************************************
+feature curs {
+    lookup cursive_exit_entry;
+} curs;
+
 feature kern {
-    lookup shift_pre_hah;
+    ###lookup shift_pre_hah;
     lookup kern_end_of_ayah;
 } kern;
 

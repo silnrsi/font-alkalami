@@ -2,9 +2,17 @@
 <glyph name="tahThreedots-ar.medi.ss05" format="2">
   <advance width="789"/>
   <anchor x="412" y="-40" name="bottom"/>
+  <anchor x="789" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="414" y="672" name="top"/>
   <outline>
     <component base="tah-ar.medi"/>
     <component base="threedots-ar" xOffset="240" yOffset="431"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

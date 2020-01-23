@@ -2,6 +2,7 @@
 <glyph name="nyeh-ar.fina" format="2">
   <advance width="558"/>
   <anchor x="369" y="-450" name="bottom"/>
+  <anchor x="558" y="0" name="entry"/>
   <anchor x="386" y="185" name="top"/>
   <outline>
     <component base="hah-ar.fina"/>

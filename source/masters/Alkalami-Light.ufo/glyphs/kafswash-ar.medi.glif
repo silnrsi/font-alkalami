@@ -2,6 +2,8 @@
 <glyph name="kafswash-ar.medi" format="2">
   <advance width="1185"/>
   <anchor x="580" y="-30" name="bottom"/>
+  <anchor x="1185" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="205" y="467" name="top"/>
   <outline>
     <contour>
@@ -49,4 +51,10 @@
       <point x="988" y="90" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

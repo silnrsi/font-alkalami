@@ -2,8 +2,8 @@
 <glyph name="ghain-ar.init" format="2">
   <advance width="483"/>
   <anchor x="262" y="-40" name="bottom"/>
-  <anchor x="271" y="600" name="top"/>
   <anchor x="0" y="0" name="exit"/>
+  <anchor x="271" y="600" name="top"/>
   <outline>
     <component base="ain-ar.init"/>
     <component base="dotabove-ar" xOffset="160" yOffset="88"/>

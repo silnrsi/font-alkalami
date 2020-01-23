@@ -2,6 +2,7 @@
 <glyph name="jeem-ar.fina.alt" format="2">
   <advance width="537"/>
   <anchor x="336" y="-245" name="bottom"/>
+  <anchor x="537" y="207" name="entry"/>
   <anchor x="337" y="344" name="top"/>
   <outline>
     <component base="hah-ar.fina.alt"/>
