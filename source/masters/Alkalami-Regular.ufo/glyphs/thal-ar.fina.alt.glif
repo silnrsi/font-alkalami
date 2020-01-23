@@ -2,9 +2,16 @@
 <glyph name="thal-ar.fina.alt" format="2">
   <advance width="435"/>
   <anchor x="282" y="-40" name="bottom"/>
+  <anchor x="435" y="0" name="entry"/>
   <anchor x="251" y="540" name="top"/>
   <outline>
     <component base="dotabove-ar" xOffset="158" yOffset="2"/>
     <component base="dal-ar.fina.alt"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

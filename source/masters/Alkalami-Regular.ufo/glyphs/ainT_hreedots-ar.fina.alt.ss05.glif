@@ -2,10 +2,17 @@
 <glyph name="ainThreedots-ar.fina.alt.ss05" format="2">
   <advance width="536"/>
   <anchor x="234" y="-373" name="bottom"/>
+  <anchor x="536" y="0" name="entry"/>
   <anchor x="246" y="1141" name="top"/>
   <outline>
     <component base="ain-ar.fina.ss06"/>
     <component base="threedots-ar.small" xOffset="68" yOffset="894"/>
     <component base="dotabove-ar" xOffset="130" yOffset="355"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

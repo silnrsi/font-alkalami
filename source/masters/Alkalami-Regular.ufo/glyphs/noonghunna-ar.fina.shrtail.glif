@@ -2,6 +2,7 @@
 <glyph name="noonghunna-ar.fina.shrtail" format="2">
   <advance width="252"/>
   <anchor x="120" y="-218" name="bottom"/>
+  <anchor x="252" y="0" name="entry"/>
   <anchor x="122" y="299" name="top"/>
   <outline>
     <contour>
@@ -46,4 +47,10 @@
       <point x="-626" y="-261" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

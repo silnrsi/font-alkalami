@@ -2,6 +2,8 @@
 <glyph name="hah-ar.medi.low" format="2">
   <advance width="403"/>
   <anchor x="202" y="-247" name="bottom"/>
+  <anchor x="403" y="207" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="194" y="169" name="top"/>
   <outline>
     <component base="hah-ar.medi" yOffset="-207"/>
@@ -9,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

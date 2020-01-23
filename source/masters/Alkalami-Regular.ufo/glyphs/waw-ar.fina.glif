@@ -2,6 +2,7 @@
 <glyph name="waw-ar.fina" format="2">
   <advance width="529"/>
   <anchor x="329" y="-222" name="bottom"/>
+  <anchor x="529" y="0" name="entry"/>
   <anchor x="201" y="410" name="top"/>
   <outline>
     <contour>
@@ -58,4 +59,10 @@
       <point x="-128" y="-441"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

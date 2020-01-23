@@ -2,8 +2,15 @@
 <glyph name="yeh-ar.fina.shrtail.ss01" format="2">
   <advance width="793"/>
   <anchor x="633" y="-110" name="bottom"/>
+  <anchor x="793" y="0" name="entry"/>
   <anchor x="440" y="297" name="top"/>
   <outline>
     <component base="alefMaksura-ar.fina"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

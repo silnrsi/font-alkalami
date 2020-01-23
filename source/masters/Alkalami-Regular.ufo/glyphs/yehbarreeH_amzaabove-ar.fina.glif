@@ -2,9 +2,16 @@
 <glyph name="yehbarreeHamzaabove-ar.fina" format="2">
   <advance width="402"/>
   <anchor x="213" y="-267" name="bottom"/>
+  <anchor x="402" y="0" name="entry"/>
   <anchor x="154" y="485" name="top"/>
   <outline>
     <component base="hamzaabove-ar" xOffset="36" yOffset="-262"/>
     <component base="yehbarree-ar.fina"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

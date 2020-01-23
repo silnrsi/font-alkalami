@@ -2,9 +2,16 @@
 <glyph name="fehTwodotsbelow-ar.fina" format="2">
   <advance width="558"/>
   <anchor x="298" y="-290" name="bottom"/>
+  <anchor x="558" y="0" name="entry"/>
   <anchor x="217" y="578" name="top"/>
   <outline>
     <component base="fehDotless-ar.fina"/>
     <component base="twodotshorizontalbelow-ar" xOffset="123" yOffset="-40"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -8,4 +8,10 @@
     <component base="threedotsupbelow-ar" xOffset="36" yOffset="-20"/>
     <component base="behDotless-ar.fina"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

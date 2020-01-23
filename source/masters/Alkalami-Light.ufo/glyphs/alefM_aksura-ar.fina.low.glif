@@ -2,6 +2,7 @@
 <glyph name="alefMaksura-ar.fina.low" format="2">
   <advance width="793"/>
   <anchor x="633" y="-317" name="bottom"/>
+  <anchor x="793" y="0" name="entry"/>
   <anchor x="444" y="82" name="top"/>
   <outline>
     <contour>
@@ -72,4 +73,10 @@
       <point x="462" y="-129"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -2,6 +2,7 @@
 <glyph name="fehAfrican-ar.fina" format="2">
   <advance width="558"/>
   <anchor x="302" y="-40" name="bottom"/>
+  <anchor x="558" y="0" name="entry"/>
   <anchor x="195" y="578" name="top"/>
   <outline>
     <contour>
@@ -66,4 +67,10 @@
       <point x="488" y="142"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

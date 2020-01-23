@@ -2,6 +2,7 @@
 <glyph name="tah-ar.fina" format="2">
   <advance width="798"/>
   <anchor x="402" y="-40" name="bottom"/>
+  <anchor x="798" y="0" name="entry"/>
   <anchor x="429" y="426" name="top"/>
   <outline>
     <contour>
@@ -59,4 +60,10 @@
       <point x="818" y="140" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -2,9 +2,16 @@
 <glyph name="jeh-ar.fina" format="2">
   <advance width="328"/>
   <anchor x="156" y="-191" name="bottom"/>
+  <anchor x="328" y="0" name="entry"/>
   <anchor x="106" y="644" name="top"/>
   <outline>
     <component base="reh-ar.fina"/>
     <component base="threedotsupabove-ar" xOffset="-20" yOffset="25"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

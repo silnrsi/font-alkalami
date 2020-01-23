@@ -2,6 +2,7 @@
 <glyph name="sheen-ar.fina.longtail" format="2">
   <advance width="475"/>
   <anchor x="309" y="-44" name="bottom"/>
+  <anchor x="475" y="0" name="entry"/>
   <anchor x="226" y="801" name="top"/>
   <outline>
     <contour>
@@ -88,4 +89,10 @@
     </contour>
     <component base="threedotsupabove-ar" xOffset="57" yOffset="83"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

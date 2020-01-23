@@ -2,9 +2,16 @@
 <glyph name="ainTwodotshorizontalabove-ar.fina" format="2">
   <advance width="536"/>
   <anchor x="241" y="-50" name="bottom"/>
+  <anchor x="536" y="0" name="entry"/>
   <anchor x="223" y="872" name="top"/>
   <outline>
     <component base="ain-ar.fina"/>
     <component base="twodotshorizontalabove-ar" xOffset="56" yOffset="355"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

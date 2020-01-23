@@ -2,8 +2,15 @@
 <glyph name="keheh-ar.fina" format="2">
   <advance width="784"/>
   <anchor x="412" y="-40" name="bottom"/>
+  <anchor x="784" y="0" name="entry"/>
   <anchor x="165" y="490" name="top"/>
   <outline>
     <component base="kaf-ar.fina"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

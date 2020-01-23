@@ -2,9 +2,16 @@
 <glyph name="gaf-ar.fina" format="2">
   <advance width="784"/>
   <anchor x="412" y="-40" name="bottom"/>
+  <anchor x="784" y="0" name="entry"/>
   <anchor x="175" y="630" name="top"/>
   <outline>
     <component base="kaf-ar.fina"/>
     <component base="gafbar" xOffset="29" yOffset="-156"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

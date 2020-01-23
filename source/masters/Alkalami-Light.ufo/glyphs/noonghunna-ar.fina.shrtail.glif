@@ -2,8 +2,15 @@
 <glyph name="noonghunna-ar.fina.shrtail" format="2">
   <advance width="792"/>
   <anchor x="340" y="-280" name="bottom"/>
+  <anchor x="792" y="0" name="entry"/>
   <anchor x="376" y="201" name="top"/>
   <outline>
     <component base="noonghunna-ar.fina"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

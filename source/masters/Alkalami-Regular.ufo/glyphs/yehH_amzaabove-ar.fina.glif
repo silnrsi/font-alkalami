@@ -2,9 +2,16 @@
 <glyph name="yehHamzaabove-ar.fina" format="2">
   <advance width="562"/>
   <anchor x="391" y="-139" name="bottom"/>
+  <anchor x="562" y="0" name="entry"/>
   <anchor x="221" y="551" name="top"/>
   <outline>
     <component base="alefMaksura-ar.fina"/>
     <component base="hamzaabove-ar" xOffset="76" yOffset="-184"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -4,6 +4,7 @@
   <anchor x="477" y="-30" name="bottom_1"/>
   <anchor x="90" y="-30" name="bottom_2"/>
   <anchor x="309" y="0" name="caret_1"/>
+  <anchor x="517" y="0" name="entry"/>
   <anchor x="407" y="659" name="top_1"/>
   <anchor x="68" y="750" name="top_2"/>
   <outline>
@@ -105,4 +106,10 @@
     </contour>
     <component base="hamzaabove-ar" xOffset="5" yOffset="57"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

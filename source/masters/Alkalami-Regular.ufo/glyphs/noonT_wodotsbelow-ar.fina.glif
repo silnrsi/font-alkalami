@@ -2,10 +2,17 @@
 <glyph name="noonTwodotsbelow-ar.fina" format="2">
   <advance width="252"/>
   <anchor x="100" y="-268" name="bottom"/>
+  <anchor x="252" y="0" name="entry"/>
   <anchor x="66" y="547" name="top"/>
   <outline>
     <component base="noon-ar.fina.ss01"/>
     <component base="twodotshorizontalbelow-ar" xOffset="-799" yOffset="-493"/>
     <component base="dotabove-ar" xOffset="-9" yOffset="15"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

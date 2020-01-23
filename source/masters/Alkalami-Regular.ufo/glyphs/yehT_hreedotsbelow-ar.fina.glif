@@ -2,9 +2,16 @@
 <glyph name="yehThreedotsbelow-ar.fina" format="2">
   <advance width="522"/>
   <anchor x="451" y="-139" name="bottom"/>
+  <anchor x="522" y="0" name="entry"/>
   <anchor x="217" y="301" name="top"/>
   <outline>
     <component base="threedotsdownbelow-ar" xOffset="-323" yOffset="-291"/>
     <component base="alefMaksura-ar.fina.shrtail"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

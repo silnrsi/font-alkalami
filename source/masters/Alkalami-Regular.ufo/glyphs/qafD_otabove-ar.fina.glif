@@ -2,9 +2,16 @@
 <glyph name="qafDotabove-ar.fina" format="2">
   <advance width="536"/>
   <anchor x="355" y="-248" name="bottom"/>
+  <anchor x="536" y="0" name="entry"/>
   <anchor x="172" y="571" name="top"/>
   <outline>
     <component base="qafDotless-ar.fina"/>
     <component base="dotabove-ar" xOffset="64" yOffset="34"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

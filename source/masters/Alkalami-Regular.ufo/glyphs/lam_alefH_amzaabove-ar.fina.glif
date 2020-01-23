@@ -4,10 +4,17 @@
   <anchor x="474" y="-50" name="bottom_1"/>
   <anchor x="67" y="-46" name="bottom_2"/>
   <anchor x="274" y="0" name="caret_1"/>
+  <anchor x="494" y="0" name="entry"/>
   <anchor x="352" y="684" name="top_1"/>
   <anchor x="105" y="866" name="top_2"/>
   <outline>
     <component base="lam_alef-ar.fina"/>
     <component base="hamzaabove-ar" xOffset="-10" yOffset="130"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

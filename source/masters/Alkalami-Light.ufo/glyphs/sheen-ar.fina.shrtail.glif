@@ -2,8 +2,15 @@
 <glyph name="sheen-ar.fina.shrtail" format="2">
   <advance width="1093"/>
   <anchor x="858" y="-30" name="bottom"/>
+  <anchor x="1078" y="0" name="entry"/>
   <anchor x="823" y="660" name="top"/>
   <outline>
     <component base="sheen-ar"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>
