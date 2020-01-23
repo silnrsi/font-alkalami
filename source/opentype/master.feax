@@ -59,7 +59,7 @@ languagesystem latn dflt;
 	twodotsverticalbelow-ar
 ];
 
-@pre_hah_non_alt = [
+@pre_hah_not_flat = [
 	behDotless-ar.medi
 	beh-ar.medi
 	peh-ar.medi
@@ -100,7 +100,7 @@ languagesystem latn dflt;
 
 # This creates an alternate form that does NOT get shifted up to the same level as the medial hah.
 # The forms that are NOT in this class are medial tah/zah, feh/qaf, and kaf/gaf and most initials.
-@pre_hah_alt = [
+@pre_hah_flat = [
 	behDotless-ar.medi.flat
 	beh-ar.medi.flat
 	peh-ar.medi.flat
@@ -900,7 +900,7 @@ feature calt {
 	lookup calt_lkp1 {
 		lookupflag IgnoreMarks RightToLeft;
 
-		sub @pre_hah_non_alt'  @hahMedials  by  @pre_hah_alt;
+		sub @pre_hah_not_flat'  @hahMedials  by  @pre_hah_flat;
 
 		# Slightly shorter tail for yeh-barree before beh/yeh/noon forms:
 		sub @pre_yb_need_alt  yehbarree-ar.fina'  by  yehbarree-ar.fina.alt;
@@ -911,14 +911,14 @@ feature calt {
 	lookup prehah_alt {
 		lookupflag IgnoreMarks RightToLeft;
 
-		sub @pre_hah_non_alt'  @hahFinals  by  @pre_hah_alt;
+		sub @pre_hah_not_flat'  @hahFinals  by  @pre_hah_flat;
 	} prehah_alt;
 
 	# No stacking, rule 3:
 	lookup hahfinal_alt {
 		lookupflag IgnoreMarks RightToLeft;
 
-		sub @pre_hah_alt  @hahFinals'  by  @hahFinals_alt;
+		sub @pre_hah_flat  @hahFinals'  by  @hahFinals_alt;
 	} hahfinal_alt;
 
 	lookup calt_lkp2 {
