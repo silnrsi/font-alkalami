@@ -432,7 +432,7 @@ lookup ss08_aux {
 
 # Create the stacking effect in the jeems.
 lookup shift_pre_hah {
-	lookupflag IgnoreMarks RightToLeft;
+	lookupflag IgnoreMarks;
 
 	# Case 1 - init jeem jeem - push up
 	sub  @pre_hah_shift_up_init  @hahMedials  @hahMedials'  by  @hahMedials_stack;
@@ -454,7 +454,7 @@ lookup shift_pre_hah {
 
 # Lower final jeems after stacking and/or certain finals that should be lowered.
 lookup shift_post_hah {
-	lookupflag IgnoreMarks RightToLeft;
+	lookupflag IgnoreMarks;
 	
 	# Case 5: shift final down:
 	ignore sub @pre_hah_shift_up_init  @hahMedi_any  @hahMedi_any'      @post_hah_final_toShift;  # short word
@@ -474,14 +474,14 @@ lookup shift_post_hah {
 
 # Flatten glyphs that precede a stack.
 lookup flatten_pre_hah {
-	lookupflag IgnoreMarks RightToLeft;
+	lookupflag IgnoreMarks;
 
 	sub @pre_hah_not_flat'  @hahMedials_stack  by  @pre_hah_flat;  # or should this be hahMedi_any ??????????
 } flatten_pre_hah;
 
 # Flatten long jeem sequences - what these situations are is hard to describe. :-)
 lookup flatten_hah {
-	lookupflag IgnoreMarks RightToLeft;
+	lookupflag IgnoreMarks;
 	
 	# Case 7:
 	ignore sub  @c_init  @hahMedi_any';  # short sequence
@@ -638,7 +638,6 @@ feature aalt {
 	feature ss08;
 	feature calt;
 } aalt;
-
 
 
 @takes_hamzaAbove = [ damma-ar  dammatan-ar  fatha-ar  fathatan-ar  sukun-ar ];
@@ -1143,7 +1142,8 @@ feature ss07 {
 		name 3 1 0x409 "Jeem/hah stacking";
 	};
 	lookup ss07_lkp {
-		sub @cno_ss07 by @c_ss07;
+		sub @cno_ss07          by  @c_ss07;
+		sub @hahMedials_stack  by  @hahMedials_flat;
 	} ss07_lkp;
 } ss07;
 
