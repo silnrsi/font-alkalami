@@ -2,9 +2,9 @@
 <glyph name="khah-ar.medi" format="2">
   <advance width="403"/>
   <anchor x="202" y="-40" name="bottom"/>
-  <anchor x="195" y="586" name="top"/>
-  <anchor x="0" y="0" name="exit"/>
   <anchor x="403" y="207" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
+  <anchor x="195" y="586" name="top"/>
   <outline>
     <component base="hah-ar.medi"/>
     <component base="dotabove-ar" xOffset="89" yOffset="56"/>

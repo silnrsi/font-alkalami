@@ -2,9 +2,17 @@
 <glyph name="khah-ar.medi.ss07" format="2">
   <advance width="465"/>
   <anchor x="291" y="-30" name="bottom"/>
+  <anchor x="465" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="269" y="553" name="top"/>
   <outline>
     <component base="hah-ar.medi"/>
     <component base="dotabove-ar" xOffset="163" yOffset="19"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

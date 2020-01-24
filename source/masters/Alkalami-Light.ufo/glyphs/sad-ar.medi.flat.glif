@@ -2,6 +2,8 @@
 <glyph name="sad-ar.medi.flat" format="2">
   <advance width="712"/>
   <anchor x="341" y="-30" name="bottom"/>
+  <anchor x="712" y="0" name="entry"/>
+  <anchor x="0" y="207" name="exit"/>
   <anchor x="339" y="415" name="top"/>
   <outline>
     <contour>
@@ -53,4 +55,10 @@
       <point x="102" y="95"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -2,9 +2,17 @@
 <glyph name="noonAfrican-ar.medi.flat" format="2">
   <advance width="197"/>
   <anchor x="82" y="-40" name="bottom"/>
+  <anchor x="197" y="0" name="entry"/>
+  <anchor x="0" y="207" name="exit"/>
   <anchor x="61" y="653" name="top"/>
   <outline>
     <component base="behDotless-ar.medi.flat"/>
     <component base="dotabove-ar" xOffset="-53" yOffset="147"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

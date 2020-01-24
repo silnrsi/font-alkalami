@@ -2,9 +2,17 @@
 <glyph name="yeh-ar.medi.flat" format="2">
   <advance width="207"/>
   <anchor x="84" y="-212" name="bottom"/>
+  <anchor x="207" y="0" name="entry"/>
+  <anchor x="0" y="207" name="exit"/>
   <anchor x="28" y="489" name="top"/>
   <outline>
     <component base="behDotless-ar.medi.flat"/>
     <component base="twodotshorizontalbelow-ar" xOffset="-92" yOffset="-33"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>

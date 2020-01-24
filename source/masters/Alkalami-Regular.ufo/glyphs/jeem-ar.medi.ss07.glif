@@ -2,11 +2,17 @@
 <glyph name="jeem-ar.medi.ss07" format="2">
   <advance width="403"/>
   <anchor x="196" y="-260" name="bottom"/>
-  <anchor x="213" y="367" name="top"/>
-  <anchor x="0" y="0" name="exit"/>
   <anchor x="403" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
+  <anchor x="213" y="367" name="top"/>
   <outline>
     <component base="hah-ar.medi"/>
     <component base="dotbelow-ar" xOffset="86"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
 </glyph>
