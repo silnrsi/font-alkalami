@@ -426,9 +426,13 @@ lookup ss08_aux {
 } ss08_aux;
 
 
-# TODO: add a description of the various jeem forms.
+# .medi.stack - lower AP on left and higher on right; glyph to the right is positioned higher
+#				(identical to .medi)
+# .medi.low - glyph is positioned lower with APs at 0; connects to lowered final
+# .medi.ss07 - flat form with APs at 0; glyph to the right is positioned at the same level
 
 @hahMedi_any = [ @hahMedials  @hahMedials_stack ];
+@hahMedi_any_flat = [ @hahMedials_flat  @hahMedials_flat ];
 
 # Create the stacking effect in the jeems.
 lookup shift_pre_hah {
@@ -479,28 +483,33 @@ lookup flatten_pre_hah {
 	sub @pre_hah_not_flat'  @hahMedials_stack  by  @pre_hah_flat;  # or should this be hahMedi_any ??????????
 } flatten_pre_hah;
 
+
+lookup no_change {
+	ignore sub  @pre_hah_flat;
+	ignore sub  @hahMedi_any;
+} no_change;
+
+lookup flatten_hah_aux {
+	sub @cno_ss07  by  @c_ss07;
+	sub @hahMedials_stack by @hahMedials_flat;
+} flatten_hah_aux;
+
+
 # Flatten long jeem sequences - what these situations are is hard to describe. :-)
 lookup flatten_hah {
 	lookupflag IgnoreMarks;
 	
 	# Case 7:
 	ignore sub  @c_init  @hahMedi_any';  # short sequence
-
-	# Case 8: flat jeems
-	sub  @hahMedials'        @hahMedi_any  @post_hah_final_low  by  @hahMedials_flat;
-	sub  @hahMedials_stack'  @hahMedi_any  @post_hah_final_low  by  @hahMedials_flat;
 	
-	# Case 9: flat jeems
-	sub @hahMedials'        @hahMedi_any  @hahMedials_low  by  @hahMedials_flat;
-	sub @hahMedials_stack'  @hahMedi_any  @hahMedials_low  by  @hahMedials_flat;
+	# flat jeem jeem jeem.low - don't flatten first jeem, it will make the prior flat form attach too low.
+	sub @pre_hah_flat' lookup no_change  @hahMedi_any' lookup no_change  @hahMedi_any' lookup flatten_hah_aux;
 	
-	# Case 10: flat jeems
-	sub @hahMedials'        @hahMedi_any  @hahFinals  by  @hahMedials_flat;
-	sub @hahMedials_stack'  @hahMedi_any  @hahFinals  by  @hahMedials_flat;
+	# Case 8: flatten jeems
+	sub  @hahMedi_any' lookup flatten_hah_aux  @hahMedi_any  [ @post_hah_final_low @hahMedials_low @hahFinals ];
 	
-	# Cases 8 & 9: continue to flatten jeems
-	sub @hahMedials_flat  @hahMedials'        by  @hahMedials_flat;
-	sub @hahMedials_flat  @hahMedials_stack'  by  @hahMedials_flat;
+	# Case 8: continue to flatten jeems
+	sub  @hahMedials_flat  @hahMedi_any' lookup flatten_hah_aux;
 
 } flatten_hah;
 
@@ -1013,16 +1022,10 @@ feature calt {
 		sub noonAfrican-ar space-ar waw-ar' by waw-ar.alt;
 
 		#subs to get a short, high lam-ar.init with jeem/hah/khah
-		sub lam-ar.init' jeem-ar.medi by lam-ar.init.high;
-		sub lam-ar.init' hah-ar.medi by lam-ar.init.high;
-		sub lam-ar.init' khah-ar.medi by lam-ar.init.high;
-		sub lam-ar.init' nyeh-ar.medi by lam-ar.init.high;
+		sub lam-ar.init' @hahMedi_any  by  lam-ar.init.high;
 
 		#subs to get a short, high alef-ar.init with lam followed by jeem/hah/khah
-		sub alef-ar' lam-ar.init jeem-ar.medi by alef-ar.high;
-		sub alef-ar' lam-ar.init hah-ar.medi by alef-ar.high;
-		sub alef-ar' lam-ar.init khah-ar.medi by alef-ar.high;
-		sub alef-ar' lam-ar.init nyeh-ar.medi by alef-ar.high;
+		sub alef-ar' lam-ar.init @hahMedi_any  by  alef-ar.high;
 
 		# replace sequence of digits, up to three places
 		# Uniscribe or Harfbuzz 'latn'
@@ -1141,10 +1144,25 @@ feature ss07 {
 	featureNames {
 		name 3 1 0x409 "Jeem/hah stacking";
 	};
+	# Basically undo the jeem stacking rules above. :-/
 	lookup ss07_lkp {
-		sub @cno_ss07          by  @c_ss07;
-		sub @hahMedials_stack  by  @hahMedials_flat;
+		# flat jeem jeem - don't flatten first jeem, it will make the prior flat form attach too low.
+		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @hahMedials_flat; # already flattened
+		
+		sub @pre_hah_flat' lookup no_change  @hahMedi_any'      lookup no_change  @hahMedi_any;
+		sub @pre_hah_flat' lookup no_change  @hahMedi_any'      lookup no_change  @cno_ss07;
+		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @hahMedials_low;
+
+		sub lam-ar.init.high  @hahMedials_stack'  lookup no_change;
+
+		sub @cno_ss07'    lookup flatten_hah_aux;
+    sub @hahMedi_any' lookup flatten_hah_aux;
 	} ss07_lkp;
+	
+	lookup ss07_lkp2 {
+		sub @post_hah_final_low'  by  @post_hah_final_toShift;
+		sub @hahMedials_low'      by  @hahMedials_flat;
+	} ss07_lkp2;
 } ss07;
 
 
@@ -1163,6 +1181,10 @@ feature ss08 {
 #************************************************************
 # GPOS features                                             *
 #************************************************************
+
+# Note: we could possibly simplify the rules by removing the entry/exit APs from
+# the pre-hah flat forms (sad-ar.medi.flat, etc), since I BELIEVE they are always
+# on the baseline.
 
 feature curs {
 	lookup cursive_exit_entry;
