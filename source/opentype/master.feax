@@ -588,6 +588,7 @@ lookup attachLigMarkLight {
 							ligComponent	<anchor 232 359> mark @_top;
 } attachLigMarkLight;
 
+
 lookup attachBaseMark {
 	lookupflag 0;
 
@@ -614,18 +615,21 @@ lookup attachBaseMark {
 
 } attachBaseMark;
 
-lookup attachMarkMark {
 
+@allBottomMarks = [ @_bottom  @bottom_MarkBase ];
+@allTopMarks    = [ @top      @top_MarkBase ];
+
+lookup attachTopMarkMark {
+	lookupflag UseMarkFilteringSet @allTopMarks;
+	
 	pos mark @top_MarkBase    mark @_top;
-	pos mark @bottom_MarkBase mark @_bottom;
+} attachTopMarkMark;
 
-} attachMarkMark;
-
-# ignore intervening top marks
-lookup attachMarkXxxMark {  
-	lookupflag UseMarkFilteringSet @bottom_MarkBase;
+lookup attachBottomMarkMark {
+	lookupflag UseMarkFilteringSet @allBottomMarks;
+	
 	pos mark @bottom_MarkBase mark @_bottom;
-} attachMarkXxxMark;
+} attachBottomMarkMark;
 
 
 #************************************************************
@@ -1203,8 +1207,8 @@ ifinfo(familyName, "Alkalami") {
 feature mark {
 	lookup attachLigMarkReg;
 	lookup attachBaseMark;
-	lookup attachMarkMark;
-	lookup attachMarkXxxMark;
+	lookup attachTopMarkMark;
+	lookup attachBottomMarkMark;
 } mark;
 
 }
@@ -1214,8 +1218,8 @@ ifinfo(familyName, "AlkalamiLight") {
 feature mark {
 	lookup attachLigMarkLight;
 	lookup attachBaseMark;
-	lookup attachMarkMark;
-	lookup attachMarkXxxMark;
+	lookup attachTopMarkMark;
+	lookup attachBottomMarkMark;
 } mark;
 
 }
