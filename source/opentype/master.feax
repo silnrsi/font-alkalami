@@ -461,6 +461,20 @@ lookup ss08_aux {
 # .medi.low - glyph is positioned lower with APs at 0; connects to lowered final
 # .medi.ss07 - flat form with APs at 0; glyph to the right is positioned at the same level
 
+# Simple lowered final jeem - flatten chars that do not stack above hah finals.
+lookup prehah_alt {
+	lookupflag IgnoreMarks;
+
+	sub @pre_hah_not_flat'  @hahFinals  by  @pre_hah_flat;
+} prehah_alt;
+
+# Simple lowered final jeem - using the lowered form.
+lookup hahfinal_alt {
+	lookupflag IgnoreMarks;
+
+	sub @pre_hah_flat  @hahFinals'  by  @hahFinals_alt;
+} hahfinal_alt;
+
 @hahMedi_any = [ @hahMedials  @hahMedials_stack ];
 @hahMedi_any_flat = [ @hahMedials_flat  @hahMedials_flat ];
 
@@ -514,12 +528,12 @@ lookup flatten_pre_hah {
 } flatten_pre_hah;
 
 
-lookup no_change {
+lookup no_change {  # for chaining lookups
 	ignore sub  @pre_hah_flat;
 	ignore sub  @hahMedi_any;
 } no_change;
 
-lookup flatten_hah_aux {
+lookup flatten_hah_aux {  # for chaining lookups
 	sub @cno_ss07  by  @c_ss07;
 	sub @hahMedials_stack by @hahMedials_flat;
 } flatten_hah_aux;
@@ -964,34 +978,19 @@ feature salt {
 
 feature calt {
 
-	# No stacking, rule 1:
-	# Use the alternate form for chars that do not stack above hah medials.
 	lookup calt_lkp1 {
-		lookupflag IgnoreMarks RightToLeft;
-
-		####sub @pre_hah_not_flat'  @hahMedi_any  by  @pre_hah_flat;
+		lookupflag IgnoreMarks;
 
 		# Slightly shorter tail for yeh-barree before beh/yeh/noon forms:
 		sub @pre_yb_need_alt  yehbarree-ar.fina'  by  yehbarree-ar.fina.alt;
 	} calt_lkp1;
-
-	# No stacking, rule 2:
-	# Use the alternate form for chars that do not stack above hah finals.
-	lookup prehah_alt {
-		lookupflag IgnoreMarks RightToLeft;
-
-		sub @pre_hah_not_flat'  @hahFinals  by  @pre_hah_flat;
-	} prehah_alt;
-
-	# No stacking, rule 3:
-	lookup hahfinal_alt {
-		lookupflag IgnoreMarks RightToLeft;
-
-		sub @pre_hah_flat  @hahFinals'  by  @hahFinals_alt;
-	} hahfinal_alt;
+	
+	# Can these be moved down with the other jeem/hah lookups?
+	lookup prehah_alt;
+	lookup hahfinal_alt;
 
 	lookup calt_lkp2 {
-		lookupflag IgnoreMarks RightToLeft;
+		lookupflag IgnoreMarks;
 
 		# subs to avoid collisions in strings with dal-ar
 		sub seen-ar space-ar dal-ar' by dal-ar.alt;
@@ -1180,12 +1179,17 @@ feature ss07 {
 	};
 	# Basically undo the jeem stacking rules above. :-/
 	lookup ss07_lkp {
+		lookupflag IgnoreMarks;
+		
 		# flat jeem jeem - don't flatten first jeem, it will make the prior flat form attach too low.
 		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @hahMedials_flat; # already flattened
 		
-		sub @pre_hah_flat' lookup no_change  @hahMedi_any'      lookup no_change  @hahMedi_any;
 		sub @pre_hah_flat' lookup no_change  @hahMedi_any'      lookup no_change  @cno_ss07;
-		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @hahMedials_low;
+		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @c_medi;
+		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @hahMedials_low;   # not in c_medi
+		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @hahMedials_flat;  # not in c_medi
+		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @c_fina;
+		
 
 		sub lam-ar.init.high  @hahMedials_stack'  lookup no_change;
 
@@ -1194,6 +1198,8 @@ feature ss07 {
 	} ss07_lkp;
 	
 	lookup ss07_lkp2 {
+		lookupflag IgnoreMarks;
+		
 		sub @post_hah_final_low'  by  @post_hah_final_toShift;
 		sub @hahMedials_low'      by  @hahMedials_flat;
 	} ss07_lkp2;
