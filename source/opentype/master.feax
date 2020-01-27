@@ -278,9 +278,24 @@ languagesystem latn dflt;
 ];
 
 @post_hah_final_toShift = [
+	ain-ar.fina
+	ainThreedots-ar.fina
+	ainThreedots-ar.fina.ss05
+	ainTwodotshorizontalabove-ar.fina
 	ghain-ar.fina
+	ghainThreedots-ar.fina
+	ghainThreedots-ar.fina.ss05
 	seen-ar.fina
+	sheen-ar.fina
 	yeh-ar.fina
+	yehTwodotsbelowHamzaabove-ar.fina
+	yehTwodotsbelowDotabove-ar.fina
+	yehThreedotsbelow-ar.fina
+	yehThreedotsabove-farsi.fina
+	yehThreedotsabove-farsi.fina.ss05
+	yeh-farsi.fina
+	yeh-farsi.fina.ss05
+	yehHamzaabove-ar.fina
 	alefMaksura-ar.fina
 	alef-ar.fina
 	alef-ar.wide.fina
@@ -288,9 +303,24 @@ languagesystem latn dflt;
 ];
 
 @post_hah_final_low = [
+	ain-ar.fina.low
+	ainThreedots-ar.fina.low
+	ainThreedots-ar.fina.ss05.low
+	ainTwodotshorizontalabove-ar.fina.low
 	ghain-ar.fina.low
+	ghainThreedots-ar.fina.low
+	ghainThreedots-ar.fina.ss05.low
 	seen-ar.fina.low
+	sheen-ar.fina.low
 	yeh-ar.fina.low
+	yehTwodotsbelowHamzaabove-ar.fina.low
+	yehTwodotsbelowDotabove-ar.fina.low
+	yehThreedotsbelow-ar.fina.low
+	yehThreedotsabove-farsi.fina.low
+	yehThreedotsabove-farsi.fina.ss05.low
+	yeh-farsi.fina.low
+	yeh-farsi.fina.ss05.low
+	yehHamzaabove-ar.fina.low
 	alefMaksura-ar.fina.low
 	alef-ar.fina.low
 	alef-ar.wide.fina.low
