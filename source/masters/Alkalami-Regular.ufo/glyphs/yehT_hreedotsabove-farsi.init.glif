@@ -2,16 +2,11 @@
 <glyph name="yehThreedotsabove-farsi.init" format="2">
   <advance width="339"/>
   <anchor x="129" y="-240" name="bottom"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="151" y="689" name="top"/>
   <outline>
     <component base="behDotless-ar.init"/>
     <component base="twodotshorizontalbelow-ar" xOffset="-44"/>
     <component base="threedotsupabove-ar" xOffset="31" yOffset="-21"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

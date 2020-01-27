@@ -2,6 +2,7 @@
 <glyph name="kaf-ar.init" format="2">
   <advance width="800"/>
   <anchor x="402" y="-40" name="bottom"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="185" y="490" name="top"/>
   <outline>
     <contour>

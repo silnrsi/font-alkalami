@@ -2,6 +2,8 @@
 <glyph name="noonAfrican-ar.medi" format="2">
   <advance width="289"/>
   <anchor x="175" y="-30" name="bottom"/>
+  <anchor x="289" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="75" y="500" name="top"/>
   <outline>
     <component base="behDotless-ar.medi"/>

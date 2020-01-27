@@ -2,6 +2,8 @@
 <glyph name="beh-ar.medi" format="2">
   <advance width="289"/>
   <anchor x="121" y="-227" name="bottom"/>
+  <anchor x="289" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="125" y="300" name="top"/>
   <outline>
     <component base="behDotless-ar.medi"/>

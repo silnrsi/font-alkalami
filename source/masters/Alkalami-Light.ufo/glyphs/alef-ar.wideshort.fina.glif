@@ -2,6 +2,7 @@
 <glyph name="alef-ar.wideshort.fina" format="2">
   <advance width="227"/>
   <anchor x="170" y="-29" name="bottom"/>
+  <anchor x="227" y="0" name="entry"/>
   <anchor x="83" y="631" name="top"/>
   <outline>
     <contour>

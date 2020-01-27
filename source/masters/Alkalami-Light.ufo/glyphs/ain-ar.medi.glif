@@ -2,6 +2,8 @@
 <glyph name="ain-ar.medi" format="2">
   <advance width="522"/>
   <anchor x="261" y="-30" name="bottom"/>
+  <anchor x="522" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="280" y="549" name="top"/>
   <outline>
     <contour>

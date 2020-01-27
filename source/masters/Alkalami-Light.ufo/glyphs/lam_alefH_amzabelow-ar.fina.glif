@@ -2,6 +2,7 @@
 <glyph name="lam_alefHamzabelow-ar.fina" format="2">
   <advance width="517"/>
   <anchor x="309" y="0" name="caret_1"/>
+  <anchor x="517" y="0" name="entry"/>
   <outline>
     <component base="hamzabelow-ar" xOffset="40" yOffset="-20"/>
     <component base="lam_alef-ar.fina"/>

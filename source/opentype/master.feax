@@ -8,9 +8,18 @@ languagesystem latn dflt;
 
 @hahMedials = [ hah-ar.medi jeem-ar.medi khah-ar.medi nyeh-ar.medi  ];
 
+@hahMedials_low = [ hah-ar.medi.low jeem-ar.medi.low khah-ar.medi.low nyeh-ar.medi.low ];
+
+@hahMedials_flat = [ hah-ar.medi.ss07 jeem-ar.medi.ss07 khah-ar.medi.ss07 nyeh-ar.medi.ss07 ];
+
+
 @hahFinals = [ hah-ar.fina jeem-ar.fina khah-ar.fina nyeh-ar.fina  ];
 
 @hahFinals_alt = [ hah-ar.fina.alt jeem-ar.fina.alt khah-ar.fina.alt nyeh-ar.fina.alt  ];
+
+
+# With alternate attachment points for stacking:
+@hahMedials_stack = [ hah-ar.medi.stack jeem-ar.medi.stack khah-ar.medi.stack nyeh-ar.medi.stack ];
 
 # marks that can go on initials and medials:
 @mark_on_IM = [
@@ -54,7 +63,7 @@ languagesystem latn dflt;
 	twodotsverticalbelow-ar
 ];
 
-@pre_hah_non_alt = [
+@pre_hah_not_flat = [
 	behDotless-ar.medi
 	beh-ar.medi
 	peh-ar.medi
@@ -95,7 +104,7 @@ languagesystem latn dflt;
 
 # This creates an alternate form that does NOT get shifted up to the same level as the medial hah.
 # The forms that are NOT in this class are medial tah/zah, feh/qaf, and kaf/gaf and most initials.
-@pre_hah_alt = [
+@pre_hah_flat = [
 	behDotless-ar.medi.flat
 	beh-ar.medi.flat
 	peh-ar.medi.flat
@@ -268,14 +277,54 @@ languagesystem latn dflt;
 	yehThreedotsbelow-ar.medi
 ];
 
-@post_hah_shift_down = [
+@post_hah_final_toShift = [
+	ain-ar.fina
+	ainThreedots-ar.fina
+	ainThreedots-ar.fina.ss05
+	ainTwodotshorizontalabove-ar.fina
 	ghain-ar.fina
+	ghainThreedots-ar.fina
+	ghainThreedots-ar.fina.ss05
 	seen-ar.fina
+	sheen-ar.fina
 	yeh-ar.fina
+	yehTwodotsbelowHamzaabove-ar.fina
+	yehTwodotsbelowDotabove-ar.fina
+	yehThreedotsbelow-ar.fina
+	yehThreedotsabove-farsi.fina
+	yehThreedotsabove-farsi.fina.ss05
+	yeh-farsi.fina
+	yeh-farsi.fina.ss05
+	yehHamzaabove-ar.fina
 	alefMaksura-ar.fina
 	alef-ar.fina
 	alef-ar.wide.fina
 	alef-ar.wideshort.fina
+];
+
+@post_hah_final_low = [
+	ain-ar.fina.low
+	ainThreedots-ar.fina.low
+	ainThreedots-ar.fina.ss05.low
+	ainTwodotshorizontalabove-ar.fina.low
+	ghain-ar.fina.low
+	ghainThreedots-ar.fina.low
+	ghainThreedots-ar.fina.ss05.low
+	seen-ar.fina.low
+	sheen-ar.fina.low
+	yeh-ar.fina.low
+	yehTwodotsbelowHamzaabove-ar.fina.low
+	yehTwodotsbelowDotabove-ar.fina.low
+	yehThreedotsbelow-ar.fina.low
+	yehThreedotsabove-farsi.fina.low
+	yehThreedotsabove-farsi.fina.ss05.low
+	yeh-farsi.fina.low
+	yeh-farsi.fina.ss05.low
+	yehHamzaabove-ar.fina.low
+	alefMaksura-ar.fina.low
+	alef-ar.fina.low
+	alef-ar.wide.fina.low
+	alef-ar.wideshort.fina.low
 ];
 
 @pre_yb_need_alt = [
@@ -407,27 +456,112 @@ lookup ss08_aux {
 } ss08_aux;
 
 
+# .medi.stack - lower AP on left and higher on right; glyph to the right is positioned higher
+#				(identical to .medi)
+# .medi.low - glyph is positioned lower with APs at 0; connects to lowered final
+# .medi.ss07 - flat form with APs at 0; glyph to the right is positioned at the same level
+
+# Simple lowered final jeem - flatten chars that do not stack above hah finals.
+lookup prehah_alt {
+	lookupflag IgnoreMarks;
+
+	sub @pre_hah_not_flat'  @hahFinals  by  @pre_hah_flat;
+} prehah_alt;
+
+# Simple lowered final jeem - using the lowered form.
+lookup hahfinal_alt {
+	lookupflag IgnoreMarks;
+
+	sub @pre_hah_flat  @hahFinals'  by  @hahFinals_alt;
+} hahfinal_alt;
+
+@hahMedi_any = [ @hahMedials  @hahMedials_stack ];
+@hahMedi_any_flat = [ @hahMedials_flat  @hahMedials_flat ];
+
+# Create the stacking effect in the jeems.
 lookup shift_pre_hah {
-	lookupflag IgnoreMarks RightToLeft;
+	lookupflag IgnoreMarks;
 
-	# Rule 1:
-	pos @pre_hah_shift_up_init' <0 414 0 0>   @hahMedials' <0 207 0 0>  @hahMedials;
+	# Case 1 - init jeem jeem - push up
+	sub  @pre_hah_shift_up_init  @hahMedials  @hahMedials'  by  @hahMedials_stack;
+	sub  @pre_hah_shift_up_init  @hahMedials'  @hahMedials_stack  by  @hahMedials_stack;
 
-	# Rule 2:
-	pos @pre_hah_shift_up_init' <0 207 0 0>  @pre_hah_shift_up_medi' <0 207 0 0>  @hahMedials;
+	# Case 2: init medi jeem jeem - push up
+	sub  @pre_hah_shift_up_init  @pre_hah_shift_up_medi  @hahMedials'  by  @hahMedials_stack;
 
-	# Rule 3:
-	pos @pre_hah_shift_up_init' <0 207 0 0>  @pre_hah_shift_up_medi' <0 207 0 0>  @pre_hah_shift_up_medi' <0 207 0 0>  @hahMedials;
+	# Case 3: init medi medi jeem jeem - push up
+	sub  @pre_hah_shift_up_init  @pre_hah_shift_up_medi  @pre_hah_shift_up_medi  @hahMedials'  by  @hahMedials_stack;
 
-	# Rule 4:
-	pos @pre_hah_shift_up_init' <0 207 0 0>  @hahMedials;
+	# Case 4: init jeem - push up
+	sub  @pre_hah_shift_up_init  @hahMedials'  by  @hahMedials_stack;
 	
-	ignore pos @pre_hah_shift_up_init  @hahMedials  @hahMedials'               @post_hah_shift_down';
-	pos                                @hahMedials  @hahMedials' <0 -207 0 0>  @post_hah_shift_down' <0 -207 0 0>;
+	# Continue the stack...Do you ever have more than two .stack forms in a row? I think not...
+	sub  @hahMedials_stack  @hahMedials'  by  @hahMedials_stack;
 	
-	ignore pos @pre_hah_shift_up_init  @pre_hah_shift_up_medi  @hahMedials'               @post_hah_shift_down';
-	pos                                @pre_hah_shift_up_medi  @hahMedials' <0 -207 0 0>  @post_hah_shift_down' <0 -207 0 0>;
 } shift_pre_hah;
+
+# Lower final jeems after stacking and/or certain finals that should be lowered.
+lookup shift_post_hah {
+	lookupflag IgnoreMarks;
+	
+	# Case 5: shift final down:
+	ignore sub @pre_hah_shift_up_init  @hahMedi_any  @hahMedi_any'      @post_hah_final_toShift;  # short word
+	sub                                @hahMedi_any  @hahMedials'       @post_hah_final_toShift  by  @hahMedials_low ;
+	sub                                @hahMedi_any  @hahMedials_stack' @post_hah_final_toShift  by  @hahMedials_low ;
+	
+	# Case 6: shift final down
+	ignore sub @pre_hah_shift_up_init  @pre_hah_shift_up_medi  @hahMedi_any'      @post_hah_final_toShift;  # short word
+	sub                                @pre_hah_shift_up_medi  @hahMedials'       @post_hah_final_toShift  by  @hahMedials_low;
+	sub                                @pre_hah_shift_up_medi  @hahMedials_stack' @post_hah_final_toShift  by  @hahMedials_low;
+
+	# Cases 5 & 6, step 2:
+	sub @hahMedials_low  @post_hah_final_toShift'  by  @post_hah_final_low;
+	
+} shift_post_hah;
+
+
+# Flatten glyphs that precede a stack.
+lookup flatten_pre_hah {
+	lookupflag IgnoreMarks;
+
+	sub @pre_hah_not_flat'  @hahMedials_stack  by  @pre_hah_flat;  # or should this be hahMedi_any ??????????
+} flatten_pre_hah;
+
+
+lookup no_change {  # for chaining lookups
+	ignore sub  @pre_hah_flat;
+	ignore sub  @hahMedi_any;
+} no_change;
+
+lookup flatten_hah_aux {  # for chaining lookups
+	sub @cno_ss07  by  @c_ss07;
+	sub @hahMedials_stack by @hahMedials_flat;
+} flatten_hah_aux;
+
+
+# Flatten long jeem sequences - what these situations are is hard to describe. :-)
+lookup flatten_hah {
+	lookupflag IgnoreMarks;
+	
+	# Case 7:
+	ignore sub  @c_init  @hahMedi_any';  # short sequence
+	
+	# flat jeem jeem jeem.low - don't flatten first jeem, it will make the prior flat form attach too low.
+	sub @pre_hah_flat' lookup no_change  @hahMedi_any' lookup no_change  @hahMedi_any' lookup flatten_hah_aux;
+	
+	# Case 8: flatten jeems
+	sub  @hahMedi_any' lookup flatten_hah_aux  @hahMedi_any  [ @post_hah_final_low @hahMedials_low @hahFinals ];
+	
+	# Case 8: continue to flatten jeems
+	sub  @hahMedials_flat  @hahMedi_any' lookup flatten_hah_aux;
+
+} flatten_hah;
+
+
+lookup cursive_exit_entry {
+  lookupflag IgnoreMarks RightToLeft;
+  pos cursive @entry @exit;
+} cursive_exit_entry;
 
 
 lookup kern_end_of_ayah {
@@ -498,6 +632,7 @@ lookup attachLigMarkLight {
 							ligComponent	<anchor 232 359> mark @_top;
 } attachLigMarkLight;
 
+
 lookup attachBaseMark {
 	lookupflag 0;
 
@@ -560,7 +695,6 @@ feature aalt {
 	feature ss08;
 	feature calt;
 } aalt;
-
 
 
 @takes_hamzaAbove = [ damma-ar  dammatan-ar  fatha-ar  fathatan-ar  sukun-ar ];
@@ -844,34 +978,19 @@ feature salt {
 
 feature calt {
 
-	# No stacking, rule 1:
-	# Use the alternate form for chars that do not stack above hah medials.
 	lookup calt_lkp1 {
-		lookupflag IgnoreMarks RightToLeft;
-
-		sub @pre_hah_non_alt'  @hahMedials  by  @pre_hah_alt;
+		lookupflag IgnoreMarks;
 
 		# Slightly shorter tail for yeh-barree before beh/yeh/noon forms:
 		sub @pre_yb_need_alt  yehbarree-ar.fina'  by  yehbarree-ar.fina.alt;
 	} calt_lkp1;
-
-	# No stacking, rule 2:
-	# Use the alternate form for chars that do not stack above hah finals.
-	lookup prehah_alt {
-		lookupflag IgnoreMarks RightToLeft;
-
-		sub @pre_hah_non_alt'  @hahFinals  by  @pre_hah_alt;
-	} prehah_alt;
-
-	# No stacking, rule 3:
-	lookup hahfinal_alt {
-		lookupflag IgnoreMarks RightToLeft;
-
-		sub @pre_hah_alt  @hahFinals'  by  @hahFinals_alt;
-	} hahfinal_alt;
+	
+	# Can these be moved down with the other jeem/hah lookups?
+	lookup prehah_alt;
+	lookup hahfinal_alt;
 
 	lookup calt_lkp2 {
-		lookupflag IgnoreMarks RightToLeft;
+		lookupflag IgnoreMarks;
 
 		# subs to avoid collisions in strings with dal-ar
 		sub seen-ar space-ar dal-ar' by dal-ar.alt;
@@ -936,16 +1055,10 @@ feature calt {
 		sub noonAfrican-ar space-ar waw-ar' by waw-ar.alt;
 
 		#subs to get a short, high lam-ar.init with jeem/hah/khah
-		sub lam-ar.init' jeem-ar.medi by lam-ar.init.high;
-		sub lam-ar.init' hah-ar.medi by lam-ar.init.high;
-		sub lam-ar.init' khah-ar.medi by lam-ar.init.high;
-		sub lam-ar.init' nyeh-ar.medi by lam-ar.init.high;
+		sub lam-ar.init' @hahMedi_any  by  lam-ar.init.high;
 
 		#subs to get a short, high alef-ar.init with lam followed by jeem/hah/khah
-		sub alef-ar' lam-ar.init jeem-ar.medi by alef-ar.high;
-		sub alef-ar' lam-ar.init hah-ar.medi by alef-ar.high;
-		sub alef-ar' lam-ar.init khah-ar.medi by alef-ar.high;
-		sub alef-ar' lam-ar.init nyeh-ar.medi by alef-ar.high;
+		sub alef-ar' lam-ar.init @hahMedi_any  by  alef-ar.high;
 
 		# replace sequence of digits, up to three places
 		# Uniscribe or Harfbuzz 'latn'
@@ -964,6 +1077,12 @@ feature calt {
 		sub @EndofAyah' @Digits.small @Digits.small @Digits.small by @EndofAyah3;
 		sub @EndofAyah' @Digits.small @Digits.small by @EndofAyah2;
 	} UniscribeFix;
+	
+	# Create stacking jeem/hah behavior
+	lookup shift_pre_hah;
+	lookup shift_post_hah;
+	lookup flatten_pre_hah;
+	lookup flatten_hah;
 
 } calt;
 
@@ -1058,9 +1177,32 @@ feature ss07 {
 	featureNames {
 		name 3 1 0x409 "Jeem/hah stacking";
 	};
+	# Basically undo the jeem stacking rules above. :-/
 	lookup ss07_lkp {
-		sub @cno_ss07 by @c_ss07;
+		lookupflag IgnoreMarks;
+		
+		# flat jeem jeem - don't flatten first jeem, it will make the prior flat form attach too low.
+		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @hahMedials_flat; # already flattened
+		
+		sub @pre_hah_flat' lookup no_change  @hahMedi_any'      lookup no_change  @cno_ss07;
+		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @c_medi;
+		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @hahMedials_low;   # not in c_medi
+		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @hahMedials_flat;  # not in c_medi
+		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @c_fina;
+		
+
+		sub lam-ar.init.high  @hahMedials_stack'  lookup no_change;
+
+		sub @cno_ss07'    lookup flatten_hah_aux;
+    sub @hahMedi_any' lookup flatten_hah_aux;
 	} ss07_lkp;
+	
+	lookup ss07_lkp2 {
+		lookupflag IgnoreMarks;
+		
+		sub @post_hah_final_low'  by  @post_hah_final_toShift;
+		sub @hahMedials_low'      by  @hahMedials_flat;
+	} ss07_lkp2;
 } ss07;
 
 
@@ -1080,8 +1222,16 @@ feature ss08 {
 # GPOS features                                             *
 #************************************************************
 
+# Note: we could possibly simplify the rules by removing the entry/exit APs from
+# the pre-hah flat forms (sad-ar.medi.flat, etc), since I BELIEVE they are always
+# on the baseline.
+
+feature curs {
+	lookup cursive_exit_entry;
+} curs;
+
+
 feature kern {
-	lookup shift_pre_hah;
 	lookup kern_end_of_ayah;
 } kern;
 

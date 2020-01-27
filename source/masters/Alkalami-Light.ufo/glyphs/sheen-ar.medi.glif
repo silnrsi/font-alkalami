@@ -2,6 +2,8 @@
 <glyph name="sheen-ar.medi" format="2">
   <advance width="575"/>
   <anchor x="343" y="-30" name="bottom"/>
+  <anchor x="575" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="323" y="650" name="top"/>
   <outline>
     <component base="seen-ar.medi"/>

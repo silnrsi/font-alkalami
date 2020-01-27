@@ -2,6 +2,7 @@
 <glyph name="behVabove-ar.fina" format="2">
   <advance width="425"/>
   <anchor x="261" y="-30" name="bottom"/>
+  <anchor x="425" y="0" name="entry"/>
   <anchor x="230" y="486" name="top"/>
   <outline>
     <component base="behDotless-ar.fina"/>

@@ -2,6 +2,7 @@
 <glyph name="dad-ar.fina" format="2">
   <advance width="1209"/>
   <anchor x="858" y="-30" name="bottom"/>
+  <anchor x="1209" y="0" name="entry"/>
   <anchor x="869" y="605" name="top"/>
   <outline>
     <component base="sad-ar.fina"/>

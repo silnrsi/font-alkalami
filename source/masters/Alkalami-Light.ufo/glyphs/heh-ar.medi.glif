@@ -2,6 +2,8 @@
 <glyph name="heh-ar.medi" format="2">
   <advance width="601"/>
   <anchor x="303" y="-30" name="bottom"/>
+  <anchor x="601" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="301" y="428" name="top"/>
   <outline>
     <contour>

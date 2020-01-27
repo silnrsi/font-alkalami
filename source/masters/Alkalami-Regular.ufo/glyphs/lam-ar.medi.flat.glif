@@ -2,6 +2,8 @@
 <glyph name="lam-ar.medi.flat" format="2">
   <advance width="200"/>
   <anchor x="80" y="-40" name="bottom"/>
+  <anchor x="200" y="0" name="entry"/>
+  <anchor x="0" y="207" name="exit"/>
   <anchor x="30" y="650" name="top"/>
   <outline>
     <contour>

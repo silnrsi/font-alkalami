@@ -2,6 +2,7 @@
 <glyph name="sheen-ar.fina.longtail" format="2">
   <advance width="1078"/>
   <anchor x="858" y="-30" name="bottom"/>
+  <anchor x="1078" y="0" name="entry"/>
   <anchor x="823" y="309" name="top"/>
   <outline>
     <component base="seen-ar.fina"/>

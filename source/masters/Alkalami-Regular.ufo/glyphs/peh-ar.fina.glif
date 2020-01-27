@@ -2,6 +2,7 @@
 <glyph name="peh-ar.fina" format="2">
   <advance width="430"/>
   <anchor x="205" y="-444" name="bottom"/>
+  <anchor x="444" y="0" name="entry"/>
   <anchor x="225" y="297" name="top"/>
   <outline>
     <contour>

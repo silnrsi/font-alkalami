@@ -2,6 +2,7 @@
 <glyph name="qafThreedotsabove-ar.init" format="2">
   <advance width="520"/>
   <anchor x="232" y="-40" name="bottom"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="141" y="885" name="top"/>
   <outline>
     <component base="fehDotless-ar.init"/>

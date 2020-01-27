@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="khah-ar.medi.low" format="2">
+  <advance width="465"/>
+  <anchor x="291" y="-237" name="bottom"/>
+  <anchor x="465" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
+  <anchor x="269" y="346" name="top"/>
+  <outline>
+    <component base="hah-ar.medi" yOffset="-207"/>
+    <component base="dotabove-ar" xOffset="163" yOffset="-188"/>
+  </outline>
+</glyph>

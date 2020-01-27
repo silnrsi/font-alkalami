@@ -2,6 +2,7 @@
 <glyph name="qaf-ar.init" format="2">
   <advance width="453"/>
   <anchor x="269" y="0" name="bottom"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="143" y="683" name="top"/>
   <outline>
     <component base="fehDotless-ar.init"/>

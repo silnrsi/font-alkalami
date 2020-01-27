@@ -2,6 +2,7 @@
 <glyph name="beeh-ar.init" format="2">
   <advance width="277"/>
   <anchor x="72" y="-376" name="bottom"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="95" y="310" name="top"/>
   <outline>
     <component base="behDotless-ar.init"/>

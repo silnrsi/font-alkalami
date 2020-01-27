@@ -2,6 +2,7 @@
 <glyph name="alefMaksura-ar.fina.longtail" format="2">
   <advance width="562"/>
   <anchor x="411" y="-139" name="bottom"/>
+  <anchor x="562" y="0" name="entry"/>
   <anchor x="217" y="301" name="top"/>
   <outline>
     <contour>

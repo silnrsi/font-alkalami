@@ -8,10 +8,4 @@
     <component base="alefMaksura-ar"/>
     <component base="threedotsupabove-ar" xOffset="-37" yOffset="-18"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

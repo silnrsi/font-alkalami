@@ -4,6 +4,7 @@
   <anchor x="514" y="-50" name="bottom_1"/>
   <anchor x="107" y="-46" name="bottom_2"/>
   <anchor x="289" y="0" name="caret_1"/>
+  <anchor x="494" y="0" name="entry"/>
   <anchor x="373" y="689" name="top_1"/>
   <anchor x="100" y="761" name="top_2"/>
   <outline>

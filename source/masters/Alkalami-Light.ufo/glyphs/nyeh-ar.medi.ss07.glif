@@ -2,6 +2,8 @@
 <glyph name="nyeh-ar.medi.ss07" format="2">
   <advance width="465"/>
   <anchor x="246" y="-240" name="bottom"/>
+  <anchor x="465" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="272" y="358" name="top"/>
   <outline>
     <component base="hah-ar.medi"/>

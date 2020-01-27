@@ -2,6 +2,7 @@
 <glyph name="fehTwodotsbelow-ar.fina" format="2">
   <advance width="558"/>
   <anchor x="298" y="-290" name="bottom"/>
+  <anchor x="558" y="0" name="entry"/>
   <anchor x="217" y="578" name="top"/>
   <outline>
     <component base="fehDotless-ar.fina"/>

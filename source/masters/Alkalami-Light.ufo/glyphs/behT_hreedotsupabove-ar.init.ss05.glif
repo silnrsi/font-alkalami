@@ -2,6 +2,7 @@
 <glyph name="behThreedotsupabove-ar.init.ss05" format="2">
   <advance width="277"/>
   <anchor x="85" y="-227" name="bottom"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="97" y="550" name="top"/>
   <outline>
     <component base="behDotless-ar.init"/>

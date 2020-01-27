@@ -2,6 +2,7 @@
 <glyph name="dal-ar.fina" format="2">
   <advance width="475"/>
   <anchor x="312" y="-50" name="bottom"/>
+  <anchor x="475" y="0" name="entry"/>
   <anchor x="274" y="295" name="top"/>
   <outline>
     <contour>

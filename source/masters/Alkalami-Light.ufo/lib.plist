@@ -22,20 +22,7 @@
   <string>1268</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>Aa?gc/replacementCharacter defs
-DE//F/lozenge Eabc</string>
-    <string>7/notequal 4=8/approxequal 3/lessequal/greaterequal 1=5/lessequal &lt;&gt;  </string>
-    <string> 21x30 /infinity  8a58b9
-1/bulletoperator 6/bulletoperator 4/bulletoperator 2</string>
-    <string> /partialdiff dpoðoc</string>
-    <string>Hti/pi/florin hT</string>
-    <string> // 8828/radical 
-/radical.rtl/nine-ar/nine-ar/nine-ar</string>
-    <string>O/Ohm T/Delta/summation.rtl/product ORK/summation E  </string>
-    <string> /partialdiff/partialdiff.rtl 6 </string>
-    <string>/nyeh-ar.fina.ss07/nyeh-ar.fina.alt/nyeh-ar.fina  /jeem-ar.fina.ss07/jeem-ar.fina.alt/jeem-ar.fina  /hah-ar.fina.ss07/hah-ar.fina.alt/hah-ar.fina</string>
-    <string>/hamzaaboveFathatan-ar/hamzaaboveDammatan-ar/hamzaaboveFatha-ar/hamzaabove-ar/hamzaaboveDamma-ar/hamzaabove-ar/hamzaabove-ar/hamzaaboveSukun-ar</string>
-    <string>/infinity</string>
+    <string>/sheen-ar.fina.shrtail</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

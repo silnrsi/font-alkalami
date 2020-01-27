@@ -2,6 +2,8 @@
 <glyph name="meem-ar.medi.flat" format="2">
   <advance width="410"/>
   <anchor x="186" y="-40" name="bottom"/>
+  <anchor x="410" y="0" name="entry"/>
+  <anchor x="0" y="207" name="exit"/>
   <anchor x="183" y="430" name="top"/>
   <outline>
     <contour>

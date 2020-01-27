@@ -2,6 +2,8 @@
 <glyph name="dad-ar.medi" format="2">
   <advance width="736"/>
   <anchor x="372" y="-40" name="bottom"/>
+  <anchor x="736" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="374" y="650" name="top"/>
   <outline>
     <component base="sad-ar.medi"/>

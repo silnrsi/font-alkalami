@@ -2,6 +2,8 @@
 <glyph name="teh-ar.medi.flat" format="2">
   <advance width="207"/>
   <anchor x="89" y="-34" name="bottom"/>
+  <anchor x="207" y="0" name="entry"/>
+  <anchor x="0" y="207" name="exit"/>
   <anchor x="74" y="657" name="top"/>
   <outline>
     <component base="behDotless-ar.medi.flat"/>

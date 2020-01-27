@@ -2,6 +2,8 @@
 <glyph name="hah-ar.medi.ss07" format="2">
   <advance width="403"/>
   <anchor x="202" y="-40" name="bottom"/>
+  <anchor x="403" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="194" y="376" name="top"/>
   <outline>
     <contour>

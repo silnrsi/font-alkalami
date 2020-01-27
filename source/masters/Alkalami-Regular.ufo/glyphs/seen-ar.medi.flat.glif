@@ -2,6 +2,8 @@
 <glyph name="seen-ar.medi.flat" format="2">
   <advance width="448"/>
   <anchor x="205" y="-40" name="bottom"/>
+  <anchor x="448" y="0" name="entry"/>
+  <anchor x="0" y="207" name="exit"/>
   <anchor x="198" y="410" name="top"/>
   <outline>
     <contour>

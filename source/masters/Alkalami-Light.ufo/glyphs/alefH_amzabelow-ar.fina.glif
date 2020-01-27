@@ -2,6 +2,7 @@
 <glyph name="alefHamzabelow-ar.fina" format="2">
   <advance width="191"/>
   <anchor x="107" y="-230" name="bottom"/>
+  <anchor x="191" y="0" name="entry"/>
   <anchor x="83" y="631" name="top"/>
   <outline>
     <contour>

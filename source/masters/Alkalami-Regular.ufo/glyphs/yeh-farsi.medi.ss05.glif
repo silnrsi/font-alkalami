@@ -2,6 +2,8 @@
 <glyph name="yeh-farsi.medi.ss05" format="2">
   <advance width="329"/>
   <anchor x="158" y="-240" name="bottom"/>
+  <anchor x="329" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="123" y="567" name="top"/>
   <outline>
     <component base="behDotless-ar.medi"/>

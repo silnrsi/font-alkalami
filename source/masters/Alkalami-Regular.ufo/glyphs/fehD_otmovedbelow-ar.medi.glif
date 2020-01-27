@@ -2,6 +2,8 @@
 <glyph name="fehDotmovedbelow-ar.medi" format="2">
   <advance width="538"/>
   <anchor x="284" y="-257" name="bottom"/>
+  <anchor x="538" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="185" y="578" name="top"/>
   <outline>
     <component base="fehDotless-ar.medi"/>

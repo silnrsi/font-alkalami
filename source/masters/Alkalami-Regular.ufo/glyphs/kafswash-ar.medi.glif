@@ -2,6 +2,8 @@
 <glyph name="kafswash-ar.medi" format="2">
   <advance width="1119"/>
   <anchor x="562" y="-40" name="bottom"/>
+  <anchor x="1119" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="234" y="490" name="top"/>
   <outline>
     <contour>

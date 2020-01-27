@@ -2,6 +2,7 @@
 <glyph name="yeh-ar.fina.ss01" format="2">
   <advance width="562"/>
   <anchor x="391" y="-139" name="bottom"/>
+  <anchor x="562" y="0" name="entry"/>
   <anchor x="217" y="301" name="top"/>
   <outline>
     <component base="alefMaksura-ar.fina"/>

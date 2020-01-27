@@ -2,6 +2,7 @@
 <glyph name="sheen-ar.fina" format="2">
   <advance width="475"/>
   <anchor x="269" y="-44" name="bottom"/>
+  <anchor x="475" y="0" name="entry"/>
   <anchor x="237" y="793" name="top"/>
   <outline>
     <component base="seen-ar.fina"/>

@@ -2,6 +2,7 @@
 <glyph name="yehTwodotsbelowDotabove-ar.fina" format="2">
   <advance width="793"/>
   <anchor x="188" y="-481" name="bottom"/>
+  <anchor x="793" y="0" name="entry"/>
   <anchor x="439" y="486" name="top"/>
   <outline>
     <component base="yeh-ar.fina.ss01"/>

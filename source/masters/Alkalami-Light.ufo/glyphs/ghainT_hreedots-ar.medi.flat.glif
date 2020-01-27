@@ -2,6 +2,8 @@
 <glyph name="ghainThreedots-ar.medi.flat" format="2">
   <advance width="368"/>
   <anchor x="151" y="-30" name="bottom"/>
+  <anchor x="368" y="0" name="entry"/>
+  <anchor x="0" y="207" name="exit"/>
   <anchor x="140" y="1276" name="top"/>
   <outline>
     <component base="ain-ar.medi.flat"/>

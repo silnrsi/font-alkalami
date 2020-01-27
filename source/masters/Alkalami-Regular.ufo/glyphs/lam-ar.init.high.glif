@@ -2,6 +2,7 @@
 <glyph name="lam-ar.init.high" format="2">
   <advance width="158"/>
   <anchor x="89" y="187" name="bottom"/>
+  <anchor x="0" y="207" name="exit"/>
   <anchor x="41" y="650" name="top"/>
   <outline>
     <contour>

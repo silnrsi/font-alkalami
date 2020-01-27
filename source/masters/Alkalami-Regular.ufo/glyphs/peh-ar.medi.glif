@@ -2,6 +2,8 @@
 <glyph name="peh-ar.medi" format="2">
   <advance width="389"/>
   <anchor x="172" y="-434" name="bottom"/>
+  <anchor x="389" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
   <anchor x="201" y="297" name="top"/>
   <outline>
     <contour>
