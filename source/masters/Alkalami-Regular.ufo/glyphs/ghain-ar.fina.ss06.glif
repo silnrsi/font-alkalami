@@ -105,10 +105,4 @@
     </contour>
     <component base="dotabove-ar" xOffset="139" yOffset="357"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -8,10 +8,4 @@
     <component base="noon-ar.fina.ss01"/>
     <component base="twodotshorizontalbelow-ar" xOffset="149" yOffset="-269"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -8,6 +8,8 @@
   <string>ain-ar.glif</string>
   <key>ain-ar.fina</key>
   <string>ain-ar.fina.glif</string>
+  <key>ain-ar.fina.low</key>
+  <string>ain-ar.fina.low.glif</string>
   <key>ain-ar.fina.ss06</key>
   <string>ain-ar.fina.ss06.glif</string>
   <key>alef-ar.fina</key>
@@ -208,14 +210,20 @@
   <string>yeh-ar.ss01.glif</string>
   <key>yeh-farsi.fina.ss05</key>
   <string>yeh-farsi.fina.ss05.glif</string>
+  <key>yeh-farsi.fina.ss05.low</key>
+  <string>yeh-farsi.fina.ss05.low.glif</string>
   <key>yeh-farsi.ss05</key>
   <string>yeh-farsi.ss05.glif</string>
   <key>yehThreedotsabove-farsi</key>
   <string>yehT_hreedotsabove-farsi.glif</string>
   <key>yehThreedotsabove-farsi.fina</key>
   <string>yehT_hreedotsabove-farsi.fina.glif</string>
+  <key>yehThreedotsabove-farsi.fina.low</key>
+  <string>yehT_hreedotsabove-farsi.fina.low.glif</string>
   <key>yehThreedotsabove-farsi.fina.ss05</key>
   <string>yehT_hreedotsabove-farsi.fina.ss05.glif</string>
+  <key>yehThreedotsabove-farsi.fina.ss05.low</key>
+  <string>yehT_hreedotsabove-farsi.fina.ss05.low.glif</string>
   <key>yehThreedotsabove-farsi.ss05</key>
   <string>yehT_hreedotsabove-farsi.ss05.glif</string>
   <key>yehbarree-ar</key>

@@ -9,10 +9,4 @@
     <component base="behDotless-ar.medi"/>
     <component base="vinvertedabove-ar" yScale="-1" xOffset="8" yOffset="474"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
-    </dict>
-  </lib>
 </glyph>

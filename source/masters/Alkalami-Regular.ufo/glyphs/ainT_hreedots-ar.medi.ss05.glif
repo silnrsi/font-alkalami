@@ -10,10 +10,4 @@
     <component base="threedots-ar.small" xOffset="122" yOffset="886"/>
     <component base="dotabove-ar" xOffset="193" yOffset="347"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
-    </dict>
-  </lib>
 </glyph>

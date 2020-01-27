@@ -2,8 +2,8 @@
 <glyph name="lam-ar.init.high" format="2">
   <advance width="158"/>
   <anchor x="89" y="187" name="bottom"/>
-  <anchor x="41" y="650" name="top"/>
   <anchor x="0" y="207" name="exit"/>
+  <anchor x="41" y="650" name="top"/>
   <outline>
     <contour>
       <point x="-20" y="347" type="curve"/>
@@ -34,10 +34,4 @@
       <point x="10" y="347"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.65,0.48,0.2,1</string>
-    </dict>
-  </lib>
 </glyph>

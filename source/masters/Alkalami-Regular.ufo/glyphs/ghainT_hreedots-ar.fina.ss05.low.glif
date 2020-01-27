@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ghainThreedots-ar.fina.ss05.low" format="2">
+  <advance width="536"/>
+  <anchor x="252" y="-247" name="bottom"/>
+  <anchor x="536" y="0" name="entry"/>
+  <anchor x="237" y="927" name="top"/>
+  <outline>
+    <component base="ain-ar.fina" yOffset="-207"/>
+    <component base="threedots-ar.small" xOffset="68" yOffset="680"/>
+    <component base="dotabove-ar" xOffset="131" yOffset="141"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

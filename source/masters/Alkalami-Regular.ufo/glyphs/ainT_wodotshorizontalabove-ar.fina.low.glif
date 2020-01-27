@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ainTwodotshorizontalabove-ar.fina.low" format="2">
+  <advance width="536"/>
+  <anchor x="241" y="-257" name="bottom"/>
+  <anchor x="536" y="0" name="entry"/>
+  <anchor x="223" y="665" name="top"/>
+  <outline>
+    <component base="ain-ar.fina" yOffset="-207"/>
+    <component base="twodotshorizontalabove-ar" xOffset="56" yOffset="148"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>
