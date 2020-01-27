@@ -34,7 +34,7 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-2020-01-15 (Sharon Correll) Alkalami Version 1.200 (production release)
+2020-01-31 (Sharon Correll) Alkalami Version 1.200 (production release)
 - Added many characters required for codepage 1252 and macRoman
 - Deleted many Latin characters not required for codepage 1252 and macRoman
 - Added Arabic script characters: U+063F, U+0751, U+08C3 (pipelined for Unicode 13.0),
@@ -45,6 +45,8 @@ ChangeLog
 - Changed ss05 (Wagaf Hack) version of U+06A0 to include single large nukta 
   (bug in previous version of the font)
 - Added mirrored versions of some glyphs such as radical and summation
+- Increased right side-bearing for Light version of U+0623 
+- Small changes to behavior of stacking jeems both when ss07 is on and off
 2018-07-11 (Becca Spalinger) Alkalami 1.100
 - Changed qaf-based characters: isolate now has tail; tail on final flattened
   to match isolate
