@@ -312,7 +312,7 @@ behThreedotsupabove-ar.ss05,uni0751.ss05,,309,ss05
 behThreedotsupabove-ar.fina.ss05,uni0751.fina.ss05,,310,ss05
 behThreedotsupabove-ar.medi.ss05,uni0751.medi.ss05,,311,ss05
 behThreedotsupabove-ar.init.ss05,uni0751.init.ss05,,312,ss05
-behThreedotsupabove-ar.medi.flat.ss05,uni0751.medi.flat.ss05,,313,
+behThreedotsupabove-ar.medi.flat.ss05,uni0751.medi.flat.ss05,,313,ss05
 behThreedotsupbelow-ar,uni0752,0752,314,
 behThreedotsupbelow-ar.fina,uni0752.fina,,315,
 behThreedotsupbelow-ar.medi,uni0752.medi,,316,
@@ -467,6 +467,7 @@ ainTwodotshorizontalabove-ar.medi,uni075D.medi,,464,
 ainTwodotshorizontalabove-ar.init,uni075D.init,,465,
 ainTwodotshorizontalabove-ar.medi.flat,uni075D.medi.flat,,466,
 ainTwodotshorizontalabove-ar.fina.ss06,uni075D.fina.ss06,,467,
+ainTwodotshorizontalabove-ar.fina.low,uni075D.fina.low,,467.1,
 ghain-ar,uni063A,063A,468,
 ghain-ar.fina,uni063A.fina,,469,
 ghain-ar.medi,uni063A.medi,,470,
@@ -486,6 +487,8 @@ ghainThreedots-ar.init.ss05,uni08C3.init.ss05,,483,ss05
 ghainThreedots-ar.medi.flat.ss05,uni08C3.medi.flat.ss05,,484,
 ghainThreedots-ar.medi.low,uni08C3.medi.low,,485,
 ghainThreedots-ar.medi.ss05.low,uni08C3.medi.ss05.low,,486,
+ghainThreedots-ar.fina.low,uni08C3.fina.low,,486.1,
+ghainThreedots-ar.fina.ss05.low,uni08C3.fina.ss05.low,,486.2,ss05
 feh-ar,uni0641,0641,487,
 feh-ar.fina,uni0641.fina,,488,
 feh-ar.medi,uni0641.medi,,489,
@@ -705,9 +708,9 @@ yeh-farsi.ss05,uni06CC.ss05,,702,ss05
 yeh-farsi.fina.ss05,uni06CC.fina.ss05,,703,ss05
 yeh-farsi.medi.ss05,uni06CC.medi.ss05,,704,ss05
 yeh-farsi.init.ss05,uni06CC.init.ss05,,705,ss05
-yeh-farsi.medi.flat.ss05,uni06CC.medi.flat.ss05,,706,
+yeh-farsi.medi.flat.ss05,uni06CC.medi.flat.ss05,,706,ss05
 yeh-farsi.fina.low,uni06CC.fina.low,,707,
-yeh-farsi.fina.ss05.low,uni06CC.fina.ss05.low,,708,
+yeh-farsi.fina.ss05.low,uni06CC.fina.ss05.low,,708,ss05
 yehThreedotsabove-farsi,uni063F,063F,709,
 yehThreedotsabove-farsi.fina,uni063F.fina,,710,
 yehThreedotsabove-farsi.medi,uni063F.medi,,711,
