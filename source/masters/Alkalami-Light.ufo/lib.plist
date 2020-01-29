@@ -520,6 +520,7 @@
     <string>ainTwodotshorizontalabove-ar.init</string>
     <string>ainTwodotshorizontalabove-ar.medi.flat</string>
     <string>ainTwodotshorizontalabove-ar.fina.ss06</string>
+    <string>ainTwodotshorizontalabove-ar.fina.low</string>
     <string>ghain-ar</string>
     <string>ghain-ar.fina</string>
     <string>ghain-ar.medi</string>
@@ -539,6 +540,8 @@
     <string>ghainThreedots-ar.medi.flat.ss05</string>
     <string>ghainThreedots-ar.medi.low</string>
     <string>ghainThreedots-ar.medi.ss05.low</string>
+    <string>ghainThreedots-ar.fina.low</string>
+    <string>ghainThreedots-ar.fina.ss05.low</string>
     <string>feh-ar</string>
     <string>feh-ar.fina</string>
     <string>feh-ar.medi</string>
@@ -1462,6 +1465,7 @@
     <string>ainTwodotshorizontalabove-ar.init</string>
     <string>ainTwodotshorizontalabove-ar.medi.flat</string>
     <string>ainTwodotshorizontalabove-ar.fina.ss06</string>
+    <string>ainTwodotshorizontalabove-ar.fina.low</string>
     <string>ghain-ar</string>
     <string>ghain-ar.fina</string>
     <string>ghain-ar.medi</string>
@@ -1481,6 +1485,8 @@
     <string>ghainThreedots-ar.medi.flat.ss05</string>
     <string>ghainThreedots-ar.medi.low</string>
     <string>ghainThreedots-ar.medi.ss05.low</string>
+    <string>ghainThreedots-ar.fina.low</string>
+    <string>ghainThreedots-ar.fina.ss05.low</string>
     <string>feh-ar</string>
     <string>feh-ar.fina</string>
     <string>feh-ar.medi</string>
@@ -2016,6 +2022,8 @@
     <string>uni075D</string>
     <key>ainTwodotshorizontalabove-ar.fina</key>
     <string>uni075D.fina</string>
+    <key>ainTwodotshorizontalabove-ar.fina.low</key>
+    <string>uni075D.fina.low</string>
     <key>ainTwodotshorizontalabove-ar.fina.ss06</key>
     <string>uni075D.fina.ss06</string>
     <key>ainTwodotshorizontalabove-ar.init</key>
@@ -2406,8 +2414,12 @@
     <string>uni08C3</string>
     <key>ghainThreedots-ar.fina</key>
     <string>uni08C3.fina</string>
+    <key>ghainThreedots-ar.fina.low</key>
+    <string>uni08C3.fina.low</string>
     <key>ghainThreedots-ar.fina.ss05</key>
     <string>uni08C3.fina.ss05</string>
+    <key>ghainThreedots-ar.fina.ss05.low</key>
+    <string>uni08C3.fina.ss05.low</string>
     <key>ghainThreedots-ar.init</key>
     <string>uni08C3.init</string>
     <key>ghainThreedots-ar.init.ss05</key>
