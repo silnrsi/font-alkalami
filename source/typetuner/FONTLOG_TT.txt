@@ -72,7 +72,6 @@ ChangeLog
   (bug in previous version of the font)
 - Added mirrored versions of some glyphs such as radical and summation
 - Increased right side-bearing for Light version of U+0623 
-- Small changes to behavior of stacking jeems both when ss07 is on and off
 2018-07-11 (Becca Spalinger) Alkalami 1.100
 - Changed qaf-based characters: isolate now has tail; tail on final flattened
   to match isolate
