@@ -1188,12 +1188,6 @@ feature ss07 {
 		
 		sub @pre_hah_flat' lookup no_change  @hahMedi_any' lookup no_change;
 		
-#		sub @pre_hah_flat' lookup no_change  @hahMedi_any'      lookup no_change  @cno_ss07;
-#		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @c_medi;
-#		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @hahMedials_low;   # not in c_medi
-#		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @hahMedials_flat;  # not in c_medi
-#		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @c_fina;
-		
 		sub lam-ar.init.high  @hahMedials_stack'  lookup no_change;
 
 		sub @cno_ss07'    lookup flatten_hah_aux;
