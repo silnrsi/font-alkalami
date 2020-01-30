@@ -465,6 +465,7 @@ lookup ss08_aux {
 lookup prehah_alt {
 	lookupflag IgnoreMarks;
 
+	sub @pre_hah_not_flat'  @hahMedials by  @pre_hah_flat;  #####
 	sub @pre_hah_not_flat'  @hahFinals  by  @pre_hah_flat;
 } prehah_alt;
 
@@ -1182,15 +1183,17 @@ feature ss07 {
 		lookupflag IgnoreMarks;
 		
 		# flat jeem jeem - don't flatten first jeem, it will make the prior flat form attach too low.
-		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @hahMedials_flat; # already flattened
 		
-		sub @pre_hah_flat' lookup no_change  @hahMedi_any'      lookup no_change  @cno_ss07;
-		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @c_medi;
-		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @hahMedials_low;   # not in c_medi
-		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @hahMedials_flat;  # not in c_medi
-		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @c_fina;
+		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @hahMedials_flat;  # already flattened
 		
-
+		sub @pre_hah_flat' lookup no_change  @hahMedi_any' lookup no_change;
+		
+#		sub @pre_hah_flat' lookup no_change  @hahMedi_any'      lookup no_change  @cno_ss07;
+#		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @c_medi;
+#		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @hahMedials_low;   # not in c_medi
+#		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @hahMedials_flat;  # not in c_medi
+#		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @c_fina;
+		
 		sub lam-ar.init.high  @hahMedials_stack'  lookup no_change;
 
 		sub @cno_ss07'    lookup flatten_hah_aux;
