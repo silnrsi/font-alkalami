@@ -135,7 +135,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Alkalami Light: 2020</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.200</string>
+  <string>Version 1.201</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -225,7 +225,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>200</integer>
+  <integer>201</integer>
   <key>xHeight</key>
   <integer>430</integer>
 </dict>
