@@ -553,7 +553,7 @@ lookup flatten_hah {
 	# Case 8: flatten jeems
 	sub  @hahMedi_any' lookup flatten_hah_aux  @hahMedi_any  [ @post_hah_final_low @hahMedials_low @hahFinals ];
 	
-	# Case 8: continue to flatten jeems
+	# Case 8a: continue to flatten jeems
 	sub  @hahMedials_flat  @hahMedi_any' lookup flatten_hah_aux;
 
 } flatten_hah;
@@ -705,7 +705,7 @@ feature aalt {
 @with_hamzaBelow = [ hamzabelowKasra-ar  hamzabelowKasratan-ar ];
 
 @takes_shadda = [ alefabove-ar  damma-ar   dammatan-ar  fatha-ar  fathatan-ar ];
-@with_shadda = [ shadda_alef-ar  shadda_damma-ar  shadda_dammatan-ar  shadda_fatha-ar ];
+@with_shadda = [ shadda_alef-ar  shadda_damma-ar  shadda_dammatan-ar  shadda_fatha-ar  shadda_fathatan-ar ];
 
 feature ccmp {
 
