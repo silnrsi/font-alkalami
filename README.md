@@ -2,12 +2,11 @@
 
 Alkalami is the local word for the Arabic "qalam", a type of sharpened stick used for writing on wooden boards in the Kano region of Nigeria and in Niger, and what gives the style its distinct appearance. The baseline stroke is very thick and solid. The ascenders and other vertical strokes including the teeth are very narrow when compared to the baseline. A generous line height is necessary to allow for deep swashes and descenders, and the overall look of the page is a very black, solid rectangle. Diacritics are much smaller in scale, with very little distance from the main letters.
 
-The source/Alkalami-master.glyphs file contains all the designed glyphs as well as fea files, etc.
-The UFOs sources are used for testing, building and releasing the fonts.
-
 ## Project status [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Alkalami/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Alkalami&guest=1)
 
 Alkalami v1.200 has been released. 
+
+Alkalami is a mature product with no major changes anticipated. We will be releasing maintenance updates to fix bugs. Font sources are published in a public repository. The build process requires [smith](https://github.com/silnrsi/smith) and project build parameters are set in the [wscript](wscript).    
 
 ## About ftml tests
 
