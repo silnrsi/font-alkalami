@@ -10,10 +10,6 @@ STANDARDS = "tests/previous"
 # set the product name
 APPNAME = "Alkalami"
 
-# set licensing and description
-
-DESC_SHORT = "Font for Arabic-based writing systems in the Kano region."
-
 # Get version info from Regular UFO; must be first function call:
 getufoinfo('source/masters/Alkalami-Regular.ufo')
 
