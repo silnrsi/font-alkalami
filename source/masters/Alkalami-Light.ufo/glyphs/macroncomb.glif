@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macroncomb" format="2">
-  <unicode hex="0304"/>
   <anchor x="-154" y="448" name="_top"/>
   <anchor x="-157" y="592" name="top"/>
   <outline>
