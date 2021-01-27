@@ -1,329 +1,1238 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type='text/xsl' href='ftml.xsl'?>
-<ftml version='1.0'>
-<testgroup label='Sample words (USV order)'>
- <test label='U+060C' stylename='lang'><string>يَعْقُوبَ،</string><comment>53366</comment></test>
- <test label='U+061B' stylename='lang'><string>2‏.7 ظَكْ 12‏.1؛ 1 كُوارْ 15‏.45</string><comment>2659</comment></test>
- <test label='U+061E' stylename='lang'><string> بِيُ؞﻿</string><comment>43685</comment></test>
- <test label='U+061F' stylename='lang'><string>‏«‏إِنَا كَكٜىٰ؟»‏﻿</string><comment>3269</comment></test>
- <test label='U+0621 U+064E' stylename='lang'><string>ءَادَمُ </string><comment>56</comment></test>
- <test label='U+0621 U+064F' stylename='lang'><string>هَوَّآءُ </string><comment>6</comment></test>
- <test label='U+0621 U+0650' stylename='lang'><string>ءِيلَاوَا</string><comment>3122</comment></test>
- <test label='U+0622' stylename='lang'><string>آرٜىٰوَ</string><comment>4</comment></test>
- <test label='U+0622 U+0650' stylename='lang'><string>آِكَتَ</string><comment>2</comment></test>
- <test label='U+0623 U+064E' stylename='lang'><string> أَنَنْ</string><comment>38229</comment></test>
- <test label='U+0623 U+064F' stylename='lang'><string>أُواْهُو</string><comment>276</comment></test>
- <test label='U+0625 U+0650' stylename='lang'><string>إِسْحَٰقَ</string><comment>14257</comment></test>
- <test label='U+0627' stylename='lang'><string>يَا</string><comment>109604</comment></test>
- <test label='U+0627 U+064E' stylename='lang'><string>اَلْحَكِنْ </string><comment>806</comment></test>
- <test label='U+0627 U+0650' stylename='lang'><string>اِهٌ </string><comment>25</comment></test>
- <test label='U+0627 U+0652' stylename='lang'><string>اْيِ</string><comment>49807</comment></test>
- <test label='U+0627 U+0653' stylename='lang'><string>مِيكَآءِيلُ</string><comment>23</comment></test>
- <test label='U+0628' stylename='lang'><string>بأَبِنْدَ</string><comment>10</comment></test>
- <test label='U+0628 U+064E' stylename='lang'><string>بَبَّرْ</string><comment>46826</comment></test>
- <test label='U+0628 U+064E U+0651' stylename='lang'><string>ابَّنَّنْ</string><comment>20</comment></test>
- <test label='U+0628 U+064F' stylename='lang'><string>بُو</string><comment>12555</comment></test>
- <test label='U+0628 U+0650' stylename='lang'><string>ڧَبِلُنْ</string><comment>16876</comment></test>
- <test label='U+0628 U+0651 U+064E' stylename='lang'><string>دَبَّرْ</string><comment>1932</comment></test>
- <test label='U+0628 U+0651 U+064F' stylename='lang'><string>دَبُّو</string><comment>322</comment></test>
- <test label='U+0628 U+0651 U+0650' stylename='lang'><string>سَابَبِّے</string><comment>35</comment></test>
- <test label='U+0628 U+0651 U+065C' stylename='lang'><string>أَغِبّٜىٰتُوانْ</string><comment>17</comment></test>
- <test label='U+0628 U+0652' stylename='lang'><string>إِبْرَٰ</string><comment>3155</comment></test>
- <test label='U+0628 U+065C' stylename='lang'><string>عٜىٰبٜىٰرْ</string><comment>1298</comment></test>
- <test label='U+0629 U+064F' stylename='lang'><string>حِيلَةُ</string><comment>50</comment></test>
- <test label='U+062A' stylename='lang'><string>تأَجِيٜىٰشِ</string><comment>2</comment></test>
- <test label='U+062A U+064E' stylename='lang'><string>تَارِيحِنْ</string><comment>50365</comment></test>
- <test label='U+062A U+064F' stylename='lang'><string>دَ مُتُمْ</string><comment>13975</comment></test>
- <test label='U+062A U+0650' stylename='lang'><string>شِےنٜىٰ يُڢِرٜىٰتِسْ</string><comment>3224</comment></test>
- <test label='U+062A U+0651 U+064E' stylename='lang'><string>لِتَّڢِنْ</string><comment>1515</comment></test>
- <test label='U+062A U+0651 U+064F' stylename='lang'><string>حَلِتُّو</string><comment>535</comment></test>
- <test label='U+062A U+0651 U+0650' stylename='lang'><string>سِتِّنْ</string><comment>216</comment></test>
- <test label='U+062A U+0651 U+065C' stylename='lang'><string>تَتّٜىٰنَيْ</string><comment>7</comment></test>
- <test label='U+062A U+0652' stylename='lang'><string>اتْ</string><comment>3083</comment></test>
- <test label='U+062A U+065C' stylename='lang'><string>تٜىٰنْتِنْسَ</string><comment>1388</comment></test>
- <test label='U+062B U+064E' stylename='lang'><string>يَثَڢْكٜىٰتَ</string><comment>1045</comment></test>
- <test label='U+062B U+064F' stylename='lang'><string>ثُوتَرْ</string><comment>263</comment></test>
- <test label='U+062B U+0650' stylename='lang'><string>يَثِرٜىٰ</string><comment>19825</comment></test>
- <test label='U+062B U+0650 U+064E' stylename='lang'><string>حُكُنْثَِوُ</string><comment>2 (error)</comment></test>
- <test label='U+062B U+0651 U+064E' stylename='lang'><string>وَثَّنْ</string><comment>4</comment></test>
- <test label='U+062B U+0651 U+0650' stylename='lang'><string>حَلِثِّ دُو</string><comment>335</comment></test>
- <test label='U+062B U+0651 U+065C' stylename='lang'><string>حَلِثّٜىٰسُ</string><comment>106</comment></test>
- <test label='U+062B U+0652' stylename='lang'><string>بْثْ</string><comment>2</comment></test>
- <test label='U+062B U+065C' stylename='lang'><string>ثٜىٰوَ</string><comment>15466</comment></test>
- <test label='U+062C' stylename='lang'><string>جأَلُو</string><comment>1</comment></test>
- <test label='U+062C U+064E' stylename='lang'><string>مٜىٰهُجَيٜىٰلْ</string><comment>3792</comment></test>
- <test label='U+062C U+064F' stylename='lang'><string>جُويَاوَا</string><comment>1891</comment></test>
- <test label='U+062C U+0650' stylename='lang'><string>نَمِجِ</string><comment>10143</comment></test>
- <test label='U+062C U+0651 U+064E' stylename='lang'><string>سُجَّدَ</string><comment>607</comment></test>
- <test label='U+062C U+0651 U+064F' stylename='lang'><string>جُجُّويٜىٰ</string><comment>23</comment></test>
- <test label='U+062C U+0651 U+0650' stylename='lang'><string>ظَيْجِجِّغُ</string><comment>32</comment></test>
- <test label='U+062C U+0651 U+065C' stylename='lang'><string>جٜىٰجّٜىٰڢٜىٰشِ</string><comment>49</comment></test>
- <test label='U+062C U+0652' stylename='lang'><string>جُوجْ</string><comment>2</comment></test>
- <test label='U+062C U+065C' stylename='lang'><string>جٜىٰجٜىٰنِيَ</string><comment>3194</comment></test>
- <test label='U+062D U+064C' stylename='lang'><string>دَ رُوحٌ</string><comment>158</comment></test>
- <test label='U+062D U+064E' stylename='lang'><string>حَلِتَّرْ</string><comment>10978</comment></test>
- <test label='U+062D U+064E U+0670' stylename='lang'><string>إِسْحَٰقَ</string><comment>156 (fatha/dagger alef)</comment></test>
- <test label='U+062D U+064F' stylename='lang'><string>حُطُ</string><comment>1726</comment></test>
- <test label='U+062D U+0650' stylename='lang'><string>يحِنْ</string><comment>850</comment></test>
- <test label='U+062D U+0652' stylename='lang'><string>بَيْتَلَحْمِ</string><comment>266</comment></test>
- <test label='U+062D U+065C' stylename='lang'><string>الْحٜىٰرِ</string><comment>458</comment></test>
- <test label='U+062E U+064E' stylename='lang'><string>اْخَتْ</string><comment>1</comment></test>
- <test label='U+062F' stylename='lang'><string>دأَثٜىٰ</string><comment>46</comment></test>
- <test label='U+062F U+064E' stylename='lang'><string>بَادَ</string><comment>96185</comment></test>
- <test label='U+062F U+064E U+0650' stylename='lang'><string>تَادَِنَ</string><comment>2 (error)</comment></test>
- <test label='U+062F U+064F' stylename='lang'><string>عَدُونِيَا</string><comment>21123</comment></test>
- <test label='U+062F U+0650' stylename='lang'><string>أَمَدَدِنْ</string><comment>2613</comment></test>
- <test label='U+062F U+0651 U+064E' stylename='lang'><string>أَسَعَدَّ</string><comment>4506</comment></test>
- <test label='U+062F U+0651 U+064F' stylename='lang'><string>يَدُدُّو</string><comment>548</comment></test>
- <test label='U+062F U+0651 U+0650' stylename='lang'><string>مُدِّنْ</string><comment>94</comment></test>
- <test label='U+062F U+0651 U+065C' stylename='lang'><string>غِدّٜىٰلْ</string><comment>4</comment></test>
- <test label='U+062F U+0652' stylename='lang'><string>إِدْرِ</string><comment>1209</comment></test>
- <test label='U+062F U+065C' stylename='lang'><string>بَغَدٜىٰ</string><comment>933</comment></test>
- <test label='U+0630' stylename='lang'><string>يَذو</string><comment>386</comment></test>
- <test label='U+0630 U+064E' stylename='lang'><string>سُذَمَ</string><comment>13274</comment></test>
- <test label='U+0630 U+064F' stylename='lang'><string> يَنْذُ</string><comment>7244</comment></test>
- <test label='U+0630 U+0650' stylename='lang'><string>ذِنْغُواْ</string><comment>198</comment></test>
- <test label='U+0631 U+064E' stylename='lang'><string>كِرَ</string><comment>22441</comment></test>
- <test label='U+0631 U+064E U+0670' stylename='lang'><string>إِبْرَٰ</string><comment>315 (fatha/dagger alef)</comment></test>
- <test label='U+0631 U+064E U+0670 U+0653' stylename='lang'><string>إِسْرَٰٓ</string><comment>3105 (fatha/dagger alef)</comment></test>
- <test label='U+0631 U+064F' stylename='lang'><string>عَشْتٜىٰرُو</string><comment>10571</comment></test>
- <test label='U+0631 U+0650' stylename='lang'><string>إِرِ</string><comment>20203</comment></test>
- <test label='U+0631 U+0651 U+064E' stylename='lang'><string>كَرَرَّبَ</string><comment>198</comment></test>
- <test label='U+0631 U+0651 U+064F' stylename='lang'><string>رُرُّشٜىٰ</string><comment>64</comment></test>
- <test label='U+0631 U+0651 U+0650' stylename='lang'><string>رِّيَرْ</string><comment>2</comment></test>
- <test label='U+0631 U+0651 U+065C' stylename='lang'><string>هُورَرّٜىٰثٜىٰ</string><comment>1</comment></test>
- <test label='U+0631 U+0652' stylename='lang'><string>رْ</string><comment>60798</comment></test>
- <test label='U+0631 U+065C' stylename='lang'><string>ڟِرٜ</string><comment>7471</comment></test>
- <test label='U+0632 U+064E' stylename='lang'><string>أَزَ</string><comment>424</comment></test>
- <test label='U+0632 U+064F' stylename='lang'><string>حَزُ</string><comment>26</comment></test>
- <test label='U+0632 U+0650' stylename='lang'><string>زِيَارَرْ</string><comment>18</comment></test>
- <test label='U+0632 U+0651 U+064E' stylename='lang'><string>اَزَّكَرِنْ</string><comment>124</comment></test>
- <test label='U+0632 U+0651 U+0650' stylename='lang'><string>عْزِّ</string><comment>53</comment></test>
- <test label='U+0632 U+065C' stylename='lang'><string>هٜىٰزٜىٰكِيَ</string><comment>246</comment></test>
- <test label='U+0633 U+064E' stylename='lang'><string>سَوْ</string><comment>57300</comment></test>
- <test label='U+0633 U+064E U+0670' stylename='lang'><string>عِيسَٰى</string><comment>2108 (fatha/dagger alef)</comment></test>
- <test label='U+0633 U+064F' stylename='lang'><string>سُڢَ</string><comment>50103</comment></test>
- <test label='U+0633 U+0650' stylename='lang'><string>سِتِّنْ</string><comment>2666</comment></test>
- <test label='U+0633 U+0651 U+064E' stylename='lang'><string>يَلِسَّڢْتَا</string><comment>541</comment></test>
- <test label='U+0633 U+0651 U+064F' stylename='lang'><string>اْسُّو</string><comment>199</comment></test>
- <test label='U+0633 U+0651 U+0650' stylename='lang'><string>نَكَسِّيَ</string><comment>7</comment></test>
- <test label='U+0633 U+0651 U+065C' stylename='lang'><string>مَنَسّٜىٰ</string><comment>243</comment></test>
- <test label='U+0633 U+0652' stylename='lang'><string>نَاإِسْرَٰٓ</string><comment>10071</comment></test>
- <test label='U+0633 U+0652 U+064E' stylename='lang'><string>نُسَْ</string><comment>49 (error?)</comment></test>
- <test label='U+0633 U+065C' stylename='lang'><string>مٜىٰتُسٜىٰلَ</string><comment>331</comment></test>
- <test label='U+0634 U+064E' stylename='lang'><string>شَابِيُ</string><comment>5602</comment></test>
- <test label='U+0634 U+064F' stylename='lang'><string>ڢِشُو</string><comment>1998</comment></test>
- <test label='U+0634 U+0650' stylename='lang'><string> شِے</string><comment>15240</comment></test>
- <test label='U+0634 U+0651 U+064F' stylename='lang'><string>أَشُّرْ</string><comment>13</comment></test>
- <test label='U+0634 U+0651 U+0650' stylename='lang'><string>إِسَشِّيَرْ</string><comment>68</comment></test>
- <test label='U+0634 U+0651 U+065C' stylename='lang'><string>اْسَشّٜىٰنْ</string><comment>58</comment></test>
- <test label='U+0634 U+0652' stylename='lang'><string>اشْ</string><comment>1072</comment></test>
- <test label='U+0634 U+065C' stylename='lang'><string>شٜىٰكَرُ</string><comment>5852</comment></test>
- <test label='U+0634 U+065C U+0670' stylename='lang'><string>شٰٜىبَ</string><comment>66</comment></test>
- <test label='U+0634 U+0670' stylename='lang'><string>شٰڢَ </string><comment>20</comment></test>
- <test label='U+0635 U+064E' stylename='lang'><string>اَصَلِنْ</string><comment>1317</comment></test>
- <test label='U+0635 U+0650' stylename='lang'><string>صِڢَّتَا</string><comment>145</comment></test>
- <test label='U+0635 U+0652' stylename='lang'><string>حَصْكٜىٰنْ</string><comment>318</comment></test>
- <test label='U+0636 U+064D' stylename='lang'><string>ڢَضٍ</string><comment>525</comment></test>
- <test label='U+0636 U+064E' stylename='lang'><string>جَضَكَيْ</string><comment>1427</comment></test>
- <test label='U+0636 U+064E U+0650' stylename='lang'><string>غَضَِ</string><comment>1 (error)</comment></test>
- <test label='U+0636 U+064F' stylename='lang'><string>ضُوَ</string><comment>2211</comment></test>
- <test label='U+0636 U+0650' stylename='lang'><string>ضِيَ</string><comment>78</comment></test>
- <test label='U+0636 U+0652' stylename='lang'><string>جِضْغِ</string><comment>346</comment></test>
- <test label='U+0636 U+065C' stylename='lang'><string>جَضٜىٰ</string><comment>38</comment></test>
- <test label='U+0637 U+064E' stylename='lang'><string>طَنْ</string><comment>17137</comment></test>
- <test label='U+0637 U+064F' stylename='lang'><string>حُطُ</string><comment>985</comment></test>
- <test label='U+0637 U+0650' stylename='lang'><string>طِنْطِنْكَ</string><comment>2343</comment></test>
- <test label='U+0637 U+0651 U+064E' stylename='lang'><string>أَطَطَّوْرٜىٰ</string><comment>16</comment></test>
- <test label='U+0637 U+0651 U+064F' stylename='lang'><string>طَطُّو</string><comment>4</comment></test>
- <test label='U+0637 U+0651 U+0650' stylename='lang'><string>طِطِّغَرْ</string><comment>4</comment></test>
- <test label='U+0637 U+0651 U+065C' stylename='lang'><string>أَنَطَطّٜىٰنْ</string><comment>49</comment></test>
- <test label='U+0637 U+065C' stylename='lang'><string>طٜىٰ</string><comment>833</comment></test>
- <test label='U+0638 U+064E' stylename='lang'><string>ظَيْسَا</string><comment>13273</comment></test>
- <test label='U+0638 U+064F' stylename='lang'><string>ظُرْ</string><comment>2924</comment></test>
- <test label='U+0638 U+0650' stylename='lang'><string>ظِے</string><comment>1528</comment></test>
- <test label='U+0638 U+0651 U+064E' stylename='lang'><string>مِظَّ</string><comment>88</comment></test>
- <test label='U+0638 U+0651 U+064F' stylename='lang'><string>أَظُّرْ</string><comment>3</comment></test>
- <test label='U+0638 U+0651 U+0650' stylename='lang'><string>كٜىٰنِظِّيَاوَ</string><comment>58</comment></test>
- <test label='U+0638 U+0651 U+065C' stylename='lang'><string>هَظّٜىٰلٜىٰلْڢُو</string><comment>6</comment></test>
- <test label='U+0638 U+0652' stylename='lang'><string>عُظْ</string><comment>659</comment></test>
- <test label='U+0638 U+065C' stylename='lang'><string>ظٜىٰبُو</string><comment>506</comment></test>
- <test label='U+0639' stylename='lang'><string>بَعأَمْبَثِ</string><comment>2</comment></test>
- <test label='U+0639 U+064E' stylename='lang'><string>عَيْكِنْسَ</string><comment>31290</comment></test>
- <test label='U+0639 U+064F' stylename='lang'><string>عُكُ</string><comment>6863</comment></test>
- <test label='U+0639 U+0650' stylename='lang'><string>عِيَيٜىٰنْ</string><comment>9260</comment></test>
- <test label='U+0639 U+0652' stylename='lang'><string>يَعْقُو</string><comment>563</comment></test>
- <test label='U+0639 U+065C' stylename='lang'><string>عٜىٰنُو</string><comment>1151</comment></test>
- <test label='U+0639 U+0670' stylename='lang'><string>أَلْعٰدَ</string><comment>10</comment></test>
- <test label='U+063A U+064D' stylename='lang'><string>غٍ</string><comment>161</comment></test>
- <test label='U+063A U+064E' stylename='lang'><string>غَمٜىٰدَ</string><comment>37209</comment></test>
- <test label='U+063A U+064F' stylename='lang'><string>غُدَا</string><comment>7052</comment></test>
- <test label='U+063A U+0650' stylename='lang'><string>يَغِنَ</string><comment>9005</comment></test>
- <test label='U+063A U+0651 U+064E' stylename='lang'><string>غَغَّاوَ</string><comment>62</comment></test>
- <test label='U+063A U+0651 U+064F' stylename='lang'><string>يَغَغُّنْ</string><comment>2</comment></test>
- <test label='U+063A U+0651 U+0650' stylename='lang'><string>هَغِّ</string><comment>18</comment></test>
- <test label='U+063A U+0651 U+065C' stylename='lang'><string>هَغّٜىٰدُو</string><comment>1</comment></test>
- <test label='U+063A U+0652' stylename='lang'><string>ڢٜىٰلٜىٰغْ</string><comment>208</comment></test>
- <test label='U+063A U+065C' stylename='lang'><string>عَتَغٜىٰڢٜىٰنْ</string><comment>1299</comment></test>
- <test label='U+0641 U+064E' stylename='lang'><string>حَفِيفَ</string><comment>679</comment></test>
- <test label='U+0641 U+064F' stylename='lang'><string>حَفُرِ</string><comment>77</comment></test>
- <test label='U+0641 U+0650' stylename='lang'><string>حَفِيفَ</string><comment>334</comment></test>
- <test label='U+0642 U+064E' stylename='lang'><string>إِسْحَٰقَ</string><comment>205</comment></test>
- <test label='U+0642 U+064F' stylename='lang'><string>نَايَعْقُو</string><comment>510</comment></test>
- <test label='U+0642 U+0650' stylename='lang'><string>ضُوقِ</string><comment>42</comment></test>
- <test label='U+0643 U+064D' stylename='lang'><string>بِكٍ</string><comment>767</comment></test>
- <test label='U+0643 U+064E' stylename='lang'><string>حَكَ</string><comment>81432</comment></test>
- <test label='U+0643 U+064E U+0650' stylename='lang'><string>عَكَِكُسْ</string><comment>1 (error)</comment></test>
- <test label='U+0643 U+064F' stylename='lang'><string>كُمَ</string><comment>49621</comment></test>
- <test label='U+0643 U+0650' stylename='lang'><string>عَيْكِنْسَ</string><comment>29193</comment></test>
- <test label='U+0643 U+0651 U+064E' stylename='lang'><string>أَكَّدْ</string><comment>482</comment></test>
- <test label='U+0643 U+0651 U+064F' stylename='lang'><string>سُكُّو</string><comment>119</comment></test>
- <test label='U+0643 U+0651 U+0650' stylename='lang'><string>حَكِّنْكَ</string><comment>172</comment></test>
- <test label='U+0643 U+0651 U+065C' stylename='lang'><string>ثِكَكّٜىٰنْ</string><comment>144</comment></test>
- <test label='U+0643 U+0652' stylename='lang'><string>دُكْدَ</string><comment>3311</comment></test>
- <test label='U+0643 U+065C' stylename='lang'><string>أَكٜىٰ</string><comment>14242</comment></test>
- <test label='U+0643 U+0670' stylename='lang'><string>كٰوُ</string><comment>620</comment></test>
- <test label='U+0644' stylename='lang'><string>اللَّه</string><comment>5773</comment></test>
- <test label='U+0644 U+064E' stylename='lang'><string>لَمٜىٰكْ </string><comment>12664</comment></test>
- <test label='U+0644 U+064F' stylename='lang'><string>لُوطُ </string><comment>4701</comment></test>
- <test label='U+0644 U+0650' stylename='lang'><string>حَلِتَّ </string><comment>6417</comment></test>
- <test label='U+0644 U+0651 U+064E' stylename='lang'><string>لَلَّيْ </string><comment>6298</comment></test>
- <test label='U+0644 U+0651 U+064F' stylename='lang'><string>أَلُّواْلِ </string><comment>804</comment></test>
- <test label='U+0644 U+0651 U+0650' stylename='lang'><string>‏أَڢُواْلِّيُوانْ</string><comment>47</comment></test>
- <test label='U+0644 U+0651 U+065C' stylename='lang'><string>ڟَلّٜىٰ </string><comment>332</comment></test>
- <test label='U+0644 U+0652' stylename='lang'><string>أَدَلْثِ</string><comment>9866</comment></test>
- <test label='U+0644 U+065C' stylename='lang'><string>لٜىٰعُمِّيَاوَا</string><comment>1384</comment></test>
- <test label='U+0645' stylename='lang'><string>‏مَلَم</string><comment>2</comment></test>
- <test label='U+0645 U+064B' stylename='lang'><string>نَمً </string><comment>213</comment></test>
- <test label='U+0645 U+064D' stylename='lang'><string>دَمٍ </string><comment>13</comment></test>
- <test label='U+0645 U+064E' stylename='lang'><string>كُمَ </string><comment>69215</comment></test>
- <test label='U+0645 U+064E U+0650' stylename='lang'><string>ڧَذَمَِ</string><comment>2 (error)</comment></test>
- <test label='U+0645 U+064E U+0670' stylename='lang'><string>سُلَيْمَٰنُ</string><comment>466 (fatha/dagger alef)</comment></test>
- <test label='U+0645 U+064F' stylename='lang'><string>مُتُمْ </string><comment>25602</comment></test>
- <test label='U+0645 U+0650' stylename='lang'><string>دُواْمِنْ </string><comment>13424</comment></test>
- <test label='U+0645 U+0651 U+064E' stylename='lang'><string>كَمَّلَ </string><comment>5580</comment></test>
- <test label='U+0645 U+0651 U+064F' stylename='lang'><string>أَمُّواْنَاوَا </string><comment>209</comment></test>
- <test label='U+0645 U+0651 U+0650' stylename='lang'><string>أَمِّ</string><comment>109</comment></test>
- <test label='U+0645 U+0651 U+065C' stylename='lang'><string>أَدْرَمّٜىٰلٜىٰكْ </string><comment>20</comment></test>
- <test label='U+0645 U+0652' stylename='lang'><string>مُتُمْ </string><comment>9266</comment></test>
- <test label='U+0645 U+065C' stylename='lang'><string>غَمٜىٰدَ </string><comment>3366</comment></test>
- <test label='U+0645 U+0670' stylename='lang'><string>تَمٰنِنْ </string><comment>43</comment></test>
- <test label='U+0646' stylename='lang'><string>ذَنذَمَ </string><comment>34</comment></test>
- <test label='U+0646 U+064B' stylename='lang'><string>يَنَنً </string><comment>41</comment></test>
- <test label='U+0646 U+064E' stylename='lang'><string>نَكَوَرْدَ </string><comment>53813</comment></test>
- <test label='U+0646 U+064F' stylename='lang'><string>ذُنُوبِ </string><comment>4978</comment></test>
- <test label='U+0646 U+0650' stylename='lang'><string>دُونِيَا </string><comment>18149</comment></test>
- <test label='U+0646 U+0651 U+064E' stylename='lang'><string>لِتَّڢِنَّنْ</string><comment>7665</comment></test>
- <test label='U+0646 U+0651 U+064F' stylename='lang'><string>حَنُّنْسَ </string><comment>2057</comment></test>
- <test label='U+0646 U+0651 U+0650' stylename='lang'><string>كَكَنِّنْ </string><comment>1491</comment></test>
- <test label='U+0646 U+0651 U+065C' stylename='lang'><string>كُواْوَنّٜىٰنْسُ</string><comment>1010</comment></test>
- <test label='U+0646 U+0652' stylename='lang'><string>لِتَّڢِنْ </string><comment>169523</comment></test>
- <test label='U+0646 U+065C' stylename='lang'><string>نٜىٰ </string><comment>18223</comment></test>
- <test label='U+0647' stylename='lang'><string>اللَّه</string><comment>5419</comment></test>
- <test label='U+0647 U+064C' stylename='lang'><string>اِهٌ </string><comment>25</comment></test>
- <test label='U+0647 U+064E' stylename='lang'><string>تَهَيْڢِ </string><comment>8906</comment></test>
- <test label='U+0647 U+064E U+0670' stylename='lang'><string>هَٰرُوںَ </string><comment>394 (fatha/dagger alef)</comment></test>
- <test label='U+0647 U+064F' stylename='lang'><string>هُوتُ </string><comment>4886</comment></test>
- <test label='U+0647 U+0650' stylename='lang'><string>إِبْرَٰهِيمْ </string><comment>1849</comment></test>
- <test label='U+0647 U+0651 U+064F' stylename='lang'><string>هُهُّدَ </string><comment>1</comment></test>
- <test label='U+0647 U+0652' stylename='lang'><string>يَهْ‌وٜٮٰهْ‌ </string><comment>15660</comment></test>
- <test label='U+0647 U+0652 U+064E' stylename='lang'><string>أَلْمَسِيهَْنْ </string><comment>2 (error?)</comment></test>
- <test label='U+0647 U+0652 U+064F' stylename='lang'><string>أَلْمَسِيهُْنَّنْ </string><comment>19 (error?)</comment></test>
- <test label='U+0647 U+065C' stylename='lang'><string>هٜىٰبْرُوانْ </string><comment>625</comment></test>
- <test label='U+0648' stylename='lang'><string>ذُنُوبِ </string><comment>87798</comment></test>
- <test label='U+0648 U+064B' stylename='lang'><string>ضُوً </string><comment>688</comment></test>
- <test label='U+0648 U+064C' stylename='lang'><string>كِوٌا </string><comment>66</comment></test>
- <test label='U+0648 U+064E' stylename='lang'><string>ڢَارَوَرْ </string><comment>59871</comment></test>
- <test label='U+0648 U+064F' stylename='lang'><string>تَاوُثٜىٰ</string><comment>10168</comment></test>
- <test label='U+0648 U+0650' stylename='lang'><string>وِ </string><comment>577</comment></test>
- <test label='U+0648 U+0651 U+064E' stylename='lang'><string>هَوَّآءُ </string><comment>244</comment></test>
- <test label='U+0648 U+0651 U+0650' stylename='lang'><string>أَوِّيَاوَا</string><comment>3</comment></test>
- <test label='U+0648 U+0652' stylename='lang'><string>سَوْرَنْ </string><comment>11241</comment></test>
- <test label='U+0648 U+065C' stylename='lang'><string>يَهْ‌وٜٮٰهْ‌ </string><comment>7752</comment></test>
- <test label='U+0649' stylename='lang'><string>شٰٜىلَ</string><comment>2383</comment></test>
- <test label='U+0649 U+064E' stylename='lang'><string>ىَصَرَ </string><comment>418</comment></test>
- <test label='U+0649 U+0670' stylename='lang'><string>أَكٜىٰ </string><comment>92306</comment></test>
- <test label='U+064A' stylename='lang'><string>تَارِيحِنْ </string><comment>8038</comment></test>
- <test label='U+064A U+064E' stylename='lang'><string>دُونِيَا </string><comment>93756</comment></test>
- <test label='U+064A U+064F' stylename='lang'><string>شَابِيُ</string><comment>6249</comment></test>
- <test label='U+064A U+0650' stylename='lang'><string>كَيِنُ </string><comment>18879</comment></test>
- <test label='U+064A U+0651 U+064E' stylename='lang'><string>تَبَيَّنَ</string><comment>1338</comment></test>
- <test label='U+064A U+0651 U+064F' stylename='lang'><string>أَيُّكَنْ </string><comment>584</comment></test>
- <test label='U+064A U+0651 U+0650' stylename='lang'><string>مَنِيِّنْ </string><comment>9</comment></test>
- <test label='U+064A U+0651 U+065C' stylename='lang'><string>لَڢِيَيّٜىٰ</string><comment>26</comment></test>
- <test label='U+064A U+0652' stylename='lang'><string>مَيْ </string><comment>42704</comment></test>
- <test label='U+064A U+065C' stylename='lang'><string>تَكِيَيٜىٰ </string><comment>6683</comment></test>
- <test label='U+064A U+0670' stylename='lang'><string>يٰوُواْ </string><comment>256</comment></test>
- <test label='U+066E U+0655 U+0650' stylename='lang'><string>مَلاَٮِٕكَنْ </string><comment>355</comment></test>
- <test label='U+066E U+0670' stylename='lang'><string>يَهْ‌وٜٮٰهْ‌ </string><comment>7607</comment></test>
- <test label='U+067B U+064E' stylename='lang'><string>كُتَٻَشِ</string><comment>1834</comment></test>
- <test label='U+067B U+064F' stylename='lang'><string>ٻُواْيٜىٰ </string><comment>1107</comment></test>
- <test label='U+067B U+0650' stylename='lang'><string>لُلُّٻِ</string><comment>514</comment></test>
- <test label='U+067B U+0651 U+064E' stylename='lang'><string>يَٻَٻَّرٜىٰ </string><comment>1</comment></test>
- <test label='U+067B U+0651 U+064F' stylename='lang'><string>مَٻُٻُّغَرْ </string><comment>92</comment></test>
- <test label='U+067B U+0651 U+065C' stylename='lang'><string>كٜىٰٻَٻّٜىٰ</string><comment>15</comment></test>
- <test label='U+067B U+065C' stylename='lang'><string>كٜىٰٻٜىٰتَ </string><comment>907</comment></test>
- <test label='U+069F U+064E' stylename='lang'><string>ڟَيِ </string><comment>4835</comment></test>
- <test label='U+069F U+064F' stylename='lang'><string>ڟُنْڟَيٜىٰ </string><comment>2122</comment></test>
- <test label='U+069F U+0650' stylename='lang'><string>مُواْڟِ </string><comment>914</comment></test>
- <test label='U+069F U+0652' stylename='lang'><string>بَڟْهٜىٰبَ </string><comment>20</comment></test>
- <test label='U+069F U+065C' stylename='lang'><string>كِڟٜىٰنْسُ</string><comment>794</comment></test>
- <test label='U+069F U+0670' stylename='lang'><string>ڟٰوَ </string><comment>38</comment></test>
- <test label='U+06A0 U+064E' stylename='lang'><string>ڠَلٜىٰ </string><comment>339</comment></test>
- <test label='U+06A0 U+064F' stylename='lang'><string>ڠُونَيٜىٰ </string><comment>539</comment></test>
- <test label='U+06A2 U+064E' stylename='lang'><string>ڢَارَوَ</string><comment>12455</comment></test>
- <test label='U+06A2 U+064F' stylename='lang'><string>تَهَيْڢُوَ </string><comment>2779</comment></test>
- <test label='U+06A2 U+0650' stylename='lang'><string>لِتَّڢِنْ </string><comment>14066</comment></test>
- <test label='U+06A2 U+0651 U+064E' stylename='lang'><string>صِڢَّتَا </string><comment>201</comment></test>
- <test label='U+06A2 U+0651 U+064E U+0650' stylename='lang'><string>صِڢَِّ </string><comment>1 (error)</comment></test>
- <test label='U+06A2 U+0651 U+064F' stylename='lang'><string>ظِڢُّواْرَ </string><comment>154</comment></test>
- <test label='U+06A2 U+0651 U+0650' stylename='lang'><string>ڟُواْڢَڢِّ</string><comment>85</comment></test>
- <test label='U+06A2 U+0651 U+0652' stylename='lang'><string>سَڢّْرُوانْ </string><comment>1</comment></test>
- <test label='U+06A2 U+0651 U+065C' stylename='lang'><string>دَڢَڢّٜىٰنْ </string><comment>2</comment></test>
- <test label='U+06A2 U+0652' stylename='lang'><string>كَڢْ</string><comment>948</comment></test>
- <test label='U+06A2 U+065C' stylename='lang'><string>رُڢٜىٰ </string><comment>2065</comment></test>
- <test label='U+06A2 U+0670' stylename='lang'><string>أَمْڢٰنِ </string><comment>408</comment></test>
- <test label='U+06A7 U+064E' stylename='lang'><string>عَڧَرْشٜىٰ</string><comment>14866</comment></test>
- <test label='U+06A7 U+064F' stylename='lang'><string>ڧُنْشِ </string><comment>3937</comment></test>
- <test label='U+06A7 U+0650' stylename='lang'><string>ڧِيَيَّ </string><comment>4201</comment></test>
- <test label='U+06A7 U+0651 U+064F' stylename='lang'><string>ڧُواْڧُّواْنٜىٰ </string><comment>5</comment></test>
- <test label='U+06A7 U+0651 U+0650' stylename='lang'><string>أَمِےڧَڧِّيَرْ </string><comment>1</comment></test>
- <test label='U+06A7 U+0651 U+065C' stylename='lang'><string>مِےڧَڧّٜىٰ</string><comment>1</comment></test>
- <test label='U+06A7 U+0652' stylename='lang'><string>أَلْڧْ ‏</string><comment>28</comment></test>
- <test label='U+06A7 U+065C' stylename='lang'><string>لٜىٰڧٜىٰنْ </string><comment>1317</comment></test>
- <test label='U+06A8 U+064E' stylename='lang'><string>ڨَمَ </string><comment>317</comment></test>
- <test label='U+06A8 U+064F' stylename='lang'><string>ڨُيَنٜىٰ </string><comment>756</comment></test>
- <test label='U+06A8 U+0650' stylename='lang'><string>ڨِڢْتَوَرْ </string><comment>8</comment></test>
- <test label='U+06AD U+064E' stylename='lang'><string>بَڭَويْ</string><comment>1353</comment></test>
- <test label='U+06BA U+064E' stylename='lang'><string>هَٰرُوںَ </string><comment>394</comment></test>
- <test label='U+06CC U+064E' stylename='lang'><string>یَیَنْسَ </string><comment>5803</comment></test>
- <test label='U+06D2' stylename='lang'><string>مَيْبِے </string><comment>18963</comment></test>
- <test label='U+0763 U+064E' stylename='lang'><string>يَنَدَݣَوْ </string><comment>1151</comment></test>
- <test label='U+0763 U+064F' stylename='lang'><string>ݣُوَانَ </string><comment>3161</comment></test>
- <test label='U+200C' stylename='lang'><string>يَهْ‌وٜٮٰهْ‌ </string><comment>19276</comment></test>
- <test label='U+200F' stylename='lang'><string>كِرَسُ ‏</string><comment>44017</comment></test>
- <test label='U+2014' stylename='lang'><string> ‏1‏.‏1‏—‏12‏.</string><comment>322</comment></test>
- <test label='U+2039' stylename='lang'><string>‹‏غَا</string><comment>1418</comment></test>
- <test label='U+203A' stylename='lang'><string> رَشِ؞»‏ ›</string><comment>1305</comment></test>
- <test label='U+FD3E U+FD3F' stylename='lang'><string> ﴿ڢِتْ ‏25‏.‏10‏-22﴾ </string><comment>801/765</comment></test>
- </testgroup>
-<head>
-  <fontscale>300</fontscale>
-  <fontsrc>local(Alkalami Regular)</fontsrc>
-  <fontsrc>url(../results/Alkalami-Regular.ttf)</fontsrc>
-  <fontsrc>url(../results/Alkalami-Light.ttf)</fontsrc>
-  <styles>
-    <style name='lang' feats='"ss01" 1, "ss04" 1, "ss05" 1, "ss08"1'/>
-    <style name='ss01_1' feats='"ss01" 1'/>
-    <style name='ss02_1' feats='"ss02" 1'/>
-    <style name='ss02_1_ss03_1' feats='"ss02" 1, "ss03" 1'/>
-    <style name='ss03_1' feats='"ss03" 1'/>
-    <style name='ss04_1' feats='"ss04" 1'/>
-    <style name='ss05_1' feats='"ss05" 1'/>
-    <style name='ss05_1_ss06_1' feats='"ss05" 1, "ss06" 1'/>
-    <style name='ss06_1' feats='"ss06" 1'/>
-    <style name='ss07_1' feats='"ss07" 1'/>
-  </styles>
-  <title>All Character Combinations test</title>
-  </head>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+	<head>
+		<fontscale>250</fontscale>
+		<fontsrc label="Reg">url(../references/Alkalami-Regular-1_100.ttf)</fontsrc>
+		<fontsrc label="Light">url(../references/Alkalami-Light-1_100.ttf)</fontsrc>
+		<styles>
+			<style feats="'ss01' 1" name="ss01_1"/>
+			<style feats="'ss02' 1" name="ss02_1"/>
+			<style feats="'ss02' 1, 'ss03' 1" name="ss02_1_ss03_1"/>
+			<style feats="'ss03' 1" name="ss03_1"/>
+			<style feats="'ss04' 1" name="ss04_1"/>
+			<style feats="'ss05' 1" name="ss05_1"/>
+			<style feats="'ss07' 1" name="ss07_1"/>
+			<style feats="'ss08' 1" name="ss08_1"/>
+		</styles>
+		<title>All Character Combinations test</title>
+	</head>
+	<testgroup label="Sample words (USV order)">
+		<test label="U+060C" stylename="lang">
+			<comment>53366</comment>
+			<string>يَعْقُوبَ،</string>
+		</test>
+		<test label="U+061B" stylename="lang">
+			<comment>2659</comment>
+			<string>2‏.7 ظَكْ 12‏.1؛ 1 كُوارْ 15‏.45</string>
+		</test>
+		<test label="U+061E" stylename="lang">
+			<comment>43685</comment>
+			<string> بِيُ؞﻿</string>
+		</test>
+		<test label="U+061F" stylename="lang">
+			<comment>3269</comment>
+			<string>‏«‏إِنَا كَكٜىٰ؟»‏﻿</string>
+		</test>
+		<test label="U+0621 U+064E" stylename="lang">
+			<comment>56</comment>
+			<string>ءَادَمُ </string>
+		</test>
+		<test label="U+0621 U+064F" stylename="lang">
+			<comment>6</comment>
+			<string>هَوَّآءُ </string>
+		</test>
+		<test label="U+0621 U+0650" stylename="lang">
+			<comment>3122</comment>
+			<string>ءِيلَاوَا</string>
+		</test>
+		<test label="U+0622" stylename="lang">
+			<comment>4</comment>
+			<string>آرٜىٰوَ</string>
+		</test>
+		<test label="U+0622 U+0650" stylename="lang">
+			<comment>2</comment>
+			<string>آِكَتَ</string>
+		</test>
+		<test label="U+0623 U+064E" stylename="lang">
+			<comment>38229</comment>
+			<string> أَنَنْ</string>
+		</test>
+		<test label="U+0623 U+064F" stylename="lang">
+			<comment>276</comment>
+			<string>أُواْهُو</string>
+		</test>
+		<test label="U+0625 U+0650" stylename="lang">
+			<comment>14257</comment>
+			<string>إِسْحَٰقَ</string>
+		</test>
+		<test label="U+0627" stylename="lang">
+			<comment>109604</comment>
+			<string>يَا</string>
+		</test>
+		<test label="U+0627 U+064E" stylename="lang">
+			<comment>806</comment>
+			<string>اَلْحَكِنْ </string>
+		</test>
+		<test label="U+0627 U+0650" stylename="lang">
+			<comment>25</comment>
+			<string>اِهٌ </string>
+		</test>
+		<test label="U+0627 U+0652" stylename="lang">
+			<comment>49807</comment>
+			<string>اْيِ</string>
+		</test>
+		<test label="U+0627 U+0653" stylename="lang">
+			<comment>23</comment>
+			<string>مِيكَآءِيلُ</string>
+		</test>
+		<test label="U+0628" stylename="lang">
+			<comment>10</comment>
+			<string>بأَبِنْدَ</string>
+		</test>
+		<test label="U+0628 U+064E" stylename="lang">
+			<comment>46826</comment>
+			<string>بَبَّرْ</string>
+		</test>
+		<test label="U+0628 U+064E U+0651" stylename="lang">
+			<comment>20</comment>
+			<string>ابَّنَّنْ</string>
+		</test>
+		<test label="U+0628 U+064F" stylename="lang">
+			<comment>12555</comment>
+			<string>بُو</string>
+		</test>
+		<test label="U+0628 U+0650" stylename="lang">
+			<comment>16876</comment>
+			<string>ڧَبِلُنْ</string>
+		</test>
+		<test label="U+0628 U+0651 U+064E" stylename="lang">
+			<comment>1932</comment>
+			<string>دَبَّرْ</string>
+		</test>
+		<test label="U+0628 U+0651 U+064F" stylename="lang">
+			<comment>322</comment>
+			<string>دَبُّو</string>
+		</test>
+		<test label="U+0628 U+0651 U+0650" stylename="lang">
+			<comment>35</comment>
+			<string>سَابَبِّے</string>
+		</test>
+		<test label="U+0628 U+0651 U+065C" stylename="lang">
+			<comment>17</comment>
+			<string>أَغِبّٜىٰتُوانْ</string>
+		</test>
+		<test label="U+0628 U+0652" stylename="lang">
+			<comment>3155</comment>
+			<string>إِبْرَٰ</string>
+		</test>
+		<test label="U+0628 U+065C" stylename="lang">
+			<comment>1298</comment>
+			<string>عٜىٰبٜىٰرْ</string>
+		</test>
+		<test label="U+0629 U+064F" stylename="lang">
+			<comment>50</comment>
+			<string>حِيلَةُ</string>
+		</test>
+		<test label="U+062A" stylename="lang">
+			<comment>2</comment>
+			<string>تأَجِيٜىٰشِ</string>
+		</test>
+		<test label="U+062A U+064E" stylename="lang">
+			<comment>50365</comment>
+			<string>تَارِيحِنْ</string>
+		</test>
+		<test label="U+062A U+064F" stylename="lang">
+			<comment>13975</comment>
+			<string>دَ مُتُمْ</string>
+		</test>
+		<test label="U+062A U+0650" stylename="lang">
+			<comment>3224</comment>
+			<string>شِےنٜىٰ يُڢِرٜىٰتِسْ</string>
+		</test>
+		<test label="U+062A U+0651 U+064E" stylename="lang">
+			<comment>1515</comment>
+			<string>لِتَّڢِنْ</string>
+		</test>
+		<test label="U+062A U+0651 U+064F" stylename="lang">
+			<comment>535</comment>
+			<string>حَلِتُّو</string>
+		</test>
+		<test label="U+062A U+0651 U+0650" stylename="lang">
+			<comment>216</comment>
+			<string>سِتِّنْ</string>
+		</test>
+		<test label="U+062A U+0651 U+065C" stylename="lang">
+			<comment>7</comment>
+			<string>تَتّٜىٰنَيْ</string>
+		</test>
+		<test label="U+062A U+0652" stylename="lang">
+			<comment>3083</comment>
+			<string>اتْ</string>
+		</test>
+		<test label="U+062A U+065C" stylename="lang">
+			<comment>1388</comment>
+			<string>تٜىٰنْتِنْسَ</string>
+		</test>
+		<test label="U+062B U+064E" stylename="lang">
+			<comment>1045</comment>
+			<string>يَثَڢْكٜىٰتَ</string>
+		</test>
+		<test label="U+062B U+064F" stylename="lang">
+			<comment>263</comment>
+			<string>ثُوتَرْ</string>
+		</test>
+		<test label="U+062B U+0650" stylename="lang">
+			<comment>19825</comment>
+			<string>يَثِرٜىٰ</string>
+		</test>
+		<test label="U+062B U+0650 U+064E" stylename="lang">
+			<comment>2 (error)</comment>
+			<string>حُكُنْثَِوُ</string>
+		</test>
+		<test label="U+062B U+0651 U+064E" stylename="lang">
+			<comment>4</comment>
+			<string>وَثَّنْ</string>
+		</test>
+		<test label="U+062B U+0651 U+0650" stylename="lang">
+			<comment>335</comment>
+			<string>حَلِثِّ دُو</string>
+		</test>
+		<test label="U+062B U+0651 U+065C" stylename="lang">
+			<comment>106</comment>
+			<string>حَلِثّٜىٰسُ</string>
+		</test>
+		<test label="U+062B U+0652" stylename="lang">
+			<comment>2</comment>
+			<string>بْثْ</string>
+		</test>
+		<test label="U+062B U+065C" stylename="lang">
+			<comment>15466</comment>
+			<string>ثٜىٰوَ</string>
+		</test>
+		<test label="U+062C" stylename="lang">
+			<comment>1</comment>
+			<string>جأَلُو</string>
+		</test>
+		<test label="U+062C U+064E" stylename="lang">
+			<comment>3792</comment>
+			<string>مٜىٰهُجَيٜىٰلْ</string>
+		</test>
+		<test label="U+062C U+064F" stylename="lang">
+			<comment>1891</comment>
+			<string>جُويَاوَا</string>
+		</test>
+		<test label="U+062C U+0650" stylename="lang">
+			<comment>10143</comment>
+			<string>نَمِجِ</string>
+		</test>
+		<test label="U+062C U+0651 U+064E" stylename="lang">
+			<comment>607</comment>
+			<string>سُجَّدَ</string>
+		</test>
+		<test label="U+062C U+0651 U+064F" stylename="lang">
+			<comment>23</comment>
+			<string>جُجُّويٜىٰ</string>
+		</test>
+		<test label="U+062C U+0651 U+0650" stylename="lang">
+			<comment>32</comment>
+			<string>ظَيْجِجِّغُ</string>
+		</test>
+		<test label="U+062C U+0651 U+065C" stylename="lang">
+			<comment>49</comment>
+			<string>جٜىٰجّٜىٰڢٜىٰشِ</string>
+		</test>
+		<test label="U+062C U+0652" stylename="lang">
+			<comment>2</comment>
+			<string>جُوجْ</string>
+		</test>
+		<test label="U+062C U+065C" stylename="lang">
+			<comment>3194</comment>
+			<string>جٜىٰجٜىٰنِيَ</string>
+		</test>
+		<test label="U+062D U+064C" stylename="lang">
+			<comment>158</comment>
+			<string>دَ رُوحٌ</string>
+		</test>
+		<test label="U+062D U+064E" stylename="lang">
+			<comment>10978</comment>
+			<string>حَلِتَّرْ</string>
+		</test>
+		<test label="U+062D U+064E U+0670" stylename="lang">
+			<comment>156 (fatha/dagger alef)</comment>
+			<string>إِسْحَٰقَ</string>
+		</test>
+		<test label="U+062D U+064F" stylename="lang">
+			<comment>1726</comment>
+			<string>حُطُ</string>
+		</test>
+		<test label="U+062D U+0650" stylename="lang">
+			<comment>850</comment>
+			<string>يحِنْ</string>
+		</test>
+		<test label="U+062D U+0652" stylename="lang">
+			<comment>266</comment>
+			<string>بَيْتَلَحْمِ</string>
+		</test>
+		<test label="U+062D U+065C" stylename="lang">
+			<comment>458</comment>
+			<string>الْحٜىٰرِ</string>
+		</test>
+		<test label="U+062E U+064E" stylename="lang">
+			<comment>1</comment>
+			<string>اْخَتْ</string>
+		</test>
+		<test label="U+062F" stylename="lang">
+			<comment>46</comment>
+			<string>دأَثٜىٰ</string>
+		</test>
+		<test label="U+062F U+064E" stylename="lang">
+			<comment>96185</comment>
+			<string>بَادَ</string>
+		</test>
+		<test label="U+062F U+064E U+0650" stylename="lang">
+			<comment>2 (error)</comment>
+			<string>تَادَِنَ</string>
+		</test>
+		<test label="U+062F U+064F" stylename="lang">
+			<comment>21123</comment>
+			<string>عَدُونِيَا</string>
+		</test>
+		<test label="U+062F U+0650" stylename="lang">
+			<comment>2613</comment>
+			<string>أَمَدَدِنْ</string>
+		</test>
+		<test label="U+062F U+0651 U+064E" stylename="lang">
+			<comment>4506</comment>
+			<string>أَسَعَدَّ</string>
+		</test>
+		<test label="U+062F U+0651 U+064F" stylename="lang">
+			<comment>548</comment>
+			<string>يَدُدُّو</string>
+		</test>
+		<test label="U+062F U+0651 U+0650" stylename="lang">
+			<comment>94</comment>
+			<string>مُدِّنْ</string>
+		</test>
+		<test label="U+062F U+0651 U+065C" stylename="lang">
+			<comment>4</comment>
+			<string>غِدّٜىٰلْ</string>
+		</test>
+		<test label="U+062F U+0652" stylename="lang">
+			<comment>1209</comment>
+			<string>إِدْرِ</string>
+		</test>
+		<test label="U+062F U+065C" stylename="lang">
+			<comment>933</comment>
+			<string>بَغَدٜىٰ</string>
+		</test>
+		<test label="U+0630" stylename="lang">
+			<comment>386</comment>
+			<string>يَذو</string>
+		</test>
+		<test label="U+0630 U+064E" stylename="lang">
+			<comment>13274</comment>
+			<string>سُذَمَ</string>
+		</test>
+		<test label="U+0630 U+064F" stylename="lang">
+			<comment>7244</comment>
+			<string> يَنْذُ</string>
+		</test>
+		<test label="U+0630 U+0650" stylename="lang">
+			<comment>198</comment>
+			<string>ذِنْغُواْ</string>
+		</test>
+		<test label="U+0631 U+064E" stylename="lang">
+			<comment>22441</comment>
+			<string>كِرَ</string>
+		</test>
+		<test label="U+0631 U+064E U+0670" stylename="lang">
+			<comment>315 (fatha/dagger alef)</comment>
+			<string>إِبْرَٰ</string>
+		</test>
+		<test label="U+0631 U+064E U+0670 U+0653" stylename="lang">
+			<comment>3105 (fatha/dagger alef)</comment>
+			<string>إِسْرَٰٓ</string>
+		</test>
+		<test label="U+0631 U+064F" stylename="lang">
+			<comment>10571</comment>
+			<string>عَشْتٜىٰرُو</string>
+		</test>
+		<test label="U+0631 U+0650" stylename="lang">
+			<comment>20203</comment>
+			<string>إِرِ</string>
+		</test>
+		<test label="U+0631 U+0651 U+064E" stylename="lang">
+			<comment>198</comment>
+			<string>كَرَرَّبَ</string>
+		</test>
+		<test label="U+0631 U+0651 U+064F" stylename="lang">
+			<comment>64</comment>
+			<string>رُرُّشٜىٰ</string>
+		</test>
+		<test label="U+0631 U+0651 U+0650" stylename="lang">
+			<comment>2</comment>
+			<string>رِّيَرْ</string>
+		</test>
+		<test label="U+0631 U+0651 U+065C" stylename="lang">
+			<comment>1</comment>
+			<string>هُورَرّٜىٰثٜىٰ</string>
+		</test>
+		<test label="U+0631 U+0652" stylename="lang">
+			<comment>60798</comment>
+			<string>رْ</string>
+		</test>
+		<test label="U+0631 U+065C" stylename="lang">
+			<comment>7471</comment>
+			<string>ڟِرٜ</string>
+		</test>
+		<test label="U+0632 U+064E" stylename="lang">
+			<comment>424</comment>
+			<string>أَزَ</string>
+		</test>
+		<test label="U+0632 U+064F" stylename="lang">
+			<comment>26</comment>
+			<string>حَزُ</string>
+		</test>
+		<test label="U+0632 U+0650" stylename="lang">
+			<comment>18</comment>
+			<string>زِيَارَرْ</string>
+		</test>
+		<test label="U+0632 U+0651 U+064E" stylename="lang">
+			<comment>124</comment>
+			<string>اَزَّكَرِنْ</string>
+		</test>
+		<test label="U+0632 U+0651 U+0650" stylename="lang">
+			<comment>53</comment>
+			<string>عْزِّ</string>
+		</test>
+		<test label="U+0632 U+065C" stylename="lang">
+			<comment>246</comment>
+			<string>هٜىٰزٜىٰكِيَ</string>
+		</test>
+		<test label="U+0633 U+064E" stylename="lang">
+			<comment>57300</comment>
+			<string>سَوْ</string>
+		</test>
+		<test label="U+0633 U+064E U+0670" stylename="lang">
+			<comment>2108 (fatha/dagger alef)</comment>
+			<string>عِيسَٰى</string>
+		</test>
+		<test label="U+0633 U+064F" stylename="lang">
+			<comment>50103</comment>
+			<string>سُڢَ</string>
+		</test>
+		<test label="U+0633 U+0650" stylename="lang">
+			<comment>2666</comment>
+			<string>سِتِّنْ</string>
+		</test>
+		<test label="U+0633 U+0651 U+064E" stylename="lang">
+			<comment>541</comment>
+			<string>يَلِسَّڢْتَا</string>
+		</test>
+		<test label="U+0633 U+0651 U+064F" stylename="lang">
+			<comment>199</comment>
+			<string>اْسُّو</string>
+		</test>
+		<test label="U+0633 U+0651 U+0650" stylename="lang">
+			<comment>7</comment>
+			<string>نَكَسِّيَ</string>
+		</test>
+		<test label="U+0633 U+0651 U+065C" stylename="lang">
+			<comment>243</comment>
+			<string>مَنَسّٜىٰ</string>
+		</test>
+		<test label="U+0633 U+0652" stylename="lang">
+			<comment>10071</comment>
+			<string>نَاإِسْرَٰٓ</string>
+		</test>
+		<test label="U+0633 U+0652 U+064E" stylename="lang">
+			<comment>49 (error?)</comment>
+			<string>نُسَْ</string>
+		</test>
+		<test label="U+0633 U+065C" stylename="lang">
+			<comment>331</comment>
+			<string>مٜىٰتُسٜىٰلَ</string>
+		</test>
+		<test label="U+0634 U+064E" stylename="lang">
+			<comment>5602</comment>
+			<string>شَابِيُ</string>
+		</test>
+		<test label="U+0634 U+064F" stylename="lang">
+			<comment>1998</comment>
+			<string>ڢِشُو</string>
+		</test>
+		<test label="U+0634 U+0650" stylename="lang">
+			<comment>15240</comment>
+			<string> شِے</string>
+		</test>
+		<test label="U+0634 U+0651 U+064F" stylename="lang">
+			<comment>13</comment>
+			<string>أَشُّرْ</string>
+		</test>
+		<test label="U+0634 U+0651 U+0650" stylename="lang">
+			<comment>68</comment>
+			<string>إِسَشِّيَرْ</string>
+		</test>
+		<test label="U+0634 U+0651 U+065C" stylename="lang">
+			<comment>58</comment>
+			<string>اْسَشّٜىٰنْ</string>
+		</test>
+		<test label="U+0634 U+0652" stylename="lang">
+			<comment>1072</comment>
+			<string>اشْ</string>
+		</test>
+		<test label="U+0634 U+065C" stylename="lang">
+			<comment>5852</comment>
+			<string>شٜىٰكَرُ</string>
+		</test>
+		<test label="U+0634 U+065C U+0670" stylename="lang">
+			<comment>66</comment>
+			<string>شٰٜىبَ</string>
+		</test>
+		<test label="U+0634 U+0670" stylename="lang">
+			<comment>20</comment>
+			<string>شٰڢَ </string>
+		</test>
+		<test label="U+0635 U+064E" stylename="lang">
+			<comment>1317</comment>
+			<string>اَصَلِنْ</string>
+		</test>
+		<test label="U+0635 U+0650" stylename="lang">
+			<comment>145</comment>
+			<string>صِڢَّتَا</string>
+		</test>
+		<test label="U+0635 U+0652" stylename="lang">
+			<comment>318</comment>
+			<string>حَصْكٜىٰنْ</string>
+		</test>
+		<test label="U+0636 U+064D" stylename="lang">
+			<comment>525</comment>
+			<string>ڢَضٍ</string>
+		</test>
+		<test label="U+0636 U+064E" stylename="lang">
+			<comment>1427</comment>
+			<string>جَضَكَيْ</string>
+		</test>
+		<test label="U+0636 U+064E U+0650" stylename="lang">
+			<comment>1 (error)</comment>
+			<string>غَضَِ</string>
+		</test>
+		<test label="U+0636 U+064F" stylename="lang">
+			<comment>2211</comment>
+			<string>ضُوَ</string>
+		</test>
+		<test label="U+0636 U+0650" stylename="lang">
+			<comment>78</comment>
+			<string>ضِيَ</string>
+		</test>
+		<test label="U+0636 U+0652" stylename="lang">
+			<comment>346</comment>
+			<string>جِضْغِ</string>
+		</test>
+		<test label="U+0636 U+065C" stylename="lang">
+			<comment>38</comment>
+			<string>جَضٜىٰ</string>
+		</test>
+		<test label="U+0637 U+064E" stylename="lang">
+			<comment>17137</comment>
+			<string>طَنْ</string>
+		</test>
+		<test label="U+0637 U+064F" stylename="lang">
+			<comment>985</comment>
+			<string>حُطُ</string>
+		</test>
+		<test label="U+0637 U+0650" stylename="lang">
+			<comment>2343</comment>
+			<string>طِنْطِنْكَ</string>
+		</test>
+		<test label="U+0637 U+0651 U+064E" stylename="lang">
+			<comment>16</comment>
+			<string>أَطَطَّوْرٜىٰ</string>
+		</test>
+		<test label="U+0637 U+0651 U+064F" stylename="lang">
+			<comment>4</comment>
+			<string>طَطُّو</string>
+		</test>
+		<test label="U+0637 U+0651 U+0650" stylename="lang">
+			<comment>4</comment>
+			<string>طِطِّغَرْ</string>
+		</test>
+		<test label="U+0637 U+0651 U+065C" stylename="lang">
+			<comment>49</comment>
+			<string>أَنَطَطّٜىٰنْ</string>
+		</test>
+		<test label="U+0637 U+065C" stylename="lang">
+			<comment>833</comment>
+			<string>طٜىٰ</string>
+		</test>
+		<test label="U+0638 U+064E" stylename="lang">
+			<comment>13273</comment>
+			<string>ظَيْسَا</string>
+		</test>
+		<test label="U+0638 U+064F" stylename="lang">
+			<comment>2924</comment>
+			<string>ظُرْ</string>
+		</test>
+		<test label="U+0638 U+0650" stylename="lang">
+			<comment>1528</comment>
+			<string>ظِے</string>
+		</test>
+		<test label="U+0638 U+0651 U+064E" stylename="lang">
+			<comment>88</comment>
+			<string>مِظَّ</string>
+		</test>
+		<test label="U+0638 U+0651 U+064F" stylename="lang">
+			<comment>3</comment>
+			<string>أَظُّرْ</string>
+		</test>
+		<test label="U+0638 U+0651 U+0650" stylename="lang">
+			<comment>58</comment>
+			<string>كٜىٰنِظِّيَاوَ</string>
+		</test>
+		<test label="U+0638 U+0651 U+065C" stylename="lang">
+			<comment>6</comment>
+			<string>هَظّٜىٰلٜىٰلْڢُو</string>
+		</test>
+		<test label="U+0638 U+0652" stylename="lang">
+			<comment>659</comment>
+			<string>عُظْ</string>
+		</test>
+		<test label="U+0638 U+065C" stylename="lang">
+			<comment>506</comment>
+			<string>ظٜىٰبُو</string>
+		</test>
+		<test label="U+0639" stylename="lang">
+			<comment>2</comment>
+			<string>بَعأَمْبَثِ</string>
+		</test>
+		<test label="U+0639 U+064E" stylename="lang">
+			<comment>31290</comment>
+			<string>عَيْكِنْسَ</string>
+		</test>
+		<test label="U+0639 U+064F" stylename="lang">
+			<comment>6863</comment>
+			<string>عُكُ</string>
+		</test>
+		<test label="U+0639 U+0650" stylename="lang">
+			<comment>9260</comment>
+			<string>عِيَيٜىٰنْ</string>
+		</test>
+		<test label="U+0639 U+0652" stylename="lang">
+			<comment>563</comment>
+			<string>يَعْقُو</string>
+		</test>
+		<test label="U+0639 U+065C" stylename="lang">
+			<comment>1151</comment>
+			<string>عٜىٰنُو</string>
+		</test>
+		<test label="U+0639 U+0670" stylename="lang">
+			<comment>10</comment>
+			<string>أَلْعٰدَ</string>
+		</test>
+		<test label="U+063A U+064D" stylename="lang">
+			<comment>161</comment>
+			<string>غٍ</string>
+		</test>
+		<test label="U+063A U+064E" stylename="lang">
+			<comment>37209</comment>
+			<string>غَمٜىٰدَ</string>
+		</test>
+		<test label="U+063A U+064F" stylename="lang">
+			<comment>7052</comment>
+			<string>غُدَا</string>
+		</test>
+		<test label="U+063A U+0650" stylename="lang">
+			<comment>9005</comment>
+			<string>يَغِنَ</string>
+		</test>
+		<test label="U+063A U+0651 U+064E" stylename="lang">
+			<comment>62</comment>
+			<string>غَغَّاوَ</string>
+		</test>
+		<test label="U+063A U+0651 U+064F" stylename="lang">
+			<comment>2</comment>
+			<string>يَغَغُّنْ</string>
+		</test>
+		<test label="U+063A U+0651 U+0650" stylename="lang">
+			<comment>18</comment>
+			<string>هَغِّ</string>
+		</test>
+		<test label="U+063A U+0651 U+065C" stylename="lang">
+			<comment>1</comment>
+			<string>هَغّٜىٰدُو</string>
+		</test>
+		<test label="U+063A U+0652" stylename="lang">
+			<comment>208</comment>
+			<string>ڢٜىٰلٜىٰغْ</string>
+		</test>
+		<test label="U+063A U+065C" stylename="lang">
+			<comment>1299</comment>
+			<string>عَتَغٜىٰڢٜىٰنْ</string>
+		</test>
+		<test label="U+0641 U+064E" stylename="lang">
+			<comment>679</comment>
+			<string>حَفِيفَ</string>
+		</test>
+		<test label="U+0641 U+064F" stylename="lang">
+			<comment>77</comment>
+			<string>حَفُرِ</string>
+		</test>
+		<test label="U+0641 U+0650" stylename="lang">
+			<comment>334</comment>
+			<string>حَفِيفَ</string>
+		</test>
+		<test label="U+0642 U+064E" stylename="lang">
+			<comment>205</comment>
+			<string>إِسْحَٰقَ</string>
+		</test>
+		<test label="U+0642 U+064F" stylename="lang">
+			<comment>510</comment>
+			<string>نَايَعْقُو</string>
+		</test>
+		<test label="U+0642 U+0650" stylename="lang">
+			<comment>42</comment>
+			<string>ضُوقِ</string>
+		</test>
+		<test label="U+0643 U+064D" stylename="lang">
+			<comment>767</comment>
+			<string>بِكٍ</string>
+		</test>
+		<test label="U+0643 U+064E" stylename="lang">
+			<comment>81432</comment>
+			<string>حَكَ</string>
+		</test>
+		<test label="U+0643 U+064E U+0650" stylename="lang">
+			<comment>1 (error)</comment>
+			<string>عَكَِكُسْ</string>
+		</test>
+		<test label="U+0643 U+064F" stylename="lang">
+			<comment>49621</comment>
+			<string>كُمَ</string>
+		</test>
+		<test label="U+0643 U+0650" stylename="lang">
+			<comment>29193</comment>
+			<string>عَيْكِنْسَ</string>
+		</test>
+		<test label="U+0643 U+0651 U+064E" stylename="lang">
+			<comment>482</comment>
+			<string>أَكَّدْ</string>
+		</test>
+		<test label="U+0643 U+0651 U+064F" stylename="lang">
+			<comment>119</comment>
+			<string>سُكُّو</string>
+		</test>
+		<test label="U+0643 U+0651 U+0650" stylename="lang">
+			<comment>172</comment>
+			<string>حَكِّنْكَ</string>
+		</test>
+		<test label="U+0643 U+0651 U+065C" stylename="lang">
+			<comment>144</comment>
+			<string>ثِكَكّٜىٰنْ</string>
+		</test>
+		<test label="U+0643 U+0652" stylename="lang">
+			<comment>3311</comment>
+			<string>دُكْدَ</string>
+		</test>
+		<test label="U+0643 U+065C" stylename="lang">
+			<comment>14242</comment>
+			<string>أَكٜىٰ</string>
+		</test>
+		<test label="U+0643 U+0670" stylename="lang">
+			<comment>620</comment>
+			<string>كٰوُ</string>
+		</test>
+		<test label="U+0644" stylename="lang">
+			<comment>5773</comment>
+			<string>اللَّه</string>
+		</test>
+		<test label="U+0644 U+064E" stylename="lang">
+			<comment>12664</comment>
+			<string>لَمٜىٰكْ </string>
+		</test>
+		<test label="U+0644 U+064F" stylename="lang">
+			<comment>4701</comment>
+			<string>لُوطُ </string>
+		</test>
+		<test label="U+0644 U+0650" stylename="lang">
+			<comment>6417</comment>
+			<string>حَلِتَّ </string>
+		</test>
+		<test label="U+0644 U+0651 U+064E" stylename="lang">
+			<comment>6298</comment>
+			<string>لَلَّيْ </string>
+		</test>
+		<test label="U+0644 U+0651 U+064F" stylename="lang">
+			<comment>804</comment>
+			<string>أَلُّواْلِ </string>
+		</test>
+		<test label="U+0644 U+0651 U+0650" stylename="lang">
+			<comment>47</comment>
+			<string>‏أَڢُواْلِّيُوانْ</string>
+		</test>
+		<test label="U+0644 U+0651 U+065C" stylename="lang">
+			<comment>332</comment>
+			<string>ڟَلّٜىٰ </string>
+		</test>
+		<test label="U+0644 U+0652" stylename="lang">
+			<comment>9866</comment>
+			<string>أَدَلْثِ</string>
+		</test>
+		<test label="U+0644 U+065C" stylename="lang">
+			<comment>1384</comment>
+			<string>لٜىٰعُمِّيَاوَا</string>
+		</test>
+		<test label="U+0645" stylename="lang">
+			<comment>2</comment>
+			<string>‏مَلَم</string>
+		</test>
+		<test label="U+0645 U+064B" stylename="lang">
+			<comment>213</comment>
+			<string>نَمً </string>
+		</test>
+		<test label="U+0645 U+064D" stylename="lang">
+			<comment>13</comment>
+			<string>دَمٍ </string>
+		</test>
+		<test label="U+0645 U+064E" stylename="lang">
+			<comment>69215</comment>
+			<string>كُمَ </string>
+		</test>
+		<test label="U+0645 U+064E U+0650" stylename="lang">
+			<comment>2 (error)</comment>
+			<string>ڧَذَمَِ</string>
+		</test>
+		<test label="U+0645 U+064E U+0670" stylename="lang">
+			<comment>466 (fatha/dagger alef)</comment>
+			<string>سُلَيْمَٰنُ</string>
+		</test>
+		<test label="U+0645 U+064F" stylename="lang">
+			<comment>25602</comment>
+			<string>مُتُمْ </string>
+		</test>
+		<test label="U+0645 U+0650" stylename="lang">
+			<comment>13424</comment>
+			<string>دُواْمِنْ </string>
+		</test>
+		<test label="U+0645 U+0651 U+064E" stylename="lang">
+			<comment>5580</comment>
+			<string>كَمَّلَ </string>
+		</test>
+		<test label="U+0645 U+0651 U+064F" stylename="lang">
+			<comment>209</comment>
+			<string>أَمُّواْنَاوَا </string>
+		</test>
+		<test label="U+0645 U+0651 U+0650" stylename="lang">
+			<comment>109</comment>
+			<string>أَمِّ</string>
+		</test>
+		<test label="U+0645 U+0651 U+065C" stylename="lang">
+			<comment>20</comment>
+			<string>أَدْرَمّٜىٰلٜىٰكْ </string>
+		</test>
+		<test label="U+0645 U+0652" stylename="lang">
+			<comment>9266</comment>
+			<string>مُتُمْ </string>
+		</test>
+		<test label="U+0645 U+065C" stylename="lang">
+			<comment>3366</comment>
+			<string>غَمٜىٰدَ </string>
+		</test>
+		<test label="U+0645 U+0670" stylename="lang">
+			<comment>43</comment>
+			<string>تَمٰنِنْ </string>
+		</test>
+		<test label="U+0646" stylename="lang">
+			<comment>34</comment>
+			<string>ذَنذَمَ </string>
+		</test>
+		<test label="U+0646 U+064B" stylename="lang">
+			<comment>41</comment>
+			<string>يَنَنً </string>
+		</test>
+		<test label="U+0646 U+064E" stylename="lang">
+			<comment>53813</comment>
+			<string>نَكَوَرْدَ </string>
+		</test>
+		<test label="U+0646 U+064F" stylename="lang">
+			<comment>4978</comment>
+			<string>ذُنُوبِ </string>
+		</test>
+		<test label="U+0646 U+0650" stylename="lang">
+			<comment>18149</comment>
+			<string>دُونِيَا </string>
+		</test>
+		<test label="U+0646 U+0651 U+064E" stylename="lang">
+			<comment>7665</comment>
+			<string>لِتَّڢِنَّنْ</string>
+		</test>
+		<test label="U+0646 U+0651 U+064F" stylename="lang">
+			<comment>2057</comment>
+			<string>حَنُّنْسَ </string>
+		</test>
+		<test label="U+0646 U+0651 U+0650" stylename="lang">
+			<comment>1491</comment>
+			<string>كَكَنِّنْ </string>
+		</test>
+		<test label="U+0646 U+0651 U+065C" stylename="lang">
+			<comment>1010</comment>
+			<string>كُواْوَنّٜىٰنْسُ</string>
+		</test>
+		<test label="U+0646 U+0652" stylename="lang">
+			<comment>169523</comment>
+			<string>لِتَّڢِنْ </string>
+		</test>
+		<test label="U+0646 U+065C" stylename="lang">
+			<comment>18223</comment>
+			<string>نٜىٰ </string>
+		</test>
+		<test label="U+0647" stylename="lang">
+			<comment>5419</comment>
+			<string>اللَّه</string>
+		</test>
+		<test label="U+0647 U+064C" stylename="lang">
+			<comment>25</comment>
+			<string>اِهٌ </string>
+		</test>
+		<test label="U+0647 U+064E" stylename="lang">
+			<comment>8906</comment>
+			<string>تَهَيْڢِ </string>
+		</test>
+		<test label="U+0647 U+064E U+0670" stylename="lang">
+			<comment>394 (fatha/dagger alef)</comment>
+			<string>هَٰرُوںَ </string>
+		</test>
+		<test label="U+0647 U+064F" stylename="lang">
+			<comment>4886</comment>
+			<string>هُوتُ </string>
+		</test>
+		<test label="U+0647 U+0650" stylename="lang">
+			<comment>1849</comment>
+			<string>إِبْرَٰهِيمْ </string>
+		</test>
+		<test label="U+0647 U+0651 U+064F" stylename="lang">
+			<comment>1</comment>
+			<string>هُهُّدَ </string>
+		</test>
+		<test label="U+0647 U+0652" stylename="lang">
+			<comment>15660</comment>
+			<string>يَهْ‌وٜٮٰهْ‌ </string>
+		</test>
+		<test label="U+0647 U+0652 U+064E" stylename="lang">
+			<comment>2 (error?)</comment>
+			<string>أَلْمَسِيهَْنْ </string>
+		</test>
+		<test label="U+0647 U+0652 U+064F" stylename="lang">
+			<comment>19 (error?)</comment>
+			<string>أَلْمَسِيهُْنَّنْ </string>
+		</test>
+		<test label="U+0647 U+065C" stylename="lang">
+			<comment>625</comment>
+			<string>هٜىٰبْرُوانْ </string>
+		</test>
+		<test label="U+0648" stylename="lang">
+			<comment>87798</comment>
+			<string>ذُنُوبِ </string>
+		</test>
+		<test label="U+0648 U+064B" stylename="lang">
+			<comment>688</comment>
+			<string>ضُوً </string>
+		</test>
+		<test label="U+0648 U+064C" stylename="lang">
+			<comment>66</comment>
+			<string>كِوٌا </string>
+		</test>
+		<test label="U+0648 U+064E" stylename="lang">
+			<comment>59871</comment>
+			<string>ڢَارَوَرْ </string>
+		</test>
+		<test label="U+0648 U+064F" stylename="lang">
+			<comment>10168</comment>
+			<string>تَاوُثٜىٰ</string>
+		</test>
+		<test label="U+0648 U+0650" stylename="lang">
+			<comment>577</comment>
+			<string>وِ </string>
+		</test>
+		<test label="U+0648 U+0651 U+064E" stylename="lang">
+			<comment>244</comment>
+			<string>هَوَّآءُ </string>
+		</test>
+		<test label="U+0648 U+0651 U+0650" stylename="lang">
+			<comment>3</comment>
+			<string>أَوِّيَاوَا</string>
+		</test>
+		<test label="U+0648 U+0652" stylename="lang">
+			<comment>11241</comment>
+			<string>سَوْرَنْ </string>
+		</test>
+		<test label="U+0648 U+065C" stylename="lang">
+			<comment>7752</comment>
+			<string>يَهْ‌وٜٮٰهْ‌ </string>
+		</test>
+		<test label="U+0649" stylename="lang">
+			<comment>2383</comment>
+			<string>شٰٜىلَ</string>
+		</test>
+		<test label="U+0649 U+064E" stylename="lang">
+			<comment>418</comment>
+			<string>ىَصَرَ </string>
+		</test>
+		<test label="U+0649 U+0670" stylename="lang">
+			<comment>92306</comment>
+			<string>أَكٜىٰ </string>
+		</test>
+		<test label="U+064A" stylename="lang">
+			<comment>8038</comment>
+			<string>تَارِيحِنْ </string>
+		</test>
+		<test label="U+064A U+064E" stylename="lang">
+			<comment>93756</comment>
+			<string>دُونِيَا </string>
+		</test>
+		<test label="U+064A U+064F" stylename="lang">
+			<comment>6249</comment>
+			<string>شَابِيُ</string>
+		</test>
+		<test label="U+064A U+0650" stylename="lang">
+			<comment>18879</comment>
+			<string>كَيِنُ </string>
+		</test>
+		<test label="U+064A U+0651 U+064E" stylename="lang">
+			<comment>1338</comment>
+			<string>تَبَيَّنَ</string>
+		</test>
+		<test label="U+064A U+0651 U+064F" stylename="lang">
+			<comment>584</comment>
+			<string>أَيُّكَنْ </string>
+		</test>
+		<test label="U+064A U+0651 U+0650" stylename="lang">
+			<comment>9</comment>
+			<string>مَنِيِّنْ </string>
+		</test>
+		<test label="U+064A U+0651 U+065C" stylename="lang">
+			<comment>26</comment>
+			<string>لَڢِيَيّٜىٰ</string>
+		</test>
+		<test label="U+064A U+0652" stylename="lang">
+			<comment>42704</comment>
+			<string>مَيْ </string>
+		</test>
+		<test label="U+064A U+065C" stylename="lang">
+			<comment>6683</comment>
+			<string>تَكِيَيٜىٰ </string>
+		</test>
+		<test label="U+064A U+0670" stylename="lang">
+			<comment>256</comment>
+			<string>يٰوُواْ </string>
+		</test>
+		<test label="U+066E U+0655 U+0650" stylename="lang">
+			<comment>355</comment>
+			<string>مَلاَٮِٕكَنْ </string>
+		</test>
+		<test label="U+066E U+0670" stylename="lang">
+			<comment>7607</comment>
+			<string>يَهْ‌وٜٮٰهْ‌ </string>
+		</test>
+		<test label="U+067B U+064E" stylename="lang">
+			<comment>1834</comment>
+			<string>كُتَٻَشِ</string>
+		</test>
+		<test label="U+067B U+064F" stylename="lang">
+			<comment>1107</comment>
+			<string>ٻُواْيٜىٰ </string>
+		</test>
+		<test label="U+067B U+0650" stylename="lang">
+			<comment>514</comment>
+			<string>لُلُّٻِ</string>
+		</test>
+		<test label="U+067B U+0651 U+064E" stylename="lang">
+			<comment>1</comment>
+			<string>يَٻَٻَّرٜىٰ </string>
+		</test>
+		<test label="U+067B U+0651 U+064F" stylename="lang">
+			<comment>92</comment>
+			<string>مَٻُٻُّغَرْ </string>
+		</test>
+		<test label="U+067B U+0651 U+065C" stylename="lang">
+			<comment>15</comment>
+			<string>كٜىٰٻَٻّٜىٰ</string>
+		</test>
+		<test label="U+067B U+065C" stylename="lang">
+			<comment>907</comment>
+			<string>كٜىٰٻٜىٰتَ </string>
+		</test>
+		<test label="U+069F U+064E" stylename="lang">
+			<comment>4835</comment>
+			<string>ڟَيِ </string>
+		</test>
+		<test label="U+069F U+064F" stylename="lang">
+			<comment>2122</comment>
+			<string>ڟُنْڟَيٜىٰ </string>
+		</test>
+		<test label="U+069F U+0650" stylename="lang">
+			<comment>914</comment>
+			<string>مُواْڟِ </string>
+		</test>
+		<test label="U+069F U+0652" stylename="lang">
+			<comment>20</comment>
+			<string>بَڟْهٜىٰبَ </string>
+		</test>
+		<test label="U+069F U+065C" stylename="lang">
+			<comment>794</comment>
+			<string>كِڟٜىٰنْسُ</string>
+		</test>
+		<test label="U+069F U+0670" stylename="lang">
+			<comment>38</comment>
+			<string>ڟٰوَ </string>
+		</test>
+		<test label="U+06A0 U+064E" stylename="lang">
+			<comment>339</comment>
+			<string>ڠَلٜىٰ </string>
+		</test>
+		<test label="U+06A0 U+064F" stylename="lang">
+			<comment>539</comment>
+			<string>ڠُونَيٜىٰ </string>
+		</test>
+		<test label="U+06A2 U+064E" stylename="lang">
+			<comment>12455</comment>
+			<string>ڢَارَوَ</string>
+		</test>
+		<test label="U+06A2 U+064F" stylename="lang">
+			<comment>2779</comment>
+			<string>تَهَيْڢُوَ </string>
+		</test>
+		<test label="U+06A2 U+0650" stylename="lang">
+			<comment>14066</comment>
+			<string>لِتَّڢِنْ </string>
+		</test>
+		<test label="U+06A2 U+0651 U+064E" stylename="lang">
+			<comment>201</comment>
+			<string>صِڢَّتَا </string>
+		</test>
+		<test label="U+06A2 U+0651 U+064E U+0650" stylename="lang">
+			<comment>1 (error)</comment>
+			<string>صِڢَِّ </string>
+		</test>
+		<test label="U+06A2 U+0651 U+064F" stylename="lang">
+			<comment>154</comment>
+			<string>ظِڢُّواْرَ </string>
+		</test>
+		<test label="U+06A2 U+0651 U+0650" stylename="lang">
+			<comment>85</comment>
+			<string>ڟُواْڢَڢِّ</string>
+		</test>
+		<test label="U+06A2 U+0651 U+0652" stylename="lang">
+			<comment>1</comment>
+			<string>سَڢّْرُوانْ </string>
+		</test>
+		<test label="U+06A2 U+0651 U+065C" stylename="lang">
+			<comment>2</comment>
+			<string>دَڢَڢّٜىٰنْ </string>
+		</test>
+		<test label="U+06A2 U+0652" stylename="lang">
+			<comment>948</comment>
+			<string>كَڢْ</string>
+		</test>
+		<test label="U+06A2 U+065C" stylename="lang">
+			<comment>2065</comment>
+			<string>رُڢٜىٰ </string>
+		</test>
+		<test label="U+06A2 U+0670" stylename="lang">
+			<comment>408</comment>
+			<string>أَمْڢٰنِ </string>
+		</test>
+		<test label="U+06A7 U+064E" stylename="lang">
+			<comment>14866</comment>
+			<string>عَڧَرْشٜىٰ</string>
+		</test>
+		<test label="U+06A7 U+064F" stylename="lang">
+			<comment>3937</comment>
+			<string>ڧُنْشِ </string>
+		</test>
+		<test label="U+06A7 U+0650" stylename="lang">
+			<comment>4201</comment>
+			<string>ڧِيَيَّ </string>
+		</test>
+		<test label="U+06A7 U+0651 U+064F" stylename="lang">
+			<comment>5</comment>
+			<string>ڧُواْڧُّواْنٜىٰ </string>
+		</test>
+		<test label="U+06A7 U+0651 U+0650" stylename="lang">
+			<comment>1</comment>
+			<string>أَمِےڧَڧِّيَرْ </string>
+		</test>
+		<test label="U+06A7 U+0651 U+065C" stylename="lang">
+			<comment>1</comment>
+			<string>مِےڧَڧّٜىٰ</string>
+		</test>
+		<test label="U+06A7 U+0652" stylename="lang">
+			<comment>28</comment>
+			<string>أَلْڧْ ‏</string>
+		</test>
+		<test label="U+06A7 U+065C" stylename="lang">
+			<comment>1317</comment>
+			<string>لٜىٰڧٜىٰنْ </string>
+		</test>
+		<test label="U+06A8 U+064E" stylename="lang">
+			<comment>317</comment>
+			<string>ڨَمَ </string>
+		</test>
+		<test label="U+06A8 U+064F" stylename="lang">
+			<comment>756</comment>
+			<string>ڨُيَنٜىٰ </string>
+		</test>
+		<test label="U+06A8 U+0650" stylename="lang">
+			<comment>8</comment>
+			<string>ڨِڢْتَوَرْ </string>
+		</test>
+		<test label="U+06AD U+064E" stylename="lang">
+			<comment>1353</comment>
+			<string>بَڭَويْ</string>
+		</test>
+		<test label="U+06BA U+064E" stylename="lang">
+			<comment>394</comment>
+			<string>هَٰرُوںَ </string>
+		</test>
+		<test label="U+06CC U+064E" stylename="lang">
+			<comment>5803</comment>
+			<string>یَیَنْسَ </string>
+		</test>
+		<test label="U+06D2" stylename="lang">
+			<comment>18963</comment>
+			<string>مَيْبِے </string>
+		</test>
+		<test label="U+0763 U+064E" stylename="lang">
+			<comment>1151</comment>
+			<string>يَنَدَݣَوْ </string>
+		</test>
+		<test label="U+0763 U+064F" stylename="lang">
+			<comment>3161</comment>
+			<string>ݣُوَانَ </string>
+		</test>
+		<test label="U+200C" stylename="lang">
+			<comment>19276</comment>
+			<string>يَهْ‌وٜٮٰهْ‌ </string>
+		</test>
+		<test label="U+200F" stylename="lang">
+			<comment>44017</comment>
+			<string>كِرَسُ ‏</string>
+		</test>
+		<test label="U+2014" stylename="lang">
+			<comment>322</comment>
+			<string> ‏1‏.‏1‏—‏12‏.</string>
+		</test>
+		<test label="U+2039" stylename="lang">
+			<comment>1418</comment>
+			<string>‹‏غَا</string>
+		</test>
+		<test label="U+203A" stylename="lang">
+			<comment>1305</comment>
+			<string> رَشِ؞»‏ ›</string>
+		</test>
+		<test label="U+FD3E U+FD3F" stylename="lang">
+			<comment>801/765</comment>
+			<string> ﴿ڢِتْ ‏25‏.‏10‏-22﴾ </string>
+		</test>
+	</testgroup>
 </ftml>

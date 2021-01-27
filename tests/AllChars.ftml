@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="ftml.xsl" type="text/xsl"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
 <ftml version="1.0">
   <head>
-    <fontscale>200</fontscale>
-    <fontsrc>url(../results/Alkalami-Regular.ttf)</fontsrc>
-    <fontsrc>url(../results/Alkalami-Light.ttf)</fontsrc>
+    <fontscale>250</fontscale>
+    <fontsrc label="Reg">url(../references/Alkalami-Regular-1_100.ttf)</fontsrc>
+    <fontsrc label="Light">url(../references/Alkalami-Light-1_100.ttf)</fontsrc>
     <styles>
       <style feats="'ss01' 1" name="ss01_1"/>
       <style feats="'ss02' 1" name="ss02_1"/>
@@ -797,90 +797,73 @@
     </test>
   </testgroup>
   <testgroup label="Specials &amp; ligatures from glyph_data">
-    <test label="U+064E
-U+0670">
+    <test label="U+064E U+0670">
       <comment>fatha-ar alefabove-ar</comment>
       <string>\u000628\u00064E\u000670</string>
     </test>
-    <test label="U+0644
-U+0627">
+    <test label="U+0644 U+0627">
       <comment>lam-ar alef-ar</comment>
       <string>\u000644\u000627 \u00200D\u000644\u000627 </string>
     </test>
-    <test label="U+0644
-U+0627" stylename="ss08_1">
+    <test label="U+0644 U+0627" stylename="ss08_1">
       <comment>lam-ar alef-ar</comment>
       <string>\u000644\u000627 \u00200D\u000644\u000627 </string>
     </test>
-    <test label="U+0644
-U+0623">
+    <test label="U+0644 U+0623">
       <comment>lam-ar alefHamzaabove-ar</comment>
       <string>\u000644\u000623 \u00200D\u000644\u000623 </string>
     </test>
-    <test label="U+0644
-U+0625">
+    <test label="U+0644 U+0625">
       <comment>lam-ar alefHamzabelow-ar</comment>
       <string>\u000644\u000625 \u00200D\u000644\u000625 </string>
     </test>
-    <test label="U+0644
-U+0622">
+    <test label="U+0644 U+0622">
       <comment>lam-ar alefMadda-ar</comment>
       <string>\u000644\u000622 \u00200D\u000644\u000622 </string>
     </test>
-    <test label="U+0651
-U+0670">
+    <test label="U+0651 U+0670">
       <comment>shadda-ar alefabove-ar</comment>
       <string>\u000628\u000651\u000670</string>
     </test>
-    <test label="U+0651
-U+064F">
+    <test label="U+0651 U+064F">
       <comment>shadda-ar damma-ar</comment>
       <string>\u000628\u000651\u00064F</string>
     </test>
-    <test label="U+0651
-U+064F" stylename="ss08_1">
+    <test label="U+0651 U+064F" stylename="ss08_1">
       <comment>shadda-ar damma-ar</comment>
       <string>\u000628\u000651\u00064F</string>
     </test>
-    <test label="U+0651
-U+064C">
+    <test label="U+0651 U+064C">
       <comment>shadda-ar dammatan-ar</comment>
       <string>\u000628\u000651\u00064C</string>
     </test>
-    <test label="U+0651
-U+064E">
+    <test label="U+0651 U+064E">
       <comment>shadda-ar fatha-ar</comment>
       <string>\u000628\u000651\u00064E</string>
     </test>
-    <test label="U+0651
-U+064B">
+    <test label="U+0651 U+064B">
       <comment>shadda-ar fathatan-ar</comment>
       <string>\u000628\u000651\u00064B</string>
     </test>
   </testgroup>
   <testgroup label="Lam-Alef">
-    <test label="U+0644
-U+0627">
+    <test label="U+0644 U+0627">
       <comment>lam-ar alef-ar</comment>
       <string>\u000644\u000627 \u00200D\u000644\u000627 </string>
     </test>
-    <test label="U+0644
-U+0627" stylename="ss08_1">
+    <test label="U+0644 U+0627" stylename="ss08_1">
       <comment>lam-ar alef-ar</comment>
       <string>\u000644\u000627 \u00200D\u000644\u000627 </string>
     </test>
-    <test label="U+0644
-U+0622">
+    <test label="U+0644 U+0622">
       <comment>lam-ar alefMadda-ar</comment>
       <string>\u000644\u000622 \u00200D\u000644\u000622 </string>
     </test>
-    <test label="U+0644
-U+0623">
+    <test label="U+0644 U+0623">
       <comment>lam-ar alefHamzaabove-ar</comment>
       <string>\u000644\u000623 \u00200D\u000644\u000623 </string>
     </test>
-    <test label="U+0644
-U+0625">
+    <test label="U+0644 U+0625">
       <comment>lam-ar alefHamzabelow-ar</comment>
       <string>\u000644\u000625 \u00200D\u000644\u000625 </string>
     </test>
