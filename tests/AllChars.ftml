@@ -6,17 +6,16 @@
     <fontsrc label="Reg">url(../references/Alkalami-Regular-1_100.ttf)</fontsrc>
     <fontsrc label="Light">url(../references/Alkalami-Light-1_100.ttf)</fontsrc>
     <styles>
-		<styles>
-			<style feats="'ss01' 1" name="ss01_1"/>
-			<style feats="'ss02' 1" name="ss02_1"/>
-			<style feats="'ss03' 1" name="ss03_1"/>
-			<style feats="'ss04' 1" name="ss04_1"/>
-			<style feats="'ss05' 1" name="ss05_1"/>
-			<style feats="'ss07' 1" name="ss07_1"/>
-			<style feats="'ss08' 1" name="ss08_1"/>
-			<style feats="'ss02' 1, 'ss03' 1" name="ss02_1_ss03_1"/>
-      <style feats="'ss01' 1, 'ss04' 1, 'ss05' 1, 'ss08' 1" name="lang"/>
-		</styles>
+        <style feats="'ss01' 1" name="ss01_1"/>
+        <style feats="'ss02' 1" name="ss02_1"/>
+        <style feats="'ss03' 1" name="ss03_1"/>
+        <style feats="'ss04' 1" name="ss04_1"/>
+        <style feats="'ss05' 1" name="ss05_1"/>
+        <style feats="'ss07' 1" name="ss07_1"/>
+        <style feats="'ss08' 1" name="ss08_1"/>
+        <style feats="'ss02' 1, 'ss03' 1" name="ss02_1_ss03_1"/>
+        <style feats="'ss01' 1, 'ss04' 1, 'ss05' 1, 'ss08' 1" name="lang"/>
+    </styles>
     <title>AllChars</title>
   </head>
   <testgroup label="Rendering Check">
