@@ -13,8 +13,10 @@
 			<style feats="'ss05' 1" name="ss05_1"/>
 			<style feats="'ss07' 1" name="ss07_1"/>
 			<style feats="'ss08' 1" name="ss08_1"/>
-			<style feats="'ss02' 1, 'ss03' 1" name="ss02_1_ss03_1"/>
-      <style feats="'ss01' 1, 'ss04' 1, 'ss05' 1, 'ss08' 1" name="lang"/>
+			<style feats="'ss01' 1, 'ss04' 1" name="ss01_1_ss04_1"/>
+			<style feats="'ss01' 1, 'ss08' 1" name="ss01_1_ss08_1"/>
+			<style feats="'ss04' 1, 'ss08' 1" name="ss04_1_ss08_1"/>
+      <style feats="'ss01' 1, 'ss04' 1, 'ss05' 1, 'ss08' 1" name="lang"/>  <!-- unused -->
     </styles>
 		<title>Diac</title>
 	</head>
