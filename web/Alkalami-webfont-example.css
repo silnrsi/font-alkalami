@@ -1,8 +1,7 @@
 /*
 Alkalami-webfont-example.css
-Alkalami v1.200
 This file is part of Alkalami font family (http://software.sil.org/alkalami)
-and is Copyright (c) 2015-2020 SIL International (http://www.sil.org/),
+and is Copyright (c) 2015-2021 SIL International (http://www.sil.org/),
 with Reserved Font Names "Alkalami" and "SIL". This Font Software is licensed
 under the SIL Open Font License, Version 1.1. You should have received a copy
 of the license along with this Font Software. If this is not the case, go to
@@ -12,11 +11,11 @@ of the license along with this Font Software. If this is not the case, go to
 /* use Alkalami - Regular in .woff format */
 @font-face {
   font-family: AlkalamiRW;
-  src: url(Alkalami-Regular.woff);
+  src: url(Alkalami-Regular.woff2);
 }
 @font-face {
   font-family: AlkalamiLW;
-  src: url(Alkalami-Light.woff);
+  src: url(Alkalami-Light.woff2);
 }
 
 
@@ -39,8 +38,8 @@ h2 {
   font-family: AlkalamiRW, sans-serif; font-size: 200%; direction: rtl; text-align: right;
     /* fall back to sans serif so that it's really obvious if the fonts don't load */
 }	
-.rtlb {
-  font-family: AlkalamiRW, sans-serif; font-size: 200%; direction: rtl; text-align: right;
+.rtll {
+  font-family: AlkalamiLW, sans-serif; font-size: 200%; direction: rtl; text-align: right;
     /* fall back to sans serif so that it's really obvious if the fonts don't load */
 }	
 .ss01 {
