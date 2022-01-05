@@ -56,6 +56,8 @@
 @cno_wide = [alef-ar];
 @c_wideshort = [alef-ar.wideshort];
 @cno_wideshort = [alef-ar];
+@public.kern1.0 = [dotlessi];
+@public.kern2.0 = [dotlessi];
 
 # Positioning classes and statements
 
@@ -867,6 +869,8 @@ lookup ss08_aux {
 # Simple lowered final jeem - flatten chars that do not stack above hah finals.
 lookup prehah_alt {
     lookupflag IgnoreMarks;
+    sub @pre_hah_not_flat' @hahMedials by @pre_hah_flat;
+    #####
     sub @pre_hah_not_flat' @hahFinals by @pre_hah_flat;
 } prehah_alt;
 
@@ -940,7 +944,7 @@ lookup flatten_hah {
     sub @pre_hah_flat' lookup no_change @hahMedi_any' lookup no_change @hahMedi_any' lookup flatten_hah_aux;
     # Case 8: flatten jeems
     sub @hahMedi_any' lookup flatten_hah_aux @hahMedi_any [@post_hah_final_low @hahMedials_low @hahFinals];
-    # Case 8: continue to flatten jeems
+    # Case 8a: continue to flatten jeems
     sub @hahMedials_flat @hahMedi_any' lookup flatten_hah_aux;
 } flatten_hah;
 
@@ -1318,51 +1322,127 @@ lookup kern_end_of_ayah {
 
 # Attachment needs to happen after stacking hah forms.
 lookup attachLigMarkReg {
-    pos ligature lam_alef-ar <anchor 361 700> mark @_top <anchor 356 -40> mark @_bottom
-        ligComponent <anchor 76 655> mark @_top <anchor 73 -40> mark @_bottom;
-    pos ligature lam_alef-ar.fina <anchor 352 684> mark @_top <anchor 474 -50> mark @_bottom
-        ligComponent <anchor 115 676> mark @_top <anchor 67 -46> mark @_bottom;
-    pos ligature lam_alefHamzabelow-ar <anchor 361 680> mark @_top <anchor 356 -40> mark @_bottom
-        ligComponent <anchor 66 645> mark @_top <anchor 73 -40> mark @_bottom;
-    pos ligature lam_alefHamzabelow-ar.fina <anchor 352 684> mark @_top <anchor 474 -50> mark @_bottom
-        ligComponent <anchor 115 646> mark @_top <anchor 67 -336> mark @_bottom;
-    pos ligature lam_alefHamzaabove-ar <anchor 361 680> mark @_top <anchor 356 -40> mark @_bottom
-        ligComponent <anchor 109 866> mark @_top <anchor 73 -40> mark @_bottom;
-    pos ligature lam_alefHamzaabove-ar.fina <anchor 352 684> mark @_top <anchor 474 -50> mark @_bottom
-        ligComponent <anchor 105 866> mark @_top <anchor 67 -46> mark @_bottom;
-    pos ligature lam_alefMadda-ar <anchor 361 680> mark @_top <anchor 356 -40> mark @_bottom
-        ligComponent <anchor 86 765> mark @_top <anchor 73 -40> mark @_bottom;
-    pos ligature lam_alefMadda-ar.fina <anchor 373 689> mark @_top <anchor 514 -50> mark @_bottom
-        ligComponent <anchor 100 761> mark @_top <anchor 107 -46> mark @_bottom;
-    pos ligature allah-ar <anchor 841 587> mark @_top
-        ligComponent <anchor 670 547> mark @_top
-        ligComponent <anchor 498 523> mark @_top
-        ligComponent <anchor 233 405> mark @_top;
+    pos ligature lam_alef-ar
+            <anchor 361 700> mark @_top
+            <anchor 356 -40> mark @_bottom
+        ligComponent
+            <anchor 76 655> mark @_top
+            <anchor 73 -40> mark @_bottom;
+    pos ligature lam_alef-ar.fina
+            <anchor 352 684> mark @_top
+            <anchor 474 -50> mark @_bottom
+        ligComponent
+            <anchor 115 676> mark @_top
+            <anchor 67 -46> mark @_bottom;
+    pos ligature lam_alefHamzabelow-ar
+            <anchor 361 680> mark @_top
+            <anchor 356 -40> mark @_bottom
+        ligComponent
+            <anchor 66 645> mark @_top
+            <anchor 73 -40> mark @_bottom;
+    pos ligature lam_alefHamzabelow-ar.fina
+            <anchor 352 684> mark @_top
+            <anchor 474 -50> mark @_bottom
+        ligComponent
+            <anchor 115 646> mark @_top
+            <anchor 67 -336> mark @_bottom;
+    pos ligature lam_alefHamzaabove-ar
+            <anchor 361 680> mark @_top
+            <anchor 356 -40> mark @_bottom
+        ligComponent
+            <anchor 109 866> mark @_top
+            <anchor 73 -40> mark @_bottom;
+    pos ligature lam_alefHamzaabove-ar.fina
+            <anchor 352 684> mark @_top
+            <anchor 474 -50> mark @_bottom
+        ligComponent
+            <anchor 105 866> mark @_top
+            <anchor 67 -46> mark @_bottom;
+    pos ligature lam_alefMadda-ar
+            <anchor 361 680> mark @_top
+            <anchor 356 -40> mark @_bottom
+        ligComponent
+            <anchor 86 765> mark @_top
+            <anchor 73 -40> mark @_bottom;
+    pos ligature lam_alefMadda-ar.fina
+            <anchor 373 689> mark @_top
+            <anchor 514 -50> mark @_bottom
+        ligComponent
+            <anchor 100 761> mark @_top
+            <anchor 107 -46> mark @_bottom;
+    pos ligature allah-ar
+            <anchor 841 587> mark @_top
+        ligComponent
+            <anchor 670 547> mark @_top
+        ligComponent
+            <anchor 498 523> mark @_top
+        ligComponent
+            <anchor 233 405> mark @_top;
 } attachLigMarkReg;
 
 lookup attachLigMarkLight {
-    pos ligature lam_alef-ar <anchor 304 664> mark @_top <anchor 362 -30> mark @_bottom
-        ligComponent <anchor 62 605> mark @_top <anchor 99 -30> mark @_bottom;
-    pos ligature lam_alef-ar.fina <anchor 407 659> mark @_top <anchor 477 -30> mark @_bottom
-        ligComponent <anchor 98 600> mark @_top <anchor 90 -30> mark @_bottom;
-    pos ligature lam_alefHamzabelow-ar <anchor 317 664> mark @_top <anchor 375 -30> mark @_bottom
-        ligComponent <anchor 75 605> mark @_top <anchor 142 -230> mark @_bottom;
-    pos ligature lam_alefHamzabelow-ar.fina <anchor 400 670> mark @_top <anchor 474 -30> mark @_bottom
-        ligComponent <anchor 87 620> mark @_top <anchor 127 -270> mark @_bottom;
-    pos ligature lam_alefHamzaabove-ar <anchor 332 674> mark @_top <anchor 385 -30> mark @_bottom
-        ligComponent <anchor 85 805> mark @_top <anchor 92 -30> mark @_bottom;
-    pos ligature lam_alefHamzaabove-ar.fina <anchor 407 659> mark @_top <anchor 477 -30> mark @_bottom
-        ligComponent <anchor 68 750> mark @_top <anchor 90 -30> mark @_bottom;
-    pos ligature lam_alefMadda-ar <anchor 407 659> mark @_top <anchor 477 -30> mark @_bottom
-        ligComponent <anchor 68 750> mark @_top <anchor 90 -30> mark @_bottom;
-    pos ligature lam_alefMadda-ar <anchor 304 664> mark @_top <anchor 362 -30> mark @_bottom
-        ligComponent <anchor 66 731> mark @_top <anchor 99 -30> mark @_bottom;
-    pos ligature lam_alefMadda-ar.fina <anchor 407 659> mark @_top <anchor 477 -30> mark @_bottom
-        ligComponent <anchor 98 710> mark @_top <anchor 90 -30> mark @_bottom;
-    pos ligature allah-ar <anchor 811 614> mark @_top
-        ligComponent <anchor 635 562> mark @_top
-        ligComponent <anchor 465 493> mark @_top
-        ligComponent <anchor 232 359> mark @_top;
+    pos ligature lam_alef-ar
+            <anchor 304 664> mark @_top
+            <anchor 362 -30> mark @_bottom
+        ligComponent
+            <anchor 62 605> mark @_top
+            <anchor 99 -30> mark @_bottom;
+    pos ligature lam_alef-ar.fina
+            <anchor 407 659> mark @_top
+            <anchor 477 -30> mark @_bottom
+        ligComponent
+            <anchor 98 600> mark @_top
+            <anchor 90 -30> mark @_bottom;
+    pos ligature lam_alefHamzabelow-ar
+            <anchor 317 664> mark @_top
+            <anchor 375 -30> mark @_bottom
+        ligComponent
+            <anchor 75 605> mark @_top
+            <anchor 142 -230> mark @_bottom;
+    pos ligature lam_alefHamzabelow-ar.fina
+            <anchor 400 670> mark @_top
+            <anchor 474 -30> mark @_bottom
+        ligComponent
+            <anchor 87 620> mark @_top
+            <anchor 127 -270> mark @_bottom;
+    pos ligature lam_alefHamzaabove-ar
+            <anchor 332 674> mark @_top
+            <anchor 385 -30> mark @_bottom
+        ligComponent
+            <anchor 85 805> mark @_top
+            <anchor 92 -30> mark @_bottom;
+    pos ligature lam_alefHamzaabove-ar.fina
+            <anchor 407 659> mark @_top
+            <anchor 477 -30> mark @_bottom
+        ligComponent
+            <anchor 68 750> mark @_top
+            <anchor 90 -30> mark @_bottom;
+    pos ligature lam_alefMadda-ar
+            <anchor 407 659> mark @_top
+            <anchor 477 -30> mark @_bottom
+        ligComponent
+            <anchor 68 750> mark @_top
+            <anchor 90 -30> mark @_bottom;
+    pos ligature lam_alefMadda-ar
+            <anchor 304 664> mark @_top
+            <anchor 362 -30> mark @_bottom
+        ligComponent
+            <anchor 66 731> mark @_top
+            <anchor 99 -30> mark @_bottom;
+    pos ligature lam_alefMadda-ar.fina
+            <anchor 407 659> mark @_top
+            <anchor 477 -30> mark @_bottom
+        ligComponent
+            <anchor 98 710> mark @_top
+            <anchor 90 -30> mark @_bottom;
+    pos ligature allah-ar
+            <anchor 811 614> mark @_top
+        ligComponent
+            <anchor 635 562> mark @_top
+        ligComponent
+            <anchor 465 493> mark @_top
+        ligComponent
+            <anchor 232 359> mark @_top;
 } attachLigMarkLight;
 
 lookup attachBaseMark {
@@ -2006,7 +2086,7 @@ feature aalt {
 @takes_hamzaBelow = [kasra-ar kasratan-ar];
 @with_hamzaBelow = [hamzabelowKasra-ar hamzabelowKasratan-ar];
 @takes_shadda = [alefabove-ar damma-ar dammatan-ar fatha-ar fathatan-ar];
-@with_shadda = [shadda_alef-ar shadda_damma-ar shadda_dammatan-ar shadda_fatha-ar];
+@with_shadda = [shadda_alef-ar shadda_damma-ar shadda_dammatan-ar shadda_fatha-ar shadda_fathatan-ar];
 feature ccmp {
     # Always split alefhamza (0623, 0625) so the hamza can be colored:
     lookup ccmp_arab_1 {
@@ -2047,10 +2127,12 @@ feature ccmp {
         sub shadda-ar damma-ar by shadda_damma-ar;
         sub shadda-ar dammatan-ar by shadda_dammatan-ar;
         sub shadda-ar fatha-ar by shadda_fatha-ar;
+        sub shadda-ar fathatan-ar by shadda_fathatan-ar;
         sub alefabove-ar shadda-ar by shadda_alef-ar;
         sub damma-ar shadda-ar by shadda_damma-ar;
         sub dammatan-ar shadda-ar by shadda_dammatan-ar;
         sub fatha-ar shadda-ar by shadda_fatha-ar;
+        sub fathatan-ar shadda-ar by shadda_fathatan-ar;
         sub fatha-ar alefabove-ar by fatha_alefabove-ar;
         sub alefabove-ar fatha-ar by fatha_alefabove-ar;
     } ccmp_arab_4;
@@ -2429,13 +2511,7 @@ feature ss07 {
         # flat jeem jeem - don't flatten first jeem, it will make the prior flat form attach too low.
         sub @pre_hah_flat' lookup no_change @hahMedials_stack' lookup no_change @hahMedials_flat;
         # already flattened
-        sub @pre_hah_flat' lookup no_change @hahMedi_any' lookup no_change @cno_ss07;
-        sub @pre_hah_flat' lookup no_change @hahMedials_stack' lookup no_change @c_medi;
-        sub @pre_hah_flat' lookup no_change @hahMedials_stack' lookup no_change @hahMedials_low;
-        # not in c_medi
-        sub @pre_hah_flat' lookup no_change @hahMedials_stack' lookup no_change @hahMedials_flat;
-        # not in c_medi
-        sub @pre_hah_flat' lookup no_change @hahMedials_stack' lookup no_change @c_fina;
+        sub @pre_hah_flat' lookup no_change @hahMedi_any' lookup no_change;
         sub lam-ar.init.high @hahMedials_stack' lookup no_change;
         sub @cno_ss07' lookup flatten_hah_aux;
         sub @hahMedi_any' lookup flatten_hah_aux;

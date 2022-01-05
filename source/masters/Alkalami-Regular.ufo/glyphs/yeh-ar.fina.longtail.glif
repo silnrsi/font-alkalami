@@ -5,6 +5,7 @@
   <anchor x="562" y="0" name="entry"/>
   <anchor x="217" y="301" name="top"/>
   <outline>
+    <component base="twodotshorizontalbelow-ar" xOffset="-407" yOffset="-473"/>
     <contour>
       <point x="-451" y="-292" type="curve"/>
       <point x="-453" y="-344"/>
@@ -63,6 +64,5 @@
       <point x="-331" y="-330"/>
       <point x="-390" y="-318"/>
     </contour>
-    <component base="twodotshorizontalbelow-ar" xOffset="-407" yOffset="-473"/>
   </outline>
 </glyph>

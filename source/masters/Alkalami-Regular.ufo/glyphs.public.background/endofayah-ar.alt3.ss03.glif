@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="endofayah-ar.alt3.ss03" format="2">
   <outline>
+    <component base="eight" xScale="0.7" yScale="0.7" xOffset="314" yOffset="-2"/>
+    <component base="eight" xScale="0.7" yScale="0.7" xOffset="664" yOffset="-2"/>
+    <component base="eight" xScale="0.7" yScale="0.7" xOffset="1015" yOffset="-2"/>
     <contour>
       <point x="856" y="-683" type="curve" smooth="yes"/>
       <point x="1087" y="-683"/>
@@ -69,8 +72,5 @@
       <point x="416" y="-602"/>
       <point x="626" y="-683"/>
     </contour>
-    <component base="eight" xScale="0.7" yScale="0.7" xOffset="314" yOffset="-2"/>
-    <component base="eight" xScale="0.7" yScale="0.7" xOffset="664" yOffset="-2"/>
-    <component base="eight" xScale="0.7" yScale="0.7" xOffset="1015" yOffset="-2"/>
   </outline>
 </glyph>

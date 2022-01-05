@@ -3,6 +3,7 @@
   <advance width="433"/>
   <unicode hex="00A2"/>
   <outline>
+    <component base="c"/>
     <contour>
       <point x="275" y="-90" type="line"/>
       <point x="268" y="147"/>
@@ -13,6 +14,5 @@
       <point x="219" y="147"/>
       <point x="212" y="-90" type="curve"/>
     </contour>
-    <component base="c"/>
   </outline>
 </glyph>

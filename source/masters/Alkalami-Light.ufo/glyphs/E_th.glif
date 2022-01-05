@@ -4,6 +4,7 @@
   <unicode hex="00D0"/>
   <anchor x="350" y="679" name="top"/>
   <outline>
+    <component base="D"/>
     <contour>
       <point x="26" y="360" type="curve"/>
       <point x="26" y="299" type="line"/>
@@ -14,7 +15,6 @@
       <point x="275" y="356"/>
       <point x="114" y="356"/>
     </contour>
-    <component base="D"/>
   </outline>
   <lib>
     <dict>

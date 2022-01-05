@@ -6,6 +6,7 @@
   <anchor x="0" y="0" name="exit"/>
   <anchor x="201" y="297" name="top"/>
   <outline>
+    <component base="threedotsdownbelow-ar" xOffset="-4"/>
     <contour>
       <point x="302" y="148" type="curve" smooth="yes"/>
       <point x="299" y="188"/>
@@ -31,6 +32,5 @@
       <point x="307" y="140"/>
       <point x="303" y="141"/>
     </contour>
-    <component base="threedotsdownbelow-ar" xOffset="-4"/>
   </outline>
 </glyph>

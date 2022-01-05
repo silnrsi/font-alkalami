@@ -8,6 +8,7 @@
   <anchor x="407" y="659" name="top_1"/>
   <anchor x="68" y="750" name="top_2"/>
   <outline>
+    <component base="hamzaabove-ar" xOffset="5" yOffset="57"/>
     <contour>
       <point x="289" y="-135" type="curve"/>
       <point x="309" y="-135"/>
@@ -104,6 +105,5 @@
       <point x="312" y="-12"/>
       <point x="311" y="-11"/>
     </contour>
-    <component base="hamzaabove-ar" xOffset="5" yOffset="57"/>
   </outline>
 </glyph>

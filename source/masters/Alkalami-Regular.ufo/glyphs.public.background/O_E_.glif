@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="OE" format="2">
   <outline>
+    <component base="O"/>
     <contour>
       <point x="762" y="369" type="line"/>
       <point x="719" y="368"/>
@@ -103,6 +104,5 @@
       <point x="498" y="266"/>
       <point x="496" y="152"/>
     </contour>
-    <component base="O"/>
   </outline>
 </glyph>

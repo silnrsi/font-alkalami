@@ -5,6 +5,7 @@
   <anchor x="336" y="-211" name="bottom"/>
   <anchor x="171" y="370" name="top"/>
   <outline>
+    <component base="waw-ar"/>
     <contour>
       <point x="419" y="201" type="curve"/>
       <point x="417" y="212"/>
@@ -41,6 +42,5 @@
       <point x="371" y="217"/>
       <point x="408" y="208"/>
     </contour>
-    <component base="waw-ar"/>
   </outline>
 </glyph>

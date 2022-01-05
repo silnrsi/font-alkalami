@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="endofayah-ar.alt2" format="2">
   <outline>
+    <component base="eight.small" xOffset="750"/>
+    <component base="eight.small" xOffset="387"/>
     <contour>
       <point x="1035" y="-30" type="line" smooth="yes"/>
       <point x="854" y="-202"/>
@@ -195,7 +197,5 @@
       <point x="544" y="-102" type="move"/>
       <point x="544" y="-284" type="line"/>
     </contour>
-    <component base="eight.small" xOffset="750"/>
-    <component base="eight.small" xOffset="387"/>
   </outline>
 </glyph>

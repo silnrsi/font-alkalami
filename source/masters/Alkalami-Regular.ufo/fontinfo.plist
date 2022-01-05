@@ -7,13 +7,13 @@
   <key>capHeight</key>
   <integer>660</integer>
   <key>copyright</key>
-  <string>Copyright (c) SIL International, 2015-2020</string>
+  <string>Copyright (c) SIL International, 2015-2022</string>
   <key>descender</key>
   <integer>-857</integer>
   <key>familyName</key>
   <string>Alkalami</string>
   <key>openTypeHeadCreated</key>
-  <string>2020/01/29 14:05:46</string>
+  <string>2022/01/05 16:03:34</string>
   <key>openTypeHheaAscender</key>
   <integer>1035</integer>
   <key>openTypeHheaDescender</key>
@@ -27,7 +27,7 @@
   <key>openTypeNameDesignerURL</key>
   <string>http://software.sil.org/alkalami</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 2015-2020, SIL International (http://www.sil.org/),
+  <string>Copyright (c) 2015-2022, SIL International (http://www.sil.org/),
 with Reserved Font Names "Alkalami" and "SIL".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -133,7 +133,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Alkalami Regular: 2020</string>
+  <string>SIL International: Alkalami Regular: 2022</string>
   <key>openTypeNameVersion</key>
   <string>Version 1.201</string>
   <key>openTypeOS2CodePageRanges</key>

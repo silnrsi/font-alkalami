@@ -5,6 +5,7 @@
   <anchor x="344" y="0" name="entry"/>
   <anchor x="149" y="730" name="top"/>
   <outline>
+    <component base="madda-ar" xOffset="-25" yOffset="9"/>
     <contour>
       <point x="165" y="-30" type="curve" smooth="yes"/>
       <point x="165" y="-4"/>
@@ -37,6 +38,5 @@
       <point x="163" y="-119"/>
       <point x="164" y="-77"/>
     </contour>
-    <component base="madda-ar" xOffset="-25" yOffset="9"/>
   </outline>
 </glyph>

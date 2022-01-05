@@ -4,12 +4,12 @@
   <unicode hex="00D8"/>
   <anchor x="338" y="660" name="top"/>
   <outline>
+    <component base="O"/>
     <contour>
       <point x="88" y="4" type="line"/>
       <point x="146" y="-30" type="line"/>
       <point x="596" y="654" type="line"/>
       <point x="537" y="688" type="line"/>
     </contour>
-    <component base="O"/>
   </outline>
 </glyph>

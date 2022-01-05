@@ -5,6 +5,7 @@
   <anchor x="99" y="-56" name="bottom"/>
   <anchor x="94" y="600" name="top"/>
   <outline>
+    <component base="alef-ar"/>
     <contour>
       <point x="112" y="409" type="line"/>
       <point x="120" y="409"/>
@@ -41,6 +42,5 @@
       <point x="128" y="553"/>
       <point x="118" y="553" type="curve"/>
     </contour>
-    <component base="alef-ar"/>
   </outline>
 </glyph>

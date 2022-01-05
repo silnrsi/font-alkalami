@@ -4,6 +4,8 @@
   <anchor x="130" y="-278" name="bottom"/>
   <anchor x="62" y="539" name="top"/>
   <outline>
+    <component base="dotabove-ar" xOffset="-20"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="-927" yOffset="-635"/>
     <contour>
       <point x="119" y="63" type="curve"/>
       <point x="-75" y="-295"/>
@@ -42,7 +44,5 @@
       <point x="107" y="184"/>
       <point x="121" y="105"/>
     </contour>
-    <component base="dotabove-ar" xOffset="-20"/>
-    <component base="twodotshorizontalbelow-ar" xOffset="-927" yOffset="-635"/>
   </outline>
 </glyph>

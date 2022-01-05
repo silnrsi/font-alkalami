@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.Alkalami.1.200" />
+  <uniqueid id="org.sil.fonts.Alkalami.1.201" />
   <vendor name="SIL International" url="www.sil.org" />
   <credits>
     <credit
@@ -64,7 +64,6 @@
       (bug in previous version of the font)
       - Added mirrored versions of some glyphs such as radical and summation
       - Increased right side-bearing for Light version of U+0623
-      - Small changes to behavior of stacking jeems both when ss07 is on and off
       2018-07-11 (Becca Spalinger) Alkalami 1.100
       - Changed qaf-based characters: isolate now has tail; tail on final flattened
       to match isolate
@@ -106,7 +105,7 @@
   </description>
   <license url="http://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
     <text lang="en">
-      Copyright (c) 2015-2020, SIL International (http://www.sil.org/),
+      Copyright (c) 2015-2022, SIL International (http://www.sil.org/),
       with Reserved Font Names "Alkalami" and "SIL".
       
       This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -204,7 +203,7 @@
   </license>
   <copyright>
     <text lang="en">
-      Copyright (c) SIL International, 2015-2020
+      Copyright (c) SIL International, 2015-2022
     </text>
   </copyright>
   <trademark>
