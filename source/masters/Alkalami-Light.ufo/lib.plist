@@ -524,20 +524,20 @@
     <string>ghain-ar.medi.flat</string>
     <string>ghain-ar.fina.ss06</string>
     <string>ghain-ar.fina.low</string>
-    <string>ghainThreedots-ar</string>
-    <string>ghainThreedots-ar.fina</string>
-    <string>ghainThreedots-ar.medi</string>
-    <string>ghainThreedots-ar.init</string>
-    <string>ghainThreedots-ar.ss05</string>
-    <string>ghainThreedots-ar.medi.flat</string>
-    <string>ghainThreedots-ar.fina.ss05</string>
-    <string>ghainThreedots-ar.medi.ss05</string>
-    <string>ghainThreedots-ar.init.ss05</string>
-    <string>ghainThreedots-ar.medi.flat.ss05</string>
-    <string>ghainThreedots-ar.medi.low</string>
-    <string>ghainThreedots-ar.medi.ss05.low</string>
-    <string>ghainThreedots-ar.fina.low</string>
-    <string>ghainThreedots-ar.fina.ss05.low</string>
+    <string>ghainThreedotsabove-ar</string>
+    <string>ghainThreedotsabove-ar.fina</string>
+    <string>ghainThreedotsabove-ar.medi</string>
+    <string>ghainThreedotsabove-ar.init</string>
+    <string>ghainThreedotsabove-ar.ss05</string>
+    <string>ghainThreedotsabove-ar.medi.flat</string>
+    <string>ghainThreedotsabove-ar.fina.ss05</string>
+    <string>ghainThreedotsabove-ar.medi.ss05</string>
+    <string>ghainThreedotsabove-ar.init.ss05</string>
+    <string>ghainThreedotsabove-ar.medi.flat.ss05</string>
+    <string>ghainThreedotsabove-ar.medi.low</string>
+    <string>ghainThreedotsabove-ar.medi.ss05.low</string>
+    <string>ghainThreedotsabove-ar.fina.low</string>
+    <string>ghainThreedotsabove-ar.fina.ss05.low</string>
     <string>feh-ar</string>
     <string>feh-ar.fina</string>
     <string>feh-ar.medi</string>
@@ -590,14 +590,14 @@
     <string>qafAfrican-ar.fina</string>
     <string>qafAfrican-ar.medi</string>
     <string>qafAfrican-ar.init</string>
-    <string>qafAfricanThreedotsabove-ar</string>
-    <string>qafAfricanThreedotsabove-ar.fina</string>
-    <string>qafAfricanThreedotsabove-ar.medi</string>
-    <string>qafAfricanThreedotsabove-ar.init</string>
-    <string>qafAfricanThreedotsabove-ar.ss05</string>
-    <string>qafAfricanThreedotsabove-ar.fina.ss05</string>
-    <string>qafAfricanThreedotsabove-ar.medi.ss05</string>
-    <string>qafAfricanThreedotsabove-ar.init.ss05</string>
+    <string>qafThreedotsaboveAfrican-ar</string>
+    <string>qafThreedotsaboveAfrican-ar.fina</string>
+    <string>qafThreedotsaboveAfrican-ar.medi</string>
+    <string>qafThreedotsaboveAfrican-ar.init</string>
+    <string>qafThreedotsaboveAfrican-ar.ss05</string>
+    <string>qafThreedotsaboveAfrican-ar.fina.ss05</string>
+    <string>qafThreedotsaboveAfrican-ar.medi.ss05</string>
+    <string>qafThreedotsaboveAfrican-ar.init.ss05</string>
     <string>kaf-ar</string>
     <string>kaf-ar.fina</string>
     <string>kaf-ar.medi</string>
@@ -1469,20 +1469,20 @@
     <string>ghain-ar.medi.flat</string>
     <string>ghain-ar.fina.ss06</string>
     <string>ghain-ar.fina.low</string>
-    <string>ghainThreedots-ar</string>
-    <string>ghainThreedots-ar.fina</string>
-    <string>ghainThreedots-ar.medi</string>
-    <string>ghainThreedots-ar.init</string>
-    <string>ghainThreedots-ar.ss05</string>
-    <string>ghainThreedots-ar.medi.flat</string>
-    <string>ghainThreedots-ar.fina.ss05</string>
-    <string>ghainThreedots-ar.medi.ss05</string>
-    <string>ghainThreedots-ar.init.ss05</string>
-    <string>ghainThreedots-ar.medi.flat.ss05</string>
-    <string>ghainThreedots-ar.medi.low</string>
-    <string>ghainThreedots-ar.medi.ss05.low</string>
-    <string>ghainThreedots-ar.fina.low</string>
-    <string>ghainThreedots-ar.fina.ss05.low</string>
+    <string>ghainThreedotsabove-ar</string>
+    <string>ghainThreedotsabove-ar.fina</string>
+    <string>ghainThreedotsabove-ar.medi</string>
+    <string>ghainThreedotsabove-ar.init</string>
+    <string>ghainThreedotsabove-ar.ss05</string>
+    <string>ghainThreedotsabove-ar.medi.flat</string>
+    <string>ghainThreedotsabove-ar.fina.ss05</string>
+    <string>ghainThreedotsabove-ar.medi.ss05</string>
+    <string>ghainThreedotsabove-ar.init.ss05</string>
+    <string>ghainThreedotsabove-ar.medi.flat.ss05</string>
+    <string>ghainThreedotsabove-ar.medi.low</string>
+    <string>ghainThreedotsabove-ar.medi.ss05.low</string>
+    <string>ghainThreedotsabove-ar.fina.low</string>
+    <string>ghainThreedotsabove-ar.fina.ss05.low</string>
     <string>feh-ar</string>
     <string>feh-ar.fina</string>
     <string>feh-ar.medi</string>
@@ -1535,14 +1535,14 @@
     <string>qafAfrican-ar.fina</string>
     <string>qafAfrican-ar.medi</string>
     <string>qafAfrican-ar.init</string>
-    <string>qafAfricanThreedotsabove-ar</string>
-    <string>qafAfricanThreedotsabove-ar.fina</string>
-    <string>qafAfricanThreedotsabove-ar.medi</string>
-    <string>qafAfricanThreedotsabove-ar.init</string>
-    <string>qafAfricanThreedotsabove-ar.ss05</string>
-    <string>qafAfricanThreedotsabove-ar.fina.ss05</string>
-    <string>qafAfricanThreedotsabove-ar.medi.ss05</string>
-    <string>qafAfricanThreedotsabove-ar.init.ss05</string>
+    <string>qafThreedotsaboveAfrican-ar</string>
+    <string>qafThreedotsaboveAfrican-ar.fina</string>
+    <string>qafThreedotsaboveAfrican-ar.medi</string>
+    <string>qafThreedotsaboveAfrican-ar.init</string>
+    <string>qafThreedotsaboveAfrican-ar.ss05</string>
+    <string>qafThreedotsaboveAfrican-ar.fina.ss05</string>
+    <string>qafThreedotsaboveAfrican-ar.medi.ss05</string>
+    <string>qafThreedotsaboveAfrican-ar.init.ss05</string>
     <string>kaf-ar</string>
     <string>kaf-ar.fina</string>
     <string>kaf-ar.medi</string>
@@ -2208,6 +2208,8 @@
     <string>uni08A1.medi</string>
     <key>behhamzaabove-ar.medi.flat</key>
     <string>uni08A1.medi.flat</string>
+    <key>blank</key>
+    <string>uni2423</string>
     <key>breve-cy</key>
     <string>uni0306.cy</string>
     <key>brevecomb</key>
@@ -2406,33 +2408,33 @@
     <string>uni063A.medi</string>
     <key>ghain-ar.medi.flat</key>
     <string>uni063A.medi.flat</string>
-    <key>ghainThreedots-ar</key>
+    <key>ghainThreedotsabove-ar</key>
     <string>uni08C3</string>
-    <key>ghainThreedots-ar.fina</key>
+    <key>ghainThreedotsabove-ar.fina</key>
     <string>uni08C3.fina</string>
-    <key>ghainThreedots-ar.fina.low</key>
+    <key>ghainThreedotsabove-ar.fina.low</key>
     <string>uni08C3.fina.low</string>
-    <key>ghainThreedots-ar.fina.ss05</key>
+    <key>ghainThreedotsabove-ar.fina.ss05</key>
     <string>uni08C3.fina.ss05</string>
-    <key>ghainThreedots-ar.fina.ss05.low</key>
+    <key>ghainThreedotsabove-ar.fina.ss05.low</key>
     <string>uni08C3.fina.ss05.low</string>
-    <key>ghainThreedots-ar.init</key>
+    <key>ghainThreedotsabove-ar.init</key>
     <string>uni08C3.init</string>
-    <key>ghainThreedots-ar.init.ss05</key>
+    <key>ghainThreedotsabove-ar.init.ss05</key>
     <string>uni08C3.init.ss05</string>
-    <key>ghainThreedots-ar.medi</key>
+    <key>ghainThreedotsabove-ar.medi</key>
     <string>uni08C3.medi</string>
-    <key>ghainThreedots-ar.medi.flat</key>
+    <key>ghainThreedotsabove-ar.medi.flat</key>
     <string>uni08C3.medi.flat</string>
-    <key>ghainThreedots-ar.medi.flat.ss05</key>
+    <key>ghainThreedotsabove-ar.medi.flat.ss05</key>
     <string>uni08C3.medi.flat.ss05</string>
-    <key>ghainThreedots-ar.medi.low</key>
+    <key>ghainThreedotsabove-ar.medi.low</key>
     <string>uni08C3.medi.low</string>
-    <key>ghainThreedots-ar.medi.ss05</key>
+    <key>ghainThreedotsabove-ar.medi.ss05</key>
     <string>uni08C3.medi.ss05</string>
-    <key>ghainThreedots-ar.medi.ss05.low</key>
+    <key>ghainThreedotsabove-ar.medi.ss05.low</key>
     <string>uni08C3.medi.ss05.low</string>
-    <key>ghainThreedots-ar.ss05</key>
+    <key>ghainThreedotsabove-ar.ss05</key>
     <string>uni08C3.ss05</string>
     <key>graphemejoinercomb</key>
     <string>uni034F</string>
@@ -2591,7 +2593,7 @@
     <key>khah-ar.init</key>
     <string>uni062E.init</string>
     <key>khah-ar.medi</key>
-    <string>uni062E.fina</string>
+    <string>uni062E.medi</string>
     <key>khah-ar.medi.low</key>
     <string>uni062E.medi.low</string>
     <key>khah-ar.medi.ss07</key>
@@ -2832,22 +2834,6 @@
     <string>uni08BC.init</string>
     <key>qafAfrican-ar.medi</key>
     <string>uni08BC.medi</string>
-    <key>qafAfricanThreedotsabove-ar</key>
-    <string>uni08C4</string>
-    <key>qafAfricanThreedotsabove-ar.fina</key>
-    <string>uni08C4.fina</string>
-    <key>qafAfricanThreedotsabove-ar.fina.ss05</key>
-    <string>uni08C4.fina.ss05</string>
-    <key>qafAfricanThreedotsabove-ar.init</key>
-    <string>uni08C4.init</string>
-    <key>qafAfricanThreedotsabove-ar.init.ss05</key>
-    <string>uni08C4.init.ss05</string>
-    <key>qafAfricanThreedotsabove-ar.medi</key>
-    <string>uni08C4.medi</string>
-    <key>qafAfricanThreedotsabove-ar.medi.ss05</key>
-    <string>uni08C4.medi.ss05</string>
-    <key>qafAfricanThreedotsabove-ar.ss05</key>
-    <string>uni08C4.ss05</string>
     <key>qafDotabove-ar</key>
     <string>uni06A7</string>
     <key>qafDotabove-ar.fina</key>
@@ -2884,6 +2870,22 @@
     <string>uni06A8.medi.ss05</string>
     <key>qafThreedotsabove-ar.ss05</key>
     <string>uni06A8.ss05</string>
+    <key>qafThreedotsaboveAfrican-ar</key>
+    <string>uni08C4</string>
+    <key>qafThreedotsaboveAfrican-ar.fina</key>
+    <string>uni08C4.fina</string>
+    <key>qafThreedotsaboveAfrican-ar.fina.ss05</key>
+    <string>uni08C4.fina.ss05</string>
+    <key>qafThreedotsaboveAfrican-ar.init</key>
+    <string>uni08C4.init</string>
+    <key>qafThreedotsaboveAfrican-ar.init.ss05</key>
+    <string>uni08C4.init.ss05</string>
+    <key>qafThreedotsaboveAfrican-ar.medi</key>
+    <string>uni08C4.medi</string>
+    <key>qafThreedotsaboveAfrican-ar.medi.ss05</key>
+    <string>uni08C4.medi.ss05</string>
+    <key>qafThreedotsaboveAfrican-ar.ss05</key>
+    <string>uni08C4.ss05</string>
     <key>question-ar</key>
     <string>uni061F</string>
     <key>reh-ar</key>
@@ -3207,7 +3209,7 @@
     <key>yehThreedotsbelow-ar.fina</key>
     <string>uni06D1.fina</string>
     <key>yehThreedotsbelow-ar.fina.low</key>
-    <string>uni06D1.low</string>
+    <string>uni06D1.fina.low</string>
     <key>yehThreedotsbelow-ar.init</key>
     <string>uni06D1.init</string>
     <key>yehThreedotsbelow-ar.medi</key>

@@ -96,6 +96,8 @@ languagesystem latn dflt;
 	ainThreedots-ar.medi
 	ainThreedots-ar.medi.ss05
 	ghain-ar.medi
+	ghainThreedotsabove-ar.medi
+	ghainThreedotsabove-ar.medi.ss05
 	lam-ar.medi
 	meem-ar.medi
 	noon-ar.medi
@@ -137,6 +139,8 @@ languagesystem latn dflt;
 	ainThreedots-ar.medi.flat
 	ainThreedots-ar.medi.flat.ss05
 	ghain-ar.medi.flat
+	ghainThreedotsabove-ar.medi.flat
+	ghainThreedotsabove-ar.medi.flat.ss05
 	lam-ar.medi.flat
 	meem-ar.medi.flat
 	noon-ar.medi.flat
@@ -186,6 +190,8 @@ languagesystem latn dflt;
 	ainThreedots-ar.init.ss05
 	ainTwodotshorizontalabove-ar.init
 	ghain-ar.init
+	ghainThreedotsabove-ar.init
+	ghainThreedotsabove-ar.init.ss05
 	feh-ar.init
 	fehAfrican-ar.init
 	veh-ar.init
@@ -198,6 +204,8 @@ languagesystem latn dflt;
 	qafDotabove-ar.init
 	qafThreedotsabove-ar.init
 	qafThreedotsabove-ar.init.ss05
+	qafThreedotsaboveAfrican-ar.init
+	qafThreedotsaboveAfrican-ar.init.ss05
 	kaf-ar.init
 	keheh-ar.init
 	kehehThreedotsabove-ar.init
@@ -253,6 +261,8 @@ languagesystem latn dflt;
 	ainThreedots-ar.medi.ss05
 	ainTwodotshorizontalabove-ar.medi
 	ghain-ar.medi
+	ghainThreedotsabove-ar.medi
+	ghainThreedotsabove-ar.medi.ss05
 	feh-ar.medi
 	fehAfrican-ar.medi
 	veh-ar.medi
@@ -265,6 +275,8 @@ languagesystem latn dflt;
 	qafDotabove-ar.medi
 	qafThreedotsabove-ar.medi
 	qafThreedotsabove-ar.medi.ss05
+	qafThreedotsaboveAfrican-ar.medi
+	qafThreedotsaboveAfrican-ar.medi.ss05
 	kaf-ar.medi
 	keheh-ar.medi
 	kehehThreedotsabove-ar.medi
@@ -295,8 +307,8 @@ languagesystem latn dflt;
 	ainThreedots-ar.fina.ss05
 	ainTwodotshorizontalabove-ar.fina
 	ghain-ar.fina
-	ghainThreedots-ar.fina
-	ghainThreedots-ar.fina.ss05
+	ghainThreedotsabove-ar.fina
+	ghainThreedotsabove-ar.fina.ss05
 	seen-ar.fina
 	sheen-ar.fina
 	yeh-ar.fina
@@ -320,8 +332,8 @@ languagesystem latn dflt;
 	ainThreedots-ar.fina.ss05.low
 	ainTwodotshorizontalabove-ar.fina.low
 	ghain-ar.fina.low
-	ghainThreedots-ar.fina.low
-	ghainThreedots-ar.fina.ss05.low
+	ghainThreedotsabove-ar.fina.low
+	ghainThreedotsabove-ar.fina.ss05.low
 	seen-ar.fina.low
 	sheen-ar.fina.low
 	yeh-ar.fina.low
@@ -787,9 +799,9 @@ feature frac {
 @arIsol = [ behDotless-ar  beh-ar  peh-ar  beeh-ar  teh-ar  theh-ar
 							behThreedotsupbelow-ar  behVinvertedbelow-ar  behVabove-ar  behVbelow-ar  behhamzaabove-ar
 							jeem-ar  nyeh-ar  hah-ar  khah-ar  seen-ar  sheen-ar  sad-ar  dad-ar  tah-ar  tahThreedots-ar  zah-ar
-							ain-ar  ainThreedots-ar  ainTwodotshorizontalabove-ar  ghain-ar
+							ain-ar  ainThreedots-ar  ainTwodotshorizontalabove-ar  ghain-ar  ghainThreedotsabove-ar
 							feh-ar  veh-ar  fehDotless-ar  fehDotmovedbelow-ar  fehTwodotsbelow-ar  fehAfrican-ar
-							qafDotless-ar  qaf-ar  qafDotabove-ar  qafThreedotsabove-ar  qafAfrican-ar
+							qafDotless-ar  qaf-ar  qafDotabove-ar  qafThreedotsabove-ar  qafAfrican-ar  qafThreedotsaboveAfrican-ar
 							kaf-ar  keheh-ar  kehehThreedotsabove-ar  gaf-ar  kafswash-ar  ng-ar
 							lam-ar  meem-ar  noon-ar  noonghunna-ar  noonTwodotsbelow-ar  noonAfrican-ar
 							heh-ar  alefMaksura-ar  yeh-ar  yehHamzaabove-ar  yehTwodotsbelowHamzaabove-ar
@@ -799,9 +811,9 @@ feature frac {
 							behThreedotsupbelow-ar.init  behVinvertedbelow-ar.init  behVabove-ar.init  behVbelow-ar.init  behhamzaabove-ar.init
 							jeem-ar.init  nyeh-ar.init  hah-ar.init  khah-ar.init  seen-ar.init  sheen-ar.init  sad-ar.init  dad-ar.init  tah-ar.init  
 							tahThreedots-ar.init  zah-ar.init
-							ain-ar.init  ainThreedots-ar.init  ainTwodotshorizontalabove-ar.init  ghain-ar.init
+							ain-ar.init  ainThreedots-ar.init  ainTwodotshorizontalabove-ar.init  ghain-ar.init  ghainThreedotsabove-ar.init
 							feh-ar.init  veh-ar.init  fehDotless-ar.init  fehDotmovedbelow-ar.init  fehTwodotsbelow-ar.init  fehAfrican-ar.init
-							qafDotless-ar.init  qaf-ar.init  qafDotabove-ar.init  qafThreedotsabove-ar.init  qafAfrican-ar.init
+							qafDotless-ar.init  qaf-ar.init  qafDotabove-ar.init  qafThreedotsabove-ar.init  qafAfrican-ar.init  qafThreedotsaboveAfrican-ar.init
 							kaf-ar.init  keheh-ar.init  kehehThreedotsabove-ar.init  gaf-ar.init  kafswash-ar.init  ng-ar.init
 							lam-ar.init  meem-ar.init  noon-ar.init  noonghunna-ar.init  noonTwodotsbelow-ar.init  noonAfrican-ar.init
 							heh-ar.init  alefMaksura-ar.init  yeh-ar.init  yehHamzaabove-ar.init  yehTwodotsbelowHamzaabove-ar.init
@@ -811,9 +823,9 @@ feature frac {
 @arMedi = [ behDotless-ar.medi  beh-ar.medi  peh-ar.medi  beeh-ar.medi  teh-ar.medi  theh-ar.medi
 							behThreedotsupbelow-ar.medi  behVinvertedbelow-ar.medi  behVabove-ar.medi  behVbelow-ar.medi  behhamzaabove-ar.medi
 							jeem-ar.medi  nyeh-ar.medi  hah-ar.medi  khah-ar.medi  seen-ar.medi  sheen-ar.medi  sad-ar.medi  dad-ar.medi  tah-ar.medi  tahThreedots-ar.medi  zah-ar.medi
-							ain-ar.medi  ainThreedots-ar.medi  ainTwodotshorizontalabove-ar.medi  ghain-ar.medi
+							ain-ar.medi  ainThreedots-ar.medi  ainTwodotshorizontalabove-ar.medi  ghain-ar.medi  ghainThreedotsabove-ar.medi
 							feh-ar.medi  veh-ar.medi  fehDotless-ar.medi  fehDotmovedbelow-ar.medi  fehTwodotsbelow-ar.medi  fehAfrican-ar.medi
-							qafDotless-ar.medi  qaf-ar.medi  qafDotabove-ar.medi  qafThreedotsabove-ar.medi  qafAfrican-ar.medi
+							qafDotless-ar.medi  qaf-ar.medi  qafDotabove-ar.medi  qafThreedotsabove-ar.medi  qafAfrican-ar.medi  qafThreedotsaboveAfrican-ar.medi
 							kaf-ar.medi  keheh-ar.medi  kehehThreedotsabove-ar.medi  gaf-ar.medi  kafswash-ar.medi  ng-ar.medi
 							lam-ar.medi  meem-ar.medi  noon-ar.medi  noonghunna-ar.medi  noonTwodotsbelow-ar.medi  noonAfrican-ar.medi
 							heh-ar.medi  alefMaksura-ar.medi  yeh-ar.medi  yehHamzaabove-ar.medi  yehTwodotsbelowHamzaabove-ar.medi
@@ -821,9 +833,9 @@ feature frac {
 @arFina = [ behDotless-ar.fina  beh-ar.fina  peh-ar.fina  beeh-ar.fina  teh-ar.fina  theh-ar.fina
 							behThreedotsupbelow-ar.fina  behVinvertedbelow-ar.fina  behVabove-ar.fina  behVbelow-ar.fina  behhamzaabove-ar.fina
 							jeem-ar.fina  nyeh-ar.fina  hah-ar.fina  khah-ar.fina  seen-ar.fina  sheen-ar.fina  sad-ar.fina  dad-ar.fina  tah-ar.fina  tahThreedots-ar.fina  zah-ar.fina
-							ain-ar.fina  ainThreedots-ar.fina  ainTwodotshorizontalabove-ar.fina  ghain-ar.fina
+							ain-ar.fina  ainThreedots-ar.fina  ainTwodotshorizontalabove-ar.fina  ghain-ar.fina  ghainThreedotsabove-ar.fina
 							feh-ar.fina  veh-ar.fina  fehDotless-ar.fina  fehDotmovedbelow-ar.fina  fehTwodotsbelow-ar.fina  fehAfrican-ar.fina
-							qafDotless-ar.fina  qaf-ar.fina  qafDotabove-ar.fina  qafThreedotsabove-ar.fina  qafAfrican-ar.fina
+							qafDotless-ar.fina  qaf-ar.fina  qafDotabove-ar.fina  qafThreedotsabove-ar.fina  qafAfrican-ar.fina  qafThreedotsaboveAfrican-ar.medi
 							kaf-ar.fina  keheh-ar.fina  kehehThreedotsabove-ar.fina  gaf-ar.fina  kafswash-ar.fina  ng-ar.fina
 							lam-ar.fina  meem-ar.fina  noon-ar.fina  noonghunna-ar.fina  noonTwodotsbelow-ar.fina  noonAfrican-ar.fina
 							heh-ar.fina  alefMaksura-ar.fina  yeh-ar.fina  yehHamzaabove-ar.fina  yehTwodotsbelowHamzaabove-ar.fina
