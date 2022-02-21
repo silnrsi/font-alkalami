@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafThreedotsaboveAfrican-ar.medi.ss09" format="2">
+  <advance width="479"/>
+  <anchor x="258" y="-30" name="bottom"/>
+  <anchor x="124" y="890" name="top"/>
+  <outline>
+    <component base="fehDotless-ar.medi"/>
+    <component base="dotabove-ar" xOffset="14" yOffset="164"/>
+    <component base="threedots-ar.small" xOffset="5" yOffset="670"/>
+  </outline>
+</glyph>

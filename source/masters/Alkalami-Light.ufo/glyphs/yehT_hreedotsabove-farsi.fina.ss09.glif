@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehThreedotsabove-farsi.fina.ss09" format="2">
+  <advance width="793"/>
+  <anchor x="633" y="-110" name="bottom"/>
+  <anchor x="793" y="0" name="entry"/>
+  <anchor x="447" y="520" name="top"/>
+  <outline>
+    <component base="alefMaksura-ar.fina"/>
+    <component base="threedots-ar.small" xOffset="335" yOffset="291"/>
+  </outline>
+</glyph>

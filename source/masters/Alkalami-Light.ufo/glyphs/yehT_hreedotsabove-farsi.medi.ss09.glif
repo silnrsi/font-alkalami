@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehThreedotsabove-farsi.medi.ss09" format="2">
+  <advance width="289"/>
+  <anchor x="146" y="-210" name="bottom"/>
+  <anchor x="289" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
+  <anchor x="97" y="550" name="top"/>
+  <outline>
+    <component base="behDotless-ar.medi"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="-58" yOffset="-29"/>
+    <component base="threedots-ar.small" xOffset="-4" yOffset="312"/>
+  </outline>
+</glyph>

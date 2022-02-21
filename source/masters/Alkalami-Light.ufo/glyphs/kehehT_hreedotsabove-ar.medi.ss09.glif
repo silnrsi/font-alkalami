@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kehehThreedotsabove-ar.medi.ss09" format="2">
+  <advance width="785"/>
+  <anchor x="373" y="-40" name="bottom"/>
+  <anchor x="785" y="0" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
+  <anchor x="216" y="690" name="top"/>
+  <outline>
+    <component base="keheh-ar.medi"/>
+    <component base="threedots-ar.small" xOffset="96" yOffset="469"/>
+  </outline>
+</glyph>

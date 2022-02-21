@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kehehThreedotsabove-ar.init.ss09" format="2">
+  <advance width="800"/>
+  <anchor x="402" y="-40" name="bottom"/>
+  <anchor x="0" y="0" name="exit"/>
+  <anchor x="191" y="760" name="top"/>
+  <outline>
+    <component base="kaf-ar.init"/>
+    <component base="threedots-ar" xOffset="15" yOffset="525"/>
+  </outline>
+</glyph>

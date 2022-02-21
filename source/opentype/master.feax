@@ -97,7 +97,7 @@ languagesystem latn dflt;
 	ainThreedots-ar.medi.ss05
 	ghain-ar.medi
 	ghainThreedotsabove-ar.medi
-	ghainThreedotsabove-ar.medi.ss05
+	ghainThreedotsabove-ar.medi.ss09
 	lam-ar.medi
 	meem-ar.medi
 	noon-ar.medi
@@ -140,7 +140,7 @@ languagesystem latn dflt;
 	ainThreedots-ar.medi.flat.ss05
 	ghain-ar.medi.flat
 	ghainThreedotsabove-ar.medi.flat
-	ghainThreedotsabove-ar.medi.flat.ss05
+	ghainThreedotsabove-ar.medi.flat.ss09
 	lam-ar.medi.flat
 	meem-ar.medi.flat
 	noon-ar.medi.flat
@@ -191,7 +191,7 @@ languagesystem latn dflt;
 	ainTwodotshorizontalabove-ar.init
 	ghain-ar.init
 	ghainThreedotsabove-ar.init
-	ghainThreedotsabove-ar.init.ss05
+	ghainThreedotsabove-ar.init.ss09
 	feh-ar.init
 	fehAfrican-ar.init
 	veh-ar.init
@@ -205,7 +205,7 @@ languagesystem latn dflt;
 	qafThreedotsabove-ar.init
 	qafThreedotsabove-ar.init.ss05
 	qafThreedotsaboveAfrican-ar.init
-	qafThreedotsaboveAfrican-ar.init.ss05
+	qafThreedotsaboveAfrican-ar.init.ss09
 	kaf-ar.init
 	keheh-ar.init
 	kehehThreedotsabove-ar.init
@@ -262,7 +262,7 @@ languagesystem latn dflt;
 	ainTwodotshorizontalabove-ar.medi
 	ghain-ar.medi
 	ghainThreedotsabove-ar.medi
-	ghainThreedotsabove-ar.medi.ss05
+	ghainThreedotsabove-ar.medi.ss09
 	feh-ar.medi
 	fehAfrican-ar.medi
 	veh-ar.medi
@@ -276,7 +276,7 @@ languagesystem latn dflt;
 	qafThreedotsabove-ar.medi
 	qafThreedotsabove-ar.medi.ss05
 	qafThreedotsaboveAfrican-ar.medi
-	qafThreedotsaboveAfrican-ar.medi.ss05
+	qafThreedotsaboveAfrican-ar.medi.ss09
 	kaf-ar.medi
 	keheh-ar.medi
 	kehehThreedotsabove-ar.medi
@@ -308,7 +308,7 @@ languagesystem latn dflt;
 	ainTwodotshorizontalabove-ar.fina
 	ghain-ar.fina
 	ghainThreedotsabove-ar.fina
-	ghainThreedotsabove-ar.fina.ss05
+	ghainThreedotsabove-ar.fina.ss09
 	seen-ar.fina
 	sheen-ar.fina
 	yeh-ar.fina
@@ -316,7 +316,7 @@ languagesystem latn dflt;
 	yehTwodotsbelowDotabove-ar.fina
 	yehThreedotsbelow-ar.fina
 	yehThreedotsabove-farsi.fina
-	yehThreedotsabove-farsi.fina.ss05
+	yehThreedotsabove-farsi.fina.ss09
 	yeh-farsi.fina
 	yeh-farsi.fina.ss05
 	yehHamzaabove-ar.fina
@@ -333,7 +333,7 @@ languagesystem latn dflt;
 	ainTwodotshorizontalabove-ar.fina.low
 	ghain-ar.fina.low
 	ghainThreedotsabove-ar.fina.low
-	ghainThreedotsabove-ar.fina.ss05.low
+	ghainThreedotsabove-ar.fina.ss09.low
 	seen-ar.fina.low
 	sheen-ar.fina.low
 	yeh-ar.fina.low
@@ -341,7 +341,7 @@ languagesystem latn dflt;
 	yehTwodotsbelowDotabove-ar.fina.low
 	yehThreedotsbelow-ar.fina.low
 	yehThreedotsabove-farsi.fina.low
-	yehThreedotsabove-farsi.fina.ss05.low
+	yehThreedotsabove-farsi.fina.ss09.low
 	yeh-farsi.fina.low
 	yeh-farsi.fina.ss05.low
 	yehHamzaabove-ar.fina.low
