@@ -718,6 +718,7 @@ feature aalt {
 	feature ss05;
 	feature ss07;
 	feature ss08;
+	feature ss09;
 	feature calt;
 } aalt;
 
@@ -1237,6 +1238,17 @@ feature ss08 {
 		sub [alef-ar alef-ar.high]' lookup ss08_aux [fatha-ar kasra-ar damma-ar]' lookup ss08_aux;
 	} ss08_lkp;
 } ss08;
+
+# Wagaf small
+
+feature ss09 {
+	featureNames {
+		name 3 1 0x409 "Wagaf small";
+	};
+	lookup ss09_lkp {
+		sub @cno_ss09 by @c_ss09;
+	} ss09_lkp;
+} ss09;
 
 
 #************************************************************

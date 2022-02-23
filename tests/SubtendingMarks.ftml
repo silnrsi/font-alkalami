@@ -1,47 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
 <ftml version="1.0">
-	<head>
-		<fontscale>250</fontscale>
-		<fontsrc label="Reg">url(../references/Alkalami-Regular-1_100.ttf)</fontsrc>
-		<fontsrc label="Light">url(../references/Alkalami-Light-1_100.ttf)</fontsrc>
-		<styles>
-			<style feats="'ss01' 1" name="ss01_1"/>
-			<style feats="'ss02' 1" name="ss02_1"/>
-			<style feats="'ss03' 1" name="ss03_1"/>
-			<style feats="'ss04' 1" name="ss04_1"/>
-			<style feats="'ss05' 1" name="ss05_1"/>
-			<style feats="'ss07' 1" name="ss07_1"/>
-			<style feats="'ss08' 1" name="ss08_1"/>
-			<style feats="'ss02' 1, 'ss03' 1" name="ss02_1_ss03_1"/>
-      <style feats="'ss01' 1, 'ss04' 1, 'ss05' 1, 'ss08' 1" name="lang"/>
-		</styles>
-		<title>Subtending Marks</title>
-	</head>
-	<testgroup label="Subtending Marks">
-		<test label="U+06DD">
-			<comment>uni06DD+two</comment>
-			<string>\u0628\u06DD\u0645 \u06DD\u0031 \u06DD\u0032\u0033 \u06DD\u0031\u0037\u0036 \u06DD\u0034\u0035</string>
-		</test>
-		<test label="U+06DD" stylename="ss03_1">
-			<comment>uni06DD+two</comment>
-			<string>\u0628\u06DD\u0645 \u06DD\u0031 \u06DD\u0032\u0033 \u06DD\u0031\u0037\u0036 \u06DD\u0034\u0035</string>
-		</test>
-		<test label="U+06DD" stylename="ss02_1">
-			<comment>uni06DD+two</comment>
-			<string>\u0628\u06DD\u0645 \u06DD\u0031 \u06DD\u0032\u0033 \u06DD\u0031\u0037\u0036 \u06DD\u0034\u0035</string>
-		</test>
-		<test label="U+06DD">
-			<comment>uni06DD+uni0668</comment>
-			<string>\u0628\u06DD\u0645 \u06DD\u0661 \u06DD\u0662\u0663 \u06DD\u0661\u0667\u0666 \u06DD\u0664\u0665</string>
-		</test>
-		<test label="U+06DD" stylename="ss03_1">
-			<comment>uni06DD+uni0668</comment>
-			<string>\u0628\u06DD\u0645 \u06DD\u0661 \u06DD\u0662\u0663 \u06DD\u0661\u0667\u0666 \u06DD\u0664\u0665</string>
-		</test>
-		<test label="U+06DD" stylename="ss02_1">
-			<comment>uni06DD+uni0668</comment>
-			<string>\u0628\u06DD\u0645 \u06DD\u0661 \u06DD\u0662\u0663 \u06DD\u0661\u0667\u0666 \u06DD\u0664\u0665</string>
-		</test>
-	</testgroup>
+  <head>
+    <fontscale>250</fontscale>
+    <fontsrc label="Sch (inst)">local(Scheherazade New)</fontsrc>
+    <fontsrc label="1.1">url(../references/Alkalami-Regular-1_100.ttf)</fontsrc>
+    <fontsrc label="Reg">url(../results/Alkalami-Regular.ttf)</fontsrc>
+    <fontsrc label="Lt">url(../results/Alkalami-Light.ttf)</fontsrc>
+    <styles>
+      <style feats="'ss02' 1" name="ss02_1"/>
+      <style feats="'ss02' 1, 'ss03' 1" name="ss02_1_ss03_1"/>
+      <style feats="'ss03' 1" name="ss03_1"/>
+    </styles>
+    <title>Subtending Marks (auto)</title>
+  </head>
+  <testgroup background="#f0f0f0" label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="Group">
+    <test label="U+06DD latn">
+      <comment>endofayah-ar</comment>
+      <string>\u000628\u0006DD\u000645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
+    </test>
+    <test label="U+06DD latn" stylename="ss03_1">
+      <comment>endofayah-ar</comment>
+      <string>\u000628\u0006DD\u000645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
+    </test>
+    <test label="U+06DD latn" stylename="ss02_1">
+      <comment>endofayah-ar</comment>
+      <string>\u000628\u0006DD\u000645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
+    </test>
+    <test label="U+06DD latn" stylename="ss02_1_ss03_1">
+      <comment>endofayah-ar</comment>
+      <string>\u000628\u0006DD\u000645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
+    </test>
+    <test label="U+06DD arab">
+      <comment>endofayah-ar</comment>
+      <string>\u000628\u0006DD\u000645 \u0006DD\u000668 \u0006DD\u000668\u000668 \u0006DD\u000668\u000668\u000668 \u0006DD\u000661\u000662</string>
+    </test>
+    <test label="U+06DD arab" stylename="ss03_1">
+      <comment>endofayah-ar</comment>
+      <string>\u000628\u0006DD\u000645 \u0006DD\u000668 \u0006DD\u000668\u000668 \u0006DD\u000668\u000668\u000668 \u0006DD\u000661\u000662</string>
+    </test>
+    <test label="U+06DD arab" stylename="ss02_1">
+      <comment>endofayah-ar</comment>
+      <string>\u000628\u0006DD\u000645 \u0006DD\u000668 \u0006DD\u000668\u000668 \u0006DD\u000668\u000668\u000668 \u0006DD\u000661\u000662</string>
+    </test>
+    <test label="U+06DD arab" stylename="ss02_1_ss03_1">
+      <comment>endofayah-ar</comment>
+      <string>\u000628\u0006DD\u000645 \u0006DD\u000668 \u0006DD\u000668\u000668 \u0006DD\u000668\u000668\u000668 \u0006DD\u000661\u000662</string>
+    </test>
+    <test label="Vert alignment" rtl="True">
+      <string>\u0006002 \u0640 \u0006012 \u0640 \u0006022 \u0640 \u0006032 \u0640 \u0006042 \u0640 \u0006052 \u0640 \u0006DD2</string>
+    </test>
+  </testgroup>
 </ftml>

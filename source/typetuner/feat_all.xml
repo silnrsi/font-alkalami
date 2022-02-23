@@ -42,6 +42,15 @@
 	</feature>
 -->
 
+	<feature name="Wagaf small" value="Standard" tag="Wag"> <!-- ss09 -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Wagaf small" tag="Mod">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {ss09_lkp}"/>
+		</value>
+	</feature>
+
 	<feature name="Imala E" value="Standard" tag="ImE"> <!-- ss04 Large Imala e -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -63,7 +72,7 @@
 		</value>
 	</feature>
 
-	<feature name="Wagaf Hack" value="Standard" tag="Wag"> <!-- ss05 -->
+	<feature name="Wagaf hack" value="Standard" tag="Wag"> <!-- ss05 -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
@@ -72,7 +81,7 @@
 		</value>
 	</feature>
 
-	<feature name="Warsh Hack" value="Standard" tag="Dots"> <!-- ss01 alternate has no dots on isolate and final -->
+	<feature name="Warsh hack" value="Standard" tag="Dots"> <!-- ss01 alternate has no dots on isolate and final -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>

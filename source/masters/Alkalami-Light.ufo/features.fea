@@ -2097,6 +2097,7 @@ feature aalt {
     feature ss05;
     feature ss07;
     feature ss08;
+    feature ss09;
     feature calt;
 } aalt;
 
@@ -2555,6 +2556,18 @@ feature ss08 {
     } ss08_lkp;
 
 } ss08;
+
+# Wagaf small
+feature ss09 {
+        featureNames {
+        name "Wagaf small";
+    };
+
+    lookup ss09_lkp {
+        sub @cno_ss09 by @c_ss09;
+    } ss09_lkp;
+
+} ss09;
 
 #************************************************************
 # GPOS features                                             *
