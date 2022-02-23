@@ -1,0 +1,17 @@
+/*
+This file is from the Alkalami project (https://software.sil.org/alkalami/).
+Copyright (c) 2015-2022 SIL International (http://www.sil.org/) with Reserved
+Font Names "Alkalami" and "SIL". This Font Software is licensed under the SIL
+Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
+*/
+@font-face {
+    font-family: Alkalami-R;
+    src: url("../../../results/Alkalami-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: Alkalami-L;
+    src: url("../../../results/Alkalami-Light.ttf") format("truetype");
+}
+
+.alkalami-R { font-family: Alkalami-R; direction: rtl; text-align: right;}
+.alkalami-L { font-family: Alkalami-L; direction: rtl; text-align: right;}

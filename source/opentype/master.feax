@@ -210,6 +210,7 @@ languagesystem latn dflt;
 	keheh-ar.init
 	kehehThreedotsabove-ar.init
 	kehehThreedotsabove-ar.init.ss05
+	kehehThreedotsabove-ar.init.ss09
 	gaf-ar.init
 	kafswash-ar.init
 	ng-ar.init
@@ -281,6 +282,7 @@ languagesystem latn dflt;
 	keheh-ar.medi
 	kehehThreedotsabove-ar.medi
 	kehehThreedotsabove-ar.medi.ss05
+	kehehThreedotsabove-ar.medi.ss09
 	gaf-ar.medi
 	kafswash-ar.medi
 	ng-ar.medi
