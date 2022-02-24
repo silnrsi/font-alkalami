@@ -2,21 +2,20 @@ DOCUMENTATION
 Alkalami
 ========================
 
-This file describes the documentation files included with the Alkalami 
-font family. This information should be distributed along with the 
-Alkalami fonts and any derivative works.
+The documentation for this project is listed in index.html.
 
-Primary documentation for the Alkalami font family is on the Alkalami 
-website (http://software.sil.org/alkalami/).
+There are also PDF versions in the `pdf` folder.
 
-The Alkalami-features.pdf file illustrates the use of OpenType features.
+These are produced from markdown sources (in `source`) using pandoc,
+weasyprint, and custom python scripts. See the `makedocs` shell script
+in the main project folder.
 
+Older documentation:
 The Alkalami-features.idml file illustrates the use of OpenType features 
-(source file for the pdf).
-
-The Alkalami-typesample.pdf file gives a sample of all the characters in 
-the font.
+(source file for original).
 
 The Alkalami-typesample.idml file gives a sample of all the characters in 
-the font (source file for the pdf).
+the font (source file for original pdf).
 
+pdf files are not distributed now since Indesign does not currently 
+support some of the newer Unicode characters that are now in the font.

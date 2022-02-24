@@ -74,9 +74,9 @@ Surrounding the sequence with U+202D and U+202C seems to give the most reliable 
 
 In the example below, the following codepoints are used: U+202D U+06DD U+0031 U+0032 U+0033 U+202C U+202D U+06DD U+0611 U+0622 U+0663 U+202C.
 
-Feature value | Sample | Feature setting
+Feature value  | Sample           | Feature setting
 ------------- | ---------------: | ------------- 
-Standard | <span dir="rtl" class='alkalami-R normal'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span> | `ss02=0` `ss03=0`
+Standard     | <span dir="rtl" class='alkalami-R normal'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span> | `ss02=0` `ss03=0`
 Simplified A | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss02" 1'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span>| `ss02=1`
 Simplified B | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss03" 2'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span>| `ss03=1`
 

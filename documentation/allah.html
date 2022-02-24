@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>Alkalami - Special rules for rendering Allah</title>
+    <meta name="author" content="SIL Writing Systems Technology">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="./assets/css/theme.css">
+    <link rel="stylesheet" href="./assets/css/webfonts.css">
+</head>
+<body>
+<div class="container">
+<article class="article">
+    <header>
+        <h1 class="title">Alkalami - Special rules for rendering Allah</h1>
+    </header>
+    <p>In certain types of literature, the name <em>Allah</em> and words related to this name are given unique rendering. Unicode has a <em>presentation form</em> character (U+FDF2 ARABIC LIGATURE ALLAH ISOLATED FORM) that implements this rendering and, while this can work (in some fonts) for the word in isolation, it doesn’t help users obtain special rendering in other contexts where it is desired. </p>
+    <p>Starting with v1.300, Alkalami provides the special rendering for sequences of Arabic letters that meet specific patterns, giving much more flexibility to document authors.</p>
+    <ul>
+    <li>The special Unicode character U+FDF2 will always display the Allah ligature (equivalent to the sequence recommended by Unicode: isolate <em>alef</em> + <em>lam</em> + <em>lam</em> + <em>shadda</em> + <em>superscript-alef</em> + final <em>heh</em>).</li>
+    <li>Under certain conditions, a sequence of <em>lam</em> + <em>lam</em> + <em>heh</em> (optionally preceded by other characters) will form an Allah ligature:
+    <ul>
+    <li>The <em>heh</em> (0647) must be final form and may have marks.</li>
+    <li>The <em>lam</em> must be the standard <em>lam</em> (0644).</li>
+    <li>The sequence must include either a preceding isolate <em>alef</em> or a <em>shadda</em> (0651) on the second <em>lam</em>, or both.</li>
+    <li>If <em>alef</em> precedes the first <em>lam</em>:
+    <ul>
+    <li>The <em>alef</em> may have marks or be a related character such as <em>alef-hamza</em>, <em>alef-hamza-below</em>, <em>alef-madda</em>, or <em>alef-wasla</em> (any character in the <code>ALEF</code> joining group).</li>
+    <li>If it is an isolate <em>alef</em> but there are no marks on the second <em>lam</em>, a <em>shadda-superscript-alef</em> will be automatically displayed.</li>
+    </ul></li>
+    <li>The first <em>lam</em> may include a <em>kasra</em>, but no other marks.</li>
+    <li>The <em>shadda</em> may be followed or preceded by either a <em>superscript-alef</em> (0670) or a <em>fatha</em> (064E). If neither is present, then a <em>superscript-alef</em> will be added to the display.</li>
+    </ul></li>
+    </ul>
+    <p>To disable the special ligature, insert a zero-width joiner character (200D) somewhere in the sequence.</p>
+    <table>
+    <thead>
+    <tr class="header">
+    <th>Characters</th>
+    <th style="text-align: right;">→</th>
+    <th style="text-align: right;">Glyph</th>
+    <th>Comment</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><span class="alkalami-R normal" dir="ltr">‭ا + ل + ل + ه</span></td>
+    <td style="text-align: right;">→</td>
+    <td style="text-align: right;"><span class="alkalami-R normal" dir="rtl"> الله </span></td>
+    <td>Ligature is formed (U+0647)</td>
+    </tr>
+    <tr class="even">
+    <td><span class="alkalami-R normal" dir="ltr">‭ا + ل + ل + ّ + َ + ه</span></td>
+    <td style="text-align: right;">→</td>
+    <td style="text-align: right;"><span class="alkalami-R normal" dir="rtl">اللَّه </span></td>
+    <td>Ligature is formed</td>
+    </tr>
+    <tr class="odd">
+    <td><span class="alkalami-R normal" dir="ltr">‭ا + ل + ل + ّ + ٰ + ه</span></td>
+    <td style="text-align: right;">→</td>
+    <td style="text-align: right;"><span class="alkalami-R normal" dir="rtl">اللّٰه</span></td>
+    <td>Ligature is formed</td>
+    </tr>
+    <tr class="even">
+    <td><span class="alkalami-R normal" dir="ltr">‭ل + ل + ّ + ه</span></td>
+    <td style="text-align: right;">→</td>
+    <td style="text-align: right;"><span class="alkalami-R normal" dir="rtl">للّه</span></td>
+    <td>Ligature is formed</td>
+    </tr>
+    <tr class="odd">
+    <td><span class="alkalami-R normal" dir="ltr">‭ل + ZWJ + ل + ّ + ه</span></td>
+    <td style="text-align: right;">→</td>
+    <td style="text-align: right;"><span class="alkalami-R normal" dir="rtl">ل‍لّه</span></td>
+    <td>Ligature is not formed</td>
+    </tr>
+    <tr class="even">
+    <td><span class="alkalami-R normal" dir="ltr">‭ل + ل + ه</span></td>
+    <td style="text-align: right;">→</td>
+    <td style="text-align: right;"><span class="alkalami-R normal" dir="rtl">لله</span></td>
+    <td>Ligature is not formed</td>
+    </tr>
+    <tr class="odd">
+    <td><span class="alkalami-R normal" dir="ltr">‭ل + ِ + ل + ّ + ه + ْ</span></td>
+    <td style="text-align: right;">→</td>
+    <td style="text-align: right;"><span class="alkalami-R normal" dir="rtl">لِلّهْ </span></td>
+    <td>Ligature is formed</td>
+    </tr>
+    <tr class="even">
+    <td><span class="alkalami-R normal" dir="ltr">‭ا + ل + ْ + ا + ل + ل + ّ + ه + ْ</span></td>
+    <td style="text-align: right;">→</td>
+    <td style="text-align: right;"><span class="alkalami-R normal" dir="rtl">الْاللّهْ </span></td>
+    <td>Ligature is formed</td>
+    </tr>
+    <tr class="odd">
+    <td><span class="alkalami-R normal" dir="ltr">‭ب + ِ + ل + ل + ّ + ه</span></td>
+    <td style="text-align: right;">→</td>
+    <td style="text-align: right;"><span class="alkalami-R normal" dir="rtl">بِللّه </span></td>
+    <td>Ligature is formed</td>
+    </tr>
+    <tr class="even">
+    <td><span class="alkalami-R normal" dir="ltr">‭ف + ل + ل + ّ + َ + ه</span></td>
+    <td style="text-align: right;">→</td>
+    <td style="text-align: right;"><span class="alkalami-R normal" dir="rtl">فللَّه </span></td>
+    <td>Ligature is formed</td>
+    </tr>
+    <tr class="odd">
+    <td><span class="alkalami-R normal" dir="ltr">‭ف + ل + ل + ّ + َ + ه</span></td>
+    <td style="text-align: right;">→</td>
+    <td style="text-align: right;"><span class="alkalami-R normal" dir="rtl">فللَّه </span></td>
+    <td>Ligature is formed</td>
+    </tr>
+    <tr class="even">
+    <td><span class="alkalami-R normal" dir="ltr">‭ف + ل + ل + َ + ه</span></td>
+    <td style="text-align: right;">→</td>
+    <td style="text-align: right;"><span class="alkalami-R normal" dir="rtl">فللَه </span></td>
+    <td>Ligature is not formed</td>
+    </tr>
+    </tbody>
+    </table>
+    <!-- PRODUCT SITE ONLY
+    [font id='alkalami' face='Alkalami-Regular' size='150%' rtl=1]
+    [font id='alkalamiL' face='Alkalami-Regular' size='150%' ltr=1]
+    -->
+    <footer class="footer">
+        <p>This guide is from the <a href="https://software.sil.org/alkalami/" title="" class="active">Alkalami project</a> version 1.300 and is copyright © 2015-2022 SIL International.</p>
+    </footer>
+</article>
+</div>
+</body>
+</html>
