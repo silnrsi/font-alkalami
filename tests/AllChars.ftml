@@ -4,7 +4,7 @@
   <head>
     <fontscale>250</fontscale>
     <fontsrc label="Sch (inst)">local(Scheherazade New)</fontsrc>
-    <fontsrc label="1.1">url(../references/Alkalami-Regular-1_100.ttf)</fontsrc>
+    <fontsrc label="1.2">url(../references/Alkalami-Regular-1_200.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Alkalami-Regular.ttf)</fontsrc>
     <fontsrc label="Lt">url(../results/Alkalami-Light.ttf)</fontsrc>
     <styles>

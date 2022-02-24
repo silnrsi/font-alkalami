@@ -3,16 +3,20 @@
 <ftml version="1.0">
 	<head>
 		<fontscale>250</fontscale>
-		<fontsrc label="Reg">url(../references/Alkalami-Regular-1_100.ttf)</fontsrc>
-		<fontsrc label="Light">url(../references/Alkalami-Light-1_100.ttf)</fontsrc>
-		<styles>
-			<style feats="'ss01' 1" name="ss01_1"/>
-			<style feats="'ss02' 1" name="ss02_1"/>
-			<style feats="'ss03' 1" name="ss03_1"/>
-			<style feats="'ss04' 1" name="ss04_1"/>
-			<style feats="'ss05' 1" name="ss05_1"/>
-			<style feats="'ss07' 1" name="ss07_1"/>
-			<style feats="'ss08' 1" name="ss08_1"/>
+    <fontsrc label="Sch (inst)">local(Scheherazade New)</fontsrc>
+    <fontsrc label="1.2">url(../references/Alkalami-Regular-1_200.ttf)</fontsrc>
+    <fontsrc label="Reg">url(../results/Alkalami-Regular.ttf)</fontsrc>
+    <fontsrc label="Lt">url(../results/Alkalami-Light.ttf)</fontsrc>
+    <styles>
+      <style feats="'ss01' 1" name="ss01_1"/>
+      <style feats="'ss02' 1" name="ss02_1"/>
+      <style feats="'ss02' 1, 'ss03' 1" name="ss02_1_ss03_1"/>
+      <style feats="'ss03' 1" name="ss03_1"/>
+      <style feats="'ss04' 1" name="ss04_1"/>
+      <style feats="'ss05' 1" name="ss05_1"/>
+      <style feats="'ss05' 1, 'ss09' 1" name="ss05_1_ss09_1"/>
+      <style feats="'ss07' 1" name="ss07_1"/>
+      <style feats="'ss09' 1" name="ss09_1"/>
 			<style feats="'ss02' 1, 'ss03' 1" name="ss02_1_ss03_1"/>
       <style feats="'ss01' 1, 'ss04' 1, 'ss05' 1, 'ss08' 1" name="lang"/>
 		</styles>
@@ -24,47 +28,47 @@
 		</test>
 	</testgroup>
 	<testgroup label="Jeem/Hah Test Words">
-		<test label=" " stylename="lang">
+		<test label="1" stylename="lang">
 			<comment/>
 			<string>ڠُوجٜىٰنْسُ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="2" stylename="lang">
 			<comment/>
 			<string>ڠُوجٜىٰنْدَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="3" stylename="lang">
 			<comment/>
 			<string>ڠُوجٜىٰنْ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="4" stylename="lang">
 			<comment/>
 			<string>ڠُوجٜىٰ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="4" stylename="lang">
 			<comment/>
 			<string>ڠُوجِنَّنْ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="5" stylename="lang">
 			<comment/>
 			<string>ڠُوجِنْدَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="6" stylename="lang">
 			<comment/>
 			<string>ڠُوجِنْ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="7" stylename="lang">
 			<comment/>
 			<string>ڠُوجِ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="8" stylename="lang">
 			<comment/>
 			<string>إِرِجَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="9" stylename="lang">
 			<comment/>
 			<string>إِنْثَنْجَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="10" stylename="lang">
 			<comment/>
 			<string>إِنْجٜىٰ</string>
 		</test>
@@ -152,7 +156,11 @@
 			<comment/>
 			<string>إِيَجِمْرٜىٰوَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="check" stylename="lang">
+			<comment/>
+			<string>إِيَايٜىٰنْ‌غِجِنْسُ</string>
+		</test>
+		<test label="check">
 			<comment/>
 			<string>إِيَايٜىٰنْ‌غِجِنْسُ</string>
 		</test>
@@ -2292,7 +2300,11 @@
 			<comment/>
 			<string>نَاجِ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="check 2" stylename="lang">
+			<comment/>
+			<string>مَڠُوجِنْ</string>
+		</test>
+		<test label="check 2">
 			<comment/>
 			<string>مَڠُوجِنْ</string>
 		</test>
