@@ -101,6 +101,46 @@ Feature | Sample | Feature setting
 Standard | <span dir="rtl" class='alkalami-R normal'>ی ییی      ٻ ٻٻٻ      ڟ ڟڟڟ      ڠ ڠڠڠ      ڨ ڨڨڨ      ݣ ݣݣݣ </span>| `ss05=0`
 Alternate | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss05" 1'>ی ییی      ٻ ٻٻٻ      ڟ ڟڟڟ      ڠ ڠڠڠ      ڨ ڨڨڨ      ݣ ݣݣݣ </span>| `ss05=1`
 
+## Contextual Alternates
+
+Alkalami has a few contextual rules applying subtle differences in the shape and position of certain of the characters depending on context (sometimes shortening, sometimes lengthening or lowering a “tail”). InDesign is able to utilize some of these cross word contextual alternates; however, most applications are not advanced enough to use this behavior in the font. Unfortunately, at this point in the development of the font, combining marks above or below may break these contextual alternates.
+
+#### Substitutions to avoid collisions in strings with noon-like characters
+
+<span dir="rtl" class='alkalami-R normal'>&#x0646;&#x0020;&#x062a;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x0646;&#x0020;&#x0628;</span>
+
+#### Substitutions to avoid collisions in strings with yeh-like characters
+
+<span dir="rtl" class='alkalami-R normal'>&#x0628;&#x064a;&#x0020;&#x0644;&#x0631;&#x0020;&#x0628;&#x064a;</span>
+
+#### Substitutions to avoid collisions in strings with seen-like characters
+
+<span dir="rtl" class='alkalami-R normal'>&#x0633;&#x0020;&#x0633;&#x0648;&#x0020;&#x0633;</span>
+
+#### Substitutions for shortening dal-like characters (shorter tail on dal)
+
+<span dir="rtl" class='alkalami-R normal'>&#x0633;&#x0020;&#x062f;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x062f;</span>
+
+#### Substitutions for shortening waw-like characters
+
+<span dir="rtl" class='alkalami-R normal'>&#x0628;&#x0646;&#x0020;&#x0648;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x0648;</span>
+
+
+## Alkalami Running Text
+
+#### (default)
+
+<span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss01" 1, "ss05" 1'>
+دَغَ بُلُسْ بَوَنْ ﷲ كُمَ مَنْظُونْ عِيْسَٰى أَلْمَسِيْحُو دُومِنْ إِنْ ڧَرْڢَڢَ بَنْغَسْكِيَرْ وَطَنْدَ ﷲ يَظَٻَ، إِنْ تَيْمَكٜىٰ سُو سُو سَنْ غَسْكِيَرْ دَ تَهَيْڢَرْ دَ هَلِے إِرِنْ نَﷲ۝2تَوُرِنْ سَ ذُثِيَا غَ رَيْ مَدَوَّمِے؞ ﷲ وَنْدَ دَ بَا يَا فَضْيَا يَيِے أَلْكَوَرِنْ وَنْنَںْ رَيْ مَدَوَّمِے تُنْ كَڢِنْ ڢَرَوَرْ ظَمَنَيْ؞ ۝3سَعَنْ نَنْ أَدَيْدَيْ لُوكَثِے يَبَيَّنَ شِے تَوُرِنْ سَڧُونْسَ وَنْدَ نَكٜىٰ 
+وَعَظِے، وَنْدَ كُمَ أَكَ بَا نِے أَمَنَرْسَ تَوُرِنْ أُمَرْنِنْ ﷲ مَيْ ثٜىٰتُونْمُو؞</span>
+
+#### (with ss01 & ss05)
+
+<span dir="rtl" class='alkalami-R normal'>
+دَغَ بُلُسْ بَوَنْ ﷲ كُمَ مَنْظُونْ عِيْسَٰى أَلْمَسِيْحُو دُومِنْ إِنْ ڧَرْڢَڢَ بَنْغَسْكِيَرْ وَطَنْدَ ﷲ يَظَٻَ، إِنْ تَيْمَكٜىٰ سُو سُو سَنْ غَسْكِيَرْ دَ تَهَيْڢَرْ دَ هَلِے إِرِنْ نَﷲ۝2تَوُرِنْ سَ ذُثِيَا غَ رَيْ مَدَوَّمِے؞ ﷲ وَنْدَ دَ بَا يَا فَضْيَا يَيِے أَلْكَوَرِنْ وَنْنَںْ رَيْ مَدَوَّمِے تُنْ كَڢِنْ ڢَرَوَرْ ظَمَنَيْ؞ ۝3سَعَنْ نَنْ أَدَيْدَيْ لُوكَثِے يَبَيَّنَ شِے تَوُرِنْ سَڧُونْسَ وَنْدَ نَكٜىٰ 
+وَعَظِے، وَنْدَ كُمَ أَكَ بَا نِے أَمَنَرْسَ تَوُرِنْ أُمَرْنِنْ ﷲ مَيْ ثٜىٰتُونْمُو؞</span>
+   
+   
 
 
 <!-- PRODUCT SITE ONLY
