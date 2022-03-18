@@ -1,9 +1,5 @@
----
-title: Alkalami - Type Sample
-fontversion: 1.300
----
 
-This document demonstrates all of the characters in the font. It is organized by Unicode block. Alternate glyphs that are available through features are demonstrated in the [Features](features.md) document. At the end is a sample demonstrating Arabic shaping and another example of running text.
+This document demonstrates all of the characters in the font. It is organized by Unicode block. Alternate glyphs that are available through features are demonstrated in the [Features](features) document. At the end is a sample demonstrating Arabic shaping and another example of running text.
 
 ## Type Sample
 
@@ -147,9 +143,7 @@ Regular: <span dir="ltr" class='alkalamiL-R normal'>™ Ω ∂ ∆ ∏ ∑ − 
 <p dir="rtl"><span class='alkalami-L normal'>‭۝١‬ وَلَمْ يَكُنْ فِي الأرْضِ إلّا لُغَةٌ واحِدَةٌ لَها مُفْرَداتٌ مَحْدُودَةٌ؞ ‭۝٢‬ وَمَعَ ارتِحالِ النّاسِ مِنَ الشَّرْقِ، وَجَدُوا سَهلاً فِي أرْضِ شِنْعارَ؞ فَاسْتَقَرُّوا هُناكَ؞ ‭۝٣‬ فاتَّفَقُوا وَقالُوا: «لِنَصْنَعْ لِبْناً وَنَشْوِيهِ جَيِّداً حَتَّى نُقَسِّيهِ؞» فَاسْتَخدَمُوا بَدَلَ الحِجارَةِ لِبْناً، وَبَدَلَ الطِّينِ قاراً؞ ‭۝٤‬ ثُمَّ قالُوا: «لِنَبْنِ لَنا مَدِينَةً، وَبُرْجاً تَصِلُ قِمَّتُهُ إلَى السَّماءِ؞ وَهَكَذا نَكْتَسِبُ شُهْرَةً؞ وَإلّا، فَإنَّنا سَنَتَشَتَّتُ عَلَى وَجْهِ الأرْضِ؞» ‭۝٥‬ وَنَزَلَ اللهُ لِيَرَى المَدِينَةَ وَالبُرْجَ اللَّذَينِ بَناهُما النّاسُ؞ </span></p>
 
 
-<!-- PRODUCT SITE ONLY
 [font id='alkalami' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1]
 [font id='alkalamiL' face='Alkalami-Regular' light='Alkalami-Light' size='150%' ltr=1]
--->
 
 

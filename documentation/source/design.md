@@ -7,8 +7,8 @@ Alkalami is a font for Arabic-based writing systems in the Kano region of Nigeri
 
 Two fonts from this typeface family are included in the *Alkalami* release:
 
-* Alkalami Regular
-* Alkalami Light
+- Alkalami Regular
+- Alkalami Light
 
 
 ## Type Samples
@@ -30,11 +30,6 @@ Two examples of some text is shown below.
 ## Character Set
 
 For a complete list of characters included in Alkalami, see [Character Set Support](charset.md).
-
-## Formation of Allah Ligature
-
-In certain types of literature, the name *Allah* and words related to this name are given unique rendering. For a list of the rendering rules, see [Formation of Allah Ligature](allah.md).
-
 
 ## Font Features
 

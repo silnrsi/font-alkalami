@@ -1,7 +1,3 @@
----
-title: Alkalami - Announcement
-fontversion: 1.300
----
 
 #### Changes
 

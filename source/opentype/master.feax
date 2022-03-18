@@ -1042,6 +1042,10 @@ feature calt {
 		sub noon-ar' space-ar noon-ar.init noon-ar.fina by noon-ar.longtail;
 		sub noon-ar.fina' space-ar beh-ar.init by noon-ar.fina.longtail;
 		sub noon-ar.fina' space-ar beh-ar by noon-ar.fina.longtail;
+		sub noon-ar' space-ar beeh-ar.init by noon-ar.longtail;
+		sub noon-ar' space-ar beeh-ar by noon-ar.longtail;
+		sub noon-ar.fina' space-ar beeh-ar.init by noon-ar.fina.longtail;
+		sub noon-ar.fina' space-ar beeh-ar by noon-ar.fina.longtail;
 		sub noon-ar.fina' space-ar seen-ar.init waw-ar.fina by noon-ar.fina.shrtail;
 		sub noon-ar.fina' space-ar seen-ar.init noon-ar.fina by noon-ar.fina.shrtail;
 		sub noon-ar.fina' space-ar reh-ar by noon-ar.fina.longtail;

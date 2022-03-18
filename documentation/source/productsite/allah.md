@@ -1,7 +1,3 @@
----
-title: Alkalami - Rendering the Allah ligature
-fontversion: 1.300
----
 
 
 In certain types of literature, the name *Allah* and words related to this name are given unique rendering. Unicode has a *presentation form* character (U+FDF2 ARABIC LIGATURE ALLAH ISOLATED FORM) that implements this rendering and, while this can work (in some fonts) for the word in isolation, it doesn’t help users obtain special rendering in other contexts where it is desired. 
@@ -40,7 +36,5 @@ Characters | → | Glyph | Comment
 
 
 
-<!-- PRODUCT SITE ONLY
 [font id='alkalami' face='Alkalami-Regular' size='150%' rtl=1]
 [font id='alkalamiL' face='Alkalami-Regular' size='150%' ltr=1]
--->
