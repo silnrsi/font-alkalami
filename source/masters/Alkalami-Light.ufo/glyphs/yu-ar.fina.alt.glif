@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yu-ar.fina.alt" format="2">
+  <advance width="506"/>
+  <anchor x="326" y="-211" name="bottom"/>
+  <anchor x="506" y="0" name="entry"/>
+  <anchor x="173" y="612" name="top"/>
+  <outline>
+    <component base="waw-ar.fina"/>
+    <component base="alefabove-ar" xOffset="124" yOffset="-159"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

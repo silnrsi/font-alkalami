@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yeh-farsi.longtail" format="2">
+  <advance width="766"/>
+  <anchor x="596" y="-164" name="bottom"/>
+  <anchor x="494" y="278" name="top"/>
+  <outline>
+    <component base="alefMaksura-ar"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

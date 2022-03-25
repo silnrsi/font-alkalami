@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehTwodotsbelowHamzaabove-ar.longtail" format="2">
+  <advance width="766"/>
+  <anchor x="169" y="-528" name="bottom"/>
+  <anchor x="495" y="453" name="top"/>
+  <outline>
+    <component base="alefMaksura-ar"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="-2" yOffset="-323"/>
+    <component base="hamzaabove-ar" xOffset="417" yOffset="-237"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

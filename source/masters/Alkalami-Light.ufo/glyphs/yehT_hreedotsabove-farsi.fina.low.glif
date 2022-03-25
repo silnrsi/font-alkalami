@@ -3,15 +3,15 @@
   <advance width="793"/>
   <anchor x="633" y="-317" name="bottom"/>
   <anchor x="793" y="0" name="entry"/>
-  <anchor x="425" y="427" name="top"/>
   <outline>
-    <component base="alefMaksura-ar.fina" yOffset="-207"/>
-    <component base="threedotsupabove-ar" xOffset="291" yOffset="-207"/>
+    <component base="alefMaksura-ar.fina.low"/>
+    <component base="dotabove-ar" xOffset="328" yOffset="-92"/>
+    <component base="twodotshorizontalabove-ar" xOffset="279" yOffset="-213"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

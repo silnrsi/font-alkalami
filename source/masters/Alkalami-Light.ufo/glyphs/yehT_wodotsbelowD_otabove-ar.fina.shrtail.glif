@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehTwodotsbelowDotabove-ar.fina.shrtail" format="2">
+  <advance width="793"/>
+  <anchor x="159" y="-512" name="bottom"/>
+  <anchor x="793" y="0" name="entry"/>
+  <outline>
+    <component base="alefMaksura-ar.fina"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="-2" yOffset="-323"/>
+    <component base="dotabove-ar" xOffset="331" yOffset="-22"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

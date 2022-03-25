@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dyeh-ar.medi.stack" format="2">
+  <advance width="403"/>
+  <anchor x="403" y="207" name="entry"/>
+  <anchor x="0" y="0" name="exit"/>
+  <anchor x="194" y="376" name="top"/>
+  <outline>
+    <component base="hah-ar.medi"/>
+    <component base="twodotsverticalabove-ar" xOffset="113" yOffset="-740"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>
