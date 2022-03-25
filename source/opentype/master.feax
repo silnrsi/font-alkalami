@@ -18,20 +18,20 @@ languagesystem latn dflt;
 # automatic
 @Uppercase = [ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Scaron OE Zcaron Ydieresis Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn ];
 
-@hahMedials = [ hah-ar.medi jeem-ar.medi khah-ar.medi nyeh-ar.medi  ];
+@hahMedials = [ hah-ar.medi jeem-ar.medi khah-ar.medi nyeh-ar.medi dyeh-ar.medi jeemTwodotsabove-ar.medi ];
 
-@hahMedials_low = [ hah-ar.medi.low jeem-ar.medi.low khah-ar.medi.low nyeh-ar.medi.low ];
+@hahMedials_low = [ hah-ar.medi.low jeem-ar.medi.low khah-ar.medi.low nyeh-ar.medi.low dyeh-ar.medi.low jeemTwodotsabove-ar.medi.low];
 
-@hahMedials_flat = [ hah-ar.medi.ss07 jeem-ar.medi.ss07 khah-ar.medi.ss07 nyeh-ar.medi.ss07 ];
+@hahMedials_flat = [ hah-ar.medi.ss07 jeem-ar.medi.ss07 khah-ar.medi.ss07 nyeh-ar.medi.ss07 dyeh-ar.medi.ss07 jeemTwodotsabove-ar.medi.ss07];
 
 
-@hahFinals = [ hah-ar.fina jeem-ar.fina khah-ar.fina nyeh-ar.fina  ];
+@hahFinals = [ hah-ar.fina jeem-ar.fina khah-ar.fina nyeh-ar.fina dyeh-ar.fina jeemTwodotsabove-ar.fina ];
 
-@hahFinals_alt = [ hah-ar.fina.alt jeem-ar.fina.alt khah-ar.fina.alt nyeh-ar.fina.alt  ];
+@hahFinals_alt = [ hah-ar.fina.alt jeem-ar.fina.alt khah-ar.fina.alt nyeh-ar.fina.alt dyeh-ar.fina.alt jeemTwodotsabove-ar.fina.alt ];
 
 
 # With alternate attachment points for stacking:
-@hahMedials_stack = [ hah-ar.medi.stack jeem-ar.medi.stack khah-ar.medi.stack nyeh-ar.medi.stack ];
+@hahMedials_stack = [ hah-ar.medi.stack jeem-ar.medi.stack khah-ar.medi.stack nyeh-ar.medi.stack dyeh-ar.medi.stack jeemTwodotsabove-ar.medi.stack];
 
 # marks that can go on initials and medials:
 @mark_on_IM = [
@@ -809,6 +809,8 @@ feature frac {
 							lam-ar  meem-ar  noon-ar  noonghunna-ar  noonTwodotsbelow-ar  noonAfrican-ar
 							heh-ar  alefMaksura-ar  yeh-ar  yehHamzaabove-ar  yehTwodotsbelowHamzaabove-ar
 							yehTwodotsbelowDotabove-ar  yeh-farsi  e-ar  yehThreedotsbelow-ar
+							tehThreedotsdown-ar dyeh-ar jeemTwodotsabove-ar tahTwodotsabove-ar
+							fehThreedotsbelow-ar fehThreedotsupbelow-ar 
 							];
 @arInit = [ behDotless-ar.init  beh-ar.init  peh-ar.init  beeh-ar.init  teh-ar.init  theh-ar.init
 							behThreedotsupbelow-ar.init  behVinvertedbelow-ar.init  behVabove-ar.init  behVbelow-ar.init  behhamzaabove-ar.init
@@ -821,6 +823,8 @@ feature frac {
 							lam-ar.init  meem-ar.init  noon-ar.init  noonghunna-ar.init  noonTwodotsbelow-ar.init  noonAfrican-ar.init
 							heh-ar.init  alefMaksura-ar.init  yeh-ar.init  yehHamzaabove-ar.init  yehTwodotsbelowHamzaabove-ar.init
 							yehTwodotsbelowDotabove-ar.init  yeh-farsi.init  e-ar.init  yehThreedotsbelow-ar.init
+							tehThreedotsdown-ar.init dyeh-ar.init jeemTwodotsabove-ar.init tahTwodotsabove-ar.init
+							fehThreedotsbelow-ar.init fehThreedotsupbelow-ar.init
 							];
 
 @arMedi = [ behDotless-ar.medi  beh-ar.medi  peh-ar.medi  beeh-ar.medi  teh-ar.medi  theh-ar.medi
@@ -832,7 +836,10 @@ feature frac {
 							kaf-ar.medi  keheh-ar.medi  kehehThreedotsabove-ar.medi  gaf-ar.medi  kafswash-ar.medi  ng-ar.medi
 							lam-ar.medi  meem-ar.medi  noon-ar.medi  noonghunna-ar.medi  noonTwodotsbelow-ar.medi  noonAfrican-ar.medi
 							heh-ar.medi  alefMaksura-ar.medi  yeh-ar.medi  yehHamzaabove-ar.medi  yehTwodotsbelowHamzaabove-ar.medi
-							yehTwodotsbelowDotabove-ar.medi  yeh-farsi.medi  e-ar.medi  yehThreedotsbelow-ar.medi ];
+							yehTwodotsbelowDotabove-ar.medi  yeh-farsi.medi  e-ar.medi  yehThreedotsbelow-ar.medi
+							tehThreedotsdown-ar.medi dyeh-ar.medi jeemTwodotsabove-ar.medi tahTwodotsabove-ar.medi
+							fehThreedotsbelow-ar.medi fehThreedotsupbelow-ar.medi
+							];
 @arFina = [ behDotless-ar.fina  beh-ar.fina  peh-ar.fina  beeh-ar.fina  teh-ar.fina  theh-ar.fina
 							behThreedotsupbelow-ar.fina  behVinvertedbelow-ar.fina  behVabove-ar.fina  behVbelow-ar.fina  behhamzaabove-ar.fina
 							jeem-ar.fina  nyeh-ar.fina  hah-ar.fina  khah-ar.fina  seen-ar.fina  sheen-ar.fina  sad-ar.fina  dad-ar.fina  tah-ar.fina  tahThreedots-ar.fina  zah-ar.fina
@@ -842,7 +849,11 @@ feature frac {
 							kaf-ar.fina  keheh-ar.fina  kehehThreedotsabove-ar.fina  gaf-ar.fina  kafswash-ar.fina  ng-ar.fina
 							lam-ar.fina  meem-ar.fina  noon-ar.fina  noonghunna-ar.fina  noonTwodotsbelow-ar.fina  noonAfrican-ar.fina
 							heh-ar.fina  alefMaksura-ar.fina  yeh-ar.fina  yehHamzaabove-ar.fina  yehTwodotsbelowHamzaabove-ar.fina
-							yehTwodotsbelowDotabove-ar.fina  yeh-farsi.fina  e-ar.fina  yehThreedotsbelow-ar.fina ];
+							yehTwodotsbelowDotabove-ar.fina  yeh-farsi.fina  e-ar.fina  yehThreedotsbelow-ar.fina
+							tehThreedotsdown-ar.fina dyeh-ar.fina jeemTwodotsabove-ar.fina tahTwodotsabove-ar.fina
+							fehThreedotsbelow-ar.fina fehThreedotsupbelow-ar.fina
+
+							];
 
 @arIsolRt = [ alef-ar  alef-ar.wide  alef-ar.wideshort  alefHamzaabove-ar  alefHamzabelow-ar  alefMadda-ar
 								dal-ar  thal-ar  reh-ar  zain-ar  jeh-ar

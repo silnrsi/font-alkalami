@@ -20,6 +20,10 @@
     </test>
   </testgroup>
   <testgroup label="Group">
+    <test label="U+0600 latn">
+      <comment>number-ar</comment>
+      <string>\u000628\u000600\u000645 \u0006002 \u00060022 \u000600222 \u00060012</string>
+    </test>
     <test label="U+06DD latn">
       <comment>endofayah-ar</comment>
       <string>\u000628\u0006DD\u000645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
@@ -35,6 +39,10 @@
     <test label="U+06DD latn" stylename="ss02_1_ss03_1">
       <comment>endofayah-ar</comment>
       <string>\u000628\u0006DD\u000645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
+    </test>
+    <test label="U+0600 arab">
+      <comment>number-ar</comment>
+      <string>\u000628\u000600\u000645 \u000600\u000668 \u000600\u000668\u000668 \u000600\u000668\u000668\u000668 \u000600\u000661\u000662</string>
     </test>
     <test label="U+06DD arab">
       <comment>endofayah-ar</comment>

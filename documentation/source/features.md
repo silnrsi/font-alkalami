@@ -47,6 +47,15 @@ Feature | Sample | Feature setting
 Standard | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss07" 0'>ج ججج ح ححح خ خخخ ڃ ڃڃڃ</span>| `ss07=0`
 Alternate | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss07" 1'>ج ججج ح ححح خ خخخ ڃ ڃڃڃ</span>| `ss07=1`
 
+#### Wagaf small (ss09)
+
+<span class='affects'>Affects: U+063F, U+069F, U+0751, U+0763, U+08C3, U+08C4</span>
+
+Feature value | Sample | Feature setting
+------------- | ---------------: | -------------
+Standard | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss09" 0'>&#x063F; &#x063F;&#x063F;&#x063F; &#x069F; &#x069F;&#x069F;&#x069F; &#x0751; &#x0751;&#x0751;&#x0751; &#x0763; &#x0763;&#x0763;&#x0763; &#x08C3; &#x08C3;&#x08C3;&#x08C3; &#x08C4; &#x08C4;&#x08C4;&#x08C4;</span>| `ss09=0`
+Alternate | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss09" 1'>&#x063F; &#x063F;&#x063F;&#x063F; &#x069F; &#x069F;&#x069F;&#x069F; &#x0751; &#x0751;&#x0751;&#x0751; &#x0763; &#x0763;&#x0763;&#x0763; &#x08C3; &#x08C3;&#x08C3;&#x08C3; &#x08C4; &#x08C4;&#x08C4;&#x08C4;</span>| `ss09=1`
+
 #### End of ayah 
 
 <span class='affects'>Affects: U+06DD</span>
