@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fathaRing-ar" format="2">
-  <advance width="1033"/>
   <unicode hex="08F4"/>
+  <anchor x="117" y="551" name="_top"/>
+  <anchor x="113" y="732" name="top"/>
+  <anchor x="1" y="695" name="top_alef"/>
   <outline>
-    <component base=".notdef"/>
+    <component base="sukun-ar"/>
+    <component base="fatha-ar" xOffset="-10" yOffset="62"/>
   </outline>
   <lib>
     <dict>

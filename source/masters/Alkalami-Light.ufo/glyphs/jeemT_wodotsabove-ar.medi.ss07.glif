@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jeemTwodotsabove-ar.medi.ss07" format="2">
   <advance width="465"/>
+  <anchor x="259" y="-223" name="bottom"/>
   <anchor x="465" y="0" name="entry"/>
   <anchor x="0" y="0" name="exit"/>
+  <anchor x="252" y="517" name="top"/>
   <outline>
     <component base="hah-ar.medi"/>
-    <component base="twodotshorizontalabove-ar" xOffset="117" yOffset="63"/>
-    <component base="dotabove-ar" xOffset="192" yOffset="-530"/>
+    <component base="twodotshorizontalabove-ar" xOffset="97" yOffset="63"/>
+    <component base="dotabove-ar" xOffset="152" yOffset="-530"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

@@ -3,6 +3,7 @@
   <advance width="772"/>
   <anchor x="438" y="-30" name="bottom"/>
   <anchor x="772" y="0" name="entry"/>
+  <anchor x="424" y="570" name="top"/>
   <outline>
     <component base="tah-ar.fina"/>
     <component base="twodotshorizontalabove-ar" xOffset="263" yOffset="110"/>
@@ -10,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

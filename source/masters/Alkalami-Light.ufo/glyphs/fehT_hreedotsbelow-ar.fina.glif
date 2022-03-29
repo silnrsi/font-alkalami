@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fehThreedotsbelow-ar.fina" format="2">
   <advance width="504"/>
+  <anchor x="262" y="-359" name="bottom"/>
   <anchor x="504" y="0" name="entry"/>
   <anchor x="154" y="500" name="top"/>
   <outline>
     <component base="fehDotless-ar.fina"/>
-    <component base="threedotsdownabove-ar" xOffset="124" yOffset="-630"/>
+    <component base="threedotsdownabove-ar" xOffset="104" yOffset="-630"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

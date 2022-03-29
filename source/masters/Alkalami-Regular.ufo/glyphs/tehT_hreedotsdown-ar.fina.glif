@@ -3,15 +3,16 @@
   <advance width="444"/>
   <anchor x="212" y="-40" name="bottom"/>
   <anchor x="444" y="0" name="entry"/>
+  <anchor x="255" y="697" name="top"/>
   <outline>
     <component base="behDotless-ar.fina"/>
-    <component base="twodotshorizontalabove-ar" xOffset="122" yOffset="203"/>
-    <component base="dotabove-ar" xOffset="192" yOffset="6"/>
+    <component base="twodotshorizontalabove-ar" xOffset="82" yOffset="203"/>
+    <component base="dotabove-ar" xOffset="152" yOffset="6"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1286,6 +1286,8 @@
   <string>number-ar.glif</string>
   <key>number-ar.2</key>
   <string>number-ar.2.glif</string>
+  <key>number-ar.3</key>
+  <string>number-ar.3.glif</string>
   <key>numbersign</key>
   <string>numbersign.glif</string>
   <key>nyeh-ar</key>
@@ -1940,6 +1942,10 @@
   <string>yehT_hreedotsabove-farsi.fina.low.glif</string>
   <key>yehThreedotsabove-farsi.fina.shrtail</key>
   <string>yehT_hreedotsabove-farsi.fina.shrtail.glif</string>
+  <key>yehThreedotsabove-farsi.fina.ss05</key>
+  <string>yehT_hreedotsabove-farsi.fina.ss05.glif</string>
+  <key>yehThreedotsabove-farsi.fina.ss05.low</key>
+  <string>yehT_hreedotsabove-farsi.fina.ss05.low.glif</string>
   <key>yehThreedotsabove-farsi.fina.ss09</key>
   <string>yehT_hreedotsabove-farsi.fina.ss09.glif</string>
   <key>yehThreedotsabove-farsi.fina.ss09.longtail</key>
@@ -1964,6 +1970,8 @@
   <string>yehT_hreedotsabove-farsi.medi.ss09.glif</string>
   <key>yehThreedotsabove-farsi.shrtail</key>
   <string>yehT_hreedotsabove-farsi.shrtail.glif</string>
+  <key>yehThreedotsabove-farsi.ss05</key>
+  <string>yehT_hreedotsabove-farsi.ss05.glif</string>
   <key>yehThreedotsabove-farsi.ss09</key>
   <string>yehT_hreedotsabove-farsi.ss09.glif</string>
   <key>yehThreedotsabove-farsi.ss09.longtail</key>

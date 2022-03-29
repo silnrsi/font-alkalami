@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dyeh-ar.init" format="2">
   <advance width="505"/>
+  <anchor x="195" y="-439" name="bottom"/>
   <anchor x="0" y="0" name="exit"/>
   <anchor x="223" y="401" name="top"/>
   <outline>
@@ -10,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

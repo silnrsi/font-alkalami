@@ -2,15 +2,16 @@
 <glyph name="dyeh-ar" format="2">
   <advance width="586"/>
   <unicode hex="0684"/>
+  <anchor x="332" y="-333" name="bottom"/>
   <anchor x="250" y="343" name="top"/>
   <outline>
     <component base="hah-ar"/>
-    <component base="twodotsverticalbelow-ar" xOffset="227" yOffset="-89"/>
+    <component base="twodotsverticalbelow-ar" xOffset="237" yOffset="-19"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

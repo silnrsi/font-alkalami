@@ -1,14 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="foursuperior" format="2">
-  <advance width="1033"/>
+  <advance width="385"/>
   <unicode hex="2074"/>
   <outline>
-    <component base=".notdef"/>
+    <contour>
+      <point x="302" y="672" type="curve"/>
+      <point x="265" y="672" type="line"/>
+      <point x="181" y="567"/>
+      <point x="107" y="489"/>
+      <point x="20" y="393" type="curve"/>
+      <point x="20" y="342" type="line"/>
+      <point x="105" y="345"/>
+      <point x="124" y="345"/>
+      <point x="190" y="345" type="curve" smooth="yes"/>
+      <point x="257" y="345"/>
+      <point x="307" y="345"/>
+      <point x="365" y="342" type="curve"/>
+      <point x="365" y="397" type="line"/>
+      <point x="310" y="393"/>
+      <point x="271" y="393"/>
+      <point x="222" y="393" type="curve" smooth="yes"/>
+      <point x="177" y="393"/>
+      <point x="123" y="396"/>
+      <point x="105" y="397" type="curve"/>
+      <point x="131" y="437"/>
+      <point x="152" y="466"/>
+      <point x="202" y="542" type="curve"/>
+      <point x="202" y="478"/>
+      <point x="200" y="307"/>
+      <point x="197" y="253" type="curve"/>
+      <point x="306" y="253" type="line"/>
+      <point x="300" y="364"/>
+      <point x="300" y="466"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

@@ -19,15 +19,27 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1268</string>
+  <string>3120</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/sheen-ar.fina.shrtail</string>
+    <string>/beh-ar/teh-ar/tehThreedotsdown-ar/tehThreedotsdown-ar.fina/space/tehThreedotsdown-ar.medi/space/tehThreedotsdown-ar.medi.flat/space/tehThreedotsdown-ar.init/space/dyeh-ar/dyeh-ar.fina/space/dyeh-ar.medi/space/dyeh-ar.init/dyeh-ar.fina.alt/dyeh-ar.fina.ss07/space/dyeh-ar.medi.ss07/dyeh-ar.medi.low/space/dyeh-ar.medi.stack/space/jeemTwodotsabove-ar/jeemTwodotsabove-ar.fina/space/jeemTwodotsabove-ar.medi/space/jeemTwodotsabove-ar.init/jeemTwodotsabove-ar.fina.alt/jeemTwodotsabove-ar.fina.ss07/space/jeemTwodotsabove-ar.medi.ss07/space/jeemTwodotsabove-ar.medi.low/space/jeemTwodotsabove-ar.medi.stack</string>
+    <string>/tahTwodotsabove-ar/tahTwodotsabove-ar.fina/space/tahTwodotsabove-ar.medi/space/tahTwodotsabove-ar.init/space/fehThreedotsbelow-ar/fehThreedotsbelow-ar.fina/space/fehThreedotsbelow-ar.medi/space/fehThreedotsbelow-ar.init/space 
+/fehThreedotsupbelow-ar/fehThreedotsupbelow-ar.fina/space/fehThreedotsupbelow-ar.medi/space/fehThreedotsupbelow-ar.init</string>
+    <string>¹/foursuperior ¼¾¹/divisionslash/foursuperior</string>
+    <string>/backslash/reverseSolidusOperator</string>
+    <string>/noon-ar.medi.flat/noonghunna-ar.medi.flat/behDotless-ar.medi.flat/noonghunnaabove-ar</string>
+    <string>/alefFathaattached-ar/space/alefFathaattached-ar.fina/space/alefRightmiddlestroke-ar/space/alefRightmiddlestroke-ar.fina/space/alefKasraattached-ar/space/alefKasraattached-ar.fina/space/space 
+</string>
+    <string>/noonghunnaabove-ar/dammainverted-ar/dammareversed-ar/wawSmall-ar/number-ar/number-ar.2/number-ar.3/fathaRing-ar/space/space/fatha-ar/space/space/fathaDotabove-ar/space 
+/kasra-ar/space/space/kasraDotbelow-ar/space/kasratan-ar/space/space/leftarrowheadabove-ar/space/rightarrowheadabove-ar/leftarrowheadbelow-ar 
+/rightarrowheadbelow-ar/doublerightarrowheadabove-ar/doublerightarrowheadDotabove-ar/rightarrowheadDotabove-ar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
   <true/>
+  <key>com.schriftgestaltung.customParameter.GSFont.uniqueID</key>
+  <string>SIL International: Alkalami Light: 2022</string>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
@@ -3710,8 +3722,6 @@
     <string>uni200C</string>
     <key>zerowidthspace</key>
     <string>uni200B</string>
-    <key>hamzacenter-ar</key>
-    <string>hamzacenter</string>
   </dict>
 </dict>
 </plist>

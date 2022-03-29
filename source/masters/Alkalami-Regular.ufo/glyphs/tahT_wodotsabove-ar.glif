@@ -3,6 +3,7 @@
   <advance width="797"/>
   <unicode hex="08A3"/>
   <anchor x="434" y="-40" name="bottom"/>
+  <anchor x="450" y="638" name="top"/>
   <outline>
     <component base="tah-ar"/>
     <component base="twodotshorizontalabove-ar" xOffset="274" yOffset="131"/>
@@ -10,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jeemTwodotsabove-ar.init" format="2">
   <advance width="505"/>
+  <anchor x="188" y="-270" name="bottom"/>
   <anchor x="0" y="0" name="exit"/>
+  <anchor x="225" y="607" name="top"/>
   <outline>
     <component base="hah-ar.init"/>
     <component base="twodotshorizontalabove-ar" xOffset="44" yOffset="106"/>
@@ -10,7 +12,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

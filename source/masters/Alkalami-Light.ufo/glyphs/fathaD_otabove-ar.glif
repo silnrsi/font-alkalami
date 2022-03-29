@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fathaDotabove-ar" format="2">
-  <advance width="1033"/>
   <unicode hex="08F5"/>
+  <anchor x="123" y="537" name="_top"/>
+  <anchor x="123" y="715" name="top"/>
+  <anchor x="0" y="651" name="top_alef"/>
   <outline>
-    <component base=".notdef"/>
+    <component base="fatha-ar"/>
+    <component base="dotabove-ar" xScale="0.56018" yScale="0.56018" xOffset="63" yOffset="427"/>
   </outline>
   <lib>
     <dict>
