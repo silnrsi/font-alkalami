@@ -4,10 +4,13 @@
 
 # smith
 .waf-*
+.smithpickle-*
 .lock-*
 results/**
 buildlinux2/**
 bin/**
+source/temp/*
+source/backups/*
 
 # gdl and graide
 $_temp.gdl
@@ -56,6 +59,7 @@ current.fpr
 *.bak
 *.vfbak
 *.~tt
+*.glyphs
 
 # Shares
 .AppleDB
