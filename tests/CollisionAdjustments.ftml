@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+	<head>
+		<fontscale>250</fontscale>
+		<fontsrc label="Reg1.2">url(../references/Alkalami-Regular-1_200.ttf)</fontsrc>
+		<fontsrc label="Reg">url(../results/Alkalami-Regular.ttf)</fontsrc>
+		<fontsrc label="Light">url(../results/Alkalami-Light.ttf)</fontsrc>
+		<styles>
+			<style feats="'ss01' 1" name="ss01_1"/>
+			<style feats="'ss02' 1" name="ss02_1"/>
+			<style feats="'ss03' 1" name="ss03_1"/>
+			<style feats="'ss04' 1" name="ss04_1"/>
+			<style feats="'ss05' 1" name="ss05_1"/>
+			<style feats="'ss07' 1" name="ss07_1"/>
+			<style feats="'ss08' 1" name="ss08_1"/>
+			<style feats="'ss09' 1" name="ss09_1"/>
+			<style feats="'ss02' 1, 'ss03' 1" name="ss02_1_ss03_1"/>
+      <style feats="'ss01' 1, 'ss04' 1, 'ss05' 1, 'ss08' 1" name="lang"/>
+		</styles>
+		<title>Collision Adjustments</title>
+	</head>
+	<testgroup label="Rendering Check">
+		<test label="check">
+			<string>RenderingUnknown</string>
+		</test>
+	</testgroup>
+	<testgroup label="Noon-like characters (Isolate followed by other characters)">
+		<test label="U+0646 U+0020 U+0634">
+			<comment>no avoidance / seen</comment>
+			<string>\u0646\u0020\u0634\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+0633">
+			<comment>U+0646 U+0020 U+0633 </comment>
+			<string>\u0646\u0020\u0633\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+0633">
+			<comment>U+06BA U+0020 U+0633 </comment>
+			<string>\u06BA\u0020\u0633\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+0633">
+			<comment>U+0767 U+0020 U+0633 </comment>
+			<string>\u0767\u0020\u0633\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+0633">
+			<comment>U+08BD U+0020 U+0633 </comment>
+			<string>\u08BD\u0020\u0633\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+062A U+06C6">
+			<comment>no avoidance / teh waw</comment>
+			<string>\u0646\u0020\u062A\u06C6\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+062A U+0648 ">
+			<comment>U+0646 U+0020 U+062A U+0648  </comment>
+			<string>\u0646\u0020\u062A\u0648\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+062A U+0648 ">
+			<comment>U+06BA U+0020 U+062A U+0648  </comment>
+			<string>\u06BA\u0020\u062A\u0648\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+062A U+0648 ">
+			<comment>U+0767 U+0020 U+062A U+0648  </comment>
+			<string>\u0767\u0020\u062A\u0648\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+062A U+0648 ">
+			<comment>U+08BD U+0020 U+062A U+0648  </comment>
+			<string>\u08BD\u0020\u062A\u0648\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+062A U+06BA">
+			<comment>no avoidance teh noon</comment>
+			<string>\u0646\u0020\u062A\u06BA\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+062A U+0646 ">
+			<comment>U+0646 U+0020 U+062A U+0646  </comment>
+			<string>\u0646\u0020\u062A\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+062A U+0646 ">
+			<comment>U+06BA U+0020 U+062A U+0646  </comment>
+			<string>\u06BA\u0020\u062A\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+062A U+0646 ">
+			<comment>U+0767 U+0020 U+062A U+0646  </comment>
+			<string>\u0767\u0020\u062A\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+062A U+0646 ">
+			<comment>U+08BD U+0020 U+062A U+0646  </comment>
+			<string>\u08BD\u0020\u062A\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+062B U+06BA">
+			<comment>no avoidance / theh noon</comment>
+			<string>\u0646\u0020\u062B\u06BA\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+062B U+0646 ">
+			<comment>U+0646 U+0020 U+062B U+0646  </comment>
+			<string>\u0646\u0020\u062B\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+062B U+0646 ">
+			<comment>U+06BA U+0020 U+062B U+0646  </comment>
+			<string>\u06BA\u0020\u062B\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+062B U+0646 ">
+			<comment>U+0767 U+0020 U+062B U+0646  </comment>
+			<string>\u0767\u0020\u062B\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+062B U+0646 ">
+			<comment>U+08BD U+0020 U+062B U+0646  </comment>
+			<string>\u08BD\u0020\u062B\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+062F U+06C6">
+			<comment>dal waw</comment>
+			<string>\u0646\u0020\u062F\u0650\u06C6\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020  U+062F U+0648">
+			<comment>U+0646 U+0020  U+062F U+0648</comment>
+			<string>\u0646\u0020\u062F\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020  U+062F U+0648">
+			<comment>U+06BA U+0020  U+062F U+0648</comment>
+			<string>\u06BA\u0020\u062F\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+062F U+0648">
+			<comment>U+0767 U+0020 U+062F U+0648</comment>
+			<string>\u0767\u0020\u062F\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+062F U+0648">
+			<comment>U+08BD U+0020 U+062F U+0648</comment>
+			<string>\u08BD\u0020\u062F\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+0751 U+0628">
+			<comment>beh.init</comment>
+			<string>\u0646\u0020\u0751\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+0628 U+0628">
+			<comment>U+0646 U+0020 U+0628 U+0628</comment>
+			<string>\u0646\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+0628 U+0628">
+			<comment>U+06BA U+0020 U+0628 U+0628</comment>
+			<string>\u06BA\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+0628 U+0628">
+			<comment>U+0767 U+0020 U+0628 U+0628</comment>
+			<string>\u0767\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+0628 U+0628">
+			<comment>U+08BD U+0020 U+0628 U+0628</comment>
+			<string>\u08BD\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+066E">
+			<comment>beh</comment>
+			<string>\u0646\u0020\u066E\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+0628">
+			<comment>U+0646 U+0020 U+0628</comment>
+			<string>\u0646\u0020\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+0628">
+			<comment>U+06BA U+0020 U+0628</comment>
+			<string>\u06BA\u0020\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+0628">
+			<comment>U+0767 U+0020 U+0628</comment>
+			<string>\u0767\u0020\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+0628">
+			<comment>U+08BD U+0020 U+0628</comment>
+			<string>\u08BD\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+066E U+0628">
+			<comment>beeh.init</comment>
+			<string>\u0646\u0020\u066E\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+067B U+0628">
+			<comment>U+0646 U+0020 U+067B U+0628</comment>
+			<string>\u0646\u0020\u067B\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+067B U+0628">
+			<comment>U+06BA U+0020 U+067B U+0628</comment>
+			<string>\u06BA\u0020\u067B\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+067B U+0628">
+			<comment>U+0767 U+0020 U+067B U+0628</comment>
+			<string>\u0767\u0020\u067B\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+067B U+0628">
+			<comment>U+08BD U+0020 U+0067B U+0628</comment>
+			<string>\u08BD\u0020\u067B\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+066E">
+			<comment>beeh</comment>
+			<string>\u0646\u0020\u066E\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+067B">
+			<comment>U+0646 U+0020 U+067B</comment>
+			<string>\u0646\u0020\u067B\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+067B">
+			<comment>U+06BA U+0020 U+067B</comment>
+			<string>\u06BA\u0020\u067B\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+067B">
+			<comment>U+0767 U+0020 U+067B</comment>
+			<string>\u0767\u0020\u067B\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+067B">
+			<comment>U+08BD U+0020 U+0067B</comment>
+			<string>\u08BD\u0020\u067B\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+0646 U+06BA">
+			<comment>noon.init+noon</comment>
+			<string>\u0646\u0020\u06BA\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+0646 U+0646">
+			<comment>U+0646 U+0020 U+0646 U+0646</comment>
+			<string>\u0646\u0020\u0646\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+0646 U+0646">
+			<comment>U+06BA U+0020 U+0646 U+0646</comment>
+			<string>\u06BA\u0020\u0646\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+0646 U+0646">
+			<comment>U+0767 U+0020 U+0646 U+0646</comment>
+			<string>\u0767\u0020\u0646\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+0646 U+0646">
+			<comment>U+08BD U+0020 U+0646 U+0646</comment>
+			<string>\u08BD\u0020\u0646\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+0634 U+0648">
+			<comment>seen waw</comment>
+			<string>\u0646\u0020\u0634\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+0633 U+0648">
+			<comment>U+0646 U+0020 U+0633 U+0648</comment>
+			<string>\u0646\u0020\u0633\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+0633 U+0648">
+			<comment>U+06BA U+0020 U+0633 U+0648</comment>
+			<string>\u06BA\u0020\u0633\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+0633 U+0648">
+			<comment>U+0767 U+0020 U+0633 U+0648</comment>
+			<string>\u0767\u0020\u0633\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+0633 U+0648">
+			<comment>U+08BD U+0020 U+0633 U+0648</comment>
+			<string>\u08BD\u0020\u0633\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+0634 U+0646">
+			<comment>seen noon</comment>
+			<string>\u0646\u0020\u0634\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+0633 U+0646">
+			<comment>U+0646 U+0020 U+0633 U+0646</comment>
+			<string>\u0646\u0020\u0633\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+0633 U+0646">
+			<comment>U+06BA U+0020 U+0633 U+0646</comment>
+			<string>\u06BA\u0020\u0633\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+0633 U+0646">
+			<comment>U+0767 U+0020 U+0633 U+0646</comment>
+			<string>\u0767\u0020\u0633\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+0633 U+0646">
+			<comment>U+08BD U+0020 U+0633 U+0646</comment>
+			<string>\u08BD\u0020\u0633\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+0631">
+			<comment>reh</comment>
+			<string>\u0646\u0020\u0632\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+0631">
+			<comment>U+0646 U+0020 U+0631</comment>
+			<string>\u0646\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+0631">
+			<comment>U+06BA U+0020 U+0631</comment>
+			<string>\u06BA\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+0631">
+			<comment>U+0767 U+0020 U+0631</comment>
+			<string>\u0767\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+0631">
+			<comment>U+08BD U+0020 U+0631</comment>
+			<string>\u08BD\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+	</testgroup>
+	<testgroup label="Noon-like characters (Final followed by other characters)">
+		<test label="U+0646 U+0020 U+0634">
+			<comment>no avoidance / seen</comment>
+			<string>\u0628\u0646\u0020\u0634\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+0633">
+			<comment>U+0646 U+0020 U+0633 </comment>
+			<string>\u0628\u0646\u0020\u0633\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+0633">
+			<comment>U+06BA U+0020 U+0633 </comment>
+			<string>\u0628\u06BA\u0020\u0633\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+0633">
+			<comment>U+0767 U+0020 U+0633 </comment>
+			<string>\u0628\u0767\u0020\u0633\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+0633">
+			<comment>U+08BD U+0020 U+0633 </comment>
+			<string>\u0628\u08BD\u0020\u0633\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+062A U+06C6">
+			<comment>no avoidance / teh waw</comment>
+			<string>\u0628\u0646\u0020\u062A\u06C6\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+062A U+0648 ">
+			<comment>U+0646 U+0020 U+062A U+0648  </comment>
+			<string>\u0628\u0646\u0020\u062A\u0648\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+062A U+0648 ">
+			<comment>U+06BA U+0020 U+062A U+0648  </comment>
+			<string>\u0628\u06BA\u0020\u062A\u0648\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+062A U+0648 ">
+			<comment>U+0767 U+0020 U+062A U+0648  </comment>
+			<string>\u0628\u0767\u0020\u062A\u0648\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+062A U+0648 ">
+			<comment>U+08BD U+0020 U+062A U+0648  </comment>
+			<string>\u0628\u08BD\u0020\u062A\u0648\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+062A U+06BA">
+			<comment>no avoidance teh noon</comment>
+			<string>\u0628\u0646\u0020\u062A\u06BA\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+062A U+0646 ">
+			<comment>U+0646 U+0020 U+062A U+0646  </comment>
+			<string>\u0628\u0646\u0020\u062A\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+062A U+0646 ">
+			<comment>U+06BA U+0020 U+062A U+0646  </comment>
+			<string>\u0628\u06BA\u0020\u062A\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+062A U+0646 ">
+			<comment>U+0767 U+0020 U+062A U+0646  </comment>
+			<string>\u0628\u0767\u0020\u062A\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+062A U+0646 ">
+			<comment>U+08BD U+0020 U+062A U+0646  </comment>
+			<string>\u0628\u08BD\u0020\u062A\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+062B U+06BA">
+			<comment>no avoidance / theh noon</comment>
+			<string>\u0628\u0646\u0020\u062B\u06BA\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+062B U+0646 ">
+			<comment>U+0646 U+0020 U+062B U+0646  </comment>
+			<string>\u0628\u0646\u0020\u062B\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+062B U+0646 ">
+			<comment>U+06BA U+0020 U+062B U+0646  </comment>
+			<string>\u0628\u06BA\u0020\u062B\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+062B U+0646 ">
+			<comment>U+0767 U+0020 U+062B U+0646  </comment>
+			<string>\u0628\u0767\u0020\u062B\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+062B U+0646 ">
+			<comment>U+08BD U+0020 U+062B U+0646  </comment>
+			<string>\u0628\u08BD\u0020\u062B\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+062F U+06C6">
+			<comment>dal waw</comment>
+			<string>\u0628\u0646\u0020\u062F\u0650\u06C6\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020  U+062F U+0648">
+			<comment>U+0646 U+0020  U+062F U+0648</comment>
+			<string>\u0628\u0646\u0020\u062F\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020  U+062F U+0648">
+			<comment>U+06BA U+0020  U+062F U+0648</comment>
+			<string>\u0628\u06BA\u0020\u062F\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+062F U+0648">
+			<comment>U+0767 U+0020 U+062F U+0648</comment>
+			<string>\u0628\u0767\u0020\u062F\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+062F U+0648">
+			<comment>U+08BD U+0020 U+062F U+0648</comment>
+			<string>\u0628\u08BD\u0020\u062F\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+0751 U+0628">
+			<comment>beh.init</comment>
+			<string>\u0628\u0646\u0020\u0751\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+0628 U+0628">
+			<comment>U+0646 U+0020 U+0628 U+0628</comment>
+			<string>\u0628\u0646\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+0628 U+0628">
+			<comment>U+06BA U+0020 U+0628 U+0628</comment>
+			<string>\u0628\u06BA\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+0628 U+0628">
+			<comment>U+0767 U+0020 U+0628 U+0628</comment>
+			<string>\u0628\u0767\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+0628 U+0628">
+			<comment>U+08BD U+0020 U+0628 U+0628</comment>
+			<string>\u0628\u08BD\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+066E">
+			<comment>beh</comment>
+			<string>\u0628\u0646\u0020\u066E\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+0628">
+			<comment>U+0646 U+0020 U+0628</comment>
+			<string>\u0628\u0646\u0020\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+0628">
+			<comment>U+06BA U+0020 U+0628</comment>
+			<string>\u0628\u06BA\u0020\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+0628">
+			<comment>U+0767 U+0020 U+0628</comment>
+			<string>\u0628\u0767\u0020\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+0628">
+			<comment>U+08BD U+0020 U+0628</comment>
+			<string>\u0628\u08BD\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+066E U+0628">
+			<comment>beeh.init</comment>
+			<string>\u0628\u0646\u0020\u066E\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+067B U+0628">
+			<comment>U+0646 U+0020 U+067B U+0628</comment>
+			<string>\u0628\u0646\u0020\u067B\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+067B U+0628">
+			<comment>U+06BA U+0020 U+067B U+0628</comment>
+			<string>\u0628\u06BA\u0020\u067B\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+067B U+0628">
+			<comment>U+0767 U+0020 U+067B U+0628</comment>
+			<string>\u0628\u0767\u0020\u067B\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+067B U+0628">
+			<comment>U+08BD U+0020 U+0067B U+0628</comment>
+			<string>\u0628\u08BD\u0020\u067B\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+066E">
+			<comment>beeh</comment>
+			<string>\u0628\u0646\u0020\u066E\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+067B">
+			<comment>U+0646 U+0020 U+067B</comment>
+			<string>\u0628\u0646\u0020\u067B\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+067B">
+			<comment>U+06BA U+0020 U+067B</comment>
+			<string>\u0628\u06BA\u0020\u067B\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+067B">
+			<comment>U+0767 U+0020 U+067B</comment>
+			<string>\u0628\u0767\u0020\u067B\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+067B">
+			<comment>U+08BD U+0020 U+0067B</comment>
+			<string>\u0628\u08BD\u0020\u067B\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+0646 U+06BA">
+			<comment>noon.init+noon</comment>
+			<string>\u0628\u0646\u0020\u06BA\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+0646 U+0646">
+			<comment>U+0646 U+0020 U+0646 U+0646</comment>
+			<string>\u0628\u0646\u0020\u0646\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+0646 U+0646">
+			<comment>U+06BA U+0020 U+0646 U+0646</comment>
+			<string>\u0628\u06BA\u0020\u0646\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+0646 U+0646">
+			<comment>U+0767 U+0020 U+0646 U+0646</comment>
+			<string>\u0628\u0767\u0020\u0646\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+0646 U+0646">
+			<comment>U+08BD U+0020 U+0067B</comment>
+			<string>\u0628\u08BD\u0020\u0646\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+0634 U+0648">
+			<comment>seen waw</comment>
+			<string>\u0628\u0646\u0020\u0634\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+0633 U+0648">
+			<comment>U+0646 U+0020 U+0633 U+0648</comment>
+			<string>\u0628\u0646\u0020\u0633\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+0633 U+0648">
+			<comment>U+06BA U+0020 U+0633 U+0648</comment>
+			<string>\u0628\u06BA\u0020\u0633\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+0633 U+0648">
+			<comment>U+0767 U+0020 U+0633 U+0648</comment>
+			<string>\u0628\u0767\u0020\u0633\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+0633 U+0648">
+			<comment>U+08BD U+0020 U+0633 U+0648</comment>
+			<string>\u0628\u08BD\u0020\u0633\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+0634 U+0646">
+			<comment>seen noon</comment>
+			<string>\u0628\u0646\u0020\u0634\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+0633 U+0646">
+			<comment>U+0646 U+0020 U+0633 U+0646</comment>
+			<string>\u0628\u0646\u0020\u0633\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+0633 U+0646">
+			<comment>U+06BA U+0020 U+0633 U+0646</comment>
+			<string>\u0628\u06BA\u0020\u0633\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+0633 U+0646">
+			<comment>U+0767 U+0020 U+0633 U+0646</comment>
+			<string>\u0628\u0767\u0020\u0633\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+0633 U+0646">
+			<comment>U+08BD U+0020 U+0633 U+0646</comment>
+			<string>\u0628\u08BD\u0020\u0633\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+		<test label="U+0646 U+0020 U+0631">
+			<comment>reh</comment>
+			<string>\u0628\u0646\u0020\u0632\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+0631">
+			<comment>U+0646 U+0020 U+0631</comment>
+			<string>\u0628\u0646\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+0631">
+			<comment>U+06BA U+0020 U+0631</comment>
+			<string>\u0628\u06BA\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+0631">
+			<comment>U+0767 U+0020 U+0631</comment>
+			<string>\u0628\u0767\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+0631">
+			<comment>U+08BD U+0020 U+0631</comment>
+			<string>\u0628\u08BD\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+	</testgroup>
+
+	<testgroup label="Noon-like characters followed by Waw characters (Isolate)">
+		<test label="U+0646 U+0650 U+0020 U+06C6 U+0650">
+			<comment>noon+waw</comment>
+			<string>\u0646\u0650\u0020\u06C6\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0650 U+0020 U+0624 U+0650">
+			<comment>noon+waw</comment>
+			<string>\u0646\u0650\u0020\u0624\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0650 U+0020 U+0648 U+0650">
+			<comment>noon+waw</comment>
+			<string>\u0646\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0650 U+0020 U+06C6 U+0650">
+			<comment>noon+waw</comment>
+			<string>\u0646\u0650\u0020\u06C6\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0650 U+0020 U+06C8 U+0650">
+			<comment>noon+waw</comment>
+			<string>\u0646\u0650\u0020\u06C8\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0650 U+0020 U+06C9 U+0650">
+			<comment>noon+waw</comment>
+			<string>\u0646\u0650\u0020\u06C9\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+	</testgroup>
+
+	<testgroup label="Noon-like final characters followed by Waw characters (Isolate followed by other characters)">
+		<test label="U+0628 U+0646 U+0650 U+0020 U+06C6 U+0650">
+			<comment>noon+waw</comment>
+			<string>\u0628\u0646\u0650\u0020\u06C6\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0646 U+0650 U+0020 U+0624 U+0650">
+			<comment>noon+waw</comment>
+			<string>\u0628\u0646\u0650\u0020\u0624\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0646 U+0650 U+0020 U+0648 U+0650">
+			<comment>noon+waw</comment>
+			<string>\u0628\u0646\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0646 U+0650 U+0020 U+06C6 U+0650">
+			<comment>noon+waw</comment>
+			<string>\u0628\u0646\u0650\u0020\u06C6\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0646 U+0650 U+0020 U+06C8 U+0650">
+			<comment>noon+waw</comment>
+			<string>\u0628\u0646\u0650\u0020\u06C8\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0646 U+0650 U+0020 U+06C9 U+0650">
+			<comment>noon+waw</comment>
+			<string>\u0628\u0646\u0650\u0020\u06C9\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+
+	</testgroup>
+</ftml>

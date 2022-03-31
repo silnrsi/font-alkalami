@@ -24,16 +24,24 @@ languagesystem latn dflt;
 
 @hahMedials_flat = [ hah-ar.medi.ss07 jeem-ar.medi.ss07 khah-ar.medi.ss07 nyeh-ar.medi.ss07 dyeh-ar.medi.ss07 jeemTwodotsabove-ar.medi.ss07];
 
-
 @hahFinals = [ hah-ar.fina jeem-ar.fina khah-ar.fina nyeh-ar.fina dyeh-ar.fina jeemTwodotsabove-ar.fina ];
 
 @hahFinals_alt = [ hah-ar.fina.alt jeem-ar.fina.alt khah-ar.fina.alt nyeh-ar.fina.alt dyeh-ar.fina.alt jeemTwodotsabove-ar.fina.alt ];
 
+@noonIsol = [	noon-ar noonghunna-ar noonTwodotsbelow-ar noonAfrican-ar ];
+@noonFina = [	noon-ar.fina noonghunna-ar.fina noonTwodotsbelow-ar.fina noonAfrican-ar.fina ];
+@noonIsol_longtail = [ noon-ar.longtail noonghunna-ar.longtail noonTwodotsbelow-ar.longtail noonAfrican-ar.longtail ];
+@noonFina_longtail = [ noon-ar.fina.longtail noonghunna-ar.fina.longtail noonTwodotsbelow-ar.fina.longtail noonAfrican-ar.fina.longtail ];
+@wawIsol = [ waw-ar wawHamzaabove-ar oe-ar yu-ar kirghizyu-ar ];
+@wawIsol_alt = [ waw-ar.alt wawHamzaabove-ar.alt oe-ar.alt yu-ar.alt kirghizyu-ar.alt ];
+@wawFina = [ waw-ar.fina wawHamzaabove-ar.fina oe-ar.fina yu-ar.fina kirghizyu-ar.fina ];
+@wawFina_alt = [ waw-ar.fina.alt wawHamzaabove-ar.fina.alt oe-ar.fina.alt yu-ar.fina.alt kirghizyu-ar.fina.alt ];
 
 # With alternate attachment points for stacking:
 @hahMedials_stack = [ hah-ar.medi.stack jeem-ar.medi.stack khah-ar.medi.stack nyeh-ar.medi.stack dyeh-ar.medi.stack jeemTwodotsabove-ar.medi.stack];
 
 # marks that can go on initials and medials:
+# This doesn't appear to be used in any rule
 @mark_on_IM = [
 	#alefabove-ar  fatha_alefabove-ar  highhamza-ar  hamzaabove-ar.nostem  hamzabelow-ar.nostem
 	damma-ar
@@ -60,6 +68,17 @@ languagesystem latn dflt;
 	vabove-ar
 	vinvertedabove-ar
 	yehabove-ar
+	noonghunnaabove-ar
+	dammainverted-ar
+	dammareversed-ar
+	fathaRing-ar
+	fathaDotabove-ar
+	kasraDotbelow-ar
+	leftarrowheadabove-ar
+	rightarrowheadabove-ar
+	doublerightarrowheadabove-ar
+	doublerightarrowheadDotabove-ar
+	rightarrowheadDotabove-ar
 
 	alefbelow-ar
 	dotbelow-ar
@@ -73,6 +92,10 @@ languagesystem latn dflt;
 	twodotshorizontalbelow-ar
 	twodotsnarrow-ar
 	twodotsverticalbelow-ar
+	wawSmall-ar
+	leftarrowheadbelow-ar
+	rightarrowheadbelow-ar
+
 ];
 
 @pre_hah_not_flat = [
@@ -83,6 +106,7 @@ languagesystem latn dflt;
 	beeh-ar.medi.ss05
 	alefMaksura-ar.medi
 	teh-ar.medi
+	tehThreedotsdown-ar.medi
 	theh-ar.medi
 	behVinvertedbelow-ar.medi
 	behVabove-ar.medi
@@ -101,15 +125,19 @@ languagesystem latn dflt;
 	lam-ar.medi
 	meem-ar.medi
 	noon-ar.medi
+	noonghunna-ar.medi
+	noonTwodotsbelow-ar.medi
 	noonAfrican-ar.medi
 	yeh-ar.medi
-	yehTwodotsbelowHamzaabove-ar.medi
-	yehTwodotsbelowDotabove-ar.medi
 	yeh-farsi.medi
 	e-ar.medi
 	ainTwodotshorizontalabove-ar.medi
-	noonTwodotsbelow-ar.medi
 	behThreedotsupbelow-ar.medi
+	yehHamzaabove-ar.medi
+	yehTwodotsbelowHamzaabove-ar.medi
+	yehTwodotsbelowDotabove-ar.medi
+	yehThreedotsabove-farsi.medi
+	yehThreedotsbelow-ar.medi
 
 	sad-ar.init.flat
 	dad-ar.init.flat
@@ -126,6 +154,7 @@ languagesystem latn dflt;
 	beeh-ar.medi.flat.ss05
 	alefMaksura-ar.medi.flat
 	teh-ar.medi.flat
+	tehThreedotsdown-ar.medi.flat
 	theh-ar.medi.flat
 	behVinvertedbelow-ar.medi.flat
 	behVabove-ar.medi.flat
@@ -144,15 +173,19 @@ languagesystem latn dflt;
 	lam-ar.medi.flat
 	meem-ar.medi.flat
 	noon-ar.medi.flat
+	noonghunna-ar.medi.flat
+	noonTwodotsbelow-ar.medi.flat
 	noonAfrican-ar.medi.flat
 	yeh-ar.medi.flat
-	yehTwodotsbelowHamzaabove-ar.medi.flat
-	yehTwodotsbelowDotabove-ar.medi.flat
 	yeh-farsi.medi.flat
 	e-ar.medi.flat
 	ainTwodotshorizontalabove-ar.medi.flat
-	noonTwodotsbelow-ar.medi.flat
 	behThreedotsupbelow-ar.medi.flat
+	yehHamzaabove-ar.medi.flat
+	yehTwodotsbelowHamzaabove-ar.medi.flat
+	yehTwodotsbelowDotabove-ar.medi.flat
+	yehThreedotsabove-farsi.medi.flat
+	yehThreedotsbelow-ar.medi.flat
 
 	sad-ar.init.flat
 	dad-ar.init.flat
@@ -168,6 +201,7 @@ languagesystem latn dflt;
 	behThreedotsupbelow-ar.init
 	alefMaksura-ar.init
 	teh-ar.init
+	tehThreedotsdown-ar.init
 	theh-ar.init
 	behVinvertedbelow-ar.init
 	behVabove-ar.init
@@ -177,6 +211,8 @@ languagesystem latn dflt;
 	nyeh-ar.init
 	hah-ar.init
 	khah-ar.init
+	dyeh-ar.init
+	jeemTwodotsabove-ar.init
 	seen-ar.init
 	sheen-ar.init
 	sad-ar.init
@@ -184,6 +220,7 @@ languagesystem latn dflt;
 	tah-ar.init
 	tahThreedots-ar.init
 	tahThreedots-ar.init.ss05
+	tahTwodotsabove-ar.init
 	zah-ar.init
 	ain-ar.init
 	ainThreedots-ar.init
@@ -240,6 +277,7 @@ languagesystem latn dflt;
 	behThreedotsupbelow-ar.medi
 	alefMaksura-ar.medi
 	teh-ar.medi
+	tehThreedotsdown-ar.medi
 	theh-ar.medi
 	behVinvertedbelow-ar.medi
 	behVabove-ar.medi
@@ -249,6 +287,8 @@ languagesystem latn dflt;
 	nyeh-ar.medi
 	hah-ar.medi
 	khah-ar.medi
+	dyeh-ar.medi
+	jeemTwodotsabove-ar.medi
 	seen-ar.medi
 	sheen-ar.medi
 	sad-ar.medi
@@ -256,6 +296,7 @@ languagesystem latn dflt;
 	tah-ar.medi
 	tahThreedots-ar.medi
 	tahThreedots-ar.medi.ss05
+	tahTwodotsabove-ar.medi
 	zah-ar.medi
 	ain-ar.medi
 	ainThreedots-ar.medi
@@ -289,9 +330,9 @@ languagesystem latn dflt;
 	lam-ar.medi
 	meem-ar.medi
 	noon-ar.medi
-	noonAfrican-ar.medi
 	noonghunna-ar.medi
 	noonTwodotsbelow-ar.medi
+	noonAfrican-ar.medi
 	heh-ar.medi
 	yehHamzaabove-ar.medi
 	yehTwodotsbelowHamzaabove-ar.medi
@@ -353,19 +394,38 @@ languagesystem latn dflt;
 	alef-ar.wideshort.fina.low
 ];
 
+# Slightly shorter tail for yeh-barree before beh/yeh/noon forms:
 @pre_yb_need_alt = [
 	yeh-ar.medi
 	yeh-ar.init
+	yehHamzaabove-ar.medi
+	yehHamzaabove-ar.init
+	yehTwodotsbelowHamzaabove-ar.medi
+	yehTwodotsbelowHamzaabove-ar.init
+	yehTwodotsbelowDotabove-ar.medi
+	yehTwodotsbelowDotabove-ar.init
+	yeh-farsi.medi
+	yeh-farsi.init
+	yehThreedotsabove-farsi.medi
+	yehThreedotsabove-farsi.init
+	yehThreedotsbelow-ar.medi
+	yehThreedotsbelow-ar.init
 	lam-ar.medi
 	lam-ar.init
 	beh-ar.medi
 	beh-ar.init
 	teh-ar.medi
 	teh-ar.init
+	tehThreedotsdown-ar.medi
+	tehThreedotsdown-ar.init
 	theh-ar.medi
 	theh-ar.init
 	noon-ar.medi
 	noon-ar.init
+	noonghunna-ar.medi
+	noonghunna-ar.init
+	noonTwodotsbelow-ar.medi
+	noonTwodotsbelow-ar.init
 	noonAfrican-ar.medi
 	noonAfrican-ar.init
 	behDotless-ar.medi
@@ -852,20 +912,21 @@ feature frac {
 							yehTwodotsbelowDotabove-ar.fina  yeh-farsi.fina  e-ar.fina  yehThreedotsbelow-ar.fina
 							tehThreedotsdown-ar.fina dyeh-ar.fina jeemTwodotsabove-ar.fina tahTwodotsabove-ar.fina
 							fehThreedotsbelow-ar.fina fehThreedotsupbelow-ar.fina
-
+							alefKasraattached-ar
 							];
 
 @arIsolRt = [ alef-ar  alef-ar.wide  alef-ar.wideshort  alefHamzaabove-ar  alefHamzabelow-ar  alefMadda-ar
 								dal-ar  thal-ar  reh-ar  zain-ar  jeh-ar
 								lam_alefMadda-ar  lam_alefHamzaabove-ar  lam_alefHamzabelow-ar  lam_alef-ar
 								tehMarbuta-ar  waw-ar  wawHamzaabove-ar  oe-ar  yu-ar  kirghizyu-ar
-								yehbarree-ar  yehbarreeHamzaabove-ar
+								yehbarree-ar  yehbarreeHamzaabove-ar alefFathaattached-ar alefRightmiddlestroke-ar
 								];
 @arFinaRt = [ alef-ar.fina  alef-ar.wide.fina  alef-ar.wideshort.fina  alefHamzaabove-ar.fina  alefHamzabelow-ar.fina  alefMadda-ar.fina
 								dal-ar.fina  thal-ar.fina  reh-ar.fina  zain-ar.fina  jeh-ar.fina
 								lam_alefMadda-ar.fina  lam_alefHamzaabove-ar.fina  lam_alefHamzabelow-ar.fina  lam_alef-ar.fina
 								tehMarbuta-ar.fina  waw-ar.fina  wawHamzaabove-ar.fina  oe-ar.fina  yu-ar.fina  kirghizyu-ar.fina
-								yehbarree-ar.fina  yehbarreeHamzaabove-ar.fina
+								yehbarree-ar.fina  yehbarreeHamzaabove-ar.fina alefFathaattached-ar.fina alefRightmiddlestroke-ar.fina
+								alefKasraattached-ar.fina
 								];
 								
 feature init {
@@ -950,6 +1011,7 @@ feature salt {
 		sub beeh-ar.medi by beeh-ar.medi.flat;
 		sub alefMaksura-ar.medi by alefMaksura-ar.medi.flat;
 		sub teh-ar.medi by teh-ar.medi.flat;
+		sub tehThreedotsdown-ar.medi by tehThreedotsdown-ar.medi.flat;
 		sub theh-ar.medi by theh-ar.medi.flat;
 		sub behThreedotsupbelow-ar.medi by behThreedotsupbelow-ar.medi.flat;
 		sub behVinvertedbelow-ar.medi by behVinvertedbelow-ar.medi.flat;
@@ -970,8 +1032,9 @@ feature salt {
 		sub meem-ar.medi by meem-ar.medi.flat;
 		sub meem-ar.init by meem-ar.init.flat;
 		sub noon-ar.medi by noon-ar.medi.flat;
-		sub noonAfrican-ar.medi by noonAfrican-ar.medi.flat;
+		sub noonghunna-ar.medi by noonghunna-ar.medi.flat;
 		sub noonTwodotsbelow-ar.medi by noonTwodotsbelow-ar.medi.flat;
+		sub noonAfrican-ar.medi by noonAfrican-ar.medi.flat;
 		sub yeh-ar.medi by yeh-ar.medi.flat;
 		sub yehTwodotsbelowHamzaabove-ar.medi by yehTwodotsbelowHamzaabove-ar.medi.flat;
 		sub yehTwodotsbelowDotabove-ar.medi by yehTwodotsbelowDotabove-ar.medi.flat;
@@ -983,6 +1046,8 @@ feature salt {
 		sub nyeh-ar.fina by nyeh-ar.fina.alt;
 		sub hah-ar.fina by hah-ar.fina.alt;
 		sub khah-ar.fina by khah-ar.fina.alt;
+		sub dyeh-ar.fina by dyeh-ar.fina.alt;
+		sub jeemTwodotsabove-ar.fina by jeemTwodotsabove-ar.fina.alt;
 
 		# taller initial stroke - not used
 		sub beh-ar.init by beh-ar.init.alt;
@@ -996,8 +1061,7 @@ feature salt {
 		sub sad-ar.fina by sad-ar.fina.alt;   # currently not used
 		sub dad-ar by dad-ar.alt;             # currently not used
 		sub dad-ar.fina by dad-ar.fina.alt;   # currently not used
-		sub waw-ar by waw-ar.alt;
-		sub waw-ar.fina by waw-ar.fina.alt;
+		sub @wawFina by @wawFina_alt;
 		sub yehbarree-ar.fina by yehbarree-ar.fina.alt;
 
 		# alternate tail - not used
@@ -1030,10 +1094,11 @@ feature calt {
 
 	lookup calt_lkp2 {
 		lookupflag IgnoreMarks;
-
 		# subs to avoid collisions in strings with dal-ar
 		sub seen-ar space-ar dal-ar' by dal-ar.alt;
 		sub seen-ar space-ar thal-ar' by thal-ar.alt;
+		sub sheen-ar space-ar dal-ar' by dal-ar.alt;
+		sub sheen-ar space-ar thal-ar' by thal-ar.alt;
 
 		# subs to avoid collisions in strings with yeh-ar
 		sub yeh-ar' comma-ar space-ar waw-ar by yeh-ar.longtail;
@@ -1042,43 +1107,38 @@ feature calt {
 		sub yeh-ar.fina' space-ar reh-ar by yeh-ar.fina.longtail;
 		sub yeh-ar.fina' space-ar waw-ar by yeh-ar.fina.longtail;
 
-		# subs to avoid collisions in strings with noon-ar
-		sub noon-ar' space-ar seen-ar by noon-ar.longtail;
-		sub noon-ar' space-ar teh-ar.init waw-ar.fina by noon-ar.longtail;
-		sub noon-ar' space-ar teh-ar.init noon-ar.fina by noon-ar.longtail;
-		sub noon-ar' space-ar theh-ar.init noon-ar.fina by noon-ar.longtail;
-		sub noon-ar' space-ar dal-ar waw-ar by noon-ar.longtail;
-		sub noon-ar' space-ar beh-ar.init by noon-ar.longtail;
-		sub noon-ar' space-ar beh-ar by noon-ar.longtail;
-		sub noon-ar' space-ar noon-ar.init noon-ar.fina by noon-ar.longtail;
-		sub noon-ar.fina' space-ar beh-ar.init by noon-ar.fina.longtail;
-		sub noon-ar.fina' space-ar beh-ar by noon-ar.fina.longtail;
-		sub noon-ar' space-ar beeh-ar.init by noon-ar.longtail;
-		sub noon-ar' space-ar beeh-ar by noon-ar.longtail;
-		sub noon-ar.fina' space-ar beeh-ar.init by noon-ar.fina.longtail;
-		sub noon-ar.fina' space-ar beeh-ar by noon-ar.fina.longtail;
-		sub noon-ar.fina' space-ar seen-ar.init waw-ar.fina by noon-ar.fina.shrtail;
-		sub noon-ar.fina' space-ar seen-ar.init noon-ar.fina by noon-ar.fina.shrtail;
-		sub noon-ar.fina' space-ar reh-ar by noon-ar.fina.longtail;
-		sub noon-ar.fina' space-ar teh-ar.init waw-ar.fina by noon-ar.fina.longtail;
-		sub noon-ar.fina' space-ar dal-ar waw-ar by noon-ar.fina.longtail;
 
-		# subs to avoid collisions in strings with noonAfrican-ar
-		sub noonAfrican-ar' space-ar seen-ar by noonAfrican-ar.longtail;
-		sub noonAfrican-ar' space-ar teh-ar.init waw-ar.fina by noonAfrican-ar.longtail;
-		sub noonAfrican-ar' space-ar teh-ar.init noon-ar.fina by noonAfrican-ar.longtail;
-		sub noonAfrican-ar' space-ar theh-ar.init noon-ar.fina by noonAfrican-ar.longtail;
-		sub noonAfrican-ar' space-ar dal-ar waw-ar by noonAfrican-ar.longtail;
-		sub noonAfrican-ar' space-ar beh-ar.init by noonAfrican-ar.longtail;
-		sub noonAfrican-ar' space-ar beh-ar by noonAfrican-ar.longtail;
-		sub noonAfrican-ar' space-ar noonAfrican-ar.init noonAfrican-ar.fina by noonAfrican-ar.longtail;
-		sub noonAfrican-ar.fina' space-ar beh-ar.init by noonAfrican-ar.fina.longtail;
-		sub noonAfrican-ar.fina' space-ar beh-ar by noonAfrican-ar.fina.longtail;
-		sub noonAfrican-ar.fina' space-ar seen-ar.init waw-ar.fina by noonAfrican-ar.fina.shrtail;
-		sub noonAfrican-ar.fina' space-ar seen-ar.init noon-ar.fina by noonAfrican-ar.fina.shrtail;
-		sub noonAfrican-ar.fina' space-ar reh-ar by noonAfrican-ar.fina.longtail;
-		sub noonAfrican-ar.fina' space-ar teh-ar.init waw-ar.fina by noonAfrican-ar.fina.longtail;
-		sub noonAfrican-ar.fina' space-ar dal-ar waw-ar by noonAfrican-ar.fina.longtail;
+
+		# subs to avoid collisions in strings with noon-ar
+		sub @noonIsol' space-ar seen-ar by @noonIsol_longtail;
+		sub @noonIsol' space-ar teh-ar.init waw-ar.fina by @noonIsol_longtail;
+		sub @noonIsol' space-ar teh-ar.init noon-ar.fina by @noonIsol_longtail;
+		sub @noonIsol' space-ar theh-ar.init noon-ar.fina by @noonIsol_longtail;
+		sub @noonIsol' space-ar dal-ar waw-ar by @noonIsol_longtail;
+		sub @noonIsol' space-ar beh-ar.init by @noonIsol_longtail;
+		sub @noonIsol' space-ar beh-ar by @noonIsol_longtail;
+		sub @noonIsol' space-ar beeh-ar.init by @noonIsol_longtail;
+		sub @noonIsol' space-ar beeh-ar by @noonIsol_longtail;
+		sub @noonIsol' space-ar noon-ar.init noon-ar.fina by @noonIsol_longtail;
+
+		sub @noonFina' space-ar teh-ar.init waw-ar.fina by @noonFina_longtail;
+		sub @noonFina' space-ar dal-ar waw-ar by @noonFina_longtail;
+		sub @noonFina' space-ar beh-ar.init by @noonFina_longtail;
+		sub @noonFina' space-ar beh-ar by @noonFina_longtail;
+		sub @noonFina' space-ar beeh-ar.init by @noonFina_longtail;
+		sub @noonFina' space-ar beeh-ar by @noonFina_longtail;
+		sub @noonFina' space-ar seen-ar.init waw-ar.fina by @noonFina_longtail;
+		sub @noonFina' space-ar seen-ar.init noon-ar.fina by @noonFina_longtail;
+		sub @noonFina' space-ar reh-ar by @noonFina_longtail;
+
+    # does not work
+		sub @noonIsol' space-ar seen-ar.init waw-ar.fina by @noonIsol_longtail;
+		sub @noonIsol' space-ar seen-ar.init noon-ar.fina by @noonIsol_longtail;
+		sub @noonIsol' space-ar reh-ar by @noonIsol_longtail;
+		sub @noonFina' space-ar seen-ar by @noonFina_longtail;
+		sub @noonFina' space-ar teh-ar.init noon-ar.fina by @noonFina_longtail;
+		sub @noonFina' space-ar theh-ar.init noon-ar.fina by @noonFina_longtail;
+		sub @noonFina' space-ar noon-ar.init noon-ar.fina by @noonFina_longtail;
 
 		# subs to avoid collisions in strings with seen-ar
 		sub seen-ar' space-ar seen-ar.init waw-ar.fina by seen-ar.shrtail;
@@ -1090,12 +1150,8 @@ feature calt {
 		sub seen-ar.fina' space-ar ghain-ar by seen-ar.fina.longtail;
 
 		# subs to avoid collisions in strings with waw-ar
-		sub noon-ar.fina space-ar waw-ar' by waw-ar.alt;
-		sub noon-ar space-ar waw-ar' by waw-ar.alt;
-
-		# subs to avoid collisions in strings with waw-ar and noonAfrican-ar
-		sub noonAfrican-ar.fina space-ar waw-ar' by waw-ar.alt;
-		sub noonAfrican-ar space-ar waw-ar' by waw-ar.alt;
+		sub @noonIsol space-ar @wawIsol' by @wawIsol_alt;
+		sub @noonFina space-ar @wawIsol' by @wawIsol_alt;
 
 		#subs to get a short, high lam-ar.init with jeem/hah/khah
 		sub lam-ar.init' @hahMedi_any  by  lam-ar.init.high;
@@ -1109,7 +1165,7 @@ feature calt {
 		sub @EndofAyah' lookup Ayah_alt2 @Digits' lookup digit_small @Digits' lookup digit_small;
 		sub @EndofAyah @Digits' lookup digit_small;
 
-		# HafBuzz 'arab'
+		# HarfBuzz 'arab'
 		sub @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small @EndofAyah' lookup Ayah_alt3;
 		sub @Digits' lookup digit_small @Digits' lookup digit_small @EndofAyah' lookup Ayah_alt2;
 		sub @Digits' lookup digit_small @EndofAyah;
