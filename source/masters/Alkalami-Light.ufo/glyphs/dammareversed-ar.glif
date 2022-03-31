@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dammareversed-ar" format="2">
-  <advance width="1033"/>
   <unicode hex="065D"/>
+  <anchor x="101" y="526" name="_top"/>
+  <anchor x="94" y="726" name="top"/>
   <outline>
-    <component base=".notdef"/>
+    <component base="damma-ar" xScale="-1" xOffset="235"/>
   </outline>
   <lib>
     <dict>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rightarrowheadbelow-ar" format="2">
-  <advance width="1033"/>
   <unicode hex="08FA"/>
+  <anchor x="10" y="0" name="_bottom"/>
+  <anchor x="46" y="-225" name="bottom"/>
   <outline>
-    <component base=".notdef"/>
+    <component base="leftarrowheadabove-ar" xScale="-1" xOffset="118" yOffset="-774"/>
   </outline>
   <lib>
     <dict>

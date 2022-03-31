@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="doublerightarrowheadabove-ar" format="2">
-  <advance width="1033"/>
   <unicode hex="08FB"/>
+  <anchor x="112" y="558" name="_top"/>
+  <anchor x="80" y="807" name="top"/>
+  <anchor x="-9" y="725" name="top_alef"/>
   <outline>
-    <component base=".notdef"/>
+    <component base="leftarrowheadabove-ar" xScale="-1" xOffset="139" yOffset="50"/>
+    <component base="leftarrowheadabove-ar" xScale="-0.99996" xyScale="-0.00841" yxScale="-0.00841" yScale="0.99996" xOffset="214" yOffset="-1"/>
   </outline>
   <lib>
     <dict>

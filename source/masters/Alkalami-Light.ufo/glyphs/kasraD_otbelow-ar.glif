@@ -2,10 +2,10 @@
 <glyph name="kasraDotbelow-ar" format="2">
   <unicode hex="08F6"/>
   <anchor x="123" y="-49" name="_bottom"/>
-  <anchor x="121" y="-254" name="bottom"/>
+  <anchor x="121" y="-230" name="bottom"/>
   <outline>
     <component base="fatha-ar" yOffset="-674"/>
-    <component base="dotabove-ar" xScale="0.69834" yScale="0.69834" xOffset="48" yOffset="-463"/>
+    <component base="dotabove-ar" xScale="0.51334" yScale="0.51334" xOffset="68" yOffset="-382"/>
   </outline>
   <lib>
     <dict>

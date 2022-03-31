@@ -6,7 +6,7 @@
   <anchor x="111" y="-291" name="bottom"/>
   <outline>
     <component base="fatha-ar" yOffset="-674"/>
-    <component base="dotabove-ar" xScale="0.69834" yScale="0.69834" xOffset="40" yOffset="-487"/>
+    <component base="dotabove-ar" xScale="0.54036" yScale="0.54036" xOffset="57" yOffset="-423"/>
   </outline>
   <lib>
     <dict>

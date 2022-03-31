@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="doublerightarrowheadDotabove-ar" format="2">
-  <advance width="1033"/>
   <unicode hex="08FC"/>
+  <anchor x="99" y="557" name="_top"/>
+  <anchor x="86" y="820" name="top"/>
+  <anchor x="-13" y="777" name="top_alef"/>
   <outline>
-    <component base=".notdef"/>
+    <component base="doublerightarrowheadabove-ar" xOffset="16"/>
+    <component base="dotabove-ar" xScale="0.51334" yScale="0.51334" xOffset="-33" yOffset="520"/>
   </outline>
   <lib>
     <dict>

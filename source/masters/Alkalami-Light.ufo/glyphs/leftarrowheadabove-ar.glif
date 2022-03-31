@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="leftarrowheadabove-ar" format="2">
-  <advance width="1033"/>
   <unicode hex="08F7"/>
+  <anchor x="80" y="539" name="_top"/>
+  <anchor x="87" y="770" name="top"/>
+  <anchor x="-14" y="719" name="top_alef"/>
   <outline>
-    <component base=".notdef"/>
+    <contour>
+      <point x="73" y="726" type="curve" smooth="yes"/>
+      <point x="76" y="732"/>
+      <point x="42" y="746"/>
+      <point x="40" y="741" type="curve" smooth="yes"/>
+      <point x="22" y="692"/>
+      <point x="14" y="615"/>
+      <point x="20" y="605" type="curve"/>
+      <point x="23" y="599"/>
+      <point x="54" y="590"/>
+      <point x="70" y="587" type="curve" smooth="yes"/>
+      <point x="93" y="582"/>
+      <point x="138" y="580"/>
+      <point x="144" y="583" type="curve" smooth="yes"/>
+      <point x="148" y="586"/>
+      <point x="156" y="598"/>
+      <point x="159" y="614" type="curve"/>
+      <point x="106" y="613"/>
+      <point x="57" y="621"/>
+      <point x="52" y="628" type="curve" smooth="yes"/>
+      <point x="46" y="640"/>
+      <point x="63" y="704"/>
+    </contour>
   </outline>
   <lib>
     <dict>

@@ -30,9 +30,9 @@
     <string>/noon-ar.medi.flat/noonghunna-ar.medi.flat/behDotless-ar.medi.flat/noonghunnaabove-ar</string>
     <string>/alefFathaattached-ar/space/alefFathaattached-ar.fina/space/alefRightmiddlestroke-ar/space/alefRightmiddlestroke-ar.fina/space/alefKasraattached-ar/space/alefKasraattached-ar.fina/space/space 
 </string>
-    <string>/noonghunnaabove-ar/dammainverted-ar/dammareversed-ar/wawSmall-ar/number-ar/number-ar.2/number-ar.3/fathaRing-ar/space/space/fatha-ar/space/space/fathaDotabove-ar/space 
-/kasra-ar/space/space/kasraDotbelow-ar/space/kasratan-ar/space/space/leftarrowheadabove-ar/space/rightarrowheadabove-ar/leftarrowheadbelow-ar 
-/rightarrowheadbelow-ar/doublerightarrowheadabove-ar/doublerightarrowheadDotabove-ar/rightarrowheadDotabove-ar</string>
+    <string>/noonghunnaabove-ar/leftarrowheadabove-ar/space/dammainverted-ar/damma-ar/space/space/dammareversed-ar/space/space/waw-ar.fina/lam-ar.medi/meem-ar.init/wawSmall-ar/space/yehabove-ar/yehbarree-ar/waw-ar 
+/number-ar/number-ar.2/number-ar.3/fathaRing-ar 
+/space/space/fatha-ar/space/space/fathaDotabove-ar/space/kasra-ar/space/space/kasraDotbelow-ar/space/kasratan-ar/space/damma-ar/space/space/dammatan-ar/space/space/leftarrowheadabove-ar/space/space/rightarrowheadabove-ar/space/space/leftarrowheadbelow-ar/space/shadda-ar/space/rightarrowheadbelow-ar/space/doublerightarrowheadabove-ar/space/space/dotabove-ar/space/threedots-ar.small/space/doublerightarrowheadDotabove-ar/space/space/space/rightarrowheadDotabove-ar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
