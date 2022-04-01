@@ -40,12 +40,12 @@ Alternate | <span dir="rtl" class='alkalami-R normal' style='font-feature-settin
 
 #### Jeem/Hah stacking (ss07)
 
-<span class='affects'>Affects: U+062C, U+062D, U+062E, U+0683</span>
+<span class='affects'>Affects: U+062C, U+062D, U+062E, U+0683, U+0684, U+08A2</span>
 
 Feature | Sample | Feature setting
 ------------- | ------ | -------------
-Standard | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss07" 0'>ج ججج ح ححح خ خخخ ڃ ڃڃڃ</span>| `ss07=0`
-Alternate | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss07" 1'>ج ججج ح ححح خ خخخ ڃ ڃڃڃ</span>| `ss07=1`
+Standard | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss07" 0'>ج ججج ح ححح خ خخخ ڃ ڃڃڃ ڄ ڄڄڄ ࢢ ࢢࢢࢢ</span>| `ss07=0`
+Alternate | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss07" 1'>ج ججج ح ححح خ خخخ ڃ ڃڃڃ ڄ ڄڄڄ ࢢ ࢢࢢࢢ</span>| `ss07=1`
 
 #### Wagaf small (ss09)
 
