@@ -28,6 +28,12 @@ languagesystem latn dflt;
 
 @hahFinals_alt = [ hah-ar.fina.alt jeem-ar.fina.alt khah-ar.fina.alt nyeh-ar.fina.alt dyeh-ar.fina.alt jeemTwodotsabove-ar.fina.alt ];
 
+@dalIsol =           [ dal-ar thal-ar];
+@dalIsol_alt =       [ dal-ar.alt thal-ar.alt];
+
+@behIsol =           [ beh-ar      beeh-ar      behThreedotsupabove-ar       peh-ar      behThreedotsupbelow-ar      behhamzaabove-ar behVinvertedbelow-ar behVbelow-ar];
+@behInit =           [ beh-ar.init beeh-ar.init behThreedotsupabove-ar.init  peh-ar.init behThreedotsupbelow-ar.init behhamzaabove-ar.init behVinvertedbelow-ar.init behVbelow-ar.init];
+
 @seenInit =          [ seen-ar.init          sheen-ar.init ];
 @seenFina =          [ seen-ar.fina          sheen-ar.fina ];
 @seenFina_longtail = [ seen-ar.fina.longtail sheen-ar.fina.longtail];
@@ -49,7 +55,7 @@ languagesystem latn dflt;
                        yehTwodotsbelowDotabove-ar];
 @yehIsol_shrtail =   [ yehHamzaabove-ar.shrtail 
                        yehThreedotsabove-farsi.shrtail 
-                       yehThreedotsabove-farsi.ss09.shrtail
+                       yehThreedotsabove-farsi.shrtail.ss09
                        alefMaksura-ar.shrtail 
                        yeh-ar.shrtail 
                        yeh-ar.shrtail.ss01 
@@ -60,7 +66,7 @@ languagesystem latn dflt;
                        yehTwodotsbelowDotabove-ar.shrtail];
 @yehIsol_longtail =   [ yehHamzaabove-ar.longtail 
                         yehThreedotsabove-farsi.longtail 
-                        yehThreedotsabove-farsi.ss09.longtail
+                        yehThreedotsabove-farsi.longtail.ss09
                         alefMaksura-ar.longtail 
                         yeh-ar.longtail 
                         yeh-ar.longtail.ss01 
@@ -82,7 +88,7 @@ languagesystem latn dflt;
                        yehTwodotsbelowDotabove-ar.fina];
 @yehFina_shrtail =   [ yehHamzaabove-ar.fina.shrtail 
                        yehThreedotsabove-farsi.fina.shrtail 
-                       yehThreedotsabove-farsi.fina.ss09.shrtail
+                       yehThreedotsabove-farsi.fina.shrtail.ss09
                        alefMaksura-ar.fina.shrtail 
                        yeh-ar.fina.shrtail 
                        yeh-ar.fina.shrtail.ss01 
@@ -93,7 +99,7 @@ languagesystem latn dflt;
                        yehTwodotsbelowDotabove-ar.fina.shrtail];
 @yehFina_longtail =   [ yehHamzaabove-ar.fina.longtail 
                         yehThreedotsabove-farsi.fina.longtail 
-                        yehThreedotsabove-farsi.fina.ss09.longtail
+                        yehThreedotsabove-farsi.fina.longtail.ss09
                         alefMaksura-ar.fina.longtail 
                         yeh-ar.fina.longtail 
                         yeh-ar.fina.longtail.ss01 
@@ -447,8 +453,6 @@ languagesystem latn dflt;
 	yehTwodotsbelowHamzaabove-ar.fina
 	yehTwodotsbelowDotabove-ar.fina
 	yehThreedotsbelow-ar.fina
-	yehThreedotsabove-farsi.fina
-	yehThreedotsabove-farsi.fina.ss09
 	yeh-farsi.fina
 	yeh-farsi.fina.ss05
 	yehHamzaabove-ar.fina
@@ -467,15 +471,13 @@ languagesystem latn dflt;
 	ainTwodotshorizontalabove-ar.fina.low
 	ghain-ar.fina.low
 	ghainThreedotsabove-ar.fina.low
-	ghainThreedotsabove-ar.fina.ss09.low
+	ghainThreedotsabove-ar.fina.low.ss09
 	seen-ar.fina.low
 	sheen-ar.fina.low
 	yeh-ar.fina.low
 	yehTwodotsbelowHamzaabove-ar.fina.low
 	yehTwodotsbelowDotabove-ar.fina.low
 	yehThreedotsbelow-ar.fina.low
-	yehThreedotsabove-farsi.fina.low
-	yehThreedotsabove-farsi.fina.ss09.low
 	yeh-farsi.fina.low
 	yeh-farsi.fina.ss05.low
 	yehHamzaabove-ar.fina.low
@@ -484,7 +486,7 @@ languagesystem latn dflt;
 	alef-ar.wide.fina.low
 	alef-ar.wideshort.fina.low
 	yehThreedotsabove-farsi.fina.low
-	yehThreedotsabove-farsi.fina.ss09.low
+	yehThreedotsabove-farsi.fina.low.ss09
 ];
 
 # Slightly shorter tail for yeh-barree before beh/yeh/noon forms:
@@ -1086,14 +1088,17 @@ feature rlig {
 } rlig;
 
 # None of these classes exist: @cno_longtail @c_shrtail @c_longtail 
-@c_tailStd =   [ @cno_longtail noon-ar.ss01           noon-ar.fina.ss01      yeh-ar.ss01           yeh-ar.fina.ss01];
-@c_tailShort = [ @c_shrtail    noon-ar.shrtail.ss01   noon-ar.shrtail.ss01   yeh-ar.shrtail.ss01   yeh-ar.fina.shrtail.ss01];
-@c_tailLong =  [ @c_longtail   noon-ar.longtail.ss01  noon-ar.longtail.ss01  yeh-ar.longtail.ss01  yeh-ar.fina.longtail.ss01];
+@c_tailStd =   [ @cno_longtail noon-ar.ss01           noon-ar.fina.ss01      yeh-ar.ss01           yeh-ar.fina.ss01
+                               yeh-farsi.ss05 yeh-farsi.fina.ss05 yehThreedotsabove-farsi.ss09 yehThreedotsabove-farsi.fina.ss09];
+@c_tailShort = [ @c_shrtail    noon-ar.shrtail.ss01   noon-ar.shrtail.ss01   yeh-ar.shrtail.ss01   yeh-ar.fina.shrtail.ss01
+                               yeh-farsi.shrtail.ss05 yeh-farsi.fina.shrtail.ss05 yehThreedotsabove-farsi.shrtail.ss09 yehThreedotsabove-farsi.fina.shrtail.ss09];
+@c_tailLong =  [ @c_longtail   noon-ar.longtail.ss01  noon-ar.longtail.ss01  yeh-ar.longtail.ss01  yeh-ar.fina.longtail.ss01
+                               yeh-farsi.longtail.ss05 yeh-farsi.fina.longtail.ss05 yehThreedotsabove-farsi.longtail.ss09 yehThreedotsabove-farsi.fina.longtail.ss09];
 
-#@cno_numAlt = [zero   one     two     three     four     five     six     seven     eight     nine];
-#@c_numAlt = [zero.small one.alt two.small three.small four.small five.small six.small seven.small eight.small nine.small];
+#@cno_numAlt   = [zero   one     two     three     four     five     six     seven     eight     nine];
+#@c_numAlt     = [zero.small one.alt two.small three.small four.small five.small six.small seven.small eight.small nine.small];
 #@cno_numArAlt = [zero-ar   one-ar     two-ar     three-ar     four-ar     five-ar     six-ar     seven-ar     eight-ar     nine-ar];
-#@c_numArAlt = [zero-ar.small one-ar.small two-ar.small three-ar.small four-ar.small five-ar.small six-ar.small seven-ar.small eight-ar.small nine-ar.small];
+#@c_numArAlt   = [zero-ar.small one-ar.small two-ar.small three-ar.small four-ar.small five-ar.small six-ar.small seven-ar.small eight-ar.small nine-ar.small];
 
 feature salt {
 	lookup salt_lkp {
@@ -1187,57 +1192,51 @@ feature calt {
 
 	lookup calt_lkp2 {
 		lookupflag IgnoreMarks;
-		# subs to avoid collisions in strings with dal-ar
-		sub seen-ar space-ar dal-ar' by dal-ar.alt;
-		sub seen-ar space-ar thal-ar' by thal-ar.alt;
-		sub sheen-ar space-ar dal-ar' by dal-ar.alt;
-		sub sheen-ar space-ar thal-ar' by thal-ar.alt;
+		# subs to avoid collisions in strings with dal-ar (seems to work)
+		sub @seenIsol space-ar @dalIsol' by @dalIsol_alt;
 
 		# subs to avoid collisions in strings with yeh-ar
 		sub @yehIsol' comma-ar space-ar waw-ar by @yehIsol_shrtail;
+		sub @yehIsol' space-ar waw-ar by @yehIsol_longtail;
 		sub @yehFina' space-ar lam-ar.init reh-ar.fina by @yehFina_shrtail;
 		sub @yehFina' space-ar ghain-ar by @yehFina_shrtail;
 		sub @yehFina' space-ar reh-ar by @yehFina_longtail;
 		sub @yehFina' space-ar waw-ar by @yehFina_longtail;
 
 		# subs to avoid collisions in strings with noon-ar
-		sub @noonIsol' space-ar seen-ar by @noonIsol_longtail;
-		sub @noonIsol' space-ar teh-ar.init waw-ar.fina by @noonIsol_longtail;
-		sub @noonIsol' space-ar teh-ar.init noon-ar.fina by @noonIsol_longtail;
-		sub @noonIsol' space-ar theh-ar.init noon-ar.fina by @noonIsol_longtail;
-		sub @noonIsol' space-ar dal-ar waw-ar by @noonIsol_longtail;
-		sub @noonIsol' space-ar beh-ar.init by @noonIsol_longtail;
-		sub @noonIsol' space-ar beh-ar by @noonIsol_longtail;
-		sub @noonIsol' space-ar beeh-ar.init by @noonIsol_longtail;
-		sub @noonIsol' space-ar beeh-ar by @noonIsol_longtail;
-		sub @noonIsol' space-ar noon-ar.init noon-ar.fina by @noonIsol_longtail;
+		sub @noonIsol' space-ar @seenIsol by @noonIsol_longtail;
+		sub @noonIsol' space-ar teh-ar.init @wawFina by @noonIsol_longtail;
+		sub @noonIsol' space-ar teh-ar.init @noonFina by @noonIsol_longtail;
+		sub @noonIsol' space-ar theh-ar.init @noonFina by @noonIsol_longtail;
+		sub @noonIsol' space-ar @dalIsol @wawIsol by @noonIsol_longtail;
+		sub @noonIsol' space-ar @behInit by @noonIsol_longtail;
+		sub @noonIsol' space-ar @behIsol by @noonIsol_longtail;
+		sub @noonIsol' space-ar noon-ar.init @noonFina by @noonIsol_longtail;
 
-		sub @noonFina' space-ar teh-ar.init waw-ar.fina by @noonFina_longtail;
-		sub @noonFina' space-ar dal-ar waw-ar by @noonFina_longtail;
-		sub @noonFina' space-ar beh-ar.init by @noonFina_longtail;
-		sub @noonFina' space-ar beh-ar by @noonFina_longtail;
-		sub @noonFina' space-ar beeh-ar.init by @noonFina_longtail;
-		sub @noonFina' space-ar beeh-ar by @noonFina_longtail;
-		sub @noonFina' space-ar seen-ar.init waw-ar.fina by @noonFina_longtail;
-		sub @noonFina' space-ar seen-ar.init noon-ar.fina by @noonFina_longtail;
+		sub @noonFina' space-ar teh-ar.init @wawFina by @noonFina_longtail;
+		sub @noonFina' space-ar @dalIsol @wawIsol by @noonFina_longtail;
+		sub @noonFina' space-ar @behInit by @noonFina_longtail;
+		sub @noonFina' space-ar @behIsol by @noonFina_longtail;
+		sub @noonFina' space-ar @seenInit @wawFina by @noonFina_longtail;
+		sub @noonFina' space-ar @seenInit @noonFina by @noonFina_longtail;
 		sub @noonFina' space-ar reh-ar by @noonFina_longtail;
 
     # does not work
-		sub @noonIsol' space-ar seen-ar.init waw-ar.fina by @noonIsol_longtail;
-		sub @noonIsol' space-ar seen-ar.init noon-ar.fina by @noonIsol_longtail;
+		sub @noonIsol' space-ar @seenInit @wawFina by @noonIsol_longtail;
+		sub @noonIsol' space-ar @seenInit @noonFina by @noonIsol_longtail;
 		sub @noonIsol' space-ar reh-ar by @noonIsol_longtail;
-		sub @noonFina' space-ar seen-ar by @noonFina_longtail;
-		sub @noonFina' space-ar teh-ar.init noon-ar.fina by @noonFina_longtail;
-		sub @noonFina' space-ar theh-ar.init noon-ar.fina by @noonFina_longtail;
-		sub @noonFina' space-ar noon-ar.init noon-ar.fina by @noonFina_longtail;
+		sub @noonFina' space-ar @seenIsol by @noonFina_longtail;
+		sub @noonFina' space-ar teh-ar.init @noonFina by @noonFina_longtail;
+		sub @noonFina' space-ar theh-ar.init @noonFina by @noonFina_longtail;
+		sub @noonFina' space-ar noon-ar.init @noonFina by @noonFina_longtail;
 
-		# subs to avoid collisions in strings with seen-ar
-		sub @seenIsol' space-ar @seenInit waw-ar.fina by @seenIsol_shrtail;
-		sub @seenIsol' space-ar beh-ar.init by @seenIsol_longtail;
-		sub @seenFina' space-ar @seenInit waw-ar.fina by @seenFina_shrtail;
-		sub @seenFina' space-ar beh-ar.init by @seenFina_longtail;
+		# subs to avoid collisions in strings with seen-ar (seems to work)
+		sub @seenIsol' space-ar @seenInit @wawFina by @seenIsol_shrtail;
+		sub @seenIsol' space-ar @behInit by @seenIsol_longtail;
+		sub @seenFina' space-ar @seenInit @wawFina by @seenFina_shrtail;
+		sub @seenFina' space-ar @behInit by @seenFina_longtail;
 		sub @seenFina' space-ar alefHamzabelow-ar reh-ar by @seenFina_longtail;
-		sub @seenFina' space-ar alefHamzaabove-ar waw-ar by @seenFina_longtail;
+		sub @seenFina' space-ar alefHamzaabove-ar @wawIsol by @seenFina_longtail;
 		sub @seenFina' space-ar @ainIsol by @seenFina_longtail;
 
 		# subs to avoid collisions in strings with waw-ar

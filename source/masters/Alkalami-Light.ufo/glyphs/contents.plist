@@ -828,10 +828,10 @@
   <string>ghainT_hreedotsabove-ar.fina.glif</string>
   <key>ghainThreedotsabove-ar.fina.low</key>
   <string>ghainT_hreedotsabove-ar.fina.low.glif</string>
+  <key>ghainThreedotsabove-ar.fina.low.ss09</key>
+  <string>ghainT_hreedotsabove-ar.fina.low.ss09.glif</string>
   <key>ghainThreedotsabove-ar.fina.ss09</key>
   <string>ghainT_hreedotsabove-ar.fina.ss09.glif</string>
-  <key>ghainThreedotsabove-ar.fina.ss09.low</key>
-  <string>ghainT_hreedotsabove-ar.fina.ss09.low.glif</string>
   <key>ghainThreedotsabove-ar.init</key>
   <string>ghainT_hreedotsabove-ar.init.glif</string>
   <key>ghainThreedotsabove-ar.init.ss09</key>
@@ -1912,6 +1912,14 @@
   <string>yeh-farsi.shrtail.glif</string>
   <key>yeh-farsi.ss05</key>
   <string>yeh-farsi.ss05.glif</string>
+  <key>yeh-farsi.shrtail.ss05</key>
+  <string>yeh-farsi.shrtail.ss05.glif</string>
+  <key>yeh-farsi.longtail.ss05</key>
+  <string>yeh-farsi.longtail.ss05.glif</string>
+  <key>yeh-farsi.fina.shrtail.ss05</key>
+  <string>yeh-farsi.fina.shrtail.ss05.glif</string>
+  <key>yeh-farsi.fina.longtail.ss05</key>
+  <string>yeh-farsi.fina.longtail.ss05.glif</string>
   <key>yehHamzaabove-ar</key>
   <string>yehH_amzaabove-ar.glif</string>
   <key>yehHamzaabove-ar.fina</key>
@@ -1938,28 +1946,26 @@
   <string>yehT_hreedotsabove-farsi.fina.glif</string>
   <key>yehThreedotsabove-farsi.fina.longtail</key>
   <string>yehT_hreedotsabove-farsi.fina.longtail.glif</string>
+  <key>yehThreedotsabove-farsi.fina.longtail.ss09</key>
+  <string>yehT_hreedotsabove-farsi.fina.longtail.ss09.glif</string>
   <key>yehThreedotsabove-farsi.fina.low</key>
   <string>yehT_hreedotsabove-farsi.fina.low.glif</string>
+  <key>yehThreedotsabove-farsi.fina.low.ss09</key>
+  <string>yehT_hreedotsabove-farsi.fina.low.ss09.glif</string>
   <key>yehThreedotsabove-farsi.fina.shrtail</key>
   <string>yehT_hreedotsabove-farsi.fina.shrtail.glif</string>
-  <key>yehThreedotsabove-farsi.fina.ss05</key>
-  <string>yehT_hreedotsabove-farsi.fina.ss05.glif</string>
-  <key>yehThreedotsabove-farsi.fina.ss05.low</key>
-  <string>yehT_hreedotsabove-farsi.fina.ss05.low.glif</string>
+  <key>yehThreedotsabove-farsi.fina.shrtail.ss09</key>
+  <string>yehT_hreedotsabove-farsi.fina.shrtail.ss09.glif</string>
   <key>yehThreedotsabove-farsi.fina.ss09</key>
   <string>yehT_hreedotsabove-farsi.fina.ss09.glif</string>
-  <key>yehThreedotsabove-farsi.fina.ss09.longtail</key>
-  <string>yehT_hreedotsabove-farsi.fina.ss09.longtail.glif</string>
-  <key>yehThreedotsabove-farsi.fina.ss09.low</key>
-  <string>yehT_hreedotsabove-farsi.fina.ss09.low.glif</string>
-  <key>yehThreedotsabove-farsi.fina.ss09.shrtail</key>
-  <string>yehT_hreedotsabove-farsi.fina.ss09.shrtail.glif</string>
   <key>yehThreedotsabove-farsi.init</key>
   <string>yehT_hreedotsabove-farsi.init.glif</string>
   <key>yehThreedotsabove-farsi.init.ss09</key>
   <string>yehT_hreedotsabove-farsi.init.ss09.glif</string>
   <key>yehThreedotsabove-farsi.longtail</key>
   <string>yehT_hreedotsabove-farsi.longtail.glif</string>
+  <key>yehThreedotsabove-farsi.longtail.ss09</key>
+  <string>yehT_hreedotsabove-farsi.longtail.ss09.glif</string>
   <key>yehThreedotsabove-farsi.medi</key>
   <string>yehT_hreedotsabove-farsi.medi.glif</string>
   <key>yehThreedotsabove-farsi.medi.flat</key>
@@ -1970,14 +1976,12 @@
   <string>yehT_hreedotsabove-farsi.medi.ss09.glif</string>
   <key>yehThreedotsabove-farsi.shrtail</key>
   <string>yehT_hreedotsabove-farsi.shrtail.glif</string>
+  <key>yehThreedotsabove-farsi.shrtail.ss09</key>
+  <string>yehT_hreedotsabove-farsi.shrtail.ss09.glif</string>
   <key>yehThreedotsabove-farsi.ss05</key>
   <string>yehT_hreedotsabove-farsi.ss05.glif</string>
   <key>yehThreedotsabove-farsi.ss09</key>
   <string>yehT_hreedotsabove-farsi.ss09.glif</string>
-  <key>yehThreedotsabove-farsi.ss09.longtail</key>
-  <string>yehT_hreedotsabove-farsi.ss09.longtail.glif</string>
-  <key>yehThreedotsabove-farsi.ss09.shrtail</key>
-  <string>yehT_hreedotsabove-farsi.ss09.shrtail.glif</string>
   <key>yehThreedotsbelow-ar</key>
   <string>yehT_hreedotsbelow-ar.glif</string>
   <key>yehThreedotsbelow-ar.fina</key>

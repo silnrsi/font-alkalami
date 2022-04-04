@@ -583,9 +583,9 @@
     <string>ghainThreedotsabove-ar.fina.ss09</string>
     <string>ghainThreedotsabove-ar.medi.ss09</string>
     <string>ghainThreedotsabove-ar.init.ss09</string>
-    <string>ghainThreedotsabove-ar.medi.flat.ss09</string>
+    <string>ghainThreedotsabove-ar.medi.ss09.flat</string>
     <string>ghainThreedotsabove-ar.fina.low</string>
-    <string>ghainThreedotsabove-ar.fina.ss09.low</string>
+    <string>ghainThreedotsabove-ar.fina.low.ss09</string>
     <string>feh-ar</string>
     <string>feh-ar.fina</string>
     <string>feh-ar.medi</string>
@@ -860,12 +860,12 @@
     <string>yehThreedotsabove-farsi.fina.ss09</string>
     <string>yehThreedotsabove-farsi.medi.ss09</string>
     <string>yehThreedotsabove-farsi.init.ss09</string>
-    <string>yehThreedotsabove-farsi.ss09.shrtail</string>
-    <string>yehThreedotsabove-farsi.fina.ss09.shrtail</string>
-    <string>yehThreedotsabove-farsi.ss09.longtail</string>
-    <string>yehThreedotsabove-farsi.fina.ss09.longtail</string>
+    <string>yehThreedotsabove-farsi.shrtail.ss09</string>
+    <string>yehThreedotsabove-farsi.fina.shrtail.ss09</string>
+    <string>yehThreedotsabove-farsi.longtail.ss09</string>
+    <string>yehThreedotsabove-farsi.fina.longtail.ss09</string>
     <string>yehThreedotsabove-farsi.medi.flat.ss09</string>
-    <string>yehThreedotsabove-farsi.fina.ss09.low</string>
+    <string>yehThreedotsabove-farsi.fina.low.ss09</string>
     <string>e-ar</string>
     <string>e-ar.fina</string>
     <string>e-ar.medi</string>
@@ -962,6 +962,7 @@
     <string>endofayah-ar.alt2.ss03</string>
     <string>endofayah-ar.alt3.ss03</string>
     <string>allah-ar</string>
+    <string>bismillah-ar</string>
     <string>fathaRing-ar</string>
     <string>fathaDotabove-ar</string>
     <string>kasraDotbelow-ar</string>
@@ -1636,9 +1637,9 @@
     <string>ghainThreedotsabove-ar.fina.ss09</string>
     <string>ghainThreedotsabove-ar.medi.ss09</string>
     <string>ghainThreedotsabove-ar.init.ss09</string>
-    <string>ghainThreedotsabove-ar.medi.flat.ss09</string>
+    <string>ghainThreedotsabove-ar.medi.ss09.flat</string>
     <string>ghainThreedotsabove-ar.fina.low</string>
-    <string>ghainThreedotsabove-ar.fina.ss09.low</string>
+    <string>ghainThreedotsabove-ar.fina.low.ss09</string>
     <string>feh-ar</string>
     <string>feh-ar.fina</string>
     <string>feh-ar.medi</string>
@@ -1913,12 +1914,12 @@
     <string>yehThreedotsabove-farsi.fina.ss09</string>
     <string>yehThreedotsabove-farsi.medi.ss09</string>
     <string>yehThreedotsabove-farsi.init.ss09</string>
-    <string>yehThreedotsabove-farsi.ss09.shrtail</string>
-    <string>yehThreedotsabove-farsi.fina.ss09.shrtail</string>
-    <string>yehThreedotsabove-farsi.ss09.longtail</string>
-    <string>yehThreedotsabove-farsi.fina.ss09.longtail</string>
+    <string>yehThreedotsabove-farsi.shrtail.ss09</string>
+    <string>yehThreedotsabove-farsi.fina.shrtail.ss09</string>
+    <string>yehThreedotsabove-farsi.longtail.ss09</string>
+    <string>yehThreedotsabove-farsi.fina.longtail.ss09</string>
     <string>yehThreedotsabove-farsi.medi.flat.ss09</string>
-    <string>yehThreedotsabove-farsi.fina.ss09.low</string>
+    <string>yehThreedotsabove-farsi.fina.low.ss09</string>
     <string>e-ar</string>
     <string>e-ar.fina</string>
     <string>e-ar.medi</string>
@@ -2015,6 +2016,7 @@
     <string>endofayah-ar.alt2.ss03</string>
     <string>endofayah-ar.alt3.ss03</string>
     <string>allah-ar</string>
+    <string>bismillah-ar</string>
     <string>fathaRing-ar</string>
     <string>fathaDotabove-ar</string>
     <string>kasraDotbelow-ar</string>
@@ -2448,6 +2450,8 @@
     <string>uni08A1.medi</string>
     <key>behhamzaabove-ar.medi.flat</key>
     <string>uni08A1.medi.flat</string>
+    <key>bismillah-ar</key>
+    <string>uniFDFD</string>
     <key>blank</key>
     <string>uni2423</string>
     <key>breve-cy</key>
@@ -2714,10 +2718,10 @@
     <string>uni08C3.fina</string>
     <key>ghainThreedotsabove-ar.fina.low</key>
     <string>uni08C3.fina.low</string>
+    <key>ghainThreedotsabove-ar.fina.low.ss09</key>
+    <string>uni08C3.fina.low.ss09</string>
     <key>ghainThreedotsabove-ar.fina.ss09</key>
     <string>uni08C3.fina.ss09</string>
-    <key>ghainThreedotsabove-ar.fina.ss09.low</key>
-    <string>uni08C3.fina.ss09.low</string>
     <key>ghainThreedotsabove-ar.init</key>
     <string>uni08C3.init</string>
     <key>ghainThreedotsabove-ar.init.ss09</key>
@@ -2726,10 +2730,10 @@
     <string>uni08C3.medi</string>
     <key>ghainThreedotsabove-ar.medi.flat</key>
     <string>uni08C3.medi.flat</string>
-    <key>ghainThreedotsabove-ar.medi.flat.ss09</key>
-    <string>uni08C3.medi.flat.ss09</string>
     <key>ghainThreedotsabove-ar.medi.ss09</key>
     <string>uni08C3.medi.ss09</string>
+    <key>ghainThreedotsabove-ar.medi.ss09.flat</key>
+    <string>uni08C3.medi.flat.ss09</string>
     <key>ghainThreedotsabove-ar.ss09</key>
     <string>uni08C3.ss09</string>
     <key>graphemejoinercomb</key>
@@ -3584,24 +3588,26 @@
     <string>uni063F.fina</string>
     <key>yehThreedotsabove-farsi.fina.longtail</key>
     <string>uni063F.fina.longtail</string>
+    <key>yehThreedotsabove-farsi.fina.longtail.ss09</key>
+    <string>uni063F.fina.longtail.ss09</string>
     <key>yehThreedotsabove-farsi.fina.low</key>
     <string>uni063F.fina.low</string>
+    <key>yehThreedotsabove-farsi.fina.low.ss09</key>
+    <string>uni063F.fina.low.ss09</string>
     <key>yehThreedotsabove-farsi.fina.shrtail</key>
     <string>uni063F.fina.shrtail</string>
+    <key>yehThreedotsabove-farsi.fina.shrtail.ss09</key>
+    <string>uni063F.fina.shrtail.ss09</string>
     <key>yehThreedotsabove-farsi.fina.ss09</key>
     <string>uni063F.fina.ss09</string>
-    <key>yehThreedotsabove-farsi.fina.ss09.longtail</key>
-    <string>uni063F.fina.ss09.longtail</string>
-    <key>yehThreedotsabove-farsi.fina.ss09.low</key>
-    <string>uni063F.fina.ss09.low</string>
-    <key>yehThreedotsabove-farsi.fina.ss09.shrtail</key>
-    <string>uni063F.fina.ss09.shrtail</string>
     <key>yehThreedotsabove-farsi.init</key>
     <string>uni063F.init</string>
     <key>yehThreedotsabove-farsi.init.ss09</key>
     <string>uni063F.init.ss09</string>
     <key>yehThreedotsabove-farsi.longtail</key>
     <string>uni063F.longtail</string>
+    <key>yehThreedotsabove-farsi.longtail.ss09</key>
+    <string>uni063F.longtail.ss09</string>
     <key>yehThreedotsabove-farsi.medi</key>
     <string>uni063F.medi</string>
     <key>yehThreedotsabove-farsi.medi.flat</key>
@@ -3612,12 +3618,10 @@
     <string>uni063F.medi.ss09</string>
     <key>yehThreedotsabove-farsi.shrtail</key>
     <string>uni063F.shrtail</string>
+    <key>yehThreedotsabove-farsi.shrtail.ss09</key>
+    <string>uni063F.shrtail.ss09</string>
     <key>yehThreedotsabove-farsi.ss09</key>
     <string>uni063F.ss09</string>
-    <key>yehThreedotsabove-farsi.ss09.longtail</key>
-    <string>uni063F.ss09.longtail</string>
-    <key>yehThreedotsabove-farsi.ss09.shrtail</key>
-    <string>uni063F.ss09.shrtail</string>
     <key>yehThreedotsbelow-ar</key>
     <string>uni06D1</string>
     <key>yehThreedotsbelow-ar.fina</key>

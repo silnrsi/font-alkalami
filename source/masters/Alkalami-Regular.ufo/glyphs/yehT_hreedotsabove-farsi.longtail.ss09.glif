@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="yehThreedotsabove-farsi.ss09.shrtail" format="2">
-  <advance width="522"/>
-  <anchor x="411" y="-139" name="bottom"/>
+<glyph name="yehThreedotsabove-farsi.longtail.ss09" format="2">
+  <advance width="524"/>
+  <anchor x="401" y="-139" name="bottom"/>
   <outline>
-    <component base="alefMaksura-ar.shrtail"/>
+    <component base="alefMaksura-ar.longtail"/>
     <component base="threedots-ar.small" xOffset="47" yOffset="336"/>
   </outline>
   <lib>
