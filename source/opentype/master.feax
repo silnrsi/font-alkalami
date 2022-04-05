@@ -31,6 +31,8 @@ languagesystem latn dflt;
 @dalIsol =           [ dal-ar thal-ar];
 @dalIsol_alt =       [ dal-ar.alt thal-ar.alt];
 
+@rehIsol =           [ reh-ar zain-ar];
+
 @behIsol =           [ beh-ar      beeh-ar      behThreedotsupabove-ar       peh-ar      behThreedotsupbelow-ar      behhamzaabove-ar behVinvertedbelow-ar behVbelow-ar];
 @behInit =           [ beh-ar.init beeh-ar.init behThreedotsupabove-ar.init  peh-ar.init behThreedotsupbelow-ar.init behhamzaabove-ar.init behVinvertedbelow-ar.init behVbelow-ar.init];
 
@@ -110,9 +112,12 @@ languagesystem latn dflt;
                         yehTwodotsbelowDotabove-ar.fina.longtail];
 
 @noonIsol = [	noon-ar noonghunna-ar noonTwodotsbelow-ar noonAfrican-ar ];
+@noonInit = [	noon-ar.init noonghunna-ar.init noonTwodotsbelow-ar.init noonAfrican-ar.init ];
 @noonFina = [	noon-ar.fina noonghunna-ar.fina noonTwodotsbelow-ar.fina noonAfrican-ar.fina ];
 @noonIsol_longtail = [ noon-ar.longtail noonghunna-ar.longtail noonTwodotsbelow-ar.longtail noonAfrican-ar.longtail ];
+@noonIsol_shrtail = [ noon-ar.shrtail noonghunna-ar.shrtail noonTwodotsbelow-ar.shrtail noonAfrican-ar.shrtail ];
 @noonFina_longtail = [ noon-ar.fina.longtail noonghunna-ar.fina.longtail noonTwodotsbelow-ar.fina.longtail noonAfrican-ar.fina.longtail ];
+@noonFina_shrtail = [ noon-ar.fina.shrtail noonghunna-ar.fina.shrtail noonTwodotsbelow-ar.fina.shrtail noonAfrican-ar.fina.shrtail ];
 @wawIsol = [ waw-ar wawHamzaabove-ar oe-ar yu-ar kirghizyu-ar ];
 @wawIsol_alt = [ waw-ar.alt wawHamzaabove-ar.alt oe-ar.alt yu-ar.alt kirghizyu-ar.alt ];
 @wawFina = [ waw-ar.fina wawHamzaabove-ar.fina oe-ar.fina yu-ar.fina kirghizyu-ar.fina ];
@@ -1192,61 +1197,58 @@ feature calt {
 
 	lookup calt_lkp2 {
 		lookupflag IgnoreMarks;
-		# subs to avoid collisions in strings with dal-ar (seems to work)
+		# subs to avoid collisions in strings with dal-ar (rule 1)
 		sub @seenIsol space-ar @dalIsol' by @dalIsol_alt;
 
-		# subs to avoid collisions in strings with yeh-ar
-		sub @yehIsol' comma-ar space-ar waw-ar by @yehIsol_shrtail;
-		sub @yehIsol' space-ar waw-ar by @yehIsol_longtail;
+		# subs to avoid collisions in strings with seen-ar (rules 2-8 , 6-7 not working)
+		sub @seenIsol' space-ar @seenInit @wawFina by @seenIsol_shrtail;
+		sub @seenIsol' space-ar @behInit by @seenIsol_longtail;
+		sub @seenFina' space-ar @behInit by @seenFina_longtail;
+		sub @seenFina' space-ar @seenInit @wawFina by @seenFina_shrtail;
+		sub @seenFina' space-ar alefHamzabelow-ar @rehIsol by @seenFina_longtail;
+		sub @seenFina' space-ar alefHamzaabove-ar @wawIsol by @seenFina_longtail;
+		sub @seenFina' space-ar @ainIsol by @seenFina_longtail;
+		
+		# subs to avoid collisions in strings with yeh-ar (rules 9-14)
+		sub @yehIsol' comma-ar space-ar @wawIsol by @yehIsol_shrtail;
+		sub @yehIsol' space-ar @wawIsol by @yehIsol_longtail;
 		sub @yehFina' space-ar lam-ar.init reh-ar.fina by @yehFina_shrtail;
-		sub @yehFina' space-ar ghain-ar by @yehFina_shrtail;
-		sub @yehFina' space-ar reh-ar by @yehFina_longtail;
-		sub @yehFina' space-ar waw-ar by @yehFina_longtail;
+		sub @yehFina' space-ar @ainIsol by @yehFina_shrtail;
+		sub @yehFina' space-ar @rehIsol by @yehFina_longtail;
+		sub @yehFina' space-ar @wawIsol by @yehFina_longtail;
 
-		# subs to avoid collisions in strings with noon-ar
+		# subs to avoid collisions in strings with noon-ar (rules 15-36)
 		sub @noonIsol' space-ar @seenIsol by @noonIsol_longtail;
 		sub @noonIsol' space-ar teh-ar.init @wawFina by @noonIsol_longtail;
 		sub @noonIsol' space-ar teh-ar.init @noonFina by @noonIsol_longtail;
 		sub @noonIsol' space-ar theh-ar.init @noonFina by @noonIsol_longtail;
 		sub @noonIsol' space-ar @dalIsol @wawIsol by @noonIsol_longtail;
-		sub @noonIsol' space-ar @behInit by @noonIsol_longtail;
 		sub @noonIsol' space-ar @behIsol by @noonIsol_longtail;
-		sub @noonIsol' space-ar noon-ar.init @noonFina by @noonIsol_longtail;
-
+		sub @noonIsol' space-ar @behInit by @noonIsol_longtail;
+		sub @noonIsol' space-ar @noonInit @noonFina by @noonIsol_longtail;
+		sub @noonIsol' space-ar @seenInit @wawFina by @noonIsol_longtail;
+		sub @noonIsol' space-ar @seenInit @noonFina by @noonIsol_longtail;
+		sub @noonIsol' space-ar @rehIsol by @noonIsol_longtail;
 		sub @noonFina' space-ar teh-ar.init @wawFina by @noonFina_longtail;
 		sub @noonFina' space-ar @dalIsol @wawIsol by @noonFina_longtail;
 		sub @noonFina' space-ar @behInit by @noonFina_longtail;
 		sub @noonFina' space-ar @behIsol by @noonFina_longtail;
-		sub @noonFina' space-ar @seenInit @wawFina by @noonFina_longtail;
-		sub @noonFina' space-ar @seenInit @noonFina by @noonFina_longtail;
-		sub @noonFina' space-ar reh-ar by @noonFina_longtail;
-
-    # does not work
-		sub @noonIsol' space-ar @seenInit @wawFina by @noonIsol_longtail;
-		sub @noonIsol' space-ar @seenInit @noonFina by @noonIsol_longtail;
-		sub @noonIsol' space-ar reh-ar by @noonIsol_longtail;
+		sub @noonFina' space-ar @seenInit @wawFina by @noonFina_shrtail;
+		sub @noonFina' space-ar @seenInit @noonFina by @noonFina_shrtail;
+		sub @noonFina' space-ar @rehIsol by @noonFina_longtail;
 		sub @noonFina' space-ar @seenIsol by @noonFina_longtail;
 		sub @noonFina' space-ar teh-ar.init @noonFina by @noonFina_longtail;
 		sub @noonFina' space-ar theh-ar.init @noonFina by @noonFina_longtail;
 		sub @noonFina' space-ar noon-ar.init @noonFina by @noonFina_longtail;
 
-		# subs to avoid collisions in strings with seen-ar (seems to work)
-		sub @seenIsol' space-ar @seenInit @wawFina by @seenIsol_shrtail;
-		sub @seenIsol' space-ar @behInit by @seenIsol_longtail;
-		sub @seenFina' space-ar @seenInit @wawFina by @seenFina_shrtail;
-		sub @seenFina' space-ar @behInit by @seenFina_longtail;
-		sub @seenFina' space-ar alefHamzabelow-ar reh-ar by @seenFina_longtail;
-		sub @seenFina' space-ar alefHamzaabove-ar @wawIsol by @seenFina_longtail;
-		sub @seenFina' space-ar @ainIsol by @seenFina_longtail;
-
-		# subs to avoid collisions in strings with waw-ar
+		# subs to avoid collisions in strings with waw-ar (rules 37-38)
 		sub @noonIsol space-ar @wawIsol' by @wawIsol_alt;
 		sub @noonFina space-ar @wawIsol' by @wawIsol_alt;
 
-		#subs to get a short, high lam-ar.init with jeem/hah/khah
+		#subs to get a short, high lam-ar.init with jeem/hah/khah (rule 39)
 		sub lam-ar.init' @hahMedi_any  by  lam-ar.init.high;
 
-		#subs to get a short, high alef-ar.init with lam followed by jeem/hah/khah
+		#subs to get a short, high alef-ar.init with lam followed by jeem/hah/khah (rule 40)
 		sub alef-ar' lam-ar.init @hahMedi_any  by  alef-ar.high;
 
 		# replace sequence of digits, up to three places

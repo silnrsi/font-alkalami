@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yeh-farsi.fina.shrtail.ss05" format="2">
-  <advance width="766"/>
-  <anchor x="596" y="-164" name="bottom"/>
+  <advance width="793"/>
+  <anchor x="633" y="-110" name="bottom"/>
+  <anchor x="793" y="0" name="entry"/>
   <outline>
-    <component base="alefMaksura-ar"/>
-    <component base="threedots-ar.small" xOffset="366" yOffset="263"/>
+    <component base="alefMaksura-ar.fina"/>
+    <component base="threedots-ar.small" xOffset="331" yOffset="299"/>
   </outline>
   <lib>
     <dict>

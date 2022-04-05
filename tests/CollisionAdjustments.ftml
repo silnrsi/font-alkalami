@@ -16,616 +16,937 @@
 			<style feats="'ss08' 1" name="ss08_1"/>
 			<style feats="'ss09' 1" name="ss09_1"/>
 			<style feats="'ss02' 1, 'ss03' 1" name="ss02_1_ss03_1"/>
+			<style feats="'ss05' 1, 'ss09' 1" name="ss05_1_ss09_1"/>
+			<style feats="'ss01' 1, 'ss09' 1" name="ss01_1_ss09_1"/>
       <style feats="'ss01' 1, 'ss04' 1, 'ss05' 1, 'ss08' 1" name="lang"/>
 		</styles>
-		<title>Collision Adjustments</title>
+		<title>Collision Adjustments in calt</title>
 	</head>
 	<testgroup label="Rendering Check">
 		<test label="check">
 			<string>RenderingUnknown</string>
 		</test>
 	</testgroup>
-	<testgroup label="Noon-like characters (Isolate followed by other characters)">
+	<testgroup label="seen-like characters">
+		<test label="U+0633 U+0020 U+062F">
+			<comment>seen+space+dal (rule 1)</comment>
+			<string>\u0633\u0650\u0020\u062F\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0633 U+0020 U+0630">
+			<comment>(rule 1)</comment>
+			<string>\u0633\u0650\u0020\u0630\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0634 U+0020 U+062F">
+			<comment>(rule 1)</comment>
+			<string>\u0634\u0650\u0020\u062F\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0634 U+0020 U+0630">
+			<comment>(rule 1)</comment>
+			<string>\u0634\u0650\u0020\u0630\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0633 U+0650 U+0020 U+0633 U+0650 U+0648 U+0650">
+			<comment>seen+space+seen+waw (rule 2)</comment>
+			<string>\u0633\u0650\u0020\u0633\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0634 U+0650 U+0020 U+0634 U+0650 U+0648 U+0650">
+			<comment>(rule 2)</comment>
+			<string>\u0634\u0650\u0020\u0634\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0634 U+0650 U+0020 U+0633 U+0650 U+0648 U+0650">
+			<comment>(rule 2)</comment>
+			<string>\u0634\u0650\u0020\u0633\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0633 U+0650 U+0020 U+0628 U+0650 U+0648 U+0650">
+			<comment>seen+space+beh.init(rule 3)</comment>
+			<string>\u0633\u0650\u0020\u0628\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0634 U+0650 U+0020 U+0628 U+0650 U+0648 U+0650">
+			<comment>(rule 3)</comment>
+			<string>\u0634\u0650\u0020\u0628\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0633 U+0650 U+0020 U+0628 U+0650">
+			<comment>(rule 3)</comment>
+			<string>\u0633\u0650\u0020\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0634 U+0650 U+0020 U+0628 U+0650 ">
+			<comment>(rule 3)</comment>
+			<string>\u0634\u0650\u0020\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0633 U+0650 U+0020 U+0628 U+0650 U+0648 U+0650">
+			<comment>seen.fina+space+beh+waw (rule 4)</comment>
+			<string>\u0628\u0633\u0650\u0020\u0628\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0634 U+0650 U+0020 U+0628 U+0650 U+0648 U+0650">
+			<comment>(rule 4)</comment>
+			<string>\u0628\u0634\u0650\u0020\u0628\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0633 U+0650 U+0020 U+0633 U+0650 U+0648">
+			<comment>seen.fina+space+seen+waw(rule 5)</comment>
+			<string>\u0628\u0633\u0650\u0020\u0633\u0650\u0648\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0634 U+0650 U+0020 U+0633 U+0650 U+0648 ">
+			<comment>sheen seen+waw (rule 5)</comment>
+			<string>\u0628\u0634\u0650\u0020\u0633\u0650\u0648\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0633 U+0650 U+0020 U+0625 U+0631">
+			<comment>seen.fina+space+alefhamzabelow+reh (rule 6)</comment>
+			<string>\u0628\u0633\u0650\u0020\u0625\u0631\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0634 U+0650 U+0020 U+0625 U+0631">
+			<comment>(rule 6)</comment>
+			<string>\u0628\u0634\u0650\u0020\u0625\u0632\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0633 U+0650 U+0020 U+0623 U+0648">
+			<comment>seen.fina+space+alefhamzaabove+waw (rule 7)</comment>
+			<string>\u0628\u0633\u0650\u0020\u0623\u0648\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0634 U+0650 U+0020 U+0623 U+0648">
+			<comment>(rule 7)</comment>
+			<string>\u0628\u0634\u0650\u0020\u0623\u0648\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0633 U+0650 U+0020 U+0623 U+0624">
+			<comment>(rule 7)</comment>
+			<string>\u0628\u0633\u0650\u0020\u0623\u0624\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0634 U+0650 U+0020 U+0623 U+0624">
+			<comment>(rule 7)</comment>
+			<string>\u0628\u0634\u0650\u0020\u0623\u0624\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0633 U+0650 U+0020 U+0639">
+			<comment>seen.fina+space+ain (rule 8)</comment>
+			<string>\u0628\u0633\u0650\u0020\u0639\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0634  U+0650 U+0020 U+0639">
+			<comment>(rule 8)</comment>
+			<string>\u0628\u0634\u0650\u0020\u0639\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0633 U+0650 U+0020 U+063A">
+			<comment>(rule 8)</comment>
+			<string>\u0628\u0633\u0650\u0020\u063A\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0634  U+0650 U+0020 U+063A">
+			<comment>(rule 8)</comment>
+			<string>\u0628\u0634\u0650\u0020\u063A\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0633 U+0650 U+0020 U+06A0">
+			<comment>(rule 8)</comment>
+			<string>\u0628\u0633\u0650\u0020\u06A0\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0633 U+0650 U+0020 U+06A0" stylename="ss05_1">
+			<comment>(rule 8)</comment>
+			<string>\u0628\u0633\u0650\u0020\u06A0\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0634 U+0650 U+0020 U+06A0">
+			<comment>(rule 8)</comment>
+			<string>\u0628\u0634\u0650\u0020\u06A0\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0634 U+0650 U+0020 U+06A0" stylename="ss05_1">
+			<comment>(rule 8)</comment>
+			<string>\u0628\u0634\u0650\u0020\u06A0\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0633 U+0650 U+0020 U+075D">
+			<comment>(rule 8)</comment>
+			<string>\u0628\u0633\u0650\u0020\u075D\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0634  U+0650 U+0020 U+075D">
+			<comment>(rule 8)</comment>
+			<string>\u0628\u0634\u0650\u0020\u075D\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0633 U+0650 U+0020 U+08C3">
+			<comment>(rule 8)</comment>
+			<string>\u0628\u0633\u0650\u0020\u08C3\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0633 U+0650 U+0020 U+08C3" stylename="ss09_1">
+			<comment>(rule 8)</comment>
+			<string>\u0628\u0633\u0650\u0020\u08C3\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0634  U+0650 U+0020 U+08C3">
+			<comment>(rule 8)</comment>
+			<string>\u0634\u0650\u0020\u08C3\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0634  U+0650 U+0020 U+08C3" stylename="ss09_1">
+			<comment>(rule 8)</comment>
+			<string>\u0634\u0650\u0020\u08C3\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+	</testgroup>
+
+	<testgroup label="yeh-like characters">
+		<test label="U+0626 U+0650 U+060C U+0020 U+0648 U+0650">
+			<comment>yeh+comma+space+waw (rule 9)</comment>
+			<string>\u0626\u0650\u060C\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+063F U+0650 U+060C U+0020 U+0648 U+0650">
+			<comment>(rule 9)</comment>
+			<string>\u063F\u0650\u060C\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+063F U+0650 U+060C U+0020 U+0648 U+0650" stylename="ss09_1">
+			<comment>(rule 9)</comment>
+			<string>\u063F\u0650\u060C\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0649 U+0650 U+060C U+0020 U+0648 U+0650">
+			<comment>(rule 9)</comment>
+			<string>\u0649\u0650\u060C\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+064A U+0650 U+060C U+0020 U+0648 U+0650">
+			<comment>(rule 9)</comment>
+			<string>\u064A\u0650\u060C\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06CC U+0650 U+060C U+0020 U+0648 U+0650">
+			<comment>(rule 9)</comment>
+			<string>\u06CC\u0650\u060C\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06CC U+0650 U+060C U+0020 U+0648 U+0650" stylename="ss05_1">
+			<comment>(rule 9)</comment>
+			<string>\u06CC\u0650\u060C\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06D0 U+0650 U+060C U+0020 U+0648 U+0650">
+			<comment>(rule 9)</comment>
+			<string>\u06D0\u0650\u060C\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06D1 U+0650 U+060C U+0020 U+0648 U+0650">
+			<comment>(rule 9)</comment>
+			<string>\u06D1\u0650\u060C\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08A8 U+0650 U+060C U+0020 U+0648 U+0650">
+			<comment>(rule 9)</comment>
+			<string>\u08A8\u0650\u060C\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08A9 U+0650 U+060C U+0020 U+0648 U+0650">
+			<comment>(rule 9)</comment>
+			<string>\u08A9\u0650\u060C\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0626 U+0650 U+0020 U+0648 U+0650">
+			<comment>yeh+space+waw (rule 10)</comment>
+			<string>\u0626\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+063F U+0650 U+0020 U+0648 U+0650">
+			<comment>(rule 10)</comment>
+			<string>\u063F\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+063F U+0650 U+0020 U+0648 U+0650" stylename="ss09_1">
+			<comment>(rule 10)</comment>
+			<string>\u063F\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0649 U+0650 U+0020 U+0648 U+0650">
+			<comment>(rule 10)</comment>
+			<string>\u0649\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+064A U+0650 U+0020 U+0648 U+0650">
+			<comment>(rule 10)</comment>
+			<string>\u064A\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+064A U+0650 U+0020 U+0648 U+0650" stylename="ss01_1">
+			<comment>(rule 10)</comment>
+			<string>\u064A\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06CC U+0650 U+0020 U+0648 U+0650">
+			<comment>(rule 10)</comment>
+			<string>\u06CC\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06CC U+0650 U+0020 U+0648 U+0650" stylename="ss05_1">
+			<comment>(rule 10)</comment>
+			<string>\u06CC\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06D0 U+0650 U+0020 U+0648 U+0650">
+			<comment>(rule 10)</comment>
+			<string>\u06D0\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06D1 U+0650 U+0020 U+0648 U+0650">
+			<comment>(rule 10)</comment>
+			<string>\u06D1\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08A8 U+0650 U+0020 U+0648 U+0650">
+			<comment>(rule 10)</comment>
+			<string>\u08A8\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08A9 U+0650 U+0020 U+0648 U+0650">
+			<comment>(rule 10)</comment>
+			<string>\u08A9\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0626 U+0650 U+0020 U+0644 U+0650 U+0631">
+			<comment>yeh.fina+space+lam+reh (rule 11)</comment>
+			<string>\u0628\u0626\u0650\u0020\u0644\u0650\u0631\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+063F U+0650 U+0020 U+0644 U+0650 U+0631">
+			<comment>(rule 11)</comment>
+			<string>\u0628\u063F\u0650\u0020\u0644\u0650\u0631\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+063F U+0650 U+0020 U+0644 U+0650 U+0631" stylename="ss09_1">
+			<comment>(rule 11)</comment>
+			<string>\u0628\u063F\u0650\u0020\u0644\u0650\u0631\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0649 U+0650 U+0020 U+0644 U+0650 U+0631">
+			<comment>(rule 11)</comment>
+			<string>\u0628\u0649\u0650\u0020\u0644\u0650\u0631\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+064A U+0650 U+0020 U+0644 U+0650 U+0631">
+			<comment>(rule 11)</comment>
+			<string>\u0628\u064A\u0650\u0020\u0644\u0650\u0631\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+06CC U+0650 U+0020 U+0644 U+0650 U+0631">
+			<comment>(rule 11)</comment>
+			<string>\u0628\u06CC\u0650\u0020\u0644\u0650\u0631\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+06CC U+0650 U+0020 U+0644 U+0650 U+0631" stylename="ss05_1">
+			<comment>(rule 11)</comment>
+			<string>\u0628\u06CC\u0650\u0020\u0644\u0650\u0631\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+06D0 U+0650 U+0020 U+0644 U+0650 U+0631">
+			<comment>(rule 11)</comment>
+			<string>\u0628\u06D0\u0650\u0020\u0644\u0650\u0631\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+06D1 U+0650 U+0020 U+0644 U+0650 U+0631">
+			<comment>(rule 11)</comment>
+			<string>\u0628\u06D1\u0650\u0020\u0644\u0650\u0631\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+08A8 U+0650 U+0020 U+0644 U+0650 U+0631">
+			<comment>(rule 11)</comment>
+			<string>\u0628\u08A8\u0650\u0020\u0644\u0650\u0631\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+08A9 U+0650 U+0020 U+0644 U+0650 U+0631">
+			<comment>(rule 11)</comment>
+			<string>\u0628\u08A9\u0650\u0020\u0644\u0650\u0631\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0626 U+0650 U+0020 U+063A U+0650">
+			<comment>yeh.fina+space+ghain (rule 12)</comment>
+			<string>\u0628\u0626\u0650\u0020\u08C3\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+063F U+0650 U+0020 U+063A U+0650">
+			<comment>(rule 12)</comment>
+			<string>\u0628\u063F\u0650\u0020\u08C3\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+063F U+0650 U+0020 U+08C3 U+0650"  stylename="ss09_1">
+			<comment>(rule 12)</comment>
+			<string>\u0628\u063F\u0650\u0020\u08C3\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0649 U+0650 U+0020 U+063A U+0650">
+			<comment>(rule 12)</comment>
+			<string>\u0628\u0649\u0650\u0020\u063A\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+064A U+0650 U+0020 U+063A U+0650">
+			<comment>(rule 12)</comment>
+			<string>\u0628\u064A\u0650\u0020\u06A0\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+064A U+0650 U+0020 U+063A U+0650"  stylename="ss01_1">
+			<comment>(rule 12)</comment>
+			<string>\u0628\u064A\u0650\u0020\u06A0\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+06CC U+0650 U+0020 U+063A U+0650">
+			<comment>(rule 12)</comment>
+			<string>\u0628\u06CC\u0650\u0020\u063A\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+06D0 U+0650 U+0020 U+063A U+0650">
+			<comment>(rule 12)</comment>
+			<string>\u0628\u06D0\u0650\u0020\u063A\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+06D1 U+0650 U+0020 U+063A U+0650">
+			<comment>(rule 12)</comment>
+			<string>\u0628\u06D1\u0650\u0020\u063A\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+08A8 U+0650 U+0020 U+063A U+0650">
+			<comment>(rule 12)</comment>
+			<string>\u0628\u08A8\u0650\u0020\u063A\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+08A9 U+0650 U+0020 U+063A U+0650">
+			<comment>(rule 12)</comment>
+			<string>\u0628\u08A9\u0650\u0020\u063A\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0626 U+0650 U+0020 U+0631 U+0650">
+			<comment>yeh.fina+space+reh (rule 13)</comment>
+			<string>\u0628\u0626\u0650\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+063F U+0650 U+0020 U+0631 U+0650">
+			<comment>(rule 13)</comment>
+			<string>\u0628\u063F\u0650\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+063F U+0650 U+0020 U+0631 U+0650" stylename="ss09_1">
+			<comment>(rule 13)</comment>
+			<string>\u0628\u063F\u0650\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0649 U+0650 U+0020 U+0631 U+0650">
+			<comment>(rule 13)</comment>
+			<string>\u0628\u0649\u0650\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+064A U+0650 U+0020 U+0631 U+0650">
+			<comment>(rule 13)</comment>
+			<string>\u0628\u064A\u0650\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+06CC U+0650 U+0020 U+0631 U+0650">
+			<comment>(rule 13)</comment>
+			<string>\u0628\u06CC\u0650\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+06CC U+0650 U+0020 U+0631 U+0650" stylename="ss05_1">
+			<comment>(rule 13)</comment>
+			<string>\u0628\u06CC\u0650\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+06D0 U+0650 U+0020 U+0631 U+0650">
+			<comment>(rule 13)</comment>
+			<string>\u0628\u06D0\u0650\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+06D1 U+0650 U+0020 U+0631 U+0650">
+			<comment>(rule 13)</comment>
+			<string>\u0628\u06D1\u0650\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+08A8 U+0650 U+0020 U+0631 U+0650">
+			<comment>(rule 13)</comment>
+			<string>\u0628\u08A8\u0650\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+08A9 U+0650 U+0020 U+0631 U+0650">
+			<comment>(rule 13)</comment>
+			<string>\u0628\u08A9\u0650\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0626 U+0650 U+0020 U+0648 U+0650">
+			<comment>yeh.fina+space+waw (rule 14)</comment>
+			<string>\u0628\u0626\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+063F U+0650 U+0020 U+0648 U+0650">
+			<comment>(rule 14)</comment>
+			<string>\u0628\u063F\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+063F U+0650 U+0020 U+0648 U+0650" stylename="ss09_1">
+			<comment>(rule 14)</comment>
+			<string>\u0628\u063F\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+0649 U+0650 U+0020 U+0648 U+0650">
+			<comment>(rule 14)</comment>
+			<string>\u0628\u0649\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+064A U+0650 U+0020 U+0648 U+0650">
+			<comment>(rule 14)</comment>
+			<string>\u0628\u064A\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+064A U+0650 U+0020 U+0648 U+0650" stylename="ss01_1">
+			<comment>(rule 14)</comment>
+			<string>\u0628\u064A\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+06CC U+0650 U+0020 U+0648 U+0650">
+			<comment>(rule 14)</comment>
+			<string>\u0628\u06CC\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+06CC U+0650 U+0020 U+0648 U+0650" stylename="ss05_1">
+			<comment>(rule 14)</comment>
+			<string>\u0628\u06CC\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+06D0 U+0650 U+0020 U+0648 U+0650">
+			<comment>(rule 14)</comment>
+			<string>\u0628\u06D0\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+06D1 U+0650 U+0020 U+0648 U+0650">
+			<comment>(rule 14)</comment>
+			<string>\u0628\u06D1\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+08A8 U+0650 U+0020 U+0624 U+0650">
+			<comment>(rule 14)</comment>
+			<string>\u0628\u08A8\u0650\u0020\u0624\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0628 U+08A9 U+0650 U+0020 U+0624 U+0650">
+			<comment>(rule 14)</comment>
+			<string>\u0628\u08A9\u0650\u0020\u0624\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+	</testgroup>
+
+	<testgroup label="Noon-like characters (rules 15-22)">
 		<test label="U+0646 U+0020 U+0634">
-			<comment>no avoidance / seen</comment>
+			<comment>noon+space+seen (rule 15)</comment>
+			<string>\u0646\u0020\u0634\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+0634" stylename="ss01_1">
+			<comment>(rule 15)</comment>
 			<string>\u0646\u0020\u0634\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0020 U+0633">
-			<comment>U+0646 U+0020 U+0633 </comment>
+			<comment>(rule 15)</comment>
 			<string>\u0646\u0020\u0633\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+06BA U+0020 U+0633">
-			<comment>U+06BA U+0020 U+0633 </comment>
+			<comment>(rule 15)</comment>
 			<string>\u06BA\u0020\u0633\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0767 U+0020 U+0633">
-			<comment>U+0767 U+0020 U+0633 </comment>
+			<comment>(rule 15)</comment>
 			<string>\u0767\u0020\u0633\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+08BD U+0020 U+0633">
-			<comment>U+08BD U+0020 U+0633 </comment>
+			<comment>(rule 15)</comment>
 			<string>\u08BD\u0020\u0633\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-
 		<test label="U+0646 U+0020 U+062A U+06C6">
-			<comment>no avoidance / teh waw</comment>
+			<comment>noon+space+teh+waw (rule 16)</comment>
+			<string>\u0646\u0020\u062A\u06C6\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+062A U+06C6" stylename="ss01_1">
+			<comment>(rule 16)</comment>
 			<string>\u0646\u0020\u062A\u06C6\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0020 U+062A U+0648 ">
-			<comment>U+0646 U+0020 U+062A U+0648  </comment>
+			<comment>(rule 16) </comment>
 			<string>\u0646\u0020\u062A\u0648\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+06BA U+0020 U+062A U+0648 ">
-			<comment>U+06BA U+0020 U+062A U+0648  </comment>
+			<comment>(rule 16) </comment>
 			<string>\u06BA\u0020\u062A\u0648\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0767 U+0020 U+062A U+0648 ">
-			<comment>U+0767 U+0020 U+062A U+0648  </comment>
+			<comment>(rule 16) </comment>
 			<string>\u0767\u0020\u062A\u0648\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+08BD U+0020 U+062A U+0648 ">
-			<comment>U+08BD U+0020 U+062A U+0648  </comment>
+			<comment>(rule 16) </comment>
 			<string>\u08BD\u0020\u062A\u0648\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-
 		<test label="U+0646 U+0020 U+062A U+06BA">
-			<comment>no avoidance teh noon</comment>
+			<comment>noon+space+teh+noon (rule 17)</comment>
 			<string>\u0646\u0020\u062A\u06BA\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0020 U+062A U+0646 ">
-			<comment>U+0646 U+0020 U+062A U+0646  </comment>
+			<comment>(rule 17)</comment>
 			<string>\u0646\u0020\u062A\u0646\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+06BA U+0020 U+062A U+0646 ">
-			<comment>U+06BA U+0020 U+062A U+0646  </comment>
+			<comment>(rule 17)</comment>
 			<string>\u06BA\u0020\u062A\u0646\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0767 U+0020 U+062A U+0646 ">
-			<comment>U+0767 U+0020 U+062A U+0646  </comment>
+			<comment>(rule 17)</comment>
 			<string>\u0767\u0020\u062A\u0646\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+08BD U+0020 U+062A U+0646 ">
-			<comment>U+08BD U+0020 U+062A U+0646  </comment>
+			<comment>(rule 17)</comment>
 			<string>\u08BD\u0020\u062A\u0646\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0020 U+062B U+06BA">
-			<comment>no avoidance / theh noon</comment>
+			<comment>noon+space+theh+noon (rule 18)</comment>
 			<string>\u0646\u0020\u062B\u06BA\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0020 U+062B U+0646 ">
-			<comment>U+0646 U+0020 U+062B U+0646  </comment>
+			<comment>(rule 18) </comment>
 			<string>\u0646\u0020\u062B\u0646\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+06BA U+0020 U+062B U+0646 ">
-			<comment>U+06BA U+0020 U+062B U+0646  </comment>
+			<comment>(rule 18) </comment>
 			<string>\u06BA\u0020\u062B\u0646\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0767 U+0020 U+062B U+0646 ">
-			<comment>U+0767 U+0020 U+062B U+0646  </comment>
+			<comment>(rule 18) </comment>
 			<string>\u0767\u0020\u062B\u0646\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+08BD U+0020 U+062B U+0646 ">
-			<comment>U+08BD U+0020 U+062B U+0646  </comment>
+			<comment>(rule 18) </comment>
 			<string>\u08BD\u0020\u062B\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-
 		<test label="U+0646 U+0020 U+062F U+06C6">
-			<comment>dal waw</comment>
+			<comment>noon+space+dal+waw (rule 19)</comment>
 			<string>\u0646\u0020\u062F\u0650\u06C6\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0020  U+062F U+0648">
-			<comment>U+0646 U+0020  U+062F U+0648</comment>
+			<comment>(rule 19)</comment>
 			<string>\u0646\u0020\u062F\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+06BA U+0020  U+062F U+0648">
-			<comment>U+06BA U+0020  U+062F U+0648</comment>
+			<comment>(rule 19)</comment>
 			<string>\u06BA\u0020\u062F\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0767 U+0020 U+062F U+0648">
-			<comment>U+0767 U+0020 U+062F U+0648</comment>
+			<comment>(rule 19)</comment>
 			<string>\u0767\u0020\u062F\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-		<test label="U+08BD U+0020 U+062F U+0648">
-			<comment>U+08BD U+0020 U+062F U+0648</comment>
-			<string>\u08BD\u0020\u062F\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-
-		<test label="U+0646 U+0020 U+0751 U+0628">
-			<comment>beh.init</comment>
-			<string>\u0646\u0020\u0751\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0646 U+0020 U+0628 U+0628">
-			<comment>U+0646 U+0020 U+0628 U+0628</comment>
-			<string>\u0646\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+06BA U+0020 U+0628 U+0628">
-			<comment>U+06BA U+0020 U+0628 U+0628</comment>
-			<string>\u06BA\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0767 U+0020 U+0628 U+0628">
-			<comment>U+0767 U+0020 U+0628 U+0628</comment>
-			<string>\u0767\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+08BD U+0020 U+0628 U+0628">
-			<comment>U+08BD U+0020 U+0628 U+0628</comment>
-			<string>\u08BD\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-
-		<test label="U+0646 U+0020 U+066E">
-			<comment>beh</comment>
-			<string>\u0646\u0020\u066E\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		<test label="U+08BD U+0020 U+0630 U+0624">
+			<comment>(rule 19)</comment>
+			<string>\u08BD\u0020\u0630\u0650\u0624\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0020 U+0628">
-			<comment>U+0646 U+0020 U+0628</comment>
+			<comment>noon+space+beh+.init(rule 20)</comment>
 			<string>\u0646\u0020\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
+		<test label="U+0646 U+0020 U+066E">
+			<comment>(rule 20) no longtail because behDotless</comment>
+			<string>\u0646\u0020\u066E\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
 		<test label="U+06BA U+0020 U+0628">
-			<comment>U+06BA U+0020 U+0628</comment>
+			<comment>(rule 20)</comment>
 			<string>\u06BA\u0020\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0767 U+0020 U+0628">
-			<comment>U+0767 U+0020 U+0628</comment>
+			<comment>(rule 20)</comment>
 			<string>\u0767\u0020\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-		<test label="U+08BD U+0020 U+0628">
-			<comment>U+08BD U+0020 U+0628</comment>
-			<string>\u08BD\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		<test label="U+08BD U+0020 U+0751">
+			<comment>noon+space+beh(rule 21)</comment>
+			<string>\u08BD\u0020\u0751\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-
-		<test label="U+0646 U+0020 U+066E U+0628">
-			<comment>beeh.init</comment>
-			<string>\u0646\u0020\u066E\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		<test label="U+0646 U+0020 U+0751 U+0628">
+			<comment>(rule 21)</comment>
+			<string>\u0646\u0020\u0751\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-		<test label="U+0646 U+0020 U+067B U+0628">
-			<comment>U+0646 U+0020 U+067B U+0628</comment>
-			<string>\u0646\u0020\u067B\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		<test label="U+0646 U+0020 U+0628 U+0628">
+			<comment>(rule 21)</comment>
+			<string>\u0646\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-		<test label="U+06BA U+0020 U+067B U+0628">
-			<comment>U+06BA U+0020 U+067B U+0628</comment>
-			<string>\u06BA\u0020\u067B\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		<test label="U+06BA U+0020 U+0628 U+0628">
+			<comment>(rule 21)</comment>
+			<string>\u06BA\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-		<test label="U+0767 U+0020 U+067B U+0628">
-			<comment>U+0767 U+0020 U+067B U+0628</comment>
-			<string>\u0767\u0020\u067B\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		<test label="U+0767 U+0020 U+0628 U+0628">
+			<comment>(rule 21)</comment>
+			<string>\u0767\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-		<test label="U+08BD U+0020 U+067B U+0628">
-			<comment>U+08BD U+0020 U+0067B U+0628</comment>
-			<string>\u08BD\u0020\u067B\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		<test label="U+08BD U+0020 U+0751 U+0752">
+			<comment>(rule 21)</comment>
+			<string>\u08BD\u0020\u0751\u0650\u0752\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-
-		<test label="U+0646 U+0020 U+066E">
-			<comment>beeh</comment>
-			<string>\u0646\u0020\u066E\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0646 U+0020 U+067B">
-			<comment>U+0646 U+0020 U+067B</comment>
-			<string>\u0646\u0020\u067B\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+06BA U+0020 U+067B">
-			<comment>U+06BA U+0020 U+067B</comment>
-			<string>\u06BA\u0020\u067B\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0767 U+0020 U+067B">
-			<comment>U+0767 U+0020 U+067B</comment>
-			<string>\u0767\u0020\u067B\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+08BD U+0020 U+067B">
-			<comment>U+08BD U+0020 U+0067B</comment>
-			<string>\u08BD\u0020\u067B\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-
 		<test label="U+0646 U+0020 U+0646 U+06BA">
-			<comment>noon.init+noon</comment>
+			<comment>noon+space+noon+noon (rule 22)</comment>
 			<string>\u0646\u0020\u06BA\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0020 U+0646 U+0646">
-			<comment>U+0646 U+0020 U+0646 U+0646</comment>
+			<comment> (rule 22)</comment>
 			<string>\u0646\u0020\u0646\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+06BA U+0020 U+0646 U+0646">
-			<comment>U+06BA U+0020 U+0646 U+0646</comment>
+			<comment> (rule 22)</comment>
 			<string>\u06BA\u0020\u0646\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0767 U+0020 U+0646 U+0646">
-			<comment>U+0767 U+0020 U+0646 U+0646</comment>
+			<comment> (rule 22)</comment>
 			<string>\u0767\u0020\u0646\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+08BD U+0020 U+0646 U+0646">
-			<comment>U+08BD U+0020 U+0646 U+0646</comment>
+			<comment> (rule 22)</comment>
 			<string>\u08BD\u0020\u0646\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-
-		<test label="U+0646 U+0020 U+0634 U+0648">
-			<comment>seen waw</comment>
-			<string>\u0646\u0020\u0634\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
 		<test label="U+0646 U+0020 U+0633 U+0648">
-			<comment>U+0646 U+0020 U+0633 U+0648</comment>
+			<comment>noon+space+seen+waw (rule 23)</comment>
 			<string>\u0646\u0020\u0633\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-		<test label="U+06BA U+0020 U+0633 U+0648">
-			<comment>U+06BA U+0020 U+0633 U+0648</comment>
-			<string>\u06BA\u0020\u0633\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0767 U+0020 U+0633 U+0648">
-			<comment>U+0767 U+0020 U+0633 U+0648</comment>
-			<string>\u0767\u0020\u0633\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+08BD U+0020 U+0633 U+0648">
-			<comment>U+08BD U+0020 U+0633 U+0648</comment>
-			<string>\u08BD\u0020\u0633\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-
-		<test label="U+0646 U+0020 U+0634 U+0646">
-			<comment>seen noon</comment>
-			<string>\u0646\u0020\u0634\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0646 U+0020 U+0633 U+0646">
-			<comment>U+0646 U+0020 U+0633 U+0646</comment>
-			<string>\u0646\u0020\u0633\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+06BA U+0020 U+0633 U+0646">
-			<comment>U+06BA U+0020 U+0633 U+0646</comment>
-			<string>\u06BA\u0020\u0633\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0767 U+0020 U+0633 U+0646">
-			<comment>U+0767 U+0020 U+0633 U+0646</comment>
-			<string>\u0767\u0020\u0633\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+08BD U+0020 U+0633 U+0646">
-			<comment>U+08BD U+0020 U+0633 U+0646</comment>
-			<string>\u08BD\u0020\u0633\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-
-		<test label="U+0646 U+0020 U+0631">
-			<comment>reh</comment>
-			<string>\u0646\u0020\u0632\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		<test label="U+0646 U+0020 U+0633 U+08BD">
+			<comment>noon+space+seen+noon (rule 24)</comment>
+			<string>\u0646\u0020\u0633\u0650\u08BD\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0020 U+0631">
-			<comment>U+0646 U+0020 U+0631</comment>
+			<comment>noon+space+reh (rule 25)</comment>
 			<string>\u0646\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-		<test label="U+06BA U+0020 U+0631">
-			<comment>U+06BA U+0020 U+0631</comment>
-			<string>\u06BA\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0767 U+0020 U+0631">
-			<comment>U+0767 U+0020 U+0631</comment>
-			<string>\u0767\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+08BD U+0020 U+0631">
-			<comment>U+08BD U+0020 U+0631</comment>
-			<string>\u08BD\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-
-	</testgroup>
-	<testgroup label="Noon-like characters (Final followed by other characters)">
-		<test label="U+0646 U+0020 U+0634">
-			<comment>no avoidance / seen</comment>
-			<string>\u0628\u0646\u0020\u0634\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0646 U+0020 U+0633">
-			<comment>U+0646 U+0020 U+0633 </comment>
-			<string>\u0628\u0646\u0020\u0633\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+06BA U+0020 U+0633">
-			<comment>U+06BA U+0020 U+0633 </comment>
-			<string>\u0628\u06BA\u0020\u0633\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0767 U+0020 U+0633">
-			<comment>U+0767 U+0020 U+0633 </comment>
-			<string>\u0628\u0767\u0020\u0633\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+08BD U+0020 U+0633">
-			<comment>U+08BD U+0020 U+0633 </comment>
-			<string>\u0628\u08BD\u0020\u0633\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-
 		<test label="U+0646 U+0020 U+062A U+06C6">
-			<comment>no avoidance / teh waw</comment>
+			<comment>noon.fina+space+teh+waw (rule 26)</comment>
 			<string>\u0628\u0646\u0020\u062A\u06C6\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0020 U+062A U+0648 ">
-			<comment>U+0646 U+0020 U+062A U+0648  </comment>
+			<comment> (rule 26)</comment>
 			<string>\u0628\u0646\u0020\u062A\u0648\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+06BA U+0020 U+062A U+0648 ">
-			<comment>U+06BA U+0020 U+062A U+0648  </comment>
+			<comment> (rule 26)</comment>
 			<string>\u0628\u06BA\u0020\u062A\u0648\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0767 U+0020 U+062A U+0648 ">
-			<comment>U+0767 U+0020 U+062A U+0648  </comment>
+			<comment> (rule 26)</comment>
 			<string>\u0628\u0767\u0020\u062A\u0648\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+08BD U+0020 U+062A U+0648 ">
-			<comment>U+08BD U+0020 U+062A U+0648  </comment>
+			<comment> (rule 26)</comment>
 			<string>\u0628\u08BD\u0020\u062A\u0648\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-
-		<test label="U+0646 U+0020 U+062A U+06BA">
-			<comment>no avoidance teh noon</comment>
-			<string>\u0628\u0646\u0020\u062A\u06BA\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0646 U+0020 U+062A U+0646 ">
-			<comment>U+0646 U+0020 U+062A U+0646  </comment>
-			<string>\u0628\u0646\u0020\u062A\u0646\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+06BA U+0020 U+062A U+0646 ">
-			<comment>U+06BA U+0020 U+062A U+0646  </comment>
-			<string>\u0628\u06BA\u0020\u062A\u0646\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0767 U+0020 U+062A U+0646 ">
-			<comment>U+0767 U+0020 U+062A U+0646  </comment>
-			<string>\u0628\u0767\u0020\u062A\u0646\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+08BD U+0020 U+062A U+0646 ">
-			<comment>U+08BD U+0020 U+062A U+0646  </comment>
-			<string>\u0628\u08BD\u0020\u062A\u0646\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0646 U+0020 U+062B U+06BA">
-			<comment>no avoidance / theh noon</comment>
-			<string>\u0628\u0646\u0020\u062B\u06BA\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0646 U+0020 U+062B U+0646 ">
-			<comment>U+0646 U+0020 U+062B U+0646  </comment>
-			<string>\u0628\u0646\u0020\u062B\u0646\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+06BA U+0020 U+062B U+0646 ">
-			<comment>U+06BA U+0020 U+062B U+0646  </comment>
-			<string>\u0628\u06BA\u0020\u062B\u0646\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0767 U+0020 U+062B U+0646 ">
-			<comment>U+0767 U+0020 U+062B U+0646  </comment>
-			<string>\u0628\u0767\u0020\u062B\u0646\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+08BD U+0020 U+062B U+0646 ">
-			<comment>U+08BD U+0020 U+062B U+0646  </comment>
-			<string>\u0628\u08BD\u0020\u062B\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-
 		<test label="U+0646 U+0020 U+062F U+06C6">
-			<comment>dal waw</comment>
+			<comment>noon.fina+space+dal+waw (rule 27)</comment>
 			<string>\u0628\u0646\u0020\u062F\u0650\u06C6\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-		<test label="U+0646 U+0020  U+062F U+0648">
-			<comment>U+0646 U+0020  U+062F U+0648</comment>
+		<test label="U+0646 U+0020 U+062F U+0648">
+			<comment> (rule 27)</comment>
 			<string>\u0628\u0646\u0020\u062F\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+06BA U+0020  U+062F U+0648">
-			<comment>U+06BA U+0020  U+062F U+0648</comment>
+			<comment> (rule 27)</comment>
 			<string>\u0628\u06BA\u0020\u062F\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0767 U+0020 U+062F U+0648">
-			<comment>U+0767 U+0020 U+062F U+0648</comment>
+			<comment> (rule 27)</comment>
 			<string>\u0628\u0767\u0020\u062F\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-		<test label="U+08BD U+0020 U+062F U+0648">
-			<comment>U+08BD U+0020 U+062F U+0648</comment>
-			<string>\u0628\u08BD\u0020\u062F\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		<test label="U+08BD U+0020 U+0630 U+06C9">
+			<comment> (rule 27)</comment>
+			<string>\u0628\u08BD\u0020\u0630\u0650\u06C9\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-
 		<test label="U+0646 U+0020 U+0751 U+0628">
-			<comment>beh.init</comment>
+			<comment>noon.fina+space+beh.init (rule 28)</comment>
 			<string>\u0628\u0646\u0020\u0751\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0020 U+0628 U+0628">
-			<comment>U+0646 U+0020 U+0628 U+0628</comment>
+			<comment>(rule 28)</comment>
 			<string>\u0628\u0646\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+06BA U+0020 U+0628 U+0628">
-			<comment>U+06BA U+0020 U+0628 U+0628</comment>
+			<comment>(rule 28)</comment>
 			<string>\u0628\u06BA\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0767 U+0020 U+0628 U+0628">
-			<comment>U+0767 U+0020 U+0628 U+0628</comment>
+			<comment>(rule 28)</comment>
 			<string>\u0628\u0767\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-		<test label="U+08BD U+0020 U+0628 U+0628">
-			<comment>U+08BD U+0020 U+0628 U+0628</comment>
-			<string>\u0628\u08BD\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		<test label="U+08BD U+0020 U+0751 U+0752">
+			<comment>(rule 28)</comment>
+			<string>\u0628\u08BD\u0020\u0751\u0650\u0752\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-
 		<test label="U+0646 U+0020 U+066E">
-			<comment>beh</comment>
+			<comment>noon.fina+space+beh (rule 29)</comment>
 			<string>\u0628\u0646\u0020\u066E\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0020 U+0628">
-			<comment>U+0646 U+0020 U+0628</comment>
+			<comment>(rule 29)</comment>
 			<string>\u0628\u0646\u0020\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+06BA U+0020 U+0628">
-			<comment>U+06BA U+0020 U+0628</comment>
+			<comment>(rule 29)</comment>
 			<string>\u0628\u06BA\u0020\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0767 U+0020 U+0628">
-			<comment>U+0767 U+0020 U+0628</comment>
+			<comment>(rule 29)</comment>
 			<string>\u0628\u0767\u0020\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-		<test label="U+08BD U+0020 U+0628">
-			<comment>U+08BD U+0020 U+0628</comment>
-			<string>\u0628\u08BD\u0020\u0628\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		<test label="U+08BD U+0020 U+0751">
+			<comment>(rule 29)</comment>
+			<string>\u0628\u08BD\u0020\u0751\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-
-		<test label="U+0646 U+0020 U+066E U+0628">
-			<comment>beeh.init</comment>
-			<string>\u0628\u0646\u0020\u066E\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0646 U+0020 U+067B U+0628">
-			<comment>U+0646 U+0020 U+067B U+0628</comment>
-			<string>\u0628\u0646\u0020\u067B\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+06BA U+0020 U+067B U+0628">
-			<comment>U+06BA U+0020 U+067B U+0628</comment>
-			<string>\u0628\u06BA\u0020\u067B\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0767 U+0020 U+067B U+0628">
-			<comment>U+0767 U+0020 U+067B U+0628</comment>
-			<string>\u0628\u0767\u0020\u067B\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+08BD U+0020 U+067B U+0628">
-			<comment>U+08BD U+0020 U+0067B U+0628</comment>
-			<string>\u0628\u08BD\u0020\u067B\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-
-		<test label="U+0646 U+0020 U+066E">
-			<comment>beeh</comment>
-			<string>\u0628\u0646\u0020\u066E\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0646 U+0020 U+067B">
-			<comment>U+0646 U+0020 U+067B</comment>
-			<string>\u0628\u0646\u0020\u067B\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+06BA U+0020 U+067B">
-			<comment>U+06BA U+0020 U+067B</comment>
-			<string>\u0628\u06BA\u0020\u067B\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0767 U+0020 U+067B">
-			<comment>U+0767 U+0020 U+067B</comment>
-			<string>\u0628\u0767\u0020\u067B\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+08BD U+0020 U+067B">
-			<comment>U+08BD U+0020 U+0067B</comment>
-			<string>\u0628\u08BD\u0020\u067B\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-
-		<test label="U+0646 U+0020 U+0646 U+06BA">
-			<comment>noon.init+noon</comment>
-			<string>\u0628\u0646\u0020\u06BA\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0646 U+0020 U+0646 U+0646">
-			<comment>U+0646 U+0020 U+0646 U+0646</comment>
-			<string>\u0628\u0646\u0020\u0646\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+06BA U+0020 U+0646 U+0646">
-			<comment>U+06BA U+0020 U+0646 U+0646</comment>
-			<string>\u0628\u06BA\u0020\u0646\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+0767 U+0020 U+0646 U+0646">
-			<comment>U+0767 U+0020 U+0646 U+0646</comment>
-			<string>\u0628\u0767\u0020\u0646\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-		<test label="U+08BD U+0020 U+0646 U+0646">
-			<comment>U+08BD U+0020 U+0067B</comment>
-			<string>\u0628\u08BD\u0020\u0646\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
-		</test>
-
 		<test label="U+0646 U+0020 U+0634 U+0648">
-			<comment>seen waw</comment>
+			<comment>noon.fina+space+seen+waw (rule 30)</comment>
 			<string>\u0628\u0646\u0020\u0634\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0020 U+0633 U+0648">
-			<comment>U+0646 U+0020 U+0633 U+0648</comment>
+			<comment>(rule 30)</comment>
 			<string>\u0628\u0646\u0020\u0633\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+06BA U+0020 U+0633 U+0648">
-			<comment>U+06BA U+0020 U+0633 U+0648</comment>
+			<comment>(rule 30)</comment>
 			<string>\u0628\u06BA\u0020\u0633\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0767 U+0020 U+0633 U+0648">
-			<comment>U+0767 U+0020 U+0633 U+0648</comment>
+			<comment>(rule 30)</comment>
 			<string>\u0628\u0767\u0020\u0633\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-		<test label="U+08BD U+0020 U+0633 U+0648">
-			<comment>U+08BD U+0020 U+0633 U+0648</comment>
-			<string>\u0628\u08BD\u0020\u0633\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		<test label="U+08BD U+0020 U+0633 U+0624">
+			<comment>(rule 30)</comment>
+			<string>\u0628\u08BD\u0020\u0633\u0650\u0624\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-
 		<test label="U+0646 U+0020 U+0634 U+0646">
-			<comment>seen noon</comment>
+			<comment>noon.fina+space+seen+noon (rule 31)</comment>
 			<string>\u0628\u0646\u0020\u0634\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0020 U+0633 U+0646">
-			<comment>U+0646 U+0020 U+0633 U+0646</comment>
+			<comment>(rule 31)</comment>
 			<string>\u0628\u0646\u0020\u0633\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+06BA U+0020 U+0633 U+0646">
-			<comment>U+06BA U+0020 U+0633 U+0646</comment>
+			<comment>(rule 31)</comment>
 			<string>\u0628\u06BA\u0020\u0633\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0767 U+0020 U+0633 U+0646">
-			<comment>U+0767 U+0020 U+0633 U+0646</comment>
+			<comment>(rule 31)</comment>
 			<string>\u0628\u0767\u0020\u0633\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+08BD U+0020 U+0633 U+0646">
-			<comment>U+08BD U+0020 U+0633 U+0646</comment>
+			<comment>(rule 31)</comment>
 			<string>\u0628\u08BD\u0020\u0633\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-
-		<test label="U+0646 U+0020 U+0631">
-			<comment>reh</comment>
+		<test label="U+0646 U+0020 U+0632">
+			<comment>noon.fina+space+reh (rule 32)</comment>
 			<string>\u0628\u0646\u0020\u0632\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0020 U+0631">
-			<comment>U+0646 U+0020 U+0631</comment>
+			<comment>(rule 32)</comment>
 			<string>\u0628\u0646\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+06BA U+0020 U+0631">
-			<comment>U+06BA U+0020 U+0631</comment>
+			<comment>(rule 32)</comment>
 			<string>\u0628\u06BA\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0767 U+0020 U+0631">
-			<comment>U+0767 U+0020 U+0631</comment>
+			<comment>(rule 32)</comment>
 			<string>\u0628\u0767\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+08BD U+0020 U+0631">
-			<comment>U+08BD U+0020 U+0631</comment>
+			<comment>(rule 32)</comment>
 			<string>\u0628\u08BD\u0020\u0631\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-
-	</testgroup>
-
-	<testgroup label="Noon-like characters followed by Waw characters (Isolate)">
+		<test label="U+0646 U+0020 U+0634">
+			<comment>noon.fina+space+seen (rule 33)</comment>
+			<string>\u0628\u0646\u0020\u0634\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+0633">
+			<comment>(rule 33)</comment>
+			<string>\u0628\u0646\u0020\u0633\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+0633">
+			<comment>(rule 33)</comment>
+			<string>\u0628\u06BA\u0020\u0633\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+0633">
+			<comment>(rule 33)</comment>
+			<string>\u0628\u0767\u0020\u0633\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+0633">
+			<comment>(rule 33)</comment>
+			<string>\u0628\u08BD\u0020\u0633\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+062A U+06BA">
+			<comment>noon.fina+space+teh+noon (rule 34)</comment>
+			<string>\u0628\u0646\u0020\u062A\u06BA\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+062A U+0646 ">
+			<comment>(rule 34)</comment>
+			<string>\u0628\u0646\u0020\u062A\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+062A U+0646 ">
+			<comment>(rule 34)</comment>
+			<string>\u0628\u06BA\u0020\u062A\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+062A U+0646 ">
+			<comment>(rule 34)</comment>
+			<string>\u0628\u0767\u0020\u062A\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+062A U+0646 ">
+			<comment>(rule 34)</comment>
+			<string>\u0628\u08BD\u0020\u062A\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+062B U+06BA">
+			<comment>noon.fina+space+theh+noon (rule 35)</comment>
+			<string>\u0628\u0646\u0020\u062B\u06BA\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+062B U+06BA" stylename="ss01_1">
+			<comment>(rule 35)</comment>
+			<string>\u0628\u0646\u0020\u062B\u06BA\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+062B U+0646 ">
+			<comment>(rule 35)</comment>
+			<string>\u0628\u0646\u0020\u062B\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+062B U+0646 ">
+			<comment>(rule 35)</comment>
+			<string>\u0628\u06BA\u0020\u062B\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+062B U+0646 ">
+			<comment>(rule 35)</comment>
+			<string>\u0628\u0767\u0020\u062B\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+062B U+0646 ">
+			<comment>(rule 35)</comment>
+			<string>\u0628\u08BD\u0020\u062B\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+0646 U+06BA">
+			<comment>noon.fina+space+noon+noon (rule 36)</comment>
+			<string>\u0628\u0646\u0020\u0646\u06BA\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+0646 U+06BA" stylename="ss01_1">
+			<comment>(rule 36)</comment>
+			<string>\u0628\u0646\u0020\u0646\u06BA\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0646 U+0020 U+0646 U+0646 ">
+			<comment>(rule 36)</comment>
+			<string>\u0628\u0646\u0020\u0646\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+06BA U+0020 U+0646 U+0646 ">
+			<comment>(rule 36)</comment>
+			<string>\u0628\u06BA\u0020\u0646\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0767 U+0020 U+0646 U+0646 ">
+			<comment>(rule 36)</comment>
+			<string>\u0628\u0767\u0020\u0646\u0646\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+0646 U+0646 ">
+			<comment>(rule 36)</comment>
+			<string>\u0628\u08BD\u0020\u0646\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
 		<test label="U+0646 U+0650 U+0020 U+06C6 U+0650">
-			<comment>noon+waw</comment>
+			<comment>noon+space+waw (rule 37) Not working until we have alternates</comment>
 			<string>\u0646\u0650\u0020\u06C6\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0650 U+0020 U+0624 U+0650">
-			<comment>noon+waw</comment>
+			<comment>(rule 37)</comment>
 			<string>\u0646\u0650\u0020\u0624\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0650 U+0020 U+0648 U+0650">
-			<comment>noon+waw</comment>
+			<comment>(rule 37)</comment>
 			<string>\u0646\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0650 U+0020 U+06C6 U+0650">
-			<comment>noon+waw</comment>
+			<comment>(rule 37)</comment>
 			<string>\u0646\u0650\u0020\u06C6\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0650 U+0020 U+06C8 U+0650">
-			<comment>noon+waw</comment>
+			<comment>(rule 37)</comment>
 			<string>\u0646\u0650\u0020\u06C8\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0650 U+0020 U+06C9 U+0650">
-			<comment>noon+waw</comment>
+			<comment>(rule 37)</comment>
 			<string>\u0646\u0650\u0020\u06C9\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
-	</testgroup>
-
-	<testgroup label="Noon-like final characters followed by Waw characters (Isolate followed by other characters)">
 		<test label="U+0628 U+0646 U+0650 U+0020 U+06C6 U+0650">
-			<comment>noon+waw</comment>
+			<comment>noon.fina+space+waw (rule 38) Not working until we have alternates</comment>
 			<string>\u0628\u0646\u0650\u0020\u06C6\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0628 U+0646 U+0650 U+0020 U+0624 U+0650">
-			<comment>noon+waw</comment>
+			<comment>(rule 38)</comment>
 			<string>\u0628\u0646\u0650\u0020\u0624\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0628 U+0646 U+0650 U+0020 U+0648 U+0650">
-			<comment>noon+waw</comment>
+			<comment>(rule 38)</comment>
 			<string>\u0628\u0646\u0650\u0020\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0628 U+0646 U+0650 U+0020 U+06C6 U+0650">
-			<comment>noon+waw</comment>
+			<comment>(rule 38)</comment>
 			<string>\u0628\u0646\u0650\u0020\u06C6\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0628 U+0646 U+0650 U+0020 U+06C8 U+0650">
-			<comment>noon+waw</comment>
+			<comment>(rule 38)</comment>
 			<string>\u0628\u0646\u0650\u0020\u06C8\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0628 U+0646 U+0650 U+0020 U+06C9 U+0650">
-			<comment>noon+waw</comment>
+			<comment>(rule 38)</comment>
 			<string>\u0628\u0646\u0650\u0020\u06C9\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
+	</testgroup>
 
+	<testgroup label="lam characters">
+		<test label="U+0644 U+062C U+0650 U+0628">
+			<comment>lam+jeem.medi (rule 39)</comment>
+			<string>\u0644\u062C\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0644 U+062D U+0650 U+0628">
+			<comment>(rule 39)</comment>
+			<string>\u0644\u062D\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0644 U+062E U+0650 U+0628">
+			<comment>(rule 39)</comment>
+			<string>\u0644\u062E\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0644 U+0683 U+0650 U+0628">
+			<comment>(rule 39)</comment>
+			<string>\u0644\u0683\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0644 U+0684 U+0650 U+0628">
+			<comment>(rule 39)</comment>
+			<string>\u0644\u0684\u0650\u0628\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+	</testgroup>
+
+	<testgroup label="short high alef characters">
+		<test label="U+0627 U+0644 U+062C U+0628">
+			<comment>alef+lam+hah.medi (rule 40)</comment>
+			<string>\u0627\u0644\u0650\u062C\u0650\u0628\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0627 U+0644 U+062D U+0628">
+			<comment>(rule 40)</comment>
+			<string>\u0627\u0644\u0650\u062D\u0650\u0628\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0627 U+0644 U+062E U+0628">
+			<comment>(rule 40)</comment>
+			<string>\u0627\u0644\u0650\u062e\u0650\u0628\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0627 U+0644 U+0683 U+0628">
+			<comment>(rule 40)</comment>
+			<string>\u0627\u0644\u0650\u0683\u0650\u0628\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0627 U+0644 U+0684 U+0628">
+			<comment>(rule 40)</comment>
+			<string>\u0627\u0644\u0650\u0684\u0650\u0628\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
 	</testgroup>
 </ftml>
