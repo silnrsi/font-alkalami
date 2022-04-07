@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="e-ar.fina.low" format="2">
   <advance width="793"/>
+  <anchor x="146" y="-840" name="bottom"/>
   <anchor x="793" y="0" name="entry"/>
   <anchor x="444" y="82" name="top"/>
   <outline>
     <component base="alefMaksura-ar.fina.low"/>
-    <component base="twodotsverticalbelow-ar" xOffset="544" yOffset="-317"/>
+    <component base="twodotsverticalbelow-ar" xOffset="52" yOffset="-517"/>
   </outline>
   <lib>
     <dict>

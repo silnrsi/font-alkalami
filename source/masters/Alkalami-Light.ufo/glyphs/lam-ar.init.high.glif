@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lam-ar.init.high" format="2">
   <advance width="177"/>
-  <anchor x="78" y="187" name="bottom"/>
+  <anchor x="88" y="167" name="bottom"/>
   <anchor x="0" y="207" name="exit"/>
   <anchor x="50" y="680" name="top"/>
   <outline>

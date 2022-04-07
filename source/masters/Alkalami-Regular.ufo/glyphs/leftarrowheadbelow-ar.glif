@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="leftarrowheadbelow-ar" format="2">
   <unicode hex="08F9"/>
-  <anchor x="113" y="-40" name="_bottom"/>
+  <anchor x="53" y="-10" name="_bottom"/>
   <anchor x="122" y="-307" name="bottom"/>
   <outline>
     <component base="leftarrowheadabove-ar" yOffset="-830"/>

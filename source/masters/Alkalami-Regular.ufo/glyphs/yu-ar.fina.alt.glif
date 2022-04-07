@@ -3,10 +3,10 @@
   <advance width="529"/>
   <anchor x="329" y="-222" name="bottom"/>
   <anchor x="529" y="0" name="entry"/>
-  <anchor x="246" y="759" name="top"/>
+  <anchor x="246" y="729" name="top"/>
   <outline>
     <component base="waw-ar.fina.alt"/>
-    <component base="alefabove-ar" xOffset="196" yOffset="-92"/>
+    <component base="alefabove-ar" xOffset="196" yOffset="-122"/>
   </outline>
   <lib>
     <dict>

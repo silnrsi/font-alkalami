@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kirghizyu-ar.alt" format="2">
   <advance width="481"/>
-  <anchor x="329" y="-222" name="bottom"/>
+  <anchor x="319" y="-222" name="bottom"/>
   <anchor x="211" y="707" name="top"/>
   <outline>
-    <component base="waw-ar.alt"/>
     <component base="vinvertedabove-ar" xOffset="33" yOffset="-5"/>
+    <component base="waw-ar.alt"/>
   </outline>
   <lib>
     <dict>

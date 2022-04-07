@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehThreedotsbelow-ar.fina.longtail" format="2">
   <advance width="562"/>
+  <anchor x="411" y="-139" name="bottom"/>
   <anchor x="562" y="0" name="entry"/>
   <anchor x="217" y="301" name="top"/>
   <outline>
     <component base="alefMaksura-ar.fina.longtail"/>
-    <component base="twodotshorizontalabove-ar" xOffset="229" yOffset="-669"/>
-    <component base="dotabove-ar" xOffset="299" yOffset="-864"/>
+    <component base="twodotshorizontalabove-ar" xOffset="-369" yOffset="-992"/>
+    <component base="dotabove-ar" xOffset="-299" yOffset="-1187"/>
   </outline>
   <lib>
     <dict>

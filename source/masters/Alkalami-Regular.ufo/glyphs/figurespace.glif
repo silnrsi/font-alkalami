@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="figurespace" format="2">
-  <advance width="510"/>
+  <advance width="561"/>
   <unicode hex="2007"/>
-  <anchor x="251" y="-60" name="bottom"/>
-  <anchor x="248" y="305" name="top"/>
+  <anchor x="291" y="-60" name="bottom"/>
+  <anchor x="288" y="305" name="top"/>
   <outline/>
 </glyph>

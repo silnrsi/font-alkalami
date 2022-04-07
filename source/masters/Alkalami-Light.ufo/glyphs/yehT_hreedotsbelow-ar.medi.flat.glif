@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehThreedotsbelow-ar.medi.flat" format="2">
   <advance width="207"/>
+  <anchor x="75" y="-387" name="bottom"/>
   <anchor x="207" y="0" name="entry"/>
   <anchor x="0" y="207" name="exit"/>
   <anchor x="40" y="486" name="top"/>

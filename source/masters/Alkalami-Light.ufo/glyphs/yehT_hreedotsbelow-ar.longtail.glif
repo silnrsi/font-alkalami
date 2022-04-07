@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehThreedotsbelow-ar.longtail" format="2">
   <advance width="766"/>
+  <anchor x="165" y="-687" name="bottom"/>
   <anchor x="494" y="278" name="top"/>
   <outline>
     <component base="alefMaksura-ar"/>
-    <component base="threedotsdownabove-ar" xOffset="432" yOffset="-764"/>
+    <component base="threedotsdownbelow-ar" xOffset="14" yOffset="-317"/>
   </outline>
   <lib>
     <dict>

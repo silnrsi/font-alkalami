@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehThreedotsbelow-ar.fina.low" format="2">
   <advance width="793"/>
-  <anchor x="124" y="-857" name="bottom"/>
+  <anchor x="144" y="-857" name="bottom"/>
   <anchor x="793" y="0" name="entry"/>
   <anchor x="455" y="84" name="top"/>
   <outline>

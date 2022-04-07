@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oe-ar.fina.alt" format="2">
-  <advance width="481"/>
+  <advance width="529"/>
   <anchor x="329" y="-222" name="bottom"/>
-  <anchor x="203" y="666" name="top"/>
+  <anchor x="529" y="0" name="entry"/>
+  <anchor x="253" y="636" name="top"/>
   <outline>
-    <component base="waw-ar.alt"/>
-    <component base="vabove-ar" xOffset="52" yOffset="-24"/>
+    <component base="vabove-ar" xOffset="102" yOffset="-54"/>
+    <component base="waw-ar.fina.alt"/>
   </outline>
   <lib>
     <dict>

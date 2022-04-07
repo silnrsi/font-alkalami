@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yu-ar.alt" format="2">
-  <advance width="521"/>
+  <advance width="481"/>
   <unicode hex="06C8"/>
-  <anchor x="369" y="-222" name="bottom"/>
+  <anchor x="319" y="-222" name="bottom"/>
   <anchor x="203" y="729" name="top"/>
   <outline>
-    <component base="waw-ar"/>
     <component base="alefabove-ar" xOffset="153" yOffset="-122"/>
+    <component base="waw-ar.alt"/>
   </outline>
   <lib>
     <dict>

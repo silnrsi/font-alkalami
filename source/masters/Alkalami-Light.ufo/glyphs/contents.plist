@@ -1886,10 +1886,14 @@
   <string>yeh-farsi.fina.glif</string>
   <key>yeh-farsi.fina.longtail</key>
   <string>yeh-farsi.fina.longtail.glif</string>
+  <key>yeh-farsi.fina.longtail.ss05</key>
+  <string>yeh-farsi.fina.longtail.ss05.glif</string>
   <key>yeh-farsi.fina.low</key>
   <string>yeh-farsi.fina.low.glif</string>
   <key>yeh-farsi.fina.shrtail</key>
   <string>yeh-farsi.fina.shrtail.glif</string>
+  <key>yeh-farsi.fina.shrtail.ss05</key>
+  <string>yeh-farsi.fina.shrtail.ss05.glif</string>
   <key>yeh-farsi.fina.ss05</key>
   <string>yeh-farsi.fina.ss05.glif</string>
   <key>yeh-farsi.fina.ss05.low</key>
@@ -1900,6 +1904,8 @@
   <string>yeh-farsi.init.ss05.glif</string>
   <key>yeh-farsi.longtail</key>
   <string>yeh-farsi.longtail.glif</string>
+  <key>yeh-farsi.longtail.ss05</key>
+  <string>yeh-farsi.longtail.ss05.glif</string>
   <key>yeh-farsi.medi</key>
   <string>yeh-farsi.medi.glif</string>
   <key>yeh-farsi.medi.flat</key>
@@ -1910,16 +1916,10 @@
   <string>yeh-farsi.medi.ss05.glif</string>
   <key>yeh-farsi.shrtail</key>
   <string>yeh-farsi.shrtail.glif</string>
-  <key>yeh-farsi.ss05</key>
-  <string>yeh-farsi.ss05.glif</string>
   <key>yeh-farsi.shrtail.ss05</key>
   <string>yeh-farsi.shrtail.ss05.glif</string>
-  <key>yeh-farsi.longtail.ss05</key>
-  <string>yeh-farsi.longtail.ss05.glif</string>
-  <key>yeh-farsi.fina.shrtail.ss05</key>
-  <string>yeh-farsi.fina.shrtail.ss05.glif</string>
-  <key>yeh-farsi.fina.longtail.ss05</key>
-  <string>yeh-farsi.fina.longtail.ss05.glif</string>
+  <key>yeh-farsi.ss05</key>
+  <string>yeh-farsi.ss05.glif</string>
   <key>yehHamzaabove-ar</key>
   <string>yehH_amzaabove-ar.glif</string>
   <key>yehHamzaabove-ar.fina</key>
@@ -1956,6 +1956,10 @@
   <string>yehT_hreedotsabove-farsi.fina.shrtail.glif</string>
   <key>yehThreedotsabove-farsi.fina.shrtail.ss09</key>
   <string>yehT_hreedotsabove-farsi.fina.shrtail.ss09.glif</string>
+  <key>yehThreedotsabove-farsi.fina.ss05</key>
+  <string>yehT_hreedotsabove-farsi.fina.ss05.glif</string>
+  <key>yehThreedotsabove-farsi.fina.ss05.low</key>
+  <string>yehT_hreedotsabove-farsi.fina.ss05.low.glif</string>
   <key>yehThreedotsabove-farsi.fina.ss09</key>
   <string>yehT_hreedotsabove-farsi.fina.ss09.glif</string>
   <key>yehThreedotsabove-farsi.init</key>

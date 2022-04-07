@@ -3,7 +3,7 @@
   <advance width="441"/>
   <unicode hex="0756"/>
   <anchor x="218" y="-40" name="bottom"/>
-  <anchor x="266" y="462" name="top"/>
+  <anchor x="296" y="512" name="top"/>
   <outline>
     <component base="behDotless-ar"/>
     <component base="vabove-ar" xOffset="142" yOffset="-170"/>

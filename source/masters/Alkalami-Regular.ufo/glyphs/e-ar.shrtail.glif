@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="e-ar.shrtail" format="2">
   <advance width="522"/>
+  <anchor x="-129" y="-777" name="bottom"/>
   <anchor x="217" y="301" name="top"/>
   <outline>
     <component base="alefMaksura-ar.shrtail"/>
-    <component base="twodotsverticalabove-ar" xOffset="322" yOffset="-839"/>
+    <component base="twodotsverticalabove-ar" xOffset="-218" yOffset="-1049"/>
   </outline>
   <lib>
     <dict>
