@@ -2,7 +2,6 @@
 <glyph name="highhamza-ar" format="2">
   <advance width="228"/>
   <unicode hex="0674"/>
-  <anchor x="115" y="505" name="_top"/>
   <anchor x="111" y="735" name="top"/>
   <outline>
     <component base="hamzaabove-ar"/>

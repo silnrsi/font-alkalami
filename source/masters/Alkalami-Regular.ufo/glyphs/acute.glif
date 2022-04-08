@@ -2,7 +2,6 @@
 <glyph name="acute" format="2">
   <advance width="124"/>
   <unicode hex="00B4"/>
-  <anchor x="49" y="430" name="_top"/>
   <outline>
     <contour>
       <point x="104" y="715" type="curve"/>
