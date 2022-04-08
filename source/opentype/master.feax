@@ -591,9 +591,9 @@ languagesystem latn dflt;
 
 @EndofAyah = [ endofayah-ar endofayah-ar.ss02 endofayah-ar.ss03  ];
 
-@EndofAyah2 = [ endofayah-ar.alt2 endofayah-ar.alt2.ss02 endofayah-ar.alt2.ss03  ];
+@EndofAyah2 = [ endofayah-ar.2 endofayah-ar.2.ss02 endofayah-ar.2.ss03  ];
 
-@EndofAyah3 = [ endofayah-ar.alt3 endofayah-ar.alt3.ss02 endofayah-ar.alt3.ss03  ];
+@EndofAyah3 = [ endofayah-ar.3 endofayah-ar.3.ss02 endofayah-ar.3.ss03  ];
 
 # End of Ayah digits - calt
 lookup digit_small {
@@ -601,14 +601,14 @@ lookup digit_small {
 } digit_small;
 
 # replace single digit Ayah with double digit Ayah - calt
-lookup Ayah_alt2 {
-	sub endofayah-ar by endofayah-ar.alt2;
-} Ayah_alt2;
+lookup Ayah_2 {
+	sub endofayah-ar by endofayah-ar.2;
+} Ayah_2;
 
 #replace single digit Ayah with triple digit Ayah - calt
-lookup Ayah_alt3 {
-	sub endofayah-ar by endofayah-ar.alt3;
-} Ayah_alt3;
+lookup Ayah_3 {
+	sub endofayah-ar by endofayah-ar.3;
+} Ayah_3;
 
 # make the lam-alef ligature have colored hamzas if wanted
 # not used??
@@ -1253,13 +1253,13 @@ feature calt {
 
 		# replace sequence of digits, up to three places
 		# Uniscribe or Harfbuzz 'latn'
-		sub @EndofAyah' lookup Ayah_alt3 @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small;
-		sub @EndofAyah' lookup Ayah_alt2 @Digits' lookup digit_small @Digits' lookup digit_small;
+		sub @EndofAyah' lookup Ayah_3 @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small;
+		sub @EndofAyah' lookup Ayah_2 @Digits' lookup digit_small @Digits' lookup digit_small;
 		sub @EndofAyah @Digits' lookup digit_small;
 
 		# HarfBuzz 'arab'
-		sub @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small @EndofAyah' lookup Ayah_alt3;
-		sub @Digits' lookup digit_small @Digits' lookup digit_small @EndofAyah' lookup Ayah_alt2;
+		sub @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small @EndofAyah' lookup Ayah_3;
+		sub @Digits' lookup digit_small @Digits' lookup digit_small @EndofAyah' lookup Ayah_2;
 		sub @Digits' lookup digit_small @EndofAyah;
 	} calt_lkp2;
 

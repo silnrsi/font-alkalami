@@ -960,14 +960,14 @@
     <string>parenleft-ar</string>
     <string>parenright-ar</string>
     <string>endofayah-ar</string>
-    <string>endofayah-ar.alt2</string>
-    <string>endofayah-ar.alt3</string>
+    <string>endofayah-ar.2</string>
+    <string>endofayah-ar.3</string>
     <string>endofayah-ar.ss02</string>
-    <string>endofayah-ar.alt2.ss02</string>
-    <string>endofayah-ar.alt3.ss02</string>
+    <string>endofayah-ar.2.ss02</string>
+    <string>endofayah-ar.3.ss02</string>
     <string>endofayah-ar.ss03</string>
-    <string>endofayah-ar.alt2.ss03</string>
-    <string>endofayah-ar.alt3.ss03</string>
+    <string>endofayah-ar.2.ss03</string>
+    <string>endofayah-ar.3.ss03</string>
     <string>allah-ar</string>
     <string>bismillah-ar</string>
     <string>fathaRing-ar</string>
@@ -2018,14 +2018,14 @@
     <string>parenleft-ar</string>
     <string>parenright-ar</string>
     <string>endofayah-ar</string>
-    <string>endofayah-ar.alt2</string>
-    <string>endofayah-ar.alt3</string>
+    <string>endofayah-ar.2</string>
+    <string>endofayah-ar.3</string>
     <string>endofayah-ar.ss02</string>
-    <string>endofayah-ar.alt2.ss02</string>
-    <string>endofayah-ar.alt3.ss02</string>
+    <string>endofayah-ar.2.ss02</string>
+    <string>endofayah-ar.3.ss02</string>
     <string>endofayah-ar.ss03</string>
-    <string>endofayah-ar.alt2.ss03</string>
-    <string>endofayah-ar.alt3.ss03</string>
+    <string>endofayah-ar.2.ss03</string>
+    <string>endofayah-ar.3.ss03</string>
     <string>allah-ar</string>
     <string>bismillah-ar</string>
     <string>fathaRing-ar</string>
@@ -2591,18 +2591,18 @@
     <string>uni2003</string>
     <key>endofayah-ar</key>
     <string>uni06DD</string>
-    <key>endofayah-ar.alt2</key>
-    <string>uni06DD.alt2</string>
-    <key>endofayah-ar.alt2.ss02</key>
-    <string>uni06DD.alt2.ss02</string>
-    <key>endofayah-ar.alt2.ss03</key>
-    <string>uni06DD.alt2.ss03</string>
-    <key>endofayah-ar.alt3</key>
-    <string>uni06DD.alt3</string>
-    <key>endofayah-ar.alt3.ss02</key>
-    <string>uni06DD.alt3.ss02</string>
-    <key>endofayah-ar.alt3.ss03</key>
-    <string>uni06DD.alt3.ss03</string>
+    <key>endofayah-ar.2</key>
+    <string>uni06DD.2</string>
+    <key>endofayah-ar.2.ss02</key>
+    <string>uni06DD.2.ss02</string>
+    <key>endofayah-ar.2.ss03</key>
+    <string>uni06DD.2.ss03</string>
+    <key>endofayah-ar.3</key>
+    <string>uni06DD.3</string>
+    <key>endofayah-ar.3.ss02</key>
+    <string>uni06DD.3.ss02</string>
+    <key>endofayah-ar.3.ss03</key>
+    <string>uni06DD.3.ss03</string>
     <key>endofayah-ar.ss02</key>
     <string>uni06DD.ss02</string>
     <key>endofayah-ar.ss03</key>
