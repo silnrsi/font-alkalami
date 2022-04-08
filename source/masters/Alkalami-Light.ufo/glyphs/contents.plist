@@ -1956,10 +1956,6 @@
   <string>yehT_hreedotsabove-farsi.fina.shrtail.glif</string>
   <key>yehThreedotsabove-farsi.fina.shrtail.ss09</key>
   <string>yehT_hreedotsabove-farsi.fina.shrtail.ss09.glif</string>
-  <key>yehThreedotsabove-farsi.fina.ss05</key>
-  <string>yehT_hreedotsabove-farsi.fina.ss05.glif</string>
-  <key>yehThreedotsabove-farsi.fina.ss05.low</key>
-  <string>yehT_hreedotsabove-farsi.fina.ss05.low.glif</string>
   <key>yehThreedotsabove-farsi.fina.ss09</key>
   <string>yehT_hreedotsabove-farsi.fina.ss09.glif</string>
   <key>yehThreedotsabove-farsi.init</key>
@@ -1982,8 +1978,6 @@
   <string>yehT_hreedotsabove-farsi.shrtail.glif</string>
   <key>yehThreedotsabove-farsi.shrtail.ss09</key>
   <string>yehT_hreedotsabove-farsi.shrtail.ss09.glif</string>
-  <key>yehThreedotsabove-farsi.ss05</key>
-  <string>yehT_hreedotsabove-farsi.ss05.glif</string>
   <key>yehThreedotsabove-farsi.ss09</key>
   <string>yehT_hreedotsabove-farsi.ss09.glif</string>
   <key>yehThreedotsbelow-ar</key>

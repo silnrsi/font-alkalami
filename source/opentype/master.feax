@@ -1239,7 +1239,7 @@ feature calt {
 		sub @noonFina' space-ar @seenIsol by @noonFina_longtail;
 		sub @noonFina' space-ar teh-ar.init @noonFina by @noonFina_longtail;
 		sub @noonFina' space-ar theh-ar.init @noonFina by @noonFina_longtail;
-		sub @noonFina' space-ar noon-ar.init @noonFina by @noonFina_longtail;
+		sub @noonFina' space-ar @noonInit @noonFina by @noonFina_longtail;
 
 		# subs to avoid collisions in strings with waw-ar (rules 37-38)
 		sub @noonIsol space-ar @wawIsol' by @wawIsol_alt;

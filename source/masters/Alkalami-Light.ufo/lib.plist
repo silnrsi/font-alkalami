@@ -586,7 +586,7 @@
     <string>ghainThreedotsabove-ar.fina.ss09</string>
     <string>ghainThreedotsabove-ar.medi.ss09</string>
     <string>ghainThreedotsabove-ar.init.ss09</string>
-    <string>ghainThreedotsabove-ar.medi.ss09.flat</string>
+    <string>ghainThreedotsabove-ar.medi.flat.ss09</string>
     <string>ghainThreedotsabove-ar.fina.low</string>
     <string>ghainThreedotsabove-ar.fina.low.ss09</string>
     <string>feh-ar</string>
@@ -1644,7 +1644,7 @@
     <string>ghainThreedotsabove-ar.fina.ss09</string>
     <string>ghainThreedotsabove-ar.medi.ss09</string>
     <string>ghainThreedotsabove-ar.init.ss09</string>
-    <string>ghainThreedotsabove-ar.medi.ss09.flat</string>
+    <string>ghainThreedotsabove-ar.medi.flat.ss09</string>
     <string>ghainThreedotsabove-ar.fina.low</string>
     <string>ghainThreedotsabove-ar.fina.low.ss09</string>
     <string>feh-ar</string>
@@ -2741,10 +2741,10 @@
     <string>uni08C3.medi</string>
     <key>ghainThreedotsabove-ar.medi.flat</key>
     <string>uni08C3.medi.flat</string>
+    <key>ghainThreedotsabove-ar.medi.flat.ss09</key>
+    <string>uni08C3.medi.flat.ss09</string>
     <key>ghainThreedotsabove-ar.medi.ss09</key>
     <string>uni08C3.medi.ss09</string>
-    <key>ghainThreedotsabove-ar.medi.ss09.flat</key>
-    <string>uni08C3.medi.flat.ss09</string>
     <key>ghainThreedotsabove-ar.ss09</key>
     <string>uni08C3.ss09</string>
     <key>graphemejoinercomb</key>
