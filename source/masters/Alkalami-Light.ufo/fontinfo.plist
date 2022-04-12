@@ -255,7 +255,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       <dict>
         <key>name</key>
         <string>Bob Hallissy</string>
-        <key>url</key>
+        <key>role</key>
         <string>Script engineer</string>
       </dict>
       <dict>
@@ -263,13 +263,11 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         <string>Becca Hirsbrunner Spalinger</string>
         <key>role</key>
         <string>Lead designer</string>
-        <key>url</key>
-        <string>http://software.sil.org/alkalami/history/</string>
       </dict>
       <dict>
         <key>name</key>
         <string>Nicolas Spalinger</string>
-        <key>url</key>
+        <key>role</key>
         <string>Script engineer</string>
       </dict>
     </array>
@@ -281,15 +279,17 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       <dict>
         <key>text</key>
         <string>Alkalami is the local word for the Arabic "qalam", a type of sharpened stick used
-for writing on wooden boards in the Kano region of Nigeria and in Niger, and what
-gives the style its distinct appearance. The baseline stroke is very thick and
-solid. The ascenders and other vertical strokes including the teeth are very
-narrow when compared to the baseline. A generous line height is necessary to
-allow for deep swashes and descenders, and the overall look of the page is a very
-black, solid rectangle. Diacritics are much smaller in scale, with very little
-distance from the main letters.</string>
+  for writing on wooden boards in the Kano region of Nigeria and in Niger, and what
+  gives the style its distinct appearance. The baseline stroke is very thick and
+  solid. The ascenders and other vertical strokes including the teeth are very
+  narrow when compared to the baseline. A generous line height is necessary to
+  allow for deep swashes and descenders, and the overall look of the page is a very
+  black, solid rectangle. Diacritics are much smaller in scale, with very little
+  distance from the main letters.</string>
       </dict>
     </array>
+    <key>url</key>
+    <string>https://software.sil.org/alkalami/history/</string>
   </dict>
   <key>xHeight</key>
   <integer>430</integer>
