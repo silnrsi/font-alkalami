@@ -19,7 +19,7 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3120</string>
+  <string>3124</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/beh-ar/teh-ar/tehThreedotsdown-ar/tehThreedotsdown-ar.fina/space/tehThreedotsdown-ar.medi/space/tehThreedotsdown-ar.medi.flat/space/tehThreedotsdown-ar.init/space/dyeh-ar/dyeh-ar.fina/space/dyeh-ar.medi/space/dyeh-ar.init/dyeh-ar.fina.alt/dyeh-ar.fina.ss07/space/dyeh-ar.medi.ss07/dyeh-ar.medi.low/space/dyeh-ar.medi.stack/space/jeemTwodotsabove-ar/jeemTwodotsabove-ar.fina/space/jeemTwodotsabove-ar.medi/space/jeemTwodotsabove-ar.init/jeemTwodotsabove-ar.fina.alt/jeemTwodotsabove-ar.fina.ss07/space/jeemTwodotsabove-ar.medi.ss07/space/jeemTwodotsabove-ar.medi.low/space/jeemTwodotsabove-ar.medi.stack</string>
@@ -29,13 +29,14 @@
     <string>/alefFathaattached-ar/space/alefFathaattached-ar.fina/space/alefRightmiddlestroke-ar/space/alefRightmiddlestroke-ar.fina/space/alefKasraattached-ar/space/alefKasraattached-ar.fina/space/space 
 </string>
     <string>/noonghunnaabove-ar/leftarrowheadabove-ar/space/dammainverted-ar/damma-ar/space/space/dammareversed-ar/space/space/waw-ar.fina/lam-ar.medi/meem-ar.init/wawSmall-ar/space/yehabove-ar/yehbarree-ar/waw-ar 
-/number-ar/number-ar.2/number-ar.3/fathaRing-ar 
-/space/space/fatha-ar/space/space/fathaDotabove-ar/space/kasra-ar/space/space/kasraDotbelow-ar/space/kasratan-ar/space/damma-ar/space/space/dammatan-ar/space/space/leftarrowheadabove-ar/space/space/rightarrowheadabove-ar/space/space/leftarrowheadbelow-ar/space/shadda-ar/space/rightarrowheadbelow-ar/space/doublerightarrowheadabove-ar/space/space/dotabove-ar/space/threedots-ar.small/space/doublerightarrowheadDotabove-ar/space/space/space/rightarrowheadDotabove-ar</string>
+/number-ar/fathaRing-ar 
+/space/space/fatha-ar/space/space/fathaDotabove-ar/space/kasra-ar/space/space/kasraDotbelow-ar/space/kasratan-ar/space/damma-ar/space/space/dammatan-ar/space/space/leftarrowheadabove-ar/space/space/rightarrowheadabove-ar/space/space/leftarrowheadbelow-ar/space/shadda-ar/space/rightarrowheadbelow-ar/space/doublerightarrowheadabove-ar/space/space/dotabove-ar/space/space/doublerightarrowheadDotabove-ar/space/space/space/rightarrowheadDotabove-ar</string>
     <string>/e-ar/space/e-ar.fina/e-ar.medi/e-ar.init/space/space/e-ar.shrtail/space/space/e-ar.fina.shrtail/space/space/space/e-ar.longtail/space/space/space/e-ar.fina.longtail/space/e-ar.medi.flat/space/space/space/space/e-ar.fina.low 
 /lam-ar.medi/lam-ar.init/leftarrowheadbelow-ar/space/space/lam-ar.init.high/space/highhamza-ar/hamzaaboveFatha-ar/space/space/figurespace 0/space/sheen-ar/sheen-ar.longtail/space/space/sheen-ar.fina/space/sheen-ar.fina.longtail</string>
     <string>/behVabove-ar/behVabove-ar.fina/behVabove-ar.medi/behVabove-ar.init/behVabove-ar.medi.flat</string>
     <string>/yehThreedotsbelow-ar/space/yehThreedotsbelow-ar.fina/yehThreedotsbelow-ar.medi/yehThreedotsbelow-ar.init/space/space/space/yehThreedotsbelow-ar.shrtail/space/space/space/yehThreedotsbelow-ar.fina.shrtail/space/space/space/yehThreedotsbelow-ar.longtail/space/space/space/yehThreedotsbelow-ar.fina.longtail/space/space/space/yehThreedotsbelow-ar.medi.flat/space/space/space/space/yehThreedotsbelow-ar.fina.low</string>
     <string>/waw-ar.alt/waw-ar.fina.alt/space/wawHamzaabove-ar/wawHamzaabove-ar.fina/space/wawHamzaabove-ar.alt/wawHamzaabove-ar.fina.alt/space/oe-ar.alt/oe-ar.fina.alt/space/yu-ar.alt/yu-ar.fina.alt/space/kirghizyu-ar.alt/kirghizyu-ar.fina.alt</string>
+    <string/>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

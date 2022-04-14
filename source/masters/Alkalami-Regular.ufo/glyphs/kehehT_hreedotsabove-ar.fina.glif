@@ -3,8 +3,9 @@
   <advance width="784"/>
   <anchor x="412" y="-40" name="bottom"/>
   <anchor x="784" y="0" name="entry"/>
-  <anchor x="185" y="830" name="top"/>
+  <anchor x="115" y="830" name="top"/>
   <outline>
-    <component base="ng-ar.fina"/>
+    <component base="keheh-ar.fina"/>
+    <component base="threedotsabovesmall-ar" xOffset="-20" yOffset="87"/>
   </outline>
 </glyph>

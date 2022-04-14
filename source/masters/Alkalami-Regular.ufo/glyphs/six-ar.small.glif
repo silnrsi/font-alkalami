@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="six-ar.small" format="2">
   <advance width="370"/>
+  <anchor x="0" y="0" name="digit"/>
   <outline>
     <contour>
       <point x="315" y="427" type="curve"/>

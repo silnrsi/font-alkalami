@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="five.small" format="2">
   <advance width="370"/>
+  <anchor x="0" y="0" name="digit"/>
   <outline>
     <contour>
       <point x="31" y="237" type="curve"/>

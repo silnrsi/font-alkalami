@@ -194,6 +194,8 @@
   <string>eight-ar.glif</string>
   <key>eight-ar.small</key>
   <string>eight-ar.small.glif</string>
+  <key>eight.pnum</key>
+  <string>eight.pnum.glif</string>
   <key>eight.small</key>
   <string>eight.small.glif</string>
   <key>emdash</key>
@@ -238,6 +240,8 @@
   <string>five-ar.glif</string>
   <key>five-ar.small</key>
   <string>five-ar.small.glif</string>
+  <key>five.pnum</key>
+  <string>five.pnum.glif</string>
   <key>five.small</key>
   <string>five.small.glif</string>
   <key>florin</key>
@@ -248,6 +252,8 @@
   <string>four-ar.glif</string>
   <key>four-ar.small</key>
   <string>four-ar.small.glif</string>
+  <key>four.pnum</key>
+  <string>four.pnum.glif</string>
   <key>four.small</key>
   <string>four.small.glif</string>
   <key>ghain-ar.fina.ss06</key>
@@ -356,8 +362,8 @@
   <string>nine.glif</string>
   <key>nine-ar</key>
   <string>nine-ar.glif</string>
-  <key>nine-ar.small</key>
-  <string>nine-ar.small.glif</string>
+  <key>nine.pnum</key>
+  <string>nine.pnum.glif</string>
   <key>nine.small</key>
   <string>nine.small.glif</string>
   <key>noon-ar.fina.longtail</key>
@@ -410,6 +416,8 @@
   <string>one-ar.glif</string>
   <key>one-ar.small</key>
   <string>one-ar.small.glif</string>
+  <key>one.pnum</key>
+  <string>one.pnum.glif</string>
   <key>one.small</key>
   <string>one.small.glif</string>
   <key>oslash</key>
@@ -488,6 +496,8 @@
   <string>seven-ar.glif</string>
   <key>seven-ar.small</key>
   <string>seven-ar.small.glif</string>
+  <key>seven.pnum</key>
+  <string>seven.pnum.glif</string>
   <key>seven.small</key>
   <string>seven.small.glif</string>
   <key>shadda-ar</key>
@@ -502,6 +512,8 @@
   <string>six-ar.glif</string>
   <key>six-ar.small</key>
   <string>six-ar.small.glif</string>
+  <key>six.pnum</key>
+  <string>six.pnum.glif</string>
   <key>six.small</key>
   <string>six.small.glif</string>
   <key>slash</key>
@@ -526,6 +538,8 @@
   <string>three-ar.glif</string>
   <key>three-ar.small</key>
   <string>three-ar.small.glif</string>
+  <key>three.pnum</key>
+  <string>three.pnum.glif</string>
   <key>three.small</key>
   <string>three.small.glif</string>
   <key>threedots-ar</key>
@@ -552,6 +566,8 @@
   <string>two-ar.glif</string>
   <key>two-ar.small</key>
   <string>two-ar.small.glif</string>
+  <key>two.pnum</key>
+  <string>two.pnum.glif</string>
   <key>two.small</key>
   <string>two.small.glif</string>
   <key>twodotshorizontalabove-ar</key>
@@ -630,6 +646,8 @@
   <string>zero-ar.glif</string>
   <key>zero-ar.small</key>
   <string>zero-ar.small.glif</string>
+  <key>zero.pnum</key>
+  <string>zero.pnum.glif</string>
   <key>zero.small</key>
   <string>zero.small.glif</string>
 </dict>

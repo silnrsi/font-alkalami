@@ -76,6 +76,8 @@
   <string>fehD_otless-ar.medi.glif</string>
   <key>five</key>
   <string>five.glif</string>
+  <key>five.pnum</key>
+  <string>five.pnum.glif</string>
   <key>five.small</key>
   <string>five.small.glif</string>
   <key>greaterequal</key>
@@ -106,8 +108,6 @@
   <string>integral.glif</string>
   <key>integral.rtl</key>
   <string>integral.rtl.glif</string>
-  <key>kaf-ar</key>
-  <string>kaf-ar.glif</string>
   <key>kaf-ar.fina</key>
   <string>kaf-ar.fina.glif</string>
   <key>kaf-ar.medi</key>
@@ -186,6 +186,8 @@
   <string>seven-ar.small.glif</string>
   <key>six</key>
   <string>six.glif</string>
+  <key>six.pnum</key>
+  <string>six.pnum.glif</string>
   <key>sterling</key>
   <string>sterling.glif</string>
   <key>summation</key>
