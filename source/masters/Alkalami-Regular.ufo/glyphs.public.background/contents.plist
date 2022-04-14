@@ -204,16 +204,6 @@
   <string>endash.glif</string>
   <key>endofayah-ar</key>
   <string>endofayah-ar.glif</string>
-  <key>endofayah-ar.alt2</key>
-  <string>endofayah-ar.alt2.glif</string>
-  <key>endofayah-ar.alt2.ss02</key>
-  <string>endofayah-ar.alt2.ss02.glif</string>
-  <key>endofayah-ar.alt2.ss03</key>
-  <string>endofayah-ar.alt2.ss03.glif</string>
-  <key>endofayah-ar.alt3</key>
-  <string>endofayah-ar.alt3.glif</string>
-  <key>endofayah-ar.alt3.ss03</key>
-  <string>endofayah-ar.alt3.ss03.glif</string>
   <key>endofayah-ar.ss03</key>
   <string>endofayah-ar.ss03.glif</string>
   <key>eth</key>
@@ -628,12 +618,6 @@
   <string>yehT_hreedotsabove-farsi.fina.glif</string>
   <key>yehThreedotsabove-farsi.fina.low</key>
   <string>yehT_hreedotsabove-farsi.fina.low.glif</string>
-  <key>yehThreedotsabove-farsi.fina.ss05</key>
-  <string>yehT_hreedotsabove-farsi.fina.ss05.glif</string>
-  <key>yehThreedotsabove-farsi.fina.ss05.low</key>
-  <string>yehT_hreedotsabove-farsi.fina.ss05.low.glif</string>
-  <key>yehThreedotsabove-farsi.ss05</key>
-  <string>yehT_hreedotsabove-farsi.ss05.glif</string>
   <key>yehThreedotsbelow-ar.fina</key>
   <string>yehT_hreedotsbelow-ar.fina.glif</string>
   <key>yehThreedotsbelow-ar.fina.low</key>

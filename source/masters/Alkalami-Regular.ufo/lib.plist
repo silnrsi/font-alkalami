@@ -88,24 +88,34 @@
     <string>slash</string>
     <string>zero</string>
     <string>zero.small</string>
+    <string>zero.pnum</string>
     <string>one</string>
     <string>one.small</string>
+    <string>one.pnum</string>
     <string>two</string>
     <string>two.small</string>
+    <string>two.pnum</string>
     <string>three</string>
     <string>three.small</string>
+    <string>three.pnum</string>
     <string>four</string>
     <string>four.small</string>
+    <string>four.pnum</string>
     <string>five</string>
     <string>five.small</string>
+    <string>five.pnum</string>
     <string>six</string>
     <string>six.small</string>
+    <string>six.pnum</string>
     <string>seven</string>
     <string>seven.small</string>
+    <string>seven.pnum</string>
     <string>eight</string>
     <string>eight.small</string>
+    <string>eight.pnum</string>
     <string>nine</string>
     <string>nine.small</string>
+    <string>nine.pnum</string>
     <string>colon</string>
     <string>semicolon</string>
     <string>less</string>
@@ -842,14 +852,14 @@
     <string>yeh-farsi.fina.shrtail</string>
     <string>yeh-farsi.longtail</string>
     <string>yeh-farsi.fina.longtail</string>
+    <string>yeh-farsi.shrtail.ss05</string>
+    <string>yeh-farsi.fina.shrtail.ss05</string>
+    <string>yeh-farsi.longtail.ss05</string>
+    <string>yeh-farsi.fina.longtail.ss05</string>
     <string>yeh-farsi.medi.flat</string>
     <string>yeh-farsi.fina.low</string>
     <string>yeh-farsi.ss05</string>
-    <string>yeh-farsi.longtail.ss05</string>
-    <string>yeh-farsi.shrtail.ss05</string>
     <string>yeh-farsi.fina.ss05</string>
-    <string>yeh-farsi.fina.longtail.ss05</string>
-    <string>yeh-farsi.fina.shrtail.ss05</string>
     <string>yeh-farsi.medi.ss05</string>
     <string>yeh-farsi.init.ss05</string>
     <string>yeh-farsi.medi.flat.ss05</string>
@@ -1146,24 +1156,34 @@
     <string>slash</string>
     <string>zero</string>
     <string>zero.small</string>
+    <string>zero.pnum</string>
     <string>one</string>
     <string>one.small</string>
+    <string>one.pnum</string>
     <string>two</string>
     <string>two.small</string>
+    <string>two.pnum</string>
     <string>three</string>
     <string>three.small</string>
+    <string>three.pnum</string>
     <string>four</string>
     <string>four.small</string>
+    <string>four.pnum</string>
     <string>five</string>
     <string>five.small</string>
+    <string>five.pnum</string>
     <string>six</string>
     <string>six.small</string>
+    <string>six.pnum</string>
     <string>seven</string>
     <string>seven.small</string>
+    <string>seven.pnum</string>
     <string>eight</string>
     <string>eight.small</string>
+    <string>eight.pnum</string>
     <string>nine</string>
     <string>nine.small</string>
+    <string>nine.pnum</string>
     <string>colon</string>
     <string>semicolon</string>
     <string>less</string>
@@ -1900,14 +1920,14 @@
     <string>yeh-farsi.fina.shrtail</string>
     <string>yeh-farsi.longtail</string>
     <string>yeh-farsi.fina.longtail</string>
+    <string>yeh-farsi.shrtail.ss05</string>
+    <string>yeh-farsi.fina.shrtail.ss05</string>
+    <string>yeh-farsi.longtail.ss05</string>
+    <string>yeh-farsi.fina.longtail.ss05</string>
     <string>yeh-farsi.medi.flat</string>
     <string>yeh-farsi.fina.low</string>
     <string>yeh-farsi.ss05</string>
-    <string>yeh-farsi.longtail.ss05</string>
-    <string>yeh-farsi.shrtail.ss05</string>
     <string>yeh-farsi.fina.ss05</string>
-    <string>yeh-farsi.fina.longtail.ss05</string>
-    <string>yeh-farsi.fina.shrtail.ss05</string>
     <string>yeh-farsi.medi.ss05</string>
     <string>yeh-farsi.init.ss05</string>
     <string>yeh-farsi.medi.flat.ss05</string>
