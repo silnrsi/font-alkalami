@@ -84,6 +84,8 @@
   <string>alef-ar.glif</string>
   <key>alef-ar.fina</key>
   <string>alef-ar.fina.glif</string>
+  <key>alef-ar.fina.allah</key>
+  <string>alef-ar.fina.allah.glif</string>
   <key>alef-ar.fina.low</key>
   <string>alef-ar.fina.low.glif</string>
   <key>alef-ar.high</key>
@@ -322,6 +324,8 @@
   <string>lam-ar.init.glif</string>
   <key>lam-ar.medi</key>
   <string>lam-ar.medi.glif</string>
+  <key>lam-ar.medi.allah2</key>
+  <string>lam-ar.medi.allah2.glif</string>
   <key>lam_alef-ar</key>
   <string>lam_alef-ar.glif</string>
   <key>lam_alef-ar.fina</key>

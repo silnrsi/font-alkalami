@@ -36,7 +36,8 @@
     <string>/behVabove-ar/behVabove-ar.fina/behVabove-ar.medi/behVabove-ar.init/behVabove-ar.medi.flat</string>
     <string>/yehThreedotsbelow-ar/space/yehThreedotsbelow-ar.fina/yehThreedotsbelow-ar.medi/yehThreedotsbelow-ar.init/space/space/space/yehThreedotsbelow-ar.shrtail/space/space/space/yehThreedotsbelow-ar.fina.shrtail/space/space/space/yehThreedotsbelow-ar.longtail/space/space/space/yehThreedotsbelow-ar.fina.longtail/space/space/space/yehThreedotsbelow-ar.medi.flat/space/space/space/space/yehThreedotsbelow-ar.fina.low</string>
     <string>/waw-ar.alt/waw-ar.fina.alt/space/wawHamzaabove-ar/wawHamzaabove-ar.fina/space/wawHamzaabove-ar.alt/wawHamzaabove-ar.fina.alt/space/oe-ar.alt/oe-ar.fina.alt/space/yu-ar.alt/yu-ar.fina.alt/space/kirghizyu-ar.alt/kirghizyu-ar.fina.alt</string>
-    <string/>
+    <string>/allah-ar/lam-ar.medi/lam-ar.init/alef-ar/alef-ar.fina/alef-ar.fina.allah/heh-ar.fina.allah/lam-ar.medi.allah1/lam-ar.medi.allah2/lam-ar.init.allah1/alef-ar.allah</string>
+    <string>/bismillah-ar/space/space/space</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

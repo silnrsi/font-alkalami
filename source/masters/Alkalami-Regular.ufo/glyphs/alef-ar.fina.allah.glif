@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="alef-ar.fina" format="2">
+<glyph name="alef-ar.fina.allah" format="2">
   <advance width="224"/>
-  <anchor x="92" y="-220" name="bottom"/>
+  <anchor x="92" y="-58" name="bottom"/>
   <anchor x="224" y="0" name="entry"/>
   <anchor x="92" y="598" name="top"/>
   <outline>
     <contour>
-      <point x="115" y="-30" type="curve" smooth="yes"/>
-      <point x="115" y="-4"/>
+      <point x="113" y="-7"/>
       <point x="116" y="0"/>
       <point x="124" y="0" type="curve" smooth="yes"/>
       <point x="243" y="0" type="line"/>
@@ -28,13 +27,17 @@
       <point x="49" y="527"/>
       <point x="49" y="526" type="curve" smooth="yes"/>
       <point x="60" y="315"/>
-      <point x="67" y="49"/>
-      <point x="72" y="-176" type="curve"/>
-      <point x="87" y="-176"/>
-      <point x="112" y="-172"/>
-      <point x="112" y="-154" type="curve" smooth="yes"/>
-      <point x="113" y="-119"/>
-      <point x="114" y="-77"/>
+      <point x="67" y="160"/>
+      <point x="72" y="-34" type="curve"/>
+      <point x="87" y="-34"/>
+      <point x="112" y="-30"/>
+      <point x="113" y="-13" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
