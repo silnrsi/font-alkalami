@@ -19,9 +19,9 @@
     <p>See also <a href="http://software.sil.org/arabicfonts/support/application-support/">Arabic Fonts — Application Support</a>. It provides a fairly comprehensive list of applications that make full use of the OpenType font technology.</p>
     <p>This page uses web fonts (WOFF) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use Alkalami as a web font see <em>Alkalami-webfont-example.html</em> in the font package web folder.</p>
     <p><em>If this document is not displaying correctly a PDF version is also provided in the documentation/pdf folder of the release package.</em></p>
-    <h2 id="end-of-ayah-u06dd">End of Ayah (U+06DD)</h2>
+    <h2 id="signs-spanning-numbers">Signs Spanning Numbers</h2>
     <p>These signs spanning numbers are intended to enclose or hold one or more digits. Specific technical details of how to use them are discussed in the <a href="http://software.sil.org/arabicfonts/support/faq#Ayah">Arabic fonts FAQ -- Subtending marks</a>.</p>
-    <p>Currently, this font only supports the <strong>End of Ayah</strong>. Additionally, Alkalami includes two simplified alternates for U+06DD ARABIC END OF AYAH under the Stylistic Alternates (salt) feature, but at this time we know of no OpenType-based applications that can access these. The two alternates are also available through the Stylistic Sets feature discussed below.</p>
+    <p>Currently, this font only supports the <strong>Number Sign</strong> (U+0600) and <strong>End of Ayah</strong> (U+06DD). Additionally, Alkalami includes two simplified alternates for U+06DD ARABIC END OF AYAH under the Stylistic Alternates (salt) feature, but at this time we know of no OpenType-based applications that can access these. The two alternates are also available through the Stylistic Sets feature discussed below.</p>
     <h2 id="customizing-with-typetuner">Customizing with TypeTuner</h2>
     <p>For applications that do not make use of the OpenType Stylistic Sets, you can now download fonts customized with the variant glyphs you choose. Read this document, visit <a href="http://scripts.sil.org/ttw/fonts2go.cgi">TypeTuner Web</a>, then choose the variants and download your font.</p>
     <h3 id="stylistic-sets">Stylistic Sets</h3>
@@ -69,6 +69,29 @@
     <td>Alternate</td>
     <td><span class="alkalami-R normal" dir="rtl" style="font-feature-settings: &quot;ss07&quot; 1">ج ججج ح ححح خ خخخ ڃ ڃڃڃ ڄ ڄڄڄ ࢢ ࢢࢢࢢ</span></td>
     <td><code>ss07=1</code></td>
+    </tr>
+    </tbody>
+    </table>
+    <h4 id="alef-diacritic-placement-ss08">Alef diacritic placement (ss08)</h4>
+    <p><span class="affects">Affects: U+0627, U+064E, U+064F, U+0650</span></p>
+    <table>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Sample</th>
+    <th>Feature setting</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>Standard</td>
+    <td><span class="alkalami-R normal" dir="rtl" style="font-feature-settings: &quot;ss08&quot; 0">اَ اُ اِ باَ باُ باِ </span></td>
+    <td><code>ss08=0</code></td>
+    </tr>
+    <tr class="even">
+    <td>Touching</td>
+    <td><span class="alkalami-R normal" dir="rtl" style="font-feature-settings: &quot;ss08&quot; 1">اَ اُ اِ باَ باُ باِ</span></td>
+    <td><code>ss08=1</code></td>
     </tr>
     </tbody>
     </table>
@@ -131,6 +154,7 @@
     </tbody>
     </table>
     <h3 id="discouraged">Discouraged</h3>
+    <p>These are discouraged from use. They were added to the font before some of the characters were added to Unicode. The characters supported in ss09 are Unicode-compliant.</p>
     <h4 id="warsh-hack-ss01">Warsh Hack (ss01)</h4>
     <p><span class="affects">Affects: U+0646, U+064A, U+06A2, U+06A7</span></p>
     <table>
