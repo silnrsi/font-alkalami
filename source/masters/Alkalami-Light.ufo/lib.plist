@@ -981,6 +981,12 @@
     <string>endofayah-ar.2.ss03</string>
     <string>endofayah-ar.3.ss03</string>
     <string>allah-ar</string>
+    <string>alef-ar.allah</string>
+    <string>alef-ar.fina.allah</string>
+    <string>lam-ar.init.allah1</string>
+    <string>lam-ar.medi.allah1</string>
+    <string>lam-ar.medi.allah2</string>
+    <string>heh-ar.fina.allah</string>
     <string>bismillah-ar</string>
     <string>fathaRing-ar</string>
     <string>fathaDotabove-ar</string>
@@ -2049,6 +2055,12 @@
     <string>endofayah-ar.2.ss03</string>
     <string>endofayah-ar.3.ss03</string>
     <string>allah-ar</string>
+    <string>alef-ar.allah</string>
+    <string>alef-ar.fina.allah</string>
+    <string>lam-ar.init.allah1</string>
+    <string>lam-ar.medi.allah1</string>
+    <string>lam-ar.medi.allah2</string>
+    <string>heh-ar.fina.allah</string>
     <string>bismillah-ar</string>
     <string>fathaRing-ar</string>
     <string>fathaDotabove-ar</string>
@@ -2293,8 +2305,12 @@
     <string>uni075D.medi.flat</string>
     <key>alef-ar</key>
     <string>uni0627</string>
+    <key>alef-ar.allah</key>
+    <string>uni0627.allah</string>
     <key>alef-ar.fina</key>
     <string>uni0627.fina</string>
+    <key>alef-ar.fina.allah</key>
+    <string>uni0627.fina.allah</string>
     <key>alef-ar.fina.low</key>
     <string>uni0627.fina.low</string>
     <key>alef-ar.fina.short</key>
@@ -2829,6 +2845,8 @@
     <string>uni0647</string>
     <key>heh-ar.fina</key>
     <string>uni0647.fina</string>
+    <key>heh-ar.fina.allah</key>
+    <string>uni0647.fina.allah</string>
     <key>heh-ar.init</key>
     <string>uni0647.init</string>
     <key>heh-ar.medi</key>
@@ -2975,10 +2993,16 @@
     <string>uni0644.fina</string>
     <key>lam-ar.init</key>
     <string>uni0644.init</string>
+    <key>lam-ar.init.allah1</key>
+    <string>uni0644.init.allah1</string>
     <key>lam-ar.init.high</key>
     <string>uni0644.init.high</string>
     <key>lam-ar.medi</key>
     <string>uni0644.medi</string>
+    <key>lam-ar.medi.allah1</key>
+    <string>uni0644.medi.allah1</string>
+    <key>lam-ar.medi.allah2</key>
+    <string>uni0644.medi.allah2</string>
     <key>lam-ar.medi.flat</key>
     <string>uni0644.medi.flat</string>
     <key>lam_alef-ar</key>
