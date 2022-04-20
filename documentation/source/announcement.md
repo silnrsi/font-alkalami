@@ -5,16 +5,11 @@ fontversion: 1.300
 
 #### Changes
 
-- Added many characters required for codepage 1252 and macRoman
-- Deleted many Latin characters not required for codepage 1252 and macRoman
-- Added Arabic script characters: U+063F, U+0751, U+08C3 (pipelined for Unicode 13.0), U+08C4 (pipelined for Unicode 13.0)
-- Added UI name strings for OpenType features
-- Repositioned below attachment points on qaf-based isolate and final forms
-- Reworked stacking jeem/hah behavior to avoid baseline shifting bug in InDesign caused by a word containing a stacking jeem/hah 
-- Changed ss07 hah medial and final forms to match jeem medial and final forms (Light only)
-- Changed ss05 (Wagaf Hack) version of U+06A0 to include single large nukta (bug in previous version of the font)
-- Added mirrored versions of some glyphs such as radical and summation
-- Increased right side-bearing for Light version of U+0623 
+2022-04-xx (WSTech team) Alkalami Version 1.300 (production release)
+- Added characters to support other languages: U+0600, U+0657..U+0658, U+065D, U+067D, U+0684, U+06A5, U+06E5, U+0761, U+0870, U+0872, U+0874, U+0AA2..U+08A3, U+08F4..U+08FD, U+FDFD
+- Added ss09 to support "Wagaf small"
+- Added more contextual substitutions of swash tails for collision avoidance
+- Improved support for rendering the Allah ligature
 
 Both desktop and web fonts are provided in a single, all-platforms package on the [Download Page](https://software.sil.org/alkalami/download/).
 

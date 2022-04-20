@@ -13,12 +13,11 @@ This page uses web fonts (WOFF) to demonstrate font features and should display 
 
 *If this document is not displaying correctly a PDF version is also provided in the documentation/pdf folder of the release package.*
 
-## End of Ayah (U+06DD)
+## Signs Spanning Numbers
 
 These signs spanning numbers are intended to enclose or hold one or more digits. Specific technical details of how to use them are discussed in the [Arabic fonts FAQ -- Subtending marks](http://software.sil.org/arabicfonts/support/faq#Ayah).
 
-Currently, this font only supports the **End of Ayah**. Additionally, Alkalami includes two simplified alternates for U+06DD ARABIC END OF AYAH under the Stylistic Alternates (salt) feature, but at this time we know of no OpenType-based applications that can access these. The two alternates are also available through the Stylistic Sets feature discussed below.
-
+Currently, this font only supports the **Number Sign** (U+0600) and **End of Ayah** (U+06DD). Additionally, Alkalami includes two simplified alternates for U+06DD ARABIC END OF AYAH under the Stylistic Alternates (salt) feature, but at this time we know of no OpenType-based applications that can access these. The two alternates are also available through the Stylistic Sets feature discussed below.
 
 ## Customizing with TypeTuner
 
@@ -46,6 +45,16 @@ Feature | Sample | Feature setting
 ------------- | ------ | -------------
 Standard | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss07" 0'>ج ججج ح ححح خ خخخ ڃ ڃڃڃ ڄ ڄڄڄ ࢢ ࢢࢢࢢ</span>| `ss07=0`
 Alternate | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss07" 1'>ج ججج ح ححح خ خخخ ڃ ڃڃڃ ڄ ڄڄڄ ࢢ ࢢࢢࢢ</span>| `ss07=1`
+
+#### Alef diacritic placement (ss08)
+
+<span class='affects'>Affects: U+0627, U+064E, U+064F, U+0650</span>
+
+Feature | Sample | Feature setting
+------------- | ------ | -------------
+Standard | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss08" 0'>&#x0627;&#x064E; &#x0627;&#x064F; &#x0627;&#x0650; &#x0628;&#x0627;&#x064E; &#x0628;&#x0627;&#x064F; &#x0628;&#x0627;&#x0650; </span>| `ss08=0`
+Touching | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss08" 1'>&#x0627;&#x064E; &#x0627;&#x064F; &#x0627;&#x0650; &#x0628;&#x0627;&#x064E; &#x0628;&#x0627;&#x064F; &#x0628;&#x0627;&#x0650;</span>| `ss08=1`
+
 
 #### Wagaf small (ss09)
 
@@ -77,6 +86,8 @@ Simplified B | <span dir="rtl" class='alkalami-R normal' style='font-feature-set
 
 
 ### Discouraged
+
+These are discouraged from use. They were added to the font before some of the characters were added to Unicode. The characters supported in ss09 are Unicode-compliant.
 
 #### Warsh Hack (ss01)
 

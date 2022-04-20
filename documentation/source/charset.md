@@ -13,11 +13,11 @@ The following character ranges are supported by this font:
 
 Unicode block | Alkalami support
 ------------- | ---------------
-Arabic 	| ✓ except for 0600..060B, 060D..061A, 0620, 063B..063E, 0657..0659, 065D..065F, 0671..0673, 0675..067A, 067C..067D, 067F..0682, 0684..0697, 0699..069E, 06A3, 06A5..06A6, 06AB..06AC, 06AE, 06B0..06B9, 06BB..06C5, 06C7, 06CA..06CB, 06CD..06CF, 06D4..06DC, 06DE..06E6, 06E8..06FF
-Arabic Supplement | only includes 0751..0752, 0755..0756, 075D, 0760, 0763, 0767
-Arabic Extended-A | only includes 08A0..08A1, 08A8..08A9, 08BB..08BD, 08C3..08C4 (in pipeline for Unicode 13.0)
-Arabic Extended-B | ✗ 
-Arabic Presentation Forms-A | only includes FD3E..FD3F, FDF2
+Arabic 	| ✓ except for 0601..060B, 060D..061A, 0620, 063B..063E, 0659, 065E..065F, 0671..0673, 0675..067A, 067C, 067F..0682, 0685..0697, 0699..069E, 06A3, 06A6, 06AB..06AC, 06AE, 06B0..06B9, 06BB..06C5, 06C7, 06CA..06CB, 06CD..06CF, 06D4..06DC, 06DE..06E4, 06E6, 06E8..06FF
+Arabic Supplement | only includes 0751..0752, 0755..0756, 075D, 0760..0761, 0763, 0767
+Arabic Extended-A | only includes 08A0..08A3, 08A8..08A9, 08BB..08BD, 08C3..08C4, 08F4..08FD
+Arabic Extended-B | only includes 0870, 0872, 0874 
+Arabic Presentation Forms-A | only includes FD3E..FD3F, FDF2, FDFD
 Arabic Presentation Forms-B | ✗ 
 Codepage 1252 (Western)¹ | ✓
 

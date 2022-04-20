@@ -3,9 +3,11 @@ title: Alkalami - Version History
 fontversion: 1.300
 ---
 
-### 2022-xx-xx (SIL WSTech team) Alkalami Version 1.300 (official release)
-- Added 
-- Revised rules for forming Allah ligature
+### 2022-04-xx (WSTech team) Alkalami Version 1.300 (production release)
+- Added characters to support other languages: U+0600, U+0657..U+0658, U+065D, U+067D, U+0684, U+06A5, U+06E5, U+0761, U+0870, U+0872, U+0874, U+0AA2..U+08A3, U+08F4..U+08FD, U+FDFD
+- Added ss09 to support "Wagaf small"
+- Added more contextual substitutions of swash tails for collision avoidance
+- Improved support for rendering the Allah ligature
 
 ### 2020-01-31 (Sharon Correll) Alkalami Version 1.200 (production release)
 - Added many characters required for codepage 1252 and macRoman
