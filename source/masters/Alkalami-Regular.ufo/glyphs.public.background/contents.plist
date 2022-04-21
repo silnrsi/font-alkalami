@@ -106,6 +106,8 @@
   <string>alef-ar.wideshort.fina.low.glif</string>
   <key>alefHamzaabove-ar.fina</key>
   <string>alefH_amzaabove-ar.fina.glif</string>
+  <key>alefHamzaabove-ar.fina.allah</key>
+  <string>alefH_amzaabove-ar.fina.allah.glif</string>
   <key>alefHamzabelow-ar</key>
   <string>alefH_amzabelow-ar.glif</string>
   <key>alefHamzabelow-ar.fina</key>

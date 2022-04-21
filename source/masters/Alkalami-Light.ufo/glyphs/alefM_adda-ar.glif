@@ -2,7 +2,7 @@
 <glyph name="alefMadda-ar" format="2">
   <advance width="269"/>
   <unicode hex="0622"/>
-  <anchor x="163" y="-56" name="bottom"/>
+  <anchor x="166" y="-76" name="bottom"/>
   <anchor x="157" y="731" name="top"/>
   <outline>
     <component base="alef-ar.short" xOffset="64"/>

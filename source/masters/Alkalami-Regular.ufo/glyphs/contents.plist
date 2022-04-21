@@ -280,8 +280,12 @@
   <string>alefF_athaattached-ar.fina.glif</string>
   <key>alefHamzaabove-ar</key>
   <string>alefH_amzaabove-ar.glif</string>
+  <key>alefHamzaabove-ar.allah</key>
+  <string>alefH_amzaabove-ar.allah.glif</string>
   <key>alefHamzaabove-ar.fina</key>
   <string>alefH_amzaabove-ar.fina.glif</string>
+  <key>alefHamzaabove-ar.fina.allah</key>
+  <string>alefH_amzaabove-ar.fina.allah.glif</string>
   <key>alefHamzabelow-ar</key>
   <string>alefH_amzabelow-ar.glif</string>
   <key>alefHamzabelow-ar.fina</key>
@@ -292,8 +296,12 @@
   <string>alefK_asraattached-ar.fina.glif</string>
   <key>alefMadda-ar</key>
   <string>alefM_adda-ar.glif</string>
+  <key>alefMadda-ar.allah</key>
+  <string>alefM_adda-ar.allah.glif</string>
   <key>alefMadda-ar.fina</key>
   <string>alefM_adda-ar.fina.glif</string>
+  <key>alefMadda-ar.fina.allah</key>
+  <string>alefM_adda-ar.fina.allah.glif</string>
   <key>alefMaksura-ar</key>
   <string>alefM_aksura-ar.glif</string>
   <key>alefMaksura-ar.fina</key>

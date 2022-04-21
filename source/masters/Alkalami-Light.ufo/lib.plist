@@ -36,7 +36,7 @@
     <string>/behVabove-ar/behVabove-ar.fina/behVabove-ar.medi/behVabove-ar.init/behVabove-ar.medi.flat</string>
     <string>/yehThreedotsbelow-ar/space/yehThreedotsbelow-ar.fina/yehThreedotsbelow-ar.medi/yehThreedotsbelow-ar.init/space/space/space/yehThreedotsbelow-ar.shrtail/space/space/space/yehThreedotsbelow-ar.fina.shrtail/space/space/space/yehThreedotsbelow-ar.longtail/space/space/space/yehThreedotsbelow-ar.fina.longtail/space/space/space/yehThreedotsbelow-ar.medi.flat/space/space/space/space/yehThreedotsbelow-ar.fina.low</string>
     <string>/waw-ar.alt/waw-ar.fina.alt/space/wawHamzaabove-ar/wawHamzaabove-ar.fina/space/wawHamzaabove-ar.alt/wawHamzaabove-ar.fina.alt/space/oe-ar.alt/oe-ar.fina.alt/space/yu-ar.alt/yu-ar.fina.alt/space/kirghizyu-ar.alt/kirghizyu-ar.fina.alt</string>
-    <string>/allah-ar/lam-ar.medi/lam-ar.init/alef-ar/alef-ar.fina/alef-ar.fina.allah/heh-ar.fina.allah/lam-ar.medi.allah1/lam-ar.medi.allah2/lam-ar.init.allah1/alef-ar.allah</string>
+    <string>/allah-ar/lam-ar.medi/lam-ar.init/alefHamzaabove-ar/alefHamzaabove-ar.allah/alefHamzaabove-ar.fina/alefHamzaabove-ar.fina.allah/alefMadda-ar/alefMadda-ar.allah/alef-ar.allah/alef-ar/alefMadda-ar.fina/alefMadda-ar.fina.allah/alef-ar.fina/alef-ar.fina.allah/heh-ar.fina.allah/lam-ar.medi.allah1/lam-ar.medi.allah2/lam-ar.init.allah1/alef-ar.allah</string>
     <string>/bismillah-ar/space/space/space</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -983,6 +983,8 @@
     <string>allah-ar</string>
     <string>alef-ar.allah</string>
     <string>alef-ar.fina.allah</string>
+    <string>alefWasla-ar.allah</string>
+    <string>alefWasla-ar.fina.allah</string>
     <string>lam-ar.init.allah1</string>
     <string>lam-ar.medi.allah1</string>
     <string>lam-ar.medi.allah2</string>
@@ -2057,6 +2059,8 @@
     <string>allah-ar</string>
     <string>alef-ar.allah</string>
     <string>alef-ar.fina.allah</string>
+    <string>alefWasla-ar.allah</string>
+    <string>alefWasla-ar.fina.allah</string>
     <string>lam-ar.init.allah1</string>
     <string>lam-ar.medi.allah1</string>
     <string>lam-ar.medi.allah2</string>
@@ -2379,6 +2383,10 @@
     <string>uni0872</string>
     <key>alefRightmiddlestroke-ar.fina</key>
     <string>uni0872.fina</string>
+    <key>alefWasla-ar.allah</key>
+    <string>uni0671.allah</string>
+    <key>alefWasla-ar.fina.allah</key>
+    <string>uni0671.fina.allah</string>
     <key>alefabove-ar</key>
     <string>uni0670</string>
     <key>alefbelow-ar</key>
