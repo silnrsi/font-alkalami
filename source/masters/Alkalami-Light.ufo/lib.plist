@@ -983,8 +983,10 @@
     <string>allah-ar</string>
     <string>alef-ar.allah</string>
     <string>alef-ar.fina.allah</string>
-    <string>alefWasla-ar.allah</string>
-    <string>alefWasla-ar.fina.allah</string>
+    <string>alefMadda.allah</string>
+    <string>alefMadda.fina.allah</string>
+    <string>alefHamzaabove.allah</string>
+    <string>alefHamzaabove.fina.allah</string>
     <string>lam-ar.init.allah1</string>
     <string>lam-ar.medi.allah1</string>
     <string>lam-ar.medi.allah2</string>
@@ -2059,8 +2061,10 @@
     <string>allah-ar</string>
     <string>alef-ar.allah</string>
     <string>alef-ar.fina.allah</string>
-    <string>alefWasla-ar.allah</string>
-    <string>alefWasla-ar.fina.allah</string>
+    <string>alefMadda.allah</string>
+    <string>alefMadda.fina.allah</string>
+    <string>alefHamzaabove.allah</string>
+    <string>alefHamzaabove.fina.allah</string>
     <string>lam-ar.init.allah1</string>
     <string>lam-ar.medi.allah1</string>
     <string>lam-ar.medi.allah2</string>
@@ -2347,6 +2351,10 @@
     <string>uni0623</string>
     <key>alefHamzaabove-ar.fina</key>
     <string>uni0623.fina</string>
+    <key>alefHamzaabove.allah</key>
+    <string>uni0623.allah</string>
+    <key>alefHamzaabove.fina.allah</key>
+    <string>uni0623.fina.allah</string>
     <key>alefHamzabelow-ar</key>
     <string>uni0625</string>
     <key>alefHamzabelow-ar.fina</key>
@@ -2359,6 +2367,10 @@
     <string>uni0622</string>
     <key>alefMadda-ar.fina</key>
     <string>uni0622.fina</string>
+    <key>alefMadda.allah</key>
+    <string>uni0622.allah</string>
+    <key>alefMadda.fina.allah</key>
+    <string>uni0622.fina.allah</string>
     <key>alefMaksura-ar</key>
     <string>uni0649</string>
     <key>alefMaksura-ar.fina</key>
@@ -2383,10 +2395,6 @@
     <string>uni0872</string>
     <key>alefRightmiddlestroke-ar.fina</key>
     <string>uni0872.fina</string>
-    <key>alefWasla-ar.allah</key>
-    <string>uni0671.allah</string>
-    <key>alefWasla-ar.fina.allah</key>
-    <string>uni0671.fina.allah</string>
     <key>alefabove-ar</key>
     <string>uni0670</string>
     <key>alefbelow-ar</key>

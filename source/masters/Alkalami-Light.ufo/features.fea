@@ -922,10 +922,10 @@ languagesystem latn dflt;
 #**********************************
 # These can be automatically built in the future
 #    <!-- *NEXT 4 CLASSES MUST MATCH* -->
-@DualLinkIsol = [behDotless-ar beh-ar peh-ar beeh-ar teh-ar theh-ar behThreedotsupbelow-ar behVinvertedbelow-ar behVabove-ar behVbelow-ar behhamzaabove-ar jeem-ar nyeh-ar hah-ar khah-ar seen-ar sheen-ar sad-ar dad-ar tah-ar tahThreedots-ar zah-ar ain-ar ainThreedots-ar ainTwodotshorizontalabove-ar ghain-ar ghainThreedotsabove-ar feh-ar veh-ar fehDotless-ar fehDotmovedbelow-ar fehTwodotsbelow-ar fehAfrican-ar qafDotless-ar qaf-ar qafDotabove-ar qafThreedotsabove-ar qafAfrican-ar qafThreedotsaboveAfrican-ar kaf-ar keheh-ar kehehThreedotsabove-ar gaf-ar kafswash-ar ng-ar lam-ar meem-ar noon-ar noonghunna-ar noonTwodotsbelow-ar noonAfrican-ar heh-ar alefMaksura-ar yeh-ar yehHamzaabove-ar yehTwodotsbelowHamzaabove-ar yehTwodotsbelowDotabove-ar yeh-farsi e-ar yehThreedotsbelow-ar tehThreedotsdown-ar dyeh-ar jeemTwodotsabove-ar tahTwodotsabove-ar fehThreedotsbelow-ar fehThreedotsupbelow-ar];
-@DualLinkInit = [behDotless-ar.init beh-ar.init peh-ar.init beeh-ar.init teh-ar.init theh-ar.init behThreedotsupbelow-ar.init behVinvertedbelow-ar.init behVabove-ar.init behVbelow-ar.init behhamzaabove-ar.init jeem-ar.init nyeh-ar.init hah-ar.init khah-ar.init seen-ar.init sheen-ar.init sad-ar.init dad-ar.init tah-ar.init tahThreedots-ar.init zah-ar.init ain-ar.init ainThreedots-ar.init ainTwodotshorizontalabove-ar.init ghain-ar.init ghainThreedotsabove-ar.init feh-ar.init veh-ar.init fehDotless-ar.init fehDotmovedbelow-ar.init fehTwodotsbelow-ar.init fehAfrican-ar.init qafDotless-ar.init qaf-ar.init qafDotabove-ar.init qafThreedotsabove-ar.init qafAfrican-ar.init qafThreedotsaboveAfrican-ar.init kaf-ar.init keheh-ar.init kehehThreedotsabove-ar.init gaf-ar.init kafswash-ar.init ng-ar.init lam-ar.init meem-ar.init noon-ar.init noonghunna-ar.init noonTwodotsbelow-ar.init noonAfrican-ar.init heh-ar.init alefMaksura-ar.init yeh-ar.init yehHamzaabove-ar.init yehTwodotsbelowHamzaabove-ar.init yehTwodotsbelowDotabove-ar.init yeh-farsi.init e-ar.init yehThreedotsbelow-ar.init tehThreedotsdown-ar.init dyeh-ar.init jeemTwodotsabove-ar.init tahTwodotsabove-ar.init fehThreedotsbelow-ar.init fehThreedotsupbelow-ar.init];
-@DualLinkMedi = [behDotless-ar.medi beh-ar.medi peh-ar.medi beeh-ar.medi teh-ar.medi theh-ar.medi behThreedotsupbelow-ar.medi behVinvertedbelow-ar.medi behVabove-ar.medi behVbelow-ar.medi behhamzaabove-ar.medi jeem-ar.medi nyeh-ar.medi hah-ar.medi khah-ar.medi seen-ar.medi sheen-ar.medi sad-ar.medi dad-ar.medi tah-ar.medi tahThreedots-ar.medi zah-ar.medi ain-ar.medi ainThreedots-ar.medi ainTwodotshorizontalabove-ar.medi ghain-ar.medi ghainThreedotsabove-ar.medi feh-ar.medi veh-ar.medi fehDotless-ar.medi fehDotmovedbelow-ar.medi fehTwodotsbelow-ar.medi fehAfrican-ar.medi qafDotless-ar.medi qaf-ar.medi qafDotabove-ar.medi qafThreedotsabove-ar.medi qafAfrican-ar.medi qafThreedotsaboveAfrican-ar.medi kaf-ar.medi keheh-ar.medi kehehThreedotsabove-ar.medi gaf-ar.medi kafswash-ar.medi ng-ar.medi lam-ar.medi meem-ar.medi noon-ar.medi noonghunna-ar.medi noonTwodotsbelow-ar.medi noonAfrican-ar.medi heh-ar.medi alefMaksura-ar.medi yeh-ar.medi yehHamzaabove-ar.medi yehTwodotsbelowHamzaabove-ar.medi yehTwodotsbelowDotabove-ar.medi yeh-farsi.medi e-ar.medi yehThreedotsbelow-ar.medi tehThreedotsdown-ar.medi dyeh-ar.medi jeemTwodotsabove-ar.medi tahTwodotsabove-ar.medi fehThreedotsbelow-ar.medi fehThreedotsupbelow-ar.medi];
-@DualLinkFina = [behDotless-ar.fina beh-ar.fina peh-ar.fina beeh-ar.fina teh-ar.fina theh-ar.fina behThreedotsupbelow-ar.fina behVinvertedbelow-ar.fina behVabove-ar.fina behVbelow-ar.fina behhamzaabove-ar.fina jeem-ar.fina nyeh-ar.fina hah-ar.fina khah-ar.fina seen-ar.fina sheen-ar.fina sad-ar.fina dad-ar.fina tah-ar.fina tahThreedots-ar.fina zah-ar.fina ain-ar.fina ainThreedots-ar.fina ainTwodotshorizontalabove-ar.fina ghain-ar.fina ghainThreedotsabove-ar.fina feh-ar.fina veh-ar.fina fehDotless-ar.fina fehDotmovedbelow-ar.fina fehTwodotsbelow-ar.fina fehAfrican-ar.fina qafDotless-ar.fina qaf-ar.fina qafDotabove-ar.fina qafThreedotsabove-ar.fina qafAfrican-ar.fina qafThreedotsaboveAfrican-ar.medi kaf-ar.fina keheh-ar.fina kehehThreedotsabove-ar.fina gaf-ar.fina kafswash-ar.fina ng-ar.fina lam-ar.fina meem-ar.fina noon-ar.fina noonghunna-ar.fina noonTwodotsbelow-ar.fina noonAfrican-ar.fina heh-ar.fina alefMaksura-ar.fina yeh-ar.fina yehHamzaabove-ar.fina yehTwodotsbelowHamzaabove-ar.fina yehTwodotsbelowDotabove-ar.fina yeh-farsi.fina e-ar.fina yehThreedotsbelow-ar.fina tehThreedotsdown-ar.fina dyeh-ar.fina jeemTwodotsabove-ar.fina tahTwodotsabove-ar.fina fehThreedotsbelow-ar.fina fehThreedotsupbelow-ar.fina];
+@DualLinkIsol = [behDotless-ar beh-ar peh-ar beeh-ar teh-ar theh-ar behThreedotsupbelow-ar behVinvertedbelow-ar behVabove-ar behVbelow-ar behhamzaabove-ar jeem-ar nyeh-ar hah-ar khah-ar seen-ar sheen-ar sad-ar dad-ar tah-ar tahThreedots-ar zah-ar ain-ar ainThreedots-ar ainTwodotshorizontalabove-ar ghain-ar ghainThreedotsabove-ar feh-ar veh-ar fehDotless-ar fehDotmovedbelow-ar fehTwodotsbelow-ar fehAfrican-ar qafDotless-ar qaf-ar qafDotabove-ar qafThreedotsabove-ar qafAfrican-ar qafThreedotsaboveAfrican-ar kaf-ar keheh-ar kehehThreedotsabove-ar gaf-ar kafswash-ar ng-ar lam-ar meem-ar noon-ar noonghunna-ar noonTwodotsbelow-ar noonAfrican-ar heh-ar alefMaksura-ar yeh-ar yehHamzaabove-ar yehTwodotsbelowHamzaabove-ar yehTwodotsbelowDotabove-ar yeh-farsi e-ar yehThreedotsbelow-ar tehThreedotsdown-ar dyeh-ar jeemTwodotsabove-ar tahTwodotsabove-ar fehThreedotsbelow-ar fehThreedotsupbelow-ar yehThreedotsabove-farsi behThreedotsupabove-ar];
+@DualLinkInit = [behDotless-ar.init beh-ar.init peh-ar.init beeh-ar.init teh-ar.init theh-ar.init behThreedotsupbelow-ar.init behVinvertedbelow-ar.init behVabove-ar.init behVbelow-ar.init behhamzaabove-ar.init jeem-ar.init nyeh-ar.init hah-ar.init khah-ar.init seen-ar.init sheen-ar.init sad-ar.init dad-ar.init tah-ar.init tahThreedots-ar.init zah-ar.init ain-ar.init ainThreedots-ar.init ainTwodotshorizontalabove-ar.init ghain-ar.init ghainThreedotsabove-ar.init feh-ar.init veh-ar.init fehDotless-ar.init fehDotmovedbelow-ar.init fehTwodotsbelow-ar.init fehAfrican-ar.init qafDotless-ar.init qaf-ar.init qafDotabove-ar.init qafThreedotsabove-ar.init qafAfrican-ar.init qafThreedotsaboveAfrican-ar.init kaf-ar.init keheh-ar.init kehehThreedotsabove-ar.init gaf-ar.init kafswash-ar.init ng-ar.init lam-ar.init meem-ar.init noon-ar.init noonghunna-ar.init noonTwodotsbelow-ar.init noonAfrican-ar.init heh-ar.init alefMaksura-ar.init yeh-ar.init yehHamzaabove-ar.init yehTwodotsbelowHamzaabove-ar.init yehTwodotsbelowDotabove-ar.init yeh-farsi.init e-ar.init yehThreedotsbelow-ar.init tehThreedotsdown-ar.init dyeh-ar.init jeemTwodotsabove-ar.init tahTwodotsabove-ar.init fehThreedotsbelow-ar.init fehThreedotsupbelow-ar.init yehThreedotsabove-farsi.init behThreedotsupabove-ar.init];
+@DualLinkMedi = [behDotless-ar.medi beh-ar.medi peh-ar.medi beeh-ar.medi teh-ar.medi theh-ar.medi behThreedotsupbelow-ar.medi behVinvertedbelow-ar.medi behVabove-ar.medi behVbelow-ar.medi behhamzaabove-ar.medi jeem-ar.medi nyeh-ar.medi hah-ar.medi khah-ar.medi seen-ar.medi sheen-ar.medi sad-ar.medi dad-ar.medi tah-ar.medi tahThreedots-ar.medi zah-ar.medi ain-ar.medi ainThreedots-ar.medi ainTwodotshorizontalabove-ar.medi ghain-ar.medi ghainThreedotsabove-ar.medi feh-ar.medi veh-ar.medi fehDotless-ar.medi fehDotmovedbelow-ar.medi fehTwodotsbelow-ar.medi fehAfrican-ar.medi qafDotless-ar.medi qaf-ar.medi qafDotabove-ar.medi qafThreedotsabove-ar.medi qafAfrican-ar.medi qafThreedotsaboveAfrican-ar.medi kaf-ar.medi keheh-ar.medi kehehThreedotsabove-ar.medi gaf-ar.medi kafswash-ar.medi ng-ar.medi lam-ar.medi meem-ar.medi noon-ar.medi noonghunna-ar.medi noonTwodotsbelow-ar.medi noonAfrican-ar.medi heh-ar.medi alefMaksura-ar.medi yeh-ar.medi yehHamzaabove-ar.medi yehTwodotsbelowHamzaabove-ar.medi yehTwodotsbelowDotabove-ar.medi yeh-farsi.medi e-ar.medi yehThreedotsbelow-ar.medi tehThreedotsdown-ar.medi dyeh-ar.medi jeemTwodotsabove-ar.medi tahTwodotsabove-ar.medi fehThreedotsbelow-ar.medi fehThreedotsupbelow-ar.medi yehThreedotsabove-farsi.medi behThreedotsupabove-ar.medi];
+@DualLinkFina = [behDotless-ar.fina beh-ar.fina peh-ar.fina beeh-ar.fina teh-ar.fina theh-ar.fina behThreedotsupbelow-ar.fina behVinvertedbelow-ar.fina behVabove-ar.fina behVbelow-ar.fina behhamzaabove-ar.fina jeem-ar.fina nyeh-ar.fina hah-ar.fina khah-ar.fina seen-ar.fina sheen-ar.fina sad-ar.fina dad-ar.fina tah-ar.fina tahThreedots-ar.fina zah-ar.fina ain-ar.fina ainThreedots-ar.fina ainTwodotshorizontalabove-ar.fina ghain-ar.fina ghainThreedotsabove-ar.fina feh-ar.fina veh-ar.fina fehDotless-ar.fina fehDotmovedbelow-ar.fina fehTwodotsbelow-ar.fina fehAfrican-ar.fina qafDotless-ar.fina qaf-ar.fina qafDotabove-ar.fina qafThreedotsabove-ar.fina qafAfrican-ar.fina qafThreedotsaboveAfrican-ar.medi kaf-ar.fina keheh-ar.fina kehehThreedotsabove-ar.fina gaf-ar.fina kafswash-ar.fina ng-ar.fina lam-ar.fina meem-ar.fina noon-ar.fina noonghunna-ar.fina noonTwodotsbelow-ar.fina noonAfrican-ar.fina heh-ar.fina alefMaksura-ar.fina yeh-ar.fina yehHamzaabove-ar.fina yehTwodotsbelowHamzaabove-ar.fina yehTwodotsbelowDotabove-ar.fina yeh-farsi.fina e-ar.fina yehThreedotsbelow-ar.fina tehThreedotsdown-ar.fina dyeh-ar.fina jeemTwodotsabove-ar.fina tahTwodotsabove-ar.fina fehThreedotsbelow-ar.fina fehThreedotsupbelow-ar.fina yehThreedotsabove-farsi.fina behThreedotsupabove-ar.fina];
 #    <!-- *NEXT 2 CLASSES MUST MATCH* -->
 @RightLinkIsol = [alef-ar alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar dal-ar thal-ar reh-ar zain-ar jeh-ar tehMarbuta-ar waw-ar wawHamzaabove-ar oe-ar yu-ar kirghizyu-ar yehbarree-ar yehbarreeHamzaabove-ar alefFathaattached-ar alefRightmiddlestroke-ar alefKasraattached-ar];
 @RightLinkFina = [alef-ar.fina alefHamzaabove-ar.fina alefHamzabelow-ar.fina alefMadda-ar.fina dal-ar.fina thal-ar.fina reh-ar.fina zain-ar.fina jeh-ar.fina tehMarbuta-ar.fina waw-ar.fina wawHamzaabove-ar.fina oe-ar.fina yu-ar.fina kirghizyu-ar.fina yehbarree-ar.fina yehbarreeHamzaabove-ar.fina alefFathaattached-ar.fina alefRightmiddlestroke-ar.fina alefKasraattached-ar.fina];
@@ -969,11 +969,11 @@ languagesystem latn dflt;
 @Lam1Allah = [lam-ar.init.allah1 lam-ar.medi.allah1];
 @HehNoAllah = [heh-ar.fina];
 @HehAllah = [heh-ar.fina.allah];
-@AlefNoAllah = [alef-ar alef-ar.fina];
-@AlefAllah = [alef-ar.allah alef-ar.fina.allah];
+@AlefNoAllah = [alef-ar alef-ar.fina alefMadda-ar.fina alefHamzaabove-ar.fina];
+@AlefAllah = [alef-ar.allah alef-ar.fina.allah alefMadda-ar.fina.allah alefHamzaabove-ar.fina.allah];
 #    <!-- Note that we don't need to include alef-hamza or alef-madda because they are decomposed. -->
-@AlefNoAllahIsol = [alef-ar];
-@AlefAllahIsol = [alef-ar.allah];
+@AlefNoAllahIsol = [alef-ar alefMadda-ar alefHamzaabove-ar];
+@AlefAllahIsol = [alef-ar.allah alefMadda-ar.allah alefHamzaabove-ar.allah];
 # THESE ARE USED FOR COLLISION AVOIDANCE - Required for Regular only
 # Just used for context
 @rehIsol = [reh-ar zain-ar];
@@ -1044,6 +1044,25 @@ languagesystem latn dflt;
 #************************************************************
 # STANDALONE LOOKUPS                                             *
 #************************************************************
+#********************
+# Font rendering check
+#
+# The following three lookups change "RenderingUnknown" to "RenderingOpenType"
+lookup FontCheck_Unknow {
+    lookupflag IgnoreMarks;
+    sub [U n k o w] by [O p e T y];
+} FontCheck_Unknow;
+
+lookup FontCheck_n {
+    lookupflag IgnoreMarks;
+    sub n by p e;
+} FontCheck_n;
+
+lookup FontCheck {
+    lookupflag IgnoreMarks;
+    sub [R] e n d e r i n g U' lookup FontCheck_Unknow n' lookup FontCheck_Unknow k' lookup FontCheck_Unknow n' o' lookup FontCheck_Unknow w' lookup FontCheck_Unknow n' lookup FontCheck_n;
+} FontCheck;
+
 # End of Ayah digits and number-ar - calt
 lookup digit_small {
     sub @Digits by @Digits.small;
@@ -1682,14 +1701,10 @@ lookup attachLigMarkReg {
         ligComponent
             <anchor 100 761> mark @_top
             <anchor 107 -46> mark @_bottom;
-    pos ligature allah-ar
-            <anchor 841 587> mark @_top
-        ligComponent
-            <anchor 670 547> mark @_top
-        ligComponent
-            <anchor 498 523> mark @_top
-        ligComponent
-            <anchor 233 405> mark @_top;
+    #	pos ligature allah-ar			<anchor 841 587> mark @_top
+    #							ligComponent	<anchor 670 547> mark @_top
+    #  						ligComponent	<anchor 498 523> mark @_top
+    #							ligComponent	<anchor 233 405> mark @_top;
 } attachLigMarkReg;
 
 lookup attachLigMarkLight {
@@ -1747,14 +1762,10 @@ lookup attachLigMarkLight {
         ligComponent
             <anchor 98 710> mark @_top
             <anchor 90 -30> mark @_bottom;
-    pos ligature allah-ar
-            <anchor 811 614> mark @_top
-        ligComponent
-            <anchor 635 562> mark @_top
-        ligComponent
-            <anchor 465 493> mark @_top
-        ligComponent
-            <anchor 232 359> mark @_top;
+    #	pos ligature allah-ar			<anchor 811 614> mark @_top
+    #							ligComponent	<anchor 635 562> mark @_top
+    #  						ligComponent	<anchor 465 493> mark @_top
+    #							ligComponent	<anchor 232 359> mark @_top;
 } attachLigMarkLight;
 
 lookup attachBaseMark {
@@ -2485,6 +2496,7 @@ feature aalt {
 } aalt;
 
 feature ccmp {
+    lookup FontCheck;
     # Always split alefhamza (0623, 0625) so the hamza can be colored:
     lookup ccmp_arab_1 {
         script arab;
@@ -2616,7 +2628,7 @@ lookup _AllahSub_Shadda_insertA {
 # in order to allow for the lam-alef ligature exception.
 lookup AllahLigatures {
     lookupflag 0;
-    # Rule 3: alefIso-lam-lam-heh (no shadda-alef)
+    # Rule 3a: alefIso-lam-lam-heh (no shadda-alef)
     sub @AlefNoAllahIsol' lookup _AllahSub_Alef lam-ar.init' lookup _AllahSub_Lam1 lam-ar.medi' lookup _AllahSub_Lam2_insertSA @HehNoAllah' lookup _AllahSub_Heh;
     sub @AlefNoAllahIsol' lookup _AllahSub_Alef @MarksAny' lam-ar.init' lookup _AllahSub_Lam1 lam-ar.medi' lookup _AllahSub_Lam2_insertSA @HehNoAllah' lookup _AllahSub_Heh;
     sub @AlefNoAllahIsol' lookup _AllahSub_Alef @MarksAny' @MarksAny' lam-ar.init' lookup _AllahSub_Lam1 lam-ar.medi' lookup _AllahSub_Lam2_insertSA @HehNoAllah' lookup _AllahSub_Heh;
@@ -2640,6 +2652,7 @@ feature dlig {
 } dlig;
 
 feature rlig {
+    lookup AllahLigatures;
     lookup LamAlefLigatures {
         lookupflag RightToLeft IgnoreMarks;
         sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;

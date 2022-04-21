@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>250</fontscale>
+    <fontsrc label="Sch (inst)">local(Scheherazade New)</fontsrc>
+    <fontsrc label="1.2">url(../references/Alkalami-Regular-1_200.ttf)</fontsrc>
+    <fontsrc label="Reg">url(../results/Alkalami-Regular.ttf)</fontsrc>
+    <fontsrc label="Lt">url(../results/Alkalami-Light.ttf)</fontsrc>
+    <styles>
+      <style feats="'ss01' 1" name="ss01_1"/>
+      <style feats="'ss02' 1" name="ss02_1"/>
+      <style feats="'ss02' 1, 'ss03' 1" name="ss02_1_ss03_1"/>
+      <style feats="'ss03' 1" name="ss03_1"/>
+      <style feats="'ss04' 1" name="ss04_1"/>
+      <style feats="'ss05' 1" name="ss05_1"/>
+      <style feats="'ss05' 1, 'ss09' 1" name="ss05_1_ss09_1"/>
+      <style feats="'ss07' 1" name="ss07_1"/>
+      <style feats="'ss09' 1" name="ss09_1"/>
+    </styles>
+    <title>Allah</title>
+  </head>
+  <testgroup background="#f0f0f0" label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="Allah ligatures">
+    <test label="U+FDF2">
+      <comment>Rule 1 (this is okay because the default ligature doesn't include marks in this style)</comment>
+      <string>\uFDF2</string>
+    </test>
+    <test label="f-l-l-h">
+      <comment>shouldn't match (and doesn't)</comment>
+      <string>\u0641\u0644\u0644\u0647</string>
+    </test>
+    <test background="#ffc8a0" label="a-l-l-s-da-hf">
+      <comment>Rule 2 (daggeralef)(marks are in wrong place)</comment>
+      <string>\u0627\u0644\u0644\u0651\u0670\u0647</string>
+    </test>
+    <test background="#ffc8a0" label="a-l-l-da-s-hf">
+      <comment>(marks are in wrong place)</comment>
+      <string>\u0627\u0644\u0644\u0670\u0651\u0647</string>
+    </test>
+    <test background="#ffc8a0" label="a-l-l-s-f-hf">
+      <comment>Rule 2 (fatha) (marks are in wrong place)</comment>
+      <string>\u0627\u0644\u0644\u0651\u064E\u0647</string>
+    </test>
+    <test background="#ffc8a0" label="a-l-l-f-s-hf">
+      <comment>Mark (marks are in wrong place)</comment>
+      <string>\u0627\u0644\u0644\u064E\u0651\u0647</string>
+    </test>
+    <test background="#ffc8a0" label="a-M-l-l-s-da-hf">
+      <comment>Rule 2d: Mark (marks are in wrong place)</comment>
+      <string>\u0627\u065A\u0644\u0644\u064E\u0651\u0647</string>
+    </test>
+    <test label="space-l-l-s-da-hf">
+      <comment>Rule 2d: shouldn't match (and it doesn't)</comment>
+      <string> \u0644\u0644\u0651\u064E\u0647</string>
+    </test>
+    <test label="a-l-l-h">
+      <comment>Rule 3 should match (and it does)</comment>
+      <string>\u0627\u0644\u0644\u0647</string>
+    </test>
+    <test label="aM-l-l-h">
+      <comment>should match (and it does)</comment>
+      <string>\u0622\u0644\u0644\u0647</string>
+    </test>
+    <test background="#ffc8a0" label="aH-l-l-h">
+      <comment>should match (and it does not)</comment>
+      <string>\u0623\u0644\u0644\u0647</string>
+    </test>
+    <test label="a-M-l-l-h">
+      <comment>should match (and it does)</comment>
+      <string>\u0627\u065A\u0644\u0644\u0647</string>
+    </test>
+    <test label="f-a-l-l-h">
+      <comment>Rule 3a: shouldn't match</comment>
+      <string>\u0641\u0627\u0644\u0644\u0647</string>
+    </test>
+    <test background="#ffc8a0" label="a-l-M-l-h">
+      <comment>Rule 3d: shouldn't match (but it does)</comment>
+      <string style="color:red;">\u0627\u0644\u065A\u0644\u0647</string>
+    </test>
+    <test label="a-l-zwj-l-h">
+      <comment>Rule 4a: shouldn't match</comment>
+      <string>\u0627\u0644\u200D\u0644\u0647</string>
+    </test>
+    <test label="a-l-zwj-l-s-da-h">
+      <comment>Rule 4a: shouldn't match</comment>
+      <string>\u0627\u0644\u200D\u0644\u0651\u0670\u0647</string>
+    </test>
+  </testgroup>
+</ftml>
