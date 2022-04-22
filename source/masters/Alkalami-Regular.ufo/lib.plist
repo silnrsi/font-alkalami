@@ -983,10 +983,10 @@
     <string>allah-ar</string>
     <string>alef-ar.allah</string>
     <string>alef-ar.fina.allah</string>
-    <string>alefMadda.allah</string>
-    <string>alefMadda.fina.allah</string>
-    <string>alefHamzaabove.allah</string>
-    <string>alefHamzaabove.fina.allah</string>
+    <string>alefMadda-ar.allah</string>
+    <string>alefMadda-ar.fina.allah</string>
+    <string>alefHamzaabove-ar.allah</string>
+    <string>alefHamzaabove-ar.fina.allah</string>
     <string>lam-ar.init.allah1</string>
     <string>lam-ar.medi.allah1</string>
     <string>lam-ar.medi.allah2</string>
@@ -2061,10 +2061,10 @@
     <string>allah-ar</string>
     <string>alef-ar.allah</string>
     <string>alef-ar.fina.allah</string>
-    <string>alefMadda.allah</string>
-    <string>alefMadda.fina.allah</string>
-    <string>alefHamzaabove.allah</string>
-    <string>alefHamzaabove.fina.allah</string>
+    <string>alefMadda-ar.allah</string>
+    <string>alefMadda-ar.fina.allah</string>
+    <string>alefHamzaabove-ar.allah</string>
+    <string>alefHamzaabove-ar.fina.allah</string>
     <string>lam-ar.init.allah1</string>
     <string>lam-ar.medi.allah1</string>
     <string>lam-ar.medi.allah2</string>
@@ -2349,11 +2349,11 @@
     <string>uni0870.fina</string>
     <key>alefHamzaabove-ar</key>
     <string>uni0623</string>
+    <key>alefHamzaabove-ar.allah</key>
+    <string>uni0623.allah</string>
     <key>alefHamzaabove-ar.fina</key>
     <string>uni0623.fina</string>
-    <key>alefHamzaabove.allah</key>
-    <string>uni0623.allah</string>
-    <key>alefHamzaabove.fina.allah</key>
+    <key>alefHamzaabove-ar.fina.allah</key>
     <string>uni0623.fina.allah</string>
     <key>alefHamzabelow-ar</key>
     <string>uni0625</string>
@@ -2365,11 +2365,11 @@
     <string>uni0874.fina</string>
     <key>alefMadda-ar</key>
     <string>uni0622</string>
+    <key>alefMadda-ar.allah</key>
+    <string>uni0622.allah</string>
     <key>alefMadda-ar.fina</key>
     <string>uni0622.fina</string>
-    <key>alefMadda.allah</key>
-    <string>uni0622.allah</string>
-    <key>alefMadda.fina.allah</key>
+    <key>alefMadda-ar.fina.allah</key>
     <string>uni0622.fina.allah</string>
     <key>alefMaksura-ar</key>
     <string>uni0649</string>

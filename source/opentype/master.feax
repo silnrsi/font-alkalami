@@ -106,7 +106,6 @@ languagesystem latn dflt;
 
 
 # These are hand generated
-
 @RightLinkIsol_Alef = [ alef-ar.wide  alef-ar.wideshort lam_alefMadda-ar  lam_alefHamzaabove-ar  lam_alefHamzabelow-ar  lam_alef-ar ];
 @RightLinkFina_Alef = [ alef-ar.wide.fina  alef-ar.wideshort.fina lam_alefMadda-ar.fina  lam_alefHamzaabove-ar.fina  lam_alefHamzabelow-ar.fina  lam_alef-ar.fina];
 
@@ -405,7 +404,6 @@ lookup alef2wideshort {
 # make combining hamza a hamza nostem
 lookup hamza2nostem {
 	sub [ hamzaabove-ar hamzabelow-ar ] by [hamzaabove-ar.nostem hamzabelow-ar.nostem ];
-	#sub hamzabelow-ar by hamzabelow-ar.nostem;
 } hamza2nostem;
 
 # Make only ss08 effect only fatha, kasra, and damma.ss08.
@@ -894,7 +892,6 @@ lookup AllahLigatures {
 lookup LamAlefLigatures {
 	lookupflag IgnoreMarks RightToLeft;
 
-	#sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar; - DELETE if we decide we don't need it [SJC]
 	sub lam-ar.init alef-ar.fina by lam_alef-ar;
 	sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
 	sub lam-ar.init alefHamzaabove-ar.fina by lam_alefHamzaabove-ar;
