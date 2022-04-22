@@ -209,18 +209,18 @@ languagesystem latn dflt;
     
 #    <!-- These pairs of classes must match.  -->
     
-@Lam1NoAllah = [lam-ar.init         lam-ar.medi];
+@Lam1NoAllah = [lam-ar.init       lam-ar.medi];
 @Lam1Allah = [lam-ar.init.allah1  lam-ar.medi.allah1];
 
 @HehNoAllah = [heh-ar.fina];
 @HehAllah = [heh-ar.fina.allah];
 
-@AlefNoAllah = [alef-ar        alef-ar.fina alefMadda-ar.fina alefHamzaabove-ar.fina];
-@AlefAllah = [alef-ar.allah  alef-ar.fina.allah alefMadda-ar.fina.allah alefHamzaabove-ar.fina.allah];
+@AlefNoAllah = [alef-ar      alef-ar.fina        alefMadda-ar.fina       alefHamzaabove-ar.fina];
+@AlefAllah = [alef-ar.allah  alef-ar.fina.allah  alefMadda-ar.fina.allah alefHamzaabove-ar.fina.allah];
 
 #    <!-- Note that we don't need to include alef-hamza or alef-madda because they are decomposed. -->
-@AlefNoAllahIsol = [alef-ar alefMadda-ar alefHamzaabove-ar];
-@AlefAllahIsol = [alef-ar.allah alefMadda-ar.allah alefHamzaabove-ar.allah];
+@AlefNoAllahIsol = [alef-ar     alefMadda-ar       alefHamzaabove-ar        alef-ar.wide];
+@AlefAllahIsol = [alef-ar.allah alefMadda-ar.allah alefHamzaabove-ar.allah  alef-ar.allah];
 
 
 # THESE ARE USED FOR COLLISION AVOIDANCE - Required for Regular only
@@ -838,6 +838,12 @@ lookup AllahLigatures {
         @HehNoAllah'        lookup _AllahSub_Heh;
         
     # Rule 2: lam-lam-shadda-heh
+
+    sub @Lam1NoAllah'            lookup _AllahSub_Lam1
+        lam-ar.medi'             lookup _AllahSub_Lam2
+        [shadda_alef-ar shadda_fatha-ar]'	# Alkalami: these ligs are already created
+        @HehNoAllah'             lookup _AllahSub_Heh;
+        
     sub @Lam1NoAllah'            lookup _AllahSub_Lam1
         lam-ar.medi'             lookup _AllahSub_Lam2
         shadda-ar'
@@ -856,6 +862,12 @@ lookup AllahLigatures {
         @HehNoAllah'             lookup _AllahSub_Heh;
         
     # Rule 2b: lam-kasra-lam-shadda-heh
+    sub @Lam1NoAllah'            lookup _AllahSub_Lam1
+        kasra-ar'
+        lam-ar.medi'             lookup _AllahSub_Lam2
+        [shadda_alef-ar shadda_fatha-ar]'	   # Alkalami: these ligs are already created
+        @HehNoAllah'             lookup _AllahSub_Heh;
+        
     sub @Lam1NoAllah'            lookup _AllahSub_Lam1
     		kasra-ar'
         lam-ar.medi'             lookup _AllahSub_Lam2
@@ -878,27 +890,20 @@ lookup AllahLigatures {
         
 } AllahLigatures;
 
-feature dlig {
-	sub f [i  l] by [fi  fl];
-} dlig;
 
+lookup LamAlefLigatures {
+	lookupflag IgnoreMarks RightToLeft;
 
-feature rlig {
-
-  lookup AllahLigatures;
-	lookup LamAlefLigatures {
-		lookupflag IgnoreMarks RightToLeft;
-
-		sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;
-		sub lam-ar.init alef-ar.fina by lam_alef-ar;
-		sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
-		sub lam-ar.init alefHamzaabove-ar.fina by lam_alefHamzaabove-ar;
-		sub lam-ar.medi alefHamzaabove-ar.fina by lam_alefHamzaabove-ar.fina;
-		sub lam-ar.init alefHamzabelow-ar.fina by lam_alefHamzabelow-ar;
-		sub lam-ar.medi alefHamzabelow-ar.fina by lam_alefHamzabelow-ar.fina;
-		sub lam-ar.init alefMadda-ar.fina by lam_alefMadda-ar;
-		sub lam-ar.medi alefMadda-ar.fina by lam_alefMadda-ar.fina;
-	} LamAlefLigatures;
+	#sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar; - DELETE if we decide we don't need it [SJC]
+	sub lam-ar.init alef-ar.fina by lam_alef-ar;
+	sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
+	sub lam-ar.init alefHamzaabove-ar.fina by lam_alefHamzaabove-ar;
+	sub lam-ar.medi alefHamzaabove-ar.fina by lam_alefHamzaabove-ar.fina;
+	sub lam-ar.init alefHamzabelow-ar.fina by lam_alefHamzabelow-ar;
+	sub lam-ar.medi alefHamzabelow-ar.fina by lam_alefHamzabelow-ar.fina;
+	sub lam-ar.init alefMadda-ar.fina by lam_alefMadda-ar;
+	sub lam-ar.medi alefMadda-ar.fina by lam_alefMadda-ar.fina;
+} LamAlefLigatures;
 
 # Must be after LamAlefLigatures
 lookup AllahAlef {  # clean up: make sure alef is correct form for Allah
@@ -906,6 +911,17 @@ lookup AllahAlef {  # clean up: make sure alef is correct form for Allah
 		sub @AlefNoAllah'  lam-ar.init.allah1  by  @AlefAllah;
 } AllahAlef;
 
+
+feature dlig {
+	sub f [i  l] by [fi  fl];
+} dlig;
+
+
+feature rlig {
+  lookup AllahLigatures;
+	lookup LamAlefLigatures;
+	# Must be after LamAlefLigatures:
+	lookup AllahAlef;
 } rlig;
 
 
