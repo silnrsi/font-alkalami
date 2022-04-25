@@ -359,6 +359,7 @@ lookup FontCheck {
       n' lookup FontCheck_n;
 } FontCheck;
 
+# Subtending Mark lookups
 # End of Ayah digits and number-ar - calt
 lookup digit_small {
   sub @Digits by @Digits.small;
@@ -522,7 +523,7 @@ lookup cursive_exit_entry {
 } cursive_exit_entry;
 
 
-lookup kern_end_of_ayah {
+lookup kern_SubtendingMarks {
 	# contextually kern the sign with digits so they are enclosed
 
 	# Uniscribe or HarfBuzz 'latn'
@@ -530,20 +531,20 @@ lookup kern_end_of_ayah {
 	pos @EndofAyah2 @Digits.small' <-1100 0 -300 0> @Digits.small' <-800 0 -350 0>;
 	pos @EndofAyah  @Digits.small' <-800 0 -350 0>;
 
-	pos number-ar.3 @Digits.small' <-1525 185 -275 0> @Digits.small' <-1250 185 -300 0> @Digits.small' <-975 185 -350 0>;
-	pos number-ar.2 @Digits.small' <-1200 185 -300 0> @Digits.small' <-925 185 -350 0>;
-	pos number-ar   @Digits.small'  <-800 185 -350 0>;
+	pos number-ar.3 @Digits.small' <-1525 190 -275 0> @Digits.small' <-1250 190 -300 0> @Digits.small' <-975 190 -350 0>;
+	pos number-ar.2 @Digits.small' <-1200 190 -300 0> @Digits.small' <-900 190 -350 0>;
+	pos number-ar   @Digits.small'  <-825 190 -350 0>;
 
 	# HarfBuzz 'arab'
 	pos @Digits.small' <-800 0 -350 0> @Digits.small' <-1100 0 -300 0> @Digits.small' <-1375 0 -275 0> @EndofAyah3;
 	pos @Digits.small' <-800 0 -350 0> @Digits.small' <-1100 0 -300 0> @EndofAyah2;
 	pos @Digits.small' <-800 0 -350 0> @EndofAyah;
 
-	pos @Digits.small' <-975 185 -350 0> @Digits.small' <-1250 185 -200 0> @Digits.small' <-1525 185 -275 0> number-ar.3;
-	pos @Digits.small' <-925 185 -350 0> @Digits.small' <-1200 185 -300 0> number-ar.2;
-	pos @Digits.small' <-800 185 -350 0> number-ar;
+	pos @Digits.small' <-975 190 -350 0> @Digits.small' <-1250 190 -300 0> @Digits.small' <-1525 190 -275 0> number-ar.3;
+	pos @Digits.small' <-900 190 -350 0> @Digits.small' <-1200 190 -300 0> number-ar.2;
+	pos @Digits.small' <-825 190 -350 0> number-ar;
 
-} kern_end_of_ayah;
+} kern_SubtendingMarks;
 
 
 # Attachment needs to happen after stacking hah forms.
@@ -1083,6 +1084,7 @@ feature calt {
 		sub @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small @EndofAyah' lookup Ayah_3;
 		sub @Digits' lookup digit_small @Digits' lookup digit_small @EndofAyah' lookup Ayah_2;
 		sub @Digits' lookup digit_small @EndofAyah;
+
 		sub @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small number-ar' lookup number-ar_3;
 		sub @Digits' lookup digit_small @Digits' lookup digit_small number-ar' lookup number-ar_2;
 		sub @Digits' lookup digit_small number-ar;
@@ -1265,7 +1267,7 @@ feature curs {
 
 
 feature kern {
-	lookup kern_end_of_ayah;
+	lookup kern_SubtendingMarks;
 } kern;
 
 

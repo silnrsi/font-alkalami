@@ -1112,6 +1112,7 @@ lookup FontCheck {
     sub [R] e n d e r i n g U' lookup FontCheck_Unknow n' lookup FontCheck_Unknow k' lookup FontCheck_Unknow n' o' lookup FontCheck_Unknow w' lookup FontCheck_Unknow n' lookup FontCheck_n;
 } FontCheck;
 
+# Subtending Mark lookups
 # End of Ayah digits and number-ar - calt
 lookup digit_small {
     sub @Digits by @Digits.small;
@@ -1157,7 +1158,6 @@ lookup alef2wideshort {
 # make combining hamza a hamza nostem
 lookup hamza2nostem {
     sub [hamzaabove-ar hamzabelow-ar] by [hamzaabove-ar.nostem hamzabelow-ar.nostem];
-    #sub hamzabelow-ar by hamzabelow-ar.nostem;
 } hamza2nostem;
 
 # Make only ss08 effect only fatha, kasra, and damma.ss08.
@@ -1685,23 +1685,23 @@ lookup cursive_exit_entry {
     pos cursive zain-ar.fina <anchor 363 0> <anchor NULL>;
 } cursive_exit_entry;
 
-lookup kern_end_of_ayah {
+lookup kern_SubtendingMarks {
     # contextually kern the sign with digits so they are enclosed
     # Uniscribe or HarfBuzz 'latn'
     pos @EndofAyah3 @Digits.small' <-1375 0 -275 0> @Digits.small' <-1100 0 -300 0> @Digits.small' <-800 0 -350 0>;
     pos @EndofAyah2 @Digits.small' <-1100 0 -300 0> @Digits.small' <-800 0 -350 0>;
     pos @EndofAyah @Digits.small' <-800 0 -350 0>;
-    pos number-ar.3 @Digits.small' <-1525 185 -275 0> @Digits.small' <-1250 185 -300 0> @Digits.small' <-975 185 -350 0>;
-    pos number-ar.2 @Digits.small' <-1200 185 -300 0> @Digits.small' <-925 185 -350 0>;
-    pos number-ar @Digits.small' <-800 185 -350 0>;
+    pos number-ar.3 @Digits.small' <-1525 190 -275 0> @Digits.small' <-1250 190 -300 0> @Digits.small' <-975 190 -350 0>;
+    pos number-ar.2 @Digits.small' <-1200 190 -300 0> @Digits.small' <-900 190 -350 0>;
+    pos number-ar @Digits.small' <-825 190 -350 0>;
     # HarfBuzz 'arab'
     pos @Digits.small' <-800 0 -350 0> @Digits.small' <-1100 0 -300 0> @Digits.small' <-1375 0 -275 0> @EndofAyah3;
     pos @Digits.small' <-800 0 -350 0> @Digits.small' <-1100 0 -300 0> @EndofAyah2;
     pos @Digits.small' <-800 0 -350 0> @EndofAyah;
-    pos @Digits.small' <-975 185 -350 0> @Digits.small' <-1250 185 -200 0> @Digits.small' <-1525 185 -275 0> number-ar.3;
-    pos @Digits.small' <-925 185 -350 0> @Digits.small' <-1200 185 -300 0> number-ar.2;
-    pos @Digits.small' <-800 185 -350 0> number-ar;
-} kern_end_of_ayah;
+    pos @Digits.small' <-975 190 -350 0> @Digits.small' <-1250 190 -300 0> @Digits.small' <-1525 190 -275 0> number-ar.3;
+    pos @Digits.small' <-900 190 -350 0> @Digits.small' <-1200 190 -300 0> number-ar.2;
+    pos @Digits.small' <-825 190 -350 0> number-ar;
+} kern_SubtendingMarks;
 
 # Attachment needs to happen after stacking hah forms.
 lookup attachLigMarkReg {
@@ -2744,7 +2744,6 @@ lookup AllahLigatures {
 
 lookup LamAlefLigatures {
     lookupflag RightToLeft IgnoreMarks;
-    #sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar; - DELETE if we decide we don't need it [SJC]
     sub lam-ar.init alef-ar.fina by lam_alef-ar;
     sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
     sub lam-ar.init alefHamzaabove-ar.fina by lam_alefHamzaabove-ar;
@@ -3124,7 +3123,7 @@ feature curs {
 } curs;
 
 feature kern {
-    lookup kern_end_of_ayah;
+    lookup kern_SubtendingMarks;
 } kern;
 
 # Attach marks last, so they get positioned correctly on glyphs that have been shifted up.
