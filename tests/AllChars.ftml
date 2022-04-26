@@ -8,6 +8,7 @@
     <fontsrc label="Reg">url(../results/Alkalami-Regular.ttf)</fontsrc>
     <fontsrc label="Lt">url(../results/Alkalami-Light.ttf)</fontsrc>
     <styles>
+      <style feats="'pnum' 1" name="pnum_1"/>
       <style feats="'ss01' 1" name="ss01_1"/>
       <style feats="'ss02' 1" name="ss02_1"/>
       <style feats="'ss02' 1, 'ss03' 1" name="ss02_1_ss03_1"/>
@@ -40,7 +41,87 @@
     </test>
     <test label="U+002A">
       <comment>asterisk</comment>
-      <string>* + , - . / 0 1 2 3 4 5 6 7 8 9 : ;</string>
+      <string>* + , - . / 0</string>
+    </test>
+    <test label="U+0030" stylename="pnum_1">
+      <comment>zero</comment>
+      <string>0</string>
+    </test>
+    <test label="U+0031">
+      <comment>one</comment>
+      <string>1</string>
+    </test>
+    <test label="U+0031" stylename="pnum_1">
+      <comment>one</comment>
+      <string>1</string>
+    </test>
+    <test label="U+0032">
+      <comment>two</comment>
+      <string>2</string>
+    </test>
+    <test label="U+0032" stylename="pnum_1">
+      <comment>two</comment>
+      <string>2</string>
+    </test>
+    <test label="U+0033">
+      <comment>three</comment>
+      <string>3</string>
+    </test>
+    <test label="U+0033" stylename="pnum_1">
+      <comment>three</comment>
+      <string>3</string>
+    </test>
+    <test label="U+0034">
+      <comment>four</comment>
+      <string>4</string>
+    </test>
+    <test label="U+0034" stylename="pnum_1">
+      <comment>four</comment>
+      <string>4</string>
+    </test>
+    <test label="U+0035">
+      <comment>five</comment>
+      <string>5</string>
+    </test>
+    <test label="U+0035" stylename="pnum_1">
+      <comment>five</comment>
+      <string>5</string>
+    </test>
+    <test label="U+0036">
+      <comment>six</comment>
+      <string>6</string>
+    </test>
+    <test label="U+0036" stylename="pnum_1">
+      <comment>six</comment>
+      <string>6</string>
+    </test>
+    <test label="U+0037">
+      <comment>seven</comment>
+      <string>7</string>
+    </test>
+    <test label="U+0037" stylename="pnum_1">
+      <comment>seven</comment>
+      <string>7</string>
+    </test>
+    <test label="U+0038">
+      <comment>eight</comment>
+      <string>8</string>
+    </test>
+    <test label="U+0038" stylename="pnum_1">
+      <comment>eight</comment>
+      <string>8</string>
+    </test>
+    <test label="U+0039">
+      <comment>nine</comment>
+      <string>9</string>
+    </test>
+    <test label="U+0039" stylename="pnum_1">
+      <comment>nine</comment>
+      <string>9</string>
+    </test>
+    <test label="U+003A">
+      <comment>colon</comment>
+      <string>: ;</string>
     </test>
     <test label="U+003C">
       <comment>less</comment>
@@ -766,7 +847,7 @@
       <comment>summation</comment>
       <string>\u002211 LTR: \u00202A\u002211\u00202C RTL: \u00202B\u002211\u00202C</string>
     </test>
-    <test background="#ffe0e0" label="U+2212">
+    <test label="U+2212">
       <comment>minus</comment>
       <string>\u002212</string>
     </test>
@@ -837,6 +918,10 @@
     <test label="U+FDF2">
       <comment>allah-ar</comment>
       <string>\u00FDF2</string>
+    </test>
+    <test label="U+FDFD">
+      <comment>bismillah-ar</comment>
+      <string>\u00FDFD</string>
     </test>
     <test label="U+FE00">
       <comment>VS1</comment>

@@ -67,7 +67,7 @@
       <string>\u0622\u0644\u0644\u0647</string>
     </test>
     <test label="aH-l-l-h">
-      <comment>should match (not convinced it's using the correct form for aM, but it's acceptable)</comment>
+      <comment>should match (not convinced it's using the correct form for aH, but it's acceptable)</comment>
       <string>\u0623\u0644\u0644\u0647</string>
     </test>
     <test label="a-M-l-l-h">

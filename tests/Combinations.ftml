@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
 <ftml version="1.0">
-	<head>
-		<fontscale>250</fontscale>
-		<fontsrc label="Reg">url(../references/Alkalami-Regular-1_100.ttf)</fontsrc>
-		<fontsrc label="Light">url(../references/Alkalami-Light-1_100.ttf)</fontsrc>
-		<styles>
-			<style feats="'ss01' 1" name="ss01_1"/>
-			<style feats="'ss02' 1" name="ss02_1"/>
-			<style feats="'ss03' 1" name="ss03_1"/>
-			<style feats="'ss04' 1" name="ss04_1"/>
-			<style feats="'ss05' 1" name="ss05_1"/>
-			<style feats="'ss07' 1" name="ss07_1"/>
-			<style feats="'ss08' 1" name="ss08_1"/>
-			<style feats="'ss02' 1, 'ss03' 1" name="ss02_1_ss03_1"/>
-      <style feats="'ss01' 1, 'ss04' 1, 'ss05' 1, 'ss08' 1" name="lang"/>
-		</styles>
+  <head>
+    <fontscale>250</fontscale>
+    <fontsrc label="Sch (inst)">local(Scheherazade New)</fontsrc>
+    <fontsrc label="1.2">url(../references/Alkalami-Regular-1_200.ttf)</fontsrc>
+    <fontsrc label="Reg">url(../results/Alkalami-Regular.ttf)</fontsrc>
+    <fontsrc label="Lt">url(../results/Alkalami-Light.ttf)</fontsrc>
+    <styles>
+      <style feats="'pnum' 1" name="pnum_1"/>
+      <style feats="'ss01' 1" name="ss01_1"/>
+      <style feats="'ss02' 1" name="ss02_1"/>
+      <style feats="'ss02' 1, 'ss03' 1" name="ss02_1_ss03_1"/>
+      <style feats="'ss03' 1" name="ss03_1"/>
+      <style feats="'ss04' 1" name="ss04_1"/>
+      <style feats="'ss05' 1" name="ss05_1"/>
+      <style feats="'ss05' 1, 'ss09' 1" name="ss05_1_ss09_1"/>
+      <style feats="'ss07' 1" name="ss07_1"/>
+      <style feats="'ss09' 1" name="ss09_1"/>
+    </styles>
 		<title>All Character Combinations test</title>
 	</head>
 	<testgroup label="Sample words (USV order)">

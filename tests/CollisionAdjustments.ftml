@@ -27,6 +27,32 @@
 			<string>RenderingUnknown</string>
 		</test>
 	</testgroup>
+	<testgroup label="@pre_yb_need_alt">
+		<test label="U+064A U+06D2">
+			<comment>yeh.init+yehbarree(rule 0)</comment>
+			<string>\u064A\u0650\u06D2\u0650\u00a0\u00a0\u00a0\u00a0\u0633\u0650\u06D2\u0650</string>
+		</test>
+		<test label="U+0628 U+064A U+06D2">
+			<comment>yeh.medi+yehbarree(rule 0)</comment>
+			<string>\u0628\u064A\u0650\u06D2\u0650\u00a0\u00a0\u00a0\u00a0\u0628\u0633\u0650\u06D2\u0650</string>
+		</test>
+		<test label="U+063F U+06D2">
+			<comment>yeh.init+yehbarree(rule 0)</comment>
+			<string>\u063F\u0650\u06D2\u0650\u00a0\u00a0\u00a0\u00a0\u0633\u0650\u06D2\u0650</string>
+		</test>
+		<test label="U+063F U+06D2" stylename="ss09_1">
+			<comment>yeh.init+yehbarree(rule 0)</comment>
+			<string>\u063F\u0650\u06D2\u0650\u00a0\u00a0\u00a0\u00a0\u0633\u0650\u06D2\u0650</string>
+		</test>
+		<test label="U+0628 U+063F U+06D2">
+			<comment>yeh.medi+yehbarree(rule 0)</comment>
+			<string>\u0628\u063F\u0650\u06D2\u0650\u00a0\u00a0\u00a0\u00a0\u0628\u0633\u0650\u06D2\u0650</string>
+		</test>
+		<test label="U+0628 U+063F U+06D2" stylename="ss09_1">
+			<comment>yeh.medi+yehbarree(rule 0)</comment>
+			<string>\u0628\u063F\u0650\u06D2\u0650\u00a0\u00a0\u00a0\u00a0\u0628\u0633\u0650\u06D2\u0650</string>
+		</test>
+	</testgroup>
 	<testgroup label="seen-like characters">
 		<test label="U+0633 U+0020 U+062F">
 			<comment>seen+space+dal (rule 1)</comment>
@@ -949,4 +975,5 @@
 			<string>\u0627\u0644\u0650\u0684\u0650\u0628\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 	</testgroup>
+
 </ftml>
