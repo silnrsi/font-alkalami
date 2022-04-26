@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="e-ar.fina.longtail" format="2">
   <advance width="562"/>
-  <anchor x="-189" y="-917" name="bottom"/>
+  <anchor x="413" y="-140" name="bottom"/>
   <anchor x="562" y="0" name="entry"/>
   <anchor x="217" y="301" name="top"/>
   <outline>

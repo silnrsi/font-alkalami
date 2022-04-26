@@ -2,7 +2,7 @@
 <glyph name="wawSmall-ar" format="2">
   <advance width="247"/>
   <unicode hex="06E5"/>
-  <anchor x="58" y="244" name="top"/>
+  <anchor x="58" y="274" name="top"/>
   <outline>
     <contour>
       <point x="158" y="167" type="curve" smooth="yes"/>

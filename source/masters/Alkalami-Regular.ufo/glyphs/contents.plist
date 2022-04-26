@@ -1186,6 +1186,8 @@
   <string>meem-ar.medi.flat.glif</string>
   <key>micro</key>
   <string>micro.glif</string>
+  <key>minus</key>
+  <string>minus.glif</string>
   <key>multiply</key>
   <string>multiply.glif</string>
   <key>n</key>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="e-ar.longtail" format="2">
   <advance width="524"/>
-  <anchor x="-189" y="-917" name="bottom"/>
+  <anchor x="413" y="-117" name="bottom"/>
   <anchor x="217" y="301" name="top"/>
   <outline>
     <component base="alefMaksura-ar.longtail"/>
