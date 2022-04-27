@@ -42,11 +42,11 @@
 	</feature>
 -->
 
-	<feature name="Wagaf small" value="Standard" tag="WSmall"> <!-- ss09 -->
+	<feature name="Wagaf" value="Standard" tag="Wagaf"> <!-- ss09 -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
-		<value name="Wagaf small" tag="WSm">
+		<value name="Small" tag="Sm">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {ss09_lkp}"/>
 		</value>
 	</feature>
