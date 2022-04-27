@@ -42,7 +42,7 @@
 	</feature>
 -->
 
-	<feature name="Wagaf small" value="Standard" tag="Wag"> <!-- ss09 -->
+	<feature name="Wagaf small" value="Standard" tag="WSmall"> <!-- ss09 -->
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
