@@ -107,6 +107,15 @@ Feature | Sample | Feature setting
 Standard      | <span dir="rtl" class='alkalami-R normal'>ی ییی      ٻ ٻٻٻ      ڟ ڟڟڟ      ڠ ڠڠڠ      ڨ ڨڨڨ      ݣ ݣݣݣ </span>| `ss05=0`
 Alternate     | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss05" 1'>ی ییی      ٻ ٻٻٻ      ڟ ڟڟڟ      ڠ ڠڠڠ      ڨ ڨڨڨ      ݣ ݣݣݣ </span>| `ss05=1`
 
+## Proportional Figures
+
+Alkalami supports the OpenType **Proportional Figures (pnum)** for Latin digits. *This feature is not supported in TypeTuner Web.*
+
+Feature | Sample | Feature setting
+------------- | ------ | ------------- 
+Tabular Figures      | <span dir="rtl" class='alkalami-R normal'> 0 1 2 3 4 5 6 7 8 9</span>| `pnum=0`
+Proportional Figures     | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "pnum" 1'> 0 1 2 3 4 5 6 7 8 9</span>| `pnum=1`
+
 ## Contextual Alternates
 
 Alkalami has a few contextual rules applying subtle differences in the shape and position of certain of the characters depending on context (sometimes shortening, sometimes lengthening or lowering a “tail”). InDesign is able to utilize some of these cross word contextual alternates; however, most applications are not advanced enough to use this behavior in the font. Unfortunately, at this point in the development of the font, combining marks above or below may break these contextual alternates.

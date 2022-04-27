@@ -46,7 +46,7 @@
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
-		<value name="Wagaf small" tag="Mod">
+		<value name="Wagaf small" tag="WSm">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {ss09_lkp}"/>
 		</value>
 	</feature>
