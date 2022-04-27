@@ -35,16 +35,16 @@ There are some character shape differences in different languages which use the 
 Feature | Sample | Feature setting
 ------------- | ------ | -------------
 Standard | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss04" 0'>بٜ</span>| `ss04=0`
-Alternate | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss04" 1'>بٜ</span>| `ss04=1`
+Small | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss04" 1'>بٜ</span>| `ss04=1`
 
-#### Jeem/Hah stacking (ss07)
+#### Jeem/Hah (ss07)
 
 <span class='affects'>Affects: U+062C, U+062D, U+062E, U+0683, U+0684, U+08A2</span>
 
 Feature | Sample | Feature setting
 ------------- | ------ | -------------
 Standard | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss07" 0'>ج ججج ح ححح خ خخخ ڃ ڃڃڃ ڄ ڄڄڄ ࢢ ࢢࢢࢢ</span>| `ss07=0`
-Alternate | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss07" 1'>ج ججج ح ححح خ خخخ ڃ ڃڃڃ ڄ ڄڄڄ ࢢ ࢢࢢࢢ</span>| `ss07=1`
+Flat style | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss07" 1'>ج ججج ح ححح خ خخخ ڃ ڃڃڃ ڄ ڄڄڄ ࢢ ࢢࢢࢢ</span>| `ss07=1`
 
 #### Alef diacritic placement (ss08)
 
@@ -56,14 +56,14 @@ Standard | <span dir="rtl" class='alkalami-R normal' style='font-feature-setting
 Touching | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss08" 1'>&#x0627;&#x064E; &#x0627;&#x064F; &#x0627;&#x0650; &#x0628;&#x0627;&#x064E; &#x0628;&#x0627;&#x064F; &#x0628;&#x0627;&#x0650;</span>| `ss08=1`
 
 
-#### Wagaf small (ss09)
+#### Wagaf (ss09)
 
 <span class='affects'>Affects: U+063F, U+069F, U+0751, U+0763, U+08C3, U+08C4</span>
 
 Feature value | Sample | Feature setting
 ------------- | ---------------: | -------------
 Standard | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss09" 0'>&#x063F; &#x063F;&#x063F;&#x063F; &#x069F; &#x069F;&#x069F;&#x069F; &#x0751; &#x0751;&#x0751;&#x0751; &#x0763; &#x0763;&#x0763;&#x0763; &#x08C3; &#x08C3;&#x08C3;&#x08C3; &#x08C4; &#x08C4;&#x08C4;&#x08C4;</span>| `ss09=0`
-Alternate | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss09" 1'>&#x063F; &#x063F;&#x063F;&#x063F; &#x069F; &#x069F;&#x069F;&#x069F; &#x0751; &#x0751;&#x0751;&#x0751; &#x0763; &#x0763;&#x0763;&#x0763; &#x08C3; &#x08C3;&#x08C3;&#x08C3; &#x08C4; &#x08C4;&#x08C4;&#x08C4;</span>| `ss09=1`
+Small | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss09" 1'>&#x063F; &#x063F;&#x063F;&#x063F; &#x069F; &#x069F;&#x069F;&#x069F; &#x0751; &#x0751;&#x0751;&#x0751; &#x0763; &#x0763;&#x0763;&#x0763; &#x08C3; &#x08C3;&#x08C3;&#x08C3; &#x08C4; &#x08C4;&#x08C4;&#x08C4;</span>| `ss09=1`
 
 #### End of ayah 
 
@@ -81,8 +81,8 @@ In the example below, the following codepoints are used: U+202D U+06DD U+0031 U+
 Feature | Sample | Feature setting
 ------------- | ------ | ------------- 
 Standard     | <span dir="rtl" class='alkalami-R normal'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span> | `ss02=0` `ss03=0`
-Simplified A | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss02" 1'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span>| `ss02=1`
-Simplified B | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss03" 2'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span>| `ss03=1`
+End of ayah A | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss02" 1'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span>| `ss02=1`
+End of ayah B | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss03" 2'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span>| `ss03=1`
 
 
 ### Discouraged
@@ -96,7 +96,7 @@ These are discouraged from use. They were added to the font before some of the c
 Feature | Sample | Feature setting
 ------------- | ------ | ------------- 
 Standard      | <span dir="rtl" class='alkalami-R normal'>ن ننن      ي ييي      ڢ ڢڢڢ      ڧ ڧڧڧ </span>| `ss01=0`
-Alternate     | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss01" 1'>ن ننن      ي ييي      ڢ ڢڢڢ      ڧ ڧڧڧ </span>| `ss01=1`
+Wagaf modifier     | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss01" 1'>ن ننن      ي ييي      ڢ ڢڢڢ      ڧ ڧڧڧ </span>| `ss01=1`
 
 #### Wagaf Hack (ss05)
 
@@ -105,7 +105,7 @@ Alternate     | <span dir="rtl" class='alkalami-R normal' style='font-feature-se
 Feature | Sample | Feature setting
 ------------- | ------ | ------------- 
 Standard      | <span dir="rtl" class='alkalami-R normal'>ی ییی      ٻ ٻٻٻ      ڟ ڟڟڟ      ڠ ڠڠڠ      ڨ ڨڨڨ      ݣ ݣݣݣ </span>| `ss05=0`
-Alternate     | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss05" 1'>ی ییی      ٻ ٻٻٻ      ڟ ڟڟڟ      ڠ ڠڠڠ      ڨ ڨڨڨ      ݣ ݣݣݣ </span>| `ss05=1`
+No Dots     | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss05" 1'>ی ییی      ٻ ٻٻٻ      ڟ ڟڟڟ      ڠ ڠڠڠ      ڨ ڨڨڨ      ݣ ݣݣݣ </span>| `ss05=1`
 
 ## Proportional Figures
 

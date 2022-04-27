@@ -64,10 +64,10 @@
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
-		<value name="Round A" tag="A">
+		<value name="End of ayah A" tag="A">
 			<cmd name="encode" args="06DD uni06DD.ss02"/> <!-- ss02 End of Ayah -->
 		</value>
-		<value name="Round B" tag="B">
+		<value name="End of ayah B" tag="B">
 			<cmd name="encode" args="06DD uni06DD.ss03"/> <!-- End of Ayah ss03 -->
 		</value>
 	</feature>

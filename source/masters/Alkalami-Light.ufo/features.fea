@@ -2970,7 +2970,7 @@ feature ss05 {
 # No stacking jeem/hah
 feature ss07 {
         featureNames {
-        name "Jeem/hah stacking";
+        name "Jeem/hah";
     };
 
     # Basically undo the jeem stacking rules above. :-/
@@ -3008,7 +3008,7 @@ feature ss08 {
 # Wagaf small
 feature ss09 {
         featureNames {
-        name "Wagaf small";
+        name "Wagaf";
     };
 
     lookup ss09_lkp {
