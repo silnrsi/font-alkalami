@@ -40,4 +40,8 @@ It is impossible for us to add every glyph that every person desires, but we do 
 
 Alkalami is the first attempt at a typeface design based on handwritten manuscripts from Nigeria, in a style of writing called Rubutun Kano. This font is designed to work with the OpenType advanced font technology. To take advantage of the advanced typographic capabilities of this font, you must be using applications that provide an adequate level of support for OpenType. These advanced capabilities provide access to the variant character forms used in some languages, as well as a 'smart' font that switches out letters to avoid collisions as you type. See [Smart Font Features](features.md).
 
+#### *I used a previous version of this font which included a hacked encoding. What are the codepoints I should convert from and to?*
 
+If you used previous versions of this font, we made some decisions which were unfortunately not Unicode compliant. Since the initial release of this font, many of these non Unicode compliant characters have been added to Unicode. You will need to re-encode some characters to be fully Unicode compliant. A chart which includes the list of characters is found at the bottom of the [Font Features](features.md) page.
+
+Future versions of this font will remove these non Unicode compliant solutions.

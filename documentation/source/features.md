@@ -132,8 +132,26 @@ Alkalami has a few contextual rules applying subtle differences in the shape and
 &#x00A0;&#x00A0;&#x00A0;&#x00A0;<span dir="rtl" class='alkalami-R normal'>&#x0628;&#x0646;&#x0020;&#x0648;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x0648;</span>
 
 
-   
+## Note!
 
+If you used previous versions of this font, we made some decisions which were unfortunately not Unicode compliant. Since the initial release of this font, many of these non Unicode compliant characters have been added to Unicode. You will need to re-encode some characters to be fully Unicode compliant. The characters affected are listed below:
+
+Non Unicode Compliant | → | Convert to
+---------- | -: | ---------- 
+<span dir="rtl" class='alkalami-R normal'>&#x0643;</span> 0643 ARABIC LETTER KAF | → | <span dir="rtl" class='alkalami-R normal'>&#x06a9;</span> 06A9 ARABIC LETTER KEHEH 
+<span dir="rtl" class='alkalami-R normal'>&#x06ad;</span> 06AD ARABIC LETTER NG  | → | <span dir="rtl" class='alkalami-R normal'>&#x0763;</span> 0763 ARABIC LETTER KEHEH WITH THREE DOTS ABOVE
+<span dir="rtl" class='alkalami-R normal'>&#x067b;</span> 067B ARABIC LETTER BEEH (ss05) | → | <span dir="rtl" class='alkalami-R normal'>&#x0751;</span> 0751 ARABIC LETTER BEH WITH DOT BELOW AND THREE DOTS ABOVE (use Stylistic Set `ss09` if you wish a small *wagaf*)
+<span dir="rtl" class='alkalami-R normal'>&#x069f;</span> 069F ARABIC LETTER TAH WITH THREE DOTS ABOVE (ss05) | → | You may continue to use this codepoint (use Stylistic Set `ss09` if you wish a small *wagaf*)
+<span dir="rtl" class='alkalami-R normal'>&#x06a0;</span> 06A0 ARABIC LETTER AIN WITH THREE DOTS ABOVE (ss05) | → | <span dir="rtl" class='alkalami-R normal'>&#x08c3;</span> 08C3 ARABIC LETTER GHAIN WITH THREE DOTS ABOVE (use Stylistic Set `ss09` if you wish a small *wagaf*)
+<span dir="rtl" class='alkalami-R normal'>&#x06a8;</span> 06A8 ARABIC LETTER QAF WITH THREE DOTS ABOVE (ss05) | → | <span dir="rtl" class='alkalami-R normal'>&#x08c4;</span> 08C4 ARABIC LETTER AFRICAN QAF WITH THREE DOTS ABOVE (use Stylistic Set `ss09` if you wish a small *wagaf*)
+<span dir="rtl" class='alkalami-R normal'>&#x06cc;</span> 06CC ARABIC LETTER FARSI YEH (ss05) | → | <span dir="rtl" class='alkalami-R normal'>&#x063f;</span> 063F ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE (use Stylistic Set `ss09` if you wish a small *wagaf*)
+<span dir="rtl" class='alkalami-R normal'>&#x0763;</span> 0763 ARABIC LETTER KEHEH WITH THREE DOTS ABOVE (ss05) | → |  You may continue to use this codepoint (use Stylistic Set `ss09` if you wish a small *wagaf*)
+<span dir="rtl" class='alkalami-R normal'>&#x0646;</span> 0646 ARABIC LETTER NOON (ss01) | → | <span dir="rtl" class='alkalami-R normal'>&#x08bd;</span> 08BD ARABIC LETTER AFRICAN NOON (no Stylistic Set required)
+<span dir="rtl" class='alkalami-R normal'>&#x064a;</span> 064A ARABIC LETTER YEH (ss01) | → | <span dir="rtl" class='alkalami-R normal'>&#x06cc;</span> 06CC ARABIC LETTER FARSI YEH (no Stylistic Set required)
+<span dir="rtl" class='alkalami-R normal'>&#x06a2;</span> 06A2 ARABIC LETTER FEH WITH DOT MOVED BELOW (ss01) | → | <span dir="rtl" class='alkalami-R normal'>&#x08bb;</span> 08BB ARABIC LETTER AFRICAN FEH (no Stylistic Set required)
+<span dir="rtl" class='alkalami-R normal'>&#x06a7;</span> 06A7 ARABIC LETTER QAF WITH DOT ABOVE (ss01) | → | <span dir="rtl" class='alkalami-R normal'>&#x08bc;</span> 08BC ARABIC LETTER AFRICAN QAF (no Stylistic Set required)
+
+Future versions of this font will remove these non Unicode compliant solutions.
 
 <!-- PRODUCT SITE ONLY
 [font id='alkalami' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1]

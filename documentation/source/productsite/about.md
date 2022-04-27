@@ -9,7 +9,9 @@ For more information on the visual characteristics of the font see [Design](desi
 
 This font is actively maintained and improved, and recent changes to its development process will enable more frequent releases.
 
-The highest priorities for future additions and enhancements are mainly driven by:
+We do plan to split Alkalami Regular and Alkalami Light into two font families. Alkalami Regular will stay the same. Alkalami Light will become Ruwudu Regular.
+
+In addition to splitting the font family, the highest priorities for future additions and enhancements are mainly driven by:
 
 - Requests from language communities using the fonts
 - Needs of the linguistic and academic community

@@ -9,12 +9,11 @@ This page uses web fonts (WOFF) to demonstrate font features and should display 
 
 *If this document is not displaying correctly a PDF version is also provided in the documentation/pdf folder of the release package.*
 
-## End of Ayah (U+06DD)
+## Signs Spanning Numbers
 
 These signs spanning numbers are intended to enclose or hold one or more digits. Specific technical details of how to use them are discussed in the [Arabic fonts FAQ -- Subtending marks](http://software.sil.org/arabicfonts/support/faq#Ayah).
 
-Currently, this font only supports the **End of Ayah**. Additionally, Alkalami includes two simplified alternates for U+06DD ARABIC END OF AYAH under the Stylistic Alternates (salt) feature, but at this time we know of no OpenType-based applications that can access these. The two alternates are also available through the Stylistic Sets feature discussed below.
-
+Currently, this font only supports the **Number Sign** (U+0600) and **End of Ayah** (U+06DD). Additionally, Alkalami includes two simplified alternates for U+06DD ARABIC END OF AYAH under the Stylistic Alternates (salt) feature, but at this time we know of no OpenType-based applications that can access these. The two alternates are also available through the Stylistic Sets feature discussed below.
 
 ## Customizing with TypeTuner
 
@@ -36,12 +35,31 @@ Alternate | <span dir="rtl" class='alkalami-ss04-1-R normal'>بٜ</span>| `ss04=
 
 #### Jeem/Hah stacking (ss07)
 
-<span class='affects'>Affects: U+062C, U+062D, U+062E, U+0683</span>
+<span class='affects'>Affects: U+062C, U+062D, U+062E, U+0683, U+0684, U+08A2</span>
 
 Feature | Sample | Feature setting
 ------------- | ------ | -------------
-Standard | <span dir="rtl" class='alkalami-ss07-0-R normal'>ج ججج ح ححح خ خخخ ڃ ڃڃڃ</span>| `ss07=0`
-Alternate | <span dir="rtl" class='alkalami-ss07-1-R normal'>ج ججج ح ححح خ خخخ ڃ ڃڃڃ</span>| `ss07=1`
+Standard | <span dir="rtl" class='alkalami-ss07-0-R normal'>ج ججج ح ححح خ خخخ ڃ ڃڃڃ ڄ ڄڄڄ ࢢ ࢢࢢࢢ</span>| `ss07=0`
+Alternate | <span dir="rtl" class='alkalami-ss07-1-R normal'>ج ججج ح ححح خ خخخ ڃ ڃڃڃ ڄ ڄڄڄ ࢢ ࢢࢢࢢ</span>| `ss07=1`
+
+#### Alef diacritic placement (ss08)
+
+<span class='affects'>Affects: U+0627, U+064E, U+064F, U+0650</span>
+
+Feature | Sample | Feature setting
+------------- | ------ | -------------
+Standard | <span dir="rtl" class='alkalami-ss08-0-R normal'>&#x0627;&#x064E; &#x0627;&#x064F; &#x0627;&#x0650; &#x0628;&#x0627;&#x064E; &#x0628;&#x0627;&#x064F; &#x0628;&#x0627;&#x0650; </span>| `ss08=0`
+Touching | <span dir="rtl" class='alkalami-ss08-1-R normal'>&#x0627;&#x064E; &#x0627;&#x064F; &#x0627;&#x0650; &#x0628;&#x0627;&#x064E; &#x0628;&#x0627;&#x064F; &#x0628;&#x0627;&#x0650;</span>| `ss08=1`
+
+
+#### Wagaf small (ss09)
+
+<span class='affects'>Affects: U+063F, U+069F, U+0751, U+0763, U+08C3, U+08C4</span>
+
+Feature value | Sample | Feature setting
+------------- | ---------------: | -------------
+Standard | <span dir="rtl" class='alkalami-ss09-0-R normal'>&#x063F; &#x063F;&#x063F;&#x063F; &#x069F; &#x069F;&#x069F;&#x069F; &#x0751; &#x0751;&#x0751;&#x0751; &#x0763; &#x0763;&#x0763;&#x0763; &#x08C3; &#x08C3;&#x08C3;&#x08C3; &#x08C4; &#x08C4;&#x08C4;&#x08C4;</span>| `ss09=0`
+Alternate | <span dir="rtl" class='alkalami-ss09-1-R normal'>&#x063F; &#x063F;&#x063F;&#x063F; &#x069F; &#x069F;&#x069F;&#x069F; &#x0751; &#x0751;&#x0751;&#x0751; &#x0763; &#x0763;&#x0763;&#x0763; &#x08C3; &#x08C3;&#x08C3;&#x08C3; &#x08C4; &#x08C4;&#x08C4;&#x08C4;</span>| `ss09=1`
 
 #### End of ayah 
 
@@ -64,6 +82,8 @@ Simplified B | <span dir="rtl" class='alkalami-ss03-2-R normal'>&#x202D;&#x6DD;&
 
 
 ### Discouraged
+
+These are discouraged from use. They were added to the font before some of the characters were added to Unicode. The characters supported in ss09 are Unicode-compliant.
 
 #### Warsh Hack (ss01)
 
@@ -108,8 +128,26 @@ Alkalami has a few contextual rules applying subtle differences in the shape and
 &#x00A0;&#x00A0;&#x00A0;&#x00A0;<span dir="rtl" class='alkalami-R normal'>&#x0628;&#x0646;&#x0020;&#x0648;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x0648;</span>
 
 
-   
+## Note!
 
+If you used previous versions of this font, we made some decisions which were unfortunately not Unicode compliant. Since the initial release of this font, many of these non Unicode compliant characters have been added to Unicode. You will need to re-encode some characters to be fully Unicode compliant. The characters affected are listed below:
+
+Non Unicode Compliant | → | Convert to
+---------- | -: | ---------- 
+<span dir="rtl" class='alkalami-R normal'>&#x0643;</span> 0643 ARABIC LETTER KAF | → | <span dir="rtl" class='alkalami-R normal'>&#x06a9;</span> 06A9 ARABIC LETTER KEHEH 
+<span dir="rtl" class='alkalami-R normal'>&#x06ad;</span> 06AD ARABIC LETTER NG  | → | <span dir="rtl" class='alkalami-R normal'>&#x0763;</span> 0763 ARABIC LETTER KEHEH WITH THREE DOTS ABOVE
+<span dir="rtl" class='alkalami-R normal'>&#x067b;</span> 067B ARABIC LETTER BEEH (ss05) | → | <span dir="rtl" class='alkalami-R normal'>&#x0751;</span> 0751 ARABIC LETTER BEH WITH DOT BELOW AND THREE DOTS ABOVE (use Stylistic Set `ss09` if you wish a small *wagaf*)
+<span dir="rtl" class='alkalami-R normal'>&#x069f;</span> 069F ARABIC LETTER TAH WITH THREE DOTS ABOVE (ss05) | → | You may continue to use this codepoint (use Stylistic Set `ss09` if you wish a small *wagaf*)
+<span dir="rtl" class='alkalami-R normal'>&#x06a0;</span> 06A0 ARABIC LETTER AIN WITH THREE DOTS ABOVE (ss05) | → | <span dir="rtl" class='alkalami-R normal'>&#x08c3;</span> 08C3 ARABIC LETTER GHAIN WITH THREE DOTS ABOVE (use Stylistic Set `ss09` if you wish a small *wagaf*)
+<span dir="rtl" class='alkalami-R normal'>&#x06a8;</span> 06A8 ARABIC LETTER QAF WITH THREE DOTS ABOVE (ss05) | → | <span dir="rtl" class='alkalami-R normal'>&#x08c4;</span> 08C4 ARABIC LETTER AFRICAN QAF WITH THREE DOTS ABOVE (use Stylistic Set `ss09` if you wish a small *wagaf*)
+<span dir="rtl" class='alkalami-R normal'>&#x06cc;</span> 06CC ARABIC LETTER FARSI YEH (ss05) | → | <span dir="rtl" class='alkalami-R normal'>&#x063f;</span> 063F ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE (use Stylistic Set `ss09` if you wish a small *wagaf*)
+<span dir="rtl" class='alkalami-R normal'>&#x0763;</span> 0763 ARABIC LETTER KEHEH WITH THREE DOTS ABOVE (ss05) | → |  You may continue to use this codepoint (use Stylistic Set `ss09` if you wish a small *wagaf*)
+<span dir="rtl" class='alkalami-R normal'>&#x0646;</span> 0646 ARABIC LETTER NOON (ss01) | → | <span dir="rtl" class='alkalami-R normal'>&#x08bd;</span> 08BD ARABIC LETTER AFRICAN NOON (no Stylistic Set required)
+<span dir="rtl" class='alkalami-R normal'>&#x064a;</span> 064A ARABIC LETTER YEH (ss01) | → | <span dir="rtl" class='alkalami-R normal'>&#x06cc;</span> 06CC ARABIC LETTER FARSI YEH (no Stylistic Set required)
+<span dir="rtl" class='alkalami-R normal'>&#x06a2;</span> 06A2 ARABIC LETTER FEH WITH DOT MOVED BELOW (ss01) | → | <span dir="rtl" class='alkalami-R normal'>&#x08bb;</span> 08BB ARABIC LETTER AFRICAN FEH (no Stylistic Set required)
+<span dir="rtl" class='alkalami-R normal'>&#x06a7;</span> 06A7 ARABIC LETTER QAF WITH DOT ABOVE (ss01) | → | <span dir="rtl" class='alkalami-R normal'>&#x08bc;</span> 08BC ARABIC LETTER AFRICAN QAF (no Stylistic Set required)
+
+Future versions of this font will remove these non Unicode compliant solutions.
 
 [font id='alkalami' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1]
 [font id='alkalamiL' face='Alkalami-Regular' light='Alkalami-Light' size='100%' ltr=1]
@@ -120,6 +158,10 @@ Alkalami has a few contextual rules applying subtle differences in the shape and
 [font id='alkalami-ss04-1' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss04 1']
 [font id='alkalami-ss07-0' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss07 0']
 [font id='alkalami-ss07-1' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss07 1']
+[font id='alkalami-ss08-0' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss08 0']
+[font id='alkalami-ss08-1' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss08 1']
+[font id='alkalami-ss09-0' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss09 0']
+[font id='alkalami-ss09-1' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss09 1']
 [font id='alkalami-ss02-1' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss02 1']
 [font id='alkalami-ss03-2' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss03 2']
 [font id='alkalami-ss01-1' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss01 1']

@@ -1,6 +1,5 @@
 
-Alkalami is a mature product with no major changes anticipated. We will be releasing maintenance updates to fix bugs. 
-
+In a future version of Alkalami, we plan to split Alkalami Regular and Alkalami Light into two separate font families. Alkalami Regular will stay the same. Alkalami Light will become Ruwudu Regular. Future versions of this font will remove non Unicode compliant solutions.
 
 ## Welcome font developers!
 
