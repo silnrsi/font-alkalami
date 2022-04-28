@@ -111,6 +111,8 @@ No Dots     | <span dir="rtl" class='alkalami-R normal' style='font-feature-sett
 
 Alkalami supports the OpenType **Proportional Figures (pnum)** for Latin digits. *This feature is not supported in TypeTuner Web.*
 
+<span class='affects'>Affects: U+0030..U+0039</span>
+
 Feature | Sample | Feature setting
 ------------- | ------ | ------------- 
 Tabular Figures      | <span dir="rtl" class='alkalami-R normal'> 0 1 2 3 4 5 6 7 8 9</span>| `pnum=0`
