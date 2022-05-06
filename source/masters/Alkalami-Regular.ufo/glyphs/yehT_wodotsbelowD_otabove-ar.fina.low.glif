@@ -5,7 +5,7 @@
   <anchor x="562" y="0" name="entry"/>
   <anchor x="217" y="360" name="top"/>
   <outline>
-    <component base="yeh-ar.fina.ss01" yOffset="-207"/>
+    <component base="alefMaksura-ar.fina" yOffset="-207"/>
     <component base="dotabove-ar" xOffset="106" yOffset="-190"/>
     <component base="twodotshorizontalbelow-ar" xOffset="-481" yOffset="-632"/>
   </outline>

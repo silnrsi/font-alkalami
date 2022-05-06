@@ -5,7 +5,7 @@
   <anchor x="792" y="0" name="entry"/>
   <anchor x="377" y="297" name="top"/>
   <outline>
-    <component base="noon-ar.fina.ss01"/>
+    <component base="noonghunna-ar.fina"/>
     <component base="twodotshorizontalbelow-ar" xOffset="149" yOffset="-269"/>
   </outline>
 </glyph>

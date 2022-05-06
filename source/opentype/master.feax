@@ -126,10 +126,10 @@ languagesystem latn dflt;
 @hahFinals_alt = [ hah-ar.fina.alt jeem-ar.fina.alt khah-ar.fina.alt nyeh-ar.fina.alt dyeh-ar.fina.alt jeemTwodotsabove-ar.fina.alt ];
 
 # *NEXT 2 CLASSES MUST MATCH*	
-@pre_hah_not_flat = [  behDotless-ar.medi beh-ar.medi peh-ar.medi beeh-ar.medi beeh-ar.medi.ss05 alefMaksura-ar.medi 
+@pre_hah_not_flat = [  behDotless-ar.medi beh-ar.medi peh-ar.medi beeh-ar.medi alefMaksura-ar.medi 
                        teh-ar.medi tehThreedotsdown-ar.medi theh-ar.medi behVinvertedbelow-ar.medi behVabove-ar.medi 
                        behVbelow-ar.medi behhamzaabove-ar.medi seen-ar.medi sheen-ar.medi sad-ar.medi dad-ar.medi 
-                       ain-ar.medi ainThreedots-ar.medi ainThreedots-ar.medi.ss05 ghain-ar.medi ghainThreedotsabove-ar.medi 
+                       ain-ar.medi ainThreedots-ar.medi ghain-ar.medi ghainThreedotsabove-ar.medi 
                        ghainThreedotsabove-ar.medi.ss09 lam-ar.medi meem-ar.medi noon-ar.medi noonghunna-ar.medi 
                        noonTwodotsbelow-ar.medi noonAfrican-ar.medi yeh-ar.medi yeh-farsi.medi e-ar.medi 
                        ainTwodotshorizontalabove-ar.medi behThreedotsupbelow-ar.medi behThreedotsupabove-ar.medi 
@@ -139,10 +139,10 @@ languagesystem latn dflt;
 
 # This creates an alternate form that does NOT get shifted up to the same level as the medial hah.
 # The forms that are NOT in this class are medial tah/zah, feh/qaf, and kaf/gaf and most initials.
-@pre_hah_flat    = [ behDotless-ar.medi.flat beh-ar.medi.flat peh-ar.medi.flat beeh-ar.medi.flat beeh-ar.medi.flat.ss05 alefMaksura-ar.medi.flat 
+@pre_hah_flat    = [ behDotless-ar.medi.flat beh-ar.medi.flat peh-ar.medi.flat beeh-ar.medi.flat alefMaksura-ar.medi.flat 
                      teh-ar.medi.flat tehThreedotsdown-ar.medi.flat theh-ar.medi.flat behVinvertedbelow-ar.medi.flat behVabove-ar.medi.flat 
                      behVbelow-ar.medi.flat behhamzaabove-ar.medi.flat seen-ar.medi.flat sheen-ar.medi.flat sad-ar.medi.flat dad-ar.medi.flat 
-                     ain-ar.medi.flat ainThreedots-ar.medi.flat ainThreedots-ar.medi.flat.ss05 ghain-ar.medi.flat ghainThreedotsabove-ar.medi.flat 
+                     ain-ar.medi.flat ainThreedots-ar.medi.flat ghain-ar.medi.flat ghainThreedotsabove-ar.medi.flat 
                      ghainThreedotsabove-ar.medi.flat.ss09 lam-ar.medi.flat meem-ar.medi.flat noon-ar.medi.flat noonghunna-ar.medi.flat 
                      noonTwodotsbelow-ar.medi.flat noonAfrican-ar.medi.flat yeh-ar.medi.flat yeh-farsi.medi.flat e-ar.medi.flat 
                      ainTwodotshorizontalabove-ar.medi.flat behThreedotsupbelow-ar.medi.flat behThreedotsupabove-ar.medi.flat 
@@ -151,53 +151,53 @@ languagesystem latn dflt;
                      sad-ar.init.flat dad-ar.init.flat meem-ar.init.flat ];
 
 # *NEXT 2 CLASSES MUST MATCH*	
-@post_hah_final_toShift = [ ain-ar.fina ainThreedots-ar.fina ainThreedots-ar.fina.ss05 ainTwodotshorizontalabove-ar.fina 
+@post_hah_final_toShift = [ ain-ar.fina ainThreedots-ar.fina ainTwodotshorizontalabove-ar.fina 
                             ghain-ar.fina ghainThreedotsabove-ar.fina ghainThreedotsabove-ar.fina.ss09 seen-ar.fina 
                             sheen-ar.fina yeh-ar.fina yehTwodotsbelowHamzaabove-ar.fina yehTwodotsbelowDotabove-ar.fina 
-                            yehThreedotsbelow-ar.fina yeh-farsi.fina yeh-farsi.fina.ss05 yehHamzaabove-ar.fina 
+                            yehThreedotsbelow-ar.fina yeh-farsi.fina yehHamzaabove-ar.fina 
                             alefMaksura-ar.fina alef-ar.fina alef-ar.wide.fina alef-ar.wideshort.fina 
                             yehThreedotsabove-farsi.fina yehThreedotsabove-farsi.fina.ss09];
 
-@post_hah_final_low =     [ ain-ar.fina.low ainThreedots-ar.fina.low ainThreedots-ar.fina.ss05.low ainTwodotshorizontalabove-ar.fina.low 
+@post_hah_final_low =     [ ain-ar.fina.low ainThreedots-ar.fina.low ainTwodotshorizontalabove-ar.fina.low 
                             ghain-ar.fina.low ghainThreedotsabove-ar.fina.low ghainThreedotsabove-ar.fina.low.ss09 seen-ar.fina.low 
                             sheen-ar.fina.low yeh-ar.fina.low yehTwodotsbelowHamzaabove-ar.fina.low yehTwodotsbelowDotabove-ar.fina.low 
-                            yehThreedotsbelow-ar.fina.low yeh-farsi.fina.low yeh-farsi.fina.ss05.low yehHamzaabove-ar.fina.low 
+                            yehThreedotsbelow-ar.fina.low yeh-farsi.fina.low yehHamzaabove-ar.fina.low 
                             alefMaksura-ar.fina.low alef-ar.fina.low alef-ar.wide.fina.low alef-ar.wideshort.fina.low 
                             yehThreedotsabove-farsi.fina.low yehThreedotsabove-farsi.fina.low.ss09];
 
 # The next two classes are just used for context. They do not need to match. I do not know the criteria for what goes in the class.
-@pre_hah_shift_up_init = [ behDotless-ar.init beh-ar.init peh-ar.init beeh-ar.init beeh-ar.init.ss05 behThreedotsupbelow-ar.init 
+@pre_hah_shift_up_init = [ behDotless-ar.init beh-ar.init peh-ar.init beeh-ar.init behThreedotsupbelow-ar.init 
                            behThreedotsupabove-ar.init behThreedotsupabove-ar.init.ss09 alefMaksura-ar.init teh-ar.init 
                            tehThreedotsdown-ar.init theh-ar.init behVinvertedbelow-ar.init behVabove-ar.init behVbelow-ar.init 
                            behhamzaabove-ar.init jeem-ar.init nyeh-ar.init hah-ar.init khah-ar.init dyeh-ar.init jeemTwodotsabove-ar.init 
-                           seen-ar.init sheen-ar.init sad-ar.init dad-ar.init tah-ar.init tahThreedots-ar.init tahThreedots-ar.init.ss05 
+                           seen-ar.init sheen-ar.init sad-ar.init dad-ar.init tah-ar.init tahThreedots-ar.init  
                            tahThreedots-ar.init.ss09 tahTwodotsabove-ar.init zah-ar.init ain-ar.init ainThreedots-ar.init 
-                           ainThreedots-ar.init.ss05 ainTwodotshorizontalabove-ar.init ghain-ar.init ghainThreedotsabove-ar.init 
+                           ainTwodotshorizontalabove-ar.init ghain-ar.init ghainThreedotsabove-ar.init 
                            ghainThreedotsabove-ar.init.ss09 feh-ar.init fehAfrican-ar.init veh-ar.init fehDotless-ar.init 
                            fehDotmovedbelow-ar.init fehTwodotsbelow-ar.init qafDotless-ar.init qaf-ar.init qafAfrican-ar.init 
-                           qafDotabove-ar.init qafThreedotsabove-ar.init qafThreedotsabove-ar.init.ss05 qafThreedotsaboveAfrican-ar.init 
-                           qafThreedotsaboveAfrican-ar.init.ss09 kaf-ar.init keheh-ar.init kehehThreedotsabove-ar.init kehehThreedotsabove-ar.init.ss05 
+                           qafDotabove-ar.init qafThreedotsabove-ar.init qafThreedotsaboveAfrican-ar.init 
+                           qafThreedotsaboveAfrican-ar.init.ss09 kaf-ar.init keheh-ar.init kehehThreedotsabove-ar.init  
                            kehehThreedotsabove-ar.init.ss09 gaf-ar.init kafswash-ar.init ng-ar.init lam-ar.init meem-ar.init noon-ar.init 
                            noonAfrican-ar.init noonghunna-ar.init noonTwodotsbelow-ar.init heh-ar.init yehHamzaabove-ar.init 
                            yehTwodotsbelowHamzaabove-ar.init yehTwodotsbelowDotabove-ar.init yeh-ar.init yeh-farsi.init 
-                           yeh-farsi.init.ss05 e-ar.init yehThreedotsbelow-ar.init yehThreedotsabove-farsi.init yehThreedotsabove-farsi.init.ss09];
+                           e-ar.init yehThreedotsbelow-ar.init yehThreedotsabove-farsi.init yehThreedotsabove-farsi.init.ss09];
 
-@pre_hah_shift_up_medi = [ behDotless-ar.medi beh-ar.medi peh-ar.medi beeh-ar.medi beeh-ar.medi.ss05 behThreedotsupabove-ar.medi 
+@pre_hah_shift_up_medi = [ behDotless-ar.medi beh-ar.medi peh-ar.medi beeh-ar.medi behThreedotsupabove-ar.medi 
                            behThreedotsupabove-ar.medi.ss09 behThreedotsupbelow-ar.medi alefMaksura-ar.medi teh-ar.medi 
                            tehThreedotsdown-ar.medi theh-ar.medi behVinvertedbelow-ar.medi behVabove-ar.medi behVbelow-ar.medi 
                            behhamzaabove-ar.medi jeem-ar.medi nyeh-ar.medi hah-ar.medi khah-ar.medi dyeh-ar.medi 
                            jeemTwodotsabove-ar.medi seen-ar.medi sheen-ar.medi sad-ar.medi dad-ar.medi tah-ar.medi 
-                           tahThreedots-ar.medi tahThreedots-ar.medi.ss05 tahThreedots-ar.medi.ss09 tahTwodotsabove-ar.medi 
-                           zah-ar.medi ain-ar.medi ainThreedots-ar.medi ainThreedots-ar.medi.ss05 ainTwodotshorizontalabove-ar.medi 
+                           tahThreedots-ar.medi tahThreedots-ar.medi.ss09 tahTwodotsabove-ar.medi 
+                           zah-ar.medi ain-ar.medi ainThreedots-ar.medi ainTwodotshorizontalabove-ar.medi 
                            ghain-ar.medi ghainThreedotsabove-ar.medi ghainThreedotsabove-ar.medi.ss09 feh-ar.medi 
                            fehAfrican-ar.medi veh-ar.medi fehDotless-ar.medi fehDotmovedbelow-ar.medi fehTwodotsbelow-ar.medi 
                            qafDotless-ar.medi qaf-ar.medi qafAfrican-ar.medi qafDotabove-ar.medi qafThreedotsabove-ar.medi 
-                           qafThreedotsabove-ar.medi.ss05 qafThreedotsaboveAfrican-ar.medi qafThreedotsaboveAfrican-ar.medi.ss09 
-                           kaf-ar.medi keheh-ar.medi kehehThreedotsabove-ar.medi kehehThreedotsabove-ar.medi.ss05 
+                           qafThreedotsaboveAfrican-ar.medi qafThreedotsaboveAfrican-ar.medi.ss09 
+                           kaf-ar.medi keheh-ar.medi kehehThreedotsabove-ar.medi 
                            kehehThreedotsabove-ar.medi.ss09 gaf-ar.medi kafswash-ar.medi ng-ar.medi lam-ar.medi meem-ar.medi 
                            noon-ar.medi noonghunna-ar.medi noonTwodotsbelow-ar.medi noonAfrican-ar.medi heh-ar.medi yehHamzaabove-ar.medi 
                            yehTwodotsbelowHamzaabove-ar.medi yehTwodotsbelowDotabove-ar.medi yeh-ar.medi yeh-farsi.medi 
-                           yeh-farsi.medi.ss05 e-ar.medi yehThreedotsbelow-ar.medi yehThreedotsabove-farsi.medi yehThreedotsabove-farsi.medi.ss09];
+                           e-ar.medi yehThreedotsbelow-ar.medi yehThreedotsabove-farsi.medi yehThreedotsabove-farsi.medi.ss09];
 
 
 #   <!--
@@ -259,19 +259,19 @@ languagesystem latn dflt;
 @seenIsol_longtail = [ seen-ar.longtail      sheen-ar.longtail ];
 
 # *NEXT 3 CLASSES MUST MATCH*								
-@yehIsol =            [ yehHamzaabove-ar yehThreedotsabove-farsi yehThreedotsabove-farsi.ss09 alefMaksura-ar yeh-ar yeh-ar.ss01 yeh-farsi 
+@yehIsol =            [ yehHamzaabove-ar yehThreedotsabove-farsi yehThreedotsabove-farsi.ss09 alefMaksura-ar yeh-ar yeh-farsi 
                        e-ar yehThreedotsbelow-ar yehTwodotsbelowHamzaabove-ar yehTwodotsbelowDotabove-ar];
-@yehIsol_shrtail =    [ yehHamzaabove-ar.shrtail yehThreedotsabove-farsi.shrtail yehThreedotsabove-farsi.shrtail.ss09 alefMaksura-ar.shrtail yeh-ar.shrtail yeh-ar.shrtail.ss01 yeh-farsi.shrtail 
+@yehIsol_shrtail =    [ yehHamzaabove-ar.shrtail yehThreedotsabove-farsi.shrtail yehThreedotsabove-farsi.shrtail.ss09 alefMaksura-ar.shrtail yeh-ar.shrtail yeh-farsi.shrtail 
                        e-ar.shrtail yehThreedotsbelow-ar.shrtail yehTwodotsbelowHamzaabove-ar.shrtail yehTwodotsbelowDotabove-ar.shrtail];
-@yehIsol_longtail =   [ yehHamzaabove-ar.longtail yehThreedotsabove-farsi.longtail yehThreedotsabove-farsi.longtail.ss09 alefMaksura-ar.longtail yeh-ar.longtail yeh-ar.longtail.ss01 yeh-farsi.longtail 
+@yehIsol_longtail =   [ yehHamzaabove-ar.longtail yehThreedotsabove-farsi.longtail yehThreedotsabove-farsi.longtail.ss09 alefMaksura-ar.longtail yeh-ar.longtail yeh-farsi.longtail 
                        e-ar.longtail yehThreedotsbelow-ar.longtail yehTwodotsbelowHamzaabove-ar.longtail yehTwodotsbelowDotabove-ar.longtail];
 
 # *NEXT 3 CLASSES MUST MATCH*								
-@yehFina =           [ yehHamzaabove-ar.fina yehThreedotsabove-farsi.fina yehThreedotsabove-farsi.fina.ss09 alefMaksura-ar.fina yeh-ar.fina yeh-ar.fina.ss01 yeh-farsi.fina
+@yehFina =           [ yehHamzaabove-ar.fina yehThreedotsabove-farsi.fina yehThreedotsabove-farsi.fina.ss09 alefMaksura-ar.fina yeh-ar.fina yeh-farsi.fina
                        e-ar.fina yehThreedotsbelow-ar.fina yehTwodotsbelowHamzaabove-ar.fina yehTwodotsbelowDotabove-ar.fina];
-@yehFina_shrtail =   [ yehHamzaabove-ar.fina.shrtail yehThreedotsabove-farsi.fina.shrtail yehThreedotsabove-farsi.fina.shrtail.ss09 alefMaksura-ar.fina.shrtail yeh-ar.fina.shrtail yeh-ar.fina.shrtail.ss01 yeh-farsi.fina.shrtail 
+@yehFina_shrtail =   [ yehHamzaabove-ar.fina.shrtail yehThreedotsabove-farsi.fina.shrtail yehThreedotsabove-farsi.fina.shrtail.ss09 alefMaksura-ar.fina.shrtail yeh-ar.fina.shrtail yeh-farsi.fina.shrtail 
                        e-ar.fina.shrtail yehThreedotsbelow-ar.fina.shrtail yehTwodotsbelowHamzaabove-ar.fina.shrtail yehTwodotsbelowDotabove-ar.fina.shrtail];
-@yehFina_longtail =   [ yehHamzaabove-ar.fina.longtail yehThreedotsabove-farsi.fina.longtail yehThreedotsabove-farsi.fina.longtail.ss09 alefMaksura-ar.fina.longtail yeh-ar.fina.longtail yeh-ar.fina.longtail.ss01 yeh-farsi.fina.longtail 
+@yehFina_longtail =   [ yehHamzaabove-ar.fina.longtail yehThreedotsabove-farsi.fina.longtail yehThreedotsabove-farsi.fina.longtail.ss09 alefMaksura-ar.fina.longtail yeh-ar.fina.longtail yeh-farsi.fina.longtail 
                         e-ar.fina.longtail yehThreedotsbelow-ar.fina.longtail yehTwodotsbelowHamzaabove-ar.fina.longtail yehTwodotsbelowDotabove-ar.fina.longtail];
 
 # *NEXT 3 CLASSES MUST MATCH*								
@@ -320,12 +320,9 @@ languagesystem latn dflt;
 @EndofAyah3 = [ endofayah-ar.3 endofayah-ar.3.ss02 endofayah-ar.3.ss03  ];
 
 # None of these classes exist: @cno_longtail @c_shrtail @c_longtail 
-@c_tailStd =   [ @cno_longtail noon-ar.ss01           noon-ar.fina.ss01      yeh-ar.ss01           yeh-ar.fina.ss01
-                               yeh-farsi.ss05 yeh-farsi.fina.ss05 yehThreedotsabove-farsi.ss09 yehThreedotsabove-farsi.fina.ss09];
-@c_tailShort = [ @c_shrtail    noon-ar.shrtail.ss01   noon-ar.shrtail.ss01   yeh-ar.shrtail.ss01   yeh-ar.fina.shrtail.ss01
-                               yeh-farsi.shrtail.ss05 yeh-farsi.fina.shrtail.ss05 yehThreedotsabove-farsi.shrtail.ss09 yehThreedotsabove-farsi.fina.shrtail.ss09];
-@c_tailLong =  [ @c_longtail   noon-ar.longtail.ss01  noon-ar.longtail.ss01  yeh-ar.longtail.ss01  yeh-ar.fina.longtail.ss01
-                               yeh-farsi.longtail.ss05 yeh-farsi.fina.longtail.ss05 yehThreedotsabove-farsi.longtail.ss09 yehThreedotsabove-farsi.fina.longtail.ss09];
+@c_tailStd =   [ @cno_longtail yehThreedotsabove-farsi.ss09 yehThreedotsabove-farsi.fina.ss09];
+@c_tailShort = [ @c_shrtail    yehThreedotsabove-farsi.shrtail.ss09 yehThreedotsabove-farsi.fina.shrtail.ss09];
+@c_tailLong =  [ @c_longtail   yehThreedotsabove-farsi.longtail.ss09 yehThreedotsabove-farsi.fina.longtail.ss09];
 
 
 #************************************************************
@@ -655,11 +652,9 @@ feature aalt {
 	feature frac;
 	feature rlig;
 	feature salt;
-	feature ss01;
 	feature ss02;
 	feature ss03;
 	feature ss04;
-	feature ss05;
 	feature ss07;
 	feature ss08;
 	feature ss09;
@@ -947,7 +942,6 @@ feature salt {
 		sub dad-ar.medi by dad-ar.medi.flat;
 		sub dad-ar.init by dad-ar.init.flat;
 		sub ainThreedots-ar.medi by ainThreedots-ar.medi.flat;
-		sub ainThreedots-ar.medi.ss05 by ainThreedots-ar.medi.flat.ss05;
 		sub ainTwodotshorizontalabove-ar.medi by ainTwodotshorizontalabove-ar.medi.flat;
 		sub ghain-ar.medi by ghain-ar.medi.flat;
 		sub lam-ar.medi by lam-ar.medi.flat;
@@ -985,9 +979,6 @@ feature salt {
 		sub dad-ar.fina by dad-ar.fina.alt;   # currently not used
 		sub @wawFina by @wawFina_alt;
 		sub yehbarree-ar.fina by yehbarree-ar.fina.alt;
-
-		# alternate tail - not used
-		sub ainThreedots-ar.fina.ss05 by ainThreedots-ar.fina.alt.ss05;
 
 		# small latin and arabic digits for end of ayah - handled by calt
 		#sub @cno_numAlt by @c_numAlt;
@@ -1119,21 +1110,6 @@ feature ltrm {
 		sub @c_rtl by @cno_rtl;
 } ltrm;
 
-
-
-
-# Warsh Hack alternate - has no dots on isolate and final
-
-feature ss01 {
-	featureNames {
-		name 3 1 0x409 "Warsh hack";
-	};
-	lookup ss01_lkp {
-		sub @cno_ss01 by @c_ss01;
-	} ss01_lkp;
-} ss01;
-
-
 # End-of-ayah - double circles
 
 feature ss02 {
@@ -1170,27 +1146,6 @@ feature ss04 {
 		sub @cno_ss04 by @c_ss04;
 	} ss04_lkp;
 } ss04;
-
-
-# Wagaf hack
-
-feature ss05 {
-	featureNames {
-		name 3 1 0x409 "Wagaf hack";
-	};
-	lookup ss05_lkp {
-		sub @cno_ss05 by @c_ss05;
-	} ss05_lkp;
-} ss05;
-
-
-# Monkey-tail alternates - not supported
-
-#feature ss06 {
-#	lookup ss06_lkp {
-#		sub @cno_ss06 by @c_ss06;
-#	} ss06_lkp;
-#} ss06;
 
 
 # No stacking jeem/hah

@@ -72,8 +72,6 @@
   <string>ain-ar.fina.glif</string>
   <key>ain-ar.fina.low</key>
   <string>ain-ar.fina.low.glif</string>
-  <key>ain-ar.fina.ss06</key>
-  <string>ain-ar.fina.ss06.glif</string>
   <key>ain-ar.init</key>
   <string>ain-ar.init.glif</string>
   <key>ain-ar.medi</key>
@@ -250,8 +248,6 @@
   <string>four.pnum.glif</string>
   <key>four.small</key>
   <string>four.small.glif</string>
-  <key>ghain-ar.fina.ss06</key>
-  <string>ghain-ar.fina.ss06.glif</string>
   <key>ghain-ar.medi.flat</key>
   <string>ghain-ar.medi.flat.glif</string>
   <key>grave</key>
@@ -364,16 +360,10 @@
   <string>nine.small.glif</string>
   <key>noon-ar.fina.longtail</key>
   <string>noon-ar.fina.longtail.glif</string>
-  <key>noon-ar.fina.longtail.ss01</key>
-  <string>noon-ar.fina.longtail.ss01.glif</string>
   <key>noon-ar.fina.shrtail</key>
   <string>noon-ar.fina.shrtail.glif</string>
-  <key>noon-ar.fina.shrtail.ss01</key>
-  <string>noon-ar.fina.shrtail.ss01.glif</string>
   <key>noon-ar.shrtail</key>
   <string>noon-ar.shrtail.glif</string>
-  <key>noon-ar.shrtail.ss01</key>
-  <string>noon-ar.shrtail.ss01.glif</string>
   <key>noonAfrican-ar</key>
   <string>noonA_frican-ar.glif</string>
   <key>noonAfrican-ar.fina.longtail</key>
@@ -600,24 +590,10 @@
   <string>yeh-ar.fina.glif</string>
   <key>yeh-ar.fina.longtail</key>
   <string>yeh-ar.fina.longtail.glif</string>
-  <key>yeh-ar.fina.longtail.ss01</key>
-  <string>yeh-ar.fina.longtail.ss01.glif</string>
   <key>yeh-ar.fina.low</key>
   <string>yeh-ar.fina.low.glif</string>
-  <key>yeh-ar.fina.ss01</key>
-  <string>yeh-ar.fina.ss01.glif</string>
   <key>yeh-ar.longtail</key>
   <string>yeh-ar.longtail.glif</string>
-  <key>yeh-ar.longtail.ss01</key>
-  <string>yeh-ar.longtail.ss01.glif</string>
-  <key>yeh-ar.ss01</key>
-  <string>yeh-ar.ss01.glif</string>
-  <key>yeh-farsi.fina.ss05</key>
-  <string>yeh-farsi.fina.ss05.glif</string>
-  <key>yeh-farsi.fina.ss05.low</key>
-  <string>yeh-farsi.fina.ss05.low.glif</string>
-  <key>yeh-farsi.ss05</key>
-  <string>yeh-farsi.ss05.glif</string>
   <key>yehThreedotsabove-farsi</key>
   <string>yehT_hreedotsabove-farsi.glif</string>
   <key>yehThreedotsabove-farsi.fina</key>

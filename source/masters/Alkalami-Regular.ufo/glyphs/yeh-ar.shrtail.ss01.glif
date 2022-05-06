@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="yeh-ar.shrtail.ss01" format="2">
-  <advance width="522"/>
-  <anchor x="411" y="-139" name="bottom"/>
-  <anchor x="217" y="301" name="top"/>
-  <outline>
-    <component base="alefMaksura-ar.shrtail"/>
-  </outline>
-</glyph>

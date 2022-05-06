@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="noon-ar.ss01" format="2">
-  <advance width="253"/>
-  <anchor x="100" y="-268" name="bottom"/>
-  <anchor x="116" y="299" name="top"/>
-  <outline>
-    <component base="noonghunna-ar"/>
-  </outline>
-</glyph>

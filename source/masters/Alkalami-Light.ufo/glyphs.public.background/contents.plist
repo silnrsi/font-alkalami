@@ -10,8 +10,6 @@
   <string>ain-ar.fina.glif</string>
   <key>ain-ar.fina.low</key>
   <string>ain-ar.fina.low.glif</string>
-  <key>ain-ar.fina.ss06</key>
-  <string>ain-ar.fina.ss06.glif</string>
   <key>alef-ar.fina</key>
   <string>alef-ar.fina.glif</string>
   <key>alef-ar.fina.allah</key>
@@ -210,16 +208,6 @@
   <string>waw-ar.glif</string>
   <key>waw-ar.fina</key>
   <string>waw-ar.fina.glif</string>
-  <key>yeh-ar.fina.ss01</key>
-  <string>yeh-ar.fina.ss01.glif</string>
-  <key>yeh-ar.ss01</key>
-  <string>yeh-ar.ss01.glif</string>
-  <key>yeh-farsi.fina.ss05</key>
-  <string>yeh-farsi.fina.ss05.glif</string>
-  <key>yeh-farsi.fina.ss05.low</key>
-  <string>yeh-farsi.fina.ss05.low.glif</string>
-  <key>yeh-farsi.ss05</key>
-  <string>yeh-farsi.ss05.glif</string>
   <key>yehThreedotsabove-farsi</key>
   <string>yehT_hreedotsabove-farsi.glif</string>
   <key>yehThreedotsabove-farsi.fina</key>
