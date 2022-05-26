@@ -20,7 +20,6 @@ To disable the special ligature, insert a zero-width joiner character (200D) som
 Characters | → | Glyph | Comment
 ---------- | -: | ----:  | -------
 <span dir="ltr" class='alkalami-R normal'>&#x202d;&#x0627; + &#x0644; + &#x0644; + &#x0647;</span> | → | <span dir="rtl" class='alkalami-R normal'> الله	</span> | Ligature is formed (U+0647)
-<span dir="ltr" class='alkalami-R normal'>&#x202d;&#x0671; + &#x0644; + &#x0644; + &#x0651; + &#x0647;</span> | → | <span dir="rtl" class='alkalami-R normal'> ٱللّه </span> | Ligature is formed
 <span dir="ltr" class='alkalami-R normal'>&#x202d;&#x0627; + &#x0644; + &#x0644; + &#x0651; + &#x064e; + &#x0647;</span> | → | <span dir="rtl" class='alkalami-R normal'>اللَّه	</span> | Ligature is formed
 <span dir="ltr" class='alkalami-R normal'>&#x202d;&#x0627; + &#x0644; + &#x0644; + &#x0651; + &#x0670; + &#x0647;</span> | → | <span dir="rtl" class='alkalami-R normal'>اللّٰه</span> | 	Ligature is formed
 <span dir="ltr" class='alkalami-R normal'>&#x202d;&#x0644; + &#x0644; + &#x0651; + &#x0647;</span> | → | <span dir="rtl" class='alkalami-R normal'>&#x0644;&#x0644;&#x0651;&#x0647;</span> | Ligature is formed

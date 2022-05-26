@@ -4,7 +4,6 @@
 echo "-----Updating the UFOs"
 set -e
 psffixfontlab source/masters/*-Regular.ufo/ -p checkfix=none
-psffixfontlab source/masters/*-Light.ufo/ -p checkfix=none
 
 # Once running smoothly, can add "&" to end of above 4 lines and uncomment the "wait" below.
 # For now better not having log messages mixed together

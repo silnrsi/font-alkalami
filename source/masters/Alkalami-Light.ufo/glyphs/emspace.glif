@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="emspace" format="2">
-  <advance width="925"/>
-  <unicode hex="2003"/>
-  <anchor x="451" y="-60" name="bottom"/>
-  <anchor x="448" y="305" name="top"/>
-  <outline/>
-</glyph>

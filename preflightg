@@ -9,7 +9,6 @@ if psfglyphs2ufo source/masters/Alkalami-master.glyphs source/masters
 then
   # Fix up the advance width of damma-ar.ss0
   psfremovegliflibkeys source/masters/Alkalami-Regular.ufo com.schriftgestaltung.Glyphs.originalWidth
-  psfremovegliflibkeys source/masters/Alkalami-Light.ufo   com.schriftgestaltung.Glyphs.originalWidth
   ./preflight
 else
   # Something went wrong... abort

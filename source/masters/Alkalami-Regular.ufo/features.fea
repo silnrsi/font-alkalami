@@ -984,7 +984,7 @@ languagesystem latn dflt;
 @hahFinals = [hah-ar.fina jeem-ar.fina khah-ar.fina nyeh-ar.fina dyeh-ar.fina jeemTwodotsabove-ar.fina];
 @hahFinals_alt = [hah-ar.fina.alt jeem-ar.fina.alt khah-ar.fina.alt nyeh-ar.fina.alt dyeh-ar.fina.alt jeemTwodotsabove-ar.fina.alt];
 # *NEXT 2 CLASSES MUST MATCH*	
-@pre_hah_not_flat = [behDotless-ar.medi beh-ar.medi peh-ar.medi beeh-ar.medi alefMaksura-ar.medi teh-ar.medi tehThreedotsdown-ar.medi theh-ar.medi behVinvertedbelow-ar.medi behVabove-ar.medi behVbelow-ar.medi behhamzaabove-ar.medi seen-ar.medi sheen-ar.medi sad-ar.medi dad-ar.medi ain-ar.medi ainThreedots-ar.medi ghain-ar.medi ghainThreedotsabove-ar.medi ghainThreedotsabove-ar.medi.ss09 lam-ar.medi meem-ar.medi noon-ar.medi noonghunna-ar.medi noonTwodotsbelow-ar.medi noonAfrican-ar.medi yeh-ar.medi yeh-farsi.medi e-ar.medi ainTwodotshorizontalabove-ar.medi behThreedotsupbelow-ar.medi behThreedotsupabove-ar.medi behThreedotsupabove-ar.medi.ss09 yehHamzaabove-ar.medi yehTwodotsbelowHamzaabove-ar.medi yehTwodotsbelowDotabove-ar.medi yehThreedotsabove-farsi.medi yehThreedotsbelow-ar.medi sad-ar.init.flat dad-ar.init.flat meem-ar.init.flat];
+@pre_hah_not_flat = [behDotless-ar.medi beh-ar.medi peh-ar.medi beeh-ar.medi alefMaksura-ar.medi teh-ar.medi tehThreedotsdown-ar.medi theh-ar.medi behVinvertedbelow-ar.medi behVabove-ar.medi behVbelow-ar.medi behhamzaabove-ar.medi seen-ar.medi sheen-ar.medi sad-ar.medi dad-ar.medi ain-ar.medi ainThreedots-ar.medi ghain-ar.medi ghainThreedotsabove-ar.medi ghainThreedotsabove-ar.medi.ss09 lam-ar.medi meem-ar.medi noon-ar.medi noonghunna-ar.medi noonTwodotsbelow-ar.medi noonAfrican-ar.medi yeh-ar.medi yeh-farsi.medi e-ar.medi ainTwodotshorizontalabove-ar.medi behThreedotsupbelow-ar.medi behThreedotsupabove-ar.medi behThreedotsupabove-ar.medi.ss09 yehHamzaabove-ar.medi yehTwodotsbelowHamzaabove-ar.medi yehTwodotsbelowDotabove-ar.medi yehThreedotsabove-farsi.medi yehThreedotsbelow-ar.medi sad-ar.init dad-ar.init meem-ar.init];
 # This creates an alternate form that does NOT get shifted up to the same level as the medial hah.
 # The forms that are NOT in this class are medial tah/zah, feh/qaf, and kaf/gaf and most initials.
 @pre_hah_flat = [behDotless-ar.medi.flat beh-ar.medi.flat peh-ar.medi.flat beeh-ar.medi.flat alefMaksura-ar.medi.flat teh-ar.medi.flat tehThreedotsdown-ar.medi.flat theh-ar.medi.flat behVinvertedbelow-ar.medi.flat behVabove-ar.medi.flat behVbelow-ar.medi.flat behhamzaabove-ar.medi.flat seen-ar.medi.flat sheen-ar.medi.flat sad-ar.medi.flat dad-ar.medi.flat ain-ar.medi.flat ainThreedots-ar.medi.flat ghain-ar.medi.flat ghainThreedotsabove-ar.medi.flat ghainThreedotsabove-ar.medi.flat.ss09 lam-ar.medi.flat meem-ar.medi.flat noon-ar.medi.flat noonghunna-ar.medi.flat noonTwodotsbelow-ar.medi.flat noonAfrican-ar.medi.flat yeh-ar.medi.flat yeh-farsi.medi.flat e-ar.medi.flat ainTwodotshorizontalabove-ar.medi.flat behThreedotsupbelow-ar.medi.flat behThreedotsupabove-ar.medi.flat behThreedotsupabove-ar.medi.flat.ss09 yehHamzaabove-ar.medi.flat yehTwodotsbelowHamzaabove-ar.medi.flat yehTwodotsbelowDotabove-ar.medi.flat yehThreedotsabove-farsi.medi.flat yehThreedotsbelow-ar.medi.flat sad-ar.init.flat dad-ar.init.flat meem-ar.init.flat];
@@ -1707,67 +1707,6 @@ lookup attachLigMarkReg {
     #  						ligComponent	<anchor 498 523> mark @_top
     #							ligComponent	<anchor 233 405> mark @_top;
 } attachLigMarkReg;
-
-lookup attachLigMarkLight {
-    pos ligature lam_alef-ar
-            <anchor 304 664> mark @_top
-            <anchor 362 -30> mark @_bottom
-        ligComponent
-            <anchor 62 605> mark @_top
-            <anchor 99 -30> mark @_bottom;
-    pos ligature lam_alef-ar.fina
-            <anchor 407 659> mark @_top
-            <anchor 477 -30> mark @_bottom
-        ligComponent
-            <anchor 98 600> mark @_top
-            <anchor 90 -30> mark @_bottom;
-    pos ligature lam_alefHamzabelow-ar
-            <anchor 317 664> mark @_top
-            <anchor 375 -30> mark @_bottom
-        ligComponent
-            <anchor 75 605> mark @_top
-            <anchor 142 -230> mark @_bottom;
-    pos ligature lam_alefHamzabelow-ar.fina
-            <anchor 400 670> mark @_top
-            <anchor 474 -30> mark @_bottom
-        ligComponent
-            <anchor 87 620> mark @_top
-            <anchor 127 -270> mark @_bottom;
-    pos ligature lam_alefHamzaabove-ar
-            <anchor 332 674> mark @_top
-            <anchor 385 -30> mark @_bottom
-        ligComponent
-            <anchor 85 805> mark @_top
-            <anchor 92 -30> mark @_bottom;
-    pos ligature lam_alefHamzaabove-ar.fina
-            <anchor 407 659> mark @_top
-            <anchor 477 -30> mark @_bottom
-        ligComponent
-            <anchor 68 750> mark @_top
-            <anchor 90 -30> mark @_bottom;
-    pos ligature lam_alefMadda-ar
-            <anchor 407 659> mark @_top
-            <anchor 477 -30> mark @_bottom
-        ligComponent
-            <anchor 68 750> mark @_top
-            <anchor 90 -30> mark @_bottom;
-    pos ligature lam_alefMadda-ar
-            <anchor 304 664> mark @_top
-            <anchor 362 -30> mark @_bottom
-        ligComponent
-            <anchor 66 731> mark @_top
-            <anchor 99 -30> mark @_bottom;
-    pos ligature lam_alefMadda-ar.fina
-            <anchor 407 659> mark @_top
-            <anchor 477 -30> mark @_bottom
-        ligComponent
-            <anchor 98 710> mark @_top
-            <anchor 90 -30> mark @_bottom;
-    #	pos ligature allah-ar			<anchor 811 614> mark @_top
-    #							ligComponent	<anchor 635 562> mark @_top
-    #  						ligComponent	<anchor 465 493> mark @_top
-    #							ligComponent	<anchor 232 359> mark @_top;
-} attachLigMarkLight;
 
 lookup attachBaseMark {
     lookupflag 0;
@@ -2713,7 +2652,7 @@ feature rlig {
 
 feature salt {
     lookup salt_lkp {
-        # I think the .flat rules can be deleted.
+        # It seems that InDesign requires these to be in salt in order to select the alternates.
         sub behDotless-ar.medi by behDotless-ar.medi.flat;
         sub beh-ar.medi by beh-ar.medi.flat;
         sub peh-ar.medi by peh-ar.medi.flat;
@@ -3033,7 +2972,5 @@ feature kern {
         lookup attachBottomMarkMark;
     } mark;
 
-
-# end ifinfo
 
 # end ifinfo

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="fourperemspace" format="2">
-  <advance width="200"/>
-  <unicode hex="2005"/>
-  <anchor x="101" y="-60" name="bottom"/>
-  <anchor x="98" y="305" name="top"/>
-  <outline/>
-</glyph>

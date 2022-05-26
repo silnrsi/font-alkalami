@@ -26,14 +26,18 @@ This font utilizes state-of-the-art font technologies to support complex
 typographic issues. Font smarts are implemented using OpenType only. We have
 no current plans to support Graphite.
 
-Two fonts are included in this release:
+One font is included in this release:
      * Alkalami Regular
-     * Alkalami Light Regular
 
 ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+2022-06-xx (WSTech team) Alkalami Version 2.000 (production release)
+- Removed Alkalami Light font. 
+- Removed non Unicode compliant solutions
+- Updated behavior for initial forms of sad, dad and meem followed by 
+  hah-like characters to be "flat" instead of stacked
 2022-04-27 (WSTech team) Alkalami Version 1.300 (production release)
 - Added characters to support other languages: U+0600, U+0657..U+0658, U+065D, U+067D, U+0684, U+06A5, U+06E5, U+0761, U+0870, U+0872, U+0874, U+08A2..U+08A3, U+08F4..U+08FD, U+FDFD, U+2212
 - Changed design of U+0643 (KAF) and U+06AD (NG)
@@ -118,7 +122,7 @@ N: Sharon Correll
 D: Type designer and script engineer
 
 N: Lorna Evans
-D: Project manager
+D: Project manager and script engineer
 
 N: Bob Hallissy
 W: Script engineer

@@ -6,7 +6,7 @@ Alkalami is the local word for the Arabic "qalam", a type of sharpened stick use
 
 Alkalami v1.300 has been released. 
 
-In a future version of Alkalami, we plan to split Alkalami Regular and Alkalami Light into two separate font families. Alkalami Regular will stay the same. Alkalami Light will become Ruwudu Regular. Future versions of this font will remove non Unicode compliant solutions. Font sources are published in a public repository. The build process requires [smith](https://github.com/silnrsi/smith) and project build parameters are set in the [wscript](wscript).    
+Alkalami Light is no longer a part of this font project. Alkalami Light has become a new font called [Ruwudu Regular](https://github.com/silnrsi/font-ruwudu) This version also removes non Unicode compliant solutions. Font sources are published in a public repository. The build process requires [smith](https://github.com/silnrsi/smith) and project build parameters are set in the [wscript](wscript).    
 
 ## About ftml tests
 

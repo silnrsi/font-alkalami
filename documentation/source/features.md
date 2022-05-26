@@ -85,28 +85,6 @@ End of ayah A | <span dir="rtl" class='alkalami-R normal' style='font-feature-se
 End of ayah B | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss03" 2'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span>| `ss03=1`
 
 
-### Discouraged
-
-These are discouraged from use. They were added to the font before some of the characters were added to Unicode. The characters supported in ss09 are Unicode-compliant.
-
-#### Warsh Hack (ss01)
-
-<span class='affects'>Affects: U+0646, U+064A, U+06A2, U+06A7</span>
-
-Feature | Sample | Feature setting
-------------- | ------ | ------------- 
-Standard      | <span dir="rtl" class='alkalami-R normal'>ن ننن      ي ييي      ڢ ڢڢڢ      ڧ ڧڧڧ </span>| `ss01=0`
-Wagaf modifier     | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss01" 1'>ن ننن      ي ييي      ڢ ڢڢڢ      ڧ ڧڧڧ </span>| `ss01=1`
-
-#### Wagaf Hack (ss05)
-
-<span class='affects'>Affects: U+06CC, U+067B, U+069F, U+06A0, U+06A8, U+0763</span>
-
-Feature | Sample | Feature setting
-------------- | ------ | ------------- 
-Standard      | <span dir="rtl" class='alkalami-R normal'>ی ییی      ٻ ٻٻٻ      ڟ ڟڟڟ      ڠ ڠڠڠ      ڨ ڨڨڨ      ݣ ݣݣݣ </span>| `ss05=0`
-No Dots     | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss05" 1'>ی ییی      ٻ ٻٻٻ      ڟ ڟڟڟ      ڠ ڠڠڠ      ڨ ڨڨڨ      ݣ ݣݣݣ </span>| `ss05=1`
-
 ## Proportional Figures
 
 Alkalami supports the OpenType **Proportional Figures (pnum)** for Latin digits. *This feature is not supported in TypeTuner Web.*
@@ -162,11 +140,9 @@ If you used previous versions of this font, we made some decisions which were un
 <span dir="rtl" class='alkalami-R normal'>&#x06a2;</span>| 06A2 ARABIC LETTER FEH WITH DOT MOVED BELOW (ss01) | → | <span dir="rtl" class='alkalami-R normal'>&#x08bb;</span>| 08BB ARABIC LETTER AFRICAN FEH (no Stylistic Set required)
 <span dir="rtl" class='alkalami-R normal'>&#x06a7;</span>| 06A7 ARABIC LETTER QAF WITH DOT ABOVE (ss01) | → | <span dir="rtl" class='alkalami-R normal'>&#x08bc;</span>| 08BC ARABIC LETTER AFRICAN QAF (no Stylistic Set required)
 
-Future versions of this font will remove these non Unicode compliant solutions.
-
 <!-- PRODUCT SITE ONLY
-[font id='alkalami' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1]
-[font id='alkalamiL' face='Alkalami-Regular' light='Alkalami-Light' size='100%' ltr=1]
+[font id='alkalami' face='Alkalami-Regular' size='150%' rtl=1]
+[font id='alkalamiL' face='Alkalami-Regular' size='100%' ltr=1]
 
 -->
 

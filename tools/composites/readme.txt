@@ -1,0 +1,1 @@
+The composites in this folder were built once and are not intended to be rebuilt. The definition remains here as an example for future work.

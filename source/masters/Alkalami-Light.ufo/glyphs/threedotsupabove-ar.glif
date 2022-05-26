@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="threedotsupabove-ar" format="2">
-  <anchor x="165" y="295" name="_top"/>
-  <outline>
-    <component base="dotabove-ar" xOffset="49" yOffset="121"/>
-    <component base="twodotshorizontalabove-ar"/>
-  </outline>
-</glyph>

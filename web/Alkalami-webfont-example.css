@@ -13,15 +13,10 @@ of the license along with this Font Software. If this is not the case, go to
   font-family: AlkalamiRW;
   src: url(Alkalami-Regular.woff2);
 }
-@font-face {
-  font-family: AlkalamiLW;
-  src: url(Alkalami-Light.woff2);
-}
-
 
 /* set body to use Alkalami in .woff format */
 body {
-  font-family: AlkalamiLW, sans-serif; text-align: left;
+  font-family: AlkalamiRW, sans-serif; text-align: left;
     /* fall back to sans serif so that it's really obvious if the fonts don't load */
 }
 
@@ -39,16 +34,10 @@ h2 {
     /* fall back to sans serif so that it's really obvious if the fonts don't load */
 }	
 .rtll {
-  font-family: AlkalamiLW, sans-serif; font-size: 200%; direction: rtl; text-align: right;
+  font-family: AlkalamiRW, sans-serif; font-size: 200%; direction: rtl; text-align: right;
     /* fall back to sans serif so that it's really obvious if the fonts don't load */
 }	
-.ss01 {
-  font-family: AlkalamiRW;
-  font-feature-settings: "ss01";
-  -moz-font-feature-settings: "ss01";
-  -webkit-font-feature-settings: "ss01";
-  font-size: 200%; direction: rtl; text-align: right;
-}
+
 .ss02 {
   font-family: AlkalamiRW;
   font-feature-settings: "ss02";
@@ -56,11 +45,11 @@ h2 {
   -webkit-font-feature-settings: "ss02";
   font-size: 200%; direction: rtl; text-align: right;
 }
-.ss0201 {
+.ss0209 {
   font-family: AlkalamiRW; 
-  font-feature-settings: "ss01" 1, "ss02" 1;
-  -moz-font-feature-settings: "ss01" 1, "ss02" 1;
-  -webkit-font-feature-settings: "ss01" 1, "ss02" 1;
+  font-feature-settings: "ss09" 1, "ss02" 1;
+  -moz-font-feature-settings: "ss09" 1, "ss02" 1;
+  -webkit-font-feature-settings: "ss09" 1, "ss02" 1;
   font-size: 200%; direction: rtl; text-align: right;
 }
 

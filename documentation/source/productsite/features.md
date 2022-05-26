@@ -81,31 +81,11 @@ End of ayah A | <span dir="rtl" class='alkalami-ss02-1-R normal'>&#x202D;&#x6DD;
 End of ayah B | <span dir="rtl" class='alkalami-ss03-2-R normal'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span>| `ss03=1`
 
 
-### Discouraged
-
-These are discouraged from use. They were added to the font before some of the characters were added to Unicode. The characters supported in ss09 are Unicode-compliant.
-
-#### Warsh Hack (ss01)
-
-<span class='affects'>Affects: U+0646, U+064A, U+06A2, U+06A7</span>
-
-Feature | Sample | Feature setting
-------------- | ------ | ------------- 
-Standard      | <span dir="rtl" class='alkalami-R normal'>ن ننن      ي ييي      ڢ ڢڢڢ      ڧ ڧڧڧ </span>| `ss01=0`
-Wagaf modifier     | <span dir="rtl" class='alkalami-ss01-1-R normal'>ن ننن      ي ييي      ڢ ڢڢڢ      ڧ ڧڧڧ </span>| `ss01=1`
-
-#### Wagaf Hack (ss05)
-
-<span class='affects'>Affects: U+06CC, U+067B, U+069F, U+06A0, U+06A8, U+0763</span>
-
-Feature | Sample | Feature setting
-------------- | ------ | ------------- 
-Standard      | <span dir="rtl" class='alkalami-R normal'>ی ییی      ٻ ٻٻٻ      ڟ ڟڟڟ      ڠ ڠڠڠ      ڨ ڨڨڨ      ݣ ݣݣݣ </span>| `ss05=0`
-No Dots     | <span dir="rtl" class='alkalami-ss05-1-R normal'>ی ییی      ٻ ٻٻٻ      ڟ ڟڟڟ      ڠ ڠڠڠ      ڨ ڨڨڨ      ݣ ݣݣݣ </span>| `ss05=1`
-
 ## Proportional Figures
 
 Alkalami supports the OpenType **Proportional Figures (pnum)** for Latin digits. *This feature is not supported in TypeTuner Web.*
+
+<span class='affects'>Affects: U+0030..U+0039</span>
 
 Feature | Sample | Feature setting
 ------------- | ------ | ------------- 
@@ -156,23 +136,19 @@ If you used previous versions of this font, we made some decisions which were un
 <span dir="rtl" class='alkalami-R normal'>&#x06a2;</span>| 06A2 ARABIC LETTER FEH WITH DOT MOVED BELOW (ss01) | → | <span dir="rtl" class='alkalami-R normal'>&#x08bb;</span>| 08BB ARABIC LETTER AFRICAN FEH (no Stylistic Set required)
 <span dir="rtl" class='alkalami-R normal'>&#x06a7;</span>| 06A7 ARABIC LETTER QAF WITH DOT ABOVE (ss01) | → | <span dir="rtl" class='alkalami-R normal'>&#x08bc;</span>| 08BC ARABIC LETTER AFRICAN QAF (no Stylistic Set required)
 
-Future versions of this font will remove these non Unicode compliant solutions.
-
-[font id='alkalami' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1]
-[font id='alkalamiL' face='Alkalami-Regular' light='Alkalami-Light' size='100%' ltr=1]
+[font id='alkalami' face='Alkalami-Regular' size='150%' rtl=1]
+[font id='alkalamiL' face='Alkalami-Regular' size='100%' ltr=1]
 
 
 
-[font id='alkalami-ss04-0' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss04 0']
-[font id='alkalami-ss04-1' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss04 1']
-[font id='alkalami-ss07-0' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss07 0']
-[font id='alkalami-ss07-1' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss07 1']
-[font id='alkalami-ss08-0' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss08 0']
-[font id='alkalami-ss08-1' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss08 1']
-[font id='alkalami-ss09-0' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss09 0']
-[font id='alkalami-ss09-1' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss09 1']
-[font id='alkalami-ss02-1' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss02 1']
-[font id='alkalami-ss03-2' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss03 2']
-[font id='alkalami-ss01-1' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss01 1']
-[font id='alkalami-ss05-1' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='ss05 1']
-[font id='alkalami-pnum-1' face='Alkalami-Regular' light='Alkalami-Light' size='150%' rtl=1 feats='pnum 1']
+[font id='alkalami-ss04-0' face='Alkalami-Regular' size='150%' rtl=1 feats='ss04 0']
+[font id='alkalami-ss04-1' face='Alkalami-Regular' size='150%' rtl=1 feats='ss04 1']
+[font id='alkalami-ss07-0' face='Alkalami-Regular' size='150%' rtl=1 feats='ss07 0']
+[font id='alkalami-ss07-1' face='Alkalami-Regular' size='150%' rtl=1 feats='ss07 1']
+[font id='alkalami-ss08-0' face='Alkalami-Regular' size='150%' rtl=1 feats='ss08 0']
+[font id='alkalami-ss08-1' face='Alkalami-Regular' size='150%' rtl=1 feats='ss08 1']
+[font id='alkalami-ss09-0' face='Alkalami-Regular' size='150%' rtl=1 feats='ss09 0']
+[font id='alkalami-ss09-1' face='Alkalami-Regular' size='150%' rtl=1 feats='ss09 1']
+[font id='alkalami-ss02-1' face='Alkalami-Regular' size='150%' rtl=1 feats='ss02 1']
+[font id='alkalami-ss03-2' face='Alkalami-Regular' size='150%' rtl=1 feats='ss03 2']
+[font id='alkalami-pnum-1' face='Alkalami-Regular' size='150%' rtl=1 feats='pnum 1']

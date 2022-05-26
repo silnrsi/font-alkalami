@@ -135,7 +135,7 @@ languagesystem latn dflt;
                        ainTwodotshorizontalabove-ar.medi behThreedotsupbelow-ar.medi behThreedotsupabove-ar.medi 
                        behThreedotsupabove-ar.medi.ss09 yehHamzaabove-ar.medi yehTwodotsbelowHamzaabove-ar.medi 
                        yehTwodotsbelowDotabove-ar.medi yehThreedotsabove-farsi.medi yehThreedotsbelow-ar.medi
-                       sad-ar.init.flat dad-ar.init.flat meem-ar.init.flat];
+                       sad-ar.init dad-ar.init meem-ar.init];
 
 # This creates an alternate form that does NOT get shifted up to the same level as the medial hah.
 # The forms that are NOT in this class are medial tah/zah, feh/qaf, and kaf/gaf and most initials.
@@ -572,33 +572,6 @@ lookup attachLigMarkReg {
 } attachLigMarkReg;
 
 
-lookup attachLigMarkLight {
-	pos ligature lam_alef-ar <anchor 304 664> mark @_top   <anchor 362 -30> mark @_bottom
-	            ligComponent <anchor 62 605>  mark @_top   <anchor 99 -30>  mark @_bottom;
-	pos ligature lam_alef-ar.fina <anchor 407 659> mark @_top   <anchor 477 -30> mark @_bottom
-	                 ligComponent <anchor 98 600> mark @_top    <anchor 90 -30>  mark @_bottom;
-	pos ligature lam_alefHamzabelow-ar <anchor 317 664> mark @_top   <anchor 375 -30> mark @_bottom
-	                      ligComponent <anchor 75 605>  mark @_top   <anchor 142 -230>  mark @_bottom;
-	pos ligature lam_alefHamzabelow-ar.fina <anchor 400 670> mark @_top   <anchor 474 -30> mark @_bottom
-	                           ligComponent <anchor 87 620>  mark @_top  <anchor 127 -270>  mark @_bottom;
-	pos ligature lam_alefHamzaabove-ar <anchor 332 674> mark @_top  <anchor 385 -30> mark @_bottom
-	                      ligComponent <anchor 85 805> mark @_top   <anchor 92 -30>  mark @_bottom;
-	pos ligature lam_alefHamzaabove-ar.fina <anchor 407 659> mark @_top   <anchor 477 -30> mark @_bottom
-	                           ligComponent <anchor 68 750>  mark @_top   <anchor 90 -30>  mark @_bottom;
-	pos ligature lam_alefMadda-ar <anchor 407 659> mark @_top   <anchor 477 -30> mark @_bottom
-	                 ligComponent <anchor 68 750>  mark @_top   <anchor 90 -30>  mark @_bottom;
-	pos ligature lam_alefMadda-ar <anchor 304 664> mark @_top  <anchor 362 -30> mark @_bottom
-	                 ligComponent <anchor 66 731> mark @_top   <anchor 99 -30>  mark @_bottom;
-	pos ligature lam_alefMadda-ar.fina <anchor 407 659> mark @_top  <anchor 477 -30> mark @_bottom
-	                      ligComponent <anchor 98 710> mark @_top   <anchor 90 -30>  mark @_bottom;
-
-#	pos ligature allah-ar			<anchor 811 614> mark @_top
-#							ligComponent	<anchor 635 562> mark @_top
-#  						ligComponent	<anchor 465 493> mark @_top
-#							ligComponent	<anchor 232 359> mark @_top;
-} attachLigMarkLight;
-
-
 lookup attachBaseMark {
 	lookupflag 0;
 
@@ -921,7 +894,7 @@ feature rlig {
 
 feature salt {
 	lookup salt_lkp {
-		# I think the .flat rules can be deleted.
+		# It seems that InDesign requires these to be in salt in order to select the alternates.
 		sub behDotless-ar.medi by behDotless-ar.medi.flat;
 		sub beh-ar.medi by beh-ar.medi.flat;
 		sub peh-ar.medi by peh-ar.medi.flat;
@@ -1239,13 +1212,3 @@ feature mark {
 
 } # end ifinfo
 
-ifinfo(familyName, "AlkalamiLight") {
-
-feature mark {
-	lookup attachLigMarkLight;
-	lookup attachBaseMark;
-	lookup attachTopMarkMark;
-	lookup attachBottomMarkMark;
-} mark;
-
-} # end ifinfo

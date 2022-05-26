@@ -22,7 +22,7 @@ OMITAPS = '--omitaps "topright, ogonek, caret_1, caret_2, caret_3, top_1, top_2,
 
 # Notes about DS variables:
 #   The phrase '${DS:NAME}' references the 'name' attribute from the instance as defined 
-#   in the designspace file, i.e. either "Alkalami-Light" or "Alkalami-Regular" -- 
+#   in the designspace file, i.e. "Alkalami-Regular" -- 
 #   and we use that to construct all the filenames.
 designspace('source/Alkalami.designspace',
     instanceparams = '-l generated/${DS:NAME}_createintance.log',

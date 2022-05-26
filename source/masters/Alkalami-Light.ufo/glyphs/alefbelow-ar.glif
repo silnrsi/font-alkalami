@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="alefbelow-ar" format="2">
-  <unicode hex="0656"/>
-  <anchor x="47" y="-59" name="_bottom"/>
-  <anchor x="49" y="-335" name="bottom"/>
-  <outline>
-    <component base="alefabove-ar" yOffset="-870"/>
-  </outline>
-</glyph>
