@@ -10,18 +10,16 @@
 \parindent=0pt
 \def\testFont#1{
   \font\x="#1" at 22pt \x
-    This shows the font “#1”. \par\touching\par\warsh\par\imala\par\wagaf\par\ain\par\jeem\par\endayahA\par\endayahB \number\par}
+    This shows the font “#1”. \par\touching\par\imala\par\wagaf\par\jeem\par\endayahA\par\endayahB \number\par}
 
 \baselineskip=20pt
 
-\def\warsh{\beginR  ن ننن      ي ييي      ڢ ڢڢڢ      ڧ ڧڧڧ \endR} % ss01 Warsh hack
 \def\touching{\beginR اَب باَ  اِب باِ اُب باُ  اَلْحَكِنْ اُلْحَكِنْ اِلْحَكِنْ  اُ تَجُجُّويَ  \endR} % ss08
 \def\number{\beginR ؀1 ؀12 ؀123 ؀١ ؀١٢ ؀١٢٣ \endR} 
 \def\endayahA{\beginR ۝1   ۝12   ۝123   \endR} % ss02, ss03
 \def\endayahB{\beginR ۝١   ۝١٢   ۝١٢٣ \endR} % ss02, ss03
 \def\imala{\beginR بٜ  \endR} % ss04
-\def\wagaf{\beginR ی ییی      ٻ ٻٻٻ  ڟ ڟڟڟ  ڠ ڠڠڠ    ڨ ڨڨڨ    ݣ ݣݣݣ ؿ ؿؿؿ ݑ ݑݑݑ \endR} % ss05 wagaf hack
-\def\ain{\beginR  ع ععع غ غغغ ڠ ڠڠڠ ݝ ݝݝݝ  \endR} % ss06
+\def\wagaf{\beginR ؿ ؿؿؿ ڟ ڟڟڟ ݑ ݑݑݑ ݣ ݣݣݣ ࣃ ࣃࣃࣃ ࣄ ࣄࣄࣄ \endR} % ss09 wagaf
 \def\jeem{\beginR ج ججج ح ححح خ خخخ ڃ ڃڃڃ   \endR} % ss07
 \def\lamalef{\beginR لإ ‍لإ لَإِ ‍لَإِ لأ ‍لأ لَأَ ‍لَأَ لإ ‍لإ لَإِ ‍لَإِ لأ ‍لأ لَأَ ‍لَأَ لآ ‍لآ لَآَ ‍لَآَ لا ‍لا لَاَ ‍لَاَ \endR} 
 \bigskip
@@ -32,7 +30,7 @@
 \bigskip
 
 \testFont{Alkalami:
-       +ss01, +ss02, +ss04, +ss05, +ss06, +ss07, +ss08, +ss09}
+       +ss02, +ss04, +ss07, +ss08, +ss09}
 
 \bigskip
 

@@ -5,7 +5,6 @@
 
 # set the default output folders
 DOCDIR = ["documentation", "web"]
-STANDARDS = "tests/previous"
 
 # set the product name
 APPNAME = "Alkalami"
