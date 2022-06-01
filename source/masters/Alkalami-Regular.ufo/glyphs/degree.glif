@@ -2,7 +2,6 @@
 <glyph name="degree" format="2">
   <advance width="314"/>
   <unicode hex="00B0"/>
-  <anchor x="120" y="450" name="_top"/>
   <outline>
     <contour>
       <point x="140" y="487" type="curve" smooth="yes"/>
