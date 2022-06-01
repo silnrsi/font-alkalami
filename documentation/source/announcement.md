@@ -1,6 +1,6 @@
 ---
 title: Alkalami - Announcement
-fontversion: 1.300
+fontversion: 2.000
 ---
 
 #### Changes
@@ -8,7 +8,6 @@ fontversion: 1.300
 2022-06-xx (WSTech team) Alkalami Version 2.000 (production release)
 - Removed Alkalami Light font. 
 - Removed non Unicode compliant solutions
-- Updated behavior for initial forms of sad, dad and meem followed by hah-like characters to be "flat" instead of stacked
 
 Both desktop and web fonts are provided in a single, all-platforms package on the [Download Page](https://software.sil.org/alkalami/download/).
 

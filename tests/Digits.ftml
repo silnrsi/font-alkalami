@@ -4,20 +4,10 @@
   <head>
     <fontscale>250</fontscale>
     <fontsrc label="Sch (inst)">local(Scheherazade New)</fontsrc>
-    <fontsrc label="1.2">url(../references/Alkalami-Regular-1_200.ttf)</fontsrc>
+    <fontsrc label="1.3">url(../references/Alkalami-Regular-1_300.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Alkalami-Regular.ttf)</fontsrc>
-    <fontsrc label="Lt">url(../results/Alkalami-Light.ttf)</fontsrc>
     <styles>
       <style feats="'pnum' 1" name="pnum_1"/>
-      <style feats="'ss01' 1" name="ss01_1"/>
-      <style feats="'ss02' 1" name="ss02_1"/>
-      <style feats="'ss02' 1, 'ss03' 1" name="ss02_1_ss03_1"/>
-      <style feats="'ss03' 1" name="ss03_1"/>
-      <style feats="'ss04' 1" name="ss04_1"/>
-      <style feats="'ss05' 1" name="ss05_1"/>
-      <style feats="'ss05' 1, 'ss09' 1" name="ss05_1_ss09_1"/>
-      <style feats="'ss07' 1" name="ss07_1"/>
-      <style feats="'ss09' 1" name="ss09_1"/>
     </styles>
     <title>Digits</title>
   </head>

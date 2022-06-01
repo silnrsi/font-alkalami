@@ -10,12 +10,3 @@ These are produced from markdown sources (in `source`) using pandoc,
 weasyprint, and custom python scripts. See the `makedocs` shell script
 in the main project folder.
 
-Older documentation:
-The Alkalami-features.idml file illustrates the use of OpenType features 
-(source file for original).
-
-The Alkalami-typesample.idml file gives a sample of all the characters in 
-the font (source file for original pdf).
-
-pdf files are not distributed now since Indesign does not currently 
-support some of the newer Unicode characters that are now in the font.

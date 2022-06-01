@@ -1,9 +1,11 @@
 ---
 title: Alkalami - Developer information
-fontversion: 1.300
+fontversion: 2.000
 ---
 
-In a future version of Alkalami, we plan to split Alkalami Regular and Alkalami Light into two separate font families. Alkalami Regular will stay the same. Alkalami Light will become Ruwudu Regular. Future versions of this font will remove non Unicode compliant solutions.
+Alkalami Light is no longer a part of this font project. Alkalami Light has become a new font called [Ruwudu Regular](https://github.com/silnrsi/font-ruwudu). 
+
+Alkalami Regular will stay the same. 
 
 ## Welcome font developers!
 

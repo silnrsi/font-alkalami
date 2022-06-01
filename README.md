@@ -4,9 +4,9 @@ Alkalami is the local word for the Arabic "qalam", a type of sharpened stick use
 
 ## Project status [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Alkalami/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Alkalami&guest=1)
 
-Alkalami v1.300 has been released. 
+Alkalami v2.000 has been released. 
 
-Alkalami Light is no longer a part of this font project. Alkalami Light has become a new font called [Ruwudu Regular](https://github.com/silnrsi/font-ruwudu) This version also removes non Unicode compliant solutions. Font sources are published in a public repository. The build process requires [smith](https://github.com/silnrsi/smith) and project build parameters are set in the [wscript](wscript).    
+Alkalami Light is no longer a part of this font project. Alkalami Light has become a new font called [Ruwudu Regular](https://github.com/silnrsi/font-ruwudu). This version also removes non Unicode compliant solutions. Font sources are published in a public repository. The build process requires [smith](https://github.com/silnrsi/smith) and project build parameters are set in the [wscript](wscript).    
 
 ## About ftml tests
 

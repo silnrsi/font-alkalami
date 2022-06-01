@@ -1,6 +1,6 @@
 ---
 title: Alkalami - Character Set Support
-fontversion: 1.300
+fontversion: 2.000
 ---
 
 The Alkalami font supports the characters known to be used by languages written with the Kano style of Arabic script, but may not have the characters needed for other languages.
