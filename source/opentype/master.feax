@@ -134,8 +134,7 @@ languagesystem latn dflt;
                        noonTwodotsbelow-ar.medi noonAfrican-ar.medi yeh-ar.medi yeh-farsi.medi e-ar.medi 
                        ainTwodotshorizontalabove-ar.medi behThreedotsupbelow-ar.medi behThreedotsupabove-ar.medi 
                        behThreedotsupabove-ar.medi.ss09 yehHamzaabove-ar.medi yehTwodotsbelowHamzaabove-ar.medi 
-                       yehTwodotsbelowDotabove-ar.medi yehThreedotsabove-farsi.medi yehThreedotsbelow-ar.medi
-                       sad-ar.init dad-ar.init meem-ar.init];
+                       yehTwodotsbelowDotabove-ar.medi yehThreedotsabove-farsi.medi yehThreedotsbelow-ar.medi];
 
 # This creates an alternate form that does NOT get shifted up to the same level as the medial hah.
 # The forms that are NOT in this class are medial tah/zah, feh/qaf, and kaf/gaf and most initials.
@@ -147,8 +146,7 @@ languagesystem latn dflt;
                      noonTwodotsbelow-ar.medi.flat noonAfrican-ar.medi.flat yeh-ar.medi.flat yeh-farsi.medi.flat e-ar.medi.flat 
                      ainTwodotshorizontalabove-ar.medi.flat behThreedotsupbelow-ar.medi.flat behThreedotsupabove-ar.medi.flat 
                      behThreedotsupabove-ar.medi.flat.ss09 yehHamzaabove-ar.medi.flat yehTwodotsbelowHamzaabove-ar.medi.flat 
-                     yehTwodotsbelowDotabove-ar.medi.flat yehThreedotsabove-farsi.medi.flat yehThreedotsbelow-ar.medi.flat
-                     sad-ar.init.flat dad-ar.init.flat meem-ar.init.flat ];
+                     yehTwodotsbelowDotabove-ar.medi.flat yehThreedotsabove-farsi.medi.flat yehThreedotsbelow-ar.medi.flat];
 
 # *NEXT 2 CLASSES MUST MATCH*	
 @post_hah_final_toShift = [ ain-ar.fina ainThreedots-ar.fina ainTwodotshorizontalabove-ar.fina 

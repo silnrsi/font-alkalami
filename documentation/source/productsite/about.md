@@ -2,16 +2,17 @@
 ## About this project
 
 Alkǎlami (pronounced al-KA-la-mi) is the local word for the Arabic “qalam”, a type of sharpened stick used for writing on wooden boards in the Kano region of Nigeria and in Niger, and what gives the style its distinct appearance. The baseline stroke is very thick and solid. The ascenders and other vertical strokes including the teeth are very narrow when compared to the baseline. A generous line height is necessary to allow for deep swashes and descenders, and the overall look of the page is a very black, solid rectangle. Diacritics are much smaller in scale, with very little distance from the main letters.
+
 For more information on the visual characteristics of the font see [Design](design).
 
 
 ## Future plans
 
-This font is actively maintained and improved, and recent changes to its development process will enable more frequent releases.
+This font is actively maintained and improved, and recent changes to its development process will enable more frequent releases. Alkalami Light is no longer a part of this font project. Alkalami Light has become a new font called [Ruwudu Regular](https://github.com/silnrsi/font-ruwudu). 
 
-We do plan to split Alkalami Regular and Alkalami Light into two font families. Alkalami Regular will stay the same. Alkalami Light will become Ruwudu Regular.
+Alkalami Regular will stay the same.
 
-In addition to splitting the font family, the highest priorities for future additions and enhancements are mainly driven by:
+The highest priorities for future additions and enhancements are mainly driven by:
 
 - Requests from language communities using the fonts
 - Needs of the linguistic and academic community

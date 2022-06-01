@@ -16,7 +16,7 @@ This font is actively maintained and improved, and recent changes to its develop
 
 Alkalami Regular will stay the same.
 
-In addition to splitting the font family, the highest priorities for future additions and enhancements are mainly driven by:
+The highest priorities for future additions and enhancements are mainly driven by:
 
 - Requests from language communities using the fonts
 - Needs of the linguistic and academic community

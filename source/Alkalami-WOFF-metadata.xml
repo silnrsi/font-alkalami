@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.Alkalami.1.301" />
+  <uniqueid id="org.sil.fonts.Alkalami.2.000" />
   <vendor name="SIL International" url="www.sil.org" />
   <credits>
     <credit
@@ -9,7 +9,7 @@
     />
     <credit
       name="Lorna Evans"
-      role="Project manager"
+      role="Project manager and script engineer"
     />
     <credit
       name="Bob Hallissy"

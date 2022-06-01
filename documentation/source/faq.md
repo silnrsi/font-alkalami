@@ -32,7 +32,7 @@ The actual spelling of the word is Alkǎlami and it is pronounced al-KA-la-mi.
 
 If you used previous versions of this font, we made some decisions which were unfortunately not Unicode compliant. Since the initial release of this font, many of these non Unicode compliant characters have been added to Unicode. You will need to re-encode some characters to be fully Unicode compliant. A chart which includes the list of characters is found at the bottom of the [Font Features](features.md) page.
 
-Future versions of this font will remove these non Unicode compliant solutions.
+These non Unicode compliant solutions were removed in v2.000 of the font.
 
 #### *I need the Alkalami Light font, and it is not in this package. Where do I find it?*
 

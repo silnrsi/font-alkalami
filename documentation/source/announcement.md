@@ -6,6 +6,7 @@ fontversion: 2.000
 #### Changes
 
 2022-06-xx (WSTech team) Alkalami Version 2.000 (production release)
+
 - Removed Alkalami Light font. 
 - Removed non Unicode compliant solutions
 
