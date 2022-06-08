@@ -33,7 +33,7 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-2022-06-xx (WSTech team) Alkalami Version 2.000 (production release)
+2022-06-10 (WSTech team) Alkalami Version 2.000 (production release)
 - Removed Alkalami Light font. 
 - Removed non Unicode compliant solutions
 2022-04-27 (WSTech team) Alkalami Version 1.300 (production release)
