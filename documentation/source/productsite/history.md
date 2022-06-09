@@ -1,5 +1,5 @@
 
-### 2022-06-10 (WSTech team) Alkalami Version 2.000 (production release)
+### 2022-06-09 (WSTech team) Alkalami Version 2.000 (production release)
 - Removed Alkalami Light font. 
 - Removed non Unicode compliant solutions
 
