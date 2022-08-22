@@ -58,15 +58,15 @@
       <comment>alef-ar</comment>
       <string>\u000627 \u00200D\u000627 </string>
     </test>
-    <test background="#ffc8a0" label="U+0870">
+    <test label="U+0870">
       <comment>alefFathaattached-ar</comment>
       <string>\u000870 \u00200D\u000870 </string>
     </test>
-    <test background="#ffc8a0" label="U+0872">
+    <test label="U+0872">
       <comment>alefRightmiddlestroke-ar</comment>
       <string>\u000872 \u00200D\u000872 </string>
     </test>
-    <test background="#ffc8a0" label="U+0874">
+    <test label="U+0874">
       <comment>alefKasraattached-ar</comment>
       <string>\u000874 \u00200D\u000874 </string>
     </test>
