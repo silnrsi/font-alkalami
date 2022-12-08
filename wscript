@@ -15,7 +15,7 @@ getufoinfo('source/masters/Alkalami-Regular.ufo')
 #BUILDLABEL = 'beta'
 
 # APs to omit:
-OMITAPS = '--omitaps "topright, ogonek, caret_1, caret_2, caret_3, top_1, top_2, top_3, top_4, top_alef, bottom_1, bottom_2"'
+OMITAPS = '--omitaps "topright, ogonek, caret_1, caret_2, caret_3, top_3, top_4, top_alef"'
 
 # set the build and test parameters
 

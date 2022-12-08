@@ -109,6 +109,9 @@ languagesystem latn dflt;
 @RightLinkIsol_Alef = [ alef-ar.wide  alef-ar.wideshort lam_alefMadda-ar  lam_alefHamzaabove-ar  lam_alefHamzabelow-ar  lam_alef-ar ];
 @RightLinkFina_Alef = [ alef-ar.wide.fina  alef-ar.wideshort.fina lam_alefMadda-ar.fina  lam_alefHamzaabove-ar.fina  lam_alefHamzabelow-ar.fina  lam_alef-ar.fina];
 
+@LamAlefLig = [ lam_alef-ar  lam_alefHamzabelow-ar lam_alefHamzaabove-ar lam_alefMadda-ar
+    	          lam_alef-ar.fina  lam_alefHamzabelow-ar.fina lam_alefHamzaabove-ar.fina lam_alefMadda-ar.fina ];
+
 # HAH CLASSES ARE USED FOR STACKING. Hand generated.
 # *NEXT 4 CLASSES MUST MATCH*								
 @hahMedials =     [ hah-ar.medi jeem-ar.medi khah-ar.medi nyeh-ar.medi dyeh-ar.medi jeemTwodotsabove-ar.medi ];
@@ -544,31 +547,11 @@ lookup kern_SubtendingMarks {
 
 # Attachment needs to happen after stacking hah forms.
 
-lookup attachLigMarkReg {
-	pos ligature lam_alef-ar <anchor 361 700> mark @_top   <anchor 356 -40> mark @_bottom
-	            ligComponent <anchor 76 655>  mark @_top   <anchor 73 -40>  mark @_bottom;
-	pos ligature lam_alef-ar.fina <anchor 352 684> mark @_top   <anchor 474 -50> mark @_bottom
-	                 ligComponent <anchor 115 676> mark @_top   <anchor 67 -46>  mark @_bottom;
-	pos ligature lam_alefHamzabelow-ar <anchor 361 680> mark @_top   <anchor 356 -40> mark @_bottom
-	                      ligComponent <anchor 66 645>  mark @_top   <anchor 73 -40>  mark @_bottom;
-	pos ligature lam_alefHamzabelow-ar.fina <anchor 352 684> mark @_top   <anchor 474 -50> mark @_bottom
-	                           ligComponent <anchor 115 646>  mark @_top   <anchor 67 -336>  mark @_bottom;
-	pos ligature lam_alefHamzaabove-ar <anchor 361 680> mark @_top   <anchor 356 -40> mark @_bottom
-	                      ligComponent <anchor 109 866> mark @_top   <anchor 73 -40>  mark @_bottom;
-	pos ligature lam_alefHamzaabove-ar.fina <anchor 352 684> mark @_top   <anchor 474 -50> mark @_bottom
-	                           ligComponent <anchor 105 866>  mark @_top   <anchor 67 -46>  mark @_bottom;
-	pos ligature lam_alefMadda-ar <anchor 361 680> mark @_top   <anchor 356 -40> mark @_bottom
-	            ligComponent <anchor 86 765>  mark @_top   <anchor 73 -40>  mark @_bottom;
-	pos ligature lam_alefMadda-ar.fina <anchor 373 689> mark @_top   <anchor 514 -50> mark @_bottom
-	                      ligComponent <anchor 100 761> mark @_top   <anchor 107 -46>  mark @_bottom;
-
-#	pos ligature allah-ar			<anchor 841 587> mark @_top
-#							ligComponent	<anchor 670 547> mark @_top
-#  						ligComponent	<anchor 498 523> mark @_top
-#							ligComponent	<anchor 233 405> mark @_top;
- 
-} attachLigMarkReg;
-
+lookup MarkToLig {
+  lookupflag 0;
+    pos ligature @LamAlefLig            @top_1 mark @_top    @bottom_1 mark @_bottom
+              ligComponent              @top_2 mark @_top    @bottom_2 mark @_bottom;
+} MarkToLig;
 
 lookup attachBaseMark {
 	lookupflag 0;
@@ -1202,7 +1185,7 @@ feature kern {
 ifinfo(familyName, "Alkalami") {
 
 feature mark {
-	lookup attachLigMarkReg;
+	lookup MarkToLig;
 	lookup attachBaseMark;
 	lookup attachTopMarkMark;
 	lookup attachBottomMarkMark;
