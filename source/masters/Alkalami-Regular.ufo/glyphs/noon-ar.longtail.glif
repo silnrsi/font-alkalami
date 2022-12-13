@@ -4,7 +4,7 @@
   <anchor x="130" y="-278" name="bottom"/>
   <anchor x="62" y="539" name="top"/>
   <outline>
-    <component base="dotabove-ar" xOffset="-20"/>
+    <component base="_dot1Above" xOffset="-20"/>
     <contour>
       <point x="119" y="63" type="curve"/>
       <point x="-75" y="-295"/>

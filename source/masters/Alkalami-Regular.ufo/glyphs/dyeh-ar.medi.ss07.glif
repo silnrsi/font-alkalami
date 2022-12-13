@@ -7,7 +7,7 @@
   <anchor x="194" y="376" name="top"/>
   <outline>
     <component base="hah-ar.medi.ss07"/>
-    <component base="twodotsverticalabove-ar" xOffset="113" yOffset="-740"/>
+    <component base="_dot2vAbove" xOffset="113" yOffset="-740"/>
   </outline>
   <lib>
     <dict>

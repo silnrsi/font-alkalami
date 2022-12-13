@@ -6,7 +6,7 @@
   <anchor x="430" y="638" name="top"/>
   <outline>
     <component base="tah-ar.fina"/>
-    <component base="twodotshorizontalabove-ar" xOffset="250" yOffset="131"/>
+    <component base="_dot2hAbove" xOffset="250" yOffset="131"/>
   </outline>
   <lib>
     <dict>

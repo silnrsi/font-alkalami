@@ -5,7 +5,7 @@
   <anchor x="784" y="0" name="entry"/>
   <anchor x="175" y="630" name="top"/>
   <outline>
-    <component base="gafbar" xOffset="29" yOffset="-156"/>
+    <component base="_gafBar" xOffset="29" yOffset="-156"/>
     <component base="keheh-ar.fina"/>
   </outline>
 </glyph>

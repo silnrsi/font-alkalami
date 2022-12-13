@@ -6,8 +6,8 @@
   <anchor x="217" y="301" name="top"/>
   <outline>
     <component base="alefMaksura-ar.fina.longtail"/>
-    <component base="twodotshorizontalabove-ar" xOffset="-369" yOffset="-992"/>
-    <component base="dotabove-ar" xOffset="-299" yOffset="-1187"/>
+    <component base="_dot2hAbove" xOffset="-369" yOffset="-992"/>
+    <component base="_dot1Above" xOffset="-299" yOffset="-1187"/>
   </outline>
   <lib>
     <dict>

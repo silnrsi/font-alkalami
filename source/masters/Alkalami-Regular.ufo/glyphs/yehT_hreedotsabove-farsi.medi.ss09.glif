@@ -7,7 +7,7 @@
   <anchor x="123" y="567" name="top"/>
   <outline>
     <component base="behDotless-ar.medi"/>
-    <component base="twodotshorizontalbelow-ar" xOffset="-17"/>
+    <component base="_dot2hBelow" xOffset="-17"/>
     <component base="threedots-ar" xOffset="-36" yOffset="317"/>
   </outline>
 </glyph>

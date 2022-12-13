@@ -5,7 +5,7 @@
   <anchor x="122" y="299" name="top"/>
   <outline>
     <component base="noonghunna-ar.shrtail"/>
-    <component base="dotabove-ar" xOffset="11" yOffset="15"/>
-    <component base="twodotshorizontalbelow-ar" xOffset="-572" yOffset="-296"/>
+    <component base="_dot1Above" xOffset="11" yOffset="15"/>
+    <component base="_dot2hBelow" xOffset="-572" yOffset="-296"/>
   </outline>
 </glyph>

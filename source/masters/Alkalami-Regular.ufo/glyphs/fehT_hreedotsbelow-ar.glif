@@ -6,8 +6,8 @@
   <anchor x="170" y="578" name="top"/>
   <outline>
     <component base="fehDotless-ar"/>
-    <component base="twodotshorizontalabove-ar" xOffset="69" yOffset="-570"/>
-    <component base="dotabove-ar" xOffset="139" yOffset="-765"/>
+    <component base="_dot2hAbove" xOffset="69" yOffset="-570"/>
+    <component base="_dot1Above" xOffset="139" yOffset="-765"/>
   </outline>
   <lib>
     <dict>

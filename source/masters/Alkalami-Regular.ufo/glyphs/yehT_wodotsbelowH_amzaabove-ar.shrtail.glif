@@ -4,7 +4,7 @@
   <anchor x="411" y="-139" name="bottom"/>
   <anchor x="217" y="551" name="top"/>
   <outline>
-    <component base="twodotshorizontalbelow-ar" xOffset="-294" yOffset="-299"/>
+    <component base="_dot2hBelow" xOffset="-294" yOffset="-299"/>
     <component base="alefMaksura-ar.shrtail"/>
     <component base="hamzaabove-ar" xOffset="106" yOffset="-184"/>
   </outline>

@@ -5,8 +5,8 @@
   <anchor x="352" y="0" name="entry"/>
   <anchor x="142" y="539" name="top"/>
   <outline>
-    <component base="dotabove-ar" xOffset="60"/>
-    <component base="twodotshorizontalbelow-ar" xOffset="-821" yOffset="-639"/>
+    <component base="_dot1Above" xOffset="60"/>
+    <component base="_dot2hBelow" xOffset="-821" yOffset="-639"/>
     <contour>
       <point x="211" y="37" type="curve"/>
       <point x="10" y="-308"/>

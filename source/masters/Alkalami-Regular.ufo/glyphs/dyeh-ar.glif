@@ -6,7 +6,7 @@
   <anchor x="273" y="401" name="top"/>
   <outline>
     <component base="hah-ar"/>
-    <component base="twodotsverticalabove-ar" xOffset="163" yOffset="-730"/>
+    <component base="_dot2vAbove" xOffset="163" yOffset="-730"/>
   </outline>
   <lib>
     <dict>

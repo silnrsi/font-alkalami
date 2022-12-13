@@ -5,7 +5,7 @@
   <anchor x="562" y="0" name="entry"/>
   <anchor x="217" y="94" name="top"/>
   <outline>
-    <component base="threedotsdownbelow-ar" xOffset="-481" yOffset="-632"/>
+    <component base="_dot3dBelow" xOffset="-481" yOffset="-632"/>
     <component base="alefMaksura-ar.fina" yOffset="-207"/>
   </outline>
   <lib>

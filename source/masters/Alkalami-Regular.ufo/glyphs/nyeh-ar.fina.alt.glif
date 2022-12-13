@@ -5,7 +5,7 @@
   <anchor x="558" y="207" name="entry"/>
   <anchor x="386" y="389" name="top"/>
   <outline>
-    <component base="twodotshorizontalbelow-ar" xOffset="190" yOffset="-13"/>
+    <component base="_dot2hBelow" xOffset="190" yOffset="-13"/>
     <component base="hah-ar.fina.alt"/>
   </outline>
 </glyph>

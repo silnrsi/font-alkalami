@@ -6,6 +6,6 @@
   <anchor x="385" y="822" name="top"/>
   <outline>
     <component base="tah-ar.init"/>
-    <component base="threedotsupabove-ar" xOffset="204" yOffset="113"/>
+    <component base="_dot3uAbove" xOffset="204" yOffset="113"/>
   </outline>
 </glyph>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hamzacenter-ar" format="2">
-  <advance width="228"/>
+<glyph name="_hamzacenter" format="2">
   <anchor x="111" y="284" name="_center"/>
   <outline>
     <component base="hamzaabove-ar" yOffset="-336"/>

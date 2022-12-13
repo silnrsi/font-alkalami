@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="gafbar" format="2">
-  <advance width="382"/>
+<glyph name="_gafBar" format="2">
   <anchor x="126" y="646" name="_top"/>
   <anchor x="93" y="766" name="top"/>
   <outline>

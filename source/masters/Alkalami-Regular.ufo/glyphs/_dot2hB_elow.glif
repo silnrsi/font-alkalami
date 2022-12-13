@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_dot2hBelow" format="2">
+  <anchor x="179" y="0" name="_bottom"/>
+  <outline>
+    <component base="_dot2hAbove" yOffset="-520"/>
+  </outline>
+</glyph>

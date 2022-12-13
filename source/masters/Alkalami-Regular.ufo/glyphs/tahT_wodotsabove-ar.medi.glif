@@ -7,7 +7,7 @@
   <anchor x="430" y="638" name="top"/>
   <outline>
     <component base="tah-ar.medi"/>
-    <component base="twodotshorizontalabove-ar" xOffset="252" yOffset="121"/>
+    <component base="_dot2hAbove" xOffset="252" yOffset="121"/>
   </outline>
   <lib>
     <dict>

@@ -5,7 +5,7 @@
   <outline>
     <component base="seen-ar.medi" xOffset="5178"/>
     <component base="meem-ar.fina" xOffset="4700"/>
-    <component base="dotbelow-ar" xOffset="5614"/>
+    <component base="_dot1Below" xOffset="5614"/>
     <component base="reh-ar.fina" xOffset="2897"/>
     <component base="hah-ar.init" xOffset="2597"/>
     <component base="meem-ar.medi" xOffset="2187"/>

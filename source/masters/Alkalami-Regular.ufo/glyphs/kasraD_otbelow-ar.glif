@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kasraDotbelow-ar" format="2">
-  <advance width="232"/>
   <unicode hex="08F6"/>
   <anchor x="129" y="-49" name="_bottom"/>
   <anchor x="111" y="-291" name="bottom"/>
   <outline>
     <component base="fatha-ar" yOffset="-674"/>
-    <component base="dotabove-ar" xScale="0.54036" yScale="0.54036" xOffset="57" yOffset="-423"/>
+    <component base="_dot1Above" xScale="0.54036" yScale="0.54036" xOffset="57" yOffset="-423"/>
   </outline>
   <lib>
     <dict>

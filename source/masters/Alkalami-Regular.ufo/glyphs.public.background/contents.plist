@@ -62,6 +62,20 @@
   <string>Y_.glif</string>
   <key>Z</key>
   <string>Z_.glif</string>
+  <key>_dot2hAbove</key>
+  <string>_dot2hA_bove.glif</string>
+  <key>_dot2hBelow</key>
+  <string>_dot2hB_elow.glif</string>
+  <key>_dot2vAbove</key>
+  <string>_dot2vA_bove.glif</string>
+  <key>_dot3dAbove</key>
+  <string>_dot3dA_bove.glif</string>
+  <key>_dot3dBelow</key>
+  <string>_dot3dB_elow.glif</string>
+  <key>_dot3uAbove</key>
+  <string>_dot3uA_bove.glif</string>
+  <key>_dot3uBelow</key>
+  <string>_dot3uB_elow.glif</string>
   <key>a</key>
   <string>a.glif</string>
   <key>acute</key>
@@ -532,14 +546,6 @@
   <string>threedots-ar.glif</string>
   <key>threedots-ar.small</key>
   <string>threedots-ar.small.glif</string>
-  <key>threedotsdownabove-ar</key>
-  <string>threedotsdownabove-ar.glif</string>
-  <key>threedotsdownbelow-ar</key>
-  <string>threedotsdownbelow-ar.glif</string>
-  <key>threedotsupabove-ar</key>
-  <string>threedotsupabove-ar.glif</string>
-  <key>threedotsupbelow-ar</key>
-  <string>threedotsupbelow-ar.glif</string>
   <key>threequarters</key>
   <string>threequarters.glif</string>
   <key>threesuperior</key>
@@ -556,14 +562,8 @@
   <string>two.pnum.glif</string>
   <key>two.small</key>
   <string>two.small.glif</string>
-  <key>twodotshorizontalabove-ar</key>
-  <string>twodotshorizontalabove-ar.glif</string>
-  <key>twodotshorizontalbelow-ar</key>
-  <string>twodotshorizontalbelow-ar.glif</string>
   <key>twodotsnarrow-ar</key>
   <string>twodotsnarrow-ar.glif</string>
-  <key>twodotsverticalabove-ar</key>
-  <string>twodotsverticalabove-ar.glif</string>
   <key>u</key>
   <string>u.glif</string>
   <key>underscore</key>

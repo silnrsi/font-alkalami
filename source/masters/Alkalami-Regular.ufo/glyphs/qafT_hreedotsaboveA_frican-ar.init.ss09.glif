@@ -7,6 +7,6 @@
   <outline>
     <component base="fehDotless-ar.init"/>
     <component base="threedots-ar" xOffset="-8" yOffset="803"/>
-    <component base="dotabove-ar" xOffset="54" yOffset="254"/>
+    <component base="_dot1Above" xOffset="54" yOffset="254"/>
   </outline>
 </glyph>

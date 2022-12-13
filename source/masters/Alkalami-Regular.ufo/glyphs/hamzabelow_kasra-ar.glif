@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hamzabelow_kasra-ar" format="2">
-  <advance width="228"/>
   <anchor x="111" y="-37" name="_bottom"/>
   <anchor x="116" y="-340" name="bottom"/>
   <outline>

@@ -7,8 +7,8 @@
   <anchor x="15" y="837" name="top"/>
   <outline>
     <component base="behDotless-ar.medi.flat"/>
-    <component base="twodotshorizontalabove-ar" xOffset="-154" yOffset="345"/>
-    <component base="dotabove-ar" xOffset="-84" yOffset="148"/>
+    <component base="_dot2hAbove" xOffset="-154" yOffset="345"/>
+    <component base="_dot1Above" xOffset="-84" yOffset="148"/>
   </outline>
   <lib>
     <dict>

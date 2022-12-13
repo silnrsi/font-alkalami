@@ -166,6 +166,32 @@
   <string>Z_.glif</string>
   <key>Zcaron</key>
   <string>Z_caron.glif</string>
+  <key>_dot1Above</key>
+  <string>_dot1A_bove.glif</string>
+  <key>_dot1Below</key>
+  <string>_dot1B_elow.glif</string>
+  <key>_dot1Center</key>
+  <string>_dot1C_enter.glif</string>
+  <key>_dot2hAbove</key>
+  <string>_dot2hA_bove.glif</string>
+  <key>_dot2hBelow</key>
+  <string>_dot2hB_elow.glif</string>
+  <key>_dot2vAbove</key>
+  <string>_dot2vA_bove.glif</string>
+  <key>_dot2vBelow</key>
+  <string>_dot2vB_elow.glif</string>
+  <key>_dot3dAbove</key>
+  <string>_dot3dA_bove.glif</string>
+  <key>_dot3dBelow</key>
+  <string>_dot3dB_elow.glif</string>
+  <key>_dot3uAbove</key>
+  <string>_dot3uA_bove.glif</string>
+  <key>_dot3uBelow</key>
+  <string>_dot3uB_elow.glif</string>
+  <key>_gafBar</key>
+  <string>_gafB_ar.glif</string>
+  <key>_hamzacenter</key>
+  <string>_hamzacenter.glif</string>
   <key>a</key>
   <string>a.glif</string>
   <key>aacute</key>
@@ -550,16 +576,10 @@
   <string>divisionslash.glif</string>
   <key>dollar</key>
   <string>dollar.glif</string>
-  <key>dotabove-ar</key>
-  <string>dotabove-ar.glif</string>
   <key>dotaccent</key>
   <string>dotaccent.glif</string>
   <key>dotaccentcomb</key>
   <string>dotaccentcomb.glif</string>
-  <key>dotbelow-ar</key>
-  <string>dotbelow-ar.glif</string>
-  <key>dotcenter-ar</key>
-  <string>dotcenter-ar.glif</string>
   <key>dottedCircle</key>
   <string>dottedC_ircle.glif</string>
   <key>dotvowelbelow-ar</key>
@@ -790,8 +810,6 @@
   <string>gaf-ar.init.glif</string>
   <key>gaf-ar.medi</key>
   <string>gaf-ar.medi.glif</string>
-  <key>gafbar</key>
-  <string>gafbar.glif</string>
   <key>germandbls</key>
   <string>germandbls.glif</string>
   <key>ghain-ar</key>
@@ -896,8 +914,6 @@
   <string>hamzabelow_kasra-ar.glif</string>
   <key>hamzabelow_kasratan-ar</key>
   <string>hamzabelow_kasratan-ar.glif</string>
-  <key>hamzacenter-ar</key>
-  <string>hamzacenter-ar.glif</string>
   <key>heh-ar</key>
   <string>heh-ar.glif</string>
   <key>heh-ar.fina</key>
@@ -1714,16 +1730,8 @@
   <string>threedots-ar.small.glif</string>
   <key>threedotsabovesmall-ar</key>
   <string>threedotsabovesmall-ar.glif</string>
-  <key>threedotsdownabove-ar</key>
-  <string>threedotsdownabove-ar.glif</string>
-  <key>threedotsdownbelow-ar</key>
-  <string>threedotsdownbelow-ar.glif</string>
   <key>threedotsdownbelow-ar.narrow</key>
   <string>threedotsdownbelow-ar.narrow.glif</string>
-  <key>threedotsupabove-ar</key>
-  <string>threedotsupabove-ar.glif</string>
-  <key>threedotsupbelow-ar</key>
-  <string>threedotsupbelow-ar.glif</string>
   <key>threeperemspace</key>
   <string>threeperemspace.glif</string>
   <key>threequarters</key>
@@ -1746,16 +1754,8 @@
   <string>two.pnum.glif</string>
   <key>two.small</key>
   <string>two.small.glif</string>
-  <key>twodotshorizontalabove-ar</key>
-  <string>twodotshorizontalabove-ar.glif</string>
-  <key>twodotshorizontalbelow-ar</key>
-  <string>twodotshorizontalbelow-ar.glif</string>
   <key>twodotsnarrow-ar</key>
   <string>twodotsnarrow-ar.glif</string>
-  <key>twodotsverticalabove-ar</key>
-  <string>twodotsverticalabove-ar.glif</string>
-  <key>twodotsverticalbelow-ar</key>
-  <string>twodotsverticalbelow-ar.glif</string>
   <key>twosuperior</key>
   <string>twosuperior.glif</string>
   <key>u</key>

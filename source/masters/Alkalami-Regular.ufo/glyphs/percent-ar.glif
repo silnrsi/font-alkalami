@@ -3,8 +3,8 @@
   <advance width="570"/>
   <unicode hex="066A"/>
   <outline>
-    <component base="dotabove-ar" xScale="0.584" xyScale="0.584" yxScale="-0.584" yScale="0.584" xOffset="287" yOffset="217"/>
-    <component base="dotabove-ar" xScale="0.584" xyScale="0.584" yxScale="-0.584" yScale="0.584" xOffset="592" yOffset="-161"/>
+    <component base="_dot1Above" xScale="0.584" xyScale="0.584" yxScale="-0.584" yScale="0.584" xOffset="287" yOffset="217"/>
+    <component base="_dot1Above" xScale="0.584" xyScale="0.584" yxScale="-0.584" yScale="0.584" xOffset="592" yOffset="-161"/>
     <contour>
       <point x="550" y="683" type="line"/>
       <point x="459" y="683" type="line"/>

@@ -6,6 +6,6 @@
   <anchor x="145" y="297" name="top"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="dotbelow-ar" xOffset="28"/>
+    <component base="_dot1Below" xOffset="28"/>
   </outline>
 </glyph>

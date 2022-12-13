@@ -5,7 +5,7 @@
   <anchor x="444" y="0" name="entry"/>
   <anchor x="225" y="297" name="top"/>
   <outline>
-    <component base="threedotsdownbelow-ar" xOffset="31"/>
+    <component base="_dot3dBelow" xOffset="31"/>
     <contour>
       <point x="30" y="140" type="line"/>
       <point x="30" y="78"/>

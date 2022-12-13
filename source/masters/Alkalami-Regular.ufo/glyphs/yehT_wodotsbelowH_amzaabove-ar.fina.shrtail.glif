@@ -5,7 +5,7 @@
   <anchor x="522" y="0" name="entry"/>
   <anchor x="217" y="551" name="top"/>
   <outline>
-    <component base="twodotshorizontalbelow-ar" xOffset="-314" yOffset="-299"/>
+    <component base="_dot2hBelow" xOffset="-314" yOffset="-299"/>
     <component base="alefMaksura-ar.fina.shrtail"/>
     <component base="hamzaabove-ar" xOffset="106" yOffset="-184"/>
   </outline>

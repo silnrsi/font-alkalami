@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dotcenter-ar" format="2">
-  <advance width="218"/>
+<glyph name="_dot1Center" format="2">
   <anchor x="109" y="406" name="_center"/>
   <outline>
-    <component base="dotabove-ar"/>
+    <component base="_dot1Above"/>
   </outline>
 </glyph>
