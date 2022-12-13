@@ -299,10 +299,10 @@ languagesystem latn dflt;
 @hamzas = [ hamzaabove-ar  hamzabelow-ar  ];
 
 @takes_hamzaAbove = [ damma-ar  dammatan-ar  fatha-ar  fathatan-ar  sukun-ar ];
-@with_hamzaAbove = [ hamzaaboveDamma-ar  hamzaaboveDammatan-ar  hamzaaboveFatha-ar  hamzaaboveFathatan-ar  hamzaaboveSukun-ar  ];
+@with_hamzaAbove = [ hamza_damma-ar  hamza_dammatan-ar  hamza_fatha-ar  hamza_fathatan-ar  hamza_sukun-ar  ];
 
 @takes_hamzaBelow = [ kasra-ar  kasratan-ar ];
-@with_hamzaBelow = [ hamzabelowKasra-ar  hamzabelowKasratan-ar ];
+@with_hamzaBelow = [ hamzabelow_kasra-ar  hamzabelow_kasratan-ar ];
 
 @takes_shadda = [ alefabove-ar  damma-ar   dammatan-ar  fatha-ar  fathatan-ar ];
 @with_shadda = [ shadda_alef-ar  shadda_damma-ar  shadda_dammatan-ar  shadda_fatha-ar  shadda_fathatan-ar ];

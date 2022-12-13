@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hamzaaboveDamma-ar" format="2">
+<glyph name="hamza_fatha-ar" format="2">
   <advance width="242"/>
   <anchor x="115" y="505" name="_top"/>
-  <anchor x="107" y="938" name="top"/>
+  <anchor x="100" y="844" name="top"/>
   <outline>
     <component base="hamzaabove-ar"/>
-    <component base="damma-ar" xOffset="-20" yOffset="200"/>
+    <component base="fatha-ar" xOffset="-15" yOffset="208"/>
   </outline>
 </glyph>

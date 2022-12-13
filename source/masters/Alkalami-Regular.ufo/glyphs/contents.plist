@@ -874,28 +874,28 @@
   <string>hairspace.glif</string>
   <key>hamza-ar</key>
   <string>hamza-ar.glif</string>
+  <key>hamza_damma-ar</key>
+  <string>hamza_damma-ar.glif</string>
+  <key>hamza_dammatan-ar</key>
+  <string>hamza_dammatan-ar.glif</string>
+  <key>hamza_fatha-ar</key>
+  <string>hamza_fatha-ar.glif</string>
+  <key>hamza_fathatan-ar</key>
+  <string>hamza_fathatan-ar.glif</string>
+  <key>hamza_sukun-ar</key>
+  <string>hamza_sukun-ar.glif</string>
   <key>hamzaabove-ar</key>
   <string>hamzaabove-ar.glif</string>
   <key>hamzaabove-ar.nostem</key>
   <string>hamzaabove-ar.nostem.glif</string>
-  <key>hamzaaboveDamma-ar</key>
-  <string>hamzaaboveD_amma-ar.glif</string>
-  <key>hamzaaboveDammatan-ar</key>
-  <string>hamzaaboveD_ammatan-ar.glif</string>
-  <key>hamzaaboveFatha-ar</key>
-  <string>hamzaaboveF_atha-ar.glif</string>
-  <key>hamzaaboveFathatan-ar</key>
-  <string>hamzaaboveF_athatan-ar.glif</string>
-  <key>hamzaaboveSukun-ar</key>
-  <string>hamzaaboveS_ukun-ar.glif</string>
   <key>hamzabelow-ar</key>
   <string>hamzabelow-ar.glif</string>
   <key>hamzabelow-ar.nostem</key>
   <string>hamzabelow-ar.nostem.glif</string>
-  <key>hamzabelowKasra-ar</key>
-  <string>hamzabelowK_asra-ar.glif</string>
-  <key>hamzabelowKasratan-ar</key>
-  <string>hamzabelowK_asratan-ar.glif</string>
+  <key>hamzabelow_kasra-ar</key>
+  <string>hamzabelow_kasra-ar.glif</string>
+  <key>hamzabelow_kasratan-ar</key>
+  <string>hamzabelow_kasratan-ar.glif</string>
   <key>hamzacenter-ar</key>
   <string>hamzacenter-ar.glif</string>
   <key>heh-ar</key>
