@@ -12,6 +12,14 @@
 -->
 <!DOCTYPE all_features SYSTEM "feat_all.dtd">
 <all_features version="1.0">
+	<feature name="Language" value="Default" tag="Lng">
+		<value name="Default" tag="Def">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Hausa" tag="Hau">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {HausaCALT}"/>
+		</value>
+	</feature>
 
 	<feature name="Alef diacritic placement" value="Standard" tag="Al">  <!-- ss08 alef with fatha/kasra touching -->
 		<value name="Standard" tag="Std">

@@ -24,6 +24,37 @@
     <p>Currently, this font only supports the <strong>Number Sign</strong> (U+0600) and <strong>End of Ayah</strong> (U+06DD). Additionally, Alkalami includes two simplified alternates for U+06DD ARABIC END OF AYAH under the Stylistic Alternates (salt) feature, but at this time we know of no OpenType-based applications that can access these. The two alternates are also available through the Stylistic Sets feature discussed below.</p>
     <h2 id="customizing-with-typetuner">Customizing with TypeTuner</h2>
     <p>For applications that do not make use of the OpenType Stylistic Sets, you can now download fonts customized with the variant glyphs you choose. Read this document, visit <a href="http://scripts.sil.org/ttw/fonts2go.cgi">TypeTuner Web</a>, then choose the variants and download your font.</p>
+    <h3 id="language">Language</h3>
+    <p><span class="affects">Affects: U+065C, U+0627 (with U+064E, U+064F, U+0650), U+063F, U+069F, U+0751, U+0763, U+08C3, U+08C4</span></p>
+    <p>Unfortunately, the UI needed to access the language-specific behavior is not yet present in many applications. Some Harfbuzz-based apps, e.g., XeTeX, can access language-specific behavior.</p>
+    <!-- ha does not work for pdf. Must use hau for proper display in pdf. However, for proper display in html must use ha! -->
+    <table>
+    <thead>
+    <tr class="header">
+    <th>Language</th>
+    <th>Imala e</th>
+    <th>Touching</th>
+    <th>Wagaf</th>
+    <th>Feature setting</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>default</td>
+    <td><span class="alkalami-R normal" dir="rtl">بٜ</span></td>
+    <td><span class="alkalami-R normal" dir="rtl">اَ اُ اِ باَ باُ باِ </span></td>
+    <td><span class="alkalami-R normal" dir="rtl">ؿ ؿؿؿ ڟ ڟڟڟ ݑ ݑݑݑ ݣ ݣݣݣ ࣃ ࣃࣃࣃ ࣄ ࣄࣄࣄ</span></td>
+    <td></td>
+    </tr>
+    <tr class="even">
+    <td>Hausa</td>
+    <td><span class="alkalami-R normal" dir="rtl" lang="ha">بٜ</span></td>
+    <td><span class="alkalami-R normal" dir="rtl" lang="ha">اَ اُ اِ باَ باُ باِ </span></td>
+    <td><span class="alkalami-R normal" dir="rtl" lang="ha">ؿ ؿؿؿ ڟ ڟڟڟ ݑ ݑݑݑ ݣ ݣݣݣ ࣃ ࣃࣃࣃ ࣄ ࣄࣄࣄ</span></td>
+    <td><code>lang=ha</code></td>
+    </tr>
+    </tbody>
+    </table>
     <h3 id="stylistic-sets">Stylistic Sets</h3>
     <p>There are some character shape differences in different languages which use the Arabic script. These can be accessed by using the OpenType Stylistic Sets mentioned above.</p>
     <h4 id="imala-e-ss04">Imala e (ss04)</h4>
@@ -213,21 +244,21 @@
     <td><span class="alkalami-R normal" dir="rtl">ك</span></td>
     <td>0643 ARABIC LETTER KAF</td>
     <td style="text-align: right;">→</td>
-    <td><span class="alkalami-R normal" dir="rtl">ک</span></td>
+    <td><span class="alkalami-R normal" dir="rtl">ک ککک</span></td>
     <td>06A9 ARABIC LETTER KEHEH</td>
     </tr>
     <tr class="even">
     <td><span class="alkalami-R normal" dir="rtl">ڭ</span></td>
     <td>06AD ARABIC LETTER NG</td>
     <td style="text-align: right;">→</td>
-    <td><span class="alkalami-R normal" dir="rtl">ݣ</span></td>
+    <td><span class="alkalami-R normal" dir="rtl">ݣ ݣݣݣ</span></td>
     <td>0763 ARABIC LETTER KEHEH WITH THREE DOTS ABOVE</td>
     </tr>
     <tr class="odd">
     <td><span class="alkalami-R normal" dir="rtl">ٻ</span></td>
     <td>067B ARABIC LETTER BEEH (ss05)</td>
     <td style="text-align: right;">→</td>
-    <td><span class="alkalami-R normal" dir="rtl">ݑ</span></td>
+    <td><span class="alkalami-R normal" dir="rtl">ݑ ݑݑݑ</span></td>
     <td>0751 ARABIC LETTER BEH WITH DOT BELOW AND THREE DOTS ABOVE (use Stylistic Set <code>ss09</code> if you wish a small <em>wagaf</em>)</td>
     </tr>
     <tr class="even">
@@ -241,21 +272,21 @@
     <td><span class="alkalami-R normal" dir="rtl">ڠ</span></td>
     <td>06A0 ARABIC LETTER AIN WITH THREE DOTS ABOVE (ss05)</td>
     <td style="text-align: right;">→</td>
-    <td><span class="alkalami-R normal" dir="rtl">ࣃ</span></td>
+    <td><span class="alkalami-R normal" dir="rtl">ࣃ ࣃࣃࣃ</span></td>
     <td>08C3 ARABIC LETTER GHAIN WITH THREE DOTS ABOVE (use Stylistic Set <code>ss09</code> if you wish a small <em>wagaf</em>)</td>
     </tr>
     <tr class="even">
     <td><span class="alkalami-R normal" dir="rtl">ڨ</span></td>
     <td>06A8 ARABIC LETTER QAF WITH THREE DOTS ABOVE (ss05)</td>
     <td style="text-align: right;">→</td>
-    <td><span class="alkalami-R normal" dir="rtl">ࣄ</span></td>
+    <td><span class="alkalami-R normal" dir="rtl">ࣄ ࣄࣄࣄ</span></td>
     <td>08C4 ARABIC LETTER AFRICAN QAF WITH THREE DOTS ABOVE (use Stylistic Set <code>ss09</code> if you wish a small <em>wagaf</em>)</td>
     </tr>
     <tr class="odd">
     <td><span class="alkalami-R normal" dir="rtl">ی</span></td>
     <td>06CC ARABIC LETTER FARSI YEH (ss05)</td>
     <td style="text-align: right;">→</td>
-    <td><span class="alkalami-R normal" dir="rtl">ؿ</span></td>
+    <td><span class="alkalami-R normal" dir="rtl">ؿ ؿؿؿ</span></td>
     <td>063F ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE (use Stylistic Set <code>ss09</code> if you wish a small <em>wagaf</em>)</td>
     </tr>
     <tr class="even">
@@ -269,28 +300,28 @@
     <td><span class="alkalami-R normal" dir="rtl">ن</span></td>
     <td>0646 ARABIC LETTER NOON (ss01)</td>
     <td style="text-align: right;">→</td>
-    <td><span class="alkalami-R normal" dir="rtl">ࢽ</span></td>
+    <td><span class="alkalami-R normal" dir="rtl">ࢽ ࢽࢽࢽ</span></td>
     <td>08BD ARABIC LETTER AFRICAN NOON (no Stylistic Set required)</td>
     </tr>
     <tr class="even">
     <td><span class="alkalami-R normal" dir="rtl">ي</span></td>
     <td>064A ARABIC LETTER YEH (ss01)</td>
     <td style="text-align: right;">→</td>
-    <td><span class="alkalami-R normal" dir="rtl">ی</span></td>
+    <td><span class="alkalami-R normal" dir="rtl">ی ییی</span></td>
     <td>06CC ARABIC LETTER FARSI YEH (no Stylistic Set required)</td>
     </tr>
     <tr class="odd">
     <td><span class="alkalami-R normal" dir="rtl">ڢ</span></td>
     <td>06A2 ARABIC LETTER FEH WITH DOT MOVED BELOW (ss01)</td>
     <td style="text-align: right;">→</td>
-    <td><span class="alkalami-R normal" dir="rtl">ࢻ</span></td>
+    <td><span class="alkalami-R normal" dir="rtl">ࢻ ࢻࢻࢻ</span></td>
     <td>08BB ARABIC LETTER AFRICAN FEH (no Stylistic Set required)</td>
     </tr>
     <tr class="even">
     <td><span class="alkalami-R normal" dir="rtl">ڧ</span></td>
     <td>06A7 ARABIC LETTER QAF WITH DOT ABOVE (ss01)</td>
     <td style="text-align: right;">→</td>
-    <td><span class="alkalami-R normal" dir="rtl">ࢼ</span></td>
+    <td><span class="alkalami-R normal" dir="rtl">ࢼ ࢼࢼࢼ</span></td>
     <td>08BC ARABIC LETTER AFRICAN QAF (no Stylistic Set required)</td>
     </tr>
     </tbody>
@@ -301,7 +332,7 @@
     
     -->
     <footer class="footer">
-        <p>This guide is from the <a href="https://software.sil.org/alkalami/" title="" class="active">Alkalami project</a> version 2.000 and is copyright © 2015-2022 SIL International.</p>
+        <p>This guide is from the <a href="https://software.sil.org/alkalami/" title="" class="active">Alkalami project</a> version 2.100 and is copyright © 2015-2023 SIL International.</p>
     </footer>
 </article>
 </div>

@@ -981,6 +981,8 @@ markClass damma-ar.ss08 <anchor 126 248> @_center;
 #**********************************
 languagesystem DFLT dflt;
 languagesystem arab dflt;
+languagesystem arab HAU;
+# Hausa
 languagesystem latn dflt;
 @MarksAbove = [@_top];
 @MarksBelow = [@_bottom];
@@ -2465,6 +2467,8 @@ feature aalt {
 
 feature ccmp {
     lookup FontCheck;
+    script arab;
+    # Arabic
     # Always split alefhamza (0623, 0625) so the hamza can be colored:
     lookup ccmp_arab_1 {
         script arab;
@@ -2514,6 +2518,8 @@ feature ccmp {
         sub alefabove-ar fatha-ar by fatha_alefabove-ar;
     } ccmp_arab_4;
 
+    language HAU;
+    # Hausa
 } ccmp;
 
 feature locl {
@@ -2541,6 +2547,8 @@ feature init {
         sub @DualLinkIsol by @DualLinkInit;
     } init_lkp;
 
+    language HAU;
+    # Hausa
 } init;
 
 feature medi {
@@ -2549,6 +2557,8 @@ feature medi {
         sub @DualLinkIsol by @DualLinkMedi;
     } medi_lkp;
 
+    language HAU;
+    # Hausa
 } medi;
 
 feature fina {
@@ -2557,6 +2567,8 @@ feature fina {
         sub [@DualLinkIsol @RightLinkIsol @RightLinkIsol_Alef] by [@DualLinkFina @RightLinkFina @RightLinkFina_Alef];
     } fina_lkp;
 
+    language HAU;
+    # Hausa
 } fina;
 
 #********************
@@ -2637,19 +2649,30 @@ lookup AllahAlef {
     sub @AlefNoAllah' lam-ar.init.allah1 by @AlefAllah;
 } AllahAlef;
 
+lookup HausaCALT {
+    lookupflag 0;
+    sub @cno_ss04 by @c_ss04;
+    sub @cno_ss08 by @c_ss08;
+    sub @cno_ss09 by @c_ss09;
+} HausaCALT;
+
 feature dlig {
     sub f i by fi;
     sub f l by fl;
 } dlig;
 
 feature rlig {
+    script arab;
     lookup AllahLigatures;
     lookup LamAlefLigatures;
     # Must be after LamAlefLigatures:
     lookup AllahAlef;
+    language HAU;
+    # Hausa
 } rlig;
 
 feature salt {
+    script arab;
     lookup salt_lkp {
         # It seems that InDesign requires these to be in salt in order to select the alternates.
         sub behDotless-ar.medi by behDotless-ar.medi.flat;
@@ -2753,9 +2776,12 @@ feature salt {
         sub yehThreedotsabove-farsi.fina.ss09 from [yehThreedotsabove-farsi.fina.shrtail.ss09 yehThreedotsabove-farsi.fina.longtail.ss09];
     } salt_lkp2;
 
+    language HAU;
+    # Hausa
 } salt;
 
 feature calt {
+    script arab;
     lookup calt_lkp1 {
         lookupflag IgnoreMarks;
         # Slightly shorter tail for yeh-barree before beh/yeh/noon forms:
@@ -2844,6 +2870,9 @@ feature calt {
     lookup shift_post_hah;
     lookup flatten_pre_hah;
     lookup flatten_hah;
+    language HAU;
+    # Hausa
+    lookup HausaCALT;
 } calt;
 
 # Mirroring
@@ -2887,6 +2916,7 @@ feature ss04 {
         name "Imala e";
     };
 
+    script arab;
     lookup ss04_lkp {
         lookupflag RightToLeft;
         sub @cno_ss04 by @c_ss04;
@@ -2900,6 +2930,7 @@ feature ss07 {
         name "Jeem/hah";
     };
 
+    script arab;
     # Basically undo the jeem stacking rules above. :-/
     lookup ss07_lkp {
         lookupflag IgnoreMarks;
@@ -2926,6 +2957,7 @@ feature ss08 {
         name "Alef diacritic placement";
     };
 
+    script arab;
     lookup ss08_lkp {
         sub [alef-ar alef-ar.high]' lookup ss08_aux [fatha-ar kasra-ar damma-ar]' lookup ss08_aux;
     } ss08_lkp;
@@ -2938,6 +2970,7 @@ feature ss09 {
         name "Wagaf";
     };
 
+    script arab;
     lookup ss09_lkp {
         sub @cno_ss09 by @c_ss09;
     } ss09_lkp;

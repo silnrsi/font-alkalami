@@ -1,6 +1,6 @@
 ---
 title: Alkalami - Developer information
-fontversion: 2.000
+fontversion: 2.100
 ---
 
 Alkalami Light is no longer a part of this font project. Alkalami Light has become a new font called [Ruwudu Regular](https://github.com/silnrsi/font-ruwudu). 

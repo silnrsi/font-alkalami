@@ -1,4 +1,7 @@
 
+### 2023-01-xx (WSTech team) Alkalami Version 2.100 (production release)
+- Add OpenType language support for Hausa
+
 ### 2022-06-09 (WSTech team) Alkalami Version 2.000 (production release)
 - Removed Alkalami Light font. 
 - Removed non Unicode compliant solutions

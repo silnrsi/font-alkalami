@@ -19,6 +19,19 @@ Currently, this font only supports the **Number Sign** (U+0600) and **End of Aya
 
 For applications that do not make use of the OpenType Stylistic Sets, you can now download fonts customized with the variant glyphs you choose. Read this document, visit [TypeTuner Web](http://scripts.sil.org/ttw/fonts2go.cgi), then choose the variants and download your font.
 
+### Language 
+
+<span class='affects'>Affects: U+065C, U+0627 (with U+064E, U+064F, U+0650), U+063F, U+069F, U+0751, U+0763, U+08C3, U+08C4</span>
+
+Unfortunately, the UI needed to access the language-specific behavior is not yet present in many applications. Some Harfbuzz-based apps, e.g., XeTeX, can access language-specific behavior.
+
+<!-- ha does not work for pdf. Must use hau for proper display in pdf. However, for proper display in html must use ha! -->
+
+Language | Imala e | Touching | Wagaf | Feature setting
+---      | -       | ---      | --    | ----
+default | <span dir="rtl" class='alkalami-R normal'>&#x0628;&#x065C;</span> | <span dir="rtl" class='alkalami-R normal' >&#x0627;&#x064E; &#x0627;&#x064F; &#x0627;&#x0650; &#x0628;&#x0627;&#x064E; &#x0628;&#x0627;&#x064F; &#x0628;&#x0627;&#x0650; </span> | <span dir="rtl" class='alkalami-R normal'>&#x063F; &#x063F;&#x063F;&#x063F; &#x069F; &#x069F;&#x069F;&#x069F; &#x0751; &#x0751;&#x0751;&#x0751; &#x0763; &#x0763;&#x0763;&#x0763; &#x08C3; &#x08C3;&#x08C3;&#x08C3; &#x08C4; &#x08C4;&#x08C4;&#x08C4;</span> | |
+Hausa |  <span dir="rtl" class='alkalami-R normal' lang='ha'>&#x0628;&#x065C;</span> | <span dir="rtl" class='alkalami-R normal' lang='ha'>&#x0627;&#x064E; &#x0627;&#x064F; &#x0627;&#x0650; &#x0628;&#x0627;&#x064E; &#x0628;&#x0627;&#x064F; &#x0628;&#x0627;&#x0650; </span>| <span dir="rtl" class='alkalami-R normal' lang='ha'>&#x063F; &#x063F;&#x063F;&#x063F; &#x069F; &#x069F;&#x069F;&#x069F; &#x0751; &#x0751;&#x0751;&#x0751; &#x0763; &#x0763;&#x0763;&#x0763; &#x08C3; &#x08C3;&#x08C3;&#x08C3; &#x08C4; &#x08C4;&#x08C4;&#x08C4;</span> | `lang=ha`
+
 ### Stylistic Sets
 
 There are some character shape differences in different languages which use the Arabic script. These can be accessed by using the OpenType Stylistic Sets mentioned above.  
@@ -123,18 +136,18 @@ If you used previous versions of this font, we made some decisions which were un
 
  Glyph | Non Unicode Compliant | → | Glyph | Convert to
  - | ---------- | -: | -- | ---------- 
-<span dir="rtl" class='alkalami-R normal'>&#x0643;</span>| 0643 ARABIC LETTER KAF | → | <span dir="rtl" class='alkalami-R normal'>&#x06a9;</span>| 06A9 ARABIC LETTER KEHEH 
-<span dir="rtl" class='alkalami-R normal'>&#x06ad;</span>| 06AD ARABIC LETTER NG  | → | <span dir="rtl" class='alkalami-R normal'>&#x0763;</span>| 0763 ARABIC LETTER KEHEH WITH THREE DOTS ABOVE
-<span dir="rtl" class='alkalami-R normal'>&#x067b;</span>| 067B ARABIC LETTER BEEH (ss05) | → | <span dir="rtl" class='alkalami-R normal'>&#x0751;</span>| 0751 ARABIC LETTER BEH WITH DOT BELOW AND THREE DOTS ABOVE (use Stylistic Set `ss09` if you wish a small *wagaf*)
+<span dir="rtl" class='alkalami-R normal'>&#x0643;</span>| 0643 ARABIC LETTER KAF | → | <span dir="rtl" class='alkalami-R normal'>&#x06a9; &#x06a9;&#x06a9;&#x06a9;</span>| 06A9 ARABIC LETTER KEHEH 
+<span dir="rtl" class='alkalami-R normal'>&#x06ad;</span>| 06AD ARABIC LETTER NG  | → | <span dir="rtl" class='alkalami-R normal'>&#x0763; &#x0763;&#x0763;&#x0763;</span>| 0763 ARABIC LETTER KEHEH WITH THREE DOTS ABOVE
+<span dir="rtl" class='alkalami-R normal'>&#x067b;</span>| 067B ARABIC LETTER BEEH (ss05) | → | <span dir="rtl" class='alkalami-R normal'>&#x0751; &#x0751;&#x0751;&#x0751;</span>| 0751 ARABIC LETTER BEH WITH DOT BELOW AND THREE DOTS ABOVE (use Stylistic Set `ss09` if you wish a small *wagaf*)
 <span dir="rtl" class='alkalami-R normal'>&#x069f;</span>| 069F ARABIC LETTER TAH WITH THREE DOTS ABOVE (ss05) | → | | You may continue to use this codepoint (use Stylistic Set `ss09` if you wish a small *wagaf*)
-<span dir="rtl" class='alkalami-R normal'>&#x06a0;</span>| 06A0 ARABIC LETTER AIN WITH THREE DOTS ABOVE (ss05) | → | <span dir="rtl" class='alkalami-R normal'>&#x08c3;</span>| 08C3 ARABIC LETTER GHAIN WITH THREE DOTS ABOVE (use Stylistic Set `ss09` if you wish a small *wagaf*)
-<span dir="rtl" class='alkalami-R normal'>&#x06a8;</span>| 06A8 ARABIC LETTER QAF WITH THREE DOTS ABOVE (ss05) | → | <span dir="rtl" class='alkalami-R normal'>&#x08c4;</span>| 08C4 ARABIC LETTER AFRICAN QAF WITH THREE DOTS ABOVE (use Stylistic Set `ss09` if you wish a small *wagaf*)
-<span dir="rtl" class='alkalami-R normal'>&#x06cc;</span>| 06CC ARABIC LETTER FARSI YEH (ss05) | → | <span dir="rtl" class='alkalami-R normal'>&#x063f;</span>| 063F ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE (use Stylistic Set `ss09` if you wish a small *wagaf*)
+<span dir="rtl" class='alkalami-R normal'>&#x06a0;</span>| 06A0 ARABIC LETTER AIN WITH THREE DOTS ABOVE (ss05) | → | <span dir="rtl" class='alkalami-R normal'>&#x08c3; &#x08c3;&#x08c3;&#x08c3;</span>| 08C3 ARABIC LETTER GHAIN WITH THREE DOTS ABOVE (use Stylistic Set `ss09` if you wish a small *wagaf*)
+<span dir="rtl" class='alkalami-R normal'>&#x06a8;</span>| 06A8 ARABIC LETTER QAF WITH THREE DOTS ABOVE (ss05) | → | <span dir="rtl" class='alkalami-R normal'>&#x08c4; &#x08c4;&#x08c4;&#x08c4;</span>| 08C4 ARABIC LETTER AFRICAN QAF WITH THREE DOTS ABOVE (use Stylistic Set `ss09` if you wish a small *wagaf*)
+<span dir="rtl" class='alkalami-R normal'>&#x06cc;</span>| 06CC ARABIC LETTER FARSI YEH (ss05) | → | <span dir="rtl" class='alkalami-R normal'>&#x063f; &#x063f;&#x063f;&#x063f;</span>| 063F ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE (use Stylistic Set `ss09` if you wish a small *wagaf*)
 <span dir="rtl" class='alkalami-R normal'>&#x0763;</span>| 0763 ARABIC LETTER KEHEH WITH THREE DOTS ABOVE (ss05) | → | | You may continue to use this codepoint (use Stylistic Set `ss09` if you wish a small *wagaf*)
-<span dir="rtl" class='alkalami-R normal'>&#x0646;</span>| 0646 ARABIC LETTER NOON (ss01) | → | <span dir="rtl" class='alkalami-R normal'>&#x08bd;</span>| 08BD ARABIC LETTER AFRICAN NOON (no Stylistic Set required)
-<span dir="rtl" class='alkalami-R normal'>&#x064a;</span>| 064A ARABIC LETTER YEH (ss01) | → | <span dir="rtl" class='alkalami-R normal'>&#x06cc;</span>| 06CC ARABIC LETTER FARSI YEH (no Stylistic Set required)
-<span dir="rtl" class='alkalami-R normal'>&#x06a2;</span>| 06A2 ARABIC LETTER FEH WITH DOT MOVED BELOW (ss01) | → | <span dir="rtl" class='alkalami-R normal'>&#x08bb;</span>| 08BB ARABIC LETTER AFRICAN FEH (no Stylistic Set required)
-<span dir="rtl" class='alkalami-R normal'>&#x06a7;</span>| 06A7 ARABIC LETTER QAF WITH DOT ABOVE (ss01) | → | <span dir="rtl" class='alkalami-R normal'>&#x08bc;</span>| 08BC ARABIC LETTER AFRICAN QAF (no Stylistic Set required)
+<span dir="rtl" class='alkalami-R normal'>&#x0646;</span>| 0646 ARABIC LETTER NOON (ss01) | → | <span dir="rtl" class='alkalami-R normal'>&#x08bd; &#x08bd;&#x08bd;&#x08bd;</span>| 08BD ARABIC LETTER AFRICAN NOON (no Stylistic Set required)
+<span dir="rtl" class='alkalami-R normal'>&#x064a;</span>| 064A ARABIC LETTER YEH (ss01) | → | <span dir="rtl" class='alkalami-R normal'>&#x06cc; &#x06cc;&#x06cc;&#x06cc;</span>| 06CC ARABIC LETTER FARSI YEH (no Stylistic Set required)
+<span dir="rtl" class='alkalami-R normal'>&#x06a2;</span>| 06A2 ARABIC LETTER FEH WITH DOT MOVED BELOW (ss01) | → | <span dir="rtl" class='alkalami-R normal'>&#x08bb; &#x08bb;&#x08bb;&#x08bb;</span>| 08BB ARABIC LETTER AFRICAN FEH (no Stylistic Set required)
+<span dir="rtl" class='alkalami-R normal'>&#x06a7;</span>| 06A7 ARABIC LETTER QAF WITH DOT ABOVE (ss01) | → | <span dir="rtl" class='alkalami-R normal'>&#x08bc; &#x08bc;&#x08bc;&#x08bc;</span>| 08BC ARABIC LETTER AFRICAN QAF (no Stylistic Set required)
 
 [font id='alkalami' face='Alkalami-Regular' size='150%' rtl=1]
 [font id='alkalamiL' face='Alkalami-Regular' size='100%' ltr=1]
