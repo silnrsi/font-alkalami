@@ -672,6 +672,9 @@ feature locl {
 		sub space by space-ar;
 		sub nbspace by nbspace-ar;
 	} locl_lkp;
+
+language HAU ; # Hausa
+
 } locl;
 
 feature frac {
@@ -868,10 +871,15 @@ lookup AllahAlef {  # clean up: make sure alef is correct form for Allah
 lookup HausaCALT {
   lookupflag 0 ;
     sub @cno_ss04 by @c_ss04;
-    sub @cno_ss08 by @c_ss08;
+    sub alef-ar.high by alef-ar.high.ss08;
+    sub alef-ar by alef-ar.ss08;
     sub @cno_ss09 by @c_ss09;
 } HausaCALT  ;
 
+lookup HausaCALT2 {
+   sub alef-ar.ss08 damma-ar' by damma-ar.ss08;
+   sub alef-ar.high.ss08 damma-ar' by damma-ar.ss08;
+} HausaCALT2  ;
 
 feature dlig {
 	sub f [i  l] by [fi  fl];
@@ -1034,6 +1042,7 @@ feature calt {
 
 		#subs to get a short, high alef-ar.init with lam followed by jeem/hah/khah (rule 40)
 		sub alef-ar' lam-ar.init @hahMedi_any  by  alef-ar.high;
+		sub alef-ar.ss08' lam-ar.init @hahMedi_any  by  alef-ar.high.ss08;
 
 		# replace sequence of digits, up to three places
 		# Uniscribe or Harfbuzz 'latn'
@@ -1071,6 +1080,7 @@ feature calt {
 
   language HAU ; # Hausa
      lookup HausaCALT ;
+     lookup HausaCALT2 ;
 
 } calt;
 
