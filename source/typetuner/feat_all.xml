@@ -17,7 +17,7 @@
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Hausa" tag="Hau">
-			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {HausaCALT}"/>
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {ss08_lkp}"/>
 		</value>
 	</feature>
 
