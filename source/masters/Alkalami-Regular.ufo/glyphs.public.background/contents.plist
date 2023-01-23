@@ -158,10 +158,6 @@
   <string>bracketleft.glif</string>
   <key>breve</key>
   <string>breve.glif</string>
-  <key>breve-cy</key>
-  <string>breve-cy.glif</string>
-  <key>brevecomb</key>
-  <string>brevecomb.glif</string>
   <key>bullet</key>
   <string>bullet.glif</string>
   <key>bulletoperator</key>
@@ -178,8 +174,6 @@
   <string>colon.glif</string>
   <key>comma</key>
   <string>comma.glif</string>
-  <key>commaaccent</key>
-  <string>commaaccent.glif</string>
   <key>d</key>
   <string>d.glif</string>
   <key>dal-ar</key>
@@ -348,8 +342,6 @@
   <string>m.glif</string>
   <key>macron</key>
   <string>macron.glif</string>
-  <key>macroncomb</key>
-  <string>macroncomb.glif</string>
   <key>madda-ar</key>
   <string>madda-ar.glif</string>
   <key>meem-ar</key>

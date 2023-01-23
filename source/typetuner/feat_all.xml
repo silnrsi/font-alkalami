@@ -17,7 +17,9 @@
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Hausa" tag="Hau">
+			<cmd name="encode" args="065C uni065C.ss04"/>
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {ss08_lkp}"/>
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {ss09_lkp}"/>
 		</value>
 	</feature>
 
