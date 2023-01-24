@@ -58,8 +58,6 @@
 @cno_wide = [alef-ar];
 @c_wideshort = [alef-ar.wideshort];
 @cno_wideshort = [alef-ar];
-@public.kern1.0 = [dotlessi];
-@public.kern2.0 = [dotlessi];
 
 # Positioning classes and statements
 
@@ -949,7 +947,7 @@ markClass damma-ar.ss08 <anchor 126 248> @_center;
 # baseClass lam_alefMadda-ar.fina <anchor 107 -46> @bottom_2;
 #**********************************
 # This file is part of Alkalami font family (http://software.sil.org/alkalami/) 
-# and is Copyright (c) 2015-2022 SIL International (http://www.sil.org/),
+# and is Copyright (c) 2015-2023 SIL International (http://www.sil.org/),
 # with Reserved Font Names "Alkalami" and "SIL".
 #
 # This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -2448,8 +2446,6 @@ feature aalt {
 
 feature ccmp {
     lookup FontCheck;
-    script arab;
-    # Arabic
     # Always split alefhamza (0623, 0625) so the hamza can be colored:
     lookup ccmp_arab_1 {
         script arab;
@@ -2651,7 +2647,6 @@ feature dlig {
 } dlig;
 
 feature rlig {
-    script arab;
     lookup AllahLigatures;
     lookup LamAlefLigatures;
     # Must be after LamAlefLigatures:
@@ -2661,7 +2656,6 @@ feature rlig {
 } rlig;
 
 feature salt {
-    script arab;
     lookup salt_lkp {
         # It seems that InDesign requires these to be in salt in order to select the alternates.
         sub behDotless-ar.medi by behDotless-ar.medi.flat;
@@ -2770,7 +2764,6 @@ feature salt {
 } salt;
 
 feature calt {
-    script arab;
     lookup calt_lkp1 {
         lookupflag IgnoreMarks;
         # Slightly shorter tail for yeh-barree before beh/yeh/noon forms:
@@ -2907,7 +2900,6 @@ feature ss04 {
         name "Imala e";
     };
 
-    script arab;
     lookup ss04_lkp {
         lookupflag RightToLeft;
         sub @cno_ss04 by @c_ss04;
@@ -2921,7 +2913,6 @@ feature ss07 {
         name "Jeem/hah";
     };
 
-    script arab;
     # Basically undo the jeem stacking rules above. :-/
     lookup ss07_lkp {
         lookupflag IgnoreMarks;
@@ -2948,7 +2939,6 @@ feature ss08 {
         name "Alef diacritic placement";
     };
 
-    script arab;
     lookup ss08_lkp {
         sub [alef-ar alef-ar.high]' lookup ss08_aux [fatha-ar kasra-ar damma-ar]' lookup ss08_aux;
     } ss08_lkp;
@@ -2961,7 +2951,6 @@ feature ss09 {
         name "Wagaf";
     };
 
-    script arab;
     lookup ss09_lkp {
         sub @cno_ss09 by @c_ss09;
     } ss09_lkp;

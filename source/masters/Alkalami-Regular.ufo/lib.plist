@@ -6,17 +6,6 @@
   <dict>
     <key>com.schriftgestaltung.Glyphs.groupsNotInFeature</key>
     <array/>
-    <key>com.schriftgestaltung.Glyphs.originalKerningGroups</key>
-    <dict>
-      <key>public.kern1.0</key>
-      <array>
-        <string>dotlessi</string>
-      </array>
-      <key>public.kern2.0</key>
-      <array>
-        <string>dotlessi</string>
-      </array>
-    </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
   <string>3124</string>

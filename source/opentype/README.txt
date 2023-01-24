@@ -7,7 +7,7 @@ fonts and any derivative works.
 
 These files are part of the Alkalami font family 
 (http://software.sil.org/alkalami/) and are 
-Copyright (c) 2015-2022 SIL International (http://www.sil.org/),
+Copyright (c) 2015-2023 SIL International (http://www.sil.org/),
 with Reserved Font Names "Alkalami" and "SIL".
 
 This Font Software is licensed under the SIL Open Font License,

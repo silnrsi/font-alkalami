@@ -1,6 +1,6 @@
 #**********************************
 # This file is part of Alkalami font family (http://software.sil.org/alkalami/) 
-# and is Copyright (c) 2015-2022 SIL International (http://www.sil.org/),
+# and is Copyright (c) 2015-2023 SIL International (http://www.sil.org/),
 # with Reserved Font Names "Alkalami" and "SIL".
 #
 # This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -621,7 +621,6 @@ feature aalt {
 feature ccmp {
 
   lookup FontCheck;
-  script arab ; # Arabic
 
 	# Always split alefhamza (0623, 0625) so the hamza can be colored:
 	lookup ccmp_arab_1 {
@@ -887,7 +886,6 @@ feature dlig {
 
 
 feature rlig {
-  script arab;
   lookup AllahLigatures;
 	lookup LamAlefLigatures;
 	# Must be after LamAlefLigatures:
@@ -898,7 +896,6 @@ feature rlig {
 
 
 feature salt {
-  script arab;
 	lookup salt_lkp {
 		# It seems that InDesign requires these to be in salt in order to select the alternates.
 		sub behDotless-ar.medi by behDotless-ar.medi.flat;
@@ -974,7 +971,6 @@ feature salt {
 } salt;
 
 feature calt {
-    script arab;
 
 	lookup calt_lkp1 {
 		lookupflag IgnoreMarks;
@@ -1127,7 +1123,7 @@ feature ss04 {
 	featureNames {
 		name 3 1 0x409 "Imala e";
 	};
- script arab;
+
 	lookup ss04_lkp {
 		lookupflag RightToLeft;
 
@@ -1142,7 +1138,7 @@ feature ss07 {
 	featureNames {
 		name 3 1 0x409 "Jeem/hah";
 	};
- script arab;
+
 	# Basically undo the jeem stacking rules above. :-/
 	lookup ss07_lkp {
 		lookupflag IgnoreMarks;
@@ -1174,7 +1170,7 @@ feature ss08 {
 	featureNames {
 		name 3 1 0x409 "Alef diacritic placement";
 	};
- script arab;
+
 	lookup ss08_lkp {
 		sub [alef-ar alef-ar.high]' lookup ss08_aux [fatha-ar kasra-ar damma-ar]' lookup ss08_aux;
 	} ss08_lkp;
@@ -1186,7 +1182,7 @@ feature ss09 {
 	featureNames {
 		name 3 1 0x409 "Wagaf";
 	};
- script arab;
+
 	lookup ss09_lkp {
 		sub @cno_ss09 by @c_ss09;
 	} ss09_lkp;
