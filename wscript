@@ -1,45 +1,49 @@
-#!/usr/bin/python
-# encoding: utf8
-
-# Smith configuration file for Alkalami
+#! /usr/bin/python3
+# this is a smith configuration file
 
 # set the default output folders
-DOCDIR = ["documentation", "web"]
+DOCDIR=['documentation', 'web']
 
-# set the product name
+# set package name
 APPNAME = "Alkalami"
 
-# Get version info from Regular UFO; must be first function call:
-getufoinfo('source/masters/Alkalami-Regular.ufo')
+# set the font family name
+FAMILY = APPNAME
 
-#BUILDLABEL = 'beta'
+# Get version info from Regular UFO; must be first function call:
+getufoinfo('source/masters/' + FAMILY + '-Regular' + '.ufo')
+
+# set up FTML tests
+ftmlTest('tools/ftml-smith.xsl')
 
 # APs to omit:
 OMITAPS = '--omitaps "topright, ogonek, caret_1, caret_2, caret_3, top_3, top_4, top_alef"'
 
-# set the build and test parameters
+# location for misc build results
+generated = 'generated/'
 
-# Notes about DS variables:
-#   The phrase '${DS:NAME}' references the 'name' attribute from the instance as defined 
-#   in the designspace file, i.e. "Alkalami-Regular" -- 
-#   and we use that to construct all the filenames.
+typetunerfile = 'source/typetuner/feat_all.xml'
+
 designspace('source/Alkalami.designspace',
-    instanceparams = '-l generated/${DS:NAME}_createintance.log',
-    target = process('${DS:NAME}.ttf',
-        cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/masters/${DS:NAME}.ufo']),
+    instanceparams='-l ' + generated + '{$FAMILY}_createinstances.log',
+    target = process('${DS:FILENAME_BASE}.ttf',
+        cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}']),
 #        Note: ttfautohint-generated hints don't maintain stroke thickness at joins (nor hamza), so we're not hinting these fonts
 #        cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
+    version = VERSION,  # Needed to ensure dev information on version string
+    ap = generated + '${DS:FILENAME_BASE}.xml',
     opentype = fea('generated/${DS:FILENAME_BASE}.fea',
         mapfile = 'generated/${DS:FILENAME_BASE}.map',
         master = 'source/opentype/master.feax',
         make_params = OMITAPS
     ),
     script = ['arab'],
-    version = VERSION,
-    fret = fret('generated/${DS:FILENAME_BASE}-fret.pdf', params='-r -oi'),
-    woff = woff('web/${DS:NAME}.woff', params='-v '+VERSION +' -m ../source/${DS:FAMILYNAME_DASH}-WOFF-metadata.xml'),
-    typetuner = typetuner("source/typetuner/feat_all.xml"),
+    pdf = fret(params='-m 25 -r -oi'),
+    woff = woff('web/${DS:FILENAME_BASE}',
+        metadata=f'../source/{FAMILY}-WOFF-metadata.xml',
+        ),
+    typetuner = typetuner(typetunerfile),
 )
 
 
