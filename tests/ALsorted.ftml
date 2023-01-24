@@ -7,6 +7,7 @@
     <fontsrc label="1.3">url(../references/Alkalami-Regular-1_300.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Alkalami-Regular.ttf)</fontsrc>
     <styles>
+      <style lang="ha" name="ha"/>
       <style feats="'ss07' 1" name="ss07_1"/>
       <style feats="'ss09' 1" name="ss09_1"/>
     </styles>
@@ -39,6 +40,10 @@
       <string>\u0008C3 \u0008C3\u00200D \u00200D\u0008C3\u00200D \u00200D\u0008C3 \u0008C3\u0008C3\u0008C3 </string>
     </test>
     <test label="U+08C3" stylename="ss09_1">
+      <comment>ghainThreedotsabove-ar</comment>
+      <string>\u0008C3 \u0008C3\u00200D \u00200D\u0008C3\u00200D \u00200D\u0008C3 \u0008C3\u0008C3\u0008C3 </string>
+    </test>
+    <test label="U+08C3" stylename="ha">
       <comment>ghainThreedotsabove-ar</comment>
       <string>\u0008C3 \u0008C3\u00200D \u00200D\u0008C3\u00200D \u00200D\u0008C3 \u0008C3\u0008C3\u0008C3 </string>
     </test>
@@ -106,6 +111,10 @@
       <comment>behThreedotsupabove-ar</comment>
       <string>\u000751 \u000751\u00200D \u00200D\u000751\u00200D \u00200D\u000751 \u000751\u000751\u000751 </string>
     </test>
+    <test label="U+0751" stylename="ha">
+      <comment>behThreedotsupabove-ar</comment>
+      <string>\u000751 \u000751\u00200D \u00200D\u000751\u00200D \u00200D\u000751 \u000751\u000751\u000751 </string>
+    </test>
     <test label="U+0752">
       <comment>behThreedotsupbelow-ar</comment>
       <string>\u000752 \u000752\u00200D \u00200D\u000752\u00200D \u00200D\u000752 \u000752\u000752\u000752 </string>
@@ -135,6 +144,10 @@
       <string>\u00063F \u00063F\u00200D \u00200D\u00063F\u00200D \u00200D\u00063F \u00063F\u00063F\u00063F </string>
     </test>
     <test label="U+063F" stylename="ss09_1">
+      <comment>yehThreedotsabove-farsi</comment>
+      <string>\u00063F \u00063F\u00200D \u00200D\u00063F\u00200D \u00200D\u00063F \u00063F\u00063F\u00063F </string>
+    </test>
+    <test label="U+063F" stylename="ha">
       <comment>yehThreedotsabove-farsi</comment>
       <string>\u00063F \u00063F\u00200D \u00200D\u00063F\u00200D \u00200D\u00063F \u00063F\u00063F\u00063F </string>
     </test>
@@ -270,6 +283,10 @@
       <comment>kehehThreedotsabove-ar</comment>
       <string>\u000763 \u000763\u00200D \u00200D\u000763\u00200D \u00200D\u000763 \u000763\u000763\u000763 </string>
     </test>
+    <test label="U+0763" stylename="ha">
+      <comment>kehehThreedotsabove-ar</comment>
+      <string>\u000763 \u000763\u00200D \u00200D\u000763\u00200D \u00200D\u000763 \u000763\u000763\u000763 </string>
+    </test>
     <test label="U+06AA">
       <comment>kafswash-ar</comment>
       <string>\u0006AA \u0006AA\u00200D \u00200D\u0006AA\u00200D \u00200D\u0006AA \u0006AA\u0006AA\u0006AA </string>
@@ -366,6 +383,10 @@
       <comment>qafThreedotsaboveAfrican-ar</comment>
       <string>\u0008C4 \u0008C4\u00200D \u00200D\u0008C4\u00200D \u00200D\u0008C4 \u0008C4\u0008C4\u0008C4 </string>
     </test>
+    <test label="U+08C4" stylename="ha">
+      <comment>qafThreedotsaboveAfrican-ar</comment>
+      <string>\u0008C4 \u0008C4\u00200D \u00200D\u0008C4\u00200D \u00200D\u0008C4 \u0008C4\u0008C4\u0008C4 </string>
+    </test>
     <test label="U+0631">
       <comment>reh-ar</comment>
       <string>\u000631 \u00200D\u000631 </string>
@@ -391,6 +412,10 @@
       <string>\u00069F \u00069F\u00200D \u00200D\u00069F\u00200D \u00200D\u00069F \u00069F\u00069F\u00069F </string>
     </test>
     <test label="U+069F" stylename="ss09_1">
+      <comment>tahThreedots-ar</comment>
+      <string>\u00069F \u00069F\u00200D \u00200D\u00069F\u00200D \u00200D\u00069F \u00069F\u00069F\u00069F </string>
+    </test>
+    <test label="U+069F" stylename="ha">
       <comment>tahThreedots-ar</comment>
       <string>\u00069F \u00069F\u00200D \u00200D\u00069F\u00200D \u00200D\u00069F \u00069F\u00069F\u00069F </string>
     </test>
