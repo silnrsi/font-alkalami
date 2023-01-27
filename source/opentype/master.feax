@@ -614,9 +614,21 @@ feature aalt {
 	feature ss08;
 	feature ss09;
 	feature calt;
+	feature liga;
 } aalt;
 
 
+# Mirroring
+
+feature rtlm {
+	#script arab;
+		sub @cno_rtl by @c_rtl;
+} rtlm;
+
+feature ltrm {
+	#script latn;
+		sub @c_rtl by @cno_rtl;
+} ltrm;
 
 feature ccmp {
 
@@ -659,58 +671,59 @@ feature ccmp {
 		sub alefabove-ar fatha-ar by fatha_alefabove-ar;
 	} ccmp_arab_4;
 
-language HAU ; # Hausa
-
 } ccmp;
 
+lookup HausaCALT {
+  lookupflag 0 ;
+    sub @cno_ss04 by @c_ss04;
+    sub @cno_ss09 by @c_ss09;
+} HausaCALT  ;
+
+lookup HausaCALT2 {
+ lookupflag 0 ;
+	sub [alef-ar alef-ar.high]' lookup ss08_aux [fatha-ar kasra-ar damma-ar]' lookup ss08_aux;
+} HausaCALT2  ;
+
 feature locl {
-	script latn;
 	script arab;
 
 	lookup locl_lkp {
 		sub space by space-ar;
 		sub nbspace by nbspace-ar;
 	} locl_lkp;
-
-language HAU ; # Hausa
-
-} locl;
-
-feature frac {
-	sub one slash four by onequarter;
-	sub one slash two by onehalf;
-	sub three slash four by threequarters;
-} frac;
-
-
-								
+    language HAU ;
+} locl;	
+							
 #********************
 # for basic Arabic shaping features fina, medi, init:
 #********************
 								
-feature init {
-	# automatic
-	lookup init_lkp {
-		sub @DualLinkIsol  by  @DualLinkInit;
-	} init_lkp;
-  language HAU ; # Hausa
-} init;
-
-feature medi {
-	# automatic
-	lookup medi_lkp {
-		sub @DualLinkIsol  by  @DualLinkMedi;
-	} medi_lkp;
-  language HAU ; # Hausa
-} medi;
-
 feature fina {
 	# automatic
+  script arab;
 	lookup fina_lkp {
 		sub [@DualLinkIsol @RightLinkIsol @RightLinkIsol_Alef]  by  [@DualLinkFina @RightLinkFina @RightLinkFina_Alef];
 	} fina_lkp;
-  language HAU ; # Hausa
+    language HAU ;
 } fina;
+
+feature medi {
+	# automatic
+  script arab;
+	lookup medi_lkp {
+		sub @DualLinkIsol  by  @DualLinkMedi;
+	} medi_lkp;
+    language HAU ;
+} medi;
+
+feature init {
+	# automatic
+  script arab;
+	  lookup init_lkp {
+		  sub @DualLinkIsol  by  @DualLinkInit;
+	  } init_lkp;
+    language HAU ;
+} init;
 
 #********************
 # for feature rlig: required ligatures 
@@ -867,33 +880,100 @@ lookup AllahAlef {  # clean up: make sure alef is correct form for Allah
 		sub @AlefNoAllah'  lam-ar.init.allah1  by  @AlefAllah;
 } AllahAlef;
 
-lookup HausaCALT {
-  lookupflag 0 ;
-    sub @cno_ss04 by @c_ss04;
-    sub alef-ar.high by alef-ar.high.ss08;
-    sub alef-ar by alef-ar.ss08;
-    sub @cno_ss09 by @c_ss09;
-} HausaCALT  ;
-
-lookup HausaCALT2 {
-   sub alef-ar.ss08 damma-ar' by damma-ar.ss08;
-   sub alef-ar.high.ss08 damma-ar' by damma-ar.ss08;
-} HausaCALT2  ;
 
 feature dlig {
 	sub f [i  l] by [fi  fl];
 } dlig;
-
 
 feature rlig {
   lookup AllahLigatures;
 	lookup LamAlefLigatures;
 	# Must be after LamAlefLigatures:
 	lookup AllahAlef;
-  language HAU ; # Hausa
 } rlig;
 
+feature calt {
+  script arab;
+	lookup calt_lkp1 {
+		lookupflag IgnoreMarks;
 
+		# Slightly shorter tail for yeh-barree before beh/yeh/noon forms:
+		sub @pre_yb_need_alt  yehbarree-ar.fina'  by  yehbarree-ar.fina.alt;
+	} calt_lkp1;
+	
+	# Can these be moved down with the other jeem/hah lookups?
+	lookup prehah_alt;
+	lookup hahfinal_alt;
+
+	lookup calt_lkp2 {
+		lookupflag IgnoreMarks;
+		# subs to avoid collisions in strings with dal-ar (rule 1)
+		sub @seenIsol space-ar @dalIsol' by @dalIsol_alt;
+
+		# subs to avoid collisions in strings with seen-ar (rules 2-8 , 6-7 not working)
+		sub @seenIsol' space-ar @seenInit @wawFina by @seenIsol_shrtail;
+		sub @seenIsol' space-ar @behInit by @seenIsol_longtail;
+		sub @seenFina' space-ar @behInit by @seenFina_longtail;
+		sub @seenFina' space-ar @seenInit @wawFina by @seenFina_shrtail;
+		sub @seenFina' space-ar alefHamzabelow-ar @rehIsol by @seenFina_longtail;
+		sub @seenFina' space-ar alefHamzaabove-ar @wawIsol by @seenFina_longtail;
+		sub @seenFina' space-ar @ainIsol by @seenFina_longtail;
+		
+		# subs to avoid collisions in strings with yeh-ar (rules 9-14)
+		sub @yehIsol' comma-ar space-ar @wawIsol by @yehIsol_shrtail;
+		sub @yehIsol' space-ar @wawIsol by @yehIsol_longtail;
+		sub @yehFina' space-ar lam-ar.init reh-ar.fina by @yehFina_shrtail;
+		sub @yehFina' space-ar @ainIsol by @yehFina_shrtail;
+		sub @yehFina' space-ar @rehIsol by @yehFina_longtail;
+		sub @yehFina' space-ar @wawIsol by @yehFina_longtail;
+
+		# subs to avoid collisions in strings with noon-ar (rules 15-36)
+		sub @noonIsol' space-ar @seenIsol by @noonIsol_longtail;
+		sub @noonIsol' space-ar teh-ar.init @wawFina by @noonIsol_longtail;
+		sub @noonIsol' space-ar teh-ar.init @noonFina by @noonIsol_longtail;
+		sub @noonIsol' space-ar theh-ar.init @noonFina by @noonIsol_longtail;
+		sub @noonIsol' space-ar @dalIsol @wawIsol by @noonIsol_longtail;
+		sub @noonIsol' space-ar @behIsol by @noonIsol_longtail;
+		sub @noonIsol' space-ar @behInit by @noonIsol_longtail;
+		sub @noonIsol' space-ar @noonInit @noonFina by @noonIsol_longtail;
+		sub @noonIsol' space-ar @seenInit @wawFina by @noonIsol_longtail;
+		sub @noonIsol' space-ar @seenInit @noonFina by @noonIsol_longtail;
+		sub @noonIsol' space-ar @rehIsol by @noonIsol_longtail;
+		sub @noonFina' space-ar teh-ar.init @wawFina by @noonFina_longtail;
+		sub @noonFina' space-ar @dalIsol @wawIsol by @noonFina_longtail;
+		sub @noonFina' space-ar @behInit by @noonFina_longtail;
+		sub @noonFina' space-ar @behIsol by @noonFina_longtail;
+		sub @noonFina' space-ar @seenInit @wawFina by @noonFina_shrtail;
+		sub @noonFina' space-ar @seenInit @noonFina by @noonFina_shrtail;
+		sub @noonFina' space-ar @rehIsol by @noonFina_longtail;
+		sub @noonFina' space-ar @seenIsol by @noonFina_longtail;
+		sub @noonFina' space-ar teh-ar.init @noonFina by @noonFina_longtail;
+		sub @noonFina' space-ar theh-ar.init @noonFina by @noonFina_longtail;
+		sub @noonFina' space-ar @noonInit @noonFina by @noonFina_longtail;
+
+		# subs to avoid collisions in strings with waw-ar (rules 37-38)
+		sub @noonIsol space-ar @wawIsol' by @wawIsol_alt;
+		sub @noonFina space-ar @wawIsol' by @wawIsol_alt;
+
+		#subs to get a short, high lam-ar.init with jeem/hah/khah (rule 39)
+		sub lam-ar.init' @hahMedi_any  by  lam-ar.init.high;
+
+		#subs to get a short, high alef-ar.init with lam followed by jeem/hah/khah (rule 40)
+		sub alef-ar' lam-ar.init @hahMedi_any  by  alef-ar.high;
+		sub alef-ar.ss08' lam-ar.init @hahMedi_any  by  alef-ar.high.ss08;
+
+	} calt_lkp2;
+
+	# Create stacking jeem/hah behavior
+	lookup shift_pre_hah;
+	lookup shift_post_hah;
+	lookup flatten_pre_hah;
+	lookup flatten_hah;
+
+  language HAU ; # Hausa
+     lookup HausaCALT ;
+     lookup HausaCALT2 ;
+} calt;
 
 feature salt {
 	lookup salt_lkp {
@@ -966,132 +1046,7 @@ feature salt {
 		sub @c_tailStd  from  [@c_tailShort  @c_tailLong];
 	} salt_lkp2;
 
-  language HAU ; # Hausa
-
 } salt;
-
-feature calt {
-
-	lookup calt_lkp1 {
-		lookupflag IgnoreMarks;
-
-		# Slightly shorter tail for yeh-barree before beh/yeh/noon forms:
-		sub @pre_yb_need_alt  yehbarree-ar.fina'  by  yehbarree-ar.fina.alt;
-	} calt_lkp1;
-	
-	# Can these be moved down with the other jeem/hah lookups?
-	lookup prehah_alt;
-	lookup hahfinal_alt;
-
-	lookup calt_lkp2 {
-		lookupflag IgnoreMarks;
-		# subs to avoid collisions in strings with dal-ar (rule 1)
-		sub @seenIsol space-ar @dalIsol' by @dalIsol_alt;
-
-		# subs to avoid collisions in strings with seen-ar (rules 2-8 , 6-7 not working)
-		sub @seenIsol' space-ar @seenInit @wawFina by @seenIsol_shrtail;
-		sub @seenIsol' space-ar @behInit by @seenIsol_longtail;
-		sub @seenFina' space-ar @behInit by @seenFina_longtail;
-		sub @seenFina' space-ar @seenInit @wawFina by @seenFina_shrtail;
-		sub @seenFina' space-ar alefHamzabelow-ar @rehIsol by @seenFina_longtail;
-		sub @seenFina' space-ar alefHamzaabove-ar @wawIsol by @seenFina_longtail;
-		sub @seenFina' space-ar @ainIsol by @seenFina_longtail;
-		
-		# subs to avoid collisions in strings with yeh-ar (rules 9-14)
-		sub @yehIsol' comma-ar space-ar @wawIsol by @yehIsol_shrtail;
-		sub @yehIsol' space-ar @wawIsol by @yehIsol_longtail;
-		sub @yehFina' space-ar lam-ar.init reh-ar.fina by @yehFina_shrtail;
-		sub @yehFina' space-ar @ainIsol by @yehFina_shrtail;
-		sub @yehFina' space-ar @rehIsol by @yehFina_longtail;
-		sub @yehFina' space-ar @wawIsol by @yehFina_longtail;
-
-		# subs to avoid collisions in strings with noon-ar (rules 15-36)
-		sub @noonIsol' space-ar @seenIsol by @noonIsol_longtail;
-		sub @noonIsol' space-ar teh-ar.init @wawFina by @noonIsol_longtail;
-		sub @noonIsol' space-ar teh-ar.init @noonFina by @noonIsol_longtail;
-		sub @noonIsol' space-ar theh-ar.init @noonFina by @noonIsol_longtail;
-		sub @noonIsol' space-ar @dalIsol @wawIsol by @noonIsol_longtail;
-		sub @noonIsol' space-ar @behIsol by @noonIsol_longtail;
-		sub @noonIsol' space-ar @behInit by @noonIsol_longtail;
-		sub @noonIsol' space-ar @noonInit @noonFina by @noonIsol_longtail;
-		sub @noonIsol' space-ar @seenInit @wawFina by @noonIsol_longtail;
-		sub @noonIsol' space-ar @seenInit @noonFina by @noonIsol_longtail;
-		sub @noonIsol' space-ar @rehIsol by @noonIsol_longtail;
-		sub @noonFina' space-ar teh-ar.init @wawFina by @noonFina_longtail;
-		sub @noonFina' space-ar @dalIsol @wawIsol by @noonFina_longtail;
-		sub @noonFina' space-ar @behInit by @noonFina_longtail;
-		sub @noonFina' space-ar @behIsol by @noonFina_longtail;
-		sub @noonFina' space-ar @seenInit @wawFina by @noonFina_shrtail;
-		sub @noonFina' space-ar @seenInit @noonFina by @noonFina_shrtail;
-		sub @noonFina' space-ar @rehIsol by @noonFina_longtail;
-		sub @noonFina' space-ar @seenIsol by @noonFina_longtail;
-		sub @noonFina' space-ar teh-ar.init @noonFina by @noonFina_longtail;
-		sub @noonFina' space-ar theh-ar.init @noonFina by @noonFina_longtail;
-		sub @noonFina' space-ar @noonInit @noonFina by @noonFina_longtail;
-
-		# subs to avoid collisions in strings with waw-ar (rules 37-38)
-		sub @noonIsol space-ar @wawIsol' by @wawIsol_alt;
-		sub @noonFina space-ar @wawIsol' by @wawIsol_alt;
-
-		#subs to get a short, high lam-ar.init with jeem/hah/khah (rule 39)
-		sub lam-ar.init' @hahMedi_any  by  lam-ar.init.high;
-
-		#subs to get a short, high alef-ar.init with lam followed by jeem/hah/khah (rule 40)
-		sub alef-ar' lam-ar.init @hahMedi_any  by  alef-ar.high;
-		sub alef-ar.ss08' lam-ar.init @hahMedi_any  by  alef-ar.high.ss08;
-
-		# replace sequence of digits, up to three places
-		# Uniscribe or Harfbuzz 'latn'
-		sub @EndofAyah' lookup Ayah_3 @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small;
-		sub @EndofAyah' lookup Ayah_2 @Digits' lookup digit_small @Digits' lookup digit_small;
-		sub @EndofAyah @Digits' lookup digit_small;
-
-		sub number-ar' lookup number-ar_3 @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small;
-		sub number-ar' lookup number-ar_2 @Digits' lookup digit_small @Digits' lookup digit_small;
-		sub number-ar @Digits' lookup digit_small;
-
-		# HarfBuzz 'arab'
-		sub @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small @EndofAyah' lookup Ayah_3;
-		sub @Digits' lookup digit_small @Digits' lookup digit_small @EndofAyah' lookup Ayah_2;
-		sub @Digits' lookup digit_small @EndofAyah;
-
-		sub @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small number-ar' lookup number-ar_3;
-		sub @Digits' lookup digit_small @Digits' lookup digit_small number-ar' lookup number-ar_2;
-		sub @Digits' lookup digit_small number-ar;
-	} calt_lkp2;
-
-	# to keep Uniscribe from breaking/crashing
-	lookup UniscribeFix {
-		sub @EndofAyah' @Digits.small @Digits.small @Digits.small by @EndofAyah3;
-		sub @EndofAyah' @Digits.small @Digits.small by @EndofAyah2;
-		sub number-ar' @Digits.small @Digits.small @Digits.small by number-ar.3;
-		sub number-ar' @Digits.small @Digits.small by number-ar.2;
-	} UniscribeFix;
-	
-	# Create stacking jeem/hah behavior
-	lookup shift_pre_hah;
-	lookup shift_post_hah;
-	lookup flatten_pre_hah;
-	lookup flatten_hah;
-
-  language HAU ; # Hausa
-     lookup HausaCALT ;
-     lookup HausaCALT2 ;
-
-} calt;
-
-
-# Mirroring
-
-feature rtlm {
-	#script arab;
-		sub @cno_rtl by @c_rtl;
-} rtlm;
-
-feature ltrm {
-	#script latn;
-		sub @c_rtl by @cno_rtl;
-} ltrm;
 
 # End-of-ayah - double circles
 
@@ -1188,11 +1143,38 @@ feature ss09 {
 	} ss09_lkp;
 } ss09;
 
+feature liga {  
+    # Same for latin & arabic:
+		# replace sequence of digits, up to three places
+		# Uniscribe or Harfbuzz 'latn'
+		sub @EndofAyah' lookup Ayah_3 @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small;
+		sub @EndofAyah' lookup Ayah_2 @Digits' lookup digit_small @Digits' lookup digit_small;
+		sub @EndofAyah @Digits' lookup digit_small;
+
+		sub number-ar' lookup number-ar_3 @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small;
+		sub number-ar' lookup number-ar_2 @Digits' lookup digit_small @Digits' lookup digit_small;
+		sub number-ar @Digits' lookup digit_small;
+
+		# HarfBuzz 'arab'
+		sub @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small @EndofAyah' lookup Ayah_3;
+		sub @Digits' lookup digit_small @Digits' lookup digit_small @EndofAyah' lookup Ayah_2;
+		sub @Digits' lookup digit_small @EndofAyah;
+
+		sub @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small number-ar' lookup number-ar_3;
+		sub @Digits' lookup digit_small @Digits' lookup digit_small number-ar' lookup number-ar_2;
+		sub @Digits' lookup digit_small number-ar;
+} liga ;
+
 # digits
 feature pnum {
   sub @Digits_latn by @Digits_pnum;
 } pnum;
 
+feature frac {
+	sub one slash four by onequarter;
+	sub one slash two by onehalf;
+	sub three slash four by threequarters;
+} frac;
 
 
 #************************************************************
