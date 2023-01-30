@@ -305,11 +305,11 @@
     <string>alef-ar.high.ss08</string>
     <string>alef-ar.fina</string>
     <string>alef-ar.fina.short</string>
-    <string>alef-ar.wide.fina</string>
-    <string>alef-ar.wideshort.fina</string>
+    <string>alef-ar.fina.wide</string>
+    <string>alef-ar.fina.wideshort</string>
     <string>alef-ar.fina.low</string>
-    <string>alef-ar.wide.fina.low</string>
-    <string>alef-ar.wideshort.fina.low</string>
+    <string>alef-ar.fina.wide.low</string>
+    <string>alef-ar.fina.wideshort.low</string>
     <string>alefHamzaabove-ar</string>
     <string>alefHamzaabove-ar.fina</string>
     <string>alefHamzabelow-ar</string>
@@ -1309,11 +1309,11 @@
     <string>alef-ar.high.ss08</string>
     <string>alef-ar.fina</string>
     <string>alef-ar.fina.short</string>
-    <string>alef-ar.wide.fina</string>
-    <string>alef-ar.wideshort.fina</string>
+    <string>alef-ar.fina.wide</string>
+    <string>alef-ar.fina.wideshort</string>
     <string>alef-ar.fina.low</string>
-    <string>alef-ar.wide.fina.low</string>
-    <string>alef-ar.wideshort.fina.low</string>
+    <string>alef-ar.fina.wide.low</string>
+    <string>alef-ar.fina.wideshort.low</string>
     <string>alefHamzaabove-ar</string>
     <string>alefHamzaabove-ar.fina</string>
     <string>alefHamzabelow-ar</string>
@@ -2140,6 +2140,14 @@
     <string>uni0627.fina.low</string>
     <key>alef-ar.fina.short</key>
     <string>uni0627.fina.short</string>
+    <key>alef-ar.fina.wide</key>
+    <string>uni0627.fina.wide</string>
+    <key>alef-ar.fina.wide.low</key>
+    <string>uni0627.fina.wide.low</string>
+    <key>alef-ar.fina.wideshort</key>
+    <string>uni0627.fina.wideshort</string>
+    <key>alef-ar.fina.wideshort.low</key>
+    <string>uni0627.fina.wideshort.low</string>
     <key>alef-ar.high</key>
     <string>uni0627.high</string>
     <key>alef-ar.high.ss08</key>
@@ -2150,16 +2158,8 @@
     <string>uni0627.ss08</string>
     <key>alef-ar.wide</key>
     <string>uni0627.wide</string>
-    <key>alef-ar.wide.fina</key>
-    <string>uni0627.wide.fina</string>
-    <key>alef-ar.wide.fina.low</key>
-    <string>uni0627.wide.fina.low</string>
     <key>alef-ar.wideshort</key>
     <string>uni0627.wideshort</string>
-    <key>alef-ar.wideshort.fina</key>
-    <string>uni0627.wideshort.fina</string>
-    <key>alef-ar.wideshort.fina.low</key>
-    <string>uni0627.wideshort.fina.low</string>
     <key>alefFathaattached-ar</key>
     <string>uni0870</string>
     <key>alefFathaattached-ar.fina</key>

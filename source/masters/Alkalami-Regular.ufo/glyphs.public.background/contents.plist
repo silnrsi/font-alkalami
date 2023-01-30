@@ -100,22 +100,22 @@
   <string>alef-ar.fina.allah.glif</string>
   <key>alef-ar.fina.low</key>
   <string>alef-ar.fina.low.glif</string>
+  <key>alef-ar.fina.wide</key>
+  <string>alef-ar.fina.wide.glif</string>
+  <key>alef-ar.fina.wide.low</key>
+  <string>alef-ar.fina.wide.low.glif</string>
+  <key>alef-ar.fina.wideshort</key>
+  <string>alef-ar.fina.wideshort.glif</string>
+  <key>alef-ar.fina.wideshort.low</key>
+  <string>alef-ar.fina.wideshort.low.glif</string>
   <key>alef-ar.high</key>
   <string>alef-ar.high.glif</string>
   <key>alef-ar.ss08</key>
   <string>alef-ar.ss08.glif</string>
   <key>alef-ar.wide</key>
   <string>alef-ar.wide.glif</string>
-  <key>alef-ar.wide.fina</key>
-  <string>alef-ar.wide.fina.glif</string>
-  <key>alef-ar.wide.fina.low</key>
-  <string>alef-ar.wide.fina.low.glif</string>
   <key>alef-ar.wideshort</key>
   <string>alef-ar.wideshort.glif</string>
-  <key>alef-ar.wideshort.fina</key>
-  <string>alef-ar.wideshort.fina.glif</string>
-  <key>alef-ar.wideshort.fina.low</key>
-  <string>alef-ar.wideshort.fina.low.glif</string>
   <key>alefHamzaabove-ar.fina</key>
   <string>alefH_amzaabove-ar.fina.glif</string>
   <key>alefHamzaabove-ar.fina.allah</key>
