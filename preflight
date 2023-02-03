@@ -22,7 +22,7 @@ echo "Updating woff metadata files..."
 psfmakewoffmetadata -q -n  Alkalami        -i org.sil.fonts source/masters/*-Regular.ufo  -o "source/Alkalami-WOFF-metadata.xml"
 
 echo "Building internal fea..."
-psfmakefea -q -o source/masters/Alkalami-Regular.ufo/features.fea -l Alkalami-Regular-psfmakefea.log -i source/opentype/master.feax --omitaps "topright, ogonek, caret_1, caret_2, caret_3, top_3, top_4, top_alef" source/masters/*-Regular.ufo &
+psfmakefea -q -o source/masters/Alkalami-Regular.ufo/features.fea -l Alkalami-Regular-psfmakefea.log -i source/opentype/main.feax --omitaps "topright, ogonek, caret_1, caret_2, caret_3, top_3, top_4, top_alef" source/masters/*-Regular.ufo &
 wait
 
 echo "preflight completed!"

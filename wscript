@@ -35,7 +35,7 @@ designspace('source/Alkalami.designspace',
     ap = generated + '${DS:FILENAME_BASE}.xml',
     opentype = fea('generated/${DS:FILENAME_BASE}.fea',
         mapfile = 'generated/${DS:FILENAME_BASE}.map',
-        master = 'source/opentype/master.feax',
+        master = 'source/opentype/main.feax',
         make_params = OMITAPS
     ),
     script = ['arab'],

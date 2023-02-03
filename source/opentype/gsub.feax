@@ -1,0 +1,939 @@
+#**********************************
+# This file is part of Alkalami font family (http://software.sil.org/alkalami/) 
+# and is Copyright (c) 2015-2023 SIL International (http://www.sil.org/),
+# with Reserved Font Names "Alkalami" and "SIL".
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1.
+#
+# You should have received a copy of the license along with this Font Software.
+# If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+# details including an FAQ.
+#**********************************
+
+#**********************************
+#  Language Systems
+#**********************************
+
+languagesystem DFLT dflt ;
+languagesystem arab dflt ;
+languagesystem arab HAU  ;    # Hausa
+languagesystem latn dflt ;
+
+@MarksAbove = [@_top] ;
+@MarksBelow = [@_bottom] ;
+@MarksAny = [@_top @_bottom] ;
+
+
+
+# Notes:
+#   The lookups and then the features are arranged and grouped into ordered passes
+#   as the rendering engines (esp Harfbuzz) will execute them.
+#   The boundaries between passes are indicated by the comment
+#       # HB PAUSE
+#   in the code.
+
+
+#**********************************
+# GSUB (Subtitution) lookups
+#**********************************
+
+#---  rtlm feature  ---
+
+lookup Mirror {
+  lookupflag IgnoreMarks ;
+    sub @cno_rtl by @c_rtl ;
+} Mirror;
+
+# HB PAUSE
+
+#---  ccmp feature  ---
+
+# Font rendering check
+#
+# The following three lookups change "RenderingUnknown" to "RenderingOpenType"
+
+lookup FontCheck_Unknow {
+  lookupflag IgnoreMarks;
+    sub [U n k o w ] by [O p e T y];
+} FontCheck_Unknow;
+
+lookup FontCheck_n {
+  lookupflag IgnoreMarks;
+    sub n by p e;
+} FontCheck_n;
+
+lookup FontCheck {
+  lookupflag IgnoreMarks ;
+    sub [R] e n d e r i n g 
+      U' lookup FontCheck_Unknow 
+      n' lookup FontCheck_Unknow
+      k' lookup FontCheck_Unknow
+      n'  
+      o' lookup FontCheck_Unknow 
+      w' lookup FontCheck_Unknow 
+      n' lookup FontCheck_n;
+} FontCheck;
+
+# CHECK other fonts have reorder madda
+
+# Subtending Mark lookups
+# End of Ayah digits and number-ar - calt
+lookup digit_small {
+  sub @Digits by @Digits.small;
+} digit_small;
+
+# replace single digit Ayah with double digit Ayah - calt
+lookup Ayah_2 {
+	sub endofayah-ar by endofayah-ar.2;
+} Ayah_2;
+
+#replace single digit Ayah with triple digit Ayah - calt
+lookup Ayah_3 {
+	sub endofayah-ar by endofayah-ar.3;
+} Ayah_3;
+
+# replace single digit number-ar with double digit number-ar - calt
+lookup number-ar_2 {
+	sub number-ar by number-ar.2;
+} number-ar_2;
+
+#replace single digit number-ar with triple digit number-ar - calt
+lookup number-ar_3 {
+	sub number-ar by number-ar.3;
+} number-ar_3;
+
+# make the lam-alef ligature have colored hamzas if wanted
+# not used?? - I guess because it is toothbrush style
+lookup splitAlefHamza {
+	sub alefHamzaabove-ar by alef-ar hamzaabove-ar;
+	sub alefHamzabelow-ar by alef-ar hamzabelow-ar;
+} splitAlefHamza;
+
+# make alef into alef.wide
+lookup alef2wide {
+	sub alef-ar by alef-ar.wide;
+} alef2wide;
+
+# make alef into alef.wideshort
+lookup alef2wideshort {
+	sub alef-ar by alef-ar.wideshort;
+} alef2wideshort;
+
+# make combining hamza a hamza nostem
+lookup hamza2nostem {
+	sub [ hamzaabove-ar hamzabelow-ar ] by [hamzaabove-ar.nostem hamzabelow-ar.nostem ];
+} hamza2nostem;
+
+# Make only ss08 effect only fatha, kasra, and damma.ss08.
+# (No special forms are needed for fatha and kasra.)
+lookup ss08_aux {
+	sub [ alef-ar alef-ar.high damma-ar ] by [ alef-ar.ss08 alef-ar.high.ss08 damma-ar.ss08 ];
+	#sub alef-ar.high by alef-ar.high.ss08;
+	#sub damma-ar by damma-ar.ss08;
+} ss08_aux;
+
+
+# .medi.stack - lower AP on left and higher on right; glyph to the right is positioned higher
+#				(identical to .medi)
+# .medi.low - glyph is positioned lower with APs at 0; connects to lowered final
+# .medi.ss07 - flat form with APs at 0; glyph to the right is positioned at the same level
+
+# Simple lowered final jeem - flatten chars that do not stack above hah finals.
+lookup prehah_alt {
+	lookupflag IgnoreMarks;
+
+	sub @pre_hah_not_flat'  @hahMedials by  @pre_hah_flat;  #####
+	sub @pre_hah_not_flat'  @hahFinals  by  @pre_hah_flat;
+} prehah_alt;
+
+# Simple lowered final jeem - using the lowered form.
+lookup hahfinal_alt {
+	lookupflag IgnoreMarks;
+
+	sub @pre_hah_flat  @hahFinals'  by  @hahFinals_alt;
+} hahfinal_alt;
+
+
+# Create the stacking effect in the jeems.
+lookup shift_pre_hah {
+	lookupflag IgnoreMarks;
+
+	# Case 1 - init jeem jeem - push up
+	sub  @pre_hah_shift_up_init  @hahMedials  @hahMedials'  by  @hahMedials_stack;
+	sub  @pre_hah_shift_up_init  @hahMedials'  @hahMedials_stack  by  @hahMedials_stack;
+
+	# Case 2: init medi jeem jeem - push up
+	sub  @pre_hah_shift_up_init  @pre_hah_shift_up_medi  @hahMedials'  by  @hahMedials_stack;
+
+	# Case 3: init medi medi jeem jeem - push up
+	sub  @pre_hah_shift_up_init  @pre_hah_shift_up_medi  @pre_hah_shift_up_medi  @hahMedials'  by  @hahMedials_stack;
+
+	# Case 4: init jeem - push up
+	sub  @pre_hah_shift_up_init  @hahMedials'  by  @hahMedials_stack;
+	
+	# Continue the stack...Do you ever have more than two .stack forms in a row? I think not...
+	sub  @hahMedials_stack  @hahMedials'  by  @hahMedials_stack;
+	
+} shift_pre_hah;
+
+# Lower final jeems after stacking and/or certain finals that should be lowered.
+lookup shift_post_hah {
+	lookupflag IgnoreMarks;
+	
+	# Case 5: shift final down:
+	ignore sub @pre_hah_shift_up_init  @hahMedi_any  @hahMedi_any'      @post_hah_final_toShift;  # short word
+	sub                                @hahMedi_any  @hahMedials'       @post_hah_final_toShift  by  @hahMedials_low ;
+	sub                                @hahMedi_any  @hahMedials_stack' @post_hah_final_toShift  by  @hahMedials_low ;
+	
+	# Case 6: shift final down
+	ignore sub @pre_hah_shift_up_init  @pre_hah_shift_up_medi  @hahMedi_any'      @post_hah_final_toShift;  # short word
+	sub                                @pre_hah_shift_up_medi  @hahMedials'       @post_hah_final_toShift  by  @hahMedials_low;
+	sub                                @pre_hah_shift_up_medi  @hahMedials_stack' @post_hah_final_toShift  by  @hahMedials_low;
+
+	# Cases 5 & 6, step 2:
+	sub @hahMedials_low  @post_hah_final_toShift'  by  @post_hah_final_low;
+	
+} shift_post_hah;
+
+
+# Flatten glyphs that precede a stack.
+lookup flatten_pre_hah {
+	lookupflag IgnoreMarks;
+
+	sub @pre_hah_not_flat'  @hahMedials_stack  by  @pre_hah_flat;  # or should this be hahMedi_any ??????????
+} flatten_pre_hah;
+
+
+lookup no_change {  # for chaining lookups
+	ignore sub  @pre_hah_flat;
+	ignore sub  @hahMedi_any;
+} no_change;
+
+lookup flatten_hah_aux {  # for chaining lookups
+	sub @cno_ss07  by  @c_ss07;
+	sub @hahMedials_stack by @hahMedials_flat;
+} flatten_hah_aux;
+
+
+# Flatten long jeem sequences - what these situations are is hard to describe. :-)
+lookup flatten_hah {
+	lookupflag IgnoreMarks;
+	
+	# Case 7:
+	ignore sub  @c_init  @hahMedi_any';  # short sequence
+	
+	# flat jeem jeem jeem.low - don't flatten first jeem, it will make the prior flat form attach too low.
+	sub @pre_hah_flat' lookup no_change  @hahMedi_any' lookup no_change  @hahMedi_any' lookup flatten_hah_aux;
+	
+	# Case 8: flatten jeems
+	sub  @hahMedi_any' lookup flatten_hah_aux  @hahMedi_any  [ @post_hah_final_low @hahMedials_low @hahFinals ];
+	
+	# Case 8a: continue to flatten jeems
+	sub  @hahMedials_flat  @hahMedi_any' lookup flatten_hah_aux;
+
+} flatten_hah;
+
+
+lookup cursive_exit_entry {
+  lookupflag IgnoreMarks RightToLeft;
+  pos cursive @entry @exit;
+} cursive_exit_entry;
+
+
+lookup kern_SubtendingMarks {
+	# contextually kern the sign with digits so they are enclosed
+
+	# Uniscribe or HarfBuzz 'latn'
+	pos @EndofAyah3 @Digits.small' <-1375 0 -275 0> @Digits.small' <-1100 0 -300 0> @Digits.small' <-800 0 -350 0>;
+	pos @EndofAyah2 @Digits.small' <-1100 0 -300 0> @Digits.small' <-800 0 -350 0>;
+	pos @EndofAyah  @Digits.small' <-800 0 -350 0>;
+
+	pos number-ar.3 @Digits.small' <-1525 190 -275 0> @Digits.small' <-1250 190 -300 0> @Digits.small' <-975 190 -350 0>;
+	pos number-ar.2 @Digits.small' <-1200 190 -300 0> @Digits.small' <-900 190 -350 0>;
+	pos number-ar   @Digits.small'  <-825 190 -350 0>;
+
+	# HarfBuzz 'arab'
+	pos @Digits.small' <-800 0 -350 0> @Digits.small' <-1100 0 -300 0> @Digits.small' <-1375 0 -275 0> @EndofAyah3;
+	pos @Digits.small' <-800 0 -350 0> @Digits.small' <-1100 0 -300 0> @EndofAyah2;
+	pos @Digits.small' <-800 0 -350 0> @EndofAyah;
+
+	pos @Digits.small' <-975 190 -350 0> @Digits.small' <-1250 190 -300 0> @Digits.small' <-1525 190 -275 0> number-ar.3;
+	pos @Digits.small' <-900 190 -350 0> @Digits.small' <-1200 190 -300 0> number-ar.2;
+	pos @Digits.small' <-825 190 -350 0> number-ar;
+
+} kern_SubtendingMarks;
+
+
+# Attachment needs to happen after stacking hah forms.
+
+lookup MarkToLig {
+  lookupflag 0;
+    pos ligature @LamAlefLig            @top_1 mark @_top    @bottom_1 mark @_bottom
+              ligComponent              @top_2 mark @_top    @bottom_2 mark @_bottom;
+} MarkToLig;
+
+lookup attachBaseMark {
+	lookupflag 0;
+
+	pos base @top       mark @_top;
+	pos base @bottom    mark @_bottom;
+	pos base @center    mark @_center;
+
+#	pos base @topright  mark @_topright;
+#	pos base @ogonek    mark @_ogonek;
+
+#	pos base @caret_1   mark @_caret_1;
+#	pos base @caret_2   mark @_caret_2;
+#	pos base @caret_3   mark @_caret_3;
+
+#	pos base @top_1     mark @_top_1;
+#	pos base @top_2     mark @_top_2;
+#	pos base @top_3     mark @_top_3;
+#	pos base @top_4     mark @_top_4;
+
+#	pos base @top_alef  mark @_top_alef;
+
+#	pos base @bottom_1  mark @_bottom_1;
+#	pos base @bottom_2  mark @_bottom_2;
+
+} attachBaseMark;
+
+
+@allBottomMarks = [ @_bottom  @bottom_MarkBase ];
+@allTopMarks    = [ @top      @top_MarkBase ];
+
+lookup attachTopMarkMark {
+	lookupflag UseMarkFilteringSet @allTopMarks;
+	
+	pos mark @top_MarkBase    mark @_top;
+} attachTopMarkMark;
+
+lookup attachBottomMarkMark {
+	lookupflag UseMarkFilteringSet @allBottomMarks;
+	
+	pos mark @bottom_MarkBase mark @_bottom;
+} attachBottomMarkMark;
+
+
+#**********************************
+#  GSUB FEATURES
+#**********************************
+
+# These are intended to be arranged in the order MS & HB engines execute.
+
+#---  ltrm feature  ---
+
+feature ltrm {
+	#script latn;
+		sub @c_rtl by @cno_rtl;
+} ltrm;
+
+# HB PAUSE
+
+#---  rtlm feature  ---
+
+feature rtlm {  # Right-To-Left Mirrored Forms
+    lookup Mirror;
+} rtlm ;
+
+# HB PAUSE
+
+#---  frac feature  ---
+
+feature frac {
+	sub one slash four by onequarter;
+	sub one slash two by onehalf;
+	sub three slash four by threequarters;
+} frac;
+
+# HB PAUSE
+
+#---  ccmp feature  ---
+
+feature ccmp {
+
+  lookup FontCheck;
+
+	# Always split alefhamza (0623, 0625) so the hamza can be colored:
+	lookup ccmp_arab_1 {
+		script arab;
+			sub alefHamzaabove-ar by alef-ar hamzaabove-ar;
+			sub alefHamzabelow-ar by alef-ar hamzabelow-ar;
+	} ccmp_arab_1;
+
+	# change alef and hamza to connecting versions unless after lam
+	lookup ccmp_arab_3 {
+		# Ignore all marks except the combining hamzas
+		lookupflag UseMarkFilteringSet @hamzas;
+
+		# Ignore cases where alef is preceded by lam
+		ignore sub lam-ar alef-ar';
+
+		# but otherwise change alef and hamza to connecting version:
+		sub alef-ar' lookup alef2wide      hamzaabove-ar' lookup hamza2nostem;
+		sub alef-ar' lookup alef2wideshort hamzabelow-ar' lookup hamza2nostem;
+	} ccmp_arab_3;
+
+	# ligate pairs of marks to handle multiple orders
+	lookup ccmp_arab_4 {
+		lookupflag 0;
+
+		sub hamzaabove-ar  @takes_hamzaAbove  by  @with_hamzaAbove;
+		sub @takes_hamzaAbove hamzaabove-ar   by  @with_hamzaAbove;
+
+		sub hamzabelow-ar @takes_hamzaBelow  by  @with_hamzaBelow;
+		sub @takes_hamzaBelow hamzabelow-ar  by  @with_hamzaBelow;
+
+		sub shadda-ar @takes_shadda  by @with_shadda;
+		sub @takes_shadda shadda-ar  by @with_shadda;
+
+		sub fatha-ar alefabove-ar by fatha_alefabove-ar;
+		sub alefabove-ar fatha-ar by fatha_alefabove-ar;
+	} ccmp_arab_4;
+
+} ccmp;
+
+# HB PAUSE
+
+#---  locl feature  ---
+
+lookup HausaCALT {
+  lookupflag 0 ;
+    sub @cno_ss04 by @c_ss04;
+    sub @cno_ss09 by @c_ss09;
+} HausaCALT  ;
+
+lookup HausaCALT2 {
+ lookupflag 0 ;
+	sub [alef-ar alef-ar.high]' lookup ss08_aux [fatha-ar kasra-ar damma-ar]' lookup ss08_aux;
+} HausaCALT2  ;
+
+feature locl {
+	script arab;
+
+	lookup locl_lkp {
+		sub space by space-ar;
+		sub nbspace by nbspace-ar;
+	} locl_lkp;
+    language HAU ;
+} locl;	
+							
+# HB PAUSE
+
+#---  fina feature  ---
+								
+feature fina {
+	# automatic
+  script arab;
+	lookup fina_lkp {
+		sub [@DualLinkIsol @RightLinkIsol @RightLinkIsol_Alef]  by  [@DualLinkFina @RightLinkFina @RightLinkFina_Alef];
+	} fina_lkp;
+    language HAU ;
+} fina;
+
+# HB PAUSE
+
+#---  medi feature  ---
+
+feature medi {
+	# automatic
+  script arab;
+	lookup medi_lkp {
+		sub @DualLinkIsol  by  @DualLinkMedi;
+	} medi_lkp;
+    language HAU ;
+} medi;
+
+# HB PAUSE
+
+#---  init feature  ---
+
+feature init {
+	# automatic
+  script arab;
+	  lookup init_lkp {
+		  sub @DualLinkIsol  by  @DualLinkInit;
+	  } init_lkp;
+    language HAU ;
+} init;
+
+# HB PAUSE
+
+#---  rlig feature  ---
+
+
+#********
+# Allah "ligature" (implemented by variant forms for glyphs rather than by ligature glyph):
+
+lookup _AllahSub_Alef {
+    sub @AlefNoAllah  by  @AlefAllah;
+} _AllahSub_Alef;
+
+lookup _AllahSub_Lam1 {
+    sub @Lam1NoAllah  by  @Lam1Allah;
+} _AllahSub_Lam1;
+
+lookup _AllahSub_Lam2 {
+    sub lam-ar.medi     by lam-ar.medi.allah2;
+} _AllahSub_Lam2;
+
+lookup _AllahSub_Lam2_insertSA {    # insert shadda-alef
+  lookupflag 0;
+    sub lam-ar.medi  by  lam-ar.medi.allah2  shadda_alef-ar ;
+} _AllahSub_Lam2_insertSA;
+
+lookup _AllahSub_Heh {
+    sub @HehNoAllah  by  @HehAllah;
+} _AllahSub_Heh;
+
+lookup _AllahSub_Shadda_insertA {
+		sub shadda-ar     by   shadda_alef-ar;
+} _AllahSub_Shadda_insertA;
+
+
+# Note:
+# The shadda-alef ligature is created later in a separate lookup - ShaddaAlefLigatures.
+# Also the special form of the alef is created later (except in the case of Rule 3) - lookup AllahAlef -
+# in order to allow for the lam-alef ligature exception.
+
+lookup AllahLigatures {
+  lookupflag 0;
+    # Rule 3a: alefIso-lam-lam-heh (no shadda-alef)
+    sub @AlefNoAllahIsol'   lookup _AllahSub_Alef
+        lam-ar.init'        lookup _AllahSub_Lam1
+        lam-ar.medi'        lookup _AllahSub_Lam2_insertSA
+        @HehNoAllah'        lookup _AllahSub_Heh;
+        
+    sub @AlefNoAllahIsol'   lookup _AllahSub_Alef
+        @MarksAny'
+        lam-ar.init'        lookup _AllahSub_Lam1
+        lam-ar.medi'        lookup _AllahSub_Lam2_insertSA
+        @HehNoAllah'        lookup _AllahSub_Heh;
+        
+    sub @AlefNoAllahIsol'   lookup _AllahSub_Alef
+        @MarksAny' 
+        @MarksAny'
+        lam-ar.init'        lookup _AllahSub_Lam1
+        lam-ar.medi'        lookup _AllahSub_Lam2_insertSA
+        @HehNoAllah'        lookup _AllahSub_Heh;
+    
+    #Rule 3b: alefIso-lam-kasra-lam-heh (no shadda-alef)
+    sub @AlefNoAllahIsol'   lookup _AllahSub_Alef
+        lam-ar.init'        lookup _AllahSub_Lam1
+    		kasra-ar'
+        lam-ar.medi'        lookup _AllahSub_Lam2_insertSA
+        @HehNoAllah'        lookup _AllahSub_Heh;
+        
+    sub @AlefNoAllahIsol'   lookup _AllahSub_Alef
+        @MarksAny'
+        lam-ar.init'        lookup _AllahSub_Lam1
+    		kasra-ar'
+        lam-ar.medi'        lookup _AllahSub_Lam2_insertSA
+        @HehNoAllah'        lookup _AllahSub_Heh;
+        
+    sub @AlefNoAllahIsol'   lookup _AllahSub_Alef
+        @MarksAny' 
+        @MarksAny'
+        lam-ar.init'        lookup _AllahSub_Lam1
+    		kasra-ar'
+        lam-ar.medi'        lookup _AllahSub_Lam2_insertSA
+        @HehNoAllah'        lookup _AllahSub_Heh;
+        
+    # Rule 2: lam-lam-shadda-heh
+
+    sub @Lam1NoAllah'            lookup _AllahSub_Lam1
+        lam-ar.medi'             lookup _AllahSub_Lam2
+        [shadda_alef-ar shadda_fatha-ar]'	# Alkalami: these ligs are already created
+        @HehNoAllah'             lookup _AllahSub_Heh;
+        
+    sub @Lam1NoAllah'            lookup _AllahSub_Lam1
+        lam-ar.medi'             lookup _AllahSub_Lam2
+        shadda-ar'
+        [alefabove-ar fatha-ar]'
+        @HehNoAllah'             lookup _AllahSub_Heh;
+        
+    sub @Lam1NoAllah'            lookup _AllahSub_Lam1
+        lam-ar.medi'             lookup _AllahSub_Lam2
+        [alefabove-ar fatha-ar]'
+        shadda-ar'
+        @HehNoAllah'             lookup _AllahSub_Heh;
+        
+    sub @Lam1NoAllah'            lookup _AllahSub_Lam1
+        lam-ar.medi'             lookup _AllahSub_Lam2
+        shadda-ar'               lookup _AllahSub_Shadda_insertA
+        @HehNoAllah'             lookup _AllahSub_Heh;
+        
+    # Rule 2b: lam-kasra-lam-shadda-heh
+    sub @Lam1NoAllah'            lookup _AllahSub_Lam1
+        kasra-ar'
+        lam-ar.medi'             lookup _AllahSub_Lam2
+        [shadda_alef-ar shadda_fatha-ar]'	   # Alkalami: these ligs are already created
+        @HehNoAllah'             lookup _AllahSub_Heh;
+        
+    sub @Lam1NoAllah'            lookup _AllahSub_Lam1
+    		kasra-ar'
+        lam-ar.medi'             lookup _AllahSub_Lam2
+        shadda-ar'
+        [alefabove-ar fatha-ar]'
+        @HehNoAllah'             lookup _AllahSub_Heh;
+        
+    sub @Lam1NoAllah'            lookup _AllahSub_Lam1
+    		kasra-ar'
+        lam-ar.medi'             lookup _AllahSub_Lam2
+        [alefabove-ar fatha-ar]'
+        shadda-ar'
+        @HehNoAllah'             lookup _AllahSub_Heh;
+        
+    sub @Lam1NoAllah'            lookup _AllahSub_Lam1
+    		kasra-ar'
+        lam-ar.medi'             lookup _AllahSub_Lam2
+        shadda-ar'               lookup _AllahSub_Shadda_insertA
+        @HehNoAllah'             lookup _AllahSub_Heh;
+        
+} AllahLigatures;
+
+
+lookup LamAlefLigatures {
+	lookupflag IgnoreMarks RightToLeft;
+
+	sub lam-ar.init alef-ar.fina by lam_alef-ar;
+	sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
+	sub lam-ar.init alefHamzaabove-ar.fina by lam_alefHamzaabove-ar;
+	sub lam-ar.medi alefHamzaabove-ar.fina by lam_alefHamzaabove-ar.fina;
+	sub lam-ar.init alefHamzabelow-ar.fina by lam_alefHamzabelow-ar;
+	sub lam-ar.medi alefHamzabelow-ar.fina by lam_alefHamzabelow-ar.fina;
+	sub lam-ar.init alefMadda-ar.fina by lam_alefMadda-ar;
+	sub lam-ar.medi alefMadda-ar.fina by lam_alefMadda-ar.fina;
+} LamAlefLigatures;
+
+# Must be after LamAlefLigatures
+lookup AllahAlef {  # clean up: make sure alef is correct form for Allah
+	lookupflag IgnoreMarks;
+		sub @AlefNoAllah'  lam-ar.init.allah1  by  @AlefAllah;
+} AllahAlef;
+
+feature rlig {
+  lookup AllahLigatures;
+	lookup LamAlefLigatures;
+	# Must be after LamAlefLigatures:
+	lookup AllahAlef;
+} rlig;
+
+# HB PAUSE
+
+#---  calt feature  ---
+
+feature calt {
+  script arab;
+	lookup calt_lkp1 {
+		lookupflag IgnoreMarks;
+
+		# Slightly shorter tail for yeh-barree before beh/yeh/noon forms:
+		sub @pre_yb_need_alt  yehbarree-ar.fina'  by  yehbarree-ar.fina.alt;
+	} calt_lkp1;
+	
+	# Can these be moved down with the other jeem/hah lookups?
+	lookup prehah_alt;
+	lookup hahfinal_alt;
+
+	lookup calt_lkp2 {
+		lookupflag IgnoreMarks;
+		# subs to avoid collisions in strings with dal-ar (rule 1)
+		sub @seenIsol space-ar @dalIsol' by @dalIsol_alt;
+
+		# subs to avoid collisions in strings with seen-ar (rules 2-8 , 6-7 not working)
+		sub @seenIsol' space-ar @seenInit @wawFina by @seenIsol_shrtail;
+		sub @seenIsol' space-ar @behInit by @seenIsol_longtail;
+		sub @seenFina' space-ar @behInit by @seenFina_longtail;
+		sub @seenFina' space-ar @seenInit @wawFina by @seenFina_shrtail;
+		sub @seenFina' space-ar alefHamzabelow-ar @rehIsol by @seenFina_longtail;
+		sub @seenFina' space-ar alefHamzaabove-ar @wawIsol by @seenFina_longtail;
+		sub @seenFina' space-ar @ainIsol by @seenFina_longtail;
+		
+		# subs to avoid collisions in strings with yeh-ar (rules 9-14)
+		sub @yehIsol' comma-ar space-ar @wawIsol by @yehIsol_shrtail;
+		sub @yehIsol' space-ar @wawIsol by @yehIsol_longtail;
+		sub @yehFina' space-ar lam-ar.init reh-ar.fina by @yehFina_shrtail;
+		sub @yehFina' space-ar @ainIsol by @yehFina_shrtail;
+		sub @yehFina' space-ar @rehIsol by @yehFina_longtail;
+		sub @yehFina' space-ar @wawIsol by @yehFina_longtail;
+
+		# subs to avoid collisions in strings with noon-ar (rules 15-36)
+		sub @noonIsol' space-ar @seenIsol by @noonIsol_longtail;
+		sub @noonIsol' space-ar teh-ar.init @wawFina by @noonIsol_longtail;
+		sub @noonIsol' space-ar teh-ar.init @noonFina by @noonIsol_longtail;
+		sub @noonIsol' space-ar theh-ar.init @noonFina by @noonIsol_longtail;
+		sub @noonIsol' space-ar @dalIsol @wawIsol by @noonIsol_longtail;
+		sub @noonIsol' space-ar @behIsol by @noonIsol_longtail;
+		sub @noonIsol' space-ar @behInit by @noonIsol_longtail;
+		sub @noonIsol' space-ar @noonInit @noonFina by @noonIsol_longtail;
+		sub @noonIsol' space-ar @seenInit @wawFina by @noonIsol_longtail;
+		sub @noonIsol' space-ar @seenInit @noonFina by @noonIsol_longtail;
+		sub @noonIsol' space-ar @rehIsol by @noonIsol_longtail;
+		sub @noonFina' space-ar teh-ar.init @wawFina by @noonFina_longtail;
+		sub @noonFina' space-ar @dalIsol @wawIsol by @noonFina_longtail;
+		sub @noonFina' space-ar @behInit by @noonFina_longtail;
+		sub @noonFina' space-ar @behIsol by @noonFina_longtail;
+		sub @noonFina' space-ar @seenInit @wawFina by @noonFina_shrtail;
+		sub @noonFina' space-ar @seenInit @noonFina by @noonFina_shrtail;
+		sub @noonFina' space-ar @rehIsol by @noonFina_longtail;
+		sub @noonFina' space-ar @seenIsol by @noonFina_longtail;
+		sub @noonFina' space-ar teh-ar.init @noonFina by @noonFina_longtail;
+		sub @noonFina' space-ar theh-ar.init @noonFina by @noonFina_longtail;
+		sub @noonFina' space-ar @noonInit @noonFina by @noonFina_longtail;
+
+		# subs to avoid collisions in strings with waw-ar (rules 37-38)
+		sub @noonIsol space-ar @wawIsol' by @wawIsol_alt;
+		sub @noonFina space-ar @wawIsol' by @wawIsol_alt;
+
+		#subs to get a short, high lam-ar.init with jeem/hah/khah (rule 39)
+		sub lam-ar.init' @hahMedi_any  by  lam-ar.init.high;
+
+		#subs to get a short, high alef-ar.init with lam followed by jeem/hah/khah (rule 40)
+		sub alef-ar' lam-ar.init @hahMedi_any  by  alef-ar.high;
+		sub alef-ar.ss08' lam-ar.init @hahMedi_any  by  alef-ar.high.ss08;
+
+	} calt_lkp2;
+
+	# Create stacking jeem/hah behavior
+	lookup shift_pre_hah;
+	lookup shift_post_hah;
+	lookup flatten_pre_hah;
+	lookup flatten_hah;
+
+  language HAU ; # Hausa
+     lookup HausaCALT ;
+     lookup HausaCALT2 ;
+} calt;
+
+# HB PAUSE
+
+#********************
+# all remaining substitution features (dlig,salt, ssxx, liga, aalt):
+#********************
+
+feature dlig {
+  script latn;
+	sub f [i  l] by [fi  fl];
+} dlig;
+
+# HB PAUSE
+
+#---  salt feature  ---
+
+feature salt {
+	lookup salt_lkp {
+		# It seems that InDesign requires these to be in salt in order to select the alternates.
+		sub behDotless-ar.medi by behDotless-ar.medi.flat;
+		sub beh-ar.medi by beh-ar.medi.flat;
+		sub peh-ar.medi by peh-ar.medi.flat;
+		sub beeh-ar.medi by beeh-ar.medi.flat;
+		sub alefMaksura-ar.medi by alefMaksura-ar.medi.flat;
+		sub teh-ar.medi by teh-ar.medi.flat;
+		sub tehThreedotsdown-ar.medi by tehThreedotsdown-ar.medi.flat;
+		sub theh-ar.medi by theh-ar.medi.flat;
+		sub behThreedotsupbelow-ar.medi by behThreedotsupbelow-ar.medi.flat;
+		sub behVinvertedbelow-ar.medi by behVinvertedbelow-ar.medi.flat;
+		sub behVabove-ar.medi by behVabove-ar.medi.flat;
+		sub behVbelow-ar.medi by behVbelow-ar.medi.flat;
+		sub behhamzaabove-ar.medi by behhamzaabove-ar.medi.flat;
+		sub seen-ar.medi by seen-ar.medi.flat;
+		sub sheen-ar.medi by sheen-ar.medi.flat;
+		sub sad-ar.medi by sad-ar.medi.flat;
+		sub sad-ar.init by sad-ar.init.flat;
+		sub dad-ar.medi by dad-ar.medi.flat;
+		sub dad-ar.init by dad-ar.init.flat;
+		sub ainThreedots-ar.medi by ainThreedots-ar.medi.flat;
+		sub ainTwodotshorizontalabove-ar.medi by ainTwodotshorizontalabove-ar.medi.flat;
+		sub ghain-ar.medi by ghain-ar.medi.flat;
+		sub lam-ar.medi by lam-ar.medi.flat;
+		sub meem-ar.medi by meem-ar.medi.flat;
+		sub meem-ar.init by meem-ar.init.flat;
+		sub noon-ar.medi by noon-ar.medi.flat;
+		sub noonghunna-ar.medi by noonghunna-ar.medi.flat;
+		sub noonTwodotsbelow-ar.medi by noonTwodotsbelow-ar.medi.flat;
+		sub noonAfrican-ar.medi by noonAfrican-ar.medi.flat;
+		sub yeh-ar.medi by yeh-ar.medi.flat;
+		sub yehTwodotsbelowHamzaabove-ar.medi by yehTwodotsbelowHamzaabove-ar.medi.flat;
+		sub yehTwodotsbelowDotabove-ar.medi by yehTwodotsbelowDotabove-ar.medi.flat;
+		sub yeh-farsi.medi by yeh-farsi.medi.flat;
+		sub e-ar.medi by e-ar.medi.flat;
+
+		# alternate stacking; handled by calt
+		sub jeem-ar.fina by jeem-ar.fina.alt;
+		sub nyeh-ar.fina by nyeh-ar.fina.alt;
+		sub hah-ar.fina by hah-ar.fina.alt;
+		sub khah-ar.fina by khah-ar.fina.alt;
+		sub dyeh-ar.fina by dyeh-ar.fina.alt;
+		sub jeemTwodotsabove-ar.fina by jeemTwodotsabove-ar.fina.alt;
+
+		# taller initial stroke - not used
+		sub beh-ar.init by beh-ar.init.alt;
+
+		# shorter tails - handled by calt
+		sub dal-ar by dal-ar.alt;
+		sub dal-ar.fina by dal-ar.fina.alt;   # currently not used
+		sub thal-ar by thal-ar.alt;
+		sub thal-ar.fina by thal-ar.fina.alt; # currently not used
+		sub sad-ar by sad-ar.alt;             # currently not used
+		sub sad-ar.fina by sad-ar.fina.alt;   # currently not used
+		sub dad-ar by dad-ar.alt;             # currently not used
+		sub dad-ar.fina by dad-ar.fina.alt;   # currently not used
+		sub @wawFina by @wawFina_alt;
+		sub yehbarree-ar.fina by yehbarree-ar.fina.alt;
+
+		# small latin and arabic digits for end of ayah - handled by calt
+		#sub @cno_numAlt by @c_numAlt;
+		#sub @cno_numArAlt by @c_numArAlt;
+	} salt_lkp;
+
+	# multiple tail swashes - handled by calt
+	lookup salt_lkp2 {
+		sub @c_tailStd  from  [@c_tailShort  @c_tailLong];
+	} salt_lkp2;
+
+} salt;
+
+#********************
+# End-of-ayah - double circles: ss02
+
+feature ss02 {
+	featureNames {
+		name 3 1 0x409 "End of ayah A";
+	};
+	lookup ss02_lkp {
+		sub @cno_ss02 by @c_ss02;
+	} ss02_lkp;
+} ss02;
+
+#********************
+# End-of-ayah - circle + square: ss03
+
+feature ss03 {
+	featureNames {
+		name 3 1 0x409 "End of ayah B";
+	};
+	lookup ss03_lkp {
+		sub @cno_ss03 by @c_ss03;
+	} ss03_lkp;
+} ss03;
+
+#********************
+# Imala e: ss04
+
+feature ss04 {
+	featureNames {
+		name 3 1 0x409 "Imala e";
+	};
+
+	lookup ss04_lkp {
+		lookupflag RightToLeft;
+
+		sub @cno_ss04 by @c_ss04;
+	} ss04_lkp;
+} ss04;
+
+
+#********************
+# No stacking jeem/hah: ss07
+
+feature ss07 {
+	featureNames {
+		name 3 1 0x409 "Jeem/hah";
+	};
+
+	# Basically undo the jeem stacking rules above. :-/
+	lookup ss07_lkp {
+		lookupflag IgnoreMarks;
+		
+		# flat jeem jeem - don't flatten first jeem, it will make the prior flat form attach too low.
+		
+		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @hahMedials_flat;  # already flattened
+		
+		sub @pre_hah_flat' lookup no_change  @hahMedi_any' lookup no_change;
+		
+		sub lam-ar.init.high  @hahMedials_stack'  lookup no_change;
+
+		sub @cno_ss07'    lookup flatten_hah_aux;
+    sub @hahMedi_any' lookup flatten_hah_aux;
+	} ss07_lkp;
+	
+	lookup ss07_lkp2 {
+		lookupflag IgnoreMarks;
+		
+		sub @post_hah_final_low'  by  @post_hah_final_toShift;
+		sub @hahMedials_low'      by  @hahMedials_flat;
+	} ss07_lkp2;
+} ss07;
+
+
+#********************
+# Alef + fatha/kasra/damma alternates: ss08
+
+feature ss08 {
+	featureNames {
+		name 3 1 0x409 "Alef diacritic placement";
+	};
+
+	lookup ss08_lkp {
+		sub [alef-ar alef-ar.high]' lookup ss08_aux [fatha-ar kasra-ar damma-ar]' lookup ss08_aux;
+	} ss08_lkp;
+} ss08;
+
+#********************
+# Wagaf small: ss09
+
+feature ss09 {
+	featureNames {
+		name 3 1 0x409 "Wagaf";
+	};
+
+	lookup ss09_lkp {
+		sub @cno_ss09 by @c_ss09;
+	} ss09_lkp;
+} ss09;
+
+feature liga {  
+    # Same for latin & arabic:
+		# replace sequence of digits, up to three places
+		# Uniscribe or Harfbuzz 'latn'
+		sub @EndofAyah' lookup Ayah_3 @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small;
+		sub @EndofAyah' lookup Ayah_2 @Digits' lookup digit_small @Digits' lookup digit_small;
+		sub @EndofAyah @Digits' lookup digit_small;
+
+		sub number-ar' lookup number-ar_3 @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small;
+		sub number-ar' lookup number-ar_2 @Digits' lookup digit_small @Digits' lookup digit_small;
+		sub number-ar @Digits' lookup digit_small;
+
+		# HarfBuzz 'arab'
+		sub @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small @EndofAyah' lookup Ayah_3;
+		sub @Digits' lookup digit_small @Digits' lookup digit_small @EndofAyah' lookup Ayah_2;
+		sub @Digits' lookup digit_small @EndofAyah;
+
+		sub @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small number-ar' lookup number-ar_3;
+		sub @Digits' lookup digit_small @Digits' lookup digit_small number-ar' lookup number-ar_2;
+		sub @Digits' lookup digit_small number-ar;
+} liga ;
+
+# digits
+feature pnum {
+  sub @Digits_latn by @Digits_pnum;
+} pnum;
+
+feature aalt {
+	feature ccmp;
+	feature locl;
+	feature frac;
+	feature rlig;
+	feature salt;
+	feature ss02;
+	feature ss03;
+	feature ss04;
+	feature ss07;
+	feature ss08;
+	feature ss09;
+	feature calt;
+	feature liga;
+} aalt;
+
+

@@ -1,0 +1,41 @@
+#**********************************
+# This file is part of Alkalami font family (http://software.sil.org/alkalami/) 
+# and is Copyright (c) 2015-2023 SIL International (http://www.sil.org/),
+# with Reserved Font Names "Alkalami" and "SIL".
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1.
+#
+# You should have received a copy of the license along with this Font Software.
+# If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+# details including an FAQ.
+#**********************************
+
+#****************************
+#****************************
+# GPOS (positioning) rules **
+#****************************
+#****************************
+
+# Note: we could possibly simplify the rules by removing the entry/exit APs from
+# the pre-hah flat forms (sad-ar.medi.flat, etc), since I BELIEVE they are always
+# on the baseline.
+
+feature curs {
+	lookup cursive_exit_entry;
+} curs;
+
+
+feature kern {
+	lookup kern_SubtendingMarks;
+} kern;
+
+
+# Attach marks last, so they get positioned correctly on glyphs that have been shifted up.
+
+feature mark {
+	lookup MarkToLig;
+	lookup attachBaseMark;
+	lookup attachTopMarkMark;
+	lookup attachBottomMarkMark;
+} mark;
+

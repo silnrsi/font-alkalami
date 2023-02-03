@@ -957,16 +957,16 @@ markClass damma-ar.ss08 <anchor 126 248> @_center;
 # details including an FAQ.
 #**********************************
 #**********************************
-#  Language Systems
+# This file is part of Alkalami font family (http://software.sil.org/alkalami/) 
+# and is Copyright (c) 2015-2023 SIL International (http://www.sil.org/),
+# with Reserved Font Names "Alkalami" and "SIL".
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1.
+#
+# You should have received a copy of the license along with this Font Software.
+# If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+# details including an FAQ.
 #**********************************
-languagesystem DFLT dflt;
-languagesystem arab dflt;
-languagesystem arab HAU;
-# Hausa
-languagesystem latn dflt;
-@MarksAbove = [@_top];
-@MarksBelow = [@_bottom];
-@MarksAny = [@_top @_bottom];
 #**********************************
 #  Classes
 #**********************************
@@ -1092,10 +1092,46 @@ languagesystem latn dflt;
 @c_tailStd = [@cno_longtail yehThreedotsabove-farsi.ss09 yehThreedotsabove-farsi.fina.ss09];
 @c_tailShort = [@c_shrtail yehThreedotsabove-farsi.shrtail.ss09 yehThreedotsabove-farsi.fina.shrtail.ss09];
 @c_tailLong = [@c_longtail yehThreedotsabove-farsi.longtail.ss09 yehThreedotsabove-farsi.fina.longtail.ss09];
-#************************************************************
-# STANDALONE LOOKUPS                                             *
-#************************************************************
-#********************
+#**********************************
+# This file is part of Alkalami font family (http://software.sil.org/alkalami/) 
+# and is Copyright (c) 2015-2023 SIL International (http://www.sil.org/),
+# with Reserved Font Names "Alkalami" and "SIL".
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1.
+#
+# You should have received a copy of the license along with this Font Software.
+# If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+# details including an FAQ.
+#**********************************
+#**********************************
+#  Language Systems
+#**********************************
+languagesystem DFLT dflt;
+languagesystem arab dflt;
+languagesystem arab HAU;
+# Hausa
+languagesystem latn dflt;
+@MarksAbove = [@_top];
+@MarksBelow = [@_bottom];
+@MarksAny = [@_top @_bottom];
+# Notes:
+#   The lookups and then the features are arranged and grouped into ordered passes
+#   as the rendering engines (esp Harfbuzz) will execute them.
+#   The boundaries between passes are indicated by the comment
+#       # HB PAUSE
+#   in the code.
+#**********************************
+# GSUB (Subtitution) lookups
+#**********************************
+#---  rtlm feature  ---
+lookup Mirror {
+    lookupflag IgnoreMarks;
+    sub @cno_rtl by @c_rtl;
+} Mirror;
+
+# HB PAUSE
+#---  ccmp feature  ---
+# CHECK other fonts have decompose for color
 # Font rendering check
 #
 # The following three lookups change "RenderingUnknown" to "RenderingOpenType"
@@ -1114,6 +1150,7 @@ lookup FontCheck {
     sub [R] e n d e r i n g U' lookup FontCheck_Unknow n' lookup FontCheck_Unknow k' lookup FontCheck_Unknow n' o' lookup FontCheck_Unknow w' lookup FontCheck_Unknow n' lookup FontCheck_n;
 } FontCheck;
 
+# CHECK other fonts have reorder madda
 # Subtending Mark lookups
 # End of Ayah digits and number-ar - calt
 lookup digit_small {
@@ -2426,36 +2463,33 @@ lookup attachBottomMarkMark {
     pos mark rightarrowheadbelow-ar <anchor 61 -307> mark @_bottom;
 } attachBottomMarkMark;
 
-#************************************************************
-# GSUB features                                             *
-#************************************************************
-feature aalt {
-    feature ccmp;
-    feature locl;
-    feature frac;
-    feature rlig;
-    feature salt;
-    feature ss02;
-    feature ss03;
-    feature ss04;
-    feature ss07;
-    feature ss08;
-    feature ss09;
-    feature calt;
-    feature liga;
-} aalt;
-
-# Mirroring
-feature rtlm {
-    #script arab;
-    sub @cno_rtl by @c_rtl;
-} rtlm;
-
+#**********************************
+#  GSUB FEATURES
+#**********************************
+# These are intended to be arranged in the order MS & HB engines execute.
+#---  ltrm feature  ---
 feature ltrm {
     #script latn;
     sub @c_rtl by @cno_rtl;
 } ltrm;
 
+# HB PAUSE
+#---  rtlm feature  ---
+feature rtlm {
+    # Right-To-Left Mirrored Forms
+    lookup Mirror;
+} rtlm;
+
+# HB PAUSE
+#---  frac feature  ---
+feature frac {
+    sub one slash four by onequarter;
+    sub one slash two by onehalf;
+    sub three slash four by threequarters;
+} frac;
+
+# HB PAUSE
+#---  ccmp feature  ---
 feature ccmp {
     lookup FontCheck;
     # Always split alefhamza (0623, 0625) so the hamza can be colored:
@@ -2509,6 +2543,8 @@ feature ccmp {
 
 } ccmp;
 
+# HB PAUSE
+#---  locl feature  ---
 lookup HausaCALT {
     lookupflag 0;
     sub @cno_ss04 by @c_ss04;
@@ -2530,9 +2566,8 @@ feature locl {
     language HAU;
 } locl;
 
-#********************
-# for basic Arabic shaping features fina, medi, init:
-#********************
+# HB PAUSE
+#---  fina feature  ---
 feature fina {
     # automatic
     script arab;
@@ -2543,6 +2578,8 @@ feature fina {
     language HAU;
 } fina;
 
+# HB PAUSE
+#---  medi feature  ---
 feature medi {
     # automatic
     script arab;
@@ -2553,6 +2590,8 @@ feature medi {
     language HAU;
 } medi;
 
+# HB PAUSE
+#---  init feature  ---
 feature init {
     # automatic
     script arab;
@@ -2563,9 +2602,8 @@ feature init {
     language HAU;
 } init;
 
-#********************
-# for feature rlig: required ligatures 
-#********************
+# HB PAUSE
+#---  rlig feature  ---
 #********
 # Allah "ligature" (implemented by variant forms for glyphs rather than by ligature glyph):
 lookup _AllahSub_Alef {
@@ -2641,11 +2679,6 @@ lookup AllahAlef {
     sub @AlefNoAllah' lam-ar.init.allah1 by @AlefAllah;
 } AllahAlef;
 
-feature dlig {
-    sub f i by fi;
-    sub f l by fl;
-} dlig;
-
 feature rlig {
     lookup AllahLigatures;
     lookup LamAlefLigatures;
@@ -2653,6 +2686,8 @@ feature rlig {
     lookup AllahAlef;
 } rlig;
 
+# HB PAUSE
+#---  calt feature  ---
 feature calt {
     script arab;
     lookup calt_lkp1 {
@@ -2727,6 +2762,17 @@ feature calt {
     lookup HausaCALT2;
 } calt;
 
+# HB PAUSE
+#********************
+# all remaining substitution features (dlig,salt, ssxx, liga, aalt):
+#********************
+feature dlig {
+    sub f i by fi;
+    sub f l by fl;
+} dlig;
+
+# HB PAUSE
+#---  salt feature  ---
 feature salt {
     lookup salt_lkp {
         # It seems that InDesign requires these to be in salt in order to select the alternates.
@@ -2833,7 +2879,8 @@ feature salt {
 
 } salt;
 
-# End-of-ayah - double circles
+#********************
+# End-of-ayah - double circles: ss02
 feature ss02 {
         featureNames {
         name "End of ayah A";
@@ -2845,7 +2892,8 @@ feature ss02 {
 
 } ss02;
 
-# End-of-ayah - circle + square
+#********************
+# End-of-ayah - circle + square: ss03
 feature ss03 {
         featureNames {
         name "End of ayah B";
@@ -2857,7 +2905,8 @@ feature ss03 {
 
 } ss03;
 
-# Large Imala e - dot vowel below
+#********************
+# Imala e: ss04
 feature ss04 {
         featureNames {
         name "Imala e";
@@ -2870,7 +2919,8 @@ feature ss04 {
 
 } ss04;
 
-# No stacking jeem/hah
+#********************
+# No stacking jeem/hah: ss07
 feature ss07 {
         featureNames {
         name "Jeem/hah";
@@ -2896,7 +2946,8 @@ feature ss07 {
 
 } ss07;
 
-# Alef + fatha/kasra/damma alternates
+#********************
+# Alef + fatha/kasra/damma alternates: ss08
 feature ss08 {
         featureNames {
         name "Alef diacritic placement";
@@ -2908,7 +2959,8 @@ feature ss08 {
 
 } ss08;
 
-# Wagaf small
+#********************
+# Wagaf small: ss09
 feature ss09 {
         featureNames {
         name "Wagaf";
@@ -2944,15 +2996,38 @@ feature pnum {
     sub @Digits_latn by @Digits_pnum;
 } pnum;
 
-feature frac {
-    sub one slash four by onequarter;
-    sub one slash two by onehalf;
-    sub three slash four by threequarters;
-} frac;
+feature aalt {
+    feature ccmp;
+    feature locl;
+    feature frac;
+    feature rlig;
+    feature salt;
+    feature ss02;
+    feature ss03;
+    feature ss04;
+    feature ss07;
+    feature ss08;
+    feature ss09;
+    feature calt;
+    feature liga;
+} aalt;
 
-#************************************************************
-# GPOS features                                             *
-#************************************************************
+#**********************************
+# This file is part of Alkalami font family (http://software.sil.org/alkalami/) 
+# and is Copyright (c) 2015-2023 SIL International (http://www.sil.org/),
+# with Reserved Font Names "Alkalami" and "SIL".
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1.
+#
+# You should have received a copy of the license along with this Font Software.
+# If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+# details including an FAQ.
+#**********************************
+#****************************
+#****************************
+# GPOS (positioning) rules **
+#****************************
+#****************************
 # Note: we could possibly simplify the rules by removing the entry/exit APs from
 # the pre-hah flat forms (sad-ar.medi.flat, etc), since I BELIEVE they are always
 # on the baseline.
@@ -2965,12 +3040,9 @@ feature kern {
 } kern;
 
 # Attach marks last, so they get positioned correctly on glyphs that have been shifted up.
-        feature mark {
-        lookup MarkToLig;
-        lookup attachBaseMark;
-        lookup attachTopMarkMark;
-        lookup attachBottomMarkMark;
-    } mark;
-
-
-# end ifinfo
+feature mark {
+    lookup MarkToLig;
+    lookup attachBaseMark;
+    lookup attachTopMarkMark;
+    lookup attachBottomMarkMark;
+} mark;
