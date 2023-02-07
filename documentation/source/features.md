@@ -38,8 +38,7 @@ Hausa |  <span dir="rtl" class='alkalami-R normal' lang='ha'>&#x0628;&#x065C;</s
 
 ### Stylistic Sets
 
-There are some character shape differences in different languages which use the Arabic script. These can be accessed by using the OpenType Stylistic Sets mentioned above.  
-
+There are some character shape differences in different languages which use the Arabic script. These can be accessed by using the OpenType Stylistic Sets, or through the language support mentioned above.
 
 #### Imala e (ss04)
 
@@ -93,9 +92,9 @@ In the example below, the following codepoints are used: U+202D U+06DD U+0031 U+
 
 Feature | Sample | Feature setting
 ------------- | ------ | ------------- 
-Standard     | <span dir="rtl" class='alkalami-R normal'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span> | `ss02=0` `ss03=0`
-End of ayah A | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss02" 1'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span>| `ss02=1`
-End of ayah B | <span dir="rtl" class='alkalami-R normal' style='font-feature-settings: "ss03" 2'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span>| `ss03=1`
+Standard     | <span class='alkalami-R normal'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span> | `ss02=0` `ss03=0`
+End of ayah A | <span class='alkalami-R normal' style='font-feature-settings: "ss02" 1'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span>| `ss02=1`
+End of ayah B | <span class='alkalami-R normal' style='font-feature-settings: "ss03" 1'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span>| `ss03=1`
 
 
 ## Proportional Figures

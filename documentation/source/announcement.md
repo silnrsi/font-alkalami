@@ -8,6 +8,7 @@ fontversion: 2.100
 2023-01-xx (WSTech team) Alkalami Version 2.100 (production release)
 
 - Add OpenType language support for Hausa
+- Added characters: U+0870, U+0872, U+0874
 
 Both desktop and web fonts are provided in a single, all-platforms package on the [Download Page](https://software.sil.org/alkalami/download/).
 

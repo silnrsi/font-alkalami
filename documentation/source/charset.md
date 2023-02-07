@@ -18,7 +18,7 @@ Arabic Supplement | only includes 0751..0752, 0755..0756, 075D, 0760..0761, 0763
 Arabic Extended-A | only includes 08A0..08A3, 08A8..08A9, 08BB..08BD, 08C3..08C4, 08F4..08FD
 Arabic Extended-B | only includes 0870, 0872, 0874 
 Arabic Presentation Forms-A | only includes FD3E..FD3F, FDF2, FDFD
-Arabic Presentation Forms-B | ✗ 
+Arabic Presentation Forms-B | only includes 0870, 0872, 0874 
 Codepage 1252 (Western)¹ | ✓
 
 A selection of characters from the General Punctuation block, such as various-sized spaces, are also supported; a utility such as <a href="http://scripts.sil.org/ViewGlyph_home">SIL ViewGlyph</a> can be used to examine the exact repertoire of this font. 

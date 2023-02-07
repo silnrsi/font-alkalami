@@ -14,7 +14,7 @@ One font from this typeface family is included in the *Alkalami* release:
 Type samples showing some of the inventory of glyphs can be found here: 
 [Alkalami Type Sample](sample.md).
 
-Two examples of some text is shown below. 
+One example of some text is shown below. 
 
 ![Alkalami Sample - Genesis 11](assets/images/AlkalamiGen11-Regular.png){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/alkalami/wp-content/uploads/sites/32/2017/05/AlkalamiGen11-Regular.png -->

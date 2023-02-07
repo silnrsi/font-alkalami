@@ -24,7 +24,6 @@ languagesystem latn dflt ;
 @MarksAny = [@_top @_bottom] ;
 
 
-
 # Notes:
 #   The lookups and then the features are arranged and grouped into ordered passes
 #   as the rendering engines (esp Harfbuzz) will execute them.
@@ -37,7 +36,7 @@ languagesystem latn dflt ;
 # GSUB (Subtitution) lookups
 #**********************************
 
-#---  rtlm feature  ---
+#---  rtlm feature (pass 2)  ---
 
 lookup Mirror {
   lookupflag IgnoreMarks ;
@@ -46,7 +45,7 @@ lookup Mirror {
 
 # HB PAUSE
 
-#---  ccmp feature  ---
+#---  ccmp feature (pass 3) ---
 
 # Font rendering check
 #
@@ -74,9 +73,9 @@ lookup FontCheck {
       n' lookup FontCheck_n;
 } FontCheck;
 
-# CHECK other fonts have reorder madda
-
 # Subtending Mark lookups
+# think these are in liga feature (pass 10)
+
 # End of Ayah digits and number-ar - calt
 lookup digit_small {
   sub @Digits by @Digits.small;
@@ -124,6 +123,8 @@ lookup hamza2nostem {
 	sub [ hamzaabove-ar hamzabelow-ar ] by [hamzaabove-ar.nostem hamzabelow-ar.nostem ];
 } hamza2nostem;
 
+#---  locl and ss08 feature (pass 3/10) ---
+
 # Make only ss08 effect only fatha, kasra, and damma.ss08.
 # (No special forms are needed for fatha and kasra.)
 lookup ss08_aux {
@@ -132,6 +133,9 @@ lookup ss08_aux {
 	#sub damma-ar by damma-ar.ss08;
 } ss08_aux;
 
+# CHECK other fonts have reorder madda
+
+#---  calt feature (pass 9) ---
 
 # .medi.stack - lower AP on left and higher on right; glyph to the right is positioned higher
 #				(identical to .medi)
@@ -203,7 +207,7 @@ lookup flatten_pre_hah {
 	sub @pre_hah_not_flat'  @hahMedials_stack  by  @pre_hah_flat;  # or should this be hahMedi_any ??????????
 } flatten_pre_hah;
 
-
+# used to flatten jeems, but it gives a warning 'ambiguous "ignore sub"'
 lookup no_change {  # for chaining lookups
 	ignore sub  @pre_hah_flat;
 	ignore sub  @hahMedi_any;
@@ -234,12 +238,15 @@ lookup flatten_hah {
 } flatten_hah;
 
 
+# Lookups for GPOS
+
+#--- feature curs ---
 lookup cursive_exit_entry {
   lookupflag IgnoreMarks RightToLeft;
   pos cursive @entry @exit;
 } cursive_exit_entry;
 
-
+#--- feature kern ---
 lookup kern_SubtendingMarks {
 	# contextually kern the sign with digits so they are enclosed
 
@@ -263,7 +270,7 @@ lookup kern_SubtendingMarks {
 
 } kern_SubtendingMarks;
 
-
+#--- feature mark ---
 # Attachment needs to happen after stacking hah forms.
 
 lookup MarkToLig {
@@ -321,7 +328,7 @@ lookup attachBottomMarkMark {
 
 # These are intended to be arranged in the order MS & HB engines execute.
 
-#---  ltrm feature  ---
+#---  ltrm feature  (pass 2?) ---
 
 feature ltrm {
 	#script latn;
@@ -330,7 +337,7 @@ feature ltrm {
 
 # HB PAUSE
 
-#---  rtlm feature  ---
+#---  rtlm feature (pass 2) ---
 
 feature rtlm {  # Right-To-Left Mirrored Forms
     lookup Mirror;
@@ -338,7 +345,7 @@ feature rtlm {  # Right-To-Left Mirrored Forms
 
 # HB PAUSE
 
-#---  frac feature  ---
+#---  frac feature (pass 2) ---
 
 feature frac {
 	sub one slash four by onequarter;
@@ -348,7 +355,7 @@ feature frac {
 
 # HB PAUSE
 
-#---  ccmp feature  ---
+#---  ccmp feature (pass 3) ---
 
 feature ccmp {
 
@@ -395,7 +402,7 @@ feature ccmp {
 
 # HB PAUSE
 
-#---  locl feature  ---
+#---  locl feature (pass 3) ---
 
 lookup HausaCALT {
   lookupflag 0 ;
@@ -420,7 +427,7 @@ feature locl {
 							
 # HB PAUSE
 
-#---  fina feature  ---
+#---  fina feature (pass 5) ---
 								
 feature fina {
 	# automatic
@@ -433,7 +440,7 @@ feature fina {
 
 # HB PAUSE
 
-#---  medi feature  ---
+#---  medi feature (pass 6) ---
 
 feature medi {
 	# automatic
@@ -446,7 +453,7 @@ feature medi {
 
 # HB PAUSE
 
-#---  init feature  ---
+#---  init feature (pass 7) ---
 
 feature init {
 	# automatic
@@ -459,7 +466,7 @@ feature init {
 
 # HB PAUSE
 
-#---  rlig feature  ---
+#---  rlig feature (pass 8) ---
 
 
 #********
@@ -621,7 +628,7 @@ feature rlig {
 
 # HB PAUSE
 
-#---  calt feature  ---
+#---  calt feature (pass 9) ---
 
 feature calt {
   script arab;
@@ -645,7 +652,7 @@ feature calt {
 		sub @seenIsol' space-ar @seenInit @wawFina by @seenIsol_shrtail;
 		sub @seenIsol' space-ar @behInit by @seenIsol_longtail;
 		sub @seenFina' space-ar @behInit by @seenFina_longtail;
-		sub @seenFina' space-ar @seenInit @wawFina by @seenFina_shrtail;
+#		sub @seenFina' space-ar @seenInit @wawFina by @seenFina_shrtail;
 		sub @seenFina' space-ar alefHamzabelow-ar @rehIsol by @seenFina_longtail;
 		sub @seenFina' space-ar alefHamzaabove-ar @wawIsol by @seenFina_longtail;
 		sub @seenFina' space-ar @ainIsol by @seenFina_longtail;
@@ -712,6 +719,31 @@ feature calt {
 # all remaining substitution features (dlig,salt, ssxx, liga, aalt):
 #********************
 
+#---  liga feature (pass 10) ---
+feature liga {
+		# replace sequence of digits, up to three places
+		# Uniscribe or Harfbuzz 'latn'
+		sub @EndofAyah' lookup Ayah_3 @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small;
+		sub @EndofAyah' lookup Ayah_2 @Digits' lookup digit_small @Digits' lookup digit_small;
+		sub @EndofAyah @Digits' lookup digit_small;
+
+		sub number-ar' lookup number-ar_3 @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small;
+		sub number-ar' lookup number-ar_2 @Digits' lookup digit_small @Digits' lookup digit_small;
+		sub number-ar @Digits' lookup digit_small;
+
+		# HarfBuzz 'arab'
+		sub @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small @EndofAyah' lookup Ayah_3;
+		sub @Digits' lookup digit_small @Digits' lookup digit_small @EndofAyah' lookup Ayah_2;
+		sub @Digits' lookup digit_small @EndofAyah;
+
+		sub @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small number-ar' lookup number-ar_3;
+		sub @Digits' lookup digit_small @Digits' lookup digit_small number-ar' lookup number-ar_2;
+		sub @Digits' lookup digit_small number-ar;
+
+} liga;
+
+#---  dlig feature (pass 10) ---
+
 feature dlig {
   script latn;
 	sub f [i  l] by [fi  fl];
@@ -719,7 +751,7 @@ feature dlig {
 
 # HB PAUSE
 
-#---  salt feature  ---
+#---  salt feature (pass 10) ---
 
 feature salt {
 	lookup salt_lkp {
@@ -795,7 +827,7 @@ feature salt {
 } salt;
 
 #********************
-# End-of-ayah - double circles: ss02
+# End-of-ayah - double circles: ss02 (pass 10)
 
 feature ss02 {
 	featureNames {
@@ -807,7 +839,7 @@ feature ss02 {
 } ss02;
 
 #********************
-# End-of-ayah - circle + square: ss03
+# End-of-ayah - circle + square: ss03 (pass 10)
 
 feature ss03 {
 	featureNames {
@@ -819,7 +851,7 @@ feature ss03 {
 } ss03;
 
 #********************
-# Imala e: ss04
+# Imala e: ss04 (pass 10)
 
 feature ss04 {
 	featureNames {
@@ -835,7 +867,7 @@ feature ss04 {
 
 
 #********************
-# No stacking jeem/hah: ss07
+# No stacking jeem/hah: ss07 (pass 10)
 
 feature ss07 {
 	featureNames {
@@ -868,7 +900,7 @@ feature ss07 {
 
 
 #********************
-# Alef + fatha/kasra/damma alternates: ss08
+# Alef + fatha/kasra/damma alternates: ss08 (pass 10)
 
 feature ss08 {
 	featureNames {
@@ -881,7 +913,7 @@ feature ss08 {
 } ss08;
 
 #********************
-# Wagaf small: ss09
+# Wagaf small: ss09 (pass 10)
 
 feature ss09 {
 	featureNames {
@@ -893,32 +925,14 @@ feature ss09 {
 	} ss09_lkp;
 } ss09;
 
-feature liga {  
-    # Same for latin & arabic:
-		# replace sequence of digits, up to three places
-		# Uniscribe or Harfbuzz 'latn'
-		sub @EndofAyah' lookup Ayah_3 @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small;
-		sub @EndofAyah' lookup Ayah_2 @Digits' lookup digit_small @Digits' lookup digit_small;
-		sub @EndofAyah @Digits' lookup digit_small;
-
-		sub number-ar' lookup number-ar_3 @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small;
-		sub number-ar' lookup number-ar_2 @Digits' lookup digit_small @Digits' lookup digit_small;
-		sub number-ar @Digits' lookup digit_small;
-
-		# HarfBuzz 'arab'
-		sub @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small @EndofAyah' lookup Ayah_3;
-		sub @Digits' lookup digit_small @Digits' lookup digit_small @EndofAyah' lookup Ayah_2;
-		sub @Digits' lookup digit_small @EndofAyah;
-
-		sub @Digits' lookup digit_small @Digits' lookup digit_small @Digits' lookup digit_small number-ar' lookup number-ar_3;
-		sub @Digits' lookup digit_small @Digits' lookup digit_small number-ar' lookup number-ar_2;
-		sub @Digits' lookup digit_small number-ar;
-} liga ;
+#---  pnum feature (pass 10) ---
 
 # digits
 feature pnum {
   sub @Digits_latn by @Digits_pnum;
 } pnum;
+
+#---  aalt feature (pass 10) ---
 
 feature aalt {
 	feature ccmp;
@@ -933,7 +947,5 @@ feature aalt {
 	feature ss08;
 	feature ss09;
 	feature calt;
-	feature liga;
 } aalt;
-
 
