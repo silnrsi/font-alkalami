@@ -4,7 +4,7 @@
   <head>
     <fontscale>250</fontscale>
     <fontsrc label="Sch (inst)">local(Scheherazade New)</fontsrc>
-    <fontsrc label="1.2">url(../references/Alkalami-Regular-1_200.ttf)</fontsrc>
+    <fontsrc label="2.0">url(../references/Alkalami-Regular.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Alkalami-Regular.ttf)</fontsrc>
 		<styles>
       <style lang="ha" name="ha"/>
@@ -745,7 +745,7 @@
 			<comment>620</comment>
 			<string>كٰوُ</string>
 		</test>
-		<test label="U+0644" stylename="lang">
+		<test label="U+0627 U+0644 U+0644 U+0651 U+064E U+0647" stylename="lang">
 			<comment>5773</comment>
 			<string>اللَّه</string>
 		</test>

@@ -4,7 +4,7 @@
 	<head>
 		<fontscale>250</fontscale>
     <fontsrc label="Sch (inst)">local(Scheherazade New)</fontsrc>
-    <fontsrc label="1.2">url(../references/Alkalami-Regular-1_200.ttf)</fontsrc>
+    <fontsrc label="2.0">url(../references/Alkalami-Regular.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Alkalami-Regular.ttf)</fontsrc>
 		<styles>
       <style lang="ha" name="ha"/>
@@ -14,6 +14,7 @@
       <style feats="'ss03' 1" name="ss03_1"/>
       <style feats="'ss04' 1" name="ss04_1"/>
       <style feats="'ss07' 1" name="ss07_1"/>
+      <style feats="'ss08' 1" name="ss08_1"/>
       <style feats="'ss09' 1" name="ss09_1"/>
 		</styles>
 		<title>Collision Adjustments in calt</title>
@@ -572,6 +573,14 @@
 			<comment>(rule 21)</comment>
 			<string>\u08BD\u0020\u0751\u0650\u0752\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
+		<test label="U+08BD U+0020 U+0751 U+0752" stylename="ss09_1">
+			<comment>(rule 21)</comment>
+			<string>\u08BD\u0020\u0751\u0650\u0752\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+0751 U+0752" stylename="ha">
+			<comment>(rule 21)</comment>
+			<string>\u08BD\u0020\u0751\u0650\u0752\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
 		<test label="U+0646 U+0020 U+0646 U+06BA">
 			<comment>noon+space+noon+noon (rule 22)</comment>
 			<string>\u0646\u0020\u06BA\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
@@ -595,6 +604,10 @@
 		<test label="U+0646 U+0020 U+0633 U+0648">
 			<comment>noon+space+seen+waw (rule 23)</comment>
 			<string>\u0646\u0020\u0633\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+08BD U+0020 U+0633 U+0648">
+			<comment>african noon+space+seen+waw (rule 23)</comment>
+			<string>\u08BD\u0020\u0633\u0650\u0648\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0020 U+0633 U+08BD">
 			<comment>noon+space+seen+noon (rule 24)</comment>
@@ -917,6 +930,14 @@
 		<test label="U+0627 U+0644 U+0684 U+0628">
 			<comment>(rule 40)</comment>
 			<string>\u0627\u0644\u0650\u0684\u0650\u0628\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0627 U+064E U+0644 U+0684 U+0628">
+			<comment>(rule 40)</comment>
+			<string>\u0627\u064E\u0644\u0650\u0684\u0650\u0628\u00a0\u00a0\u00a0\u00a0</string>
+		</test>
+		<test label="U+0627 U+064E U+0644 U+0684 U+0628" stylename="ss08_1">
+			<comment>(rule 40)</comment>
+			<string>\u0627\u064E\u0644\u0650\u0684\u0650\u0628\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 	</testgroup>
 
