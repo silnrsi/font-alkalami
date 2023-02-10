@@ -1,6 +1,6 @@
 ---
 title: Alkalami - Design
-fontversion: 2.100
+fontversion: 3.000
 ---
 
 Alkalami is a font for Arabic-based writing systems in the Kano region of Nigeria and in Niger. This style of writing African ajami has sometimes been called Sudani Kufi or Rubutun Kano. It is vastly different from script traditions of the Middle East. The bulk of the design of Alkalami was based on what are known as ‘market edition manuscripts’.

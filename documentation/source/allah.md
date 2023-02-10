@@ -1,6 +1,6 @@
 ---
 title: Alkalami - Rendering the Allah ligature
-fontversion: 2.100
+fontversion: 3.000
 ---
 
 

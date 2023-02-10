@@ -1,6 +1,6 @@
 ---
 title: Alkalami - Documentation
-fontversion: 2.100
+fontversion: 3.000
 ---
 
 Thank you for your interest in the Alkalami font. Alkalami supports the characters known to be used by languages written with the Kano style of Arabic script, but may not have the characters needed for other languages.
