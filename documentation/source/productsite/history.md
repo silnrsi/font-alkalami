@@ -1,5 +1,5 @@
 
-### 2023-02-xx (WSTech team) Alkalami Version 2.100 (production release)
+### 2023-02-xx (WSTech team) Alkalami Version 3.000 (production release)
 - Add OpenType language support for Hausa
 - Added characters: U+0870, U+0872, U+0874
 
