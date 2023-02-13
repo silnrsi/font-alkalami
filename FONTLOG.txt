@@ -37,6 +37,14 @@ ChangeLog
 #### New
 - Added OpenType language support for Hausa
 - Added characters: U+0870, U+0872, U+0874
+#### Improved
+- Adjust width for some mathematical symols
+  - 003C LESS-THAN SIGN
+  - 003E GREATER-THAN SIGN
+  - 00D7 MULTIPLICATION SIGN
+  - 2248 ALMOST EQUAL TO
+  - 2264 LESS-THAN OR EQUAL TO
+  - 2265 GREATER-THAN OR EQUAL TO
 ### 2022-06-09 (WSTech team) Alkalami Version 2.000 (production release)
 - Removed Alkalami Light font. 
 - Removed non Unicode compliant solutions
