@@ -186,6 +186,10 @@
   <string>_dot3dB_elow.glif</string>
   <key>_dot3uAbove</key>
   <string>_dot3uA_bove.glif</string>
+  <key>_dot3uAbove.medium</key>
+  <string>_dot3uA_bove.medium.glif</string>
+  <key>_dot3uAbove.small</key>
+  <string>_dot3uA_bove.small.glif</string>
   <key>_dot3uBelow</key>
   <string>_dot3uB_elow.glif</string>
   <key>_gafBar</key>
@@ -1692,10 +1696,6 @@
   <string>three.small.glif</string>
   <key>threedots-ar</key>
   <string>threedots-ar.glif</string>
-  <key>threedots-ar.small</key>
-  <string>threedots-ar.small.glif</string>
-  <key>threedotsabovesmall-ar</key>
-  <string>threedotsabovesmall-ar.glif</string>
   <key>threedotsdownbelow-ar.narrow</key>
   <string>threedotsdownbelow-ar.narrow.glif</string>
   <key>threeperemspace</key>

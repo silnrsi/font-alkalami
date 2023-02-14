@@ -4,7 +4,7 @@
   <anchor x="401" y="-139" name="bottom"/>
   <outline>
     <component base="alefMaksura-ar.longtail"/>
-    <component base="threedots-ar.small" xOffset="47" yOffset="336"/>
+    <component base="_dot3uAbove.small" xOffset="47" yOffset="336"/>
   </outline>
   <lib>
     <dict>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="threedotsabovesmall-ar" format="2">
+<glyph name="_dot3uAbove.medium" format="2">
   <anchor x="135" y="393" name="_top"/>
   <outline>
     <component base="_dot3uAbove" xScale="0.826" yScale="0.826" xOffset="-14" yOffset="133"/>

@@ -5,7 +5,7 @@
   <anchor x="649" y="0" name="entry"/>
   <anchor x="286" y="812" name="top"/>
   <outline>
-    <component base="threedotsabovesmall-ar" xOffset="150" yOffset="87"/>
+    <component base="_dot3uAbove.medium" xOffset="150" yOffset="87"/>
     <component base="kaf-ar.fina"/>
   </outline>
 </glyph>
