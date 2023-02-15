@@ -7,7 +7,7 @@
     <fontsrc label="2.0">url(../references/Alkalami-Regular.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Alkalami-Regular.ttf)</fontsrc>
     <styles>
-      <style lang="ha" name="ha"/>
+      <style lang="ha" name="lang"/>
       <style feats="'pnum' 1" name="pnum_1"/>
       <style feats="'ss02' 1" name="ss02_1"/>
       <style feats="'ss02' 1, 'ss03' 1" name="ss02_1_ss03_1"/>
@@ -16,7 +16,6 @@
       <style feats="'ss07' 1" name="ss07_1"/>
       <style feats="'ss08' 1" name="ss08_1"/>
       <style feats="'ss09' 1" name="ss09_1"/>
-      <style feats="'ss04' 1, 'ss08' 1, 'ss09' 1" name="lang"/>
 		</styles>
 		<title>Jeem/Hah Words</title>
 	</head>
@@ -174,287 +173,283 @@
 			<comment/>
 			<string>إِࢽْ‌غَجِیَرْ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="31" stylename="lang">
 			<comment/>
 			<string>إِࢽْ‌غَاجِ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="32" stylename="lang">
 			<comment/>
 			<string>إِیَجِمْرٜىٰوَ</string>
 		</test>
-		<test label="check" stylename="lang">
+		<test label="33" stylename="lang">
 			<comment/>
 			<string>إِیَایٜىٰࢽْ‌غِجِࢽْسُ</string>
 		</test>
-		<test label="check">
-			<comment/>
-			<string>إِیَایٜىٰࢽْ‌غِجِࢽْسُ</string>
-		</test>
-		<test label=" " stylename="lang">
+		<test label="34" stylename="lang">
 			<comment/>
 			<string>إِیَایٜىٰࢽْ‌غِجِࢽْکُ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="35" stylename="lang">
 			<comment/>
 			<string>إِیَایٜىٰࢽْ‌غِجِࢽَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="36" stylename="lang">
 			<comment/>
 			<string>إِیَایٜىٰࢽْ‌غِجِ</string>
 		</test>
-		<test label=" " stylename="lang">
-			<comment>Looks fine</comment>
+		<test label="37" stylename="lang">
+			<comment></comment>
 			<string>إِبْࢽِجَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="38" stylename="lang">
 			<comment/>
 			<string>أَغِرْغِجٜىٰ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="39" stylename="lang">
 			<comment/>
 			<string>أَغَدَجٜىٰࢽْسُ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="40" stylename="lang">
 			<comment/>
 			<string>أَغَدَجٜىٰࢽْکُ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="41" stylename="lang">
 			<comment/>
 			<string>أَغِدَاجٜىٰࢽْسُ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="42" stylename="lang">
 			<comment/>
 			<string>أَغِدَاجٜىٰࢽْکُبَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="43" stylename="lang">
 			<comment/>
 			<string>أَغِدَاجٜىٰࢽْکُ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="44" stylename="lang">
 			<comment/>
 			<string>أَغِدَاجٜىٰࢽْ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="45" stylename="lang">
 			<comment/>
 			<string>أَغِدَاجٜىٰ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="46" stylename="lang">
 			<comment/>
 			<string>أَغُجٜىٰ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="47" stylename="lang">
 			<comment/>
 			<string>أَࢻِیجِࢽْ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="48" stylename="lang">
 			<comment/>
 			<string>أَࢽْثَࢽْجَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="49" stylename="lang">
 			<comment/>
 			<string>أَࢽْجٜىٰرَسُ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="50" stylename="lang">
 			<comment/>
 			<string>أَࢽْجٜىٰرَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="51" stylename="lang">
 			<comment/>
 			<string>أَࢽْجٜىٰࢻٜىٰشِ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="52" stylename="lang">
 			<comment/>
 			<string>أَࢽْجٜىٰࢻَشِ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="53" stylename="lang">
 			<comment/>
 			<string>أَࢽْجٜىٰࢻَرْ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="54" stylename="lang">
 			<comment/>
 			<string>أَࢽْجٜىٰجّٜىٰࢻِ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="55" stylename="lang">
 			<comment/>
 			<string>أَࢽْجٜىٰ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="56" stylename="lang">
 			<comment/>
 			<string>أَࢽْجِࢼَتَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="57" stylename="lang">
 			<comment/>
 			<string>أَࢽْجِࢼَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="58" stylename="lang">
 			<comment/>
 			<string>أَࢽَجَࢽْ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="59" stylename="lang">
 			<comment/>
 			<string>أَࢽَجِࢽْ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="60" stylename="lang">
 			<comment/>
 			<string>أَࢽْجِمَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="61" stylename="lang">
 			<comment/>
 			<string>أَࢽْجُویَاشِ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="62" stylename="lang">
 			<comment/>
 			<string>أَࢽْجُویَاسُ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="63" stylename="lang">
 			<comment/>
 			<string>أَࢽَجِ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="64" stylename="lang">
 			<comment/>
 			<string>أَࢽْجِ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="65" stylename="lang">
 			<comment/>
 			<string>أَمَعَجِ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="66" stylename="lang">
 			<comment/>
 			<string>أَمَجَمِعُ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="67" stylename="lang">
 			<comment/>
 			<string>أَلْمَجِرَࢽْسَبَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="68" stylename="lang">
 			<comment/>
 			<string>أَلْمَجِرِࢽْسَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="69" stylename="lang">
 			<comment/>
 			<string>أَلْمَجِرَࢽْسُ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="70" stylename="lang">
 			<comment/>
 			<string>أَلْمَجِرَࢽْسَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="71" stylename="lang">
 			<comment/>
 			<string>أَلْمَجِرِࢽَّࢽْ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="72" stylename="lang">
 			<comment/>
 			<string>أَلْمَجِرَࢽَّࢽْ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="73" stylename="lang">
 			<comment/>
 			<string>أَلْمَجِرَࢽْکُ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="74" stylename="lang">
 			<comment/>
 			<string>أَلْمَجِرَࢽْکَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="75" stylename="lang">
 			<comment/>
 			<string>أَلْمَجِرِࢽْدَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="76" stylename="lang">
 			<comment/>
 			<string>أَلْمَجِرِࢽَبَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="77" stylename="lang">
 			<comment/>
 			<string>أَلْمَجِرِࢽَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="78" stylename="lang">
 			<comment/>
 			<string>أَلْمَجِرَࢽْ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="79" stylename="lang">
 			<comment/>
 			<string>أَلْمَجِرِࢽْ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="80" stylename="lang">
 			<comment/>
 			<string>أَلْمَجِرَیْࢽَࢽٜىٰ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="81" stylename="lang">
 			<comment/>
 			<string>أَلْمَجِرَیْࢽَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="82" stylename="lang">
 			<comment/>
 			<string>أَلْمَجِرَیْ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="83" stylename="lang">
 			<comment/>
 			<string>أَلْمَجِرِ</string>
 		</test>
-		<test label=" " stylename="lang">
-			<comment>&gt;</comment>
+		<test label="84" stylename="lang">
+			<comment></comment>
 			<string>أَلْجَࢽُࢽٜىٰ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="85" stylename="lang">
 			<comment/>
 			<string>أَلْجَࢽُࢽَّࢽْ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="86" stylename="lang">
 			<comment/>
 			<string>أَلْجَࢽِࢽْ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="87" stylename="lang">
 			<comment/>
 			<string>أَلْجَࢽُࢽْ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="88" stylename="lang">
 			<comment/>
 			<string>أَلْجَࢽِ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="89" stylename="lang">
 			<comment/>
 			<string>أَلْجَࢽُ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="90" stylename="lang">
 			<comment/>
 			<string>أَلْجِهُࢽْدَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="91" stylename="lang">
 			<comment/>
 			<string>أَلْجِهُࢽْ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="92" stylename="lang">
 			<comment/>
 			<string>أَیْجَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="93" stylename="lang">
 			<comment/>
 			<string>أَوَجٜىٰࢽْسُ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="94" stylename="lang">
 			<comment/>
 			<string>أَوَجٜىٰࢽْکُ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="95" stylename="lang">
 			<comment/>
 			<string>أَوَجٜىٰࢽْ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="96" stylename="lang">
 			<comment/>
 			<string>أَوَجٜىٰ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="97" stylename="lang">
 			<comment/>
 			<string>أَدَاجِࢽٜىٰ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="98" stylename="lang">
 			<comment/>
 			<string>أَدَاجِࢽَّࢽْ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="99" stylename="lang">
 			<comment/>
 			<string>أَدَاجِࢽْدَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="100" stylename="lang">
 			<comment/>
 			<string>أَدَاجِࢽْ</string>
 		</test>
@@ -598,7 +593,7 @@
 			<comment/>
 			<string>أَجِیَ</string>
 		</test>
-		<test label=" " stylename="lang">
+		<test label="ok2" stylename="lang">
 			<comment/>
 			<string>أَجِجِّغَکُ</string>
 		</test>
@@ -703,7 +698,7 @@
 			<string>غُجٜىٰࢽِ</string>
 		</test>
 		<test label=" " stylename="lang">
-			<comment/>
+			<comment>jeem jeem yeh jeem </comment>
 			<string>غَجٜىٰجّٜىٰرُࢽْ</string>
 		</test>
 		<test label=" " stylename="lang">
@@ -759,7 +754,7 @@
 			<string>غَاجِ</string>
 		</test>
 		<test label=" " stylename="lang">
-			<comment/>
+			<comment>noon jeem</comment>
 			<string>ذَࢽْثَࢽْجَ</string>
 		</test>
 		<test label=" " stylename="lang">
@@ -2011,7 +2006,7 @@
 			<string>ࢽَغِدَاجٜىٰ</string>
 		</test>
 		<test label=" " stylename="lang">
-			<comment/>
+			<comment>ok</comment>
 			<string>ࢽَغَجِیَرْ</string>
 		</test>
 		<test label=" " stylename="lang">
@@ -2527,7 +2522,7 @@
 			<string>مُجِمْرٜىٰ</string>
 		</test>
 		<test label=" " stylename="lang">
-			<comment/>
+			<comment>spot check</comment>
 			<string>مَجَمِعَرْسُ</string>
 		</test>
 		<test label=" " stylename="lang">
@@ -2595,7 +2590,7 @@
 			<string>مُجَٰوُاْ</string>
 		</test>
 		<test label=" " stylename="lang">
-			<comment/>
+			<comment>spotcheck</comment>
 			<string>مَجَجَّوَرْسَ</string>
 		</test>
 		<test label=" " stylename="lang">
@@ -2683,7 +2678,7 @@
 			<string>کَغُجٜىٰ</string>
 		</test>
 		<test label=" " stylename="lang">
-			<comment/>
+			<comment>spot check</comment>
 			<string>کُغُجٜىٰ</string>
 		</test>
 		<test label=" " stylename="lang">
@@ -3243,7 +3238,7 @@
 			<string>یَتَݑَجِ</string>
 		</test>
 		<test label=" " stylename="lang">
-			<comment/>
+			<comment>spot check</comment>
 			<string>یِتَجُویَاوَ</string>
 		</test>
 		<test label=" " stylename="lang">
@@ -5555,19 +5550,7 @@
 			<string>جَاهِلْثِ</string>
 		</test>
 		<test label=" " stylename="lang">
-			<comment/>
-			<string>جَا</string>
-		</test>
-		<test label=" " stylename="lang">
-			<comment/>
-			<string>جَ</string>
-		</test>
-		<test label=" " stylename="lang">
-			<comment/>
-			<string>جِ</string>
-		</test>
-		<test label=" " stylename="lang">
-			<comment/>
+			<comment>spot check</comment>
 			<string>بٜىٰتَࢻَجِ</string>
 		</test>
 		<test label=" " stylename="lang">
@@ -6132,26 +6115,6 @@
 		</test>
 		<test label=" " stylename="lang">
 			<comment/>
-			<string>حُطُ</string>
-		</test>
-		<test label=" " stylename="lang">
-			<comment/>
-			<string>حَطَ</string>
-		</test>
-		<test label=" " stylename="lang">
-			<comment/>
-			<string>حَطُ</string>
-		</test>
-		<test label=" " stylename="lang">
-			<comment/>
-			<string>حَطْ</string>
-		</test>
-		<test label=" " stylename="lang">
-			<comment/>
-			<string>حُطَ</string>
-		</test>
-		<test label=" " stylename="lang">
-			<comment/>
 			<string>حَطَاوَا</string>
 		</test>
 		<test label=" " stylename="lang">
@@ -6457,18 +6420,6 @@
 		<test label=" " stylename="lang">
 			<comment/>
 			<string>حِکِمَثٜىٰ</string>
-		</test>
-		<test label=" " stylename="lang">
-			<comment/>
-			<string>حَکِّࢽْ</string>
-		</test>
-		<test label=" " stylename="lang">
-			<comment/>
-			<string>حَکِّࢽَ</string>
-		</test>
-		<test label=" " stylename="lang">
-			<comment/>
-			<string>حَکَࢽْ</string>
 		</test>
 		<test label=" " stylename="lang">
 			<comment>problem in InDesign with shadda</comment>
@@ -7439,7 +7390,7 @@
 			<string>یِࢽْحِدِمَ</string>
 		</test>
 		<test label=" " stylename="lang">
-			<comment/>
+			<comment>check</comment>
 			<string>یِࢽأَلْحٜىٰرِ</string>
 		</test>
 		<test label=" " stylename="lang">
@@ -7765,14 +7716,6 @@
 		<test label=" " stylename="lang">
 			<comment/>
 			<string>ࢽَعَّیْࢽِحِࢽْ</string>
-		</test>
-		<test label=" " stylename="lang">
-			<comment/>
-			<string>ࢽَرُوحُ</string>
-		</test>
-		<test label=" " stylename="lang">
-			<comment/>
-			<string>ࢽَرُوحٌ</string>
 		</test>
 		<test label=" " stylename="lang">
 			<comment/>
@@ -8132,18 +8075,6 @@
 		</test>
 		<test label=" " stylename="lang">
 			<comment/>
-			<string>شُوحُ</string>
-		</test>
-		<test label=" " stylename="lang">
-			<comment/>
-			<string>شُوحَ</string>
-		</test>
-		<test label=" " stylename="lang">
-			<comment/>
-			<string>شُوحَمْ</string>
-		</test>
-		<test label=" " stylename="lang">
-			<comment/>
 			<string>شَحُواْ</string>
 		</test>
 		<test label=" " stylename="lang">
@@ -8179,7 +8110,7 @@
 			<string>أَلْحَکِ</string>
 		</test>
 		<test label=" " stylename="lang">
-			<comment/>
+			<comment>check</comment>
 			<string>أَلْحَکِࢽْ</string>
 		</test>
 		<test label=" " stylename="lang">

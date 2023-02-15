@@ -838,7 +838,7 @@
 			<string>\u0628\u08BD\u0020\u0646\u0650\u0646\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0650 U+0020 U+06C6 U+0650">
-			<comment>noon+space+waw (rule 37) Not working until we have alternates</comment>
+			<comment>noon+space+waw (rule 37)</comment>
 			<string>\u0646\u0650\u0020\u06C6\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0646 U+0650 U+0020 U+0624 U+0650">
@@ -862,7 +862,7 @@
 			<string>\u0646\u0650\u0020\u06C9\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0628 U+0646 U+0650 U+0020 U+06C6 U+0650">
-			<comment>noon.fina+space+waw (rule 38) Not working until we have alternates</comment>
+			<comment>noon.fina+space+waw (rule 38)</comment>
 			<string>\u0628\u0646\u0650\u0020\u06C6\u0650\u00a0\u00a0\u00a0\u00a0</string>
 		</test>
 		<test label="U+0628 U+0646 U+0650 U+0020 U+0624 U+0650">
