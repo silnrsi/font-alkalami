@@ -1,11 +1,7 @@
 
-Alkalami Light is no longer a part of this font project. Alkalami Light has become a new font called [Ruwudu Regular](https://github.com/silnrsi/font-ruwudu). 
-
-Alkalami Regular will stay the same. 
-
 ## Welcome font developers!
 
-We welcome other developers who wish to get involved in supporting and enhancing this font.
+We welcome other developers who wish to get involved in supporting and enhancing these fonts or who want to modify them.
 
 ## Permissions granted by the OFL
 
@@ -13,13 +9,24 @@ SIL’s fonts are licensed according to the terms of the [SIL Open Font License]
 
 ## Building the fonts from source code
 
-The latest source files are available in a [Github project](https://github.com/silnrsi/font-alkalami).
+Font sources are published in a [Github project](https://github.com/silnrsi/font-alkalami). The build process requires [smith](https://github.com/silnrsi/smith) and project build parameters are set in the [wscript](wscript).    
 
 Font sources are in the [UFO3](http://unifiedfontobject.org/versions/ufo3/) format with font family structures defined using [designspace](https://github.com/fonttools/fonttools/tree/master/Doc/source/designspaceLib). OpenType source code is stored in the [.fea](https://adobe-type-tools.github.io/afdko/OpenTypeFeatureFileSpecification.html) format in the UFO (features.fea) but is maintained in a separate file using the more efficient and powerful [.feax](https://github.com/silnrsi/pysilfont/blob/master/docs/feaextensions.md) format.
 
 The fonts are built using a completely free and open source workflow using industry-standard tools ([fonttools](https://github.com/fonttools/fonttools)), a package of custom python scripts ([pysilfont](https://github.com/silnrsi/pysilfont)), and a build and packaging system ([Smith](https://github.com/silnrsi/smith)). The whole system is available in a preconfigured virtual machine using VirtualBox and Vagrant.
 
 Full instructions for setting up the tools and building SIL fonts are available on a dedicated web site: [SIL Font Development Notes](https://silnrsi.github.io/silfontdev/).
+
+### About ftml tests
+
+After a successful build, the results/ folder will contain, along with the built ttf and woff fonts, a number of
+test files in an xml-based format called FTML. Examples are AllChars-auto.ftml, DiacTest1-auto.ftml. 
+There is an ftml.xsl file that can be used to view these ftml documents directly in Firefox. 
+
+However, in order for Firefox to access the .xsl file, you need to relax its "strict URI" policy by going to about:config and
+setting [security.fileuri.strict_origin_policy](http://kb.mozillazine.org/Security.fileuri.strict_origin_policy) to false.
+
+Once you have this setting in effect, you can load the FTML documents directly into Firefox and see the built font rendered.
 
 ## Contributing to the project
 
