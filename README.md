@@ -1,7 +1,7 @@
 # Alkalami [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Alkalami/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Alkalami&guest=1)
 
 
-This project is intended to provide a free and open font family for Arabic script languages in West Africa that use the Rubutun Kano style. This font supports the characters known to be used by languages written in this style of Arabic script, but may not have the characters needed for other languages. Smart font routines automatically adjust the position of diacritics to support and optimize arbitrary base+diacritic combinations. This project uses a UFO-based design and production workflow, with all sources in open formats and a completely open-source build toolkit. 
+This project is intended to provide a free and open font family for Arabic script languages in West Africa that use the Rubutun Kano style. This font supports the characters known to be used by languages written in this style of Arabic script, but may not have the characters needed for other languages. Smart font routines automatically adjust the shape and position of characters. This project uses a UFO-based design and production workflow, with all sources in open formats and a completely open-source build toolkit. 
 
 To download the fonts visit the [Alkalami downloads page](https://software.sil.org/alkalami/download/) or the [Github releases page](https://github.com/silnrsi/font-alkalami/releases).
 

@@ -54,17 +54,27 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-%ISODATE% (SIL TypeTuner) Tuned version of Alkalami 2.001
+%ISODATE% (SIL TypeTuner) Tuned version of Alkalami 3.000a
 - Tuned and delivered by SIL TypeTuner
 (http://scripts.sil.org/ttw/fonts2go.cgi).
 - See included xml file for details of feature changes.
 
-### 2023-01-xx (WSTech team) Alkalami Version 2.100 (production release)
-- Add OpenType language support for Hausa
+### 2023-01-xx (WSTech team) Alkalami Version 3.000 (production release)
+#### New
+- Added OpenType language support for Hausa
+- Added characters: U+0870, U+0872, U+0874
+#### Improved
+- Adjust width for some mathematical symols
+  - 003C LESS-THAN SIGN
+  - 003E GREATER-THAN SIGN
+  - 00D7 MULTIPLICATION SIGN
+  - 2248 ALMOST EQUAL TO
+  - 2264 LESS-THAN OR EQUAL TO
+  - 2265 GREATER-THAN OR EQUAL TO
 ### 2022-06-09 (WSTech team) Alkalami Version 2.000 (production release)
 - Removed Alkalami Light font. 
 - Removed non Unicode compliant solutions
-2### 022-04-27 (WSTech team) Alkalami Version 1.300 (production release)
+### 2022-04-27 (WSTech team) Alkalami Version 1.300 (production release)
 - Added characters to support other languages: U+0600, U+0657..U+0658, U+065D, U+067D, U+0684, U+06A5, U+06E5, U+0761, U+0870, U+0872, U+0874, U+08A2..U+08A3, U+08F4..U+08FD, U+FDFD, U+2212
 - Changed design of U+0643 (KAF) and U+06AD (NG)
 - Added ss09 to support "Wagaf small"
