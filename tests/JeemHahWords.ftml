@@ -1422,7 +1422,7 @@
 			<string>سَیْࢽَجِ</string>
 		</test>
 		<test label=" " stylename="ha">
-			<comment>broken in v1.1</comment>
+			<comment>broken in v1.0 and 1.1</comment>
 			<string>سَیْکَجَا</string>
 		</test>
 		<test label=" " stylename="ha">
