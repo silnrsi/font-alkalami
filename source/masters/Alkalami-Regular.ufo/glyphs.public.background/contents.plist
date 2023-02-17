@@ -66,6 +66,8 @@
   <string>_dot2hA_bove.glif</string>
   <key>_dot2hBelow</key>
   <string>_dot2hB_elow.glif</string>
+  <key>_dot2hBelow.narrow</key>
+  <string>_dot2hB_elow.narrow.glif</string>
   <key>_dot2vAbove</key>
   <string>_dot2vA_bove.glif</string>
   <key>_dot3dAbove</key>
@@ -554,8 +556,6 @@
   <string>two.pnum.glif</string>
   <key>two.small</key>
   <string>two.small.glif</string>
-  <key>twodotsnarrow-ar</key>
-  <string>twodotsnarrow-ar.glif</string>
   <key>u</key>
   <string>u.glif</string>
   <key>underscore</key>

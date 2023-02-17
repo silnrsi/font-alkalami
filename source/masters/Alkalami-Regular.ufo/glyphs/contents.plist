@@ -176,6 +176,8 @@
   <string>_dot2hA_bove.glif</string>
   <key>_dot2hBelow</key>
   <string>_dot2hB_elow.glif</string>
+  <key>_dot2hBelow.narrow</key>
+  <string>_dot2hB_elow.narrow.glif</string>
   <key>_dot2vAbove</key>
   <string>_dot2vA_bove.glif</string>
   <key>_dot2vBelow</key>
@@ -184,6 +186,8 @@
   <string>_dot3dA_bove.glif</string>
   <key>_dot3dBelow</key>
   <string>_dot3dB_elow.glif</string>
+  <key>_dot3dBelow.narrow</key>
+  <string>_dot3dB_elow.narrow.glif</string>
   <key>_dot3uAbove</key>
   <string>_dot3uA_bove.glif</string>
   <key>_dot3uAbove.medium</key>
@@ -1696,8 +1700,6 @@
   <string>three.small.glif</string>
   <key>threedots-ar</key>
   <string>threedots-ar.glif</string>
-  <key>threedotsdownbelow-ar.narrow</key>
-  <string>threedotsdownbelow-ar.narrow.glif</string>
   <key>threeperemspace</key>
   <string>threeperemspace.glif</string>
   <key>threequarters</key>
@@ -1718,8 +1720,6 @@
   <string>two.pnum.glif</string>
   <key>two.small</key>
   <string>two.small.glif</string>
-  <key>twodotsnarrow-ar</key>
-  <string>twodotsnarrow-ar.glif</string>
   <key>twosuperior</key>
   <string>twosuperior.glif</string>
   <key>u</key>
