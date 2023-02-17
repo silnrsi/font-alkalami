@@ -95,10 +95,10 @@ lookup HausaCALT2 {
 	sub [alef-ar alef-ar.high]' lookup ss08_aux [fatha-ar kasra-ar damma-ar]' lookup ss08_aux;
 } HausaCALT2  ;
 
-
 #---  liga feature (pass 10)
 
 # Subtending Mark lookups
+
 # End of Ayah digits and number-ar
 lookup digit_small {
   sub @Digits by @Digits.small;
@@ -220,17 +220,10 @@ lookup flatten_pre_hah {
 	sub @pre_hah_not_flat'  @hahMedials_stack  by  @pre_hah_flat;  # or should this be hahMedi_any ??????????
 } flatten_pre_hah;
 
-# used to flatten jeems, but it gives a warning 'ambiguous "ignore sub"'
-# lookup no_change {  # for chaining lookups
-#	ignore sub  @pre_hah_flat;
-#	ignore sub  @hahMedi_any;
-# } no_change;
-
 lookup flatten_hah_aux {  # for chaining lookups
 	sub @cno_ss07  by  @c_ss07;
 	sub @hahMedials_stack by @hahMedials_flat;
 } flatten_hah_aux;
-
 
 # Flatten long jeem sequences - what these situations are is hard to describe. :-)
 lookup flatten_hah {
@@ -240,11 +233,8 @@ lookup flatten_hah {
 	ignore sub  @c_init  @hahMedi_any';  # short sequence
 	
 	# flat jeem jeem jeem.low - don't flatten first jeem, it will make the prior flat form attach too low.
-#	sub @pre_hah_flat' lookup no_change  @hahMedi_any' lookup no_change  @hahMedi_any' lookup flatten_hah_aux;
-
-# Try this from BH
 	sub @pre_hah_flat' @hahMedi_any' @hahMedi_any' lookup flatten_hah_aux;
-	
+
 	# Case 8: flatten jeems
 	sub  @hahMedi_any' lookup flatten_hah_aux  @hahMedi_any  [ @post_hah_final_low @hahMedials_low @hahFinals ];
 	
@@ -646,8 +636,8 @@ feature calt {
 	lookup shift_post_hah;
 	lookup flatten_pre_hah;
 	lookup flatten_hah;
-	
-	lookup calt_lkp1 {
+
+	lookup calt_lkp1 { # rule 0
 		lookupflag IgnoreMarks;
 
 		# Slightly shorter tail for yeh-barree before beh/yeh/noon forms:
@@ -867,7 +857,6 @@ feature ss04 {
 	} ss04_lkp;
 } ss04;
 
-
 #********************
 # No stacking jeem/hah: ss07 (pass 10)
 
@@ -876,7 +865,6 @@ feature ss07 {
 		name 3 1 0x409 "Jeem/hah";
 	};
 
-  script arab;
 
 	# Basically undo the jeem stacking rules above. :-/
 	lookup ss07_lkp {
@@ -884,11 +872,6 @@ feature ss07 {
 		
 		# flat jeem jeem - don't flatten first jeem, it will make the prior flat form attach too low.
 		
-#		sub @pre_hah_flat' lookup no_change  @hahMedials_stack' lookup no_change  @hahMedials_flat;  # already flattened
-#		sub @pre_hah_flat' lookup no_change  @hahMedi_any' lookup no_change;
-#		sub lam-ar.init.high  @hahMedials_stack'  lookup no_change;
-
-# Rules BH thinks we could use instead of above 3
 		ignore sub @pre_hah_flat' @hahMedials_stack' @hahMedials_flat;  # already flattened
 		ignore sub @pre_hah_flat' @hahMedi_any';
 		ignore sub lam-ar.init.high  @hahMedials_stack';
@@ -903,9 +886,7 @@ feature ss07 {
 		sub @post_hah_final_low'  by  @post_hah_final_toShift;
 		sub @hahMedials_low'      by  @hahMedials_flat;
 	} ss07_lkp2;
-    language HAU ;
 } ss07;
-
 
 #********************
 # Alef + fatha/kasra/damma alternates: ss08 (pass 10)
@@ -915,11 +896,10 @@ feature ss08 {
 		name 3 1 0x409 "Alef diacritic placement";
 	};
 
-  script arab;
 	lookup ss08_lkp {
-		sub [alef-ar alef-ar.high]' lookup ss08_aux [fatha-ar kasra-ar damma-ar]' lookup ss08_aux;
+  		sub [alef-ar alef-ar.high]' lookup ss08_aux [fatha-ar kasra-ar damma-ar]' lookup ss08_aux;
 	} ss08_lkp;
-    language HAU ;
+  
 } ss08;
 
 #********************
@@ -930,11 +910,9 @@ feature ss09 {
 		name 3 1 0x409 "Wagaf";
 	};
 
-  script arab;
 	lookup ss09_lkp {
 		sub @cno_ss09 by @c_ss09;
 	} ss09_lkp;
-    language HAU ;
 } ss09;
 
 #---  pnum feature (pass 10) ---
