@@ -965,6 +965,11 @@ U+0623">
       <string>\u000644\u000623 \u00200D\u000644\u000623 </string>
     </test>
     <test label="U+0644
+U+0625">
+      <comment>lam-ar alefHamzabelow-ar</comment>
+      <string>\u000644\u000625 \u00200D\u000644\u000625 </string>
+    </test>
+    <test label="U+0644
 U+0622">
       <comment>lam-ar alefMadda-ar</comment>
       <string>\u000644\u000622 \u00200D\u000644\u000622 </string>

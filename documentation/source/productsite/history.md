@@ -1,7 +1,23 @@
 
-### 2023-02-xx (WSTech team) Alkalami Version 3.000 (production release)
-- Add OpenType language support for Hausa
-- Added characters: U+0870, U+0872, U+0874
+### 2023-02-23 (WSTech team) Alkalami Version 3.000 (production release)
+
+#### New
+- Added OpenType language support for Hausa
+- Added characters: 
+  - U+0870 ARABIC LETTER ALEF WITH ATTACHED FATHA
+  - U+0872 ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE
+  - U+0874 ARABIC LETTER ALEF WITH ATTACHED KASRA
+- Added mirrored glyph:
+  - 2248 ALMOST EQUAL TO
+
+#### Improved
+- Adjust width for some mathematical symols
+  - 003C LESS-THAN SIGN
+  - 003E GREATER-THAN SIGN
+  - 00D7 MULTIPLICATION SIGN
+  - 2248 ALMOST EQUAL TO
+  - 2264 LESS-THAN OR EQUAL TO
+  - 2265 GREATER-THAN OR EQUAL TO
 
 ### 2022-06-09 (WSTech team) Alkalami Version 2.000 (production release)
 - Removed Alkalami Light font. 
