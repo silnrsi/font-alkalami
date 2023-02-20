@@ -13,6 +13,9 @@ with Reserved Font Names "Alkalami" and "SIL".
 This Font Software is licensed under the SIL Open Font License,
 Version 1.1.
 
-master.feax   Master source file for OpenType logic. Note this file utilizes
-              FEA extensions provided by pysilfont.
+All files utilize FEA extensions provided by pysilfont.
 
+main.feax     Main source file for OpenType logic.
+gpos.feax     Included into main.feax source file.
+gsub.feax     Included into main.feax source file.
+classes.txt		Manually created classes.

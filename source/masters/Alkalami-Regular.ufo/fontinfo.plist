@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Alkalami</string>
   <key>openTypeHeadCreated</key>
-  <string>2023/02/20 10:18:34</string>
+  <string>2023/02/20 14:51:38</string>
   <key>openTypeHheaAscender</key>
   <integer>1035</integer>
   <key>openTypeHheaDescender</key>
@@ -135,7 +135,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Alkalami Regular: 2023</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.001</string>
+  <string>Version 3.000</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -224,9 +224,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>unitsPerEm</key>
   <integer>1000</integer>
   <key>versionMajor</key>
-  <integer>2</integer>
+  <integer>3</integer>
   <key>versionMinor</key>
-  <integer>1</integer>
+  <integer>0</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>
