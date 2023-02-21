@@ -13,13 +13,44 @@ SIL’s fonts are licensed according to the terms of the [SIL Open Font License]
 
 ## Building the fonts from source code
 
-Font sources are published in a [Github project](https://github.com/silnrsi/font-alkalami). The build process requires [smith](https://github.com/silnrsi/smith) and project build parameters are set in the [wscript](wscript).    
+Font sources are published in a [Github project](https://github.com/silnrsi/font-alkalami). The build process requires [smith](https://github.com/silnrsi/smith) and project build parameters are set in the [wscript](https://github.com/silnrsi/smith/blob/master/wscript).    
 
 Font sources are in the [UFO3](http://unifiedfontobject.org/versions/ufo3/) format with font family structures defined using [designspace](https://github.com/fonttools/fonttools/tree/master/Doc/source/designspaceLib). OpenType source code is stored in the [.fea](https://adobe-type-tools.github.io/afdko/OpenTypeFeatureFileSpecification.html) format in the UFO (features.fea) but is maintained in a separate file using the more efficient and powerful [.feax](https://github.com/silnrsi/pysilfont/blob/master/docs/feaextensions.rawmd) format.
 
 The fonts are built using a completely free and open source workflow using industry-standard tools ([fonttools](https://github.com/fonttools/fonttools)), a package of custom python scripts ([pysilfont](https://github.com/silnrsi/pysilfont)), and a build and packaging system ([Smith](https://github.com/silnrsi/smith)). The whole system is available in a preconfigured virtual machine using VirtualBox and Vagrant.
 
 Full instructions for setting up the tools and building SIL fonts are available on a dedicated web site: [SIL Font Development Notes](https://silnrsi.github.io/silfontdev/).
+
+## Building
+
+The Alkalami project can be built from source using [smith](https://github.com/silnrsi/smith). This is done via the sequence:
+```
+    smith distclean
+    smith configure
+    smith build
+    smith alltests
+```
+
+### Adding characters
+
+After base characters to the font, the following files will also need updating:
+- `glyph_data.csv` -- used to set glyph orders and psnames in the built font
+- `classes.xml` -- used to define classes used by OpenType
+- `opentype/*.feax` -- modify as needed to add needed OpenType behavior
+- `tests/*.ftml` -- see below
+
+### Generated test files
+
+After adding characters or additional behaviors to the font, test files should be created or enhanced to test the new behaviors. The test files:
+- `tests/AllChars-auto.ftml`
+- `tests/ALsorted-auto.ftml`
+- `tests/Diac1-auto.ftml`
+- `tests/Diac1-short-auto.ftml`
+- `tests/SubtendingMarks-auto.ftml`
+
+are generated automatically using `tools/genftmlfiles.sh`.
+
+`tools/ftml.xsl` can be used to view ftml documents directly in Firefox (which supports both Graphite and OpenType rendering).
 
 ### About ftml tests
 
