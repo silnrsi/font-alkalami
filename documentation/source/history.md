@@ -3,7 +3,7 @@ title: Alkalami - Version History
 fontversion: 3.000
 ---
 
-### 2023-02-23 (WSTech team) Alkalami Version 3.000 (production release)
+### 2023-02-22 (WSTech team) Alkalami Version 3.000 (production release)
 
 #### New
 - Added OpenType language support for Hausa
