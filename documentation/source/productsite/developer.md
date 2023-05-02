@@ -11,7 +11,7 @@ SIL’s fonts are licensed according to the terms of the [SIL Open Font License]
 
 Font sources are published in a [Github project](https://github.com/silnrsi/font-alkalami). The build process requires [smith](https://github.com/silnrsi/smith) and project build parameters are set in the [wscript](https://github.com/silnrsi/smith/blob/master/wscript).    
 
-Font sources are in the [UFO3](http://unifiedfontobject.org/versions/ufo3/) format with font family structures defined using [designspace](https://github.com/fonttools/fonttools/tree/master/Doc/source/designspaceLib). OpenType source code is stored in the [.fea](https://adobe-type-tools.github.io/afdko/OpenTypeFeatureFileSpecification.html) format in the UFO (features.fea) but is maintained in a separate file using the more efficient and powerful [.feax](https://github.com/silnrsi/pysilfont/blob/master/docs/feaextensions.md) format.
+Font sources are in the [UFO3](https://unifiedfontobject.org/versions/ufo3/) format with font family structures defined using [designspace](https://github.com/fonttools/fonttools/tree/master/Doc/source/designspaceLib). OpenType source code is stored in the [.fea](https://adobe-type-tools.github.io/afdko/OpenTypeFeatureFileSpecification.html) format in the UFO (features.fea) but is maintained in a separate file using the more efficient and powerful [.feax](https://github.com/silnrsi/pysilfont/blob/master/docs/feaextensions.md) format.
 
 The fonts are built using a completely free and open source workflow using industry-standard tools ([fonttools](https://github.com/fonttools/fonttools)), a package of custom python scripts ([pysilfont](https://github.com/silnrsi/pysilfont)), and a build and packaging system ([Smith](https://github.com/silnrsi/smith)). The whole system is available in a preconfigured virtual machine using VirtualBox and Vagrant.
 
@@ -55,7 +55,7 @@ test files in an xml-based format called FTML. Examples are AllChars-auto.ftml, 
 There is an ftml.xsl file that can be used to view these ftml documents directly in Firefox. 
 
 However, in order for Firefox to access the .xsl file, you need to relax its "strict URI" policy by going to about:config and
-setting [security.fileuri.strict_origin_policy](http://kb.mozillazine.org/Security.fileuri.strict_origin_policy) to false.
+setting [security.fileuri.strict_origin_policy](https://kb.mozillazine.org/Security.fileuri.strict_origin_policy) to false.
 
 Once you have this setting in effect, you can load the FTML documents directly into Firefox and see the built font rendered.
 

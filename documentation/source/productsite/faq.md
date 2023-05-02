@@ -1,7 +1,7 @@
 
 Many questions can be answered by consulting the following FAQ pages. Here are a few sample questions answered in each FAQ:
 
-- [SIL fonts in general](http://software.sil.org/fonts/faq)
+- [SIL fonts in general](https://software.sil.org/fonts/faq)
     - *How can I type...?*
     - *How can I use font features?*
     - *Will you add support for character...?*
@@ -14,7 +14,7 @@ Many questions can be answered by consulting the following FAQ pages. Here are a
     - *If I use the font on a web page do I have to include an acknowledgement?*
     - The full OFL-FAQ.txt is also included in the font package.
 
-A generic FAQ for all of our Arabic scripts fonts can be found here: [Arabic Fonts - FAQ](http://software.sil.org/arabicfonts/support/faq/). FAQ's specific to Alkalami are found below.
+A generic FAQ for all of our Arabic scripts fonts can be found here: [Arabic Fonts - FAQ](https://software.sil.org/arabicfonts/support/faq/). FAQ's specific to Alkalami are found below.
 
 #### *Where does the name Alkalami come from?*
 
@@ -32,7 +32,7 @@ These non Unicode compliant solutions were removed in v2.000 of the font.
 
 #### *I need the Alkalami Light font, and it is not in this package. Where do I find it?*
 
-With version 2.000 of **Alkalami**, we have removed the **Alkalami Light** font and moved it to its own typeface. It is now available as the [Ruwudu](http://software.sil.org/ruwudu) font.
+With version 2.000 of **Alkalami**, we have removed the **Alkalami Light** font and moved it to its own typeface. It is now available as the [Ruwudu](https://software.sil.org/ruwudu) font.
 
 #### *What characters are included with this release?*
 

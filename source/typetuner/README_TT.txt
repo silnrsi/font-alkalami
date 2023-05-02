@@ -23,7 +23,7 @@ See the FONTLOG for information on this and previous releases.
 For further information about this font, including Unicode ranges
 supported, OpenType font features and how to use them, 
 and licensing, please see the documentation on the website 
-(http://software.sil.org/alkalami/) or in the documentation 
+(https://software.sil.org/alkalami/) or in the documentation 
 subfolder of this font package.
 
 TYPETUNER
@@ -46,7 +46,7 @@ been through some testing on various platforms to be sure it works in most
 situations. In particular, it has been tested and shown to work on Windows 10. 
 
 If you do find a problem, please do report it through 
-http://software.sil.org/alkalami/support/. We can't guarantee any direct response, but 
+https://software.sil.org/alkalami/support/. We can't guarantee any direct response, but 
 will try to fix reported bugs in future versions. 
 
 Many problems can be solved, or at least explained, through an understanding
@@ -86,5 +86,5 @@ applications that provide an adequate level of support for OpenType.
 CONTACT
 ========
 For more information see the Alkalami website:
-http://software.sil.org/alkalami/
+https://software.sil.org/alkalami/
 
