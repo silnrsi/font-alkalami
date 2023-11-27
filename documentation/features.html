@@ -14,17 +14,13 @@
     <header>
         <h1 class="title">Alkalami - Font Features</h1>
     </header>
-    <p>Alkalami is a TrueType font with smart font capabilities added using the OpenType font technology. The Alkalami font includes a number of optional features that provide alternative rendering that might be preferable for use in some contexts. The sections below enumerates the details of these features. Whether these features are available to users will depend on both the application and the rendering technology being used. Features are available in OpenType. Some applications let the user control certain features such as Stylistic Sets to turn on the rendering of variant characters. However, at this point, many applications do not make use of those features so another solution is needed to show the variant characters. <a href="https://scripts.sil.org/ttw/fonts2go.cgi">TypeTuner</a> creates tuned fonts that use the variant glyph in place of the standard glyph.</p>
+    <p>Alkalami is a TrueType font with smart font capabilities added using the OpenType font technology. The Alkalami font includes a number of optional features that provide alternative rendering that might be preferable for use in some contexts. The sections below enumerates the details of these features. Whether these features are available to users will depend on both the application and the rendering technology being used. Features are available in OpenType. Some applications let the user control certain features such as Stylistic Sets to turn on the rendering of variant characters. However, at this point, many applications do not make use of those features so another solution is needed to show the variant characters. For applications that do not make use of the OpenType Character Variants, you can now download fonts customized with the variant glyphs you choose. Read this document, visit <a href="https://scripts.sil.org/ttw/fonts2go.cgi">TypeTuner Web</a>, then choose the variants and download your font.</p>
     <p>See <a href="https://software.sil.org/fonts/features/">Using Font Features</a>. Although that page is not targeted at Arabic script support, it does provide a comprehensive list of applications that make full use of the OpenType (and Graphite) font technologies.</p>
     <p>See also <a href="https://software.sil.org/arabicfonts/support/application-support/">Arabic Fonts — Application Support</a>. It provides a fairly comprehensive list of applications that make full use of the OpenType font technology.</p>
     <p>This page uses web fonts (WOFF) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use Alkalami as a web font see <em>Alkalami-webfont-example.html</em> in the font package web folder.</p>
     <p><em>If this document is not displaying correctly a PDF version is also provided in the documentation/pdf folder of the release package.</em></p>
-    <h2 id="signs-spanning-numbers">Signs Spanning Numbers</h2>
-    <p>These signs spanning numbers are intended to enclose or hold one or more digits. Specific technical details of how to use them are discussed in the <a href="https://software.sil.org/arabicfonts/support/faq#Ayah">Arabic fonts FAQ -- Subtending marks</a>.</p>
-    <p>Currently, this font only supports the <strong>Number Sign</strong> (U+0600) and <strong>End of Ayah</strong> (U+06DD). Additionally, Alkalami includes two simplified alternates for U+06DD ARABIC END OF AYAH under the Stylistic Alternates (salt) feature, but at this time we know of no OpenType-based applications that can access these. The two alternates are also available through the Stylistic Sets feature discussed below.</p>
-    <h2 id="customizing-with-typetuner">Customizing with TypeTuner</h2>
-    <p>For applications that do not make use of the OpenType Stylistic Sets, you can now download fonts customized with the variant glyphs you choose. Read this document, visit <a href="https://scripts.sil.org/ttw/fonts2go.cgi">TypeTuner Web</a>, then choose the variants and download your font.</p>
-    <h3 id="language">Language</h3>
+    <h2 id="complete-feature-list">Complete feature list</h2>
+    <h3 id="language-system-tags">Language system tags</h3>
     <p><span class="affects">Affects: U+065C, U+0627 (with U+064E, U+064F, U+0650), U+063F, U+069F, U+0751, U+0763, U+08C3, U+08C4</span></p>
     <p>Unfortunately, the UI needed to access the language-specific behavior is not yet present in many applications. Some Harfbuzz-based apps, e.g., XeTeX, can access language-specific behavior.</p>
     <!-- ha does not work for pdf. Must use hau for proper display in pdf. However, for proper display in html must use ha! -->
@@ -151,6 +147,7 @@
     </table>
     <h4 id="end-of-ayah">End of ayah</h4>
     <p><span class="affects">Affects: U+06DD</span></p>
+    <p>These alternates are also available using the Stylistic Alternates (salt) feature, but at this time we know of no OpenType-based applications that can access these.</p>
     <p>Firefox allows you to use U+06DD followed by the digits and proper rendering occurs. Some applications require the following:</p>
     <ul>
     <li>precede the entire sequence (subtending mark plus following digits) with 202D LEFT-TO-RIGHT OVERRIDE</li>
@@ -184,7 +181,8 @@
     </tr>
     </tbody>
     </table>
-    <h2 id="proportional-figures">Proportional Figures</h2>
+    <h3 id="other-user-font-features">Other user font features</h3>
+    <h4 id="proportional-figures">Proportional Figures</h4>
     <p>Alkalami supports the OpenType <strong>Proportional Figures (pnum)</strong> for Latin digits. <em>This feature is not supported in TypeTuner Web.</em></p>
     <p><span class="affects">Affects: U+0030..U+0039</span></p>
     <table>
@@ -208,17 +206,17 @@
     </tr>
     </tbody>
     </table>
-    <h2 id="contextual-alternates">Contextual Alternates</h2>
+    <h4 id="contextual-alternates">Contextual Alternates</h4>
     <p>Alkalami has a few contextual rules applying subtle differences in the shape and position of certain of the characters depending on context (sometimes shortening, sometimes lengthening or lowering a “tail”). InDesign is able to utilize some of these cross word contextual alternates; however, most applications are not advanced enough to use this behavior in the font. Unfortunately, at this point in the development of the font, combining marks above or below may break these contextual alternates.</p>
-    <h4 id="substitutions-to-avoid-collisions-in-strings-with-noon-like-characters">Substitutions to avoid collisions in strings with noon-like characters</h4>
+    <p><strong>Substitutions to avoid collisions in strings with noon-like characters</strong></p>
     <p>    <span class="alkalami-R normal" dir="rtl">ن ت    ن ب</span></p>
-    <h4 id="substitutions-to-avoid-collisions-in-strings-with-yeh-like-characters">Substitutions to avoid collisions in strings with yeh-like characters</h4>
+    <p><strong>Substitutions to avoid collisions in strings with yeh-like characters</strong></p>
     <p>    <span class="alkalami-R normal" dir="rtl">بي لر بي</span></p>
-    <h4 id="substitutions-to-avoid-collisions-in-strings-with-seen-like-characters">Substitutions to avoid collisions in strings with seen-like characters</h4>
+    <p><strong>Substitutions to avoid collisions in strings with seen-like characters</strong></p>
     <p>    <span class="alkalami-R normal" dir="rtl">س سو س</span></p>
-    <h4 id="substitutions-for-shortening-dal-like-characters-shorter-tail-on-dal">Substitutions for shortening dal-like characters (shorter tail on dal)</h4>
+    <p><strong>Substitutions for shortening dal-like characters (shorter tail on dal)</strong></p>
     <p>    <span class="alkalami-R normal" dir="rtl">س د         د</span></p>
-    <h4 id="substitutions-for-shortening-waw-like-characters">Substitutions for shortening waw-like characters</h4>
+    <p><strong>Substitutions for shortening waw-like characters</strong></p>
     <p>    <span class="alkalami-R normal" dir="rtl">بن و      و</span></p>
     <h2 id="note">Note!</h2>
     <p>If you used previous versions of this font, we made some decisions which were unfortunately not Unicode compliant. Since the initial release of this font, many of these non Unicode compliant characters have been added to Unicode. You will need to re-encode some characters to be fully Unicode compliant. The characters affected are listed below:</p>
@@ -329,7 +327,7 @@
     <!-- PRODUCT SITE ONLY
     [font id='alkalami' face='Alkalami-Regular' size='150%' rtl=1]
     [font id='alkalamiL' face='Alkalami-Regular' size='100%' ltr=1]
-    
+
     -->
     <footer class="footer">
         <p>This guide is from the <a href="https://software.sil.org/alkalami/" title="" class="active">Alkalami project</a> version 3.000 and is copyright © 2015-2023 SIL International.</p>

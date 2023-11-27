@@ -1,5 +1,5 @@
 
-Alkalami is a TrueType font with smart font capabilities added using the OpenType font technology. The Alkalami font includes a number of optional features that provide alternative rendering that might be preferable for use in some contexts. The sections below enumerates the details of these features. Whether these features are available to users will depend on both the application and the rendering technology being used. Features are available in OpenType. Some applications let the user control certain features such as Stylistic Sets to turn on the rendering of variant characters. However, at this point, many applications do not make use of those features so another solution is needed to show the variant characters. [TypeTuner](https://scripts.sil.org/ttw/fonts2go.cgi) creates tuned fonts that use the variant glyph in place of the standard glyph. 
+Alkalami is a TrueType font with smart font capabilities added using the OpenType font technology. The Alkalami font includes a number of optional features that provide alternative rendering that might be preferable for use in some contexts. The sections below enumerates the details of these features. Whether these features are available to users will depend on both the application and the rendering technology being used. Features are available in OpenType. Some applications let the user control certain features such as Stylistic Sets to turn on the rendering of variant characters. However, at this point, many applications do not make use of those features so another solution is needed to show the variant characters. For applications that do not make use of the OpenType Character Variants, you can now download fonts customized with the variant glyphs you choose. Read this document, visit [TypeTuner Web](https://scripts.sil.org/ttw/fonts2go.cgi), then choose the variants and download your font. 
 
 See [Using Font Features](https://software.sil.org/fonts/features/). Although that page is not targeted at Arabic script support, it does provide a comprehensive list of applications that make full use of the OpenType (and Graphite) font technologies.
 
@@ -9,17 +9,9 @@ This page uses web fonts (WOFF) to demonstrate font features and should display 
 
 *If this document is not displaying correctly a PDF version is also provided in the documentation/pdf folder of the release package.*
 
-## Signs Spanning Numbers
+## Complete feature list
 
-These signs spanning numbers are intended to enclose or hold one or more digits. Specific technical details of how to use them are discussed in the [Arabic fonts FAQ -- Subtending marks](https://software.sil.org/arabicfonts/support/faq#Ayah).
-
-Currently, this font only supports the **Number Sign** (U+0600) and **End of Ayah** (U+06DD). Additionally, Alkalami includes two simplified alternates for U+06DD ARABIC END OF AYAH under the Stylistic Alternates (salt) feature, but at this time we know of no OpenType-based applications that can access these. The two alternates are also available through the Stylistic Sets feature discussed below.
-
-## Customizing with TypeTuner
-
-For applications that do not make use of the OpenType Stylistic Sets, you can now download fonts customized with the variant glyphs you choose. Read this document, visit [TypeTuner Web](https://scripts.sil.org/ttw/fonts2go.cgi), then choose the variants and download your font.
-
-### Language 
+### Language system tags
 
 <span class='affects'>Affects: U+065C, U+0627 (with U+064E, U+064F, U+0650), U+063F, U+069F, U+0751, U+0763, U+08C3, U+08C4</span>
 
@@ -63,7 +55,6 @@ Feature | Sample | Feature setting
 Standard | <span dir="rtl" class='alkalami-ss08-0-R normal'>&#x0627;&#x064E; &#x0627;&#x064F; &#x0627;&#x0650; &#x0628;&#x0627;&#x064E; &#x0628;&#x0627;&#x064F; &#x0628;&#x0627;&#x0650; </span>| `ss08=0`
 Touching | <span dir="rtl" class='alkalami-ss08-1-R normal'>&#x0627;&#x064E; &#x0627;&#x064F; &#x0627;&#x0650; &#x0628;&#x0627;&#x064E; &#x0628;&#x0627;&#x064F; &#x0628;&#x0627;&#x0650;</span>| `ss08=1`
 
-
 #### Wagaf (ss09)
 
 <span class='affects'>Affects: U+063F, U+069F, U+0751, U+0763, U+08C3, U+08C4</span>
@@ -76,6 +67,8 @@ Small | <span dir="rtl" class='alkalami-ss09-1-R normal'>&#x063F; &#x063F;&#x063
 #### End of ayah 
 
 <span class='affects'>Affects: U+06DD</span>
+
+These alternates are also available using the Stylistic Alternates (salt) feature, but at this time we know of no OpenType-based applications that can access these. 
 
 Firefox allows you to use U+06DD followed by the digits and proper rendering occurs. Some applications require the following:
 
@@ -92,8 +85,9 @@ Standard     | <span class='alkalami-R normal'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;
 End of ayah A | <span class='alkalami-ss02-1-R normal'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span>| `ss02=1`
 End of ayah B | <span class='alkalami-ss03-1-R normal'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span>| `ss03=1`
 
+### Other user font features
 
-## Proportional Figures
+#### Proportional Figures
 
 Alkalami supports the OpenType **Proportional Figures (pnum)** for Latin digits. *This feature is not supported in TypeTuner Web.*
 
@@ -104,30 +98,29 @@ Feature | Sample | Feature setting
 Tabular Figures      | <span dir="rtl" class='alkalami-R normal'> 0 1 2 3 4 5 6 7 8 9</span>| `pnum=0`
 Proportional Figures     | <span dir="rtl" class='alkalami-pnum-1-R normal'> 0 1 2 3 4 5 6 7 8 9</span>| `pnum=1`
 
-## Contextual Alternates
+#### Contextual Alternates
 
 Alkalami has a few contextual rules applying subtle differences in the shape and position of certain of the characters depending on context (sometimes shortening, sometimes lengthening or lowering a “tail”). InDesign is able to utilize some of these cross word contextual alternates; however, most applications are not advanced enough to use this behavior in the font. Unfortunately, at this point in the development of the font, combining marks above or below may break these contextual alternates.
 
-#### Substitutions to avoid collisions in strings with noon-like characters
+**Substitutions to avoid collisions in strings with noon-like characters**
 
 &#x00A0;&#x00A0;&#x00A0;&#x00A0;<span dir="rtl" class='alkalami-R normal'>&#x0646;&#x0020;&#x062a;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x0646;&#x0020;&#x0628;</span>
 
-#### Substitutions to avoid collisions in strings with yeh-like characters
+**Substitutions to avoid collisions in strings with yeh-like characters**
 
 &#x00A0;&#x00A0;&#x00A0;&#x00A0;<span dir="rtl" class='alkalami-R normal'>&#x0628;&#x064a;&#x0020;&#x0644;&#x0631;&#x0020;&#x0628;&#x064a;</span>
 
-#### Substitutions to avoid collisions in strings with seen-like characters
+**Substitutions to avoid collisions in strings with seen-like characters**
 
 &#x00A0;&#x00A0;&#x00A0;&#x00A0;<span dir="rtl" class='alkalami-R normal'>&#x0633;&#x0020;&#x0633;&#x0648;&#x0020;&#x0633;</span>
 
-#### Substitutions for shortening dal-like characters (shorter tail on dal)
+**Substitutions for shortening dal-like characters (shorter tail on dal)**
 
 &#x00A0;&#x00A0;&#x00A0;&#x00A0;<span dir="rtl" class='alkalami-R normal'>&#x0633;&#x0020;&#x062f;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x062f;</span>
 
-#### Substitutions for shortening waw-like characters
+**Substitutions for shortening waw-like characters**
 
 &#x00A0;&#x00A0;&#x00A0;&#x00A0;<span dir="rtl" class='alkalami-R normal'>&#x0628;&#x0646;&#x0020;&#x0648;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x0648;</span>
-
 
 ## Note!
 
