@@ -951,24 +951,24 @@ markClass damma-ar.ss08 <anchor 126 248> @_center;
 # baseClass lam_alefMadda-ar.fina <anchor 107 -46> @bottom_2;
 #**********************************
 # This file is part of Alkalami font family (https://software.sil.org/alkalami/) 
-# and is Copyright (c) 2015-2023 SIL International (https://www.sil.org/),
+# and is Copyright (c) 2015-2024 SIL International (https://www.sil.org/),
 # with Reserved Font Names "Alkalami" and "SIL".
 #
 # This Font Software is licensed under the SIL Open Font License, Version 1.1.
 #
 # You should have received a copy of the license along with this Font Software.
-# If this is not the case, go to (https://scripts.sil.org/OFL) for all the
+# If this is not the case, go to (https://openfontlicense.org/) for all the
 # details including an FAQ.
 #**********************************
 #**********************************
 # This file is part of Alkalami font family (https://software.sil.org/alkalami/) 
-# and is Copyright (c) 2015-2023 SIL International (https://www.sil.org/),
+# and is Copyright (c) 2015-2024 SIL International (https://www.sil.org/),
 # with Reserved Font Names "Alkalami" and "SIL".
 #
 # This Font Software is licensed under the SIL Open Font License, Version 1.1.
 #
 # You should have received a copy of the license along with this Font Software.
-# If this is not the case, go to (https://scripts.sil.org/OFL) for all the
+# If this is not the case, go to (https://openfontlicense.org/) for all the
 # details including an FAQ.
 #**********************************
 #**********************************
@@ -1098,13 +1098,13 @@ markClass damma-ar.ss08 <anchor 126 248> @_center;
 @c_tailLong = [@c_longtail yehThreedotsabove-farsi.longtail.ss09 yehThreedotsabove-farsi.fina.longtail.ss09];
 #**********************************
 # This file is part of Alkalami font family (https://software.sil.org/alkalami/) 
-# and is Copyright (c) 2015-2023 SIL International (https://www.sil.org/),
+# and is Copyright (c) 2015-2024 SIL International (https://www.sil.org/),
 # with Reserved Font Names "Alkalami" and "SIL".
 #
 # This Font Software is licensed under the SIL Open Font License, Version 1.1.
 #
 # You should have received a copy of the license along with this Font Software.
-# If this is not the case, go to (https://scripts.sil.org/OFL) for all the
+# If this is not the case, go to (https://openfontlicense.org/) for all the
 # details including an FAQ.
 #**********************************
 #**********************************
@@ -3017,13 +3017,13 @@ feature aalt {
 
 #**********************************
 # This file is part of Alkalami font family (https://software.sil.org/alkalami/) 
-# and is Copyright (c) 2015-2023 SIL International (https://www.sil.org/),
+# and is Copyright (c) 2015-2024 SIL International (https://www.sil.org/),
 # with Reserved Font Names "Alkalami" and "SIL".
 #
 # This Font Software is licensed under the SIL Open Font License, Version 1.1.
 #
 # You should have received a copy of the license along with this Font Software.
-# If this is not the case, go to (https://scripts.sil.org/OFL) for all the
+# If this is not the case, go to (https://openfontlicense.org/) for all the
 # details including an FAQ.
 #**********************************
 #****************************
