@@ -10,14 +10,18 @@ results/**
 buildlinux2/**
 bin/**
 source/temp/*
+source/masters/temp/*
 source/backups/*
 
-# gdl and graide
-$_temp.gdl
-gdlerr.txt
-graide_dbg_output.json
-graide_image*.png
-dbg_*.txt
+# temporary fontdocs files
+documentation/source/pdftemp/
+documentation/source/productsite/
+web/*.woff*
+
+# diffenator2
+.ninja_log
+build.ninja
+
 
 # general backup files
 *~
@@ -59,7 +63,8 @@ current.fpr
 *.bak
 *.vfbak
 *.~tt
-*.glyphs
+.idea/*
+.vscode/*
 
 # Shares
 .AppleDB
@@ -109,3 +114,5 @@ $RECYCLE.BIN/
 *$py.class
 __pycache__/
 
+# Glyphs.App
+*.glyphs
