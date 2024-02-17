@@ -16,7 +16,7 @@ Type samples showing some of the inventory of glyphs can be found here:
 
 One example of some text is shown below. 
 
-![Alkalami Sample - Genesis 11](assets/images/AlkalamiGen11-Regular.png){.fullsize}
+![Alkalami Sample - Genesis 11](../assets/images/AlkalamiGen11-Regular.png){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/alkalami/wp-content/uploads/sites/32/2017/05/AlkalamiGen11-Regular.png -->
 <figcaption>Alkalami Sample - Genesis 11</figcaption>
 
