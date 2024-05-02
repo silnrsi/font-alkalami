@@ -2,6 +2,7 @@
 <?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
 <ftml version="1.0">
   <head>
+    <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 16.0 or later; else light green: a character is new in this version of the font</comment>
     <fontscale>250</fontscale>
     <fontsrc label="Sch (inst)">local(Scheherazade New)</fontsrc>
     <fontsrc label="2.0">url(../references/Alkalami-Regular.ttf)</fontsrc>
@@ -9,6 +10,7 @@
     <styles>
       <style lang="ha" name="ha"/>
       <style feats="'pnum' 1" name="pnum_1"/>
+      <style lang="sd" name="sd"/>
       <style feats="'ss02' 1" name="ss02_1"/>
       <style feats="'ss02' 1, 'ss03' 1" name="ss02_1_ss03_1"/>
       <style feats="'ss03' 1" name="ss03_1"/>
@@ -1004,37 +1006,37 @@ U+064B">
     <test label="U+0644
 U+0622">
       <comment>lam-ar alefMadda-ar</comment>
-      <string>\u000644\u000622 \u00200D\u000644\u000622 </string>
+      <string>\u000644\u000622 \u000628\u000644\u000622 </string>
     </test>
     <test label="U+0644
 U+0623">
       <comment>lam-ar alefHamzaabove-ar</comment>
-      <string>\u000644\u000623 \u00200D\u000644\u000623 </string>
+      <string>\u000644\u000623 \u000628\u000644\u000623 </string>
     </test>
     <test label="U+0644
 U+0625">
       <comment>lam-ar alefHamzabelow-ar</comment>
-      <string>\u000644\u000625 \u00200D\u000644\u000625 </string>
+      <string>\u000644\u000625 \u000628\u000644\u000625 </string>
     </test>
     <test label="U+0644
 U+0627">
       <comment>lam-ar alef-ar</comment>
-      <string>\u000644\u000627 \u00200D\u000644\u000627 </string>
+      <string>\u000644\u000627 \u000628\u000644\u000627 </string>
     </test>
     <test label="U+0644
 U+0870">
       <comment>lam-ar alefFathaattached-ar</comment>
-      <string>\u000644\u000870 \u00200D\u000644\u000870 </string>
+      <string>\u000644\u000870 \u000628\u000644\u000870 </string>
     </test>
     <test label="U+0644
 U+0872">
       <comment>lam-ar alefRightmiddlestroke-ar</comment>
-      <string>\u000644\u000872 \u00200D\u000644\u000872 </string>
+      <string>\u000644\u000872 \u000628\u000644\u000872 </string>
     </test>
     <test label="U+0644
 U+0874">
       <comment>lam-ar alefKasraattached-ar</comment>
-      <string>\u000644\u000874 \u00200D\u000644\u000874 </string>
+      <string>\u000644\u000874 \u000628\u000644\u000874 </string>
     </test>
   </testgroup>
   <testgroup label="Low-hamza combinations">
@@ -1073,12 +1075,48 @@ U+0654">
     <test label="a-l-l-da-s-hf">
       <string>\u0627\u0644\u0644\u0670\u0651\u0647</string>
     </test>
+    <test label="a-l-l-s-da-hgf">
+      <string>\u0627\u0644\u0644\u0651\u0670\u06C1</string>
+    </test>
+    <test label="a-l-l-da-s-hgf">
+      <string>\u0627\u0644\u0644\u0670\u0651\u06C1</string>
+    </test>
     <test label="a-l-l-s-f-hf">
       <comment>Rule 2 (fatha)</comment>
       <string>\u0627\u0644\u0644\u0651\u064E\u0647</string>
     </test>
     <test label="a-l-l-f-s-hf">
       <string>\u0627\u0644\u0644\u064E\u0651\u0647</string>
+    </test>
+    <test label="a-l-l-s-f-hgf">
+      <string>\u0627\u0644\u0644\u0651\u064E\u06C1</string>
+    </test>
+    <test label="a-l-l-f-s-hgf">
+      <string>\u0627\u0644\u0644\u064E\u0651\u06C1</string>
+    </test>
+    <test label="a-l-M-l-s-da-hgf">
+      <comment>New Rule 3b: shouldn't match</comment>
+      <string>\u0627\u0644\u065A\u0644\u064E\u0651\u06C1</string>
+    </test>
+    <test label="a-l-k-l-s-da-hgf">
+      <comment>New Rule 3b: should match</comment>
+      <string>\u0627\u0644\u0650\u0644\u064E\u0651\u06C1</string>
+    </test>
+    <test label="a-l-k-l-s-da-hgf" stylename="sd">
+      <comment>New Rule 3b: should match</comment>
+      <string>\u0627\u0644\u0650\u0644\u064E\u0651\u06C1</string>
+    </test>
+    <test label="f-l-l-s-da-hgf">
+      <comment>Rule 2d: non-alef</comment>
+      <string>\u0641\u0644\u0644\u064E\u0651\u06C1</string>
+    </test>
+    <test label="f-a-l-l-s-da-hgf">
+      <comment>Rule 2d: not isolate alef</comment>
+      <string>\u0641\u0627\u0644\u0644\u064E\u0651\u06C1</string>
+    </test>
+    <test label="a-M-l-l-s-da-hgf">
+      <comment>Rule 2d: Mark</comment>
+      <string>\u0627\u065A\u0644\u0644\u064E\u0651\u06C1</string>
     </test>
     <test label="space-l-l-s-da-hf">
       <comment>Rule 2d: shouldn't match</comment>
@@ -1093,6 +1131,10 @@ U+0654">
     </test>
     <test label="aH-l-l-h">
       <string>\u0623\u0644\u0644\u0647</string>
+    </test>
+    <test label="aW-l-l-h">
+      <comment>won't work</comment>
+      <string>\u0671\u0644\u0644\u0647</string>
     </test>
     <test label="a-M-l-l-h">
       <string>\u0627\u065A\u0644\u0644\u0647</string>

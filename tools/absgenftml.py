@@ -1,20 +1,23 @@
-#!/usr/bin/python3
-'generate ftml tests from glyph_data.csv and UFO'
-__url__ = 'https://github.com/silnrsi/pysilfont'
-__copyright__ = 'Copyright (c) 2018-2022 SIL International  (https://www.sil.org)'
+#!/usr/bin/env python3
+__doc__ = '''generate ftml tests from glyph_data.csv and UFO'''
+__url__ = 'https://github.com/silnrsi/font-arab-tools'
+__copyright__ = 'Copyright (c) 2018-2024 SIL International  (https://www.sil.org)'
 __license__ = 'Released under the MIT License (https://opensource.org/licenses/MIT)'
 __author__ = 'Bob Hallissy'
 
 import re
 from silfont.core import execute
 import silfont.ftml_builder as FB
-from palaso.unicode.ucd import get_ucd
+from palaso.unicode.ucd import get_ucd, loadxml
+from collections import OrderedDict
+
 
 argspec = [
     ('ifont', {'help': 'Input UFO'}, {'type': 'infont'}),
     ('output', {'help': 'Output file ftml in XML format', 'nargs': '?'}, {'type': 'outfile', 'def': '_out.ftml'}),
     ('-i','--input', {'help': 'Glyph info csv file'}, {'type': 'incsv', 'def': 'glyph_data.csv'}),
     ('-f','--fontcode', {'help': 'letter to filter for glyph_data'},{}),
+    ('--prevfont', {'help': 'font file of previous version'}, {'type': 'filename', 'def': None}),
     ('-l','--log', {'help': 'Set log file name'}, {'type': 'outfile', 'def': '_ftml.log'}),
     ('--langs', {'help':'List of bcp47 language tags', 'default': None}, {}),
     ('--rtl', {'help': 'enable right-to-left features', 'action': 'store_true'}, {}),
@@ -25,6 +28,7 @@ argspec = [
     ('--ap', {'help': 'regular expression describing APs to examine', 'default': '.'}, {}),
     ('-w', '--width', {'help': 'total width of all <string> column (default automatic)'}, {}),
     ('--xsl', {'help': 'XSL stylesheet to use'}, {}),
+    ('--ucdxml', {'help': 'File with UCD XML data for chars in the pipeline'}, {}),
 ]
 
 
@@ -62,16 +66,47 @@ joinGroupKeys = {
 def joinGoupSortKey(uid:int):
     return joinGroupKeys.get(get_ucd(uid, 'jg'), 99) * 65536 + uid
 
-ageToFlag = 15.0
-ageColor = "#FFC8A0"      # light orange -- marks if there is a char from above Unicode version or later
-missingColor = "#FFE0E0"  # light red -- mark if a char is missing from UFO
+ageToFlag = 16.0
+ageColor = '#FFC8A0'      # light orange -- marks if there is a char from above Unicode version or later
+missingColor = '#FFE0E0'  # light red -- mark if a char is missing from UFO
+newColor = '#F0FFF0'      # light green -- mark if char is not in previous version (if --prevFont supplied)
+backgroundLegend =  'Background colors: ' \
+                    'light red: a character is missing from UFO; else ' + \
+                    f'light orange: includes a character from Unicode version {ageToFlag} or later; else ' + \
+                    'light green: a character is new in this version of the font'
 
 def doit(args):
     logger = args.logger
 
+    if args.ucdxml:
+        # Update UCD module with data for relevant pipeline chars 
+        loadxml(args.ucdxml)
+
+    # A note about args.fontcode:
+    # In most applications we blindly pass this to FTMLbuilder so that, in the case the user has provided `absGlyphList.csv` 
+    # (or something similar) as the input CSV file, FTMLBuilder will be able to filter out the records appropriately. 
+    # Of course this parameter is unneeded in cases where a project-specific `glyph_data.csv` file is provided as input, and 
+    # in fact will cause an error in FTMLBuilder because processing of args.fontcode requires a `Fonts` column in the csv file.
+
+    # However, in this app args.fontcode can serve two purposes: 
+    #    - filtering records from absGlyphList.csv (as above)
+    #    - deciding what tests or test data to include in generated ftml file.
+    # Thus, in this app, it is permissible to provide args.fontcode even though project specific glyph_data.csv (rather than 
+    # absGlyphList.csv) is supplied as input. So we must be careful not to send user-supplied args.fontcode to FTMLBuilder if
+    # the input csv has no `Fonts` column. Whew.
+
+    try:
+        whichfont = args.fontcode.strip().lower()   # This will be used within this app to select appropriate tests and data
+    except AttributeError:
+        whichfont = ''
+    
+    if len(whichfont) > 1:
+                logger.log('fontcode must be a single letter', 'S')
+
     # Read input csv
-    builder = FB.FTMLBuilder(logger, incsv=args.input, fontcode=args.fontcode, font=args.ifont, ap=args.ap,
-                             rtlenable=True, langs=args.langs)
+    builder = FB.FTMLBuilder(logger, incsv=args.input, 
+                             fontcode=args.fontcode if 'Fonts' in args.input.firstline else None,  # see comments above
+                             font=args.ifont, ap=args.ap, rtlenable=True, langs=args.langs)
 
     # Override default base (25CC) for displaying combining marks
     builder.diacBase = 0x0628   # beh
@@ -102,16 +137,44 @@ def doit(args):
         except ValueError:
             fontsrc.append(sl)
             labels.append(None)
-    ftml = FB.FTML(test, logger, rendercheck=not args.norendercheck, fontscale=args.scale, widths=widths,
-                   xslfn=args.xsl, fontsrc=fontsrc, fontlabel=labels, defaultrtl=args.rtl)
+    ftml = FB.FTML(test, logger, comment=backgroundLegend, rendercheck=not args.norendercheck, fontscale=args.scale,
+                   widths=widths, xslfn=args.xsl, fontsrc=fontsrc, fontlabel=labels, defaultrtl=args.rtl)
+
+    if args.prevfont is not None:
+        try:
+            from fontTools.ttLib import TTFont
+            font = TTFont(args.prevfont)
+            prevCmap = font.getBestCmap()
+        except:
+            logger.log(f'Unable to open previous font {args.prevfont}', 'S')
+
 
     def setBackgroundColor(uids):
+        # We can only set one background color, so the order of these corresponds to importance of the info.
+        # (e.g., if the char is missing from the UFO then that has to be fixed first.)
+        # If this order is changed, then update the backgroundLegend accordingly.
+
         # if any uid in uids is missing from the UFO, set test background color to missingColor
         if any(uid in builder.uidsMissingFromUFO for uid in uids):
             ftml.setBackground(missingColor)
         # else if any uid in uids has Unicode age >= ageToFlag, then set the test background color to ageColor
         elif max(map(lambda x: float(get_ucd(x, 'age')), uids)) >= ageToFlag:
             ftml.setBackground(ageColor)
+        # else if any uid was not in previous version of ttf (if supplied), set to newColor:
+        elif args.prevfont and any(uid not in prevCmap for uid in uids):
+            ftml.setBackground(newColor)
+        else:
+            ftml.clearBackground()
+
+    # Some lists shared used by multiple tests:
+    # all lam-like:
+    lamlist = sorted(filter(lambda uid: get_ucd(uid, 'jg') == 'Lam', builder.uids()))
+    # all alef-like except high-hamza-alef:
+    aleflist = sorted(filter(lambda uid: get_ucd(uid, 'jg') == 'Alef' and uid != 0x0675, builder.uids()))
+
+#--------------------------------
+# AllChars test
+#--------------------------------
 
     if test.lower().startswith("allchars"):
         # all chars that should be in the font:
@@ -129,7 +192,6 @@ def doit(args):
                     ftml.setLang(langID)
                     builder.render((uid,), ftml)
                 ftml.clearLang()
-            ftml.clearBackground()
 
         # Add specials and ligatures that were in the glyph_data:
         ftml.startTestGroup('Specials & ligatures from glyph_data')
@@ -147,14 +209,19 @@ def doit(args):
                     builder.render(special.uids, ftml)
                     ftml.closeTest()
                 ftml.clearLang()
-            ftml.clearBackground()
 
         # Add Lam-Alef data manually
         ftml.startTestGroup('Lam-Alef')
-        lamlist = sorted(filter(lambda uid: get_ucd(uid,'jg') == 'Lam', builder.uids()))
-        aleflist = sorted(filter(lambda uid: get_ucd(uid,'jg') == 'Alef', builder.uids()))
+
+        # for this test use beh to force final form:
+        saveJoiner = builder.joinBefore
+        builder.joinBefore = '\u0628'
         for lam in lamlist:
             for alef in aleflist:
+                # For the alef composites in Arabic Extended-B (U+0870 .. U+0882) we support
+                # lam-alef ligatures only with the plain lam U+0644
+                if lam != 0x0644 and 0x0870 <= alef <= 0x0882:
+                    continue
                 setBackgroundColor((lam, alef))
                 for featlist in builder.permuteFeatures(uids=(lam, alef)):
                     ftml.setFeatures(featlist)
@@ -168,19 +235,18 @@ def doit(args):
                         builder.render((lam, 0x0654, alef), ftml)
                         ftml.closeTest()
                     ftml.clearFeatures()
-                ftml.clearBackground()
+        builder.joinBefore = saveJoiner
 
         # Add low-hamza combinations manually
-        lowhamzas = list(filter(lambda x: x in builder.uids(), (0x0647, 0x064A, 0x06C1, 0X06D5)))
-        if len(lowhamzas):
-            ftml.startTestGroup('Low-hamza combinations')
-            for base in lowhamzas:
-                for featlist in builder.permuteFeatures(uids=(base, 0x0654)):
-                    ftml.setFeatures(featlist)
-                    builder.render((base,), ftml)
-                    builder.render((base, 0x0654), ftml)
-                    ftml.closeTest()
-                ftml.clearFeatures()
+        ftml.startTestGroup('Low-hamza combinations')
+        for base in filter(lambda x: x in builder.uids(), (0x0647, 0x064A, 0x06C1, 0X06D5, )):
+            setBackgroundColor((base, 0x0654))
+            for featlist in builder.permuteFeatures(uids=(base, 0x0654)):
+                ftml.setFeatures(featlist)
+                builder.render((base,), ftml)
+                builder.render((base, 0x0654), ftml)
+                ftml.closeTest()
+            ftml.clearFeatures()
 
         # Add Allah data manually
         ftml.startTestGroup('Allah ligatures')
@@ -192,10 +258,31 @@ def doit(args):
         ftml.closeTest()
         ftml.addToTest(None, r"\u0627\u0644\u0644\u0670\u0651\u0647", label="a-l-l-da-s-hf")
         ftml.closeTest()
+        ftml.addToTest(None, r"\u0627\u0644\u0644\u0651\u0670\u06C1", label="a-l-l-s-da-hgf")
+        ftml.closeTest()
+        ftml.addToTest(None, r"\u0627\u0644\u0644\u0670\u0651\u06C1", label="a-l-l-da-s-hgf")
+        ftml.closeTest()
 
         ftml.addToTest(None, r"\u0627\u0644\u0644\u0651\u064E\u0647", label="a-l-l-s-f-hf", comment="Rule 2 (fatha)")
         ftml.closeTest()
         ftml.addToTest(None, r"\u0627\u0644\u0644\u064E\u0651\u0647", label="a-l-l-f-s-hf")
+        ftml.closeTest()
+        ftml.addToTest(None, r"\u0627\u0644\u0644\u0651\u064E\u06C1", label="a-l-l-s-f-hgf")
+        ftml.closeTest()
+        ftml.addToTest(None, r"\u0627\u0644\u0644\u064E\u0651\u06C1", label="a-l-l-f-s-hgf")
+        ftml.closeTest()
+        ftml.addToTest(None, r"\u0627\u0644\u065A\u0644\u064E\u0651\u06C1", label="a-l-M-l-s-da-hgf", comment="New Rule 3b: shouldn't match")
+        ftml.closeTest()
+        ftml.addToTest(None, r"\u0627\u0644\u0650\u0644\u064E\u0651\u06C1", label="a-l-k-l-s-da-hgf", comment="New Rule 3b: should match")
+        ftml.setLang('sd')
+        ftml.addToTest(None, r"\u0627\u0644\u0650\u0644\u064E\u0651\u06C1", label="a-l-k-l-s-da-hgf", comment="New Rule 3b: should match")
+        ftml.clearLang()
+        ftml.closeTest()
+        ftml.addToTest(None, r"\u0641\u0644\u0644\u064E\u0651\u06C1", label="f-l-l-s-da-hgf", comment="Rule 2d: non-alef")
+        ftml.closeTest()
+        ftml.addToTest(None, r"\u0641\u0627\u0644\u0644\u064E\u0651\u06C1", label="f-a-l-l-s-da-hgf", comment="Rule 2d: not isolate alef")
+        ftml.closeTest()
+        ftml.addToTest(None, r"\u0627\u065A\u0644\u0644\u064E\u0651\u06C1", label="a-M-l-l-s-da-hgf", comment="Rule 2d: Mark")
         ftml.closeTest()
         ftml.addToTest(None, r" \u0644\u0644\u0651\u064E\u0647", label="space-l-l-s-da-hf", comment="Rule 2d: shouldn't match")
         ftml.closeTest()
@@ -205,6 +292,8 @@ def doit(args):
         ftml.addToTest(None, r"\u0622\u0644\u0644\u0647", label="aM-l-l-h")
         ftml.closeTest()
         ftml.addToTest(None, r"\u0623\u0644\u0644\u0647", label="aH-l-l-h")
+        ftml.closeTest()
+        ftml.addToTest(None, r"\u0671\u0644\u0644\u0647", label="aW-l-l-h", comment="won't work")
         ftml.closeTest()
         ftml.addToTest(None, r"\u0627\u065A\u0644\u0644\u0647", label="a-M-l-l-h")
         ftml.closeTest()
@@ -216,6 +305,20 @@ def doit(args):
         ftml.closeTest()
         ftml.addToTest(None, r"\u0627\u0644\u200D\u0644\u0651\u0670\u0647", label="a-l-zwj-l-s-da-h", comment="Rule 4a: shouldn't match")
         ftml.closeTest()
+
+        # Add tabular digits test manually
+        if 'tnum' in builder.features:
+            ftml.startTestGroup('Tabular Digits')
+            digits = list(range(0x0660,0x066A)) + list(range(0x06F0, 0x06FA))
+            setBackgroundColor(digits)
+            for featlist in builder.permuteFeatures(uids=digits):
+                ftml.setFeatures(featlist)
+                builder.render(digits, ftml, label='digits', comment='')
+            ftml.clearFeatures()
+
+#--------------------------------
+# Arabic letters test, shape-sorted
+#--------------------------------
 
     if test.lower().startswith("al sorted"):
         # all AL chars, sorted by shape:
@@ -232,7 +335,10 @@ def doit(args):
                     ftml.setLang(langID)
                     builder.render((uid,), ftml)
                 ftml.clearLang()
-            ftml.clearBackground()
+
+#--------------------------------
+# Diacritic test
+#--------------------------------
 
     if test.lower().startswith("diac"):
         # Diac attachment:
@@ -243,18 +349,14 @@ def doit(args):
         if doLongTest:
             repDiac = list(filter(lambda x: x in builder.uids(), (0x064E, 0x0650, 0x065E, 0x0670, 0x0616, 0x06E3, 0x08F0, 0x08F2)))
             repBase = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0628, 0x062B, 0x0647, 0x064A, 0x77F, 0x08AC)))
-            lamlist = list(filter(lambda x: x in builder.uids(), (0x0644, 0x06B5, 0x06B6, 0x06B7, 0x06B8, 0x076A, 0x08A6)))
-            aleflist = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0622, 0x0623, 0x0625, 0x0671, 0x0672, 0x0673, 0x0675, 0x0773, 0x0774)))
             kasralist = list(filter(lambda x: x in builder.uids(), (0x0650, 0x064D)))
         else:
             repDiac = list(filter(lambda x: x in builder.uids(), (0x064E, 0x0650, 0x0654, 0x0670)))
             repBase = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0628)))
-            lamlist = list(filter(lambda x: x in builder.uids(), (0x0644, 0x06B5, 0x06B6, 0x06B7, 0x06B8, 0x076A, 0x08A6)))
-            aleflist = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0622, 0x0623, 0x0625, 0x0671, 0x0672, 0x0673, 0x0675, 0x0773, 0x0774)))
             kasralist = list(filter(lambda x: x in builder.uids(), (0x0650,)))
 
         ftml.startTestGroup('Representative diacritics on all bases that take diacritics')
-        for uid in sorted(builder.uids()):
+        for uid in sorted(builder.uids(), key=joinGoupSortKey):
             if uid < 32 or uid in (0xAA, 0xBA): continue
             c = builder.char(uid)
             # Always process Lo, but others only if that take marks:
@@ -274,7 +376,6 @@ def doit(args):
                                 builder.render((uid, diac, 0x0654), ftml, addBreaks=False, dualJoinMode=2)
                                 builder.render((uid, 0x0654, diac), ftml, addBreaks=False, dualJoinMode=2)
                     ftml.clearFeatures()
-                    ftml.clearBackground()
                 ftml.closeTest()
 
         ftml.startTestGroup('All Arabic diacritics on representative bases')
@@ -298,7 +399,6 @@ def doit(args):
                                 builder.render((uid, diac, 0x0670), ftml, addBreaks=False, dualJoinMode=2)
                                 builder.render((uid, 0x0670, diac), ftml, addBreaks=False, dualJoinMode=2)
                     ftml.clearFeatures()
-                    ftml.clearBackground()
                 ftml.closeTest()
 
         ftml.startTestGroup('Special cases')
@@ -306,23 +406,39 @@ def doit(args):
         builder.render((0x064A, 0x0654), ftml)   # Yeh + Hamza should lose dots
         ftml.closeTest()
 
-        ftml.startTestGroup('LamAlef ligatures')
-        diaB = 0x064D
-        diaA = 0x064B
+        ftml.startTestGroup('Lam-Alef ligatures')
+        diaA1 = 0x0651  # shadda
+        diaA2 = 0x064B  # fathatan
+        diaB  = 0x064D  # kasratan
         for lam in lamlist:
             for alef in aleflist:
+                if lam != 0x0644 and 0x0870 <= alef <= 0x0882:
+                    continue
                 setBackgroundColor((lam,alef))
                 for featlist in builder.permuteFeatures(uids=(lam,alef)):
                     ftml.setFeatures(featlist)
-                    builder.render((lam, alef),             ftml, addBreaks=False)
-                    builder.render((lam, diaA, alef, diaA), ftml, addBreaks=False)
-                    builder.render((lam, diaB, alef),       ftml, addBreaks=False)
-                    builder.render((lam, alef, diaB),       ftml, addBreaks=False)
-                    builder.render((lam, diaB, alef, diaB), ftml, addBreaks=False)
+                    builder.render((lam, alef),               ftml, addBreaks=False)
+                    builder.render((lam, diaA1, alef, diaA2), ftml, addBreaks=False)
+                    builder.render((lam, diaB, alef),         ftml, addBreaks=False)
+                    builder.render((lam, alef, diaB),         ftml, addBreaks=False)
+                    builder.render((lam, diaB, alef, diaB),   ftml, addBreaks=False)
                 ftml.clearFeatures()
-                ftml.clearBackground()
                 ftml.closeTest()
-                
+
+        ftml.startTestGroup('alefMadda lam collisions')
+        alefMadda = 0x0622
+        for lam in lamlist:
+            setBackgroundColor((alefMadda, lam))
+            comment = 'alefMadda ' +builder._charFromUID[lam].basename
+            for featList in builder.permuteFeatures(uids=(alefMadda, lam)):
+                label = f'U+0622 U+{lam:04X}'
+                ftml.setFeatures(featlist)
+                builder.render((alefMadda, lam, 0x0631),         ftml, addBreaks=False, comment=comment, label=label)
+                builder.render((alefMadda, lam, 0x064E, 0x0631), ftml, addBreaks=False)
+            ftml.clearFeatures()
+            ftml.closeTest()
+
+
         if 'cv62' in builder.features:
             ftml.startTestGroup('Shadda + Kasra')
             shadda = 0x0651
@@ -332,18 +448,25 @@ def doit(args):
                     ftml.setFeatures(featlist)
                     builder.render((base,kasra,shadda), ftml, addBreaks=False)
                 ftml.clearFeatures()
-                ftml.clearBackground()
                 ftml.closeTest()
+
+#--------------------------------
+# Subtending marks tests
+#--------------------------------
 
     if test.lower().startswith("subtending"):
         # Generates sample data for all subtending marks. Data includes sequences of 0 to n+1
         # digits, where n is the maximum expected to be supported on the mark. Latin, Arbic-Indic,
         # and Extended Arabic-Indic digits are included.
+
+        marks = OrderedDict(filter(lambda x: x[0] in builder.uids(), ([0x600, 3], [0x0601, 4], [0x0602, 2], [0x0603, 4],
+             [0x0604, 4], [0x0605, 4], [0x0890, 4], [0x0891, 4], [0x08E2, 3], [0x06DD, 3])))
+
         for digitSample in filter(lambda x: x in builder.uids(), (0x0032, 0x0668, 0x06F8)):
             digitOne = (digitSample & 0xFFF0) + 1
-            for uid,lgt in filter(lambda x: x[0] in builder.uids(), ([0x600,3], [0x0601,4], [0x0602,2], [0x0603,4], [0x0604,4], [0x0605,4], [0x0890,4], [0x0891,4], [0x06DD,3])):
+            for uid, lgt in marks.items():
                 c = chr(uid)
-                label = "U+{0:04X} {1}".format(uid, 'latn' if digitOne == 0x0031 else 'arab' if digitOne == 0x0661 else 'urdu')
+                label = f'U+{uid:04X} {"latn" if digitOne == 0x0031 else "arab" if digitOne == 0x0661 else "extd"}'
                 comment = builder.char(uid).basename
                 setBackgroundColor((uid,))
                 for featlist in builder.permuteFeatures(uids=(uid,)):
@@ -354,12 +477,16 @@ def doit(args):
                     ftml.addToTest(uid, c + chr(digitOne) + chr(digitOne+1))
                 ftml.clearFeatures()
                 ftml.closeTest()
-                ftml.clearBackground()
 
                 if uid == 0x06DD and digitOne == 0x06F1:
                     # Extra items for Eastern digits
                     setBackgroundColor((uid,))
                     for featlist in builder.permuteFeatures(uids=(uid, 0x06F7)):
+                        # We don't need permutations that include 'tnum' since our smaller digits
+                        # are all tabular anyway, so filter out such permutations.
+                        hasTnum = len([t_v for t_v in featlist if t_v is not None and t_v[0]=='tnum']) > 0
+                        if hasTnum:
+                            continue
                         ftml.setFeatures(featlist)
                         ftml.addToTest(uid, c + "\u06F4\u06F6\u06F7", label, "4 6 7")
                     ftml.clearFeatures()
@@ -371,11 +498,14 @@ def doit(args):
                         ftml.clearFeatures()
                     ftml.clearLang()
                     ftml.closeTest()
-                    ftml.clearBackground()
         # One more test to evaluate vertical position of digits over all the marks
-        str = r' \u0640 '.join([r'\u{:06X}2'.format(u) for u in [*range(0x0600, 0x0606), 0x06DD]])
+        str = r' \u0640 '.join([r'\u{:06X}2'.format(u) for u in marks.keys()])
         ftml.addToTest(None, str, label='Vert alignment', rtl=True,);
         ftml.closeTest()
+
+#--------------------------------
+# Show invisibles test (no longer used)
+#--------------------------------
 
     if test.lower().startswith("showinv"):
         # Sample data for chars that have a "show invisible" feature
@@ -400,6 +530,11 @@ def doit(args):
             ftml.closeTest()
         ftml.clearFeatures()
 
+#--------------------------------
+# Dagger-alef tests
+#--------------------------------
+
+
     if test.lower().startswith('daggeralef'):
         for uid in sorted(builder.uids(), key=joinGoupSortKey):
             if get_ucd(uid,'jg') not in ('Sad', 'Seen', 'Yeh', 'Farsi_Yeh', 'Yeh_With_Tail'):
@@ -423,8 +558,11 @@ def doit(args):
                 ftml.setFeatures([['cv76','1'],])
                 builder.render((uid, 0x0670), ftml, comment=comment)
             ftml.clearFeatures()
-            ftml.clearBackground()
             ftml.closeTest()
+
+#--------------------------------
+#  Kerning tests
+#--------------------------------
 
     if test.lower().startswith('kern'):
         rehs = sorted(filter(lambda uid: get_ucd(uid,'jg') == 'Reh', builder.uids()))
@@ -433,13 +571,42 @@ def doit(args):
         # NB: I wondered about including punctuation, i.e.,  get_ucd(uid, 'gc').startswith('P'), but the default
         #     spacing is pretty good and graphite collision avoidance makes it worse, so the only one we need is FDFE
 
-        dbehf = chr(0x066E) + chr(0x200D)  # dotless beh final
+        dbeh = chr(0x066E)   # dotless beh
         alef = chr(0x0627)   # alef
+        beh = chr(0x0628)
         zwj  = chr(0x200D)   # Zero width joiner
         ma = 0x064B     # Mark above (fathatan)
         mb = 0x064D # chr(0x064D)     # Mark below (kasratan)
 
-        if "data" not in test.lower():
+        if 'digits' in test.lower():
+            ftml.startTestGroup('Digits')
+            digitsets = (list(range(0x0660,0x066A)), list(range(0x06F0, 0x06FA)))
+            strongRTL = chr(0x0628)
+            strongLTR = 'A'
+            for digits in digitsets:
+                doLangIteration = digits[0] == 0x06F0
+                for uid1 in digits:
+                    c = chr(uid1)
+                    label = 'U+{0:04X}'.format(uid1)
+                    str = '.'.join(f'<em>{c}{chr(uid2)}{c}</em>' for uid2 in digits)
+                    for rtl in (True,):  # (False, True):
+                        comment = f"{builder.char(uid1).basename} {'rtl' if rtl else 'ltr'}"
+                        str2 = f"{strongRTL if rtl else strongLTR} {str} {strongRTL if rtl else strongLTR}"
+                        ftml.addToTest(uid1, str2, label, comment, rtl=rtl)
+                        if True:  #Always doing this for now.
+                            # Include an unkerned line for comparison:
+                            str3 = '<em>\u200B</em>' + re.sub(r'</?em>', '', str2)
+                            ftml.setFeatures((['kern','0'],))
+                            ftml.addToTest(uid1, str3, label, comment, rtl=rtl)
+                            ftml.clearFeatures()
+                        if doLangIteration:
+                            for langID in builder.allLangs:
+                                ftml.setLang(langID)
+                                ftml.addToTest(uid1, str2, rtl=rtl)
+                            ftml.clearLang()
+                        ftml.closeTest()
+
+        elif 'data' not in test.lower():
             ftml.startTestGroup('All the rehs')
             for uid in rehs:
                 c = chr(uid)
@@ -448,9 +615,8 @@ def doit(args):
                 setBackgroundColor((uid,))
                 for featlist in builder.permuteFeatures(uids=(uid,)):
                     ftml.setFeatures(featlist)
-                    ftml.addToTest(uid, c + dbehf + ' ' + zwj + c + dbehf, label, comment)
+                    ftml.addToTest(uid, c + dbeh + c + dbeh + alef, label, comment)
                 ftml.clearFeatures()
-                ftml.clearBackground()
                 ftml.closeTest()
 
             ftml.startTestGroup('All the waws')
@@ -461,9 +627,8 @@ def doit(args):
                 setBackgroundColor((uid,))
                 for featlist in builder.permuteFeatures(uids=(uid,)):
                     ftml.setFeatures(featlist)
-                    ftml.addToTest(uid, c + dbehf + ' ' + zwj + c + dbehf, label, comment)
+                    ftml.addToTest(uid, c + dbeh + c + dbeh + alef, label, comment)
                 ftml.clearFeatures()
-                ftml.clearBackground()
                 ftml.closeTest()
 
             # reh or waw plus the others
@@ -483,7 +648,6 @@ def doit(args):
                         ftml.addToTest(    uid2, zwj + c1 + c2      , label, comment)
                         ftml.addToTest(    uid2,       c1 + c2      )
                     ftml.clearFeatures()
-                    ftml.clearBackground()
                     ftml.closeTest()
 
         else:
@@ -491,54 +655,59 @@ def doit(args):
             ftml.defaultRTL = True
             addMarks = "with marks" in test.lower()
             # rules for kerning reh followed by dual- or right-joining:
-            for uid1 in rehs:  # (rehs[0],)
+            # For debugging, use smaller sets:
+            # rehs=rehs[0:1]
+            # uids = list(filter(lambda uid: get_ucd(uid,'jg') == 'Alef', uids))
+            for uid1 in rehs if whichfont == 'h' else rehs + waws:
                 for uid2 in uids:
-                    if uid2 == 0x0622:
-                        # alefMadda gets decomposed; we'll handle this decomp below
-                        continue
-                    if get_ucd(uid2, 'age').startswith('13.'):
-                        ftml.setBackground(ageColor)
+                    # NB: 3 decomposable chars (alefHamzaabove, alefMaddah, alefHamzaBelow) are in included in this data so they can
+                    #     be tested. However, for kerning computation any strings containing hamzaabove, hamzabelow, or madda are
+                    #     deleted before kerning calculations so there won't be redundant records such as alef+hamzaabove and alef+fathatan.
+                    #     It is just the latter that is used in kerning fea generation.
+                    #     Also, the test cases for those 3 decomposable chars are limited to only one additional diacritic, otherwise 
+                    #     the test files would appear to be wrong since, for example, alefMadda+fathatan+fathathan would decompose to a 
+                    #     alef plus sequence of 3 above marks, and we're not supporting 3 marks above or 3 below.
+                    setBackgroundColor((uid1,uid2))
                     for featlist in builder.permuteFeatures(uids=(uid1,uid2)):
                         ftml.setFeatures(featlist)
                         builder.render([uid1, uid2], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                         if addMarks:
-                            builder.render([uid1,     uid2, ma],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1,     uid2, mb, ma],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1,     uid2, mb, mb, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            #builder.render([uid1,     uid2, mb, mb, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1,     uid2, mb],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1,     uid2, ma, mb],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1,     uid2, ma, ma, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            #builder.render([uid1,     uid2, ma, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, ma, uid2],                 ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, ma, uid2, ma],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, ma, uid2, mb, ma],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, ma, uid2, mb, mb, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            #builder.render([uid1, ma, uid2, mb, mb, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, ma, uid2, mb],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, ma, uid2, ma, mb],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, ma, uid2, ma, ma, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            #builder.render([uid1, ma, uid2, ma, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, mb, uid2],                 ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, mb, uid2, ma],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, mb, uid2, mb, ma],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, mb, uid2, mb, mb, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            #builder.render([uid1, mb, uid2, mb, mb, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, mb, uid2, mb],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, mb, uid2, ma, mb],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, mb, uid2, ma, ma, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            #builder.render([uid1, mb, uid2, ma, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-#                            if uid2 == 0x0627:
-#                                # Because alefMadda decompose for reordering we add rules for
-#                                # handling *two* marks-bove between alef and mb:
-#                                builder.render([uid1,     0x0627, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-#                                builder.render([uid1, ma, 0x0627, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-#                                builder.render([uid1, mb, 0x0627, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1,     uid2, ma],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1,     uid2, mb, ma],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            if uid2 != 0x0625:  #alefHamzabelow 
+                                builder.render([uid1,     uid2, mb, mb, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                               #builder.render([uid1,     uid2, mb, mb, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1,     uid2, mb],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1,     uid2, ma, mb],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            if uid2 not in (0x0622, 0x0623):  #alefMaddah or alefHamzaabove
+                                builder.render([uid1,     uid2, ma, ma, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                               #builder.render([uid1,     uid2, ma, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1, ma, uid2],                 ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1, ma, uid2, ma],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1, ma, uid2, mb, ma],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            if uid2 != 0x0625:
+                                builder.render([uid1, ma, uid2, mb, mb, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                               #builder.render([uid1, ma, uid2, mb, mb, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1, ma, uid2, mb],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1, ma, uid2, ma, mb],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            if uid2 not in (0x0622, 0x0623):
+                                builder.render([uid1, ma, uid2, ma, ma, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                               #builder.render([uid1, ma, uid2, ma, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1, mb, uid2],                 ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1, mb, uid2, ma],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1, mb, uid2, mb, ma],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            if uid2 != 0x0625:
+                                builder.render([uid1, mb, uid2, mb, mb, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                               #builder.render([uid1, mb, uid2, mb, mb, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1, mb, uid2, mb],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1, mb, uid2, ma, mb],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            if uid2 not in (0x0622, 0x0623):
+                                builder.render([uid1, mb, uid2, ma, ma, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                               #builder.render([uid1, mb, uid2, ma, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                     ftml.closeTest()
                     ftml.clearFeatures()
-                    ftml.clearBackground()
             # add rules for kerning followed by certain punctuation:
-            for uid1 in rehs:  # (rehs[0],)
+            for uid1 in rehs + waws: 
                 for uid2 in filter(lambda x: x in builder.uids(), (
                         0x0021,  # EXCLAMATION MARK
                         # 0x0022,  # QUOTATION MARK
@@ -575,9 +744,11 @@ def doit(args):
                         if addMarks:
                             builder.render([uid1, ma, uid2], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                             builder.render([uid1, mb, uid2], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                    ftml.clearBackground()
                     ftml.closeTest()
 
+#--------------------------------
+# Chadian Arabic word list
+#--------------------------------
 
     if test.lower().startswith('chadian'):
         rehs = '[' + ''.join(map(chr, filter(lambda uid: get_ucd(uid, 'jg') == 'Reh', builder.uids()))) + ']'
@@ -611,8 +782,11 @@ def doit(args):
                         # Add to test:
                         ftml.addToTest(None,res,f'line {line_no}')
                     ftml.clearFeatures()
-                    ftml.clearBackground()
                     ftml.closeTest()
+
+#--------------------------------
+# Yehbarree tail tests
+#--------------------------------
 
     if test.lower().startswith('yehbar'):
         # Yehbarree tail interacting with diacs below previous char
@@ -634,7 +808,6 @@ def doit(args):
                 ftml.addToTest(uid, f"{c}{markabove}{yehbarree} {zwj}{c}{markabove}{yehbarree} {c}{markbelow}{markabove}{yehbarree} {zwj}{c}{markbelow}{markabove}{yehbarree}", label, comment)
                 ftml.closeTest()
             ftml.clearFeatures()
-            ftml.clearBackground()
 
         # Also test other forms of yehbarree (yehbarreeHamzaabove-ar, yehbarreeTwoabove, yehbarreeThreeabove-ar)
         ftml.startTestGroup('yehbarree-like')
@@ -650,7 +823,10 @@ def doit(args):
                     ftml.addToTest(uid, f"{c}{markabove}{yb} {zwj}{c}{markabove}{yb} {c}{markbelow}{markabove}{yb} {zwj}{c}{markbelow}{markabove}{yb}", label, comment)
                     ftml.closeTest()
                 ftml.clearFeatures()
-                ftml.clearBackground()
+
+#--------------------------------
+# Feature-Language interaction test
+#--------------------------------
 
     if test.lower().startswith('feature-lang'):
         # Testing of language and feature interactions
@@ -658,30 +834,34 @@ def doit(args):
         # test only the features from this list that are implemented in this font
         tests = filter(lambda x : x[0] in builder.features, (
             # feat, langs where it is expected to work (1) or not (0), data seq,  comment
-            ('cv02', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x0623,), 'Warsh alternates'),
-            ('cv08', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x062C,), 'Jeem/Hah alternates'),
-            ('cv12', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 0, 'ky': 1}, (0x062F,), 'Dal alternates'),
-            ('cv20', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x0635,), 'Sad/Dad alternates'),
-            ('cv44', {'sd': 0, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x0645,), 'Meem alternates'),
-            ('cv48', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x0647,), 'Heh alternates'),
-            ('cv50', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x0677,), 'U alternates'),
-            ('cv51', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x06C5,), 'Kyrgyz OE alternate'),
-            ('cv54', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 0}, (0x0626,), 'Yeh Hamza alternate'),
-            ('cv60', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x0622,), 'Maddah alternates'),
-            ('cv62', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x0651, 0x0650), 'Kasra alternates'),
-            ('cv70', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x064F,), 'Damma  alternates'),
-            ('cv72', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 0, 'wo': 1, 'ky': 1}, (0x064C,), 'Dammatan alternates'),
-            ('cv74', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x0657,), 'Inverted Damma alternates'),
-            ('cv76', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x0633, 0x0670), 'Superscript alef alternates'),
-            ('cv78', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x0652,), 'Sukun alternates'),
-            ('cv80', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x06DD,), 'Ayah alternates'),
-            ('cv82', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x06F4, 0x06F6, 0x06F7, 0x0020, 0x06DD, 0x06F4, 0x06F6, 0x06F7), 'Eastern Digit alternates'),
-            ('cv84', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x060C,), 'Comma alternates'),
-            ('cv85', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x066B,), 'Decimal separator'),
+           #('cv02', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, (0x0623,), 'Warsh alternates'),
+            ('cv08', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, (0x062C,), 'Jeem/Hah alternates'),
+            ('cv12', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 0, 'ks': 1, 'ky': 1}, (0x062F,), 'Dal alternates'),
+            ('cv20', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, (0x0635,), 'Sad/Dad alternates'),
+            ('cv44', {'sd': 0, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, (0x0645,), 'Meem alternates'),
+            ('cv48', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, (0x0647,), 'Heh alternates'),
+            ('cv49', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, (0x06BE,), 'Heh Doachashmee alternates'),
+           #('cv50', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, (0x0677,), 'U alternates'),
+            ('cv51', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, (0x06C5,), 'Kyrgyz OE alternate'),
+            ('cv54', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 0}, (0x0626,), 'Yeh Hamza alternate'),
+            ('cv60', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, (0x0622,), 'Maddah alternates'),
+            ('cv62', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, (0x0651, 0x0650), 'Kasra alternates'),
+            ('cv70', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, (0x064F,), 'Damma  alternates'),
+            ('cv72', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 0, 'wo': 1, 'ks': 1, 'ky': 1}, (0x064C,), 'Dammatan alternates'),
+            ('cv74', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, (0x0657,), 'Inverted Damma alternates'),
+            ('cv76', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, (0x0633, 0x0670), 'Superscript alef alternates'),
+            ('cv78', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, (0x0652,), 'Sukun alternates'),
+            ('cv80', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, (0x06DD,), 'Ayah alternates'),
+            ('cv81', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, (0xFDFD,), 'Honorific ligatures'),
+            ('cv82', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, (0x06F4, 0x06F6, 0x06F7, 0x0020, 0x06DD, 0x06F4, 0x06F6, 0x06F7), 'Eastern Digit alternates'),
+            ('cv84', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, (0x060C, 0x061B), 'Comma alternates'),
+            ('cv85', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, (0x066B,), 'Decimal separator'),
+            ('pnum', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, tuple(ord(d) for d in '11111 77777'), 'Proportional digits'),
+            ('tnum', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ks': 1, 'ky': 1}, (0x06F4, 0x06F6, 0x06F7), 'Tabular digits'),
         ))
 
         ftml._fxml.head.comment = 'In this test, the comment column indicates whether the feature is expected to ' \
-                                  'function with the given language tag. '
+                                  'fully function with the given language tag. '
         for (tag, expected, uids, description) in tests:
             # Skip any features that aren't in this font
             if tag not in builder.features:
@@ -698,6 +878,12 @@ def doit(args):
                         break
             setBackgroundColor(uids)
             for featlist in featcombinations:
+                if tag == 'cv82': # Eastern digits
+                    # For cv82 tests we don't need permutations that include 'tnum' --
+                    # we'll do that in a tnum-specific test.
+                    hasTnum = len([t_v for t_v in featlist if t_v is not None and t_v[0]=='tnum']) > 0
+                    if hasTnum:
+                        continue
                 ftml.setFeatures(featlist)
                 builder.render(uids, ftml, rtl=True, dualJoinMode=1, comment="")
             ftml.clearFeatures()
@@ -705,12 +891,20 @@ def doit(args):
                 ftml.setLang(langID)
                 comment = ("No", "Yes")[expected.get(langID, 1)]
                 for featlist in featcombinations:
+                    if tag == 'cv82': # Eastern digits
+                        # For cv82 tests we don't need permutations that include 'tnum' --
+                        # we'll do that in a tnum-specific test.
+                        hasTnum = len([t_v for t_v in featlist if t_v is not None and t_v[0]=='tnum']) > 0
+                        if hasTnum:
+                            continue
                     ftml.setFeatures(featlist)
                     builder.render(uids, ftml, rtl=True, dualJoinMode=1, comment= comment if len(tuple(filter(None, featlist))) else "")
                 ftml.clearFeatures()
             ftml.clearLang()
-            ftml.clearBackground()
 
+#--------------------------------
+#  Classes test
+#--------------------------------
 
     if test.lower().startswith('classes'):
         zwj = chr(0x200D)
@@ -742,7 +936,6 @@ def doit(args):
                     if get_ucd(uid, 'jt') in ('R', 'D'):
                         ftml.addToTest(uid, lsb + zwj + c       + rsb)  # final
             ftml.clearFeatures()
-            ftml.clearBackground()
             ftml.closeTest()
 
 
