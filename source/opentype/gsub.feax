@@ -146,7 +146,7 @@ lookup hamza2nostem {
 	sub [ hamzaabove-ar hamzabelow-ar ] by [hamzaabove-ar.nostem hamzabelow-ar.nostem ];
 } hamza2nostem;
 
-# Consider reordering madda above vowels (dagger alef) in future versions, especially if requested (UTR#53)
+# Consider reordering madda above vowels (dagger alef) in future versions, especially if requested (UAX#53)
 
 #---  calt feature (pass 9) ---
 
