@@ -28,6 +28,8 @@ designspace('source/Alkalami.designspace',
         cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}']),
 #        Note: ttfautohint-generated hints don't maintain stroke thickness at joins (nor hamza), so we're not hinting these fonts
 #        cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
+#        so instead we put in Google-recommend gasp and prep tables:
+        cmd('gftools fix-nonhinting --no-backup -q ${DEP} ${TGT}')
     ),
     version = VERSION,  # Needed to ensure dev information on version string
     ap = generated + '${DS:FILENAME_BASE}.xml',
