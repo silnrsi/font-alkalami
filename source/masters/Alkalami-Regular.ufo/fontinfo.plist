@@ -120,8 +120,7 @@ COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
 DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
-OTHER DEALINGS IN THE FONT SOFTWARE.
-</string>
+OTHER DEALINGS IN THE FONT SOFTWARE.</string>
   <key>openTypeNameLicenseURL</key>
   <string>https://openfontlicense.org/</string>
   <key>openTypeNameManufacturer</key>
@@ -220,7 +219,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>styleName</key>
   <string>Regular</string>
   <key>trademark</key>
-  <string>Alkalami is a trademark of SIL International. </string>
+  <string>Alkalami is a trademark of SIL International.</string>
   <key>unitsPerEm</key>
   <integer>1000</integer>
   <key>versionMajor</key>
