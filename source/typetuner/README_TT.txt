@@ -15,7 +15,7 @@ A number of glyph variations are accessible through Stylistic
 Sets available via the OpenType technology. 
 
 Alkalami is released under the SIL Open Font License.
-Alkalami is a trademark of SIL International.
+Alkalami is a trademark of SIL Global.
 	
 See the OFL and OFL-FAQ for details of the SIL Open Font License.
 See the FONTLOG for information on this and previous releases.

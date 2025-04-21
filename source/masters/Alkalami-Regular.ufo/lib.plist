@@ -32,8 +32,6 @@
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
   <true/>
-  <key>com.schriftgestaltung.customParameter.GSFont.uniqueID</key>
-  <string>SIL International: Alkalami Regular: 2024</string>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
@@ -56,10 +54,8 @@
   <array>
     <string>.notdef</string>
     <string>.null</string>
-    <string>nonmarkingreturn</string>
     <string>space</string>
     <string>space-ar</string>
-    <string>tab</string>
     <string>exclam</string>
     <string>quotedbl</string>
     <string>numbersign</string>
@@ -1066,10 +1062,8 @@
   <array>
     <string>.notdef</string>
     <string>.null</string>
-    <string>nonmarkingreturn</string>
     <string>space</string>
     <string>space-ar</string>
-    <string>tab</string>
     <string>exclam</string>
     <string>quotedbl</string>
     <string>numbersign</string>

@@ -1,10 +1,8 @@
 glyph_name,ps_name,USV,DesignerOrder,bcp47tags,Feat
 .notdef,.notdef,,0,,
 .null,.null,,1,,
-nonmarkingreturn,nonmarkingreturn,,2,,
 space,space,0020,4,,
 space-ar,space.ar,,5,,
-tab,tab,,7,,
 exclam,exclam,0021,8,,
 quotedbl,quotedbl,0022,10,,
 numbersign,numbersign,0023,11,,

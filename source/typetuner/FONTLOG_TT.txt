@@ -34,7 +34,7 @@ A Note Regarding the Open Font License and TypeTuner
 
 The OFL prohibits the use of Reserved Font Names "Alkalami" and "SIL" in
 the name of any font that is derived from the Original Version of Alkalami.
-However, SIL International (the Copyright Holder) grants through
+However, SIL Global (the Copyright Holder) grants through
 this separate written agreement the right to use the Reserved Font Names
 in any Modified Version of this font created by using TypeTuner as long
 as the feature information contained in the Original Version is used,
@@ -147,7 +147,7 @@ to best submit your contributions.
 
 To enable us to accept contributions in a way that honors your contribution 
 and respects your copyright while preserving long-term flexibility for open 
-source licensing, you would also need to agree to the SIL International 
+source licensing, you would also need to agree to the SIL Global 
 Contributor License Agreement for Font Software (v1.0) prior to sending us 
 your contribution. To read more about this requirement and find out how to 
 submit the required form, please visit the CLA information page
@@ -175,7 +175,7 @@ D: Lead designer
 N: Nicolas Spalinger
 W: Script engineer
 
-The Alkalami font project is maintained by SIL International.
+The Alkalami font project is maintained by SIL Global.
 
 For more information see the Alkalami website:
 https://software.sil.org/alkalami/support/

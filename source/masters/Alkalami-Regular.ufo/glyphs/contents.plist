@@ -1170,8 +1170,6 @@
   <string>nine.small.glif</string>
   <key>nonbreakinghyphen</key>
   <string>nonbreakinghyphen.glif</string>
-  <key>nonmarkingreturn</key>
-  <string>nonmarkingreturn.glif</string>
   <key>noon-ar</key>
   <string>noon-ar.glif</string>
   <key>noon-ar.fina</key>
@@ -1608,8 +1606,6 @@
   <string>summation.rtl.glif</string>
   <key>t</key>
   <string>t.glif</string>
-  <key>tab</key>
-  <string>tab.glif</string>
   <key>tah-ar</key>
   <string>tah-ar.glif</string>
   <key>tah-ar.fina</key>
