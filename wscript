@@ -23,7 +23,6 @@ OMITAPS = '--omitaps "topright, ogonek, caret_1, caret_2, caret_3, top_3, top_4,
 typetunerfile = 'source/typetuner/feat_all.xml'
 
 designspace('source/Alkalami.designspace',
-    instanceparams='-l ' + generated + '{$FAMILY}_createinstances.log',
     target = process('${DS:FILENAME_BASE}.ttf',
         cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}']),
 #        Note: ttfautohint-generated hints don't maintain stroke thickness at joins (nor hamza), so we're not hinting these fonts
@@ -32,7 +31,6 @@ designspace('source/Alkalami.designspace',
         cmd('gftools fix-nonhinting --no-backup -q ${DEP} ${TGT}')
     ),
     version = VERSION,  # Needed to ensure dev information on version string
-    ap = generated + '${DS:FILENAME_BASE}.xml',
     opentype = fea('generated/${DS:FILENAME_BASE}.fea',
         mapfile = 'generated/${DS:FILENAME_BASE}.map',
         master = 'source/opentype/main.feax',
