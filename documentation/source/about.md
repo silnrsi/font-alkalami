@@ -9,6 +9,9 @@ Alkǎlami (pronounced al-KA-la-mi) is the local word for the Arabic “qalam”,
 
 For more information on the visual characteristics of the font see [Design](design.md).
 
+## History
+
+The original design for Alkalami (called **Etincelle Arabic**) was created by Becca Hirsbrunner Spalinger as part of her Master of Arts in Typeface Design at the University of Reading. **Etincelle Arabic** was based on a written style of Arabic called Rubutun Kano in Sub-Saharan Africa. It was renamed to be Alkalami, which is the only version to have the complete OpenType code required for proper rendering. It was later split into a second, lighter weight font called Ruwudu, based on the Rubutun Kano writing style with a ballpoint pen, instead of a broad edge pen.
 
 ## Future plans
 
