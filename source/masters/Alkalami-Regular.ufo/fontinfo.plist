@@ -144,6 +144,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
   <key>openTypeOS2Selection</key>
   <array>
     <integer>7</integer>
+    <integer>8</integer>
   </array>
   <key>openTypeOS2Type</key>
   <array/>
